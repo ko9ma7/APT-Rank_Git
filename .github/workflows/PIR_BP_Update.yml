@@ -5,7 +5,7 @@ name: Python Auto Update
 
 on:
   schedule:    
-    - cron: "0 17 5 * *"
+    - cron: "* * * * *"
 
 permissions:
   actions: write
