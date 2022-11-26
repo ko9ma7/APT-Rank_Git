@@ -77,10 +77,41 @@
     background: #fff;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   }
+  #financials{
+    display: grid;    
+    grid-template-columns: 20px 1fr 1fr 20px;
+    column-gap: 8px;
+  }
+  #PIR_table, #BP_table{
+    display: grid;
+    grid-template-columns: 0.6fr 0.6fr 1fr;    
+  }
+  #PIR_ago1, #PIR_ago2, #PIR_recent, #BP_ago1, #BP_ago2, #BP_recent{
+    font-size: 0.6em;
+    line-height: 1.2em;
+    text-align: center;
+    padding-bottom: 2px;
+    font-weight: 600;
+    color: #999;
+    border-bottom: 1px solid #aaa;
+  }
+  #PIR_recent, #BP_recent{
+    color: #000;
+  }
+  #PIR_ago1_value, #PIR_ago2_value, #PIR_recent_value, #BP_ago1_value, #BP_ago2_value, #BP_recent_value{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #999;
+    text-align: center;
+  }  
+  #PIR_recent_value, #BP_recent_value{
+    color: #000;    
+  }
   #legend_area{
     display: grid;
     grid-template-columns: 70px 1fr 1fr 1fr 1fr 1fr 1fr 70px;
     height: 40px;
+    margin-bottom: 15px;
   }
   .ledend_color{
     opacity: 0.6;
@@ -95,7 +126,7 @@
   #svg_map{
     display: inline-block;
     width: 500px;
-    height: 850px;  
+    height: 780px;  
   }
 
   #titleBar_theme{   
