@@ -82,7 +82,7 @@ def save_buying_power():
     #print(result_df)
     print("Buying Power saved at " + str(now))
     result_df.to_json(path + "/BP.json", force_ascii=False, indent=4)
-    result_df.to_csv(path + "/BP.csv", encoding="CP949")
+    #result_df.to_csv(path + "/BP.csv", encoding="CP949")
 
 def save_PIR():
     global result_df
@@ -118,7 +118,7 @@ def save_PIR():
     
     print("PIR saved at " + str(now))
     result_df.to_json(path + "/PIR.json", force_ascii=False, indent=4)
-    result_df.to_csv(path + "/PIR.csv", encoding="CP949")
+    #result_df.to_csv(path + "/PIR.csv", encoding="CP949")
 
 def location_name_change(loc):
     if loc == '전국':

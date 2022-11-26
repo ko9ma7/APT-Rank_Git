@@ -339,7 +339,12 @@
 
         $('#PIR_ago2_value').html(PIR_ago2[found_index])
         $('#PIR_ago1_value').html(PIR_ago1[found_index])
-        $('#PIR_recent_value').html(PIR_recent[found_index] + "년")   
+        if(Number(PIR_recent[found_index]) == 0){
+          $('#PIR_recent_value').html("정보없음")
+        }
+        else{
+          $('#PIR_recent_value').html(PIR_recent[found_index] + "년")
+        }  
         
         $('#PIR_ago2').html("(" + PIR_key_list[0].substr(0, 4) + "-" + PIR_key_list[0].substr(4, 2) + ")")
         $('#PIR_ago1').html("(" + PIR_key_list[1].substr(0, 4) + "-" + PIR_key_list[1].substr(4, 2) + ")")
