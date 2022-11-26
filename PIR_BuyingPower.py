@@ -79,6 +79,8 @@ def save_buying_power():
     for j in range(len(result_df)):
         result_df.loc[j, 'Location'] = location_name_change(result_df.iloc[j]['Location'])
 
+    result_df['GENERATE'] = str(now)
+
     #print(result_df)
     print("Buying Power saved at " + str(now))
     result_df.to_json(path + "/BP.json", force_ascii=False, indent=4)
@@ -115,6 +117,8 @@ def save_PIR():
 
     for j in range(len(result_df)):
         result_df.loc[j, 'Location'] = location_name_change(result_df.iloc[j]['Location'])
+
+    result_df['GENERATE'] = str(now)
     
     print("PIR saved at " + str(now))
     result_df.to_json(path + "/PIR.json", force_ascii=False, indent=4)
