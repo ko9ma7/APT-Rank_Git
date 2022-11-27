@@ -1,9 +1,14 @@
 function showSearchBar(){  
-  if(selectedSubRegion == "1000000000_Korea"){
-    showRegionSearchBar()
+  if(selectedMonth >= 202211){
+    showUnifiedSearchBar()
   }
   else{
-    showAptSearchBar()
+    if(selectedSubRegion == "1000000000_Korea"){
+      showRegionSearchBar()
+    }
+    else{
+      showAptSearchBar()
+    }
   }
 }
   function showAptSearchBar(){    

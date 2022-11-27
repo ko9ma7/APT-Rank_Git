@@ -68,6 +68,7 @@
   <script src="./js/draw_chart.js" type="text/javascript"></script>
   <script src="./js/sort.js" type="text/javascript"></script>
   <script src="./js/search.js" type="text/javascript"></script>
+  <script src="./js/unfied_search.js" type="text/javascript"></script>
   <script src="./js/rearrange.js" type="text/javascript"></script>
   <script src="./js/share.js" type="text/javascript"></script>
   <script src="./js/weight_cal.js" type="text/javascript"></script>
@@ -140,9 +141,19 @@
           <div id="searchNotice"></div>
           <div id="inputBox"><input id="inputSearch" type="text" placeholder="어느 단지를 찾아볼까요?" onkeyup="aptSearch()"></div>
           <div id="searchExample">예) 서초동, 래미안, 힐스테이트, 주공</div>
-
         </div>
         <div id="closeSearch" onClick='closeSearch()' ><i class="fas fa-times"></i></div>
+      </div>
+
+      <!--통합 검색창-->
+      <div id="unifiedSearchCard">
+        <div id="iconSearch"><i class="fas fa-search"></i></div>
+        <div id="unifiedSearchGuide">
+          <div id="unifiedSearchNotice">어느 단지를 찾아볼까요?</div>
+          <div id="unifiedInputBox"><input id="inputUnifiedSearch" type="text" placeholder="두 글자 이상 입력해 주세요" onkeyup="unifiedAptSearch()"></div>
+          <div id="unifiedSearchExample">예) 서초동, 래미안, 힐스테이트, 주공</div>
+        </div>
+        <div id="closeUnifiedSearch" onClick='closeUnifiedSearch()' ><i class="fas fa-times"></i></div>
       </div>
 
       <!--시군구 검색창-->
@@ -152,7 +163,6 @@
           <div id="regionSearchNotice">전국 시군구 이름으로 검색합니다.</div>
           <div id="regionInputBox"><input id="regionInputSearch" type="text" placeholder="어느 시군구를 찾아볼까요?" onkeyup="regionSearch()"></div>
           <div id="regionSearchExample">예) 서울, 창원, 강남, 서구</div>
-
         </div>
         <div id="closeRegionSearch" onClick='closeRegionSearch()' ><i class="fas fa-times"></i></div>
       </div>
@@ -203,6 +213,13 @@
 
       <!--단지 검색창 닫기 플로팅 버튼-->
       <div id="closeSearch_floating" onClick='closeSearch()'>
+        <div id='closeSearch_floting_wraper'>
+          <div id="closeIcon_floating"><i class="fas fa-times"></i></div>
+          <div id="clostText_floating">검색닫기</div>
+        </div>
+      </div>
+      <!--통합 검색창 닫기 플로팅 버튼-->
+      <div id="closeUnifiedSearch_floating" onClick='closeUnifiedSearch()'>
         <div id='closeSearch_floting_wraper'>
           <div id="closeIcon_floating"><i class="fas fa-times"></i></div>
           <div id="clostText_floating">검색닫기</div>
@@ -426,6 +443,15 @@
     month = selectedMonth
     //updateTable(month, regionSubName)
 
+    //통합검색
+    if(selectedMonth >= 202211){
+      searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json"
+      $.getJSON(searching_url, function(json) {        
+        searchingData = json;       
+        console.log(searchingData)
+      })
+    }    
+
     $('div.modal').on('show.bs.modal', function() {
       var modal = this;
       var hash = modal.id;
@@ -633,6 +659,15 @@
     updateRegion()
     regionName = $("#sido option:selected").text()
     //saveLocalStorage()
+
+    //통합검색
+    if(selectedMonth >= 202211){
+      searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json"
+      $.getJSON(searching_url, function(json) {        
+        searchingData = json;       
+        console.log(searchingData)
+      })
+    }
   }
   function updateRegion(){
     minValue = 0;
@@ -662,7 +697,7 @@
     else{
       updateRegionTable(selectedMonth, selectedSubRegion)
     }    
-    showWeight()    
+    showWeight()
   }
 
   function updateTable(month, region){
@@ -811,9 +846,23 @@
           $('#exampleModal').modal("show");
           selectedComplex = ""
         }
+
+        if(searched_code != ""){
+          showDetail( searchAndShow(searched_code) )
+          searched_code = ""
+        }
     })    
     showWeight()
-    saveLocalStorage()
+    saveLocalStorage()    
+  }
+  function searchAndShow(searched_code){
+    var itemNums = aptData.data.length
+    for(var p = 0 ; p < itemNums ; p++){
+        var aptCode = aptData.data[p]["검색코드"]
+        if(aptCode == searched_code){
+          return p
+        }        
+    }
   }
 
   function showDetail(index){

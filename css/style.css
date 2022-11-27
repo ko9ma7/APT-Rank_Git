@@ -44,7 +44,7 @@
     margin-left: 5px;
     line-height: 1em;      
   }
-  #searchCard, #regionSearchCard{    
+  #searchCard, #regionSearchCard, #unifiedSearchCard{    
     position: fixed;
     display: grid;
     grid-template-columns: 45px 1fr 40px;
@@ -62,12 +62,12 @@
     border-bottom-right-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   }
-  #inputBox, #regionInputBox{
+  #inputBox, #regionInputBox, #unifiedInputBox{
     text-align: left;
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  #inputSearch, #regionInputSearch{
+  #inputSearch, #regionInputSearch, #inputUnifiedSearch{
     width: 95%;
     height: 2em;
     font-size: 1em;
@@ -80,13 +80,13 @@
     display: grid;
     grid-template-columns: 50px 1fr;
   }
-  #searchExample, #regionSearchExample{
+  #searchExample, #regionSearchExample, #unifiedSearchExample{
     color: white;
     font-size: 0.7em;
     text-align: left;
     padding-left: 5px;   
   }
-  #searchNotice, #rearrangeNotice, #regionSearchNotice, #rearrangeRegionNotice{
+  #searchNotice, #rearrangeNotice, #regionSearchNotice, #rearrangeRegionNotice, #unifiedSearchNotice{
     color: white;
     font-size: 0.8em;
     text-align: left;
@@ -192,6 +192,16 @@
     border-bottom: 1px solid gray;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+  }
+  .searchedListBox{    
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  .searchedListBox:active{    
+    background: #ffdfde
   }
 
   .themeListBox{
@@ -316,7 +326,7 @@
   .apt_name{
     font-size: 0.85em;
     font-weight: bold;
-  }
+  }  
   .aptYear{
     font-size: 0.8em;
     color: gray
@@ -324,6 +334,14 @@
   .apt_info{
     font-size: 0.7em;
     color:rgb(85, 85, 85);
+  }
+  .searched_apt_name{
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  .searched_apt_info{
+    font-size: 0.7em;
+    color: gray;    
   }
   .themePoint{
     font-size: 0.75em;
@@ -652,13 +670,13 @@
     text-align: right;
     padding-right: 10px;    
   }
-  #closeSearch, #closeRearrange, #closeRegionSearch, #closeRegionRearrange{
+  #closeSearch, #closeRearrange, #closeRegionSearch, #closeRegionRearrange, #closeUnifiedSearch{
     font-size: 1.5em;
     color: white;
     text-align: left;
     padding-left: 10px;    
   }
-  #closeSearch_floating, #closeRearrange_floating, #closeRegionSearch_floating, #closeRegionRearrange_floating{
+  #closeSearch_floating, #closeRearrange_floating, #closeRegionSearch_floating, #closeRegionRearrange_floating, #closeUnifiedSearch_floating{
     display: grid;
     width: 4em;
     height: 4em;
@@ -889,7 +907,7 @@
       margin: 0 auto;
       width: 800px;
     }
-    #searchCard, #rearrangeCard, #regionSearchCard, #rearrangeRegionCard{
+    #searchCard, #rearrangeCard, #regionSearchCard, #rearrangeRegionCard, #unifiedSearchCard{
       margin: 0 auto;
       width: 790px;
     }
