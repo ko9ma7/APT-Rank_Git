@@ -53,7 +53,7 @@ function unifiedAptSearch(){
           var sido = searchingData.data[i]["sido"]
           var gungu = searchingData.data[i]["gungu"]
 
-          var addon_html = "<div class='searchedListBox' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='searchingUpdate(" + code + ",\"" + sido + "\",\"" + gungu + "\")'>";
+          var addon_html = "<div class='searchedListBox' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='searchingUpdate(\"" + code + "\",\"" + sido + "\",\"" + gungu + "\")'>";
           addon_html += "<div class='searched_apt_name'>" + aptName + "</div>"
           addon_html += "<div class='searched_apt_info'>" + aptAddress + "</div>";
           addon_html += "</div>"
