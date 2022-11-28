@@ -343,6 +343,9 @@
     font-size: 0.7em;
     color: gray;    
   }
+  .colorTxt{
+    color: #fe4040;
+  }
   .themePoint{
     font-size: 0.75em;
     font-weight: 600;
