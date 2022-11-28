@@ -848,16 +848,19 @@
         }
 
         if(searched_code != ""){
-          showDetail( searchAndShow(searched_code) )
+          pos = searchAndShow(searched_code)
+          $('html').scrollTop( 62*pos )
+          showDetail( pos )
           searched_code = ""
         }
     })    
     showWeight()
     saveLocalStorage()    
   }
+
   function searchAndShow(searched_code){
     var itemNums = aptData.data.length
-    for(var p = 0 ; p < itemNums ; p++){
+    for(var p = 0 ; p < itemNums ; p++){        
         var aptCode = aptData.data[p]["검색코드"]
         if(aptCode == searched_code){
           return p
@@ -880,10 +883,10 @@
     }
     */
 
-    aptData = sortData
-    var aptRank = (Number(index)+1) + "/" + aptData.data[itemNum-1]["rank"] + "위"
+    aptData = sortData    
 
     var aptName = aptData.data[index]["아파트명"]
+    var rank = aptData.data[index]["rank"].toFixed()
     var apt_m = aptData.data[index]["전용면적(m2)"]
     var apt_p = aptData.data[index]["전용면적(평)"]
     var apt_type = aptData.data[index]["매매타입"]
@@ -892,6 +895,15 @@
     var aptDuration = aptData.data[index]["준공년차"]
     var aptYear = ""
     var short_name = $('#sido option:selected').text() + " " + $('#gungu option:selected').text()
+
+    var aptRank = ""
+
+    if(sortSelection == "sortDefault" && rearrangeAPTSelection == "rearrangeScore"){
+      aptRank = rank + "/" + aptData.data[itemNum-1]["rank"] + "위"
+    }
+    else{
+      aptRank = (Number(index)+1) + "/" + (itemNum) + "위"
+    }
 
     gtag('event','아파트상세', { 'event_category' : short_name, 'event_label' : aptName + "(" + short_name + ")"});
 
