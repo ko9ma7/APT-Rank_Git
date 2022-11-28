@@ -64,12 +64,10 @@ function showSearchBar(){
   }
 
   function aptSearch(){
-
     if(selectedSubRegion == "Living_Top300" || selectedSubRegion == "Trans_Top300"  || selectedSubRegion == "Infra_Top300" || selectedSubRegion == "Edu_Top300" || selectedSubRegion == "Balanced_Top300"){
       topAptSearch()
     }
-      else{
-
+    else{
       $('#dataList').html("");
       console.log(minValue/2*10000)
       console.log(maxValue/2*10000) 
@@ -293,7 +291,7 @@ function showSearchBar(){
           var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showTopDetail(" + i + ")'>";
 
           addon_html += "<div class='rank_content'>"
-          addon_html += "<div class='rank'> TOP </div>"
+          addon_html += "<div class='ranksame'> TOP </div>"
           addon_html += "<div class='rank'><strong>" + rank + "</strong></div>";
           addon_html += "</div>"
         }  
@@ -425,10 +423,10 @@ function showSearchBar(){
           }        
           addon_html += "<div class='apt_address'><span class='regionPop'>인구 " + (Math.abs(regPop)).toLocaleString() + "명 </span>"
           if(regPopChange >= 0){
-            addon_html += "<span class='regionPopUp'>(" + popChange + ")</span></div>";
+            addon_html += "<span class='regionPopUp'> (" + popChange + ")</span></div>";
           }
           else{
-            addon_html += "<span class='regionPopDown'>(" + popChange + ")</span></div>";
+            addon_html += "<span class='regionPopDown'> (" + popChange + ")</span></div>";
           }
           addon_html += "<div class='apt_address'><span class='regionJob'>일자리 " + regJob.toLocaleString() + "개</span></div>";
           addon_html += "<div class='apt_address'><span class='regionIncome'>소득 " + regIncome.toLocaleString() + "원</span></div>";          

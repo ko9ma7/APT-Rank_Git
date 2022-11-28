@@ -1,7 +1,7 @@
 function showUnifiedSearchBar(){  
   showUnifiedAptSearchBar()
 }
-function showUnifiedAptSearchBar(){    
+function showUnifiedAptSearchBar(){
   //$("#searchCard").slideDown();    
   $("#unifiedSearchCard").animate({
     opacity: 1.0,
@@ -16,7 +16,7 @@ function showUnifiedAptSearchBar(){
 
   $('#inputUnifiedSearch').focus();
 }
-function closeUnifiedSearch(){    
+function closeUnifiedSearch(){
   $("#unifiedSearchCard").animate({
     opacity: 0.0,
     top: '-150px'
@@ -29,8 +29,13 @@ function closeUnifiedSearch(){
   );
   $('#inputUnifiedSearch').val("")
 
-  if(selectedSubRegion == "Living_Top300" || selectedSubRegion == "Trans_Top300"  || selectedSubRegion == "Infra_Top300" || selectedSubRegion == "Edu_Top300" || selectedSubRegion == "Balanced_Top300"){
-    topAptSearch()
+  if(selectedRegion == 'Korea'){
+    if(selectedSubRegion == "Living_Top300" || selectedSubRegion == "Trans_Top300"  || selectedSubRegion == "Infra_Top300" || selectedSubRegion == "Edu_Top300" || selectedSubRegion == "Balanced_Top300"){
+      updateTopTable(selectedMonth, selectedSubRegion)
+    }
+    else{
+      updateRegion()
+    }
   }
   else{
     aptSearch()

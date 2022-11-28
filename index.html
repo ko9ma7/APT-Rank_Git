@@ -423,7 +423,6 @@
 
     if(urlParams.has('sort')){      
       sortSelection = urlParams.get('sort')
-      console.log("ASDFASDF")
     }
     else{
       initSorting()
@@ -842,7 +841,8 @@
         }
 
         if(selectedComplex != ""){          
-          showDetail(selectedComplex)
+          showDetail(selectedComplex)          
+          $('html').scrollTop( 70 * Number(selectedComplex) )
           $('#exampleModal').modal("show");
           selectedComplex = ""
         }
@@ -2017,10 +2017,10 @@
           }
           addon_html += "<div class='apt_address'><span class='regionPop'>인구 " + (Math.abs(regPop)).toLocaleString() + "명</span>"
           if(regPopChange >= 0){
-            addon_html += "<span class='regionPopUp'>(" + popChange + ")</span></div>";
+            addon_html += "<span class='regionPopUp'> (" + popChange + ")</span></div>";
           }
           else{
-            addon_html += "<span class='regionPopDown'>(" + popChange + ")</span></div>";
+            addon_html += "<span class='regionPopDown'> (" + popChange + ")</span></div>";
           }
           addon_html += "<div class='apt_address'><span class='regionJob'>일자리 " + regJob.toLocaleString() + "개</span></div>";
           addon_html += "<div class='apt_address'>소득 " + regIncome.toLocaleString() + "원</div>";
