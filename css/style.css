@@ -914,7 +914,7 @@
       margin: 0 auto;
       width: 790px;
     }
-    #closeSearch_floating, #closeRearrange_floating, #closeRegionSearch_floating, #closeRegionRearrange_floating{
+    #closeSearch_floating, #closeRearrange_floating, #closeRegionSearch_floating, #closeRegionRearrange_floating, #closeUnifiedSearch_floating{
       display: none;
     }
     #selections, #weight, #themeSelections, #linkToAptrank{

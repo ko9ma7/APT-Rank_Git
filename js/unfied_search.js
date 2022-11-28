@@ -27,19 +27,7 @@ function closeUnifiedSearch(){
     right: '-200px'
   }, 400, 'easeInQuad'
   );
-  $('#inputUnifiedSearch').val("")
-
-  if(selectedRegion == 'Korea'){
-    if(selectedSubRegion == "Living_Top300" || selectedSubRegion == "Trans_Top300"  || selectedSubRegion == "Infra_Top300" || selectedSubRegion == "Edu_Top300" || selectedSubRegion == "Balanced_Top300"){
-      updateTopTable(selectedMonth, selectedSubRegion)
-    }
-    else{
-      updateRegion()
-    }
-  }
-  else{
-    aptSearch()
-  }   
+  $('#inputUnifiedSearch').val("")  
 }
   
 var unifiedInput = ""
@@ -99,8 +87,8 @@ function searchingUpdate(code, sido, gungu){
   closeUnifiedSearch()
   selectedRegion = sido
   selectedSubRegion = gungu
-  $("#sido").val(sido).prop("selected", true);
+  $("#sido").val(sido).prop("selected", true);  
+  sortSelection = "sortDefault"  
   optionChange(selectedSubRegion)
-  sortSelection = "sortDefault"
   updateRegion()
 }
