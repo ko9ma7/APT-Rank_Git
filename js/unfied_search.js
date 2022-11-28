@@ -96,6 +96,6 @@ function searchingUpdate(code, sido, gungu){
   selectedSubRegion = gungu
   $("#sido").val(sido).prop("selected", true);
   optionChange(selectedSubRegion)
-  sortSelection == "sortDefault"
+  sortSelection = "sortDefault"
   updateRegion()
 }
