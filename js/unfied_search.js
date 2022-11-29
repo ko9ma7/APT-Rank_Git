@@ -27,7 +27,8 @@ function closeUnifiedSearch(){
     right: '-200px'
   }, 400, 'easeInQuad'
   );
-  $('#inputUnifiedSearch').val("")  
+  $('#inputUnifiedSearch').val("")
+  updateRegion()
 }
   
 var unifiedInput = ""
