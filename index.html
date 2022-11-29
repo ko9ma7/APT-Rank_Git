@@ -444,13 +444,13 @@
 
     //통합검색
     if(selectedMonth >= 202211){
-      $('#search').css("visibility", "hidden")
+      //$('#search').css("visibility", "hidden")
       searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json"
       $.getJSON(searching_url, function(json) {
         searchingData = json;        
-        .success(function(){
-          $('#search').css("visibility", "visible")
-        })
+        //.success(function(){
+        //  $('#search').css("visibility", "visible")
+        //})
       })      
     }    
 
