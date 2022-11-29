@@ -446,12 +446,12 @@
     if(selectedMonth >= 202211){
       $('#search').css("visibility", "hidden")
       searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json"
-      $.getJSON(searching_url, function(json) {        
+      $.getJSON(searching_url, function(json) {
         searchingData = json;        
-      })
-      .success(function(){
-        $('#search').css("visibility", "visible")
-      })
+        .success(function(){
+          $('#search').css("visibility", "visible")
+        })
+      })      
     }    
 
     $('div.modal').on('show.bs.modal', function() {
