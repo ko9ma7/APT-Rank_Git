@@ -84,12 +84,12 @@ function searchingUpdate(code, sido, gungu){
   $('#aptDetail').html(detail_loading_html);
   $('#footer').html(footer_loading_html);
 
-  searched_code = code
-  closeUnifiedSearch()
+  searched_code = code  
   selectedRegion = sido
   selectedSubRegion = gungu
   $("#sido").val(sido).prop("selected", true);  
   sortSelection = "sortDefault"  
   optionChange(selectedSubRegion)
-  updateRegion()
+  //updateRegion()
+  closeUnifiedSearch()
 }
