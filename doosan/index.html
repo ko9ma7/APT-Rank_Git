@@ -193,7 +193,7 @@
           <div id="sido_selection"><select id="sido" onChange="sidoChange()"></select></div>
           <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>          
           <div></div>
-          <div id="update_info" style="text-align: right">업데이트 : 2022-11-04 <br> (2022년 9월 데이터 기준) </div>
+          <div id="update_info" style="text-align: right">업데이트 : 2022-12-02 <br> (2022년 10월 데이터 기준) </div>
         </div>
         <div id="dataWrapper">
           <div id="dataList"></div>
@@ -485,7 +485,7 @@
     
     //url = "https://www.aptrank.kr/biz/" + region + ".json"
     //url = "https://www.aptrank.kr/biz/Location_Build_Valuated.json"
-    url = "https://www.aptrank.kr/doosan/BIZ_Valuated_Doosan_202209.json"
+    url = "https://www.aptrank.kr/doosan/BIZ_Valuated_Doosan_202210.json"
 
     $.getJSON(url, function(json) {
         //console.log(json);
@@ -981,7 +981,7 @@ function ListUp(listData){
 
               supply_proper_formatted = Number(supply_proper).toLocaleString()
               supply_volume_year = (Number(supply_volume[0])+Number(supply_new_volume[0])).toLocaleString()
-              supply_volume_plus_minus = supply_proper - (Number(supply_volume[0])+Number(supply_new_volume[0]))
+              supply_volume_plus_minus = supply_proper - supply_volume[0]
               if(supply_volume_plus_minus < 0){
                 supply_volume_plus_minus = "<u>'" + (supply_volume_plus_minus * -1).toLocaleString() + "세대 과다'</u>로"
               }
