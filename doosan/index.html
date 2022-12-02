@@ -981,7 +981,7 @@ function ListUp(listData){
 
               supply_proper_formatted = Number(supply_proper).toLocaleString()
               supply_volume_year = (Number(supply_volume[0])+Number(supply_new_volume[0])).toLocaleString()
-              supply_volume_plus_minus = supply_proper - supply_volume[0]
+              supply_volume_plus_minus = supply_proper - (Number(supply_volume[0])+Number(supply_new_volume[0]))
               if(supply_volume_plus_minus < 0){
                 supply_volume_plus_minus = "<u>'" + (supply_volume_plus_minus * -1).toLocaleString() + "세대 과다'</u>로"
               }
