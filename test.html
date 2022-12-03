@@ -1211,9 +1211,9 @@
       detailHtml += "<div class='graph' style='height: 120px'> <canvas id='transportChart'></canvas></div>"
       detailHtml += "<div class='popTable'>"
       detailHtml += "<div class='popSubTable' id='popSubStation'><div class='popContent'>" + "가장 가까운 역" + "</div>" + "<div class='popResult'>" + nearestStation + "</div></div>";
-
       if(Number(selectedMonth) > 202211){
-        detailHtml += "<div class='popSubTable' id='popSubStation'><div class='popContent'>" + "가까운 역 노선" + "</div>" + "<div class='popResult'>" + aptData.data[index]["역노선"] + "</div></div>";
+        var subway_line = aptData.data[index]["역노선"]        
+        detailHtml += "<div class='stationList'><div></div><div class='stationText'>" + subway_line + "</div></div>";
       }
 
       detailHtml += "<div class='popSubTable'><div class='popContent'>" + "30분 이내 도착 가능 주요역" + "</div>" + "<div class='popResult'>" + stationPoint_30m + "개</div></div>";
