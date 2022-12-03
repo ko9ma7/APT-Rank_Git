@@ -1183,12 +1183,18 @@ function calValue(arr, length){
       if(address[1] == "과천시" || address[1] == "광명시"){
           value_total = ( (living_score * total_rate_seoul['live']) + (trans_score * total_rate_seoul['transport']) + (infra_score * total_rate_seoul['infra']) + (edu_score * total_rate_seoul['education']) )
       }
+      else if(address[1] == "파주시" || address[1] == "양주시" || address[1] == "포천시" || address[1] == "이천시" || address[1] == "여주시" || address[1] == "안성시" || address[1] == "중구" || address[1] == "연수구" || address[1] == "동구"){
+          value_total = ( (living_score * total_rate_mid_metropolitan['live']) + (trans_score * total_rate_mid_metropolitan['transport']) + (infra_score * total_rate_mid_metropolitan['infra']) + (edu_score * total_rate_mid_metropolitan['education']) )
+      }
       else{
           value_total = ( (living_score * total_rate_metropolitan['live']) + (trans_score * total_rate_metropolitan['transport']) + (infra_score * total_rate_metropolitan['infra']) + (edu_score * total_rate_metropolitan['education'])  )
       }
   }
   else if(address[0] == "대구시" || address[0] == "대전시" || address[0] == "광주시"){
       value_total = ( (living_score * total_rate_middle['live']) + (trans_score * total_rate_middle['transport']) + (infra_score * total_rate_middle['infra']) + (edu_score * total_rate_middle['education'])  )
+  }
+  else if(address[0] == "울산시"){
+      value_total = ( (living_score * total_rate_ulsan['live']) + (infra_score * total_rate_ulsan['infra']) + (edu_score * total_rate_ulsan['education'])  )
   }
   else{
       value_total = ( (living_score * total_rate_urban['live']) + (infra_score * total_rate_urban['infra']) + (edu_score * total_rate_urban['education']) )

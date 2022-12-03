@@ -4,8 +4,7 @@ function drawChart(aptValue, livingScore, transportScore, infraScore, eduScore){
     var color = 'white'
     var align = 'start'
 
-    //if(isNaN(transportScore) || transportScore == 0){
-    if(isNaN(transportScore)){        
+    if(isNaN(transportScore) || transportScore == 0){
       label = ["총점", "주거", "인프라", "교육"]
       data = [aptValue, livingScore, infraScore, eduScore]        
     }
@@ -314,7 +313,6 @@ function drawRankChart(rankMonth, rankData, totalRank){
         backgroundColor: "#ff3d38"
       }],
     },
-
     options: {      
       responsive: true,      
       maintainAspectRatio: false,
@@ -327,7 +325,15 @@ function drawRankChart(rankMonth, rankData, totalRank){
           ticks:{            
             stepSize: 1,            
           }
-        }
+        },
+        x: {
+          ticks: {                
+              maxRotation: 0,
+              font: {
+                size: 10
+              }
+          }
+      } 
       },
       animation: {            
         y:{
@@ -395,7 +401,15 @@ function drawRankChart_op(rankMonth, rankData, totalRank){
           ticks:{            
             stepSize: 1,            
           }
-        }
+        },
+        x: {
+          ticks: {                
+              maxRotation: 0,
+              font: {
+                size: 10
+              }
+          }
+      } 
       },
       animation: {            
         y:{
@@ -535,7 +549,7 @@ function drawPriceChart(duration, dataset_front, dataset, dataset_end, id_name, 
     options: {
       interaction: {
         mode: 'index',
-        intersect: true,
+        intersect: false,
       },     
       responsive: true,      
       maintainAspectRatio: false,

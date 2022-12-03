@@ -26,7 +26,7 @@
   }
   </script>
 
-  <title>아파트랭크TEST</title>
+  <title>아파트랭크 - 데이터로 분석된 아파트 입지 순위</title>
   <meta property="og:type" content="website">
   <meta property="og:title" content="아파트랭크">
   <meta property="og:description" content="데이터로 분석된 대한민국 아파트 입지">
@@ -68,6 +68,7 @@
   <script src="./js/draw_chart.js" type="text/javascript"></script>
   <script src="./js/sort.js" type="text/javascript"></script>
   <script src="./js/search.js" type="text/javascript"></script>
+  <script src="./js/unfied_search.js" type="text/javascript"></script>
   <script src="./js/rearrange.js" type="text/javascript"></script>
   <script src="./js/share.js" type="text/javascript"></script>
   <script src="./js/weight_cal.js" type="text/javascript"></script>
@@ -99,7 +100,7 @@
         <!--재정렬 버튼 표시-->
         <div id="rearrange" class="position-relative" onClick='showRearrangeBar(this)'><i class="fa-solid fa-arrow-down-wide-short"></i></div>
         <!--타이틀 표시-->
-        <div id="title" onClick='scrollUp()'>아파트랭크TEST</div>
+        <div id="title" onClick='scrollUp()'>아파트랭크</div>
         <!-- <div id="title" onClick='sendTo()'>아파트랭크</div> -->
         <!--공유 버튼-->
         <!-- <div id="search" onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div> -->
@@ -114,7 +115,8 @@
         <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>    
         <div id="month_selection">
           <select id="month" onChange="updateMonth()">
-            <option value="202211" selected>2022년 11월</option>
+            <option value="202212" selected>2022년 12월</option>
+            <option value="202211">2022년 11월</option>
             <option value="202210">2022년 10월</option>
             <option value="202209">2022년 09월</option>
             <option value="202208">2022년 08월</option>
@@ -140,9 +142,19 @@
           <div id="searchNotice"></div>
           <div id="inputBox"><input id="inputSearch" type="text" placeholder="어느 단지를 찾아볼까요?" onkeyup="aptSearch()"></div>
           <div id="searchExample">예) 서초동, 래미안, 힐스테이트, 주공</div>
-
         </div>
         <div id="closeSearch" onClick='closeSearch()' ><i class="fas fa-times"></i></div>
+      </div>
+
+      <!--통합 검색창-->
+      <div id="unifiedSearchCard">
+        <div id="iconSearch"><i class="fas fa-search"></i></div>
+        <div id="unifiedSearchGuide">
+          <div id="unifiedSearchNotice">어느 단지를 찾아볼까요?</div>
+          <div id="unifiedInputBox"><input id="inputUnifiedSearch" type="text" placeholder="두 글자 이상 입력해 주세요" onkeyup="unifiedAptSearch()"></div>
+          <div id="unifiedSearchExample">예) 서초동, 래미안, 힐스테이트, 주공</div>
+        </div>
+        <div id="closeUnifiedSearch" onClick='closeUnifiedSearch()' ><i class="fas fa-times"></i></div>
       </div>
 
       <!--시군구 검색창-->
@@ -152,7 +164,6 @@
           <div id="regionSearchNotice">전국 시군구 이름으로 검색합니다.</div>
           <div id="regionInputBox"><input id="regionInputSearch" type="text" placeholder="어느 시군구를 찾아볼까요?" onkeyup="regionSearch()"></div>
           <div id="regionSearchExample">예) 서울, 창원, 강남, 서구</div>
-
         </div>
         <div id="closeRegionSearch" onClick='closeRegionSearch()' ><i class="fas fa-times"></i></div>
       </div>
@@ -189,7 +200,6 @@
         </div>
         <div id="closeRegionRearrange" onClick='closeRegionRearrange()' ><i class="fas fa-times"></i></div>
       </div>
-
       <!--리스트 데이터 붙여넣는 영역-->
       <div id="dataList"></div>
 
@@ -203,6 +213,13 @@
 
       <!--단지 검색창 닫기 플로팅 버튼-->
       <div id="closeSearch_floating" onClick='closeSearch()'>
+        <div id='closeSearch_floting_wraper'>
+          <div id="closeIcon_floating"><i class="fas fa-times"></i></div>
+          <div id="clostText_floating">검색닫기</div>
+        </div>
+      </div>
+      <!--통합 검색창 닫기 플로팅 버튼-->
+      <div id="closeUnifiedSearch_floating" onClick='closeUnifiedSearch()'>
         <div id='closeSearch_floting_wraper'>
           <div id="closeIcon_floating"><i class="fas fa-times"></i></div>
           <div id="clostText_floating">검색닫기</div>
@@ -303,7 +320,7 @@
 
 
 <script>
-  var selectedMonth = "202211"
+  var selectedMonth = "202212"
   var selectedRegion = "Seoul"
   var selectedSubRegion = "1168000000_Seoul_Gangnam"
   var selectedComplex = ""
@@ -406,7 +423,6 @@
 
     if(urlParams.has('sort')){      
       sortSelection = urlParams.get('sort')
-      console.log("ASDFASDF")
     }
     else{
       initSorting()
@@ -423,8 +439,20 @@
 
     //var regionSubName = $("#gungu option:selected").val()
 
-    month = selectedMonth 
+    month = selectedMonth
     //updateTable(month, regionSubName)
+
+    //통합검색
+    if(selectedMonth >= 202211){
+      //$('#search').css("visibility", "hidden")
+      searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json"
+      $.getJSON(searching_url, function(json) {
+        searchingData = json;        
+        //.success(function(){
+        //  $('#search').css("visibility", "visible")
+        //})
+      })      
+    }    
 
     $('div.modal').on('show.bs.modal', function() {
       var modal = this;
@@ -467,7 +495,7 @@
       }
     })
 
-    if($.cookie('popCookie') != "202211"){
+    if($.cookie('popCookie') != "202212"){
       startNotice = true
       showNotice()
       //초기 진입 시 공지 팝업 표시하는 경우, 변수 startNotice에 true 할당      
@@ -633,6 +661,15 @@
     updateRegion()
     regionName = $("#sido option:selected").text()
     //saveLocalStorage()
+
+    //통합검색
+    if(selectedMonth >= 202211){
+      searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json"
+      $.getJSON(searching_url, function(json) {        
+        searchingData = json;       
+        console.log(searchingData)
+      })
+    }
   }
   function updateRegion(){
     minValue = 0;
@@ -662,16 +699,16 @@
     else{
       updateRegionTable(selectedMonth, selectedSubRegion)
     }    
-    showWeight()    
+    showWeight()
   }
 
   function updateTable(month, region){
     //$('div.modal').modal("hide");    
     $('#sort').css("visibility", "visible")
     $('#rearrange').css("visibility", "visible")
-    $('html').scrollTop(0)
+    //$('html').scrollTop(0)
     //initSorting()
-    url = "https://www.aptrank.kr/" + month + "/test/" + region + "_test.json"
+    url = "https://www.aptrank.kr/" + month + "/" + region + ".json"
     $('#dataList').html("");
 
     $.getJSON(url, function(json) {        
@@ -807,13 +844,31 @@
         }
 
         if(selectedComplex != ""){          
-          showDetail(selectedComplex)
+          showDetail(selectedComplex)          
+          $('html').scrollTop( 70 * Number(selectedComplex) )
           $('#exampleModal').modal("show");
           selectedComplex = ""
         }
+
+        if(searched_code != ""){
+          pos = searchAndShow(searched_code)
+          $('html').scrollTop( 70*pos )
+          showDetail( pos )
+          searched_code = ""
+        }
     })    
     showWeight()
-    saveLocalStorage()
+    saveLocalStorage()    
+  }
+
+  function searchAndShow(searched_code){
+    var itemNums = aptData.data.length
+    for(var p = 0 ; p < itemNums ; p++){        
+        var aptCode = aptData.data[p]["검색코드"]
+        if(aptCode == searched_code){
+          return p
+        }        
+    }
   }
 
   function showDetail(index){
@@ -831,10 +886,10 @@
     }
     */
 
-    aptData = sortData
-    var aptRank = (Number(index)+1) + "/" + aptData.data[itemNum-1]["rank"] + "위"
+    aptData = sortData    
 
     var aptName = aptData.data[index]["아파트명"]
+    var rank = aptData.data[index]["rank"].toFixed()
     var apt_m = aptData.data[index]["전용면적(m2)"]
     var apt_p = aptData.data[index]["전용면적(평)"]
     var apt_type = aptData.data[index]["매매타입"]
@@ -843,6 +898,15 @@
     var aptDuration = aptData.data[index]["준공년차"]
     var aptYear = ""
     var short_name = $('#sido option:selected').text() + " " + $('#gungu option:selected').text()
+
+    var aptRank = ""
+
+    if(sortSelection == "sortDefault" && rearrangeAPTSelection == "rearrangeScore"){
+      aptRank = rank + "/" + aptData.data[itemNum-1]["rank"] + "위"
+    }
+    else{
+      aptRank = (Number(index)+1) + "/" + (itemNum) + "위"
+    }
 
     gtag('event','아파트상세', { 'event_category' : short_name, 'event_label' : aptName + "(" + short_name + ")"});
 
@@ -1609,11 +1673,11 @@
         if(rank_history[j][1] == 9999){
         }
         else if(rank_history[j][1] == 0){
-          rankMonth.push(rank_history[j][0])
+          rankMonth.push("'" + rank_history[j][0].substr(2, 2) + "." + rank_history[j][0].substr(4, 2))
           rankData.push(aptData.data[index]["rank"])
         }
         else{
-          rankMonth.push(rank_history[j][0])
+          rankMonth.push("'" + rank_history[j][0].substr(2, 2) + "." + rank_history[j][0].substr(4, 2))
           rankData.push(rank_history[j][1])
         }
       }
@@ -1879,7 +1943,7 @@
   }
 
   function updateRegionTable(month, region){
-    $('html').scrollTop(0)
+    //$('html').scrollTop(0)
     $('#sort').css("visibility", "hidden")
     $('#rearrange').css("visibility", "visible")
     url = "https://www.aptrank.kr/" + month + "/" + region + ".json"
@@ -1956,10 +2020,10 @@
           }
           addon_html += "<div class='apt_address'><span class='regionPop'>인구 " + (Math.abs(regPop)).toLocaleString() + "명</span>"
           if(regPopChange >= 0){
-            addon_html += "<span class='regionPopUp'>(" + popChange + ")</span></div>";
+            addon_html += "<span class='regionPopUp'> (" + popChange + ")</span></div>";
           }
           else{
-            addon_html += "<span class='regionPopDown'>(" + popChange + ")</span></div>";
+            addon_html += "<span class='regionPopDown'> (" + popChange + ")</span></div>";
           }
           addon_html += "<div class='apt_address'><span class='regionJob'>일자리 " + regJob.toLocaleString() + "개</span></div>";
           addon_html += "<div class='apt_address'>소득 " + regIncome.toLocaleString() + "원</div>";
@@ -2369,6 +2433,7 @@
     if(selectedMonth == "202209"){ detailHtml += notice_202209 }
     if(selectedMonth == "202210"){ detailHtml += notice_202210 }
     if(selectedMonth == "202211"){ detailHtml += notice_202211 }
+    if(selectedMonth == "202212"){ detailHtml += notice_202212 }
 
     detailHtml += "<div class='popupTitle' style='text-align: center; padding-bottom: 1em'>꼭 읽어주세요!</div>";
     detailHtml += "<ul>";
@@ -2404,7 +2469,7 @@
     $('#footerBtn3').css({"grid-column" : "span 2"})
     $('.modal-footer').css({"padding-top" : "3px"})
 
-    if($.cookie('popCookie') != '202211'){
+    if($.cookie('popCookie') != '202212'){
       $('#flexCheckDefault').prop("checked", false)
     }
     else{
@@ -2414,7 +2479,7 @@
     $('#flexCheckDefault').change(function(){
       if($(this).is(':checked')){
         //console.log("CHECKED!!")
-        $.cookie('popCookie', '202211', { expires: 7, path: '/' });
+        $.cookie('popCookie', '202212', { expires: 7, path: '/' });
         console.log($.cookie('popCookie'))
       }
       else{

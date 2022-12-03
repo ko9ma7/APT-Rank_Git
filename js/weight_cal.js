@@ -54,20 +54,38 @@ total_rate_metropolitan = {
                 'population':0,  //인구수/인구유입
                 'job':0  }        //일자리
 
+total_rate_mid_metropolitan = {  
+                'supply':0,      //공급물량
+                'transport': 0.15,   //교통
+                'live': 0.3,        //주거
+                'infra': 0.25,       //인프라
+                'education': 0.3,   //학군
+                'population':0,    //인구수/인구유입
+                'job':0  }        //일자리                 
+
 total_rate_middle = {  
                 'supply':0,      //공급물량
-                'transport': 0.1,   //교통
+                'transport': 0.05,   //교통
                 'live': 0.35,        //주거
                 'infra': 0.2,       //인프라
-                'education': 0.35,   //학군
+                'education': 0.4,   //학군
                 'population':0,  //인구수/인구유입
                 'job':0  }        //일자리                
 
 total_rate_urban = {  
                 'supply':0,      //공급물량
                 'transport': 0,   //교통
-                'live': 0.4,        //주거
-                'infra': 0.25,       //인프라
-                'education': 0.35,   //학군
+                'live': 0.35,        //주거
+                'infra': 0.15,       //인프라
+                'education': 0.5,   //학군
                 'population':0,  //인구수/인구유입
                 'job':0  }        //일자리
+
+total_rate_ulsan = {  
+                'supply':0,      //공급물량
+                'transport': 0,   //교통
+                'live': 0.3,        //주거
+                'infra': 0.2,       //인프라
+                'education': 0.5,   //학군
+                'population':0,  //인구수/인구유입
+                'job':0  }        //일자리                
