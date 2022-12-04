@@ -115,7 +115,8 @@
         <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>    
         <div id="month_selection">
           <select id="month" onChange="updateMonth()">
-            <option value="202211" selected>2022년 11월</option>
+            <option value="202212" selected>2022년 12월</option>
+            <option value="202211">2022년 11월</option>
             <option value="202210">2022년 10월</option>
             <option value="202209">2022년 09월</option>
             <option value="202208">2022년 08월</option>
@@ -199,7 +200,6 @@
         </div>
         <div id="closeRegionRearrange" onClick='closeRegionRearrange()' ><i class="fas fa-times"></i></div>
       </div>
-
       <!--리스트 데이터 붙여넣는 영역-->
       <div id="dataList"></div>
 
@@ -320,7 +320,7 @@
 
 
 <script>
-  var selectedMonth = "202211"
+  var selectedMonth = "202212"
   var selectedRegion = "Seoul"
   var selectedSubRegion = "1168000000_Seoul_Gangnam"
   var selectedComplex = ""
@@ -495,7 +495,7 @@
       }
     })
 
-    if($.cookie('popCookie') != "202211"){
+    if($.cookie('popCookie') != "202212"){
       startNotice = true
       showNotice()
       //초기 진입 시 공지 팝업 표시하는 경우, 변수 startNotice에 true 할당      
@@ -1211,6 +1211,10 @@
       detailHtml += "<div class='graph' style='height: 120px'> <canvas id='transportChart'></canvas></div>"
       detailHtml += "<div class='popTable'>"
       detailHtml += "<div class='popSubTable' id='popSubStation'><div class='popContent'>" + "가장 가까운 역" + "</div>" + "<div class='popResult'>" + nearestStation + "</div></div>";
+      if(Number(selectedMonth) > 202211){
+        var subway_line = aptData.data[index]["역노선"]        
+        detailHtml += "<div class='stationList'><div></div><div class='stationText'>" + subway_line + "</div></div>";
+      }
 
       detailHtml += "<div class='popSubTable'><div class='popContent'>" + "30분 이내 도착 가능 주요역" + "</div>" + "<div class='popResult'>" + stationPoint_30m + "개</div></div>";
       if(stationPoint_30m != 0 && selectedMonth != "202201"){
@@ -1673,11 +1677,11 @@
         if(rank_history[j][1] == 9999){
         }
         else if(rank_history[j][1] == 0){
-          rankMonth.push(rank_history[j][0])
+          rankMonth.push("'" + rank_history[j][0].substr(2, 2) + "." + rank_history[j][0].substr(4, 2))
           rankData.push(aptData.data[index]["rank"])
         }
         else{
-          rankMonth.push(rank_history[j][0])
+          rankMonth.push("'" + rank_history[j][0].substr(2, 2) + "." + rank_history[j][0].substr(4, 2))
           rankData.push(rank_history[j][1])
         }
       }
@@ -2418,12 +2422,7 @@
     noticePop = true
     var titleHtml = "<div class='popupTitle'> 아파트랭크에서 알려드립니다 </div>";
     var footerHtml = ""
-    var detailHtml = "<div class='notice'>아파트랭크는 '주거', '인프라', '교통', '교육환경'을 AI로 분석하여 점수로 계산하여 입지 정보를 제공하는 서비스 입니다.</div>"
-    detailHtml +=  "<div class='notice'>아파트랭크의 점수는 '가격' 및 '지형고도'를 제외하고 산정되며, 그 결과는 생각하시는 순위와 크게 다를 수 있습니다.</div>";    
-    detailHtml += "<div class='notice'><strong> 아파트랭크의 점수는 투자지표가 아님을 말씀드리며, 투자 판단에 대한 모든 책임은 투자자 본인에게 있습니다.</strong></div>";
-    detailHtml += "<div class='notice'>업데이트 알림은 <a href='http://pf.kakao.com/_vESNb' target='_blank'>카카오톡 채널</a>을 통해 전달됩니다.</div>";
-    detailHtml += "<hr>";
-
+    var detailHtml = ""
     if(selectedMonth == "202203"){ detailHtml += notice_202203 }
     if(selectedMonth == "202204"){ detailHtml += notice_202204 }
     if(selectedMonth == "202205"){ detailHtml += notice_202205 }
@@ -2433,8 +2432,14 @@
     if(selectedMonth == "202209"){ detailHtml += notice_202209 }
     if(selectedMonth == "202210"){ detailHtml += notice_202210 }
     if(selectedMonth == "202211"){ detailHtml += notice_202211 }
+    if(selectedMonth == "202212"){ detailHtml += notice_202212 }
 
-    detailHtml += "<div class='popupTitle' style='text-align: center; padding-bottom: 1em'>꼭 읽어주세요!</div>";
+    detailHtml += "<div class='popupTitle' style='text-align: center; padding-bottom: 1em'>아파트랭크란?</div>";
+    detailHtml +=  "<div class='notice'>아파트랭크는 '주거', '인프라', '교통', '교육환경'을 AI로 분석하여 점수로 계산하여 입지 정보를 제공하는 서비스 입니다.</div>"
+    detailHtml +=  "<div class='notice'>아파트랭크의 점수는 '가격' 및 '지형고도'를 제외하고 산정되며, 그 결과는 생각하시는 순위와 크게 다를 수 있습니다.</div>";    
+    detailHtml += "<div class='notice'><strong> 아파트랭크의 점수는 투자지표가 아님을 말씀드리며, 투자 판단에 대한 모든 책임은 투자자 본인에게 있습니다.</strong></div>";
+    detailHtml += "<div class='notice'>업데이트 알림은 <a href='http://pf.kakao.com/_vESNb' target='_blank'>카카오톡 채널</a>을 통해 전달됩니다.</div>";
+    detailHtml += "<hr>";    
     detailHtml += "<ul>";
     detailHtml += "<li><div class='notice'>아파트 랭크의 점수는 투자지표가 아님을 말씀드립니다. 투자 판단에 대한 모든 책임은 투자자 본인에게 있습니다.</div></li>";
     detailHtml += "<li><div class='notice'>아파트 랭크는 개인이 개발했으며, 기관이나 기업과 전혀 관련이 없습니다.</li></div>";
@@ -2468,7 +2473,7 @@
     $('#footerBtn3').css({"grid-column" : "span 2"})
     $('.modal-footer').css({"padding-top" : "3px"})
 
-    if($.cookie('popCookie') != '202211'){
+    if($.cookie('popCookie') != '202212'){
       $('#flexCheckDefault').prop("checked", false)
     }
     else{
@@ -2478,7 +2483,7 @@
     $('#flexCheckDefault').change(function(){
       if($(this).is(':checked')){
         //console.log("CHECKED!!")
-        $.cookie('popCookie', '202211', { expires: 7, path: '/' });
+        $.cookie('popCookie', '202212', { expires: 7, path: '/' });
         console.log($.cookie('popCookie'))
       }
       else{

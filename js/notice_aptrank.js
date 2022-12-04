@@ -1,5 +1,5 @@
 var notice_202212 = 
-"<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2022년 12월 업데이트 안내 (2022-12-03) <br> (가중치 조정으로 인해 상당수의 랭크 변동이 있습니다.)</div>"
+"<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2022년 12월 업데이트 안내 (2022-12-03) <br><span style='font-size: 0.9em; color: #fe4040'>- 가중치 조정으로 인해 상당수의 랭크 변동이 있습니다 -</span></div>"
 +"<ul>"
 +"<li><div class='notice'>서울, 수도권, 광역시의 지하철 노선에 따른 중요도 가중치를 반영했습니다.</div></li>"
 +"<li><div class='notice'>수도권이지만 서울 생활권이 아닌 지역에 대한 별도 가중치를 적용했습니다. (교통 중요도 하향) <br> 적용지역: 경기도 파주시, 양주시, 포천시, 이천시, 여주시, 안성시 / 인천시 중구, 연수구, 동구</div></li>"
