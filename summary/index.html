@@ -454,9 +454,9 @@
       }
     }  
 
-    shareTitle = selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + balanced[0]["region"] + " 아파트랭크\n\n"
+    var shareTitle = selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + balanced[0]["region"] + " 아파트랭크\n\n"
 
-    shareText = selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + regionName_twitter + " #아파트랭크\n\n"
+    var shareText = selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + regionName_twitter + " #아파트랭크\n\n"
 
     if(list[0]["sort"] == 'balanced'){
       shareText += "『균형잡힌 입지 조건』\n"
@@ -519,10 +519,10 @@
 }
 
 function allShareWithComment(){
-  shareTitle = "[아파트랭크] "
+  var shareTitle = "[아파트랭크] "
   shareTitle += selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + balanced[0]["region"] + " 저평가 아파트랭크\n\n"
 
-  shareText += "[아파트랭크 입지 점수 항목]\n"
+  var shareText = "[아파트랭크 입지 점수 항목]\n"
   shareText += "ㆍ주거 = 세대수, 입주년차, 주차수, 난방방식, 욕실수, 현관구조\n"
   shareText += "※ 재건축은 용적률과 건폐율로 계산\n"
   shareText += "ㆍ인프라 = 백화점, 아울렛, 몰, 대형마트, 은행, 병원, 종합병원, 공원, 대형공원, 혐오시설\n"
@@ -662,7 +662,7 @@ function allShareWithComment(){
 }
 
 function allShare(){
-  shareTitle = "[아파트랭크]\n"
+  var shareTitle = "[아파트랭크]\n"
   shareTitle += selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월,\n" + balanced[0]["region"] + "\n\n"
 
   var total_list = living.length
@@ -670,117 +670,117 @@ function allShare(){
     total_list = 3
   }
 
-    shareText = "『주거 환경 우선 아파트』\n"
-    for(var i = 0 ; i < total_list ; i++){
-      shareText += "#" + living[i]["name"]
-      if(living[i]["apt_type"] == "아파트"){
-        shareText += "(" + living[i]["apt_year"] + "년차)"
-      }
-      if(living[i]["apt_type"] == "재건축"){
-        shareText += "(" + living[i]["apt_year"] + "년차, 재건축)";
-      }
-      if(living[i]["apt_type"] == "분양권"){
-        shareText += "(분양권)";
-      }      
-      shareText += "\n"
-      //shareText += ", " + ( Math.round( living[i]["value_score"] * 100 ) / 100 ).toFixed(2) + "점\n"
+  var shareText = "『주거 환경 우선 아파트』\n"
+  for(var i = 0 ; i < total_list ; i++){
+    shareText += "#" + living[i]["name"]
+    if(living[i]["apt_type"] == "아파트"){
+      shareText += "(" + living[i]["apt_year"] + "년차)"
     }
-    shareText += "※ 재건축은 용적률과 건폐율로 계산\n"
-
-    if(transport.length != 0){
-      shareText += "\n"
-      shareText += "『출퇴근 교통 우선 아파트』\n"
-      for(var i = 0 ; i < total_list ; i++){
-        shareText += "#" + transport[i]["name"]
-        if(transport[i]["apt_type"] == "아파트"){
-          shareText += "(" + transport[i]["apt_year"] + "년차)"
-        }
-        if(transport[i]["apt_type"] == "재건축"){
-          shareText += "(" + transport[i]["apt_year"] + "년차, 재건축)";
-        }
-        if(transport[i]["apt_type"] == "분양권"){
-          shareText += "(분양권)";
-        }
-        shareText += "\n"
-        //shareText += ", " + ( Math.round( transport[i]["value_score"] * 100 ) / 100 ).toFixed(2) + "점\n"
-      }
+    if(living[i]["apt_type"] == "재건축"){
+      shareText += "(" + living[i]["apt_year"] + "년차, 재건축)";
     }
-
+    if(living[i]["apt_type"] == "분양권"){
+      shareText += "(분양권)";
+    }      
     shareText += "\n"
-    shareText += "『인프라 우선 아파트』\n"
+    //shareText += ", " + ( Math.round( living[i]["value_score"] * 100 ) / 100 ).toFixed(2) + "점\n"
+  }
+  shareText += "※ 재건축은 용적률과 건폐율로 계산\n"
+
+  if(transport.length != 0){
+    shareText += "\n"
+    shareText += "『출퇴근 교통 우선 아파트』\n"
     for(var i = 0 ; i < total_list ; i++){
-      shareText += "#" + infra[i]["name"]
-      if(infra[i]["apt_type"] == "아파트"){
-        shareText += "(" + infra[i]["apt_year"] + "년차)"
+      shareText += "#" + transport[i]["name"]
+      if(transport[i]["apt_type"] == "아파트"){
+        shareText += "(" + transport[i]["apt_year"] + "년차)"
       }
-      if(infra[i]["apt_type"] == "재건축"){
-        shareText += "(" + infra[i]["apt_year"] + "년차, 재건축)";
+      if(transport[i]["apt_type"] == "재건축"){
+        shareText += "(" + transport[i]["apt_year"] + "년차, 재건축)";
       }
-      if(infra[i]["apt_type"] == "분양권"){
+      if(transport[i]["apt_type"] == "분양권"){
         shareText += "(분양권)";
       }
       shareText += "\n"
-      //shareText += ", " + ( Math.round( infra[i]["value_score"] * 100 ) / 100 ).toFixed(2) + "점\n"
+      //shareText += ", " + ( Math.round( transport[i]["value_score"] * 100 ) / 100 ).toFixed(2) + "점\n"
     }
+  }
 
-    shareText += "\n"
-    shareText += "『교육 우선 아파트』\n"
-    for(var i = 0 ; i < total_list ; i++){
-      shareText += "#" + education[i]["name"]
-      if(education[i]["apt_type"] == "아파트"){
-        shareText += "(" + education[i]["apt_year"] + "년차)"
-      }
-      if(education[i]["apt_type"] == "재건축"){
-        shareText += "(" + education[i]["apt_year"] + "년차, 재건축)";
-      }
-      if(education[i]["apt_type"] == "분양권"){
-        shareText += "(분양권)";
-      }
-      shareText += "\n"
-      //shareText += ", " + ( Math.round( education[i]["value_score"] * 100 ) / 100 ).toFixed(2) + "점\n"
+  shareText += "\n"
+  shareText += "『인프라 우선 아파트』\n"
+  for(var i = 0 ; i < total_list ; i++){
+    shareText += "#" + infra[i]["name"]
+    if(infra[i]["apt_type"] == "아파트"){
+      shareText += "(" + infra[i]["apt_year"] + "년차)"
     }
-
-    shareText += "\n"
-    shareText += "『균형잡힌 입지 조건 아파트』\n"
-    for(var i = 0 ; i < total_list ; i++){
-      shareText += "#" + balanced[i]["name"]
-      if(balanced[i]["apt_type"] == "아파트"){
-        shareText += "(" + balanced[i]["apt_year"] + "년차)"
-      }
-      if(balanced[i]["apt_type"] == "재건축"){
-        shareText += "(" + balanced[i]["apt_year"] + "년차, 재건축)";
-      }
-      if(balanced[i]["apt_type"] == "분양권"){
-        shareText += "(분양권)";
-      }
-      shareText += "\n"
-      //shareText += ", " + ( Math.round( balanced[i]["value_score"] * 100 ) / 100 ).toFixed(2) + "점\n"
+    if(infra[i]["apt_type"] == "재건축"){
+      shareText += "(" + infra[i]["apt_year"] + "년차, 재건축)";
     }
-
-    //shareText += "\n아래 링크를 누르시면 통해 다른 아파트의 랭크를 확인할 수 있습니다."
+    if(infra[i]["apt_type"] == "분양권"){
+      shareText += "(분양권)";
+    }
     shareText += "\n"
-    shareText += "※ 아파트랭크는 계산된 참조자료 입니다. 실제 임장, 현지 거주 의견, 부동산 조언 등 현장 정보가 가장 정확합니다.\n"
-    
-    //shareURL = "https://www.aptrank.kr" + "?reg=" + balanced[0]["region_code"] +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth
-    shareURL = balanced[0]["shorten_url"]
+    //shareText += ", " + ( Math.round( infra[i]["value_score"] * 100 ) / 100 ).toFixed(2) + "점\n"
+  }
 
-    if (navigator.share) {
-      navigator.share({
-        title: shareTitle,
-        text: shareText,
-        url: shareURL
-      }).then(() => {
-        console.log('Thanks for sharing!');
-      })
-      .catch(console.error);
-    } else {
-      // fallback
-      shareDialog.classList.add('is-open');
-    }  
+  shareText += "\n"
+  shareText += "『교육 우선 아파트』\n"
+  for(var i = 0 ; i < total_list ; i++){
+    shareText += "#" + education[i]["name"]
+    if(education[i]["apt_type"] == "아파트"){
+      shareText += "(" + education[i]["apt_year"] + "년차)"
+    }
+    if(education[i]["apt_type"] == "재건축"){
+      shareText += "(" + education[i]["apt_year"] + "년차, 재건축)";
+    }
+    if(education[i]["apt_type"] == "분양권"){
+      shareText += "(분양권)";
+    }
+    shareText += "\n"
+    //shareText += ", " + ( Math.round( education[i]["value_score"] * 100 ) / 100 ).toFixed(2) + "점\n"
+  }
+
+  shareText += "\n"
+  shareText += "『균형잡힌 입지 조건 아파트』\n"
+  for(var i = 0 ; i < total_list ; i++){
+    shareText += "#" + balanced[i]["name"]
+    if(balanced[i]["apt_type"] == "아파트"){
+      shareText += "(" + balanced[i]["apt_year"] + "년차)"
+    }
+    if(balanced[i]["apt_type"] == "재건축"){
+      shareText += "(" + balanced[i]["apt_year"] + "년차, 재건축)";
+    }
+    if(balanced[i]["apt_type"] == "분양권"){
+      shareText += "(분양권)";
+    }
+    shareText += "\n"
+    //shareText += ", " + ( Math.round( balanced[i]["value_score"] * 100 ) / 100 ).toFixed(2) + "점\n"
+  }
+
+  //shareText += "\n아래 링크를 누르시면 통해 다른 아파트의 랭크를 확인할 수 있습니다."
+  shareText += "\n"
+  shareText += "※ 아파트랭크는 계산된 참조자료 입니다. 실제 임장, 현지 거주 의견, 부동산 조언 등 현장 정보가 가장 정확합니다.\n"
+  
+  //shareURL = "https://www.aptrank.kr" + "?reg=" + balanced[0]["region_code"] +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth
+  shareURL = balanced[0]["shorten_url"]
+
+  if (navigator.share) {
+    navigator.share({
+      title: shareTitle,
+      text: shareText,
+      url: shareURL
+    }).then(() => {
+      console.log('Thanks for sharing!');
+    })
+    .catch(console.error);
+  } else {
+    // fallback
+    shareDialog.classList.add('is-open');
+  }  
 }
 
 function shareToCafe(){
-  shareTitle = "[아파트랭크] "
+  var shareTitle = "[아파트랭크] "
   shareTitle += selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + balanced[0]["region"] + " 저평가 아파트랭크\n\n"
 
   var total_list = living.length
@@ -788,7 +788,7 @@ function shareToCafe(){
     total_list = 10
   }
   
-  shareText = "『주거 환경 우선 아파트』\n"
+  var shareText = "『주거 환경 우선 아파트』\n"
   shareText += "※ 재건축은 용적률과 건폐율로 계산\n"
     for(var i = 0 ; i < total_list ; i++){
       shareText += "#" + living[i]["name"]
@@ -973,10 +973,10 @@ function shareToCafe(){
 }
 
 function shareToFacebook(){
-  shareTitle = "[아파트랭크] "
+  var shareTitle = "[아파트랭크] "
   shareTitle += selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + balanced[0]["region"] + " 저평가 아파트랭크\n\n"  
 
-  shareText = selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + balanced[0]["region"] + " 저평가 아파트랭크\n\n"  
+  var shareText = selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + balanced[0]["region"] + " 저평가 아파트랭크\n\n"  
   shareText += balanced[0]["shorten_url"] + "\n\n"
 
   var total_list = living.length
@@ -1166,9 +1166,9 @@ function shareToTwitter(){
     }
   }  
 
-  shareTitle = selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + balanced[0]["region"] + " 아파트랭크\n\n"
+  var shareTitle = selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + balanced[0]["region"] + " 아파트랭크\n\n"
 
-  shareText = selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + regionName_twitter + " #아파트랭크\n\n"
+  var shareText = selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월, " + regionName_twitter + " #아파트랭크\n\n"
 
   var total_list = living.length
   if(total_list >= 5){
@@ -1207,40 +1207,40 @@ function shareToTwitter(){
     }  
 }
 
-  function returnList(list){
-    var addon_html = "";
+function returnList(list){
+  var addon_html = "";
 
-    for(var i = 0 ; i < list.length ; i++){      
-      var aptName = list[i]["name"]
-      var sortType = list[i]["sort"]
-      var apt_type = list[i]["apt_type"]
-      var apt_year = list[i]["apt_year"]
-      var region_code = list[i]["region_code"]
-      var sub_region_code = list[i]["sub_region_code"]
-      var value_score = list[i]["value_score"]
+  for(var i = 0 ; i < list.length ; i++){      
+    var aptName = list[i]["name"]
+    var sortType = list[i]["sort"]
+    var apt_type = list[i]["apt_type"]
+    var apt_year = list[i]["apt_year"]
+    var region_code = list[i]["region_code"]
+    var sub_region_code = list[i]["sub_region_code"]
+    var value_score = list[i]["value_score"]
 
-      addon_html += "<div class='listBox'>";
-               
-      addon_html += "<div class='rank'>" + (i+1) + "위</div>";
-      addon_html += "<div class='apt_name'>" + aptName;
+    addon_html += "<div class='listBox'>";
+              
+    addon_html += "<div class='rank'>" + (i+1) + "위</div>";
+    addon_html += "<div class='apt_name'>" + aptName;
 
-      if(apt_type == "아파트"){
-        addon_html += "<span class='aptYear'> (" + apt_year + "년차)</span></div>";
-      }
-      if(apt_type == "재건축"){
-        addon_html += "<span class='aptYear'> (" + apt_year + "년차, 재건축)</span></div>";
-      }
-      if(apt_type == "분양권"){
-        addon_html += "<span class='aptYear'> (분양권)</span></div>";
-      }
-      if(apt_type == "분양(예정)"){
-        addon_html += "<span class='aptYear'> (분양예정)</span></div>";
-      }
-      addon_html += "<div class='value_score'>" + ( Math.round( value_score * 100 ) / 100 ).toFixed(2) + "점</div>"
-      addon_html += "</div>"
+    if(apt_type == "아파트"){
+      addon_html += "<span class='aptYear'> (" + apt_year + "년차)</span></div>";
     }
-
-    return addon_html
+    if(apt_type == "재건축"){
+      addon_html += "<span class='aptYear'> (" + apt_year + "년차, 재건축)</span></div>";
+    }
+    if(apt_type == "분양권"){
+      addon_html += "<span class='aptYear'> (분양권)</span></div>";
+    }
+    if(apt_type == "분양(예정)"){
+      addon_html += "<span class='aptYear'> (분양예정)</span></div>";
+    }
+    addon_html += "<div class='value_score'>" + ( Math.round( value_score * 100 ) / 100 ).toFixed(2) + "점</div>"
+    addon_html += "</div>"
   }
+
+  return addon_html
+}
 </script>
 </html>
