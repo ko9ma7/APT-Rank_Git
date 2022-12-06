@@ -56,13 +56,14 @@ def save_buying_power():
 
         str_date = str_year + str_quater
 
-        url = 'https://www.hf.go.kr/research/openapi/SttsApiTblData.do?KEY=' + key + '&pIndex=1&pSize=50&STATBL_ID=T186503126543136&DTACYCLE_CD=QY&WRTTIME_IDTFR_ID=' + str_date + '&type=json'
+        url = 'https://houstat.hf.go.kr/research/openapi/SttsApiTblData.do?KEY=' + key + '&pIndex=1&pSize=50&STATBL_ID=T186503126543136&DTACYCLE_CD=QY&WRTTIME_IDTFR_ID=' + str_date + '&type=json'
         
         response = requests.get(url)
         #pars = xmltodict.parse(response.text)
-        #jsonDump = json.dumps(pars)
+        #jsonDump = json.dumps(pars)        
         result = json.loads(response.text)
         data_list = result['SttsApiTblData'][1]['row']
+        print(result['SttsApiTblData'])
         #for k in range(len(data_list)):
         #    print(data_list[k]['WRTTIME_IDTFR_ID'], data_list[k]['ITM_NM'], data_list[k]['DTA_VAL'])
 
@@ -92,7 +93,7 @@ def save_PIR():
 
     for i in range(len(PIR_Month)):
         str_date = PIR_Month[i].strftime("%Y%m")
-        url = 'https://www.hf.go.kr/research/openapi/SttsApiTblData.do?KEY=' + key + '&pIndex=1&pSize=50&STATBL_ID=T188183126881844&DTACYCLE_CD=MM&WRTTIME_IDTFR_ID=' + str_date + '&type=json'        
+        url = 'https://houstat.hf.go.kr/research/openapi/SttsApiTblData.do?KEY=' + key + '&pIndex=1&pSize=50&STATBL_ID=T188183126881844&DTACYCLE_CD=MM&WRTTIME_IDTFR_ID=' + str_date + '&type=json'        
         
         response = requests.get(url)
         #pars = xmltodict.parse(response.text)
