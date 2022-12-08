@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -959,7 +963,8 @@
                     8
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1622,7 +1627,8 @@
                     14
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -2185,7 +2191,8 @@
                     5
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -2598,7 +2605,8 @@
                     10
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=3&sort=sortDefault"
         },
         {
             "index":4,
@@ -3211,7 +3219,8 @@
                     15
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=4&sort=sortDefault"
         },
         {
             "index":5,
@@ -3624,7 +3633,8 @@
                     29
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=5&sort=sortDefault"
         },
         {
             "index":6,
@@ -3987,7 +3997,8 @@
                     12
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=6&sort=sortDefault"
         },
         {
             "index":7,
@@ -4400,7 +4411,8 @@
                     13
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=7&sort=sortDefault"
         },
         {
             "index":8,
@@ -4913,7 +4925,8 @@
                     16
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=8&sort=sortDefault"
         },
         {
             "index":9,
@@ -5326,7 +5339,8 @@
                     19
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=9&sort=sortDefault"
         },
         {
             "index":10,
@@ -5689,7 +5703,8 @@
                     30
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=10&sort=sortDefault"
         },
         {
             "index":11,
@@ -6252,7 +6267,8 @@
                     34
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=11&sort=sortDefault"
         },
         {
             "index":12,
@@ -6765,7 +6781,8 @@
                     9
                 ]
             ],
-            "rank_gap":-4
+            "rank_gap":-4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=12&sort=sortDefault"
         },
         {
             "index":13,
@@ -7278,7 +7295,8 @@
                     24
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=13&sort=sortDefault"
         },
         {
             "index":14,
@@ -7539,7 +7557,8 @@
                     2
                 ]
             ],
-            "rank_gap":-3
+            "rank_gap":-3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=14&sort=sortDefault"
         },
         {
             "index":15,
@@ -8094,7 +8113,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-3
+            "rank_gap":-3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=15&sort=sortDefault"
         },
         {
             "index":16,
@@ -8607,7 +8627,8 @@
                     23
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=16&sort=sortDefault"
         },
         {
             "index":17,
@@ -8920,7 +8941,8 @@
                     31
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=17&sort=sortDefault"
         },
         {
             "index":18,
@@ -9283,7 +9305,8 @@
                     27
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=18&sort=sortDefault"
         },
         {
             "index":19,
@@ -9696,7 +9719,8 @@
                     38
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=19&sort=sortDefault"
         },
         {
             "index":20,
@@ -10109,7 +10133,8 @@
                     43
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=20&sort=sortDefault"
         },
         {
             "index":21,
@@ -10564,7 +10589,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-8
+            "rank_gap":-8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=21&sort=sortDefault"
         },
         {
             "index":22,
@@ -11227,7 +11253,8 @@
                     21
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=22&sort=sortDefault"
         },
         {
             "index":23,
@@ -11890,7 +11917,8 @@
                     44
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=23&sort=sortDefault"
         },
         {
             "index":24,
@@ -12253,7 +12281,8 @@
                     56
                 ]
             ],
-            "rank_gap":13
+            "rank_gap":13,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=24&sort=sortDefault"
         },
         {
             "index":25,
@@ -12666,7 +12695,8 @@
                     17
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=25&sort=sortDefault"
         },
         {
             "index":26,
@@ -12887,7 +12917,8 @@
                     9999
                 ]
             ],
-            "rank_gap":9999
+            "rank_gap":9999,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=26&sort=sortDefault"
         },
         {
             "index":27,
@@ -13300,7 +13331,8 @@
                     40
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=27&sort=sortDefault"
         },
         {
             "index":28,
@@ -13813,7 +13845,8 @@
                     37
                 ]
             ],
-            "rank_gap":-5
+            "rank_gap":-5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=28&sort=sortDefault"
         },
         {
             "index":29,
@@ -14268,7 +14301,8 @@
                     9999
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=29&sort=sortDefault"
         },
         {
             "index":30,
@@ -14681,7 +14715,8 @@
                     49
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=30&sort=sortDefault"
         },
         {
             "index":31,
@@ -15344,7 +15379,8 @@
                     49
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=31&sort=sortDefault"
         },
         {
             "index":32,
@@ -15907,7 +15943,8 @@
                     11
                 ]
             ],
-            "rank_gap":-10
+            "rank_gap":-10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=32&sort=sortDefault"
         },
         {
             "index":33,
@@ -16412,7 +16449,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-7
+            "rank_gap":-7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=33&sort=sortDefault"
         },
         {
             "index":34,
@@ -17025,7 +17063,8 @@
                     33
                 ]
             ],
-            "rank_gap":-7
+            "rank_gap":-7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=34&sort=sortDefault"
         },
         {
             "index":35,
@@ -17246,7 +17285,8 @@
                     9999
                 ]
             ],
-            "rank_gap":9999
+            "rank_gap":9999,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=35&sort=sortDefault"
         },
         {
             "index":36,
@@ -17659,7 +17699,8 @@
                     39
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=36&sort=sortDefault"
         },
         {
             "index":37,
@@ -18114,7 +18155,8 @@
                     9999
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=37&sort=sortDefault"
         },
         {
             "index":38,
@@ -18627,7 +18669,8 @@
                     41
                 ]
             ],
-            "rank_gap":14
+            "rank_gap":14,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=38&sort=sortDefault"
         },
         {
             "index":39,
@@ -18940,7 +18983,8 @@
                     35
                 ]
             ],
-            "rank_gap":10
+            "rank_gap":10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=39&sort=sortDefault"
         },
         {
             "index":40,
@@ -19303,7 +19347,8 @@
                     60
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=40&sort=sortDefault"
         },
         {
             "index":41,
@@ -19616,7 +19661,8 @@
                     53
                 ]
             ],
-            "rank_gap":7
+            "rank_gap":7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=41&sort=sortDefault"
         },
         {
             "index":42,
@@ -20029,7 +20075,8 @@
                     64
                 ]
             ],
-            "rank_gap":-8
+            "rank_gap":-8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=42&sort=sortDefault"
         },
         {
             "index":43,
@@ -20492,7 +20539,8 @@
                     20
                 ]
             ],
-            "rank_gap":-18
+            "rank_gap":-18,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=43&sort=sortDefault"
         },
         {
             "index":44,
@@ -20955,7 +21003,8 @@
                     50
                 ]
             ],
-            "rank_gap":7
+            "rank_gap":7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=44&sort=sortDefault"
         },
         {
             "index":45,
@@ -21310,7 +21359,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=45&sort=sortDefault"
         },
         {
             "index":46,
@@ -21673,7 +21723,8 @@
                     28
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=46&sort=sortDefault"
         },
         {
             "index":47,
@@ -22186,7 +22237,8 @@
                     7
                 ]
             ],
-            "rank_gap":-15
+            "rank_gap":-15,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=47&sort=sortDefault"
         },
         {
             "index":48,
@@ -22549,7 +22601,8 @@
                     57
                 ]
             ],
-            "rank_gap":15
+            "rank_gap":15,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=48&sort=sortDefault"
         },
         {
             "index":49,
@@ -22962,7 +23015,8 @@
                     52
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=49&sort=sortDefault"
         },
         {
             "index":50,
@@ -23425,7 +23479,8 @@
                     66
                 ]
             ],
-            "rank_gap":7
+            "rank_gap":7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=50&sort=sortDefault"
         },
         {
             "index":51,
@@ -23730,7 +23785,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-13
+            "rank_gap":-13,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=51&sort=sortDefault"
         },
         {
             "index":52,
@@ -24043,7 +24099,8 @@
                     36
                 ]
             ],
-            "rank_gap":-9
+            "rank_gap":-9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=52&sort=sortDefault"
         },
         {
             "index":53,
@@ -24456,7 +24513,8 @@
                     59
                 ]
             ],
-            "rank_gap":7
+            "rank_gap":7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=53&sort=sortDefault"
         },
         {
             "index":54,
@@ -24819,7 +24877,8 @@
                     46
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=54&sort=sortDefault"
         },
         {
             "index":55,
@@ -25282,7 +25341,8 @@
                     1
                 ]
             ],
-            "rank_gap":-23
+            "rank_gap":-23,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=55&sort=sortDefault"
         },
         {
             "index":56,
@@ -25645,7 +25705,8 @@
                     48
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=56&sort=sortDefault"
         },
         {
             "index":57,
@@ -26058,7 +26119,8 @@
                     32
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=57&sort=sortDefault"
         },
         {
             "index":58,
@@ -26463,7 +26525,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-7
+            "rank_gap":-7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=58&sort=sortDefault"
         },
         {
             "index":59,
@@ -26976,7 +27039,8 @@
                     62
                 ]
             ],
-            "rank_gap":7
+            "rank_gap":7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=59&sort=sortDefault"
         },
         {
             "index":60,
@@ -27289,7 +27353,8 @@
                     22
                 ]
             ],
-            "rank_gap":-17
+            "rank_gap":-17,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=60&sort=sortDefault"
         },
         {
             "index":61,
@@ -27652,7 +27717,8 @@
                     55
                 ]
             ],
-            "rank_gap":-13
+            "rank_gap":-13,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=61&sort=sortDefault"
         },
         {
             "index":62,
@@ -28041,7 +28107,8 @@
                     9999
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=62&sort=sortDefault"
         },
         {
             "index":63,
@@ -28404,7 +28471,8 @@
                     68
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=63&sort=sortDefault"
         },
         {
             "index":64,
@@ -28767,7 +28835,8 @@
                     72
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=64&sort=sortDefault"
         },
         {
             "index":65,
@@ -29080,7 +29149,8 @@
                     72
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=65&sort=sortDefault"
         },
         {
             "index":66,
@@ -29543,7 +29613,8 @@
                     61
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=66&sort=sortDefault"
         },
         {
             "index":67,
@@ -29956,7 +30027,8 @@
                     70
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=67&sort=sortDefault"
         },
         {
             "index":68,
@@ -30319,7 +30391,8 @@
                     45
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=68&sort=sortDefault"
         },
         {
             "index":69,
@@ -30732,7 +30805,8 @@
                     45
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=69&sort=sortDefault"
         },
         {
             "index":70,
@@ -31145,7 +31219,8 @@
                     65
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=70&sort=sortDefault"
         },
         {
             "index":71,
@@ -31758,7 +31833,8 @@
                     73
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=71&sort=sortDefault"
         },
         {
             "index":72,
@@ -32171,7 +32247,8 @@
                     75
                 ]
             ],
-            "rank_gap":7
+            "rank_gap":7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=72&sort=sortDefault"
         },
         {
             "index":73,
@@ -32534,7 +32611,8 @@
                     42
                 ]
             ],
-            "rank_gap":-7
+            "rank_gap":-7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=73&sort=sortDefault"
         },
         {
             "index":74,
@@ -32847,7 +32925,8 @@
                     85
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=74&sort=sortDefault"
         },
         {
             "index":75,
@@ -33360,7 +33439,8 @@
                     80
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=75&sort=sortDefault"
         },
         {
             "index":76,
@@ -33673,7 +33753,8 @@
                     77
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=76&sort=sortDefault"
         },
         {
             "index":77,
@@ -34036,7 +34117,8 @@
                     79
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=77&sort=sortDefault"
         },
         {
             "index":78,
@@ -34449,7 +34531,8 @@
                     78
                 ]
             ],
-            "rank_gap":12
+            "rank_gap":12,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=78&sort=sortDefault"
         },
         {
             "index":79,
@@ -34762,7 +34845,8 @@
                     58
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=79&sort=sortDefault"
         },
         {
             "index":80,
@@ -35175,7 +35259,8 @@
                     81
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=80&sort=sortDefault"
         },
         {
             "index":81,
@@ -35638,7 +35723,8 @@
                     25
                 ]
             ],
-            "rank_gap":-6
+            "rank_gap":-6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=81&sort=sortDefault"
         },
         {
             "index":82,
@@ -36101,7 +36187,8 @@
                     84
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=82&sort=sortDefault"
         },
         {
             "index":83,
@@ -36514,7 +36601,8 @@
                     86
                 ]
             ],
-            "rank_gap":15
+            "rank_gap":15,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=83&sort=sortDefault"
         },
         {
             "index":84,
@@ -36927,7 +37015,8 @@
                     74
                 ]
             ],
-            "rank_gap":7
+            "rank_gap":7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=84&sort=sortDefault"
         },
         {
             "index":85,
@@ -37390,7 +37479,8 @@
                     76
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=85&sort=sortDefault"
         },
         {
             "index":86,
@@ -37703,7 +37793,8 @@
                     93
                 ]
             ],
-            "rank_gap":18
+            "rank_gap":18,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=86&sort=sortDefault"
         },
         {
             "index":87,
@@ -38066,7 +38157,8 @@
                     71
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=87&sort=sortDefault"
         },
         {
             "index":88,
@@ -38379,7 +38471,8 @@
                     4
                 ]
             ],
-            "rank_gap":-3
+            "rank_gap":-3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=88&sort=sortDefault"
         },
         {
             "index":89,
@@ -38742,7 +38835,8 @@
                     82
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=89&sort=sortDefault"
         },
         {
             "index":90,
@@ -39155,7 +39249,8 @@
                     87
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=90&sort=sortDefault"
         },
         {
             "index":91,
@@ -39518,7 +39613,8 @@
                     18
                 ]
             ],
-            "rank_gap":-7
+            "rank_gap":-7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=91&sort=sortDefault"
         },
         {
             "index":92,
@@ -39881,7 +39977,8 @@
                     92
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=92&sort=sortDefault"
         },
         {
             "index":93,
@@ -40294,7 +40391,8 @@
                     90
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=93&sort=sortDefault"
         },
         {
             "index":94,
@@ -40657,7 +40755,8 @@
                     3
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=94&sort=sortDefault"
         },
         {
             "index":95,
@@ -40970,7 +41069,8 @@
                     100
                 ]
             ],
-            "rank_gap":14
+            "rank_gap":14,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=95&sort=sortDefault"
         },
         {
             "index":96,
@@ -41283,7 +41383,8 @@
                     67
                 ]
             ],
-            "rank_gap":-4
+            "rank_gap":-4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=96&sort=sortDefault"
         },
         {
             "index":97,
@@ -41646,7 +41747,8 @@
                     54
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=97&sort=sortDefault"
         },
         {
             "index":98,
@@ -41959,7 +42061,8 @@
                     51
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=98&sort=sortDefault"
         },
         {
             "index":99,
@@ -42272,7 +42375,8 @@
                     101
                 ]
             ],
-            "rank_gap":12
+            "rank_gap":12,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=99&sort=sortDefault"
         },
         {
             "index":100,
@@ -42635,7 +42739,8 @@
                     6
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=100&sort=sortDefault"
         },
         {
             "index":101,
@@ -42998,7 +43103,8 @@
                     99
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=101&sort=sortDefault"
         },
         {
             "index":102,
@@ -43259,7 +43365,8 @@
                     88
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=102&sort=sortDefault"
         },
         {
             "index":103,
@@ -43568,7 +43675,8 @@
                     9999
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=103&sort=sortDefault"
         },
         {
             "index":104,
@@ -43881,7 +43989,8 @@
                     83
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=104&sort=sortDefault"
         },
         {
             "index":105,
@@ -44244,7 +44353,8 @@
                     91
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=105&sort=sortDefault"
         },
         {
             "index":106,
@@ -44557,7 +44667,8 @@
                     96
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=106&sort=sortDefault"
         },
         {
             "index":107,
@@ -44870,7 +44981,8 @@
                     96
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=107&sort=sortDefault"
         },
         {
             "index":108,
@@ -45183,7 +45295,8 @@
                     89
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=108&sort=sortDefault"
         },
         {
             "index":109,
@@ -45696,7 +45809,8 @@
                     102
                 ]
             ],
-            "rank_gap":12
+            "rank_gap":12,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=109&sort=sortDefault"
         },
         {
             "index":110,
@@ -46109,7 +46223,8 @@
                     104
                 ]
             ],
-            "rank_gap":12
+            "rank_gap":12,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=110&sort=sortDefault"
         },
         {
             "index":111,
@@ -46422,7 +46537,8 @@
                     26
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=111&sort=sortDefault"
         },
         {
             "index":112,
@@ -46835,7 +46951,8 @@
                     95
                 ]
             ],
-            "rank_gap":7
+            "rank_gap":7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=112&sort=sortDefault"
         },
         {
             "index":113,
@@ -47148,7 +47265,8 @@
                     47
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=113&sort=sortDefault"
         },
         {
             "index":114,
@@ -47461,7 +47579,8 @@
                     97
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=114&sort=sortDefault"
         },
         {
             "index":115,
@@ -47974,7 +48093,8 @@
                     106
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=115&sort=sortDefault"
         },
         {
             "index":116,
@@ -48287,7 +48407,8 @@
                     98
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=116&sort=sortDefault"
         },
         {
             "index":117,
@@ -48696,7 +48817,8 @@
                     9999
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=117&sort=sortDefault"
         },
         {
             "index":118,
@@ -49009,7 +49131,8 @@
                     105
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=118&sort=sortDefault"
         },
         {
             "index":119,
@@ -49372,7 +49495,8 @@
                     94
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=119&sort=sortDefault"
         },
         {
             "index":120,
@@ -49835,7 +49959,8 @@
                     63
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=120&sort=sortDefault"
         },
         {
             "index":121,
@@ -50448,7 +50573,8 @@
                     69
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=121&sort=sortDefault"
         },
         {
             "index":122,
@@ -50861,7 +50987,8 @@
                     103
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=122&sort=sortDefault"
         },
         {
             "index":123,
@@ -51122,7 +51249,8 @@
                     109
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=123&sort=sortDefault"
         },
         {
             "index":124,
@@ -51435,7 +51563,8 @@
                     107
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=124&sort=sortDefault"
         },
         {
             "index":125,
@@ -51696,7 +51825,8 @@
                     111
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=125&sort=sortDefault"
         },
         {
             "index":126,
@@ -52109,7 +52239,8 @@
                     108
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=126&sort=sortDefault"
         },
         {
             "index":127,
@@ -52418,7 +52549,8 @@
                     9999
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=127&sort=sortDefault"
         },
         {
             "index":128,
@@ -52881,7 +53013,8 @@
                     110
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Daegu&sub=2771000000_Daegu_Dalseong&mon=202212&complex=128&sort=sortDefault"
         }
     ]
 }

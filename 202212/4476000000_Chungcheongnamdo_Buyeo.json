@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -907,7 +911,8 @@
                     1
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1368,7 +1373,8 @@
                     2
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -1599,7 +1605,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -1960,7 +1967,8 @@
                     3
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=3&sort=sortDefault"
         },
         {
             "index":4,
@@ -2421,7 +2429,8 @@
                     4
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=4&sort=sortDefault"
         },
         {
             "index":5,
@@ -2782,7 +2791,8 @@
                     6
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=5&sort=sortDefault"
         },
         {
             "index":6,
@@ -3143,7 +3153,8 @@
                     5
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=6&sort=sortDefault"
         },
         {
             "index":7,
@@ -3854,7 +3865,8 @@
                     7
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=7&sort=sortDefault"
         },
         {
             "index":8,
@@ -4265,7 +4277,8 @@
                     8
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=8&sort=sortDefault"
         },
         {
             "index":9,
@@ -4622,7 +4635,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=9&sort=sortDefault"
         },
         {
             "index":10,
@@ -4933,7 +4947,8 @@
                     9
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4476000000_Chungcheongnamdo_Buyeo&mon=202212&complex=10&sort=sortDefault"
         }
     ]
 }

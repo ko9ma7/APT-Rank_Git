@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"string"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[

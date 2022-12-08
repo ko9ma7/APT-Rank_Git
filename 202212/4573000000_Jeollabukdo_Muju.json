@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -807,7 +811,8 @@
                     2
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4573000000_Jeollabukdo_Muju&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1268,7 +1273,8 @@
                     1
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4573000000_Jeollabukdo_Muju&mon=202212&complex=1&sort=sortDefault"
         }
     ]
 }

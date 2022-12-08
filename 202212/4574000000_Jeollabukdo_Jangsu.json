@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -753,7 +757,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4574000000_Jeollabukdo_Jangsu&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1160,7 +1165,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4574000000_Jeollabukdo_Jangsu&mon=202212&complex=1&sort=sortDefault"
         }
     ]
 }

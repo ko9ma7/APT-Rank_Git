@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -1171,7 +1175,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1632,7 +1637,8 @@
                     1
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -2043,7 +2049,8 @@
                     3
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -2596,7 +2603,8 @@
                     9999
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=3&sort=sortDefault"
         },
         {
             "index":4,
@@ -3037,7 +3045,8 @@
                     9999
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=4&sort=sortDefault"
         },
         {
             "index":5,
@@ -3708,7 +3717,8 @@
                     9999
                 ]
             ],
-            "rank_gap":9999
+            "rank_gap":9999,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=5&sort=sortDefault"
         },
         {
             "index":6,
@@ -4069,7 +4079,8 @@
                     5
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=6&sort=sortDefault"
         },
         {
             "index":7,
@@ -4430,7 +4441,8 @@
                     2
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=7&sort=sortDefault"
         },
         {
             "index":8,
@@ -4733,7 +4745,8 @@
                     9999
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=8&sort=sortDefault"
         },
         {
             "index":9,
@@ -5036,7 +5049,8 @@
                     9999
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=9&sort=sortDefault"
         },
         {
             "index":10,
@@ -5565,7 +5579,8 @@
                     9999
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=10&sort=sortDefault"
         },
         {
             "index":11,
@@ -5926,7 +5941,8 @@
                     10
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=11&sort=sortDefault"
         },
         {
             "index":12,
@@ -6337,7 +6353,8 @@
                     12
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=12&sort=sortDefault"
         },
         {
             "index":13,
@@ -6748,7 +6765,8 @@
                     9
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=13&sort=sortDefault"
         },
         {
             "index":14,
@@ -7059,7 +7077,8 @@
                     8
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=14&sort=sortDefault"
         },
         {
             "index":15,
@@ -7416,7 +7435,8 @@
                     9999
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=15&sort=sortDefault"
         },
         {
             "index":16,
@@ -7675,7 +7695,8 @@
                     11
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=16&sort=sortDefault"
         },
         {
             "index":17,
@@ -8136,7 +8157,8 @@
                     14
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=17&sort=sortDefault"
         },
         {
             "index":18,
@@ -8447,7 +8469,8 @@
                     18
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=18&sort=sortDefault"
         },
         {
             "index":19,
@@ -8758,7 +8781,8 @@
                     17
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=19&sort=sortDefault"
         },
         {
             "index":20,
@@ -9069,7 +9093,8 @@
                     19
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=20&sort=sortDefault"
         },
         {
             "index":21,
@@ -9380,7 +9405,8 @@
                     4
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=21&sort=sortDefault"
         },
         {
             "index":22,
@@ -9691,7 +9717,8 @@
                     20
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=22&sort=sortDefault"
         },
         {
             "index":23,
@@ -10152,7 +10179,8 @@
                     7
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=23&sort=sortDefault"
         },
         {
             "index":24,
@@ -10663,7 +10691,8 @@
                     13
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=24&sort=sortDefault"
         },
         {
             "index":25,
@@ -10974,7 +11003,8 @@
                     27
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=25&sort=sortDefault"
         },
         {
             "index":26,
@@ -11335,7 +11365,8 @@
                     16
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=26&sort=sortDefault"
         },
         {
             "index":27,
@@ -11646,7 +11677,8 @@
                     15
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=27&sort=sortDefault"
         },
         {
             "index":28,
@@ -12057,7 +12089,8 @@
                     6
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=28&sort=sortDefault"
         },
         {
             "index":29,
@@ -12414,7 +12447,8 @@
                     9999
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=29&sort=sortDefault"
         },
         {
             "index":30,
@@ -12725,7 +12759,8 @@
                     26
                 ]
             ],
-            "rank_gap":7
+            "rank_gap":7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=30&sort=sortDefault"
         },
         {
             "index":31,
@@ -13082,7 +13117,8 @@
                     9999
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=31&sort=sortDefault"
         },
         {
             "index":32,
@@ -13341,7 +13377,8 @@
                     21
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=32&sort=sortDefault"
         },
         {
             "index":33,
@@ -13600,7 +13637,8 @@
                     34
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=33&sort=sortDefault"
         },
         {
             "index":34,
@@ -14011,7 +14049,8 @@
                     23
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=34&sort=sortDefault"
         },
         {
             "index":35,
@@ -14266,7 +14305,8 @@
                     9999
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=35&sort=sortDefault"
         },
         {
             "index":36,
@@ -14627,7 +14667,8 @@
                     35
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=36&sort=sortDefault"
         },
         {
             "index":37,
@@ -14938,7 +14979,8 @@
                     33
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=37&sort=sortDefault"
         },
         {
             "index":38,
@@ -15193,7 +15235,8 @@
                     9999
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=38&sort=sortDefault"
         },
         {
             "index":39,
@@ -15554,7 +15597,8 @@
                     24
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=39&sort=sortDefault"
         },
         {
             "index":40,
@@ -15865,7 +15909,8 @@
                     37
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=40&sort=sortDefault"
         },
         {
             "index":41,
@@ -16176,7 +16221,8 @@
                     40
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=41&sort=sortDefault"
         },
         {
             "index":42,
@@ -16487,7 +16533,8 @@
                     38
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=42&sort=sortDefault"
         },
         {
             "index":43,
@@ -16798,7 +16845,8 @@
                     28
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=43&sort=sortDefault"
         },
         {
             "index":44,
@@ -17155,7 +17203,8 @@
                     9999
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=44&sort=sortDefault"
         },
         {
             "index":45,
@@ -17466,7 +17515,8 @@
                     36
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=45&sort=sortDefault"
         },
         {
             "index":46,
@@ -17827,7 +17877,8 @@
                     46
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=46&sort=sortDefault"
         },
         {
             "index":47,
@@ -18188,7 +18239,8 @@
                     22
                 ]
             ],
-            "rank_gap":-11
+            "rank_gap":-11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=47&sort=sortDefault"
         },
         {
             "index":48,
@@ -18549,7 +18601,8 @@
                     29
                 ]
             ],
-            "rank_gap":-9
+            "rank_gap":-9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=48&sort=sortDefault"
         },
         {
             "index":49,
@@ -18860,7 +18913,8 @@
                     39
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=49&sort=sortDefault"
         },
         {
             "index":50,
@@ -19171,7 +19225,8 @@
                     41
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=50&sort=sortDefault"
         },
         {
             "index":51,
@@ -19582,7 +19637,8 @@
                     44
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=51&sort=sortDefault"
         },
         {
             "index":52,
@@ -19893,7 +19949,8 @@
                     43
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=52&sort=sortDefault"
         },
         {
             "index":53,
@@ -20152,7 +20209,8 @@
                     25
                 ]
             ],
-            "rank_gap":-5
+            "rank_gap":-5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=53&sort=sortDefault"
         },
         {
             "index":54,
@@ -20513,7 +20571,8 @@
                     42
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=54&sort=sortDefault"
         },
         {
             "index":55,
@@ -20874,7 +20933,8 @@
                     42
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=55&sort=sortDefault"
         },
         {
             "index":56,
@@ -21185,7 +21245,8 @@
                     31
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=56&sort=sortDefault"
         },
         {
             "index":57,
@@ -21592,7 +21653,8 @@
                     9999
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=57&sort=sortDefault"
         },
         {
             "index":58,
@@ -22053,7 +22115,8 @@
                     45
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=58&sort=sortDefault"
         },
         {
             "index":59,
@@ -22464,7 +22527,8 @@
                     32
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongbukdo&sub=4377000000_Chungcheongbukdo_Eumseong&mon=202212&complex=59&sort=sortDefault"
         }
     ]
 }

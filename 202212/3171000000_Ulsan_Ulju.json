@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -857,7 +861,8 @@
                     1
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1268,7 +1273,8 @@
                     2
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -1579,7 +1585,8 @@
                     3
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -2090,7 +2097,8 @@
                     8
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=3&sort=sortDefault"
         },
         {
             "index":4,
@@ -2551,7 +2559,8 @@
                     20
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=4&sort=sortDefault"
         },
         {
             "index":5,
@@ -2962,7 +2971,8 @@
                     6
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=5&sort=sortDefault"
         },
         {
             "index":6,
@@ -3323,7 +3333,8 @@
                     6
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=6&sort=sortDefault"
         },
         {
             "index":7,
@@ -3784,7 +3795,8 @@
                     18
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=7&sort=sortDefault"
         },
         {
             "index":8,
@@ -4245,7 +4257,8 @@
                     12
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=8&sort=sortDefault"
         },
         {
             "index":9,
@@ -4656,7 +4669,8 @@
                     16
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=9&sort=sortDefault"
         },
         {
             "index":10,
@@ -5017,7 +5031,8 @@
                     11
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=10&sort=sortDefault"
         },
         {
             "index":11,
@@ -5428,7 +5443,8 @@
                     23
                 ]
             ],
-            "rank_gap":10
+            "rank_gap":10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=11&sort=sortDefault"
         },
         {
             "index":12,
@@ -5839,7 +5855,8 @@
                     41
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=12&sort=sortDefault"
         },
         {
             "index":13,
@@ -6150,7 +6167,8 @@
                     5
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=13&sort=sortDefault"
         },
         {
             "index":14,
@@ -6511,7 +6529,8 @@
                     5
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=14&sort=sortDefault"
         },
         {
             "index":15,
@@ -6822,7 +6841,8 @@
                     13
                 ]
             ],
-            "rank_gap":7
+            "rank_gap":7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=15&sort=sortDefault"
         },
         {
             "index":16,
@@ -7325,7 +7345,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-9
+            "rank_gap":-9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=16&sort=sortDefault"
         },
         {
             "index":17,
@@ -7686,7 +7707,8 @@
                     4
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=17&sort=sortDefault"
         },
         {
             "index":18,
@@ -8147,7 +8169,8 @@
                     17
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=18&sort=sortDefault"
         },
         {
             "index":19,
@@ -8608,7 +8631,8 @@
                     29
                 ]
             ],
-            "rank_gap":16
+            "rank_gap":16,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=19&sort=sortDefault"
         },
         {
             "index":20,
@@ -9019,7 +9043,8 @@
                     36
                 ]
             ],
-            "rank_gap":14
+            "rank_gap":14,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=20&sort=sortDefault"
         },
         {
             "index":21,
@@ -9330,7 +9355,8 @@
                     27
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=21&sort=sortDefault"
         },
         {
             "index":22,
@@ -9557,7 +9583,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-13
+            "rank_gap":-13,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=22&sort=sortDefault"
         },
         {
             "index":23,
@@ -9868,7 +9895,8 @@
                     35
                 ]
             ],
-            "rank_gap":14
+            "rank_gap":14,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=23&sort=sortDefault"
         },
         {
             "index":24,
@@ -10421,7 +10449,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-10
+            "rank_gap":-10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=24&sort=sortDefault"
         },
         {
             "index":25,
@@ -10882,7 +10911,8 @@
                     6
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=25&sort=sortDefault"
         },
         {
             "index":26,
@@ -11443,7 +11473,8 @@
                     14
                 ]
             ],
-            "rank_gap":-13
+            "rank_gap":-13,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=26&sort=sortDefault"
         },
         {
             "index":27,
@@ -11804,7 +11835,8 @@
                     33
                 ]
             ],
-            "rank_gap":15
+            "rank_gap":15,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=27&sort=sortDefault"
         },
         {
             "index":28,
@@ -12215,7 +12247,8 @@
                     19
                 ]
             ],
-            "rank_gap":-8
+            "rank_gap":-8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=28&sort=sortDefault"
         },
         {
             "index":29,
@@ -12576,7 +12609,8 @@
                     25
                 ]
             ],
-            "rank_gap":-7
+            "rank_gap":-7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=29&sort=sortDefault"
         },
         {
             "index":30,
@@ -12937,7 +12971,8 @@
                     49
                 ]
             ],
-            "rank_gap":16
+            "rank_gap":16,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=30&sort=sortDefault"
         },
         {
             "index":31,
@@ -13298,7 +13333,8 @@
                     54
                 ]
             ],
-            "rank_gap":16
+            "rank_gap":16,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=31&sort=sortDefault"
         },
         {
             "index":32,
@@ -13809,7 +13845,8 @@
                     47
                 ]
             ],
-            "rank_gap":16
+            "rank_gap":16,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=32&sort=sortDefault"
         },
         {
             "index":33,
@@ -14220,7 +14257,8 @@
                     51
                 ]
             ],
-            "rank_gap":15
+            "rank_gap":15,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=33&sort=sortDefault"
         },
         {
             "index":34,
@@ -14581,7 +14619,8 @@
                     9
                 ]
             ],
-            "rank_gap":-6
+            "rank_gap":-6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=34&sort=sortDefault"
         },
         {
             "index":35,
@@ -14942,7 +14981,8 @@
                     74
                 ]
             ],
-            "rank_gap":15
+            "rank_gap":15,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=35&sort=sortDefault"
         },
         {
             "index":36,
@@ -15353,7 +15393,8 @@
                     7
                 ]
             ],
-            "rank_gap":-7
+            "rank_gap":-7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=36&sort=sortDefault"
         },
         {
             "index":37,
@@ -15814,7 +15855,8 @@
                     30
                 ]
             ],
-            "rank_gap":18
+            "rank_gap":18,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=37&sort=sortDefault"
         },
         {
             "index":38,
@@ -16317,7 +16359,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-5
+            "rank_gap":-5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=38&sort=sortDefault"
         },
         {
             "index":39,
@@ -17328,7 +17371,8 @@
                     22
                 ]
             ],
-            "rank_gap":-4
+            "rank_gap":-4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=39&sort=sortDefault"
         },
         {
             "index":40,
@@ -17739,7 +17783,8 @@
                     10
                 ]
             ],
-            "rank_gap":-10
+            "rank_gap":-10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=40&sort=sortDefault"
         },
         {
             "index":41,
@@ -18450,7 +18495,8 @@
                     51
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=41&sort=sortDefault"
         },
         {
             "index":42,
@@ -18811,7 +18857,8 @@
                     50
                 ]
             ],
-            "rank_gap":18
+            "rank_gap":18,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=42&sort=sortDefault"
         },
         {
             "index":43,
@@ -19222,7 +19269,8 @@
                     24
                 ]
             ],
-            "rank_gap":-6
+            "rank_gap":-6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=43&sort=sortDefault"
         },
         {
             "index":44,
@@ -19633,7 +19681,8 @@
                     37
                 ]
             ],
-            "rank_gap":-10
+            "rank_gap":-10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=44&sort=sortDefault"
         },
         {
             "index":45,
@@ -20044,7 +20093,8 @@
                     42
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=45&sort=sortDefault"
         },
         {
             "index":46,
@@ -20405,7 +20455,8 @@
                     58
                 ]
             ],
-            "rank_gap":10
+            "rank_gap":10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=46&sort=sortDefault"
         },
         {
             "index":47,
@@ -20664,7 +20715,8 @@
                     39
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=47&sort=sortDefault"
         },
         {
             "index":48,
@@ -21101,7 +21153,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-6
+            "rank_gap":-6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=48&sort=sortDefault"
         },
         {
             "index":49,
@@ -21508,7 +21561,8 @@
                     9999
                 ]
             ],
-            "rank_gap":10
+            "rank_gap":10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=49&sort=sortDefault"
         },
         {
             "index":50,
@@ -21969,7 +22023,8 @@
                     61
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=50&sort=sortDefault"
         },
         {
             "index":51,
@@ -22306,7 +22361,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-6
+            "rank_gap":-6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=51&sort=sortDefault"
         },
         {
             "index":52,
@@ -22767,7 +22823,8 @@
                     43
                 ]
             ],
-            "rank_gap":-9
+            "rank_gap":-9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=52&sort=sortDefault"
         },
         {
             "index":53,
@@ -23018,7 +23075,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-13
+            "rank_gap":-13,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=53&sort=sortDefault"
         },
         {
             "index":54,
@@ -23379,7 +23437,8 @@
                     63
                 ]
             ],
-            "rank_gap":12
+            "rank_gap":12,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=54&sort=sortDefault"
         },
         {
             "index":55,
@@ -23690,7 +23749,8 @@
                     82
                 ]
             ],
-            "rank_gap":13
+            "rank_gap":13,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=55&sort=sortDefault"
         },
         {
             "index":56,
@@ -24051,7 +24111,8 @@
                     67
                 ]
             ],
-            "rank_gap":21
+            "rank_gap":21,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=56&sort=sortDefault"
         },
         {
             "index":57,
@@ -24362,7 +24423,8 @@
                     66
                 ]
             ],
-            "rank_gap":21
+            "rank_gap":21,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=57&sort=sortDefault"
         },
         {
             "index":58,
@@ -24673,7 +24735,8 @@
                     38
                 ]
             ],
-            "rank_gap":12
+            "rank_gap":12,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=58&sort=sortDefault"
         },
         {
             "index":59,
@@ -25034,7 +25097,8 @@
                     31
                 ]
             ],
-            "rank_gap":-14
+            "rank_gap":-14,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=59&sort=sortDefault"
         },
         {
             "index":60,
@@ -25395,7 +25459,8 @@
                     15
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=60&sort=sortDefault"
         },
         {
             "index":61,
@@ -25756,7 +25821,8 @@
                     26
                 ]
             ],
-            "rank_gap":-6
+            "rank_gap":-6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=61&sort=sortDefault"
         },
         {
             "index":62,
@@ -26167,7 +26233,8 @@
                     72
                 ]
             ],
-            "rank_gap":12
+            "rank_gap":12,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=62&sort=sortDefault"
         },
         {
             "index":63,
@@ -26426,7 +26493,8 @@
                     85
                 ]
             ],
-            "rank_gap":14
+            "rank_gap":14,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=63&sort=sortDefault"
         },
         {
             "index":64,
@@ -26837,7 +26905,8 @@
                     91
                 ]
             ],
-            "rank_gap":21
+            "rank_gap":21,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=64&sort=sortDefault"
         },
         {
             "index":65,
@@ -27248,7 +27317,8 @@
                     91
                 ]
             ],
-            "rank_gap":21
+            "rank_gap":21,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=65&sort=sortDefault"
         },
         {
             "index":66,
@@ -27659,7 +27729,8 @@
                     28
                 ]
             ],
-            "rank_gap":-7
+            "rank_gap":-7,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=66&sort=sortDefault"
         },
         {
             "index":67,
@@ -28070,7 +28141,8 @@
                     30
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=67&sort=sortDefault"
         },
         {
             "index":68,
@@ -28381,7 +28453,8 @@
                     40
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=68&sort=sortDefault"
         },
         {
             "index":69,
@@ -28842,7 +28915,8 @@
                     55
                 ]
             ],
-            "rank_gap":-9
+            "rank_gap":-9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=69&sort=sortDefault"
         },
         {
             "index":70,
@@ -29303,7 +29377,8 @@
                     80
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=70&sort=sortDefault"
         },
         {
             "index":71,
@@ -29562,7 +29637,8 @@
                     21
                 ]
             ],
-            "rank_gap":11
+            "rank_gap":11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=71&sort=sortDefault"
         },
         {
             "index":72,
@@ -30073,7 +30149,8 @@
                     46
                 ]
             ],
-            "rank_gap":-8
+            "rank_gap":-8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=72&sort=sortDefault"
         },
         {
             "index":73,
@@ -30332,7 +30409,8 @@
                     68
                 ]
             ],
-            "rank_gap":10
+            "rank_gap":10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=73&sort=sortDefault"
         },
         {
             "index":74,
@@ -30591,7 +30669,8 @@
                     34
                 ]
             ],
-            "rank_gap":-8
+            "rank_gap":-8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=74&sort=sortDefault"
         },
         {
             "index":75,
@@ -31112,7 +31191,8 @@
                     9999
                 ]
             ],
-            "rank_gap":9999
+            "rank_gap":9999,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=75&sort=sortDefault"
         },
         {
             "index":76,
@@ -31523,7 +31603,8 @@
                     79
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=76&sort=sortDefault"
         },
         {
             "index":77,
@@ -31830,7 +31911,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=77&sort=sortDefault"
         },
         {
             "index":78,
@@ -32191,7 +32273,8 @@
                     44
                 ]
             ],
-            "rank_gap":-11
+            "rank_gap":-11,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=78&sort=sortDefault"
         },
         {
             "index":79,
@@ -32450,7 +32533,8 @@
                     75
                 ]
             ],
-            "rank_gap":10
+            "rank_gap":10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=79&sort=sortDefault"
         },
         {
             "index":80,
@@ -32911,7 +32995,8 @@
                     32
                 ]
             ],
-            "rank_gap":-10
+            "rank_gap":-10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=80&sort=sortDefault"
         },
         {
             "index":81,
@@ -33170,7 +33255,8 @@
                     69
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=81&sort=sortDefault"
         },
         {
             "index":82,
@@ -33481,7 +33567,8 @@
                     53
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=82&sort=sortDefault"
         },
         {
             "index":83,
@@ -33942,7 +34029,8 @@
                     56
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=83&sort=sortDefault"
         },
         {
             "index":84,
@@ -34253,7 +34341,8 @@
                     64
                 ]
             ],
-            "rank_gap":-10
+            "rank_gap":-10,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=84&sort=sortDefault"
         },
         {
             "index":85,
@@ -34764,7 +34853,8 @@
                     52
                 ]
             ],
-            "rank_gap":-3
+            "rank_gap":-3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=85&sort=sortDefault"
         },
         {
             "index":86,
@@ -35023,7 +35113,8 @@
                     81
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=86&sort=sortDefault"
         },
         {
             "index":87,
@@ -35282,7 +35373,8 @@
                     71
                 ]
             ],
-            "rank_gap":-4
+            "rank_gap":-4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=87&sort=sortDefault"
         },
         {
             "index":88,
@@ -35643,7 +35735,8 @@
                     45
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=88&sort=sortDefault"
         },
         {
             "index":89,
@@ -35902,7 +35995,8 @@
                     62
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=89&sort=sortDefault"
         },
         {
             "index":90,
@@ -36263,7 +36357,8 @@
                     77
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=90&sort=sortDefault"
         },
         {
             "index":91,
@@ -36724,7 +36819,8 @@
                     94
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=91&sort=sortDefault"
         },
         {
             "index":92,
@@ -37135,7 +37231,8 @@
                     57
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=92&sort=sortDefault"
         },
         {
             "index":93,
@@ -37596,7 +37693,8 @@
                     76
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=93&sort=sortDefault"
         },
         {
             "index":94,
@@ -37855,7 +37953,8 @@
                     86
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=94&sort=sortDefault"
         },
         {
             "index":95,
@@ -38166,7 +38265,8 @@
                     97
                 ]
             ],
-            "rank_gap":8
+            "rank_gap":8,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=95&sort=sortDefault"
         },
         {
             "index":96,
@@ -38425,7 +38525,8 @@
                     59
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=96&sort=sortDefault"
         },
         {
             "index":97,
@@ -38786,7 +38887,8 @@
                     73
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=97&sort=sortDefault"
         },
         {
             "index":98,
@@ -39247,7 +39349,8 @@
                     70
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=98&sort=sortDefault"
         },
         {
             "index":99,
@@ -39808,7 +39911,8 @@
                     84
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=99&sort=sortDefault"
         },
         {
             "index":100,
@@ -40219,7 +40323,8 @@
                     65
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=100&sort=sortDefault"
         },
         {
             "index":101,
@@ -40680,7 +40785,8 @@
                     78
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=101&sort=sortDefault"
         },
         {
             "index":102,
@@ -41091,7 +41197,8 @@
                     90
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=102&sort=sortDefault"
         },
         {
             "index":103,
@@ -41452,7 +41559,8 @@
                     88
                 ]
             ],
-            "rank_gap":4
+            "rank_gap":4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=103&sort=sortDefault"
         },
         {
             "index":104,
@@ -41913,7 +42021,8 @@
                     48
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=104&sort=sortDefault"
         },
         {
             "index":105,
@@ -42324,7 +42433,8 @@
                     92
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=105&sort=sortDefault"
         },
         {
             "index":106,
@@ -42685,7 +42795,8 @@
                     96
                 ]
             ],
-            "rank_gap":6
+            "rank_gap":6,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=106&sort=sortDefault"
         },
         {
             "index":107,
@@ -43146,7 +43257,8 @@
                     83
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=107&sort=sortDefault"
         },
         {
             "index":108,
@@ -43507,7 +43619,8 @@
                     87
                 ]
             ],
-            "rank_gap":9
+            "rank_gap":9,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=108&sort=sortDefault"
         },
         {
             "index":109,
@@ -43818,7 +43931,8 @@
                     60
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=109&sort=sortDefault"
         },
         {
             "index":110,
@@ -44379,7 +44493,8 @@
                     89
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=110&sort=sortDefault"
         },
         {
             "index":111,
@@ -44890,7 +45005,8 @@
                     93
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=111&sort=sortDefault"
         },
         {
             "index":112,
@@ -45197,7 +45313,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=112&sort=sortDefault"
         },
         {
             "index":113,
@@ -45558,7 +45675,8 @@
                     95
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=113&sort=sortDefault"
         },
         {
             "index":114,
@@ -45915,7 +46033,8 @@
                     9999
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Ulsan&sub=3171000000_Ulsan_Ulju&mon=202212&complex=114&sort=sortDefault"
         }
     ]
 }

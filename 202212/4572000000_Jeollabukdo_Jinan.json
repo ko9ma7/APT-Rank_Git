@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -757,7 +761,8 @@
                     1
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4572000000_Jeollabukdo_Jinan&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1064,7 +1069,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4572000000_Jeollabukdo_Jinan&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -1375,7 +1381,8 @@
                     2
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4572000000_Jeollabukdo_Jinan&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -1686,7 +1693,8 @@
                     3
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4572000000_Jeollabukdo_Jinan&mon=202212&complex=3&sort=sortDefault"
         },
         {
             "index":4,
@@ -2047,7 +2055,8 @@
                     4
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4572000000_Jeollabukdo_Jinan&mon=202212&complex=4&sort=sortDefault"
         }
     ]
 }

@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -705,7 +709,8 @@
                     1
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4872000000_Gyeongsangnamdo_Uiryeong&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1116,7 +1121,8 @@
                     3
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4872000000_Gyeongsangnamdo_Uiryeong&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -1477,7 +1483,8 @@
                     2
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4872000000_Gyeongsangnamdo_Uiryeong&mon=202212&complex=2&sort=sortDefault"
         }
     ]
 }

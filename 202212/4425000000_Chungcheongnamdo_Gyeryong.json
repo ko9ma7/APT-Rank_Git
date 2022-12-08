@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -799,7 +803,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/me2.do\/5CprLklP"
         },
         {
             "index":1,
@@ -1352,7 +1357,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/me2.do\/IIf1gCx4"
         },
         {
             "index":2,
@@ -2013,7 +2019,8 @@
                     4
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/me2.do\/Fyxn5VNp"
         },
         {
             "index":3,
@@ -2424,7 +2431,8 @@
                     1
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/me2.do\/G0Jl0TOH"
         },
         {
             "index":4,
@@ -2785,7 +2793,8 @@
                     2
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/me2.do\/xsY89LvK"
         },
         {
             "index":5,
@@ -3146,7 +3155,8 @@
                     2
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/me2.do\/5atqP1If"
         },
         {
             "index":6,
@@ -3907,7 +3917,8 @@
                     5
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/me2.do\/FaSwtNVY"
         },
         {
             "index":7,
@@ -4410,7 +4421,8 @@
                     9999
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/me2.do\/GrqNjrAu"
         },
         {
             "index":8,
@@ -4771,7 +4783,8 @@
                     3
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/me2.do\/x3iqY15h"
         },
         {
             "index":9,
@@ -5030,7 +5043,8 @@
                     6
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/me2.do\/xFronZpP"
         },
         {
             "index":10,
@@ -5341,7 +5355,8 @@
                     12
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/me2.do\/5oiXDNQZ"
         },
         {
             "index":11,
@@ -5652,7 +5667,8 @@
                     14
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/me2.do\/Fyxn5Vef"
         },
         {
             "index":12,
@@ -6063,7 +6079,8 @@
                     7
                 ]
             ],
-            "rank_gap":-3
+            "rank_gap":-3,
+            "sURL":"https:\/\/me2.do\/G9sti19d"
         },
         {
             "index":13,
@@ -6574,7 +6591,8 @@
                     8
                 ]
             ],
-            "rank_gap":-3
+            "rank_gap":-3,
+            "sURL":"https:\/\/me2.do\/xl1Cd6W5"
         },
         {
             "index":14,
@@ -6935,7 +6953,8 @@
                     10
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/me2.do\/5UGrBJ9o"
         },
         {
             "index":15,
@@ -7246,7 +7265,8 @@
                     9
                 ]
             ],
-            "rank_gap":-3
+            "rank_gap":-3,
+            "sURL":"https:\/\/me2.do\/FeCpoMvT"
         },
         {
             "index":16,
@@ -7607,7 +7627,8 @@
                     16
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/me2.do\/GLASIWBx"
         },
         {
             "index":17,
@@ -7968,7 +7989,8 @@
                     15
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/me2.do\/xHnDZUkj"
         },
         {
             "index":18,
@@ -8279,7 +8301,8 @@
                     17
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/me2.do\/5P2scvJn"
         }
     ]
 }

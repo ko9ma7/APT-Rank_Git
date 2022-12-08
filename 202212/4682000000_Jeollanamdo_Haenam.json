@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -857,7 +861,8 @@
                     1
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1116,7 +1121,8 @@
                     2
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -1577,7 +1583,8 @@
                     4
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -1884,7 +1891,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=3&sort=sortDefault"
         },
         {
             "index":4,
@@ -2245,7 +2253,8 @@
                     5
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=4&sort=sortDefault"
         },
         {
             "index":5,
@@ -2556,7 +2565,8 @@
                     3
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=5&sort=sortDefault"
         },
         {
             "index":6,
@@ -2811,7 +2821,8 @@
                     9999
                 ]
             ],
-            "rank_gap":3
+            "rank_gap":3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=6&sort=sortDefault"
         },
         {
             "index":7,
@@ -3070,7 +3081,8 @@
                     9
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=7&sort=sortDefault"
         },
         {
             "index":8,
@@ -3431,7 +3443,8 @@
                     14
                 ]
             ],
-            "rank_gap":2
+            "rank_gap":2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=8&sort=sortDefault"
         },
         {
             "index":9,
@@ -3842,7 +3855,8 @@
                     7
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=9&sort=sortDefault"
         },
         {
             "index":10,
@@ -4153,7 +4167,8 @@
                     5
                 ]
             ],
-            "rank_gap":-3
+            "rank_gap":-3,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=10&sort=sortDefault"
         },
         {
             "index":11,
@@ -4460,7 +4475,8 @@
                     9999
                 ]
             ],
-            "rank_gap":5
+            "rank_gap":5,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=11&sort=sortDefault"
         },
         {
             "index":12,
@@ -4771,7 +4787,8 @@
                     10
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=12&sort=sortDefault"
         },
         {
             "index":13,
@@ -5232,7 +5249,8 @@
                     12
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=13&sort=sortDefault"
         },
         {
             "index":14,
@@ -5543,7 +5561,8 @@
                     11
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=14&sort=sortDefault"
         },
         {
             "index":15,
@@ -5904,7 +5923,8 @@
                     8
                 ]
             ],
-            "rank_gap":-4
+            "rank_gap":-4,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=15&sort=sortDefault"
         },
         {
             "index":16,
@@ -6163,7 +6183,8 @@
                     15
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=16&sort=sortDefault"
         },
         {
             "index":17,
@@ -6474,7 +6495,8 @@
                     13
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=17&sort=sortDefault"
         },
         {
             "index":18,
@@ -6733,7 +6755,8 @@
                     16
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=18&sort=sortDefault"
         },
         {
             "index":19,
@@ -6992,7 +7015,8 @@
                     17
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=19&sort=sortDefault"
         },
         {
             "index":20,
@@ -7303,7 +7327,8 @@
                     18
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=20&sort=sortDefault"
         },
         {
             "index":21,
@@ -7714,7 +7739,8 @@
                     6
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4682000000_Jeollanamdo_Haenam&mon=202212&complex=21&sort=sortDefault"
         }
     ]
 }

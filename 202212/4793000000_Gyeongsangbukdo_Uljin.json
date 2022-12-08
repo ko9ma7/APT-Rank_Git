@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -1187,7 +1191,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4793000000_Gyeongsangbukdo_Uljin&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1548,7 +1553,8 @@
                     1
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4793000000_Gyeongsangbukdo_Uljin&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -2009,7 +2015,8 @@
                     2
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4793000000_Gyeongsangbukdo_Uljin&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -2320,7 +2327,8 @@
                     3
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4793000000_Gyeongsangbukdo_Uljin&mon=202212&complex=3&sort=sortDefault"
         },
         {
             "index":4,
@@ -2575,7 +2583,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4793000000_Gyeongsangbukdo_Uljin&mon=202212&complex=4&sort=sortDefault"
         },
         {
             "index":5,
@@ -2936,7 +2945,8 @@
                     4
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4793000000_Gyeongsangbukdo_Uljin&mon=202212&complex=5&sort=sortDefault"
         },
         {
             "index":6,
@@ -3373,7 +3383,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4793000000_Gyeongsangbukdo_Uljin&mon=202212&complex=6&sort=sortDefault"
         },
         {
             "index":7,
@@ -3784,7 +3795,8 @@
                     6
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4793000000_Gyeongsangbukdo_Uljin&mon=202212&complex=7&sort=sortDefault"
         },
         {
             "index":8,
@@ -4145,7 +4157,8 @@
                     5
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4793000000_Gyeongsangbukdo_Uljin&mon=202212&complex=8&sort=sortDefault"
         },
         {
             "index":9,
@@ -4602,7 +4615,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4793000000_Gyeongsangbukdo_Uljin&mon=202212&complex=9&sort=sortDefault"
         }
     ]
 }

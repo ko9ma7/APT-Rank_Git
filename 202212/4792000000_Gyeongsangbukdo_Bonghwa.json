@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -803,7 +807,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4792000000_Gyeongsangbukdo_Bonghwa&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1614,7 +1619,8 @@
                     1
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4792000000_Gyeongsangbukdo_Bonghwa&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -1971,7 +1977,8 @@
                     9999
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4792000000_Gyeongsangbukdo_Bonghwa&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -2278,7 +2285,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4792000000_Gyeongsangbukdo_Bonghwa&mon=202212&complex=3&sort=sortDefault"
         }
     ]
 }

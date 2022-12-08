@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -853,7 +857,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4672000000_Jeollanamdo_Gokseong&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1164,7 +1169,8 @@
                     2
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4672000000_Jeollanamdo_Gokseong&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -1475,7 +1481,8 @@
                     3
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4672000000_Jeollanamdo_Gokseong&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -1786,7 +1793,8 @@
                     4
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollanamdo&sub=4672000000_Jeollanamdo_Gokseong&mon=202212&complex=3&sort=sortDefault"
         }
     ]
 }

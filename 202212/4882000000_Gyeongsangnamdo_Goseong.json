@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -775,7 +779,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1236,7 +1241,8 @@
                     1
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -1491,7 +1497,8 @@
                     9999
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -1902,7 +1909,8 @@
                     2
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=3&sort=sortDefault"
         },
         {
             "index":4,
@@ -2213,7 +2221,8 @@
                     5
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=4&sort=sortDefault"
         },
         {
             "index":5,
@@ -2524,7 +2533,8 @@
                     4
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=5&sort=sortDefault"
         },
         {
             "index":6,
@@ -2885,7 +2895,8 @@
                     3
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=6&sort=sortDefault"
         },
         {
             "index":7,
@@ -3192,7 +3203,8 @@
                     9999
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=7&sort=sortDefault"
         },
         {
             "index":8,
@@ -3503,7 +3515,8 @@
                     10
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=8&sort=sortDefault"
         },
         {
             "index":9,
@@ -3964,7 +3977,8 @@
                     8
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=9&sort=sortDefault"
         },
         {
             "index":10,
@@ -4325,7 +4339,8 @@
                     9
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=10&sort=sortDefault"
         },
         {
             "index":11,
@@ -4736,7 +4751,8 @@
                     6
                 ]
             ],
-            "rank_gap":-1
+            "rank_gap":-1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=11&sort=sortDefault"
         },
         {
             "index":12,
@@ -4995,7 +5011,8 @@
                     11
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=12&sort=sortDefault"
         },
         {
             "index":13,
@@ -5254,7 +5271,8 @@
                     7
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangnamdo&sub=4882000000_Gyeongsangnamdo_Goseong&mon=202212&complex=13&sort=sortDefault"
         }
     ]
 }

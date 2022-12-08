@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -907,7 +911,8 @@
                     1
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4772000000_Gyeongsangbukdo_Gunwi&mon=202212&complex=0&sort=sortDefault"
         }
     ]
 }

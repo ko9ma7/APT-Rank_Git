@@ -440,6 +440,10 @@
             {
                 "name":"rank_gap",
                 "type":"integer"
+            },
+            {
+                "name":"sURL",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -859,7 +863,8 @@
                     2
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Incheon&sub=2871000000_Incheon_Ganghwa&mon=202212&complex=0&sort=sortDefault"
         },
         {
             "index":1,
@@ -1120,7 +1125,8 @@
                     3
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Incheon&sub=2871000000_Incheon_Ganghwa&mon=202212&complex=1&sort=sortDefault"
         },
         {
             "index":2,
@@ -1381,7 +1387,8 @@
                     4
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Incheon&sub=2871000000_Incheon_Ganghwa&mon=202212&complex=2&sort=sortDefault"
         },
         {
             "index":3,
@@ -1740,7 +1747,8 @@
                     9999
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Incheon&sub=2871000000_Incheon_Ganghwa&mon=202212&complex=3&sort=sortDefault"
         },
         {
             "index":4,
@@ -2153,7 +2161,8 @@
                     1
                 ]
             ],
-            "rank_gap":-2
+            "rank_gap":-2,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Incheon&sub=2871000000_Incheon_Ganghwa&mon=202212&complex=4&sort=sortDefault"
         },
         {
             "index":5,
@@ -2616,7 +2625,8 @@
                     5
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Incheon&sub=2871000000_Incheon_Ganghwa&mon=202212&complex=5&sort=sortDefault"
         },
         {
             "index":6,
@@ -3025,7 +3035,8 @@
                     9999
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Incheon&sub=2871000000_Incheon_Ganghwa&mon=202212&complex=6&sort=sortDefault"
         },
         {
             "index":7,
@@ -3388,7 +3399,8 @@
                     7
                 ]
             ],
-            "rank_gap":0
+            "rank_gap":0,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Incheon&sub=2871000000_Incheon_Ganghwa&mon=202212&complex=7&sort=sortDefault"
         },
         {
             "index":8,
@@ -3747,7 +3759,8 @@
                     9999
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Incheon&sub=2871000000_Incheon_Ganghwa&mon=202212&complex=8&sort=sortDefault"
         },
         {
             "index":9,
@@ -4060,7 +4073,8 @@
                     6
                 ]
             ],
-            "rank_gap":1
+            "rank_gap":1,
+            "sURL":"https:\/\/www.aptrank.kr\/?reg=Incheon&sub=2871000000_Incheon_Ganghwa&mon=202212&complex=9&sort=sortDefault"
         }
     ]
 }
