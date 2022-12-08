@@ -1630,7 +1630,12 @@
     shareText += "\nㆍ5km 이내 대형병원 : " + bigHospital_5km
     shareText += "\nㆍ중학교 보통 학력 이상 : " + mSchool_edu
     shareText += "\n"
-    shareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
+    if(Number(selectedMonth) > 202211){
+      shareURL = aptData.data[index]["sURL"]      
+    }
+    else{      
+      shareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
+    }
 
     if(broswerInfo.indexOf("inApp")>-1){
       if(apt_type == "분양(예정)"){
