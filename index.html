@@ -1631,7 +1631,8 @@
     shareText += "\nㆍ중학교 보통 학력 이상 : " + mSchool_edu
     shareText += "\n"
     if(Number(selectedMonth) > 202211){
-      shareURL = aptData.data[index]["sURL"]      
+      shareURL = aptData.data[index]["sURL"]
+      kakaoShareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
     }
     else{      
       shareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
@@ -1641,23 +1642,23 @@
       if(apt_type == "분양(예정)"){
         footerHtml += "<div></div>"
         footerHtml += "<div><button type='button' class='goLink_HGNN' onclick='openHGNN(\"" + searchCode + "\")'>호갱노노 보기</button></div>"
-        footerHtml += "<div><button type='button' class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><i class='fa-solid fa-comment'></i></button></div>"
+        footerHtml += "<div><button type='button' class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><i class='fa-solid fa-comment'></i></button></div>"
       }
       else{
         footerHtml += "<div></div>"
         footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(" + searchCode + ")'>네이버 부동산 보기</button></div>"
-        footerHtml += "<div><button type='button' class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><i class='fa-solid fa-comment'></i></button></div>"
+        footerHtml += "<div><button type='button' class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><i class='fa-solid fa-comment'></i></button></div>"
       }
     }
     else{
       if(apt_type == "분양(예정)"){
         footerHtml += "<div><button type='button' class='goLink_HGNN' onclick='openHGNN(\"" + searchCode + "\")'>호갱노노 보기</button></div>"
-        footerHtml += "<div><button type='button' class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><i class='fa-solid fa-comment'></i></button></div>"
+        footerHtml += "<div><button type='button' class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><i class='fa-solid fa-comment'></i></button></div>"
         footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
       }
       else{
         footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(\"" + searchCode + "\")'>네이버 부동산 보기</button></div>"
-        footerHtml += "<div><button type='button' class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><i class='fa-solid fa-comment'></i></button></div>"
+        footerHtml += "<div><button type='button' class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><i class='fa-solid fa-comment'></i></button></div>"
         footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
       }
     }
