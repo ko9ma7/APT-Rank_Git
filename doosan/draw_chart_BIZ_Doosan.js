@@ -434,7 +434,7 @@ function drawNonSalesChart(rankMonth, rankData, id_name, max_val){
         y:{
           display: false,          
           suggestedMax: max_val,
-          suggestedMin: 0,          
+          min: 0,          
         }
       },
       animation: {            
