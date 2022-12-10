@@ -94,6 +94,19 @@
         {
             "index":3,
             "sort":"balanced",
+            "name":"둔산더샵엘리프",
+            "search_code":"dLT86",
+            "apt_type":"분양(예정)",
+            "apt_year":-4.0,
+            "value_score":65.1768,
+            "region":"대전시 서구",
+            "region_code":"Daejeon",
+            "sub_region_code":"3017000000_Daejeon_Seo",
+            "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
+        },
+        {
+            "index":4,
+            "sort":"balanced",
             "name":"도안18단지린풀하우스",
             "search_code":"103924",
             "apt_type":"아파트",
@@ -105,7 +118,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":4,
+            "index":5,
             "sort":"balanced",
             "name":"누리",
             "search_code":"5847",
@@ -118,7 +131,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":5,
+            "index":6,
             "sort":"balanced",
             "name":"황실타운",
             "search_code":"5899",
@@ -131,7 +144,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":6,
+            "index":7,
             "sort":"balanced",
             "name":"탄방1구역재건축",
             "search_code":"dJmff",
@@ -144,7 +157,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":7,
+            "index":8,
             "sort":"balanced",
             "name":"한가람",
             "search_code":"5792",
@@ -157,7 +170,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":8,
+            "index":9,
             "sort":"balanced",
             "name":"관저리슈빌",
             "search_code":"12716",
@@ -170,20 +183,20 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":9,
-            "sort":"balanced",
-            "name":"맑은아침",
-            "search_code":"9138",
-            "apt_type":"아파트",
-            "apt_year":18.0,
-            "value_score":61.0526,
+            "index":10,
+            "sort":"living",
+            "name":"둔산더샵엘리프",
+            "search_code":"dLT86",
+            "apt_type":"분양(예정)",
+            "apt_year":-4.0,
+            "value_score":74.6384,
             "region":"대전시 서구",
             "region_code":"Daejeon",
             "sub_region_code":"3017000000_Daejeon_Seo",
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":10,
+            "index":11,
             "sort":"living",
             "name":"탄방1구역재건축",
             "search_code":"dJmff",
@@ -196,7 +209,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":11,
+            "index":12,
             "sort":"living",
             "name":"크로바",
             "search_code":"5986",
@@ -209,7 +222,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":12,
+            "index":13,
             "sort":"living",
             "name":"대전도마변동1힐스테이트",
             "search_code":"elJaf",
@@ -222,7 +235,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":13,
+            "index":14,
             "sort":"living",
             "name":"도안18단지린풀하우스",
             "search_code":"103924",
@@ -235,7 +248,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":14,
+            "index":15,
             "sort":"living",
             "name":"트리풀시티레이크포레",
             "search_code":"122931",
@@ -248,7 +261,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":15,
+            "index":16,
             "sort":"living",
             "name":"목련",
             "search_code":"5962",
@@ -261,7 +274,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":16,
+            "index":17,
             "sort":"living",
             "name":"누리",
             "search_code":"5847",
@@ -274,7 +287,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":17,
+            "index":18,
             "sort":"living",
             "name":"도안베르디움",
             "search_code":"103972",
@@ -287,26 +300,13 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":18,
+            "index":19,
             "sort":"living",
             "name":"황실타운",
             "search_code":"5899",
             "apt_type":"아파트",
             "apt_year":28.0,
             "value_score":62.3856,
-            "region":"대전시 서구",
-            "region_code":"Daejeon",
-            "sub_region_code":"3017000000_Daejeon_Seo",
-            "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
-        },
-        {
-            "index":19,
-            "sort":"living",
-            "name":"맑은아침",
-            "search_code":"9138",
-            "apt_type":"아파트",
-            "apt_year":18.0,
-            "value_score":62.2388,
             "region":"대전시 서구",
             "region_code":"Daejeon",
             "sub_region_code":"3017000000_Daejeon_Seo",
@@ -328,6 +328,19 @@
         {
             "index":21,
             "sort":"transport",
+            "name":"둔산더샵엘리프",
+            "search_code":"dLT86",
+            "apt_type":"분양(예정)",
+            "apt_year":-4.0,
+            "value_score":71.5788,
+            "region":"대전시 서구",
+            "region_code":"Daejeon",
+            "sub_region_code":"3017000000_Daejeon_Seo",
+            "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
+        },
+        {
+            "index":22,
+            "sort":"transport",
             "name":"목련",
             "search_code":"5962",
             "apt_type":"아파트",
@@ -339,7 +352,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":22,
+            "index":23,
             "sort":"transport",
             "name":"누리",
             "search_code":"5847",
@@ -352,7 +365,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":23,
+            "index":24,
             "sort":"transport",
             "name":"탄방1구역재건축",
             "search_code":"dJmff",
@@ -365,7 +378,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":24,
+            "index":25,
             "sort":"transport",
             "name":"황실타운",
             "search_code":"5899",
@@ -378,7 +391,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":25,
+            "index":26,
             "sort":"transport",
             "name":"녹원",
             "search_code":"5951",
@@ -391,7 +404,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":26,
+            "index":27,
             "sort":"transport",
             "name":"다모아",
             "search_code":"5852",
@@ -404,7 +417,7 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":27,
+            "index":28,
             "sort":"transport",
             "name":"진달래",
             "search_code":"5889",
@@ -417,26 +430,13 @@
             "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
         },
         {
-            "index":28,
+            "index":29,
             "sort":"transport",
             "name":"무지개",
             "search_code":"5866",
             "apt_type":"아파트",
             "apt_year":28.0,
             "value_score":67.9092,
-            "region":"대전시 서구",
-            "region_code":"Daejeon",
-            "sub_region_code":"3017000000_Daejeon_Seo",
-            "shorten_url":"https:\/\/me2.do\/5VAAFtw2"
-        },
-        {
-            "index":29,
-            "sort":"transport",
-            "name":"e편한세상둔산2단지",
-            "search_code":"120179",
-            "apt_type":"아파트",
-            "apt_year":2.0,
-            "value_score":67.6776,
             "region":"대전시 서구",
             "region_code":"Daejeon",
             "sub_region_code":"3017000000_Daejeon_Seo",
