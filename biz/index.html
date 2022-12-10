@@ -1326,13 +1326,15 @@ function ListUp(listData){
     drawRankChart(pop_rate_text, pop_rate_array, "popChart", popMax)
 
     salesMax = Math.max(...sales_rate_array) * 1.05
-    drawRankChart(sales_rate_text, sales_rate_array, "salesChart", salesMax)
+    drawSalesChart(sales_rate_text, sales_rate_array, "salesChart", salesMax)
 
     dealMax = Math.max(...deal_array) * 1.1
     drawDealChart(deal_text, deal_array, "dealChart", dealMax, deal_10y)
     
     drawRentChart(rent_rate_text, rent_rate_array, "rentChart", rent_rate_10y)
-    drawSupplyChart(supply_text, supply_array, supply_new_array, "supplyChart", supply_10y)   
+
+    supplyMax = ( Math.max(...supply_array) + Math.max(...supply_new_array) ) * 1.1
+    drawSupplyChart(supply_text, supply_array, supply_new_array, "supplyChart", supply_10y, supplyMax)   
     drawNonSalesChart(non_sales_text, non_sales_array, "nonSalesChart")
   }
   saveLocalStorage()

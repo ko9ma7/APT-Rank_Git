@@ -50,7 +50,71 @@ function drawRankChart(rankMonth, rankData, id_name, max_val){
           textAlign: 'center',          
           font: {            
             size: 11,
-          },              
+          },
+          formatter: function(value){
+            return value.toLocaleString()
+          }
+        }
+      }
+    },
+});
+}
+function drawSalesChart(rankMonth, rankData, id_name, max_val){
+  var label = rankMonth
+  var data = rankData
+  var align_number = 'start'  
+
+  var ctx = document.getElementById(id_name).getContext('2d');
+  var myChart = new Chart(ctx, {
+    type: 'line',
+    plugins:[ChartDataLabels],    
+    data:{
+      labels: label,
+      datasets:[{
+        data: data,        
+        borderColor: "#162235",
+        borderWidth: 1,
+        backgroundColor: "#162235",
+      }],
+    },
+    options: {      
+      responsive: true,      
+      maintainAspectRatio: false,
+      scales:{
+        y:{
+          display: false,          
+          suggestedMax: max_val,
+          //suggestedMin: min_val,
+          //ticks:{            
+          //  stepSize: 0.1,
+          //}
+        }
+      },
+      animation: {            
+        y:{
+          from: 200
+        }
+      },
+      plugins: {
+        legend: {
+          display: false,
+        },
+        title: {
+          display: false,          
+        },
+        datalabels: {
+          display: true,          
+          color: 'black',
+          align: 'top',
+          anchor: 'start',
+          padding: 4,
+          textAlign: 'center',          
+          font: {            
+            size: 11,
+          },
+          formatter: function(value){
+            return ( Number(value) ).toFixed(2)
+          }
         }
       }
     },
@@ -82,7 +146,10 @@ function drawDealChart(rankMonth, rankData, id_name, max_val, avg10){
           textAlign: 'center',          
           font: {            
             size: 11,
-          },              
+          },
+          formatter: function(value){
+            return ( Number(value) ).toFixed(0)
+          }              
         }
       },
       {
@@ -203,7 +270,7 @@ function drawRentChart(rankMonth, rankData, id_name, avg10){
 });
 }
 
-function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10){
+function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10, max_val){
   var label = rankMonth
   var data = rankData
   var data2 = rankData2
@@ -231,6 +298,9 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10){
             weight: 'bold',
             size: 11,
           },              
+          formatter: function(value){
+            return ( Number(value) ).toLocaleString()
+          }
         },
       },      
       {        
@@ -249,7 +319,15 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10){
           font: {
             weight: 'bold',
             size: 11,
-          },              
+          },
+          formatter: function(value){
+            if(value == 0){
+              return null
+            }
+            else{
+              return ( Number(value) ).toLocaleString()
+            }
+          }
         },
       },
       {
@@ -275,7 +353,7 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10){
         y:{
           display: false,
           stacked: true,        
-          //suggestedMax: 95,
+          suggestedMax: max_val,
           //suggestedMin: 0,          
         },
         x:{
@@ -288,8 +366,17 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10){
         }
       },
       plugins: {
-        legend: {
+        legend: {          
           display: true,
+          position: 'left',
+          align: 'start',
+          labels:{
+            boxWidth: 12,
+            boxHeight: 12,
+            font:{
+              size: 12
+            }            
+          }
         },
         title: {
           display: false,          
@@ -325,7 +412,15 @@ function drawNonSalesChart(rankMonth, rankData, id_name){
           font: {
             weight: 'bold',
             size: 11,
-          },              
+          },
+          formatter: function(value){
+            if(value == null){
+              return null
+            }
+            else{
+              return ( Number(value) ).toLocaleString()
+            }
+          }
         },
       }],
     },
@@ -336,7 +431,7 @@ function drawNonSalesChart(rankMonth, rankData, id_name){
         y:{
           display: false,          
           //suggestedMax: 95,
-          //suggestedMin: 0,          
+          suggestedMin: 0,          
         }
       },
       animation: {            
