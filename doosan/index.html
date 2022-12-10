@@ -1120,6 +1120,7 @@ function ListUp(listData){
                 pop_rate_5y = Number(pop_rate[5]).toFixed(2)
                 var pop_rate_text = ["(<전)", "5년", "3년", "1년", "6개월", "3개월", "1개월", "현재", "(후>)"]
                 var pop_rate_array = [null, pop_info[6][0], pop_info[5][0], pop_info[4][0], pop_info[3][0], pop_info[2][0], pop_info[1][0], pop_info[0][0], null]
+                var pop_house_array = [null, pop_info[6][1], pop_info[5][1], pop_info[4][1], pop_info[3][1], pop_info[2][1], pop_info[1][1], pop_info[0][1], null]
 
                 if(pop_rate_1m < 0){ pop_rate_1m = "<span style='color:#fe4040'>-" + (pop_rate_1m)*-1 + "% </span>" } else{ pop_rate_1m = "<span style='color:#000'>+" + (pop_rate_1m) + "% </span>" }
                 if(pop_rate_3m < 0){ pop_rate_3m = "<span style='color:#fe4040'>-" + (pop_rate_3m)*-1 + "% </span>" } else{ pop_rate_3m = "<span style='color:#000'>+" + (pop_rate_3m) + "% </span>" }
@@ -1308,6 +1309,57 @@ function ListUp(listData){
               addon_html += "</div>"
             addon_html += "</div>"
 
+            //미분양
+            addon_html += "<div class='subRegion_info'>"              
+
+            find_name = selectedSubRegion.split("_")
+            var non_sales_add_text = ""
+            if(find_name[2] == "Goyang"){ non_sales_add_text = " (고양시 전체)" }
+            if(find_name[2] == "Seongnam"){ non_sales_add_text = " (성남시 전체)" }
+            if(find_name[2] == "Suwon"){ non_sales_add_text = " (수원시 전체)" }
+            if(find_name[2] == "Ansan"){ non_sales_add_text = " (안산시 전체)" }
+            if(find_name[2] == "Anyang"){ non_sales_add_text = " (안양시 전체)" }
+            if(find_name[2] == "Yongin"){ non_sales_add_text = " (용인시 전체)" }
+            if(find_name[2] == "Cheongju"){ non_sales_add_text = " (청주시 전체)" }
+            if(find_name[2] == "Cheonan"){ non_sales_add_text = " (천안시 전체)" }
+            if(find_name[2] == "Jeonju"){ non_sales_add_text = " (전주시 전체)" }
+            if(find_name[2] == "Pohang"){ non_sales_add_text = " (포항시 전체)" }
+            if(find_name[2] == "Changwon"){ non_sales_add_text = " (창원시 전체)" }              
+
+            addon_html += "<div class='subRegion_title'>"
+              addon_html += "<div class='subRegion_name'>" + "<span style='color:" + set_color(non_sales_result[0]) +"'>●</span>" + " 미분양" + non_sales_add_text + "<span style='font-size: 0.85em'> (" + non_sales_result[0].toFixed(2) + "점 / "+ non_sales_result[2] +")</span></div>"
+              addon_html += "<div class='subRegion_qna' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice(\"non_sales\")'><i class='fa-solid fa-circle-question'></i></div>"
+            addon_html += "</div>"
+
+              addon_html += "<div class = 'subRegion_non_sales_table1'>"
+              addon_html += "<div class='table_top'>당월 미분양</div>" + "<div class='table_top'>위험수준</div>"
+              
+              non_sales_this = Number(non_sales_result[3]).toFixed(0) + "세대"                
+
+              addon_html += "<div><strong>" + non_sales_this + "</div>" + "<div>" + non_sales_result[1] + "</strong></div>"
+            addon_html += "</div>"
+
+            addon_html += "<div class='graph'> <canvas id='nonSalesChart'></canvas></div>"
+
+            addon_html += "<div class = 'subRegion_non_sales_table2'>"
+              addon_html += "<div class='table_top'>5개월 전</div>" + "<div class='table_top'>4개월 전</div>" + "<div class='table_top'>3개월 전</div>"
+                              + "<div class='table_top'>2개월 전</div>" + "<div class='table_top'><strong>1개월 전</strong></div>"
+              
+              non_sales_1m = Number(non_sales_result[4]).toFixed(0) + "세대"
+              non_sales_2m = Number(non_sales_result[5]).toFixed(0) + "세대"
+              non_sales_3m = Number(non_sales_result[6]).toFixed(0) + "세대"
+              non_sales_4m = Number(non_sales_result[7]).toFixed(0) + "세대"
+              non_sales_5m = Number(non_sales_result[8]).toFixed(0) + "세대"
+
+              var non_sales_text = ["(<전)", "5개월", "4개월", "3개월",  "2개월", "1개월", "당월", "(후>)"]
+              var non_sales_array = [null, Number(non_sales_result[8]).toFixed(0), Number(non_sales_result[7]).toFixed(0), Number(non_sales_result[6]).toFixed(0), Number(non_sales_result[5]).toFixed(0)
+                                    , Number(non_sales_result[4]).toFixed(0), Number(non_sales_result[3]).toFixed(0), null]
+
+              addon_html += "<div>" + non_sales_5m + "</div>" + "<div>" + non_sales_4m + "</div>" + "<div>" + non_sales_3m + "</div>"
+                            + "<div>" + non_sales_2m + "</div>" + "<div><strong>" + non_sales_1m + "</strong></div>"
+            addon_html += "</div>"
+            addon_html += "</div>"            
+
             
 
             //입주물량
@@ -1366,56 +1418,7 @@ function ListUp(listData){
               addon_html += "</div>"
             addon_html += "</div>"
 
-            //미분양
-            addon_html += "<div class='subRegion_info'>"              
 
-              find_name = selectedSubRegion.split("_")
-              var non_sales_add_text = ""
-              if(find_name[2] == "Goyang"){ non_sales_add_text = " (고양시 전체)" }
-              if(find_name[2] == "Seongnam"){ non_sales_add_text = " (성남시 전체)" }
-              if(find_name[2] == "Suwon"){ non_sales_add_text = " (수원시 전체)" }
-              if(find_name[2] == "Ansan"){ non_sales_add_text = " (안산시 전체)" }
-              if(find_name[2] == "Anyang"){ non_sales_add_text = " (안양시 전체)" }
-              if(find_name[2] == "Yongin"){ non_sales_add_text = " (용인시 전체)" }
-              if(find_name[2] == "Cheongju"){ non_sales_add_text = " (청주시 전체)" }
-              if(find_name[2] == "Cheonan"){ non_sales_add_text = " (천안시 전체)" }
-              if(find_name[2] == "Jeonju"){ non_sales_add_text = " (전주시 전체)" }
-              if(find_name[2] == "Pohang"){ non_sales_add_text = " (포항시 전체)" }
-              if(find_name[2] == "Changwon"){ non_sales_add_text = " (창원시 전체)" }              
-
-              addon_html += "<div class='subRegion_title'>"
-                addon_html += "<div class='subRegion_name'>" + "<span style='color:" + set_color(non_sales_result[0]) +"'>●</span>" + " 미분양" + non_sales_add_text + "<span style='font-size: 0.85em'> (" + non_sales_result[0].toFixed(2) + "점 / "+ non_sales_result[2] +")</span></div>"
-                addon_html += "<div class='subRegion_qna' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice(\"non_sales\")'><i class='fa-solid fa-circle-question'></i></div>"
-              addon_html += "</div>"
-          
-                addon_html += "<div class = 'subRegion_non_sales_table1'>"
-                addon_html += "<div class='table_top'>당월 미분양</div>" + "<div class='table_top'>위험수준</div>"
-                
-                non_sales_this = Number(non_sales_result[3]).toFixed(0) + "세대"                
-
-                addon_html += "<div><strong>" + non_sales_this + "</div>" + "<div>" + non_sales_result[1] + "</strong></div>"
-              addon_html += "</div>"
-
-              addon_html += "<div class='graph'> <canvas id='nonSalesChart'></canvas></div>"
-
-              addon_html += "<div class = 'subRegion_non_sales_table2'>"
-                addon_html += "<div class='table_top'>5개월 전</div>" + "<div class='table_top'>4개월 전</div>" + "<div class='table_top'>3개월 전</div>"
-                                + "<div class='table_top'>2개월 전</div>" + "<div class='table_top'><strong>1개월 전</strong></div>"
-                
-                non_sales_1m = Number(non_sales_result[4]).toFixed(0) + "세대"
-                non_sales_2m = Number(non_sales_result[5]).toFixed(0) + "세대"
-                non_sales_3m = Number(non_sales_result[6]).toFixed(0) + "세대"
-                non_sales_4m = Number(non_sales_result[7]).toFixed(0) + "세대"
-                non_sales_5m = Number(non_sales_result[8]).toFixed(0) + "세대"
-
-                var non_sales_text = ["(<전)", "5개월", "4개월", "3개월",  "2개월", "1개월", "당월", "(후>)"]
-                var non_sales_array = [null, Number(non_sales_result[8]).toFixed(0), Number(non_sales_result[7]).toFixed(0), Number(non_sales_result[6]).toFixed(0), Number(non_sales_result[5]).toFixed(0)
-                                       , Number(non_sales_result[4]).toFixed(0), Number(non_sales_result[3]).toFixed(0), null]
-
-                addon_html += "<div>" + non_sales_5m + "</div>" + "<div>" + non_sales_4m + "</div>" + "<div>" + non_sales_3m + "</div>"
-                              + "<div>" + non_sales_2m + "</div>" + "<div><strong>" + non_sales_1m + "</strong></div>"
-              addon_html += "</div>"
-            addon_html += "</div>"
           addon_html += "</div>"
       }
     }
@@ -1423,20 +1426,23 @@ function ListUp(listData){
 
   $('#dataList').append(addon_html);  
   if(selectedRegion != 'Korea'){
-    popMax = Math.max(...pop_rate_array) * 1.008
-    drawRankChart(pop_rate_text, pop_rate_array, "popChart", popMax)
+    popMax = Math.max(...pop_rate_array) * 1.05
+    drawRankChart(pop_rate_text, [pop_rate_array, pop_house_array], "popChart", popMax)
 
     salesMax = Math.max(...sales_rate_array) * 1.05
-    drawRankChart(sales_rate_text, sales_rate_array, "salesChart", salesMax)
+    drawPriceChart(sales_rate_text, sales_rate_array, "salesChart", salesMax)
+
+    rentMax = Math.max(...rent_rate_array) * 1.1
+    drawPriceChart(rent_rate_text, rent_rate_array, "rentChart", rentMax)
 
     dealMax = Math.max(...deal_array) * 1.1
     drawDealChart(deal_text_array, deal_array, "dealChart", dealMax, deal_3y)
 
-    rentMax = Math.max(...rent_rate_array) * 1.1
-    drawRankChart(rent_rate_text, rent_rate_array, "rentChart", rentMax)
+    supplyMax = ( Math.max(...supply_array) + Math.max(...supply_new_array) ) * 1.1
+    drawSupplyChart(supply_text, supply_array, supply_new_array, "supplyChart", supply_10y, supplyMax)
 
-    drawSupplyChart(supply_text, supply_array, supply_new_array, "supplyChart", supply_10y)   
-    drawNonSalesChart(non_sales_text, non_sales_array, "nonSalesChart")
+    nonSalesMax = Math.max(...non_sales_array) * 1.2
+    drawNonSalesChart(non_sales_text, non_sales_array, "nonSalesChart", nonSalesMax)
   }
   saveLocalStorage()
 }
