@@ -143,8 +143,8 @@ function drawChart_op(aptValue, transportScore, infraScore, livingScore, eduScor
         },            
         datalabels: {
           display: true,
-          color: color,
-          align: align,
+          color: colorArray,
+          align: alignArray,
           anchor: 'end',              
           offset: 6,
           textAlign: 'center',
@@ -214,8 +214,8 @@ function drawSubChart(score, avgScore, label1, label2, color1, color2, className
           },            
           datalabels: {
             display: true,
-            color: color,
-            align: align,
+            color: colorArray,
+            align: alignArray,
             anchor: 'end',              
             offset: 6,
             textAlign: 'center',
@@ -293,8 +293,8 @@ function drawSimulSubChart(score, avgScore, label1, label2, color1, color2, clas
         },            
         datalabels: {
           display: true,
-          color: color,
-          align: align,
+          color: colorArray,
+          align: alignArray,
           anchor: 'end',              
           offset: 6,
           textAlign: 'center',
