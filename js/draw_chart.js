@@ -1,8 +1,6 @@
 function drawChart(aptValue, livingScore, transportScore, infraScore, eduScore){
     var label = ["총점", "주거", "교통", "인프라", "교육"]
     var data = [aptValue, livingScore, transportScore, infraScore, eduScore]      
-    var color = 'white'
-    var align = 'start'
 
     if(isNaN(transportScore) || transportScore == 0){
       label = ["총점", "주거", "인프라", "교육"]
@@ -12,10 +10,19 @@ function drawChart(aptValue, livingScore, transportScore, infraScore, eduScore){
       label = ["총점", "공급필요", "인구수", "일자리수"]
       data = [aptValue, livingScore, transportScore, infraScore]        
     }
-    if(aptValue < 85 && livingScore < 85 && transportScore < 85 && infraScore < 85){
-      color = 'black'
-      align = 'end'
-    }
+
+    var colorArray = []
+    var alignArray = []
+    for (var i = 0; i < data.length ; i++){
+      if(data[i] < 85){
+        colorArray.push('black')
+        alignArray.push('end')
+      }
+      else{
+        colorArray.push('white')
+        alignArray.push('start')
+      }
+    }    
 
     var ctx = document.getElementById("valueChart").getContext('2d');
     var myChart = new Chart(ctx, {
@@ -48,8 +55,8 @@ function drawChart(aptValue, livingScore, transportScore, infraScore, eduScore){
           },            
           datalabels: {
             display: true,
-            color: color,
-            align: align,
+            color: colorArray,
+            align: alignArray,
             anchor: 'end',              
             offset: 6,
             textAlign: 'center',
@@ -91,9 +98,18 @@ function drawChart_op(aptValue, transportScore, infraScore, livingScore, eduScor
     label = ["총점", "공급필요", "인구수", "일자리수"]
     data = [aptValue, livingScore, transportScore, infraScore]        
   }
-  if(aptValue < 85 && livingScore < 85 && transportScore < 85 && infraScore < 85){
-    color = 'black'
-    align = 'end'
+
+  var colorArray = []
+  var alignArray = []
+  for (var i = 0; i < data.length ; i++){
+    if(data[i] < 85){
+      colorArray.push('black')
+      alignArray.push('end')
+    }
+    else{
+      colorArray.push('white')
+      alignArray.push('start')
+    }
   }
 
   var ctx = document.getElementById("valueChart").getContext('2d');
@@ -160,10 +176,19 @@ function drawSubChart(score, avgScore, label1, label2, color1, color2, className
     var ctx = document.getElementById(className).getContext('2d');
     var color = 'white'
     var align = 'start'
+    var data = [score, avgScore]
 
-    if(score < 85 && avgScore < 85){
-      color = 'black'
-      align = 'end'      
+    var colorArray = []
+    var alignArray = []
+    for (var i = 0; i < data.length ; i++){
+      if(data[i] < 85){
+        colorArray.push('black')
+        alignArray.push('end')
+      }
+      else{
+        colorArray.push('white')
+        alignArray.push('start')
+      }
     }
 
     var myChart = new Chart(ctx, {
@@ -172,7 +197,7 @@ function drawSubChart(score, avgScore, label1, label2, color1, color2, className
       data: {          
         labels: [label1, label2],
         datasets: [{                
-          data: [score, avgScore],
+          data: data,
           backgroundColor: [
               color1,
               color2,
@@ -222,10 +247,19 @@ function drawSimulSubChart(score, avgScore, label1, label2, color1, color2, clas
   var ctx = document.getElementById(className).getContext('2d');
   var color = 'white'
   var align = 'start'
+  var data = [score, avgScore]
 
-  if(score < 85 && avgScore < 85){
-    color = 'black'
-    align = 'end'      
+  var colorArray = []
+  var alignArray = []
+  for (var i = 0; i < data.length ; i++){
+    if(data[i] < 85){
+      colorArray.push('black')
+      alignArray.push('end')
+    }
+    else{
+      colorArray.push('white')
+      alignArray.push('start')
+    }
   }
 
   var myChart = new Chart(ctx, {
@@ -234,7 +268,7 @@ function drawSimulSubChart(score, avgScore, label1, label2, color1, color2, clas
     data: {          
       labels: [label1, label2],
       datasets: [{                
-        data: [score, avgScore],
+        data: data,
         borderColor:[
           color1,
           color2
