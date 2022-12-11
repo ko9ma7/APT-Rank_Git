@@ -311,9 +311,11 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10, max_val
             weight: 'bold',
             size: 11,
           },
-          formatter: function(value, context) {            
-            return Number(value).toLocaleString();
-          }              
+          /*            
+          formatter: function(value){
+            return (Number(value)).toLocaleString()
+          }
+          */              
         },
       },
       {        
@@ -334,9 +336,14 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10, max_val
             weight: 'bold',
             size: 11,
           },
-          formatter: function(value, context) {            
-            return Number(value).toLocaleString();
-          }
+          formatter: function(value){
+            if(value == 0){
+              return null
+            }
+            else{
+              //return ( Number(value) ).toLocaleString()              
+            }
+          }  
         },
       },
       {

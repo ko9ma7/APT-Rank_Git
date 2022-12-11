@@ -297,13 +297,15 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10, max_val
           font: {
             weight: 'bold',
             size: 11,
-          },              
+          },
+          /*            
           formatter: function(value){
-            return ( Number(value) ).toLocaleString()
+            return (Number(value)).toLocaleString()
           }
+          */
         },
-      },      
-      {        
+      },
+      {
         type: 'bar',
         label: '분양',
         data: data2,        
@@ -319,15 +321,15 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10, max_val
           font: {
             weight: 'bold',
             size: 11,
-          },
+          },          
           formatter: function(value){
             if(value == 0){
               return null
             }
             else{
-              return ( Number(value) ).toLocaleString()
+              //return ( Number(value) ).toLocaleString()              
             }
-          }
+          }          
         },
       },
       {
