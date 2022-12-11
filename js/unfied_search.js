@@ -34,6 +34,7 @@ function closeUnifiedSearch(){
 var unifiedInput = ""
 function unifiedAptSearch(){
   $('#dataList').html("");
+  $('#searchingBox').html("");
   unifiedInput = $('#inputUnifiedSearch').val()
   if(unifiedInput.length >= 2){
     for(var i = 0 ; i < searchingData.data.length ; i++){
@@ -53,6 +54,7 @@ function unifiedAptSearch(){
         addon_html += "</div>"
 
         $('#dataList').append(addon_html);
+        $('#searchingBox').append(addon_html);
       }
     }
 
@@ -75,10 +77,11 @@ function unifiedAptSearch(){
 }
 
 var searched_code = ""
-var title_loading_html = "<div class='popupTitle'><h1 style='font-size: 1em; font-weight: 600'>데이터를 불러오고 있어요!</h></div>";
-var detail_loading_html = "<div></div>";
+//var title_loading_html = "<div class='popupTitle'><h1 style='font-size: 1em; font-weight: 600'>데이터를 불러오고 있어요!</h></div>";
+var title_loading_html = "";
+var detail_loading_html = "<div style='text-align: center'><br><br><br><br><br><img src='loading_block.gif' width='80px' height='80px'/><br><h1 style='font-size: 1em; font-weight: 600'>데이터를 불러오고 있어요!</h><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>";
 var footer_loading_html = "<div></div>"
-function searchingUpdate(code, sido, gungu){  
+function searchingUpdate(code, sido, gungu){
 
   $('#exampleModalLabel').html(title_loading_html);
   $('#aptDetail').html(detail_loading_html);
@@ -90,6 +93,5 @@ function searchingUpdate(code, sido, gungu){
   $("#sido").val(sido).prop("selected", true);  
   sortSelection = "sortDefault"  
   optionChange(selectedSubRegion)
-  //updateRegion()
   closeUnifiedSearch()
 }
