@@ -1038,7 +1038,7 @@
     detailHtml += "<div class='card'>";
     detailHtml += "<div class='card-header'>";
 
-     var sortName = ""
+    var sortName = ""
 
     if (sortSelection == "sortDefault"){ sortName = "균형잡힌" }
     if (sortSelection == "sortLiving"){ sortName = "주거우선" }
@@ -1299,7 +1299,8 @@
       else{
         minDistance = parseInt(pSchool_distance - 100)
       }
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "초등학교 거리" + "</div>" + "<div class='popResult'>" + minDistance + "~" + parseInt(pSchool_distance) + "m</div></div>";      
+      maxDistance = parseInt(pSchool_distance)
+      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "초등학교 거리" + "</div>" + "<div class='popResult'>" + minDistance.toLocaleString() + "~" + maxDistance.toLocaleString() + "m</div></div>";      
     }
 
     if(pSchool_edu > 95 && pSchool_edu <= 100 ){
@@ -1711,7 +1712,7 @@
       drawRankChart(rankMonth, rankData, aptData.data[itemNum-1]["rank"])
     }
 
-    drawChart(aptValue, livingScore, transportScore, infraScore, eduScore)
+    drawChart(aptValue.toFixed(2), livingScore, transportScore, infraScore, eduScore)
     drawSubChart(livingScore, avgLivingScore, "주거총점", "지역평균", "#fe4040", "#9f9f9f",  "livingChart")
     if(isNaN(transportScore) == false){
       drawSubChart(transportScore, avgTransportScore, "교통총점", "지역평균", "#fe4040", "#9f9f9f", "transportChart")
