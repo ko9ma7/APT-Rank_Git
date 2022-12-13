@@ -20,9 +20,9 @@ function drawRankChart(rankMonth, rankData, id_name, max_val){
       {
         label: '세대',
         data: data_house,        
-        borderColor: "rgba(46, 204, 35, 0.5)",
+        borderColor: "#148f2f",
         borderWidth: 1,
-        backgroundColor: "rgba(46, 204, 35, 0.5)",
+        backgroundColor: "#148f2f",
       }],
     },
     options: {      
@@ -78,9 +78,10 @@ function drawRankChart(rankMonth, rankData, id_name, max_val){
 });
 }
 
-function drawPriceChart(rankMonth, rankData, id_name, max_val){
+function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val){
   var label = rankMonth
-  var data = rankData
+  var sales_data = rankData
+  var rent_data = rankData2
   var align_number = 'start'  
 
   var ctx = document.getElementById(id_name).getContext('2d');
@@ -90,10 +91,18 @@ function drawPriceChart(rankMonth, rankData, id_name, max_val){
     data:{
       labels: label,
       datasets:[{
-        data: data,        
+        label: '매매',
+        data: sales_data,
         borderColor: "#0c4ea2",
         borderWidth: 1,
         backgroundColor: "#0c4ea2",
+      },
+      {
+        label: '전세',
+        data: rent_data,
+        borderColor: "#148f2f",
+        borderWidth: 1,
+        backgroundColor: "#148f2f",
       }],
     },
     options: {      
@@ -115,8 +124,17 @@ function drawPriceChart(rankMonth, rankData, id_name, max_val){
         }
       },
       plugins: {
-        legend: {
-          display: false,
+        legend: {          
+          display: true,
+          position: 'left',
+          align: 'start',
+          labels:{
+            boxWidth: 12,
+            boxHeight: 12,
+            font:{
+              size: 12
+            }            
+          }
         },
         title: {
           display: false,          
@@ -130,7 +148,7 @@ function drawPriceChart(rankMonth, rankData, id_name, max_val){
           textAlign: 'center',          
           font: {            
             size: 11,
-          }          
+          },            
         }
       }
     },
@@ -322,9 +340,9 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10, max_val
         type: 'bar',
         label: '분양',
         data: data2,        
-        borderColor: "rgba(46, 204, 35, 0.5)",
+        borderColor: "rgba(20, 143, 47, 0.5)",
         borderWidth: 1,       
-        backgroundColor: ['rgba(46, 204, 35, 0.5)', 'rgba(46, 204, 35, 0.5)', 'rgba(46, 204, 35, 0.15)', 'rgba(46, 204, 35, 0.15)', 'rgba(46, 204, 35, 0.15)', 'rgba(46, 204, 35, 0.15)'],
+        backgroundColor: ['rgba(20, 143, 47, 0.5)', 'rgba(20, 143, 47, 0.5)', 'rgba(20, 143, 47, 0.15)', 'rgba(20, 143, 47, 0.15)', 'rgba(20, 143, 47, 0.15)', 'rgba(20, 143, 47, 0.15)'],
         datalabels: {
           display: true,
           color: 'black',
