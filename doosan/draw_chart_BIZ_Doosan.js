@@ -70,7 +70,7 @@ function drawRankChart(rankMonth, rankData, id_name, max_val){
             size: 10,
           },
           formatter: function(value) {
-            return value.toLocaleString();
+            return (value/10000).toFixed(1) + "만";
           }              
         }
       }
