@@ -1313,7 +1313,17 @@ function ListUp(listData){
                 }
 
                 var PIRBP_text = ["(<전)", ...PIR_time_line, "(후>)"]
-                var PIR_array = [null, ...PIRs, null]
+                PIR_array = [null]
+                for (var j = 0 ; j < PIRs.length; j++){
+                  if(Number(PIRs[j]) == 0){
+                    PIR_array.push(null)
+                  }
+                  else{
+                    PIR_array.push(PIRs[j])
+                  }
+                }
+                PIR_array.push(null)
+                //var PIR_array = [null, ...PIRs, null]
                 var BP_array = [null, ...BPs, null]
 
               addon_html += "</div>"
