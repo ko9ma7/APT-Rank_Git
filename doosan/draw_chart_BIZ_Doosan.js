@@ -155,6 +155,93 @@ function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val){
 });
 }
 
+function drawPIRBPChart(rankMonth, rankData, rankData2, id_name, max_val1, max_val2){
+  var label = rankMonth
+  var sales_data = rankData
+  var rent_data = rankData2
+  var align_number = 'start'  
+
+  var ctx = document.getElementById(id_name).getContext('2d');
+  var myChart = new Chart(ctx, {
+    type: 'line',
+    plugins:[ChartDataLabels],    
+    data:{
+      labels: label,
+      datasets:[{
+        label: 'PIR',
+        data: sales_data,
+        borderColor: "#0c4ea2",
+        borderWidth: 1,
+        backgroundColor: "#0c4ea2",
+        yAxisID: 'PIR'
+      },
+      {
+        label: '부담지수',
+        data: rent_data,
+        borderColor: "#148f2f",
+        borderWidth: 1,
+        backgroundColor: "#148f2f",
+        yAxisID: 'BP'
+      }],
+    },
+    options: {      
+      responsive: true,      
+      maintainAspectRatio: false,
+      scales:{
+        y:{
+          display: false,          
+          suggestedMax: max_val1,
+        },
+        PIR:{
+          type: 'linear',
+          display: false,
+          position: 'left',
+          suggestedMax: 50
+        },
+        BP:{
+          display: false,
+          type: 'linear',
+          position: 'right',
+          suggestedMax: max_val2
+        }
+      },
+      animation: {            
+        y:{
+          from: 200
+        }
+      },
+      plugins: {
+        legend: {          
+          display: true,
+          position: 'left',
+          align: 'start',
+          labels:{
+            boxWidth: 12,
+            boxHeight: 12,
+            font:{
+              size: 12
+            }            
+          }
+        },
+        title: {
+          display: false,
+        },
+        datalabels: {
+          display: 'auto',
+          color: 'black',
+          align: 'top',
+          anchor: 'start',
+          padding: 4,
+          textAlign: 'center',          
+          font: {            
+            size: 11,
+          },            
+        },    
+      }
+    },
+});
+}
+
 function drawDealChart(rankMonth, rankData, id_name, max_val, avg10){
   var label = rankMonth
   var data = rankData

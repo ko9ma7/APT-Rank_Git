@@ -1,6 +1,8 @@
   body{
     -ms-overflow-style: none;
     background-color: #ddd;
+    
+    font-family: 'Roboto';
   }
 
   #container{    
@@ -153,7 +155,7 @@
     display: grid;
     grid-template-columns: 1fr;
     text-align: left;
-    font-family: Roboto;
+    font-family: 'Roboto';
     color: white;
     background-color: #0c4ea2;
     font-size: 1.45em;    
@@ -163,7 +165,7 @@
   }
   #ref{
     display: block;
-    font-family: Roboto;
+    font-family: 'Roboto';
     text-align: right;
     color: white;
     background-color: #0c4ea2;
@@ -350,12 +352,20 @@
     border-top: 1px solid #ddd;    
     line-height: 1.5rem;
   }
+  .subRegion_PIRBP_table{
+    display:grid;    
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8rem;    
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.5rem;
+  }
   .subRegion_rent_table1{
     display:grid;    
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 0.8rem;    
     text-align: center;
-    border-bottom: 1px solid #ddd;    
+    border-bottom: 1px solid #ddd;  
     line-height: 1.5rem;
   }
   .subRegion_rent_table2{
