@@ -978,8 +978,8 @@ function ListUp(listData){
               eval_summary += "<li>" +"매매가는 최근 이전 분기 가격 대비 <span style='color:" + set_text_color(sales_score[2]) + "'>'" + sales_score[2] + "세'</span>로 분석."
  
               deal_avg = Number(deal_3y_avg).toFixed(0)
-              deal_current = Number(deal_quater_avg[11]).toFixed(0)
-              deal_rate = ((deal_rate_quater_avg[11]/deal_3y_avg)*100).toFixed(2) + "%"
+              deal_current = Number(deal_quater_avg[deal_quater_avg.length-1]).toFixed(0)
+              deal_rate = ((deal_quater_avg[deal_quater_avg.length-1]/deal_3y_avg)*100).toFixed(2) + "%"
 
               eval_summary += "<li>" +" 거래량은 <u>총 " + deal_current + "건</u>, 3년 평균 대비 <u>" + deal_rate + "</u>로 <span style='color:" + set_text_color(deal_score[1]) + "'>'" + deal_score[1] + "'</span> 상태로 판단."
 
