@@ -399,6 +399,8 @@
   }
   #region_summary{
     width: 100%;
+    display:grid;    
+    grid-template-columns: 1fr 1fr;
     font-size: 0.95rem;
     padding-left: 15px;
     padding-right: 15px;

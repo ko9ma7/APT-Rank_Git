@@ -928,28 +928,28 @@ function ListUp(listData){
               if (pop_rate_3y < 0){ pop_rate_comment = (pop_rate_3y * -1) + "% 감소"}
               if (pop_rate_3y >= 0){ pop_rate_comment = (pop_rate_3y) + "% 증가"}
 
-              eval_summary = region_name + "의 총인구는 " + pop_total + "이며, 3년전 대비 '" + pop_rate_comment + "'했습니다."
-              eval_summary += " 매매가는 최근 3개월전 가격 대비 <span style='color:" + set_text_color(sales_score[2][2]) + "'>'" + sales_score[2][2] + "세'</span>로 분석됩니다."
+              eval_summary = "<li>" + region_name + "의 총인구 <u>" + pop_total + "</u> (3년전 대비 <u>'" + pop_rate_comment + "'</u>)"
+              eval_summary += "<li>" +"매매가는 최근 3개월전 가격 대비 <span style='color:" + set_text_color(sales_score[2][2]) + "'>'" + sales_score[2][2] + "세'</span>"              
 
               deal_10y_avg = Number(deal_info[0]).toFixed(0)
               deal_current = Number(deal_info[1])
               deal_rate = ((deal_info[1]/deal_info[0])*100).toFixed(2) + "%"
 
-              eval_summary += " 거래량은 총 " + deal_current + "건이며, 10년 평균 대비 " + deal_rate + "로 <span style='color:" + set_text_color(deal_score[0][1]) + "'>'" + deal_score[0][1] + "'</span> 상태를 보이고 있습니다."
+              eval_summary += "<li>" + "거래량은 <u>총 " + deal_current + "건</u>, 10년 평균 대비 <u>" + deal_rate + "</u>로 <span style='color:" + set_text_color(deal_score[0][1]) + "'>'" + deal_score[0][1] + "'</span>"
 
               supply_proper_formatted = Number(supply_proper).toLocaleString()
               supply_volume_year = Number(supply_volume[0]+supply_new_volume[0]).toLocaleString()
               supply_volume_plus_minus = supply_proper - (supply_volume[0]+supply_new_volume[0])
               if(supply_volume_plus_minus < 0){
-                supply_volume_plus_minus = "'" + (supply_volume_plus_minus * -1).toLocaleString() + "세대 과다'가"
+                supply_volume_plus_minus = "'<u>" + (supply_volume_plus_minus * -1).toLocaleString() + "세대 과다'</u>로"
               }
               else{
-                supply_volume_plus_minus = "'" + supply_volume_plus_minus.toLocaleString() + "세대 부족'이"
+                supply_volume_plus_minus = "'<u>" + supply_volume_plus_minus.toLocaleString() + "세대 부족'</u>으로"
               }
               
-              eval_summary += " 공급물량은 당해 기준으로, 총 " + supply_volume_year + "세대가 입주 예정이며, " + supply_volume_plus_minus + " 예상되어 <span style='color:" + set_text_color(supply_score[1]) + "'>'" + supply_score[1] + "'</span> 상태로 분석됩니다."
-
-              eval_summary += " 이에 종합적인 결과로, " + region_name + "는 현재 진입하기에 <span style='color:" + set_text_color(total_score[0][1]) + "'>'" + total_score[0][1] + "'</span> 상태로 판단됩니다."
+              eval_summary += "<li>" + "공급물량은 당해 기준, <u>총 " + supply_volume_year + "세대</u>가 입주 예정"
+              eval_summary += "<li>" + "적정공급량 대비" + supply_volume_plus_minus + " 예상되어 <span style='color:" + set_text_color(supply_score[1]) + "'>'" + supply_score[1] + "'</span>"
+              eval_summary += "<li>" + "종합적 결과, " + region_name + "는 현재 진입하기에 <span style='color:" + set_text_color(total_score[0][1]) + "'>'" + total_score[0][1] + "'</span>"
 
               addon_html += "<div id='region_summary'>" + eval_summary + "</div>"
             addon_html +="</div>"
