@@ -1,4 +1,4 @@
-function drawRankChart(rankMonth, rankData, id_name, max_val){
+function drawRankChart(rankMonth, rankData, id_name, max_val1, max_val2){
   var label = rankMonth
   var data_pop = rankData[0]
   var data_house = rankData[1]
@@ -16,6 +16,7 @@ function drawRankChart(rankMonth, rankData, id_name, max_val){
         borderColor: "#0c4ea2",
         borderWidth: 1,
         backgroundColor: "#0c4ea2",
+        yAxisID: 'POP'
       },
       {
         label: '세대',
@@ -23,19 +24,49 @@ function drawRankChart(rankMonth, rankData, id_name, max_val){
         borderColor: "#148f2f",
         borderWidth: 1,
         backgroundColor: "#148f2f",
+        yAxisID: 'HOUSE'
       }],
     },
     options: {      
       responsive: true,      
       maintainAspectRatio: false,
-      scales:{
+      interaction: {
+        mode: 'index',
+        intersect: false,
+      },
+      scales:{        
         y:{
           display: false,          
-          suggestedMax: max_val,
-          //suggestedMin: min_val,
-          //ticks:{            
-          //  stepSize: 0.1,
-          //}
+        },
+        POP:{
+          type: 'linear',
+          display: true,
+          position: 'left',
+          suggestedMax: max_val1,
+          grid: {
+            drawOnChartArea: false,
+          },
+          ticks:{
+            stepSize: 20000,
+            callback: function(value, index, ticks){
+              return (value/10000).toFixed(0)
+            }
+          }
+        },
+        HOUSE:{
+          display: true,
+          type: 'linear',
+          position: 'right',
+          suggestedMax: max_val2,
+          grid: {
+            drawOnChartArea: false,
+          },
+          ticks:{
+            stepSize: 10000,
+            callback: function(value, index, ticks){
+              return (value/10000).toFixed(0)
+            }
+          }
         }
       },
       animation: {            
@@ -49,10 +80,10 @@ function drawRankChart(rankMonth, rankData, id_name, max_val){
           position: 'left',
           align: 'start',
           labels:{
-            boxWidth: 12,
-            boxHeight: 12,
+            boxWidth: 10,
+            boxHeight: 10,
             font:{
-              size: 12
+              size: 10
             }            
           }
         },
@@ -60,14 +91,14 @@ function drawRankChart(rankMonth, rankData, id_name, max_val){
           display: false,          
         },
         datalabels: {
-          display: true,          
+          display: 'auto',          
           color: 'black',
           align: 'top',
           anchor: 'start',
           padding: 4,
           textAlign: 'center',          
           font: {            
-            size: 10,
+            size: 11,
           },
           formatter: function(value) {
             return (value/10000).toFixed(1) + "만";
@@ -108,6 +139,10 @@ function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val){
     options: {      
       responsive: true,      
       maintainAspectRatio: false,
+      interaction: {
+        mode: 'index',
+        intersect: false,
+      },
       scales:{
         y:{
           display: false,          
@@ -129,10 +164,10 @@ function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val){
           position: 'left',
           align: 'start',
           labels:{
-            boxWidth: 12,
-            boxHeight: 12,
+            boxWidth: 10,
+            boxHeight: 10,
             font:{
-              size: 12
+              size: 10
             }            
           }
         },
@@ -187,6 +222,10 @@ function drawPIRBPChart(rankMonth, rankData, rankData2, id_name, max_val1, max_v
     options: {      
       responsive: true,      
       maintainAspectRatio: false,
+      interaction: {
+        mode: 'index',
+        intersect: false,
+      },
       scales:{
         y:{
           display: false,          
@@ -216,10 +255,10 @@ function drawPIRBPChart(rankMonth, rankData, rankData2, id_name, max_val1, max_v
           position: 'left',
           align: 'start',
           labels:{
-            boxWidth: 12,
-            boxHeight: 12,
+            boxWidth: 10,
+            boxHeight: 10,
             font:{
-              size: 12
+              size: 10
             }            
           }
         },
@@ -403,9 +442,9 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10, max_val
         type: 'bar',
         label: '입주',
         data: data,        
-        borderColor: "rgba(0, 94, 184, 0.5)",
+        borderColor: "rgba(0, 94, 184, 0.3)",
         borderWidth: 1,
-        backgroundColor: ['rgba(0, 94, 184, 0.5)', 'rgba(0, 94, 184, 0.5)', 'rgba(0, 94, 184, 0.15)', 'rgba(0, 94, 184, 0.15)', 'rgba(0, 94, 184, 0.15)', 'rgba(0, 94, 184, 0.15)'],
+        backgroundColor: 'rgba(0, 94, 184, 0.3)',
         datalabels: {
           display: true,
           color: 'black',
@@ -427,9 +466,9 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10, max_val
         type: 'bar',
         label: '분양',
         data: data2,        
-        borderColor: "rgba(20, 143, 47, 0.5)",
+        borderColor: "rgba(20, 143, 47, 0.3)",
         borderWidth: 1,       
-        backgroundColor: ['rgba(20, 143, 47, 0.5)', 'rgba(20, 143, 47, 0.5)', 'rgba(20, 143, 47, 0.15)', 'rgba(20, 143, 47, 0.15)', 'rgba(20, 143, 47, 0.15)', 'rgba(20, 143, 47, 0.15)'],
+        backgroundColor: 'rgba(20, 143, 47, 0.3)',
         datalabels: {
           display: true,
           color: 'black',
@@ -495,10 +534,10 @@ function drawSupplyChart(rankMonth, rankData, rankData2, id_name, avg10, max_val
           position: 'left',
           align: 'start',
           labels:{
-            boxWidth: 12,
-            boxHeight: 12,
+            boxWidth: 10,
+            boxHeight: 10,
             font:{
-              size: 12
+              size: 10
             }            
           }
         },

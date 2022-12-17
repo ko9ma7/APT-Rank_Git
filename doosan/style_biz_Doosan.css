@@ -328,6 +328,14 @@
   .topLine{
     border-top: 1px solid #b8b8b8;
   }
+  .topLine_blue{
+    border-top: 1px solid #b8b8b8;
+    background:rgba(12, 77, 162, 0.1)
+  }
+  .topLine_green{
+    border-top: 1px solid #b8b8b8;
+    background:rgba(20, 143, 47, 0.1)
+  }
   .subRegion_pop_table2{
     display:grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;

@@ -974,7 +974,7 @@ function ListUp(listData){
               if (pop_rate_3y < 0){ pop_rate_comment = (pop_rate_3y * -1) + "% 감소"}
               if (pop_rate_3y >= 0){ pop_rate_comment = (pop_rate_3y) + "% 증가"}
 
-              eval_summary = "<li>" + region_name + "의 총인구 <u>" + pop_total + "</u> (3년전 대비 <u>'" + pop_rate_comment + "'</u>)."
+              eval_summary = "<li>" + region_name + "의 총인구 <u>" + pop_total + "</u> (3년전 대비 <u>'" + pop_rate_comment + "'</u>)"
               eval_summary += "<li>" +"매매가는 최근 이전 분기 가격 대비 <span style='color:" + set_text_color(sales_score[2]) + "'>'" + sales_score[2] + "세'</span>"
  
               deal_avg = Number(deal_3y_avg).toFixed(0)
@@ -996,7 +996,7 @@ function ListUp(listData){
               eval_summary += "<li>" + " 입주물량은 당해 기준, <u>총 " + supply_volume_year + "세대</u> 입주 예정."
               eval_summary += "<li>" + " 적정공급량 대비 " + supply_volume_plus_minus + "<span style='color:" + set_text_color(supply_score[1]) + "'> '" + supply_score[1] + "'</span>"
 
-              eval_summary += "<li>" +" 종합적 결과, <u>" + region_name + "</u>는 현재 분양하기에 <span style='color:" + set_text_color(total_score[1]) + "'>'" + total_score[1] + "'</span>"
+              eval_summary += "<li>" +" 종합적 결과, <u>" + region_name + "</u> 분양 시장은 <span style='color:" + set_text_color(total_score[1]) + "'>'" + total_score[1] + "' 수준</span> "
 
               addon_html += "<div id='region_summary'>" + eval_summary + "</div>"
             addon_html +="</div>"
@@ -1141,8 +1141,9 @@ function ListUp(listData){
                 if(pop_rate_3y < 0){ pop_rate_3y = "<span style='color:#fe4040'>-" + (pop_rate_3y)*-1 + "% </span>" } else{ pop_rate_3y = "<span style='color:#000'>+" + (pop_rate_3y) + "% </span>" }
                 if(pop_rate_5y < 0){ pop_rate_5y = "<span style='color:#fe4040'>-" + (pop_rate_5y)*-1 + "% </span>" } else{ pop_rate_5y = "<span style='color:#000'>+" + (pop_rate_5y) + "% </span>" }                
 
-                addon_html += "<div class='topLine' style='border-right: 1px solid #b8b8b8'>인구</div><div class='topLine'>" + pop_rate_5y + "</div>" + "<div class='topLine'><strong>" + pop_rate_3y + "</strong></div>" + "<div class='topLine'>" + pop_rate_1y + "</div>"
-                              + "<div class='topLine'>" + pop_rate_6m+ "</div>" + "<div class='topLine'>" + pop_rate_3m + "</div>" + "<div class='topLine'>" + pop_rate_1m + "</div>"
+                addon_html += "<div class='topLine_blue' style='border-right: 1px solid #b8b8b8'>인구</div><div class='topLine_blue'>"
+                            + pop_rate_5y + "</div>" + "<div class='topLine_blue'><strong>" + pop_rate_3y + "</strong></div>" + "<div class='topLine_blue'>" + pop_rate_1y + "</div>"
+                            + "<div class='topLine_blue'>" + pop_rate_6m+ "</div>" + "<div class='topLine_blue'>" + pop_rate_3m + "</div>" + "<div class='topLine_blue'>" + pop_rate_1m + "</div>"
 
                 if(house_rate_1m < 0){ house_rate_1m = "<span style='color:#fe4040'>-" + (house_rate_1m)*-1 + "% </span>" } else{ house_rate_1m = "<span style='color:#000'>+" + (house_rate_1m) + "% </span>" }
                 if(house_rate_3m < 0){ house_rate_3m = "<span style='color:#fe4040'>-" + (house_rate_3m)*-1 + "% </span>" } else{ house_rate_3m = "<span style='color:#000'>+" + (house_rate_3m) + "% </span>" }
@@ -1151,8 +1152,9 @@ function ListUp(listData){
                 if(house_rate_3y < 0){ house_rate_3y = "<span style='color:#fe4040'>-" + (house_rate_3y)*-1 + "% </span>" } else{ house_rate_3y = "<span style='color:#000'>+" + (house_rate_3y) + "% </span>" }
                 if(house_rate_5y < 0){ house_rate_5y = "<span style='color:#fe4040'>-" + (house_rate_5y)*-1 + "% </span>" } else{ house_rate_5y = "<span style='color:#000'>+" + (house_rate_5y) + "% </span>" }
 
-                addon_html += "<div class='topLine' style='border-right: 1px solid #b8b8b8;'>세대</div><div class='topLine'>" + house_rate_5y + "</div>" + "<div class='topLine'><strong>" + house_rate_3y + "</strong></div>" + "<div class='topLine'>" + house_rate_1y + "</div>"
-                              + "<div class='topLine'>" + house_rate_6m+ "</div>" + "<div class='topLine'>" + house_rate_3m + "</div>" + "<div class='topLine'>" + house_rate_1m + "</div>"
+                addon_html += "<div class='topLine_green' style='border-right: 1px solid #b8b8b8;'>세대</div><div class='topLine_green'>" + house_rate_5y + "</div>"
+                           + "<div class='topLine_green'><strong>" + house_rate_3y + "</strong></div>" + "<div class='topLine_green'>" + house_rate_1y + "</div>"
+                           + "<div class='topLine_green'>" + house_rate_6m+ "</div>" + "<div class='topLine_green'>" + house_rate_3m + "</div>" + "<div class='topLine_green'>" + house_rate_1m + "</div>"
 
               addon_html += "</div>" 
             addon_html += "</div>"            
@@ -1167,11 +1169,11 @@ function ListUp(listData){
               
               addon_html += "<div class = 'subRegion_price_table1'>"
                 addon_html += "<div class='table_top'>매매가 평균</div>" + "<div class='table_top'>전세가 평균</div>"
-                addon_html += "<div class='table_top'>매매 흐름</div>" + "<div class='table_top'>전세 흐름</div>" + "<div class='table_top'>전세가율</div>"
+                addon_html += "<div class='table_top'>매매 흐름</div>" + "<div class='table_top'>전세 흐름</div>" + "<div class='table_top' style='color:rgba(12, 77, 162, 1)'>전세가율</div>"
                 sales_price = (sales_quater_avg[sales_quater_avg.length-1]/100000).toFixed(2) + "억원"
                 rent_price = (rent_quater_avg[rent_quater_avg.length-1]/100000).toFixed(2) + "억원"
                 addon_html += "<div><strong>" + sales_price + "</div>" + "<div>" + rent_price + "</strong></div>"                
-                addon_html += "<div><strong>" + sales_score[2] + "</div>" + "<div>" + rent_score[2] + "</div>" + "<div>" + rent_price_rate[0].toFixed(1) + "%" + "</strong></div>"
+                addon_html += "<div><strong>" + sales_score[2] + "</div>" + "<div>" + rent_score[2] + "</div>" + "<div style='color:rgba(12, 77, 162, 1)'>" + rent_price_rate[0].toFixed(1) + "%" + "</strong></div>"
               addon_html += "</div>"
 
               addon_html += "<div class='graph'> <canvas id='salesChart'></canvas></div>"
@@ -1188,7 +1190,7 @@ function ListUp(listData){
                   }
                 }
 
-                addon_html += "<div class='topLine' style='border-right: 1px solid #b8b8b8'>매매</div>"
+                addon_html += "<div class='topLine_blue' style='border-right: 1px solid #b8b8b8'>매매</div>"
                 for ( var p = 6 ; p < sales_rate_quater_avg.length ; p++ ){
                   if(sales_rate_quater_avg[p] < 0){
                     deco_tag = "<span style='color:#fe4040'>-" + Number(sales_rate_quater_avg[p]*-1).toFixed(2) + "% </span>"
@@ -1203,11 +1205,11 @@ function ListUp(listData){
                     }
                   }
 
-                  sales_text = "<div class='topLine'>" + deco_tag + "</div>"
+                  sales_text = "<div class='topLine_blue'>" + deco_tag + "</div>"
                   addon_html += sales_text
                 }
 
-                addon_html += "<div class='topLine' style='border-right: 1px solid #b8b8b8'>전세</div>"
+                addon_html += "<div class='topLine_green' style='border-right: 1px solid #b8b8b8'>전세</div>"
                 for ( p = 6 ; p < rent_rate_quater_avg.length ; p++ ){
                   if(rent_rate_quater_avg[p] < 0){
                     deco_tag = "<span style='color:#fe4040'>-" + Number(rent_rate_quater_avg[p]*-1).toFixed(2) + "% </span>"
@@ -1222,7 +1224,7 @@ function ListUp(listData){
                     }
                   }
 
-                  rent_text = "<div class='topLine'>" + deco_tag + "</div>"
+                  rent_text = "<div class='topLine_green'>" + deco_tag + "</div>"
                   addon_html += rent_text
                 }
 
@@ -1280,7 +1282,7 @@ function ListUp(listData){
                   }
                 }
 
-                addon_html += "<div class='topLine' style='border-right: 1px solid #b8b8b8'>PIR</div>"
+                addon_html += "<div class='topLine_blue' style='border-right: 1px solid #b8b8b8'>PIR</div>"
                 for ( var p = 0 ; p < PIRs.length ; p++ ){
                   if(Number(PIRs[p]) == 0){
                     PIR_value = '정보없음'
@@ -1289,14 +1291,14 @@ function ListUp(listData){
                     PIR_value = Number(PIRs[p]).toFixed(1) + "년"
                   }
                   if( p == PIRs.length-1 || p == 1){
-                    addon_html += "<div class='topLine'><strong>" + PIR_value + "</strong></div>"
+                    addon_html += "<div class='topLine_blue'><strong>" + PIR_value + "</strong></div>"
                   }
                   else{
-                    addon_html += "<div class='topLine'>" + PIR_value + "</div>"
+                    addon_html += "<div class='topLine_blue'>" + PIR_value + "</div>"
                   }
                 }
 
-                addon_html += "<div class='topLine' style='border-right: 1px solid #b8b8b8'>부담지수</div>"                
+                addon_html += "<div class='topLine_green' style='border-right: 1px solid #b8b8b8'>부담지수</div>"                
                 for ( var p = 0 ; p < BPs.length ; p++ ){
                   if(Number(BPs[p]) == 0){
                     BP_value = '정보없음'
@@ -1305,10 +1307,10 @@ function ListUp(listData){
                     BP_value = Number(BPs[p]).toFixed(1) + "%"
                   }
                   if( p == BPs.length-1 || p == 1){
-                    addon_html += "<div class='topLine'><strong>" + BP_value + "</strong></div>"
+                    addon_html += "<div class='topLine_green'><strong>" + BP_value + "</strong></div>"
                   }
                   else{
-                    addon_html += "<div class='topLine'>" + BP_value + "</div>"
+                    addon_html += "<div class='topLine_green'>" + BP_value + "</div>"
                   }
                 }
 
@@ -1569,9 +1571,10 @@ function ListUp(listData){
   $('#dataList').append(addon_html);  
   if(selectedRegion != 'Korea'){
     popMax = Math.max(...pop_rate_array) * 1.05
-    drawRankChart(pop_rate_text, [pop_rate_array, pop_house_array], "popChart", popMax)
+    houseMax = Math.max(...pop_house_array) * 1.05
+    drawRankChart(pop_rate_text, [pop_rate_array, pop_house_array], "popChart", popMax, houseMax)
 
-    salesMax = Math.max(...sales_rate_array) * 1.05
+    salesMax = Math.max(...sales_rate_array) * 1.05    
     drawPriceChart(sales_rate_text, sales_rate_array, rent_rate_array, "salesChart", salesMax)
 
     /*
@@ -1580,8 +1583,7 @@ function ListUp(listData){
     */    
 
     PIRMax = Math.max(...PIR_array) * 1.05
-    BPMax = Math.max(...BP_array) * 1.05
-    
+    BPMax = Math.max(...BP_array) * 1.05    
     drawPIRBPChart(PIRBP_text, PIR_array, BP_array, "PIRBPChart", PIRMax, BPMax)    
 
     dealMax = Math.max(...deal_array) * 1.1
