@@ -806,11 +806,12 @@ function ListUp(listData){
             
             var pop_info = listData[i]["인구정보"]
             var pop_rate = listData[i]["인구상승률"]
-            var pop_score = listData[i]["인구점수"]
+            var pop_score = listData[i]["인구점수"]            
+            var house_rate = listData[i]["세대수상승률"]
 
             var sales_info = listData[i]["매매가현황"]
-            var sales_rate = listData[i]["매매상승률"]            
-            var sales_score = listData[i]["매매점수"]
+            var sales_rate = listData[i]["매매상승률"]           
+            var sales_score = listData[i]["매매점수"]        
 
             var price_per_py = listData[i]["평단가"]
 
@@ -887,6 +888,9 @@ function ListUp(listData){
           var sales_rate = listData[i]["매매상승률"]          
           var sales_score = listData[i]["매매점수"]
 
+          var rent_info = listData[i]["전세가현황"]
+          var rent_rate = listData[i]["전세상승률"] 
+
           var price_per_py = listData[i]["평단가"]
 
           var build_year = listData[i]["년차"]
@@ -910,7 +914,7 @@ function ListUp(listData){
 
           //아파트랭크 연결 버튼
           var aptrank_link = "<div><img src = './icon_apt_rank.png' width='40px' height='40px'></div>"
-            + "<div style='padding-left: 8px;'>" + region_name + "의 <br> 가성비 좋은 아파트랭크 보기</div>"
+            + "<div style='padding-left: 8px;'>" + region_name + "의 <br> 아파트 입지순위 보기</div>"
             + "<div style='text-align:center; font-size: 1.5em; line-height: 2em'><i class='fa-solid fa-circle-chevron-right'></i></div>"        
           $('#go_to_aptrank').html(aptrank_link)
 
@@ -949,7 +953,7 @@ function ListUp(listData){
               
               eval_summary += "<li>" + "공급물량은 당해 기준, <u>총 " + supply_volume_year + "세대</u>가 입주 예정"
               eval_summary += "<li>" + "적정공급량 대비" + supply_volume_plus_minus + " 예상되어 <span style='color:" + set_text_color(supply_score[1]) + "'>'" + supply_score[1] + "'</span>"
-              eval_summary += "<li>" + "종합적 결과, " + region_name + "는 현재 진입하기에 <span style='color:" + set_text_color(total_score[0][1]) + "'>'" + total_score[0][1] + "'</span>"
+              eval_summary += "<li>" + "종합적 결과, <u>" + region_name + "</u>는 현재 진입하기에 <span style='color:" + set_text_color(total_score[0][1]) + "'>'" + total_score[0][1] + "'</span>"
 
               addon_html += "<div id='region_summary'>" + eval_summary + "</div>"
             addon_html +="</div>"
@@ -1073,6 +1077,7 @@ function ListUp(listData){
                 pop_rate_5y = Number(pop_rate[5]).toFixed(2)
                 var pop_rate_text = ["(<전)", "5년", "3년", "1년", "6개월", "3개월", "1개월", "현재", "(후>)"]
                 var pop_rate_array = [null, pop_info[6][0], pop_info[5][0], pop_info[4][0], pop_info[3][0], pop_info[2][0], pop_info[1][0], pop_info[0][0], null]
+                var house_rate_array = [null, pop_info[6][1], pop_info[5][1], pop_info[4][1], pop_info[3][1], pop_info[2][1], pop_info[1][1], pop_info[0][1], null]
 
                 if(pop_rate_1m < 0){ pop_rate_1m = "<span style='color:blue'>▼" + (pop_rate_1m)*-1 + "% </span>" } else{ pop_rate_1m = "<span style='color:#fe4040'>▲" + (pop_rate_1m) + "% </span>" }
                 if(pop_rate_3m < 0){ pop_rate_3m = "<span style='color:blue'>▼" + (pop_rate_3m)*-1 + "% </span>" } else{ pop_rate_3m = "<span style='color:#fe4040'>▲" + (pop_rate_3m) + "% </span>" }
@@ -1122,7 +1127,16 @@ function ListUp(listData){
                 sales_5y = (Number(sales_info[6])/100000).toFixed(3)
 
                 var sales_rate_text = ["(<전)", "5년", "3년", "1년", "6개월", "3개월", "1개월", "(후>)"]
-                var sales_rate_array = [null, sales_5y, sales_3y, sales_6m, sales_3m, sales_1m, sales_this, null]
+                var sales_price_array = [null, sales_5y, sales_3y, sales_6m, sales_3m, sales_1m, sales_this, null]
+
+                rent_this = (Number(rent_info[0])/100000).toFixed(3)
+                rent_1m = (Number(rent_info[1])/100000).toFixed(3)
+                rent_3m = (Number(rent_info[2])/100000).toFixed(3)
+                rent_6m = (Number(rent_info[3])/100000).toFixed(3)
+                rent_1y = (Number(rent_info[4])/100000).toFixed(3)
+                rent_3y = (Number(rent_info[5])/100000).toFixed(3)
+                rent_5y = (Number(rent_info[6])/100000).toFixed(3)
+                var rent_price_array = [null, rent_5y, rent_3y, rent_6m, rent_3m, rent_1m, rent_this, null]
 
                 if(sales_rate_1m < 0){ sales_rate_1m = "<span style='color:blue'>▼" + (sales_rate_1m)*-1 + "% </span>" } else{ sales_rate_1m = "<span style='color:#fe4040'>▲" + (sales_rate_1m) + "% </span>" }                
                 if(sales_rate_3m < 0){ sales_rate_3m = "<span style='color:blue'>▼" + (sales_rate_3m)*-1 + "% </span>" } else{ sales_rate_3m = "<span style='color:#fe4040'>▲" + (sales_rate_3m) + "% </span>" }
@@ -1322,11 +1336,11 @@ function ListUp(listData){
 
   $('#dataList').append(addon_html);
   if(selectedRegion != 'Korea'){
-    popMax = Math.max(...pop_rate_array) * 1.008
-    drawRankChart(pop_rate_text, pop_rate_array, "popChart", popMax)
+    popMax = Math.max(...pop_rate_array) * 1.05
+    drawPopChart(pop_rate_text, pop_rate_array, house_rate_array, "popChart", popMax)
 
-    salesMax = Math.max(...sales_rate_array) * 1.05
-    drawSalesChart(sales_rate_text, sales_rate_array, "salesChart", salesMax)
+    salesMax = Math.max(...sales_price_array) * 1.1
+    drawSalesChart(sales_rate_text, sales_price_array, rent_price_array, "salesChart", salesMax)
 
     dealMax = Math.max(...deal_array) * 1.1
     drawDealChart(deal_text, deal_array, "dealChart", dealMax, deal_10y)

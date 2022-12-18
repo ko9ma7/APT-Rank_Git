@@ -1,6 +1,5 @@
-function drawRankChart(rankMonth, rankData, id_name, max_val){
+function drawPopChart(rankMonth, popData, houseData, id_name, max_val){
   var label = rankMonth
-  var data = rankData
   var align_number = 'start'  
 
   var ctx = document.getElementById(id_name).getContext('2d');
@@ -10,15 +9,27 @@ function drawRankChart(rankMonth, rankData, id_name, max_val){
     data:{
       labels: label,
       datasets:[{
-        data: data,        
+        label: '인구',
+        data: popData,        
         borderColor: "#162235",
         borderWidth: 1,
         backgroundColor: "#162235",
+      },
+      {
+        label: '세대',
+        data: houseData,        
+        borderColor: "#107318",
+        borderWidth: 1,
+        backgroundColor: "#107318",
       }],
     },
     options: {      
       responsive: true,      
       maintainAspectRatio: false,
+      interaction: {
+        mode: 'index',
+        intersect: false,
+      },
       scales:{
         y:{
           display: false,          
@@ -35,33 +46,41 @@ function drawRankChart(rankMonth, rankData, id_name, max_val){
         }
       },
       plugins: {
-        legend: {
-          display: false,
+        legend: {          
+          display: true,
+          position: 'left',
+          align: 'start',
+          labels:{
+            boxWidth: 10,
+            boxHeight: 10,
+            font:{
+              size: 10
+            }            
+          }
         },
         title: {
           display: false,          
         },
         datalabels: {
-          display: true,          
+          display: 'auto',          
           color: 'black',
           align: 'top',
           anchor: 'start',
           padding: 4,
           textAlign: 'center',          
           font: {            
-            size: 11,
+            size: 10,
           },
           formatter: function(value){
-            return value.toLocaleString()
+            return (value/10000).toFixed(1) + "만";
           }
         }
       }
     },
 });
 }
-function drawSalesChart(rankMonth, rankData, id_name, max_val){
-  var label = rankMonth
-  var data = rankData
+function drawSalesChart(rankMonth, salesData, rentData, id_name, max_val){
+  var label = rankMonth  
   var align_number = 'start'  
 
   var ctx = document.getElementById(id_name).getContext('2d');
@@ -71,15 +90,28 @@ function drawSalesChart(rankMonth, rankData, id_name, max_val){
     data:{
       labels: label,
       datasets:[{
-        data: data,        
+        label: '매매',
+        data: salesData,        
         borderColor: "#162235",
         borderWidth: 1,
         backgroundColor: "#162235",
-      }],
+      },
+      {
+        label: '전세',
+        data: rentData,        
+        borderColor: "#107318",
+        borderWidth: 1,
+        backgroundColor: "#107318",
+      }
+    ],
     },
     options: {      
       responsive: true,      
       maintainAspectRatio: false,
+      interaction: {
+        mode: 'index',
+        intersect: false,
+      },
       scales:{
         y:{
           display: false,          
@@ -96,14 +128,23 @@ function drawSalesChart(rankMonth, rankData, id_name, max_val){
         }
       },
       plugins: {
-        legend: {
-          display: false,
+        legend: {          
+          display: true,
+          position: 'left',
+          align: 'start',
+          labels:{
+            boxWidth: 10,
+            boxHeight: 10,
+            font:{
+              size: 10
+            }            
+          }
         },
         title: {
           display: false,          
         },
         datalabels: {
-          display: true,          
+          display: 'auto',          
           color: 'black',
           align: 'top',
           anchor: 'start',
