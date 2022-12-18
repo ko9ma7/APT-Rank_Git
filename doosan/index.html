@@ -1574,8 +1574,9 @@ function ListUp(listData){
     houseMax = Math.max(...pop_house_array) * 1.05
     drawRankChart(pop_rate_text, [pop_rate_array, pop_house_array], "popChart", popMax, houseMax)
 
-    salesMax = Math.max(...sales_rate_array) * 1.05    
-    drawPriceChart(sales_rate_text, sales_rate_array, rent_rate_array, "salesChart", salesMax)
+    salesMax = Math.max(...sales_rate_array) * 1.005
+    rentMax = Math.max(...rent_rate_array) * 1.005
+    drawPriceChart(sales_rate_text, sales_rate_array, rent_rate_array, "salesChart", salesMax, rentMax)
 
     /*
     rentMax = Math.max(...rent_rate_array) * 1.1

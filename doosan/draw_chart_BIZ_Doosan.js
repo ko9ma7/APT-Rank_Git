@@ -109,7 +109,7 @@ function drawRankChart(rankMonth, rankData, id_name, max_val1, max_val2){
 });
 }
 
-function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val){
+function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val1, max_val2){
   var label = rankMonth
   var sales_data = rankData
   var rent_data = rankData2
@@ -127,6 +127,7 @@ function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val){
         borderColor: "#0c4ea2",
         borderWidth: 1,
         backgroundColor: "#0c4ea2",
+        yAxisID: 'SALE'
       },
       {
         label: '전세',
@@ -134,6 +135,7 @@ function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val){
         borderColor: "#148f2f",
         borderWidth: 1,
         backgroundColor: "#148f2f",
+        yAxisID: 'RENT'
       }],
     },
     options: {      
@@ -146,11 +148,36 @@ function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val){
       scales:{
         y:{
           display: false,          
-          suggestedMax: max_val,
-          //suggestedMin: min_val,
-          //ticks:{            
-          //  stepSize: 0.1,
-          //}
+        },
+        SALE:{
+          type: 'linear',
+          display: true,
+          position: 'left',
+          suggestedMax: max_val1,
+          grid: {
+            drawOnChartArea: false,
+          },
+          ticks:{
+            stepSize: 0.5,
+            callback: function(value, index, ticks){
+              return (value).toFixed(1)
+            }
+          }
+        },
+        RENT:{
+          display: true,
+          type: 'linear',
+          position: 'right',
+          suggestedMax: max_val2,
+          grid: {
+            drawOnChartArea: false,
+          },
+          ticks:{
+            stepSize: 0.5,
+            callback: function(value, index, ticks){
+              return (value).toFixed(1)
+            }
+          }
         }
       },
       animation: {            
@@ -175,7 +202,7 @@ function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val){
           display: false,          
         },
         datalabels: {
-          display: true,          
+          display: 'auto',          
           color: 'black',
           align: 'top',
           anchor: 'start',
