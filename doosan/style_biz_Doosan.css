@@ -2,7 +2,7 @@
     -ms-overflow-style: none;
     background-color: #ddd;
     
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
   }
 
   #container{    
@@ -155,7 +155,7 @@
     display: grid;
     grid-template-columns: 1fr;
     text-align: left;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color: white;
     background-color: #0c4ea2;
     font-size: 1.45em;    
@@ -165,7 +165,7 @@
   }
   #ref{
     display: block;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     text-align: right;
     color: white;
     background-color: #0c4ea2;
