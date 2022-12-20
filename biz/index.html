@@ -851,6 +851,9 @@ function ListUp(listData){
                 if(supply_plus_minus < 0){ supply_pm =  Math.abs(supply_plus_minus*-1).toLocaleString() + " 과다"}
                 if(supply_plus_minus >= 0){ supply_pm =  Math.abs(supply_plus_minus).toLocaleString() + " 부족"}
 
+                price_py40 = Number(price_per_py[4])
+                console.log(price_py40)
+
                 addon_html += "<div class='table_top'><strong>수요대비</strong></div>" + "<div class='table_top'>총인구</div>" + "<div class='table_top'>적정공급량</div>" + "<div class='table_top'>당해 공급량</div>"
                 addon_html += "<div><strong>" + supply_pm + "</strong></div>" + "<div>" + pop_info[0][0].toLocaleString() +"명</div>" + "<div>"+ supply_proper.toLocaleString() + "세대</div>" + "<div>"+(supply_volume[0]+supply_new_volume[0]).toLocaleString()+"세대</div>"
               addon_html += "</div>"
@@ -859,7 +862,7 @@ function ListUp(listData){
                 addon_html += "<div class='table_top'><strong>평균평단가</strong></div>" + "<div class='table_top'>10평형</div>"
                               + "<div class='table_top'>20평형</div>" + "<div class='table_top'>30평형</div>" + "<div class='table_top'>40평형</div>" + "<div class='table_top'>50평형↑</div>"
                 addon_html += "<div><strong>@"+Math.round(price_per_py[0], 0).toLocaleString()+"</strong></div>" + "<div>@"+Math.round(price_per_py[1], 0).toLocaleString()+"</div>" + "<div>@"+Math.round(price_per_py[2], 0).toLocaleString()+"</div>"
-                              + "<div>@"+Math.round(price_per_py[3], 0).toLocaleString()+"</div>" + "<div>@"+Math.round(price_per_py[4].toLocaleString(), 0)+"</div>" + "<div>@"+Math.round(price_per_py[5], 0).toLocaleString()+"</div>"
+                              + "<div>@"+Math.round(price_per_py[3], 0).toLocaleString()+"</div>" + "<div>@"+Math.round(Number(price_per_py[4]), 0).toLocaleString()+"</div>" + "<div>@"+Math.round(price_per_py[5], 0).toLocaleString()+"</div>"
               addon_html += "</div>"
             addon_html += "</div>"
           }
@@ -952,7 +955,7 @@ function ListUp(listData){
               }
               
               eval_summary += "<li>" + "공급물량은 당해 기준, <u>총 " + supply_volume_year + "세대</u>가 입주 예정"
-              eval_summary += "<li>" + "적정공급량 대비" + supply_volume_plus_minus + " 예상되어 <span style='color:" + set_text_color(supply_score[1]) + "'>'" + supply_score[1] + "'</span>"
+              eval_summary += "<li>" + "적정공급량 대비 " + supply_volume_plus_minus + " 예상되어 <span style='color:" + set_text_color(supply_score[1]) + "'>'" + supply_score[1] + "'</span>"
               eval_summary += "<li>" + "종합적 결과, <u>" + region_name + "</u>는 현재 진입하기에 <span style='color:" + set_text_color(total_score[0][1]) + "'>'" + total_score[0][1] + "'</span>"
 
               addon_html += "<div id='region_summary'>" + eval_summary + "</div>"
