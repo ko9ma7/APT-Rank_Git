@@ -2817,14 +2817,14 @@
             ],
             "rank":7.0,
             "area_info":"31평(103.12)",
-            "sales_info":"0.75억 (2022-08-08)",
-            "last_sales":"2022-08-08,7500.0,31평(103.12)",
-            "last_price_per":"240",
+            "sales_info":"1.15억 (2022-12-08)",
+            "last_sales":"2022-12-08,11500.0,31평(103.12)",
+            "last_price_per":"368",
             "rent_info":"0.55억 (2022-03-07)",
             "last_rent":"2022-03-07,5500.0,31평(103.12)",
-            "rent_ratio":"73.33",
+            "rent_ratio":"47.83",
             "maintenance":"nan",
-            "price_per":"240",
+            "price_per":"368",
             "room":"3",
             "bath":"2",
             "sales_history_price":[
@@ -2875,7 +2875,7 @@
                 7500.0,
                 7500.0,
                 7500.0,
-                7500.0
+                11500.0
             ],
             "rank_history":[
                 [
