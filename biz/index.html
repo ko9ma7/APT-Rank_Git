@@ -1129,8 +1129,8 @@ function ListUp(listData){
                 sales_3y = (Number(sales_info[5])/100000).toFixed(3)
                 sales_5y = (Number(sales_info[6])/100000).toFixed(3)
 
-                var sales_rate_text = ["(<전)", "5년", "3년", "1년", "6개월", "3개월", "1개월", "(후>)"]
-                var sales_price_array = [null, sales_5y, sales_3y, sales_6m, sales_3m, sales_1m, sales_this, null]
+                var sales_rate_text = ["(<전)", "5년", "3년", "1년", "6개월", "3개월", "1개월", "당월", "(후>)"]
+                var sales_price_array = [null, sales_5y, sales_3y, sales_1y, sales_6m, sales_3m, sales_1m, sales_this, null]
 
                 rent_this = (Number(rent_info[0])/100000).toFixed(3)
                 rent_1m = (Number(rent_info[1])/100000).toFixed(3)
@@ -1139,7 +1139,7 @@ function ListUp(listData){
                 rent_1y = (Number(rent_info[4])/100000).toFixed(3)
                 rent_3y = (Number(rent_info[5])/100000).toFixed(3)
                 rent_5y = (Number(rent_info[6])/100000).toFixed(3)
-                var rent_price_array = [null, rent_5y, rent_3y, rent_6m, rent_3m, rent_1m, rent_this, null]
+                var rent_price_array = [null, rent_5y, rent_3y, rent_1y, rent_6m, rent_3m, rent_1m, rent_this, null]
 
                 if(sales_rate_1m < 0){ sales_rate_1m = "<span style='color:blue'>▼" + (sales_rate_1m)*-1 + "% </span>" } else{ sales_rate_1m = "<span style='color:#fe4040'>▲" + (sales_rate_1m) + "% </span>" }                
                 if(sales_rate_3m < 0){ sales_rate_3m = "<span style='color:blue'>▼" + (sales_rate_3m)*-1 + "% </span>" } else{ sales_rate_3m = "<span style='color:#fe4040'>▲" + (sales_rate_3m) + "% </span>" }
