@@ -255,10 +255,10 @@
 
     const url = new URL(window.location.href)
     const urlParams = url.searchParams
-    console.log(urlParams)
+    //console.log(urlParams)
 
     if(urlParams.has('reg')){
-      console.log(urlParams.get('reg'))
+      //console.log(urlParams.get('reg'))
       selectedRegion = urlParams.get('reg')
     }
     else if(lastRegion != null){
@@ -266,7 +266,7 @@
     }
 
     if(urlParams.has('sub')){
-      console.log(urlParams.get('sub'))
+      //console.log(urlParams.get('sub'))
       selectedSubRegion = urlParams.get('sub')
     }
     else if(lastSubRegion != null){
@@ -364,9 +364,9 @@
         BP_ago2 = Object.values(BP_list[BP_key_list[3]])
 
         found_index = BP_locations.indexOf(loc)
-        console.log(BP_list)
-        console.log(BP_key_list)
-        console.log(BP_recent[found_index], BP_ago1[found_index], BP_ago2[found_index])
+        //console.log(BP_list)
+        //console.log(BP_key_list)
+        //console.log(BP_recent[found_index], BP_ago1[found_index], BP_ago2[found_index])
 
         $('#BP_ago2_value').html(BP_ago2[found_index])
         $('#BP_ago1_value').html(BP_ago1[found_index])
@@ -896,7 +896,7 @@ function ListUp(listData){
 
       time_line.push(time_text)
     }
-    console.log(time_line)    
+    //console.log(time_line)    
 
     for(i = 0; i < listData.length; i++){
       var compare_link = listData[i]["Link"]
@@ -934,7 +934,6 @@ function ListUp(listData){
         var rent_price_rate = listData[i]["전세가율"]
 
         var non_sales_result = listData[i]["미분양현황"]
-
         
         var supply_proper = listData[i]["적정공급물량"]
         var supply_score = listData[i]["공급량점수"]
@@ -951,6 +950,7 @@ function ListUp(listData){
         var deal_score = listData[i]["거래량점수"]
 
         var PIRs_BPs = listData[i]["PIRBP"]
+        var PIRBP_score = listData[i]["PIRBP점수"]
         var regulation_info = listData[i]["규제현황"]
 
         var total_score = listData[i]["총점"]        
@@ -1250,7 +1250,7 @@ function ListUp(listData){
             //PIR/BP           
             addon_html += "<div class='subRegion_info'>"
               addon_html += "<div class='subRegion_title'>"
-                addon_html += "<div class='subRegion_name'>PIR / 주택구입부담지수 (" + long_region_name[0] + ")</div>"
+                addon_html += "<div class='subRegion_name'>" + "<span style='color:" + set_color(PIRBP_score[0]) + "'>●</span> PIR / K-HAI (" + long_region_name[0] + ")<span style='font-size: 0.85em'>(" + PIRBP_score[0].toFixed(2) + "점 / " + PIRBP_score[1] + ")</span></div>"
                 addon_html += "<div class='subRegion_qna' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice(\"PIRBP\")'><i class='fa-solid fa-circle-question'></i></div>"
               addon_html += "</div>"
               
