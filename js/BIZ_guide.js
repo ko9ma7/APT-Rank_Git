@@ -109,7 +109,7 @@ var biz_info_supply =
 +"<li>데이터 알고리즘: 아파트랭크"
 
 var biz_title_non_sales = "미분양 점수는 어떻게 계산될까요?"
-var biz_info_non_saels =
+var biz_info_non_sales =
 "<ul style='padding-left: 13px'>"
 +"<li>미분양은 별도의 점수를 부여하지 않으며, 입주물량 점수에 감점요소로 사용됩니다.<br><br>"
 

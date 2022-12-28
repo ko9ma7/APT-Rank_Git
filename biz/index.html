@@ -1280,9 +1280,10 @@ function ListUp(listData){
             addon_html += "<div class='subRegion_info'>"              
 
               if(non_sales[0] == '6개월 미분양위험'){ non_sales_score = 0; non_sales_status = non_sales[0] }
-              else if(non_sales[0] == '5개월 미분양위험'){ non_sales_score = 0; non_sales_status = non_sales[0] }
+              else if(non_sales[0] == '5개월 미분양위험'){ non_sales_score = 15; non_sales_status = non_sales[0] }
               else if(non_sales[0] == '4개월 미분양위험'){ non_sales_score = 30; non_sales_status = non_sales[0] }
               else if(non_sales[0] == '3개월 미분양위험'){ non_sales_score = 30; non_sales_status = non_sales[0] }
+              else if(non_sales[0] == '미분양 급증'){ non_sales_score = 15; non_sales_status = non_sales[0] }
               else {non_sales_score = 100; non_sales_status = "위험 없음"}
 
               find_name = selectedSubRegion.split("_")
