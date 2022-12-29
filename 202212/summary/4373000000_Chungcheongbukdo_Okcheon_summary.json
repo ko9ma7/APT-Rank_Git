@@ -49,24 +49,11 @@
         "primaryKey":[
             "index"
         ],
-        "pandas_version":"1.4.0"
+        "pandas_version":"0.20.0"
     },
     "data":[
         {
             "index":0,
-            "sort":"balanced",
-            "name":"옥천계룡리슈빌",
-            "search_code":124303,
-            "apt_type":"아파트",
-            "apt_year":1,
-            "value_score":48.594,
-            "region":"충청북도 옥천군",
-            "region_code":"Chungcheongbukdo",
-            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
-            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
-        },
-        {
-            "index":1,
             "sort":"balanced",
             "name":"e편한세상옥천퍼스트원",
             "search_code":152518,
@@ -79,20 +66,7 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":2,
-            "sort":"balanced",
-            "name":"더퍼스트이안",
-            "search_code":136003,
-            "apt_type":"아파트",
-            "apt_year":1,
-            "value_score":46.598,
-            "region":"충청북도 옥천군",
-            "region_code":"Chungcheongbukdo",
-            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
-            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
-        },
-        {
-            "index":3,
+            "index":1,
             "sort":"balanced",
             "name":"옥천지엘리베라움",
             "search_code":110319,
@@ -105,7 +79,7 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":4,
+            "index":2,
             "sort":"balanced",
             "name":"옥천역금호어울림더퍼스트",
             "search_code":151876,
@@ -118,20 +92,33 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":5,
+            "index":3,
             "sort":"balanced",
-            "name":"옥천마암리양우내안애",
-            "search_code":110467,
+            "name":"더퍼스트이안",
+            "search_code":136003,
             "apt_type":"아파트",
-            "apt_year":5,
-            "value_score":45.288,
+            "apt_year":1,
+            "value_score":44.148,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":6,
+            "index":4,
+            "sort":"balanced",
+            "name":"옥천계룡리슈빌",
+            "search_code":124303,
+            "apt_type":"아파트",
+            "apt_year":1,
+            "value_score":42.469,
+            "region":"충청북도 옥천군",
+            "region_code":"Chungcheongbukdo",
+            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
+            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
+        },
+        {
+            "index":5,
             "sort":"balanced",
             "name":"하늘빛",
             "search_code":102872,
@@ -144,20 +131,20 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":7,
+            "index":6,
             "sort":"balanced",
-            "name":"옥천향수마을",
-            "search_code":19165,
+            "name":"옥천마암리양우내안애",
+            "search_code":110467,
             "apt_type":"아파트",
-            "apt_year":18,
-            "value_score":40.223,
+            "apt_year":5,
+            "value_score":39.163,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":8,
+            "index":7,
             "sort":"balanced",
             "name":"옥천장야주공1단지",
             "search_code":102110,
@@ -170,13 +157,26 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
+            "index":8,
+            "sort":"balanced",
+            "name":"옥천문정주공3단지",
+            "search_code":101286,
+            "apt_type":"아파트",
+            "apt_year":23,
+            "value_score":37.313,
+            "region":"충청북도 옥천군",
+            "region_code":"Chungcheongbukdo",
+            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
+            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
+        },
+        {
             "index":9,
             "sort":"balanced",
-            "name":"다산금빛",
-            "search_code":100976,
+            "name":"옥천문정주공2단지",
+            "search_code":105115,
             "apt_type":"아파트",
-            "apt_year":20,
-            "value_score":37.719,
+            "apt_year":24,
+            "value_score":37.313,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
@@ -184,19 +184,6 @@
         },
         {
             "index":10,
-            "sort":"living",
-            "name":"옥천계룡리슈빌",
-            "search_code":124303,
-            "apt_type":"아파트",
-            "apt_year":1,
-            "value_score":48.572,
-            "region":"충청북도 옥천군",
-            "region_code":"Chungcheongbukdo",
-            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
-            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
-        },
-        {
-            "index":11,
             "sort":"living",
             "name":"e편한세상옥천퍼스트원",
             "search_code":152518,
@@ -209,20 +196,7 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":12,
-            "sort":"living",
-            "name":"더퍼스트이안",
-            "search_code":136003,
-            "apt_type":"아파트",
-            "apt_year":1,
-            "value_score":46.944,
-            "region":"충청북도 옥천군",
-            "region_code":"Chungcheongbukdo",
-            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
-            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
-        },
-        {
-            "index":13,
+            "index":11,
             "sort":"living",
             "name":"옥천역금호어울림더퍼스트",
             "search_code":151876,
@@ -235,7 +209,7 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":14,
+            "index":12,
             "sort":"living",
             "name":"옥천지엘리베라움",
             "search_code":110319,
@@ -248,20 +222,20 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":15,
+            "index":13,
             "sort":"living",
-            "name":"옥천마암리양우내안애",
-            "search_code":110467,
+            "name":"더퍼스트이안",
+            "search_code":136003,
             "apt_type":"아파트",
-            "apt_year":5,
-            "value_score":45.094,
+            "apt_year":1,
+            "value_score":43.444,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":16,
+            "index":14,
             "sort":"living",
             "name":"하늘빛",
             "search_code":102872,
@@ -274,20 +248,33 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":17,
+            "index":15,
             "sort":"living",
-            "name":"옥천향수마을",
-            "search_code":19165,
+            "name":"옥천계룡리슈빌",
+            "search_code":124303,
             "apt_type":"아파트",
-            "apt_year":18,
-            "value_score":38.394,
+            "apt_year":1,
+            "value_score":39.822,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":18,
+            "index":16,
+            "sort":"living",
+            "name":"옥천마암리양우내안애",
+            "search_code":110467,
+            "apt_type":"아파트",
+            "apt_year":5,
+            "value_score":36.344,
+            "region":"충청북도 옥천군",
+            "region_code":"Chungcheongbukdo",
+            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
+            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
+        },
+        {
+            "index":17,
             "sort":"living",
             "name":"옥천장야주공1단지",
             "search_code":102110,
@@ -300,13 +287,26 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
+            "index":18,
+            "sort":"living",
+            "name":"옥천문정주공2단지",
+            "search_code":105115,
+            "apt_type":"아파트",
+            "apt_year":24,
+            "value_score":33.594,
+            "region":"충청북도 옥천군",
+            "region_code":"Chungcheongbukdo",
+            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
+            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
+        },
+        {
             "index":19,
             "sort":"living",
-            "name":"다산금빛",
-            "search_code":100976,
+            "name":"옥천문정주공3단지",
+            "search_code":101286,
             "apt_type":"아파트",
-            "apt_year":20,
-            "value_score":33.972,
+            "apt_year":23,
+            "value_score":33.594,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
@@ -314,19 +314,6 @@
         },
         {
             "index":20,
-            "sort":"infra",
-            "name":"옥천계룡리슈빌",
-            "search_code":124303,
-            "apt_type":"아파트",
-            "apt_year":1,
-            "value_score":34.3541052632,
-            "region":"충청북도 옥천군",
-            "region_code":"Chungcheongbukdo",
-            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
-            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
-        },
-        {
-            "index":21,
             "sort":"infra",
             "name":"옥천지엘리베라움",
             "search_code":110319,
@@ -339,20 +326,20 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":22,
+            "index":21,
             "sort":"infra",
-            "name":"더퍼스트이안",
-            "search_code":136003,
+            "name":"옥천계룡리슈빌",
+            "search_code":124303,
             "apt_type":"아파트",
             "apt_year":1,
-            "value_score":31.5397894737,
+            "value_score":31.5909473684,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":23,
+            "index":22,
             "sort":"infra",
             "name":"e편한세상옥천퍼스트원",
             "search_code":152518,
@@ -365,20 +352,20 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":24,
+            "index":23,
             "sort":"infra",
-            "name":"옥천마암리양우내안애",
-            "search_code":110467,
+            "name":"더퍼스트이안",
+            "search_code":136003,
             "apt_type":"아파트",
-            "apt_year":5,
-            "value_score":31.224,
+            "apt_year":1,
+            "value_score":30.4345263158,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":25,
+            "index":24,
             "sort":"infra",
             "name":"옥천역금호어울림더퍼스트",
             "search_code":151876,
@@ -391,7 +378,7 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":26,
+            "index":25,
             "sort":"infra",
             "name":"하늘빛",
             "search_code":102872,
@@ -404,20 +391,20 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":27,
+            "index":26,
             "sort":"infra",
-            "name":"옥천향수마을",
-            "search_code":19165,
+            "name":"옥천마암리양우내안애",
+            "search_code":110467,
             "apt_type":"아파트",
-            "apt_year":18,
-            "value_score":28.5555789474,
+            "apt_year":5,
+            "value_score":28.4608421053,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":28,
+            "index":27,
             "sort":"infra",
             "name":"옥천장야주공1단지",
             "search_code":102110,
@@ -430,13 +417,26 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
+            "index":28,
+            "sort":"infra",
+            "name":"옥천문정주공2단지",
+            "search_code":105115,
+            "apt_type":"아파트",
+            "apt_year":24,
+            "value_score":26.2503157895,
+            "region":"충청북도 옥천군",
+            "region_code":"Chungcheongbukdo",
+            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
+            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
+        },
+        {
             "index":29,
             "sort":"infra",
-            "name":"현대",
-            "search_code":7714,
+            "name":"옥천문정주공3단지",
+            "search_code":101286,
             "apt_type":"아파트",
-            "apt_year":30,
-            "value_score":27.724,
+            "apt_year":23,
+            "value_score":26.2503157895,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
@@ -444,19 +444,6 @@
         },
         {
             "index":30,
-            "sort":"education",
-            "name":"옥천계룡리슈빌",
-            "search_code":124303,
-            "apt_type":"아파트",
-            "apt_year":1,
-            "value_score":43.894,
-            "region":"충청북도 옥천군",
-            "region_code":"Chungcheongbukdo",
-            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
-            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
-        },
-        {
-            "index":31,
             "sort":"education",
             "name":"옥천지엘리베라움",
             "search_code":110319,
@@ -469,7 +456,7 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":32,
+            "index":31,
             "sort":"education",
             "name":"e편한세상옥천퍼스트원",
             "search_code":152518,
@@ -482,20 +469,7 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":33,
-            "sort":"education",
-            "name":"더퍼스트이안",
-            "search_code":136003,
-            "apt_type":"아파트",
-            "apt_year":1,
-            "value_score":41.538,
-            "region":"충청북도 옥천군",
-            "region_code":"Chungcheongbukdo",
-            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
-            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
-        },
-        {
-            "index":34,
+            "index":32,
             "sort":"education",
             "name":"옥천역금호어울림더퍼스트",
             "search_code":151876,
@@ -508,20 +482,33 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":35,
+            "index":33,
             "sort":"education",
-            "name":"옥천마암리양우내안애",
-            "search_code":110467,
+            "name":"더퍼스트이안",
+            "search_code":136003,
             "apt_type":"아파트",
-            "apt_year":5,
-            "value_score":40.688,
+            "apt_year":1,
+            "value_score":39.788,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":36,
+            "index":34,
+            "sort":"education",
+            "name":"옥천계룡리슈빌",
+            "search_code":124303,
+            "apt_type":"아파트",
+            "apt_year":1,
+            "value_score":39.519,
+            "region":"충청북도 옥천군",
+            "region_code":"Chungcheongbukdo",
+            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
+            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
+        },
+        {
+            "index":35,
             "sort":"education",
             "name":"하늘빛",
             "search_code":102872,
@@ -534,20 +521,20 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":37,
+            "index":36,
             "sort":"education",
-            "name":"옥천향수마을",
-            "search_code":19165,
+            "name":"옥천마암리양우내안애",
+            "search_code":110467,
             "apt_type":"아파트",
-            "apt_year":18,
-            "value_score":36.813,
+            "apt_year":5,
+            "value_score":36.313,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
-            "index":38,
+            "index":37,
             "sort":"education",
             "name":"옥천장야주공1단지",
             "search_code":102110,
@@ -560,13 +547,26 @@
             "shorten_url":"https:\/\/me2.do\/IFFFXlil"
         },
         {
+            "index":38,
+            "sort":"education",
+            "name":"옥천문정주공2단지",
+            "search_code":105115,
+            "apt_type":"아파트",
+            "apt_year":24,
+            "value_score":34.563,
+            "region":"충청북도 옥천군",
+            "region_code":"Chungcheongbukdo",
+            "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",
+            "shorten_url":"https:\/\/me2.do\/IFFFXlil"
+        },
+        {
             "index":39,
             "sort":"education",
-            "name":"다산금빛",
-            "search_code":100976,
+            "name":"옥천문정주공3단지",
+            "search_code":101286,
             "apt_type":"아파트",
-            "apt_year":20,
-            "value_score":35.069,
+            "apt_year":23,
+            "value_score":34.563,
             "region":"충청북도 옥천군",
             "region_code":"Chungcheongbukdo",
             "sub_region_code":"4373000000_Chungcheongbukdo_Okcheon",

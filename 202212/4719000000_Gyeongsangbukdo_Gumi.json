@@ -449,7 +449,7 @@
         "primaryKey":[
             "index"
         ],
-        "pandas_version":"1.4.0"
+        "pandas_version":"0.20.0"
     },
     "data":[
         {
@@ -535,7 +535,7 @@
             "300m이내점포수":9,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":222.2815158349,
             "중학교학업성취도":87.1,
             "500m이내학원가":1,
@@ -1112,7 +1112,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=0&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/578r91Mp"
         },
         {
             "index":173,
@@ -1197,7 +1197,7 @@
             "300m이내점포수":19,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":205.3525953506,
             "중학교학업성취도":81.8,
             "500m이내학원가":2,
@@ -1424,7 +1424,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=1&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FdG7lZ47"
         },
         {
             "index":326,
@@ -1509,7 +1509,7 @@
             "300m이내점포수":350,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.8,
+            "초등학교학업성취도":90.17,
             "초등학교거리":415.5027871168,
             "중학교학업성취도":72.2,
             "500m이내학원가":1,
@@ -1786,7 +1786,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=2&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GWrJ04wp"
         },
         {
             "index":47,
@@ -1871,7 +1871,7 @@
             "300m이내점포수":180,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.85,
+            "초등학교학업성취도":90.13,
             "초등학교거리":306.7874368635,
             "중학교학업성취도":71.3,
             "500m이내학원가":1,
@@ -2348,7 +2348,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=3&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xagoZlNl"
         },
         {
             "index":170,
@@ -2433,7 +2433,7 @@
             "300m이내점포수":19,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":233.242236928,
             "중학교학업성취도":81.8,
             "500m이내학원가":2,
@@ -2608,7 +2608,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=4&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5oiXDyWr"
         },
         {
             "index":550,
@@ -2693,7 +2693,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.75,
+            "초등학교학업성취도":90.2,
             "초등학교거리":338.8478930496,
             "중학교학업성취도":87.1,
             "500m이내학원가":1,
@@ -3070,7 +3070,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=5&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FiEOsKJY"
         },
         {
             "index":246,
@@ -3155,7 +3155,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":610.6642332554,
             "중학교학업성취도":85.4,
             "500m이내학원가":1,
@@ -3582,7 +3582,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=6&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GKvxtYEf"
         },
         {
             "index":743,
@@ -3667,7 +3667,7 @@
             "300m이내점포수":45,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":408.9526623367,
             "중학교학업성취도":81.4,
             "500m이내학원가":0,
@@ -3802,7 +3802,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=7&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xUtFaY7D"
         },
         {
             "index":281,
@@ -3887,7 +3887,7 @@
             "300m이내점포수":208,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":283.8543496534,
             "중학교학업성취도":82.1,
             "500m이내학원가":1,
@@ -4214,7 +4214,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=8&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/I5c4803y"
         },
         {
             "index":301,
@@ -4299,7 +4299,7 @@
             "300m이내점포수":24,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":845.6935305315,
             "중학교학업성취도":85.6,
             "500m이내학원가":0,
@@ -4676,7 +4676,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=9&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GWrJ048a"
         },
         {
             "index":448,
@@ -5238,7 +5238,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=10&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x0hzZYQs"
         },
         {
             "index":252,
@@ -5323,7 +5323,7 @@
             "300m이내점포수":13,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":181.7111567359,
             "중학교학업성취도":82.1,
             "500m이내학원가":1,
@@ -5600,7 +5600,7 @@
                 ]
             ],
             "rank_gap":7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=11&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5Zvj9ziZ"
         },
         {
             "index":203,
@@ -5685,7 +5685,7 @@
             "300m이내점포수":139,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":236.0381496242,
             "중학교학업성취도":82.1,
             "500m이내학원가":1,
@@ -6012,7 +6012,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=12&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FJ6isf4A"
         },
         {
             "index":329,
@@ -6097,7 +6097,7 @@
             "300m이내점포수":12,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.92,
+            "초등학교학업성취도":90.07,
             "초등학교거리":322.3593615407,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -6466,7 +6466,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=13&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GvXdMKuM"
         },
         {
             "index":38,
@@ -6551,7 +6551,7 @@
             "300m이내점포수":9,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":500.1164488798,
             "중학교학업성취도":71.3,
             "500m이내학원가":1,
@@ -6770,7 +6770,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=14&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xr6cj9rQ"
         },
         {
             "index":455,
@@ -7182,7 +7182,7 @@
                 ]
             ],
             "rank_gap":20,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=15&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5cA2CBaL"
         },
         {
             "index":77,
@@ -7267,7 +7267,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":645.7581272497,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -7624,7 +7624,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=16&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F2Yi784w"
         },
         {
             "index":218,
@@ -7709,7 +7709,7 @@
             "300m이내점포수":8,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.88,
+            "초등학교학업성취도":90.11,
             "초등학교거리":207.1526441488,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -8286,7 +8286,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=17&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GbcrgC8I"
         },
         {
             "index":515,
@@ -8648,7 +8648,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=18&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xuCi4nsT"
         },
         {
             "index":571,
@@ -9010,7 +9010,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=19&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xI2gwDLL"
         },
         {
             "index":214,
@@ -9095,7 +9095,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":148.7278122261,
             "중학교학업성취도":82.1,
             "500m이내학원가":1,
@@ -9322,7 +9322,7 @@
                 ]
             ],
             "rank_gap":11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=20&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5SayYG7W"
         },
         {
             "index":616,
@@ -9407,7 +9407,7 @@
             "300m이내점포수":15,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":525.7228644386,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -9760,7 +9760,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=21&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F3oOAmxm"
         },
         {
             "index":264,
@@ -9845,7 +9845,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":414.8852559289,
             "중학교학업성취도":81.4,
             "500m이내학원가":1,
@@ -10372,7 +10372,7 @@
                 ]
             ],
             "rank_gap":24,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=22&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gu0dagUF"
         },
         {
             "index":24,
@@ -10457,7 +10457,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.85,
+            "초등학교학업성취도":90.13,
             "초등학교거리":256.7982486697,
             "중학교학업성취도":71.3,
             "500m이내학원가":1,
@@ -10834,7 +10834,7 @@
                 ]
             ],
             "rank_gap":26,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=23&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xYT9qZRW"
         },
         {
             "index":321,
@@ -10919,7 +10919,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.92,
+            "초등학교학업성취도":90.07,
             "초등학교거리":272.3951978679,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -11296,7 +11296,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=24&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xpaWLk4u"
         },
         {
             "index":558,
@@ -11708,7 +11708,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=25&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/53BUG0L5"
         },
         {
             "index":85,
@@ -11793,7 +11793,7 @@
             "300m이내점포수":202,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":268.1491452221,
             "중학교학업성취도":71.3,
             "500m이내학원가":2,
@@ -12020,7 +12020,7 @@
                 ]
             ],
             "rank_gap":7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=26&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FqHiEBNE"
         },
         {
             "index":518,
@@ -12105,7 +12105,7 @@
             "300m이내점포수":12,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":314.8439512758,
             "중학교학업성취도":87.1,
             "500m이내학원가":0,
@@ -12532,7 +12532,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=27&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GcWnh2Za"
         },
         {
             "index":196,
@@ -12617,7 +12617,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":437.422312112,
             "중학교학업성취도":89.4,
             "500m이내학원가":1,
@@ -13094,7 +13094,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=28&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xWiBVRZP"
         },
         {
             "index":340,
@@ -13179,7 +13179,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.8,
+            "초등학교학업성취도":90.17,
             "초등학교거리":187.0720252458,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -13606,7 +13606,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=29&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/58F3TaRt"
         },
         {
             "index":651,
@@ -13691,7 +13691,7 @@
             "300m이내점포수":10,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":212.3370160149,
             "중학교학업성취도":80.2,
             "500m이내학원가":0,
@@ -14018,7 +14018,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=30&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FU9z6Rje"
         },
         {
             "index":207,
@@ -14103,7 +14103,7 @@
             "300m이내점포수":130,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":172.0257822802,
             "중학교학업성취도":82.1,
             "500m이내학원가":1,
@@ -14380,7 +14380,7 @@
                 ]
             ],
             "rank_gap":16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=31&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G6yfB0IB"
         },
         {
             "index":54,
@@ -14465,7 +14465,7 @@
             "300m이내점포수":40,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.85,
+            "초등학교학업성취도":90.13,
             "초등학교거리":1094.3141363729,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -14792,7 +14792,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=32&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xV3AdVYV"
         },
         {
             "index":29,
@@ -14877,7 +14877,7 @@
             "300m이내점포수":191,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":162.6515385272,
             "중학교학업성취도":71.3,
             "500m이내학원가":2,
@@ -15154,7 +15154,7 @@
                 ]
             ],
             "rank_gap":11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=33&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5IsTkhbW"
         },
         {
             "index":744,
@@ -15239,7 +15239,7 @@
             "300m이내점포수":78,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":481.0796818545,
             "중학교학업성취도":82.1,
             "500m이내학원가":0,
@@ -15374,7 +15374,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=34&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FGeFwTnn"
         },
         {
             "index":695,
@@ -15459,7 +15459,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":390.7314887776,
             "중학교학업성취도":81.8,
             "500m이내학원가":2,
@@ -15686,7 +15686,7 @@
                 ]
             ],
             "rank_gap":38,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=35&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xmPtHCsr"
         },
         {
             "index":4,
@@ -15771,7 +15771,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":1001.493702546,
             "중학교학업성취도":74.7,
             "500m이내학원가":0,
@@ -16140,7 +16140,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=36&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5CprL1wj"
         },
         {
             "index":145,
@@ -16225,7 +16225,7 @@
             "300m이내점포수":141,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":252.4160825678,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -16652,7 +16652,7 @@
                 ]
             ],
             "rank_gap":-16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=37&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5uciV8jp"
         },
         {
             "index":657,
@@ -16737,7 +16737,7 @@
             "300m이내점포수":88,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":214.1507070254,
             "중학교학업성취도":80.2,
             "500m이내학원가":0,
@@ -17314,7 +17314,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=38&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FWPf39BX"
         },
         {
             "index":260,
@@ -17399,7 +17399,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":468.2143273317,
             "중학교학업성취도":81.4,
             "500m이내학원가":1,
@@ -17726,7 +17726,7 @@
                 ]
             ],
             "rank_gap":18,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=39&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GkJkB9zI"
         },
         {
             "index":83,
@@ -17811,7 +17811,7 @@
             "300m이내점포수":43,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":209.6864116137,
             "중학교학업성취도":71.3,
             "500m이내학원가":2,
@@ -18038,7 +18038,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=40&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xvLthZXg"
         },
         {
             "index":32,
@@ -18123,7 +18123,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":523.5181869704,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -18550,7 +18550,7 @@
                 ]
             ],
             "rank_gap":-17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=41&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5oiXDYC4"
         },
         {
             "index":346,
@@ -18585,16 +18585,16 @@
             "공원":0,
             "혐오시설":0,
             "인프라총점":12.0,
-            "초등학군":95.1168103951,
+            "초등학군":95.2068103951,
             "중학군":43.32,
-            "학군총점":41.1072025988,
+            "학군총점":41.1297025988,
             "인구수":44.19,
             "인구증감":-4.35,
             "인구총점":29.628,
             "일자리":28.43,
             "소득수준":64.26,
             "일자리총점":39.179,
-            "가치 총점":50.1786012994,
+            "가치 총점":50.1898512994,
             "매매실거래년":20221204.0,
             "매매실거래가":28000.0,
             "평단가":883,
@@ -18635,7 +18635,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.92,
+            "초등학교학업성취도":90.07,
             "초등학교거리":102.9120259878,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -19062,7 +19062,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=42&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FpMZtrIb"
         },
         {
             "index":357,
@@ -19147,7 +19147,7 @@
             "300m이내점포수":20,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":543.2763111074,
             "중학교학업성취도":67.3,
             "500m이내학원가":0,
@@ -19574,7 +19574,7 @@
                 ]
             ],
             "rank_gap":-13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=43&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GwEILyGz"
         },
         {
             "index":106,
@@ -19659,7 +19659,7 @@
             "300m이내점포수":42,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":553.4135217464,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -20104,7 +20104,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=44&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xxARt6yG"
         },
         {
             "index":334,
@@ -20189,7 +20189,7 @@
             "300m이내점포수":12,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.8,
+            "초등학교학업성취도":90.17,
             "초등학교거리":332.4670021513,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -20616,7 +20616,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=45&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5IsTkh2F"
         },
         {
             "index":128,
@@ -20701,7 +20701,7 @@
             "300m이내점포수":141,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":569.6429031008,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -21078,7 +21078,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=46&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F5FC80EV"
         },
         {
             "index":61,
@@ -21163,7 +21163,7 @@
             "300m이내점포수":30,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.85,
+            "초등학교학업성취도":90.13,
             "초등학교거리":1052.2256769256,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -21690,7 +21690,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=47&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xR0PHfNf"
         },
         {
             "index":96,
@@ -21775,7 +21775,7 @@
             "300m이내점포수":141,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":372.2109046242,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -22302,7 +22302,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=48&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5eTwWKEn"
         },
         {
             "index":0,
@@ -22387,7 +22387,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":1111.1252459678,
             "중학교학업성취도":74.7,
             "500m이내학원가":0,
@@ -22706,7 +22706,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=49&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FhdNrJ4x"
         },
         {
             "index":384,
@@ -22791,7 +22791,7 @@
             "300m이내점포수":11,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":534.6133537615,
             "중학교학업성취도":67.3,
             "500m이내학원가":1,
@@ -22966,7 +22966,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=50&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GOQzD5YO"
         },
         {
             "index":574,
@@ -23051,7 +23051,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":615.4082904919,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -23820,7 +23820,7 @@
                 ]
             ],
             "rank_gap":-22,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=51&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xqo5hB4X"
         },
         {
             "index":697,
@@ -24282,7 +24282,7 @@
                 ]
             ],
             "rank_gap":-27,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=52&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5Zvj9crM"
         },
         {
             "index":82,
@@ -24367,7 +24367,7 @@
             "300m이내점포수":36,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":214.897657687,
             "중학교학업성취도":71.3,
             "500m이내학원가":2,
@@ -24542,7 +24542,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=53&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FsKqDcuy"
         },
         {
             "index":541,
@@ -25104,7 +25104,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=54&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FIYoLX08"
         },
         {
             "index":289,
@@ -25189,7 +25189,7 @@
             "300m이내점포수":109,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":605.8367980414,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -25566,7 +25566,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=55&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G5QJ20BD"
         },
         {
             "index":531,
@@ -25651,7 +25651,7 @@
             "300m이내점포수":427,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":565.2520497369,
             "중학교학업성취도":87.1,
             "500m이내학원가":2,
@@ -26028,7 +26028,7 @@
                 ]
             ],
             "rank_gap":-20,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=56&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xKWzolDq"
         },
         {
             "index":540,
@@ -26113,7 +26113,7 @@
             "300m이내점포수":47,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":359.274809555,
             "중학교학업성취도":74.7,
             "500m이내학원가":1,
@@ -26288,7 +26288,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=57&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5dyPFQ6I"
         },
         {
             "index":162,
@@ -26373,7 +26373,7 @@
             "300m이내점포수":19,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":413.8707125403,
             "중학교학업성취도":81.8,
             "500m이내학원가":2,
@@ -26800,7 +26800,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=58&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FWPf39HV"
         },
         {
             "index":21,
@@ -26885,7 +26885,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.85,
+            "초등학교학업성취도":90.13,
             "초등학교거리":708.5942476127,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -27162,7 +27162,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=59&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FM61GFVh"
         },
         {
             "index":352,
@@ -27247,7 +27247,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":838.6125923303,
             "중학교학업성취도":67.3,
             "500m이내학원가":0,
@@ -27584,7 +27584,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=60&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xnn6mUam"
         },
         {
             "index":279,
@@ -27669,7 +27669,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":591.2390906109,
             "중학교학업성취도":85.4,
             "500m이내학원가":2,
@@ -27896,7 +27896,7 @@
                 ]
             ],
             "rank_gap":22,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=61&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5YwaGl8L"
         },
         {
             "index":234,
@@ -27981,7 +27981,7 @@
             "300m이내점포수":40,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":285.4129227171,
             "중학교학업성취도":81.4,
             "500m이내학원가":0,
@@ -28258,7 +28258,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=62&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/I5c48neY"
         },
         {
             "index":385,
@@ -28343,7 +28343,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":979.0770472476,
             "중학교학업성취도":74.1,
             "500m이내학원가":0,
@@ -28670,7 +28670,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=63&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xgTuLFda"
         },
         {
             "index":136,
@@ -28755,7 +28755,7 @@
             "300m이내점포수":106,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":1764.4616075838,
             "중학교학업성취도":80.2,
             "500m이내학원가":0,
@@ -29232,7 +29232,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=64&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FOhMtgbE"
         },
         {
             "index":691,
@@ -29267,16 +29267,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":36.0,
-            "초등학군":99.8582256194,
+            "초등학군":99.7982256194,
             "중학군":50.56,
-            "학군총점":57.7885564049,
+            "학군총점":57.7735564049,
             "인구수":44.19,
             "인구증감":-4.35,
             "인구총점":29.628,
             "일자리":28.43,
             "소득수준":64.26,
             "일자리총점":39.179,
-            "가치 총점":46.7192782024,
+            "가치 총점":46.7117782024,
             "매매실거래년":20220621.0,
             "매매실거래가":26300.0,
             "평단가":1412,
@@ -29317,7 +29317,7 @@
             "300m이내점포수":805,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":114.5705640486,
             "중학교학업성취도":81.8,
             "500m이내학원가":2,
@@ -29544,7 +29544,7 @@
                 ]
             ],
             "rank_gap":7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=65&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FgvSLG67"
         },
         {
             "index":381,
@@ -29629,7 +29629,7 @@
             "300m이내점포수":11,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":541.9929831124,
             "중학교학업성취도":67.3,
             "500m이내학원가":1,
@@ -29906,7 +29906,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=66&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GVWNvzYu"
         },
         {
             "index":171,
@@ -29991,7 +29991,7 @@
             "300m이내점포수":25,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":129.0459059089,
             "중학교학업성취도":81.8,
             "500m이내학원가":1,
@@ -30166,7 +30166,7 @@
                 ]
             ],
             "rank_gap":18,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=67&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xyjlbD9K"
         },
         {
             "index":161,
@@ -30251,7 +30251,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":600.6867754533,
             "중학교학업성취도":81.8,
             "500m이내학원가":0,
@@ -30426,7 +30426,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=68&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5lCxHS0k"
         },
         {
             "index":587,
@@ -30511,7 +30511,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":266.994961827,
             "중학교학업성취도":89.4,
             "500m이내학원가":0,
@@ -31080,7 +31080,7 @@
                 ]
             ],
             "rank_gap":-26,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=69&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FdG7lWj9"
         },
         {
             "index":686,
@@ -31165,7 +31165,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":351.9204397363,
             "중학교학업성취도":81.8,
             "500m이내학원가":1,
@@ -31542,7 +31542,7 @@
                 ]
             ],
             "rank_gap":16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=70&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GQYNgfmE"
         },
         {
             "index":507,
@@ -31627,7 +31627,7 @@
             "300m이내점포수":298,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":137.8067690388,
             "중학교학업성취도":76.3,
             "500m이내학원가":3,
@@ -31904,7 +31904,7 @@
                 ]
             ],
             "rank_gap":11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=71&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xzLn6A3u"
         },
         {
             "index":702,
@@ -32216,7 +32216,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=72&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5xnLWGin"
         },
         {
             "index":720,
@@ -32301,7 +32301,7 @@
             "300m이내점포수":820,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":296.3133199136,
             "중학교학업성취도":81.8,
             "500m이내학원가":3,
@@ -32524,7 +32524,7 @@
                 ]
             ],
             "rank_gap":27,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=73&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Flx2DsWI"
         },
         {
             "index":151,
@@ -32609,7 +32609,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":592.9057657986,
             "중학교학업성취도":67.3,
             "500m이내학원가":0,
@@ -32936,7 +32936,7 @@
                 ]
             ],
             "rank_gap":-13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=74&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xsY8964H"
         },
         {
             "index":409,
@@ -33021,7 +33021,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":732.0458049154,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -33290,7 +33290,7 @@
                 ]
             ],
             "rank_gap":-25,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=75&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5cA2COKu"
         },
         {
             "index":555,
@@ -33375,7 +33375,7 @@
             "300m이내점포수":159,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":185.6307578226,
             "중학교학업성취도":74.7,
             "500m이내학원가":1,
@@ -33652,7 +33652,7 @@
                 ]
             ],
             "rank_gap":17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=76&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FWPf39Lp"
         },
         {
             "index":434,
@@ -33737,7 +33737,7 @@
             "300m이내점포수":71,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":679.7154645019,
             "중학교학업성취도":85.6,
             "500m이내학원가":0,
@@ -34006,7 +34006,7 @@
                 ]
             ],
             "rank_gap":-17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=77&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GRzmdgyU"
         },
         {
             "index":93,
@@ -34091,7 +34091,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":195.8042170049,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -34368,7 +34368,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=78&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xqo5hByQ"
         },
         {
             "index":159,
@@ -34453,7 +34453,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":380.4446973278,
             "중학교학업성취도":81.8,
             "500m이내학원가":0,
@@ -34680,7 +34680,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=79&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5lCxHSos"
         },
         {
             "index":514,
@@ -34765,7 +34765,7 @@
             "300m이내점포수":129,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":389.7799981582,
             "중학교학업성취도":76.3,
             "500m이내학원가":3,
@@ -34940,7 +34940,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=80&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FU9z6RwM"
         },
         {
             "index":621,
@@ -35025,7 +35025,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":598.4241263158,
             "중학교학업성취도":81.8,
             "500m이내학원가":0,
@@ -35502,7 +35502,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=81&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GpefDYPT"
         },
         {
             "index":390,
@@ -35587,7 +35587,7 @@
             "300m이내점포수":33,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":448.6253146489,
             "중학교학업성취도":74.1,
             "500m이내학원가":0,
@@ -35864,7 +35864,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=82&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5mgBVQed"
         },
         {
             "index":180,
@@ -35949,7 +35949,7 @@
             "300m이내점포수":36,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":1316.5036561699,
             "중학교학업성취도":74.7,
             "500m이내학원가":0,
@@ -36276,7 +36276,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=83&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FOhMtgs2"
         },
         {
             "index":613,
@@ -36361,7 +36361,7 @@
             "300m이내점포수":26,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.98,
             "초등학교거리":393.2379999516,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -36630,7 +36630,7 @@
                 ]
             ],
             "rank_gap":-16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=84&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GJFEOPrU"
         },
         {
             "index":526,
@@ -36715,7 +36715,7 @@
             "300m이내점포수":47,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":446.0396456565,
             "중학교학업성취도":74.7,
             "500m이내학원가":1,
@@ -36890,7 +36890,7 @@
                 ]
             ],
             "rank_gap":19,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=85&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xYT9qZQE"
         },
         {
             "index":227,
@@ -36975,7 +36975,7 @@
             "300m이내점포수":48,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":228.6229069668,
             "중학교학업성취도":81.4,
             "500m이내학원가":0,
@@ -37452,7 +37452,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=86&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5P2scOSR"
         },
         {
             "index":680,
@@ -37537,7 +37537,7 @@
             "300m이내점포수":813,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":238.3673784361,
             "중학교학업성취도":81.8,
             "500m이내학원가":3,
@@ -37708,7 +37708,7 @@
                 ]
             ],
             "rank_gap":16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=87&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F3oOAm69"
         },
         {
             "index":255,
@@ -37793,7 +37793,7 @@
             "300m이내점포수":19,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":415.7360204824,
             "중학교학업성취도":85.4,
             "500m이내학원가":1,
@@ -38170,7 +38170,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=88&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gt91vqtT"
         },
         {
             "index":175,
@@ -38255,7 +38255,7 @@
             "300m이내점포수":35,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":224.4027998766,
             "중학교학업성취도":81.8,
             "500m이내학원가":0,
@@ -38482,7 +38482,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=89&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xmPtHCrh"
         },
         {
             "index":510,
@@ -38567,7 +38567,7 @@
             "300m이내점포수":158,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":382.6422591675,
             "중학교학업성취도":76.3,
             "500m이내학원가":3,
@@ -38794,7 +38794,7 @@
                 ]
             ],
             "rank_gap":19,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=90&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5kXkpeLr"
         },
         {
             "index":371,
@@ -38879,7 +38879,7 @@
             "300m이내점포수":11,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":627.7284649404,
             "중학교학업성취도":67.3,
             "500m이내학원가":0,
@@ -39306,7 +39306,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=91&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FJ6is0H9"
         },
         {
             "index":276,
@@ -39391,7 +39391,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":592.4524601904,
             "중학교학업성취도":85.4,
             "500m이내학원가":2,
@@ -39668,7 +39668,7 @@
                 ]
             ],
             "rank_gap":34,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=92&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GPFXTUvA"
         },
         {
             "index":704,
@@ -39753,7 +39753,7 @@
             "300m이내점포수":837,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":345.9096187856,
             "중학교학업성취도":81.8,
             "500m이내학원가":3,
@@ -40030,7 +40030,7 @@
                 ]
             ],
             "rank_gap":15,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=93&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xYT9qZkg"
         },
         {
             "index":186,
@@ -40115,7 +40115,7 @@
             "300m이내점포수":30,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":348.4783036415,
             "중학교학업성취도":89.4,
             "500m이내학원가":1,
@@ -40392,7 +40392,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=94&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5WBHq6ma"
         },
         {
             "index":477,
@@ -40477,7 +40477,7 @@
             "300m이내점포수":120,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":818.2265900176,
             "중학교학업성취도":85.6,
             "500m이내학원가":1,
@@ -40800,7 +40800,7 @@
                 ]
             ],
             "rank_gap":-31,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=95&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FsKqDck6"
         },
         {
             "index":667,
@@ -40885,7 +40885,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.95,
             "초등학교거리":184.3283423218,
             "중학교학업성취도":71.2,
             "500m이내학원가":0,
@@ -41162,7 +41162,7 @@
                 ]
             ],
             "rank_gap":-17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=96&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G2VxyJFT"
         },
         {
             "index":318,
@@ -41247,7 +41247,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":493.1645795649,
             "중학교학업성취도":67.3,
             "500m이내학원가":1,
@@ -41524,7 +41524,7 @@
                 ]
             ],
             "rank_gap":-26,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=97&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x1g0IFDx"
         },
         {
             "index":684,
@@ -41609,7 +41609,7 @@
             "300m이내점포수":805,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":173.4976962035,
             "중학교학업성취도":81.8,
             "500m이내학원가":1,
@@ -41832,7 +41832,7 @@
                 ]
             ],
             "rank_gap":21,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=98&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5HEtp9qb"
         },
         {
             "index":245,
@@ -41917,7 +41917,7 @@
             "300m이내점포수":72,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":288.1315008136,
             "중학교학업성취도":81.4,
             "500m이내학원가":0,
@@ -42092,7 +42092,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=99&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FhdNrJRW"
         },
         {
             "index":272,
@@ -42177,7 +42177,7 @@
             "300m이내점포수":19,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":711.5491984105,
             "중학교학업성취도":85.4,
             "500m이내학원가":1,
@@ -42504,7 +42504,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=100&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GcWnh2BL"
         },
         {
             "index":681,
@@ -42589,7 +42589,7 @@
             "300m이내점포수":26,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":298.1295768841,
             "중학교학업성취도":81.8,
             "500m이내학원가":1,
@@ -42816,7 +42816,7 @@
                 ]
             ],
             "rank_gap":19,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=101&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xdkfCKVW"
         },
         {
             "index":172,
@@ -42901,7 +42901,7 @@
             "300m이내점포수":35,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":234.215636967,
             "중학교학업성취도":81.8,
             "500m이내학원가":0,
@@ -43076,7 +43076,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=102&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5wHAXSmn"
         },
         {
             "index":459,
@@ -43388,7 +43388,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=103&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FJ6is0F6"
         },
         {
             "index":733,
@@ -43473,7 +43473,7 @@
             "300m이내점포수":137,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":327.5576051746,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -43800,7 +43800,7 @@
                 ]
             ],
             "rank_gap":-17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=104&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GRzmdgft"
         },
         {
             "index":683,
@@ -43835,16 +43835,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":37.0,
-            "초등학군":96.3783118685,
+            "초등학군":96.3183118685,
             "중학군":50.56,
-            "학군총점":55.7185779671,
+            "학군총점":55.7035779671,
             "인구수":44.19,
             "인구증감":-4.35,
             "인구총점":29.628,
             "일자리":28.43,
             "소득수준":64.26,
             "일자리총점":39.179,
-            "가치 총점":41.4592889836,
+            "가치 총점":41.4517889836,
             "매매실거래년":20220704.0,
             "매매실거래가":11500.0,
             "평단가":372,
@@ -43885,7 +43885,7 @@
             "300m이내점포수":797,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":105.8707796712,
             "중학교학업성취도":81.8,
             "500m이내학원가":2,
@@ -44056,7 +44056,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=105&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xAWVdN3N"
         },
         {
             "index":241,
@@ -44141,7 +44141,7 @@
             "300m이내점포수":72,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":353.5785958353,
             "중학교학업성취도":81.4,
             "500m이내학원가":0,
@@ -44468,7 +44468,7 @@
                 ]
             ],
             "rank_gap":-16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=106&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xGimR9bj"
         },
         {
             "index":311,
@@ -44553,7 +44553,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":239.3937943706,
             "중학교학업성취도":67.3,
             "500m이내학원가":1,
@@ -44880,7 +44880,7 @@
                 ]
             ],
             "rank_gap":-23,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=107&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/ID1oV9by"
         },
         {
             "index":628,
@@ -44965,7 +44965,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.98,
             "초등학교거리":376.4048080051,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -45292,7 +45292,7 @@
                 ]
             ],
             "rank_gap":-21,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=108&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FfWA8JWN"
         },
         {
             "index":168,
@@ -45327,16 +45327,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":15.0,
-            "초등학군":91.4720499305,
+            "초등학군":91.3880499305,
             "중학군":50.04,
-            "학군총점":42.8840124826,
+            "학군총점":42.8630124826,
             "인구수":44.19,
             "인구증감":-4.35,
             "인구총점":29.628,
             "일자리":28.43,
             "소득수준":64.26,
             "일자리총점":39.179,
-            "가치 총점":41.1920062413,
+            "가치 총점":41.1815062413,
             "매매실거래년":20221209.0,
             "매매실거래가":7800.0,
             "평단가":334,
@@ -45377,7 +45377,7 @@
             "300m이내점포수":24,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":93.5751248262,
             "중학교학업성취도":81.8,
             "500m이내학원가":0,
@@ -45552,7 +45552,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=109&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gisew1s9"
         },
         {
             "index":678,
@@ -45637,7 +45637,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":311.4480337747,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -45864,7 +45864,7 @@
                 ]
             ],
             "rank_gap":21,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=110&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xSnNfyn1"
         },
         {
             "index":693,
@@ -45949,7 +45949,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":373.9518266958,
             "중학교학업성취도":81.8,
             "500m이내학원가":3,
@@ -46176,7 +46176,7 @@
                 ]
             ],
             "rank_gap":19,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=111&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5qAa9hAo"
         },
         {
             "index":17,
@@ -46261,7 +46261,7 @@
             "300m이내점포수":11,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":2088.135192778,
             "중학교학업성취도":74.1,
             "500m이내학원가":0,
@@ -46436,7 +46436,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=112&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FhdNrJdh"
         },
         {
             "index":675,
@@ -46521,7 +46521,7 @@
             "300m이내점포수":10,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":250.8022303804,
             "중학교학업성취도":85.6,
             "500m이내학원가":1,
@@ -46798,7 +46798,7 @@
                 ]
             ],
             "rank_gap":27,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=113&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GJFEOPFM"
         },
         {
             "index":169,
@@ -46883,7 +46883,7 @@
             "300m이내점포수":24,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":370.5666821948,
             "중학교학업성취도":81.8,
             "500m이내학원가":0,
@@ -47058,7 +47058,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=114&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FzmQLtmi"
         },
         {
             "index":367,
@@ -47143,7 +47143,7 @@
             "300m이내점포수":20,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":390.2286507023,
             "중학교학업성취도":67.3,
             "500m이내학원가":0,
@@ -47470,7 +47470,7 @@
                 ]
             ],
             "rank_gap":-13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=115&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GIt8TbtE"
         },
         {
             "index":644,
@@ -47555,7 +47555,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.98,
             "초등학교거리":247.2348753565,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -47882,7 +47882,7 @@
                 ]
             ],
             "rank_gap":-17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=116&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5NqAHUqr"
         },
         {
             "index":406,
@@ -47967,7 +47967,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":814.5961311926,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -48244,7 +48244,7 @@
                 ]
             ],
             "rank_gap":-23,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=117&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F1Me5keQ"
         },
         {
             "index":737,
@@ -48329,7 +48329,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":146.6445739723,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -48656,7 +48656,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=118&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GqsN5wNE"
         },
         {
             "index":712,
@@ -48741,7 +48741,7 @@
             "300m이내점포수":43,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":428.3069656483,
             "중학교학업성취도":85.6,
             "500m이내학원가":1,
@@ -49268,7 +49268,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=119&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xJaqMpqI"
         },
         {
             "index":377,
@@ -49353,7 +49353,7 @@
             "300m이내점포수":11,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":819.9599122428,
             "중학교학업성취도":67.3,
             "500m이내학원가":0,
@@ -49680,7 +49680,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=120&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5vY42n4c"
         },
         {
             "index":194,
@@ -49765,7 +49765,7 @@
             "300m이내점포수":47,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":196.5091455406,
             "중학교학업성취도":89.4,
             "500m이내학원가":1,
@@ -49992,7 +49992,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=121&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FeCpoEpE"
         },
         {
             "index":155,
@@ -50077,7 +50077,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":693.2380195502,
             "중학교학업성취도":67.3,
             "500m이내학원가":0,
@@ -50354,7 +50354,7 @@
                 ]
             ],
             "rank_gap":-17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=122&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GUDtWZtJ"
         },
         {
             "index":486,
@@ -50439,7 +50439,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":469.0366059673,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -50866,7 +50866,7 @@
                 ]
             ],
             "rank_gap":-26,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=123&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xV3AdVAv"
         },
         {
             "index":189,
@@ -50951,7 +50951,7 @@
             "300m이내점포수":30,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":341.0095859769,
             "중학교학업성취도":89.4,
             "500m이내학원가":1,
@@ -51328,7 +51328,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=124&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5oiXDYXW"
         },
         {
             "index":58,
@@ -51413,7 +51413,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.85,
+            "초등학교학업성취도":90.13,
             "초등학교거리":516.7086800145,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -51690,7 +51690,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=125&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FJ6is0bR"
         },
         {
             "index":471,
@@ -52202,7 +52202,7 @@
                 ]
             ],
             "rank_gap":-59,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=126&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gu0dagb0"
         },
         {
             "index":527,
@@ -52287,7 +52287,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":299.6923089966,
             "중학교학업성취도":74.7,
             "500m이내학원가":1,
@@ -52514,7 +52514,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=127&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GguPR1Wp"
         },
         {
             "index":529,
@@ -52599,7 +52599,7 @@
             "300m이내점포수":155,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":162.7898215115,
             "중학교학업성취도":74.7,
             "500m이내학원가":1,
@@ -52826,7 +52826,7 @@
                 ]
             ],
             "rank_gap":-15,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=128&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xM8EcSjX"
         },
         {
             "index":501,
@@ -52911,7 +52911,7 @@
             "300m이내점포수":158,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":264.15372376,
             "중학교학업성취도":76.3,
             "500m이내학원가":3,
@@ -53082,7 +53082,7 @@
                 ]
             ],
             "rank_gap":11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=129&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5i0ps7TF"
         },
         {
             "index":498,
@@ -53167,7 +53167,7 @@
             "300m이내점포수":158,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":275.6517996415,
             "중학교학업성취도":76.3,
             "500m이내학원가":3,
@@ -53444,7 +53444,7 @@
                 ]
             ],
             "rank_gap":11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=130&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FSO5UmwA"
         },
         {
             "index":492,
@@ -53529,7 +53529,7 @@
             "300m이내점포수":53,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.11,
+            "초등학교학업성취도":89.88,
             "초등학교거리":208.5935167719,
             "중학교학업성취도":76.3,
             "500m이내학원가":3,
@@ -53806,7 +53806,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=131&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G4LxNTGl"
         },
         {
             "index":307,
@@ -53891,7 +53891,7 @@
             "300m이내점포수":798,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":343.3703200592,
             "중학교학업성취도":67.3,
             "500m이내학원가":0,
@@ -54218,7 +54218,7 @@
                 ]
             ],
             "rank_gap":-17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=132&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xagoZ8fF"
         },
         {
             "index":484,
@@ -54303,7 +54303,7 @@
             "300m이내점포수":266,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":313.8032022027,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -54526,7 +54526,7 @@
                 ]
             ],
             "rank_gap":-24,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=133&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5BvkBJwx"
         },
         {
             "index":671,
@@ -54611,7 +54611,7 @@
             "300m이내점포수":371,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":529.374108886,
             "중학교학업성취도":85.6,
             "500m이내학원가":1,
@@ -54938,7 +54938,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=134&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FZ9WIG8n"
         },
         {
             "index":707,
@@ -55023,7 +55023,7 @@
             "300m이내점포수":807,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":127.6487164696,
             "중학교학업성취도":81.8,
             "500m이내학원가":2,
@@ -55350,7 +55350,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=135&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GPFXTUl3"
         },
         {
             "index":306,
@@ -55435,7 +55435,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":130.2300936594,
             "중학교학업성취도":67.3,
             "500m이내학원가":1,
@@ -55606,7 +55606,7 @@
                 ]
             ],
             "rank_gap":-13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=136&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x4iuOUGL"
         },
         {
             "index":437,
@@ -55691,7 +55691,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.81,
+            "초등학교학업성취도":90.16,
             "초등학교거리":808.0805851402,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -55968,7 +55968,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=137&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/56DaCb5t"
         },
         {
             "index":440,
@@ -56053,7 +56053,7 @@
             "300m이내점포수":14,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":380.4155817131,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -56380,7 +56380,7 @@
                 ]
             ],
             "rank_gap":-20,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=138&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Ftlu14GB"
         },
         {
             "index":548,
@@ -56465,7 +56465,7 @@
             "300m이내점포수":15,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":556.7186069636,
             "중학교학업성취도":74.7,
             "500m이내학원가":0,
@@ -56692,7 +56692,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=139&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FxX9yr2I"
         },
         {
             "index":725,
@@ -56777,7 +56777,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":149.5324674871,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -56952,7 +56952,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=140&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GRzmdgDu"
         },
         {
             "index":177,
@@ -57037,7 +57037,7 @@
             "300m이내점포수":36,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":1079.59680719,
             "중학교학업성취도":74.7,
             "500m이내학원가":0,
@@ -57314,7 +57314,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=141&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xqo5hBbL"
         },
         {
             "index":412,
@@ -57399,7 +57399,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":618.858910865,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -57776,7 +57776,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=142&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/53BUG09A"
         },
         {
             "index":502,
@@ -57861,7 +57861,7 @@
             "300m이내점포수":76,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":259.939784522,
             "중학교학업성취도":76.3,
             "500m이내학원가":3,
@@ -58238,7 +58238,7 @@
                 ]
             ],
             "rank_gap":17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=143&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FYaIEnrY"
         },
         {
             "index":184,
@@ -58273,16 +58273,16 @@
             "공원":80,
             "혐오시설":0,
             "인프라총점":17.4,
-            "초등학군":99.4419165218,
+            "초등학군":99.3939165218,
             "중학군":55.0,
-            "학군총점":46.8604791305,
+            "학군총점":46.8484791305,
             "인구수":44.19,
             "인구증감":-4.35,
             "인구총점":29.628,
             "일자리":28.43,
             "소득수준":64.26,
             "일자리총점":39.179,
-            "가치 총점":35.3152395652,
+            "가치 총점":35.3092395652,
             "매매실거래년":20221204.0,
             "매매실거래가":8000.0,
             "평단가":309,
@@ -58323,7 +58323,7 @@
             "300m이내점포수":65,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":113.5447913045,
             "중학교학업성취도":89.4,
             "500m이내학원가":1,
@@ -58550,7 +58550,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=144&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GZjsRyDc"
         },
         {
             "index":9,
@@ -58635,7 +58635,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":279.1058238194,
             "중학교학업성취도":74.7,
             "500m이내학원가":1,
@@ -59162,7 +59162,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=145&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xdkfCKMY"
         },
         {
             "index":363,
@@ -59247,7 +59247,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":391.1569249344,
             "중학교학업성취도":67.3,
             "500m이내학원가":1,
@@ -59418,7 +59418,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=146&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5yqBxMYK"
         },
         {
             "index":512,
@@ -59503,7 +59503,7 @@
             "300m이내점포수":158,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":373.1179619046,
             "중학교학업성취도":76.3,
             "500m이내학원가":3,
@@ -59730,7 +59730,7 @@
                 ]
             ],
             "rank_gap":20,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=147&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FHuAS9oV"
         },
         {
             "index":417,
@@ -59815,7 +59815,7 @@
             "300m이내점포수":64,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":604.6566298319,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -60192,7 +60192,7 @@
                 ]
             ],
             "rank_gap":-22,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=148&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F5FC80KR"
         },
         {
             "index":495,
@@ -60277,7 +60277,7 @@
             "300m이내점포수":29,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.11,
+            "초등학교학업성취도":89.88,
             "초등학교거리":318.1834037788,
             "중학교학업성취도":76.3,
             "500m이내학원가":2,
@@ -60554,7 +60554,7 @@
                 ]
             ],
             "rank_gap":25,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=149&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xCi1GAEI"
         },
         {
             "index":726,
@@ -60639,7 +60639,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":335.0337698354,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -60866,7 +60866,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=150&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xgTuLFKq"
         },
         {
             "index":210,
@@ -60951,7 +60951,7 @@
             "300m이내점포수":34,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.88,
+            "초등학교학업성취도":90.11,
             "초등학교거리":330.5257565069,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -61278,7 +61278,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=151&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/55yRJkbQ"
         },
         {
             "index":648,
@@ -61363,7 +61363,7 @@
             "300m이내점포수":137,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":411.7232792228,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -61640,7 +61640,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=152&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GCuaSTNF"
         },
         {
             "index":431,
@@ -61725,7 +61725,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":465.0104085571,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -62002,7 +62002,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=153&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G5QJ202B"
         },
         {
             "index":285,
@@ -62087,7 +62087,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":904.5928764117,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -62414,7 +62414,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=154&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xUtFaOa4"
         },
         {
             "index":601,
@@ -62499,7 +62499,7 @@
             "300m이내점포수":55,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":535.9667715059,
             "중학교학업성취도":89.4,
             "500m이내학원가":0,
@@ -62776,7 +62776,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=155&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5fjPyXyM"
         },
         {
             "index":711,
@@ -62861,7 +62861,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":317.1139759229,
             "중학교학업성취도":81.8,
             "500m이내학원가":0,
@@ -63036,7 +63036,7 @@
                 ]
             ],
             "rank_gap":10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=156&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FrlAZuZP"
         },
         {
             "index":158,
@@ -63121,7 +63121,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.81,
+            "초등학교학업성취도":90.16,
             "초등학교거리":746.5733138656,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -63296,7 +63296,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=157&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GPFXTUTQ"
         },
         {
             "index":294,
@@ -63381,7 +63381,7 @@
             "300m이내점포수":45,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":552.8768608074,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -63708,7 +63708,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=158&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xmPtHCHX"
         },
         {
             "index":240,
@@ -63793,7 +63793,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.88,
+            "초등학교학업성취도":90.11,
             "초등학교거리":304.4787289733,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -63968,7 +63968,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=159&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xFronUn6"
         },
         {
             "index":113,
@@ -64053,7 +64053,7 @@
             "300m이내점포수":42,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":479.6703606983,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -64280,7 +64280,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=160&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5G5hM8a7"
         },
         {
             "index":315,
@@ -64365,7 +64365,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":338.8867181251,
             "중학교학업성취도":67.3,
             "500m이내학원가":1,
@@ -64638,7 +64638,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=161&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FBDJfH9k"
         },
         {
             "index":134,
@@ -64723,7 +64723,7 @@
             "300m이내점포수":32,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":1636.5273734921,
             "중학교학업성취도":80.2,
             "500m이내학원가":0,
@@ -64950,7 +64950,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=162&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GGU8E6sE"
         },
         {
             "index":655,
@@ -65035,7 +65035,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":493.2730262157,
             "중학교학업성취도":80.2,
             "500m이내학원가":0,
@@ -65262,7 +65262,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=163&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5XDT0x8V"
         },
         {
             "index":427,
@@ -65347,7 +65347,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":766.865612987,
             "중학교학업성취도":85.6,
             "500m이내학원가":1,
@@ -65674,7 +65674,7 @@
                 ]
             ],
             "rank_gap":-16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=164&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FjjcD7Hn"
         },
         {
             "index":104,
@@ -65759,7 +65759,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":1532.7213598927,
             "중학교학업성취도":80.2,
             "500m이내학원가":0,
@@ -65986,7 +65986,7 @@
                 ]
             ],
             "rank_gap":10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=165&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/ID1oV9Hs"
         },
         {
             "index":298,
@@ -66071,7 +66071,7 @@
             "300m이내점포수":121,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":205.2529132355,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -66348,7 +66348,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=166&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GHDVK1Wb"
         },
         {
             "index":133,
@@ -66383,16 +66383,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":34.0,
-            "초등학군":93.4125386413,
+            "초등학군":93.4725386413,
             "중학군":42.92,
-            "학군총점":38.1211346603,
+            "학군총점":38.1361346603,
             "인구수":44.19,
             "인구증감":-4.35,
             "인구총점":29.628,
             "일자리":28.43,
             "소득수준":64.26,
             "일자리총점":39.179,
-            "가치 총점":30.4605673302,
+            "가치 총점":30.4680673302,
             "매매실거래년":20220524.0,
             "매매실거래가":4700.0,
             "평단가":249,
@@ -66433,7 +66433,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":98.6063466033,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -66608,7 +66608,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=167&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x7rBSFLT"
         },
         {
             "index":237,
@@ -66693,7 +66693,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.88,
+            "초등학교학업성취도":90.11,
             "초등학교거리":218.609927236,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -66920,7 +66920,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=168&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5D3jX2gh"
         },
         {
             "index":462,
@@ -67005,7 +67005,7 @@
             "300m이내점포수":64,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":604.8774897626,
             "중학교학업성취도":85.6,
             "500m이내학원가":0,
@@ -67180,7 +67180,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=169&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FoRHzinH"
         },
         {
             "index":481,
@@ -67265,7 +67265,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":478.4972919485,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -67542,7 +67542,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=170&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Go52bpfy"
         },
         {
             "index":536,
@@ -67627,7 +67627,7 @@
             "300m이내점포수":178,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":181.3799931314,
             "중학교학업성취도":74.7,
             "500m이내학원가":1,
@@ -67954,7 +67954,7 @@
                 ]
             ],
             "rank_gap":-26,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=171&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xKWzolsr"
         },
         {
             "index":364,
@@ -68039,7 +68039,7 @@
             "300m이내점포수":8,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":239.2946453095,
             "중학교학업성취도":67.3,
             "500m이내학원가":0,
@@ -68316,7 +68316,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=172&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5xnLWGdT"
         },
         {
             "index":123,
@@ -68401,7 +68401,7 @@
             "300m이내점포수":42,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":511.563797376,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -68778,7 +68778,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=173&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FM61GFf7"
         },
         {
             "index":389,
@@ -68863,7 +68863,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":687.8479871602,
             "중학교학업성취도":74.1,
             "500m이내학원가":0,
@@ -69038,7 +69038,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=174&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xmPtHCKY"
         },
         {
             "index":87,
@@ -69123,7 +69123,7 @@
             "300m이내점포수":9,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.85,
+            "초등학교학업성취도":90.13,
             "초등학교거리":457.7948498142,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -69450,7 +69450,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=175&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/54kxw3u7"
         },
         {
             "index":239,
@@ -69535,7 +69535,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.88,
+            "초등학교학업성취도":90.11,
             "초등학교거리":644.9798556751,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -69706,7 +69706,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=176&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FrlAZuqC"
         },
         {
             "index":399,
@@ -69791,7 +69791,7 @@
             "300m이내점포수":8,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":926.8710717646,
             "중학교학업성취도":74.1,
             "500m이내학원가":0,
@@ -70068,7 +70068,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=177&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GqsN5wu9"
         },
         {
             "index":636,
@@ -70153,7 +70153,7 @@
             "300m이내점포수":34,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":216.2149076096,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -70680,7 +70680,7 @@
                 ]
             ],
             "rank_gap":-39,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=178&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xagoZ86m"
         },
         {
             "index":724,
@@ -70765,7 +70765,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":422.1806980876,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -70940,7 +70940,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=179&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5atqPLSd"
         },
         {
             "index":728,
@@ -71025,7 +71025,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":481.9125400561,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -71352,7 +71352,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=180&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FbizI7gX"
         },
         {
             "index":216,
@@ -71437,7 +71437,7 @@
             "300m이내점포수":34,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.88,
+            "초등학교학업성취도":90.11,
             "초등학교거리":339.3867734096,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -71664,7 +71664,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=181&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GNUvsgQL"
         },
         {
             "index":596,
@@ -71749,7 +71749,7 @@
             "300m이내점포수":55,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":618.7712456188,
             "중학교학업성취도":89.4,
             "500m이내학원가":0,
@@ -72126,7 +72126,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=182&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G9stiXP2"
         },
         {
             "index":463,
@@ -72211,7 +72211,7 @@
             "300m이내점포수":70,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":499.3835333896,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -72480,7 +72480,7 @@
                 ]
             ],
             "rank_gap":-35,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=183&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xGimR9Dz"
         },
         {
             "index":633,
@@ -72565,7 +72565,7 @@
             "300m이내점포수":36,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":291.8845104695,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -72842,7 +72842,7 @@
                 ]
             ],
             "rank_gap":-48,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=184&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5lCxHSni"
         },
         {
             "index":74,
@@ -72927,7 +72927,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":1641.5626741132,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -73200,7 +73200,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=185&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FEdNmznd"
         },
         {
             "index":115,
@@ -73285,7 +73285,7 @@
             "300m이내점포수":28,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":2079.8806461587,
             "중학교학업성취도":80.2,
             "500m이내학원가":0,
@@ -73608,7 +73608,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=186&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GSUHtEaR"
         },
         {
             "index":632,
@@ -73693,7 +73693,7 @@
             "300m이내점포수":137,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":329.2928501788,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -73868,7 +73868,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=187&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xvLthZUD"
         },
         {
             "index":666,
@@ -73953,7 +73953,7 @@
             "300m이내점포수":72,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.21,
+            "초등학교학업성취도":89.73,
             "초등학교거리":409.6446040946,
             "중학교학업성취도":64.3,
             "500m이내학원가":0,
@@ -74128,7 +74128,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=188&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5hEJKARX"
         },
         {
             "index":71,
@@ -74213,7 +74213,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":304.6008772631,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -74490,7 +74490,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=189&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Fcgub8Lo"
         },
         {
             "index":393,
@@ -74575,7 +74575,7 @@
             "300m이내점포수":20,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":423.3790214955,
             "중학교학업성취도":74.1,
             "500m이내학원가":0,
@@ -74852,7 +74852,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=190&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GHDVK18N"
         },
         {
             "index":398,
@@ -74937,7 +74937,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":982.1237962149,
             "중학교학업성취도":74.1,
             "500m이내학원가":0,
@@ -75112,7 +75112,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=191&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xOmIzwA6"
         },
         {
             "index":396,
@@ -75197,7 +75197,7 @@
             "300m이내점포수":20,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":603.8796874477,
             "중학교학업성취도":74.1,
             "500m이내학원가":0,
@@ -75424,7 +75424,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=192&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5AfcKrWf"
         },
         {
             "index":69,
@@ -75509,7 +75509,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":331.7187231188,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -75736,7 +75736,7 @@
                 ]
             ],
             "rank_gap":7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=193&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F2Yi7fgC"
         },
         {
             "index":91,
@@ -75821,7 +75821,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":1137.1684824896,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -76044,7 +76044,7 @@
                 ]
             ],
             "rank_gap":7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=194&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FCB4k636"
         },
         {
             "index":18,
@@ -76129,7 +76129,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.71,
+            "초등학교학업성취도":90.23,
             "초등학교거리":204.0695375504,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -76406,7 +76406,7 @@
                 ]
             ],
             "rank_gap":7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=195&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F5FC80MH"
         },
         {
             "index":119,
@@ -76491,7 +76491,7 @@
             "300m이내점포수":124,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":2128.7415001652,
             "중학교학업성취도":80.2,
             "500m이내학원가":0,
@@ -76818,7 +76818,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=196&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GMvWy5p1"
         },
         {
             "index":143,
@@ -76853,16 +76853,16 @@
             "공원":0,
             "혐오시설":0,
             "인프라총점":28.0,
-            "초등학군":80.7080578279,
+            "초등학군":80.8220578279,
             "중학군":42.92,
-            "학군총점":37.345014457,
+            "학군총점":37.373514457,
             "인구수":44.19,
             "인구증감":-4.35,
             "인구총점":29.628,
             "일자리":28.43,
             "소득수준":64.26,
             "일자리총점":39.179,
-            "가치 총점":27.4225072285,
+            "가치 총점":27.4367572285,
             "매매실거래년":20221216.0,
             "매매실거래가":4300.0,
             "평단가":213,
@@ -76903,7 +76903,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":66.9201445697,
             "중학교학업성취도":70.6,
             "500m이내학원가":0,
@@ -77130,7 +77130,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=197&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xBhsTkjV"
         },
         {
             "index":741,
@@ -77215,7 +77215,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":570.8507355928,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -77442,7 +77442,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=198&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IGGKdfVM"
         },
         {
             "index":670,
@@ -77527,7 +77527,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":576.6086490694,
             "중학교학업성취도":40.4,
             "500m이내학원가":0,
@@ -77702,7 +77702,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=199&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Flx2Dsr3"
         },
         {
             "index":42,
@@ -77787,7 +77787,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":467.6801938448,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -78164,7 +78164,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=200&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gisew17p"
         },
         {
             "index":402,
@@ -78249,7 +78249,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.98,
+            "초등학교학업성취도":90.02,
             "초등학교거리":401.45970181,
             "중학교학업성취도":74.1,
             "500m이내학원가":0,
@@ -78576,7 +78576,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=201&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xKWzolXo"
         },
         {
             "index":40,
@@ -78661,7 +78661,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":915.7391208988,
             "중학교학업성취도":71.3,
             "500m이내학원가":0,
@@ -78888,7 +78888,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=202&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5dyPFQSB"
         },
         {
             "index":732,
@@ -78973,7 +78973,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":425.1024942907,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -79148,7 +79148,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=203&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FCB4k6O5"
         },
         {
             "index":524,
@@ -79233,7 +79233,7 @@
             "300m이내점포수":178,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":282.4834270468,
             "중학교학업성취도":74.7,
             "500m이내학원가":1,
@@ -79460,7 +79460,7 @@
                 ]
             ],
             "rank_gap":-24,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=204&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FpMZtrWb"
         },
         {
             "index":610,
@@ -79822,7 +79822,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=205&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GnCvsbMg"
         },
         {
             "index":422,
@@ -79907,7 +79907,7 @@
             "300m이내점포수":71,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":756.5301052926,
             "중학교학업성취도":85.6,
             "500m이내학원가":0,
@@ -80284,7 +80284,7 @@
                 ]
             ],
             "rank_gap":-37,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=206&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xsY896iJ"
         },
         {
             "index":461,
@@ -80544,7 +80544,7 @@
                 ]
             ],
             "rank_gap":-41,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=207&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5CprL1jb"
         },
         {
             "index":466,
@@ -80629,7 +80629,7 @@
             "300m이내점포수":140,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":853.1273875188,
             "중학교학업성취도":85.6,
             "500m이내학원가":0,
@@ -81006,7 +81006,7 @@
                 ]
             ],
             "rank_gap":-16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=208&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/55yRJkab"
         },
         {
             "index":444,
@@ -81091,7 +81091,7 @@
             "300m이내점포수":71,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":783.2501046734,
             "중학교학업성취도":85.6,
             "500m이내학원가":0,
@@ -81418,7 +81418,7 @@
                 ]
             ],
             "rank_gap":-16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=209&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GCuaSTB7"
         },
         {
             "index":722,
@@ -81503,7 +81503,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":387.9139774911,
             "중학교학업성취도":69.8,
             "500m이내학원가":0,
@@ -81726,7 +81726,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=210&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GBl5umJm"
         },
         {
             "index":604,
@@ -81811,7 +81811,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":953.9785480369,
             "중학교학업성취도":70.8,
             "500m이내학원가":0,
@@ -82238,7 +82238,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Gyeongsangbukdo&sub=4719000000_Gyeongsangbukdo_Gumi&mon=202212&complex=211&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xl1CdyFm"
         }
     ]
 }

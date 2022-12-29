@@ -449,7 +449,7 @@
         "primaryKey":[
             "index"
         ],
-        "pandas_version":"1.4.0"
+        "pandas_version":"0.20.0"
     },
     "data":[
         {
@@ -535,7 +535,7 @@
             "300m이내점포수":186,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":620.7513302,
             "중학교학업성취도":72.8,
             "500m이내학원가":2,
@@ -912,7 +912,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=0&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5bduofZg"
         },
         {
             "index":98,
@@ -997,7 +997,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":876.0977532,
             "중학교학업성취도":72.8,
             "500m이내학원가":0,
@@ -1132,7 +1132,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=1&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F4t0IATD"
         },
         {
             "index":13,
@@ -1217,7 +1217,7 @@
             "300m이내점포수":17,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":126.9560011,
             "중학교학업성취도":72.8,
             "500m이내학원가":2,
@@ -1544,7 +1544,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=2&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GpefDAE8"
         },
         {
             "index":2,
@@ -1629,7 +1629,7 @@
             "300m이내점포수":192,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":700.5513778,
             "중학교학업성취도":72.8,
             "500m이내학원가":1,
@@ -1906,7 +1906,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=3&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xKWzokwF"
         },
         {
             "index":95,
@@ -1991,7 +1991,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":764.007431,
             "중학교학업성취도":68.6,
             "500m이내학원가":0,
@@ -2268,7 +2268,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=4&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5D3jX4zw"
         },
         {
             "index":19,
@@ -2353,8 +2353,8 @@
             "300m이내점포수":18,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.93,
-            "초등학교거리":462.1432522,
+            "초등학교학업성취도":90.06,
+            "초등학교거리":461.7450345,
             "중학교학업성취도":60.9,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -2590,7 +2590,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=5&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FIYoLQRK"
         },
         {
             "index":0,
@@ -2675,7 +2675,7 @@
             "300m이내점포수":45,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":450.2279657,
             "중학교학업성취도":72.8,
             "500m이내학원가":1,
@@ -2894,7 +2894,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=6&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G7DZzugQ"
         },
         {
             "index":5,
@@ -2979,7 +2979,7 @@
             "300m이내점포수":208,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":658.519824,
             "중학교학업성취도":72.8,
             "500m이내학원가":1,
@@ -3154,7 +3154,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=7&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xPpvb95I"
         },
         {
             "index":55,
@@ -3239,7 +3239,7 @@
             "300m이내점포수":18,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":546.0868639,
             "중학교학업성취도":72.8,
             "500m이내학원가":0,
@@ -3414,7 +3414,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=8&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5hEJKlHp"
         },
         {
             "index":91,
@@ -3499,7 +3499,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":738.1970091,
             "중학교학업성취도":68.6,
             "500m이내학원가":0,
@@ -3806,7 +3806,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=9&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/59NiOQDg"
         },
         {
             "index":33,
@@ -3891,7 +3891,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":727.5774735,
             "중학교학업성취도":81.6,
             "500m이내학원가":0,
@@ -4118,7 +4118,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=10&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FZ9WIxDv"
         },
         {
             "index":39,
@@ -4203,7 +4203,7 @@
             "300m이내점포수":70,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":462.9634821,
             "중학교학업성취도":72.8,
             "500m이내학원가":2,
@@ -4480,7 +4480,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=11&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GpefDAsq"
         },
         {
             "index":50,
@@ -4565,7 +4565,7 @@
             "300m이내점포수":34,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":352.2934966,
             "중학교학업성취도":72.8,
             "500m이내학원가":2,
@@ -4792,7 +4792,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=12&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xKWzokVf"
         },
         {
             "index":48,
@@ -4877,7 +4877,7 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":323.1820793,
             "중학교학업성취도":72.8,
             "500m이내학원가":0,
@@ -5104,7 +5104,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=13&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IMpna2tU"
         },
         {
             "index":78,
@@ -5189,7 +5189,7 @@
             "300m이내점포수":36,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":453.6091676,
             "중학교학업성취도":72.8,
             "500m이내학원가":2,
@@ -5726,7 +5726,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=14&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FGeFw2IE"
         },
         {
             "index":87,
@@ -5811,7 +5811,7 @@
             "300m이내점포수":346,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":167.1425113,
             "중학교학업성취도":68.6,
             "500m이내학원가":2,
@@ -6138,7 +6138,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=15&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xnn6mwXp"
         },
         {
             "index":35,
@@ -6223,7 +6223,7 @@
             "300m이내점포수":38,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":380.2550099,
             "중학교학업성취도":72.8,
             "500m이내학원가":0,
@@ -6550,7 +6550,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=16&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5s3mP0aT"
         },
         {
             "index":11,
@@ -6635,7 +6635,7 @@
             "300m이내점포수":24,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":215.0047541,
             "중학교학업성취도":68.6,
             "500m이내학원가":1,
@@ -6862,7 +6862,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=17&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IIf1gKTk"
         },
         {
             "index":17,
@@ -6947,7 +6947,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":470.2739222,
             "중학교학업성취도":68.6,
             "500m이내학원가":0,
@@ -7174,7 +7174,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=18&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FQIRTODr"
         },
         {
             "index":56,
@@ -7209,16 +7209,16 @@
             "공원":0,
             "혐오시설":0,
             "인프라총점":13.0,
-            "초등학군":97.65183056,
+            "초등학군":97.63983056,
             "중학군":30.0,
-            "학군총점":35.21295764,
+            "학군총점":35.20995764,
             "인구수":7.34,
             "인구증감":27.54,
             "인구총점":13.4,
             "일자리":6.5,
             "소득수준":55.64,
             "일자리총점":21.242,
-            "가치 총점":34.78147882,
+            "가치 총점":34.77997882,
             "매매실거래년":20221104.0,
             "매매실거래가":25000.0,
             "평단가":665,
@@ -7259,7 +7259,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":109.1145764,
             "중학교학업성취도":50.0,
             "500m이내학원가":0,
@@ -7486,7 +7486,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=19&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GUDtWqoj"
         },
         {
             "index":66,
@@ -7571,7 +7571,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":957.8987632,
             "중학교학업성취도":48.5,
             "500m이내학원가":0,
@@ -7898,7 +7898,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=20&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5YwaG5Ie"
         },
         {
             "index":30,
@@ -7983,7 +7983,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":675.912248,
             "중학교학업성취도":81.6,
             "500m이내학원가":0,
@@ -8256,7 +8256,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=21&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xgTuL2xu"
         },
         {
             "index":25,
@@ -8341,7 +8341,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":631.5591053,
             "중학교학업성취도":81.6,
             "500m이내학원가":0,
@@ -8564,7 +8564,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=22&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5grdXJu4"
         },
         {
             "index":42,
@@ -8649,7 +8649,7 @@
             "300m이내점포수":18,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":656.7073832,
             "중학교학업성취도":72.8,
             "500m이내학원가":0,
@@ -9076,7 +9076,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=23&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FDXjN7Ye"
         },
         {
             "index":76,
@@ -9161,7 +9161,7 @@
             "300m이내점포수":9,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":845.2370858,
             "중학교학업성취도":81.6,
             "500m이내학원가":0,
@@ -9384,7 +9384,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=24&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xsY89KcW"
         },
         {
             "index":54,
@@ -9469,7 +9469,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":941.0534791,
             "중학교학업성취도":48.5,
             "500m이내학원가":0,
@@ -9644,7 +9644,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=25&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5JQVDkMw"
         },
         {
             "index":62,
@@ -9729,7 +9729,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":337.865371,
             "중학교학업성취도":50.0,
             "500m이내학원가":0,
@@ -9956,7 +9956,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=26&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5SayY4fA"
         },
         {
             "index":22,
@@ -10041,7 +10041,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.92,
+            "초등학교학업성취도":90.08,
             "초등학교거리":425.4730308,
             "중학교학업성취도":63.3,
             "500m이내학원가":0,
@@ -10264,7 +10264,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=27&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FiEOsIT9"
         },
         {
             "index":64,
@@ -10349,7 +10349,7 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":285.2142371,
             "중학교학업성취도":50.0,
             "500m이내학원가":0,
@@ -10576,7 +10576,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=28&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gt91vywp"
         },
         {
             "index":24,
@@ -10661,7 +10661,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.13,
+            "초등학교학업성취도":89.85,
             "초등학교거리":494.7012733,
             "중학교학업성취도":29.6,
             "500m이내학원가":0,
@@ -10836,7 +10836,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=29&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GguPRIdx"
         },
         {
             "index":27,
@@ -10921,7 +10921,7 @@
             "300m이내점포수":9,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":488.5167088,
             "중학교학업성취도":68.6,
             "500m이내학원가":0,
@@ -11198,7 +11198,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=30&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xgTuL2VZ"
         },
         {
             "index":70,
@@ -11283,7 +11283,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":910.46368,
             "중학교학업성취도":48.5,
             "500m이내학원가":0,
@@ -11660,7 +11660,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=31&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5BvkBe3D"
         },
         {
             "index":58,
@@ -11745,7 +11745,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":176.7920007,
             "중학교학업성취도":50.0,
             "500m이내학원가":0,
@@ -12072,7 +12072,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=32&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FSO5Utqb"
         },
         {
             "index":52,
@@ -12157,7 +12157,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":682.6182668,
             "중학교학업성취도":48.5,
             "500m이내학원가":0,
@@ -12384,7 +12384,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=33&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GD5NVR7M"
         },
         {
             "index":75,
@@ -12469,7 +12469,7 @@
             "300m이내점포수":41,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":652.2076611,
             "중학교학업성취도":48.5,
             "500m이내학원가":0,
@@ -12640,7 +12640,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4521000000_Jeollabukdo_Gimje&mon=202212&complex=34&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5YwaG5AA"
         }
     ]
 }

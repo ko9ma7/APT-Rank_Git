@@ -449,7 +449,7 @@
         "primaryKey":[
             "index"
         ],
-        "pandas_version":"1.4.0"
+        "pandas_version":"0.20.0"
     },
     "data":[
         {
@@ -535,7 +535,7 @@
             "300m이내점포수":30,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":560.9884563041,
             "중학교학업성취도":82.6,
             "500m이내학원가":1,
@@ -1662,7 +1662,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=0&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/56DaCnH5"
         },
         {
             "index":345,
@@ -1747,7 +1747,7 @@
             "300m이내점포수":19,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":187.4009008476,
             "중학교학업성취도":79.1,
             "500m이내학원가":2,
@@ -2074,7 +2074,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=1&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FdG7l9XO"
         },
         {
             "index":595,
@@ -2159,8 +2159,8 @@
             "300m이내점포수":53,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
-            "초등학교거리":599.0996233327,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":541.3656666351,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -2536,7 +2536,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=2&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GfMbBNAc"
         },
         {
             "index":268,
@@ -2621,7 +2621,7 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.68,
+            "초등학교학업성취도":90.24,
             "초등학교거리":219.4519174106,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -2998,7 +2998,7 @@
                 ]
             ],
             "rank_gap":10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=3&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xtH5YfUA"
         },
         {
             "index":644,
@@ -3033,16 +3033,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":18.0,
-            "초등학군":99.3641894225,
+            "초등학군":99.3401894225,
             "중학군":50.24,
-            "학군총점":58.9370473556,
+            "학군총점":58.9310473556,
             "인구수":34.53,
             "인구증감":34.78,
             "인구총점":34.605,
             "일자리":24.95,
             "소득수준":66.62,
             "일자리총점":37.451,
-            "가치 총점":58.5935236778,
+            "가치 총점":58.5905236778,
             "매매실거래년":18000101.0,
             "매매실거래가":null,
             "평단가":0,
@@ -3083,7 +3083,7 @@
             "300m이내점포수":20,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":113.3804735562,
             "중학교학업성취도":82.6,
             "500m이내학원가":1,
@@ -3302,7 +3302,7 @@
                 ]
             ],
             "rank_gap":10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=4&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5LouL6hC"
         },
         {
             "index":521,
@@ -3387,7 +3387,7 @@
             "300m이내점포수":109,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":289.5171850875,
             "중학교학업성취도":71.8,
             "500m이내학원가":2,
@@ -3764,7 +3764,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=5&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F6xboXf1"
         },
         {
             "index":301,
@@ -3849,7 +3849,7 @@
             "300m이내점포수":33,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":651.4564922157,
             "중학교학업성취도":79.5,
             "500m이내학원가":0,
@@ -4376,7 +4376,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=6&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GKvxtR08"
         },
         {
             "index":168,
@@ -4461,8 +4461,8 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
-            "초등학교거리":1182.8524091563,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":1182.0414386247,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -5248,7 +5248,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=7&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/51napkUg"
         },
         {
             "index":646,
@@ -5333,7 +5333,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":313.3271953934,
             "중학교학업성취도":82.6,
             "500m이내학원가":1,
@@ -5652,7 +5652,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=8&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FhdNr7Pm"
         },
         {
             "index":620,
@@ -5737,8 +5737,8 @@
             "300m이내점포수":54,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
-            "초등학교거리":616.6095787798,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":505.522695681,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -6014,7 +6014,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=9&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GmVf16lM"
         },
         {
             "index":635,
@@ -6099,8 +6099,8 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
-            "초등학교거리":1113.3176319666,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":228.3079925557,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -6618,7 +6618,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=10&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xHnDZcUl"
         },
         {
             "index":484,
@@ -6703,7 +6703,7 @@
             "300m이내점포수":122,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":401.830016237,
             "중학교학업성취도":68.0,
             "500m이내학원가":1,
@@ -7180,7 +7180,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=11&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5JQVDmm4"
         },
         {
             "index":182,
@@ -7265,7 +7265,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":449.7135917991,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -7592,7 +7592,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=12&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FeCpo88Q"
         },
         {
             "index":623,
@@ -7677,8 +7677,8 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
-            "초등학교거리":845.1828293448,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":318.2508101533,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -8046,7 +8046,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=13&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GD5NVGGa"
         },
         {
             "index":252,
@@ -8131,7 +8131,7 @@
             "300m이내점포수":34,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":351.3453436551,
             "중학교학업성취도":79.1,
             "500m이내학원가":2,
@@ -8508,7 +8508,7 @@
                 ]
             ],
             "rank_gap":10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=14&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5jjmZ88v"
         },
         {
             "index":321,
@@ -8593,7 +8593,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":329.4455188577,
             "중학교학업성취도":79.1,
             "500m이내학원가":2,
@@ -8970,7 +8970,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=15&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FHuASWW9"
         },
         {
             "index":247,
@@ -9055,7 +9055,7 @@
             "300m이내점포수":45,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.68,
+            "초등학교학업성취도":90.24,
             "초등학교거리":350.3800193041,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -9432,7 +9432,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=16&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GvXdMRRT"
         },
         {
             "index":240,
@@ -9517,7 +9517,7 @@
             "300m이내점포수":14,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.68,
+            "초등학교학업성취도":90.24,
             "초등학교거리":437.7202816889,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -9994,7 +9994,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=17&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xi5wZbbR"
         },
         {
             "index":206,
@@ -10079,7 +10079,7 @@
             "300m이내점포수":90,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.68,
+            "초등학교학업성취도":90.24,
             "초등학교거리":513.6209073293,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -10506,7 +10506,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=18&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5eTwW55u"
         },
         {
             "index":589,
@@ -10591,8 +10591,8 @@
             "300m이내점포수":75,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
-            "초등학교거리":891.6161934716,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":283.523015701,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -11018,7 +11018,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=19&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Fv7FHvvk"
         },
         {
             "index":290,
@@ -11103,7 +11103,7 @@
             "300m이내점포수":22,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":176.054757504,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -11380,7 +11380,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=20&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GcWnh6So"
         },
         {
             "index":330,
@@ -11465,7 +11465,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":272.352750377,
             "중학교학업성취도":76.5,
             "500m이내학원가":1,
@@ -11942,7 +11942,7 @@
                 ]
             ],
             "rank_gap":-14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=21&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G5QJ2M6P"
         },
         {
             "index":491,
@@ -12027,7 +12027,7 @@
             "300m이내점포수":130,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":546.0228536821,
             "중학교학업성취도":68.0,
             "500m이내학원가":2,
@@ -12454,7 +12454,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=22&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/52hTFpUv"
         },
         {
             "index":204,
@@ -12539,7 +12539,7 @@
             "300m이내점포수":48,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":440.3429604645,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -12766,7 +12766,7 @@
                 ]
             ],
             "rank_gap":16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=23&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IgNDiEwz"
         },
         {
             "index":283,
@@ -12851,8 +12851,8 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
-            "초등학교거리":1127.049004521,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":863.1041638989,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -13288,7 +13288,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=24&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GsOPWIRy"
         },
         {
             "index":293,
@@ -13373,7 +13373,7 @@
             "300m이내점포수":40,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":410.2815933225,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -13900,7 +13900,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=25&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xbn7o2MX"
         },
         {
             "index":628,
@@ -13985,8 +13985,8 @@
             "300m이내점포수":45,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
-            "초등학교거리":1122.6601108659,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":200.8137339585,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -14454,7 +14454,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=26&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5Rt8pvfv"
         },
         {
             "index":273,
@@ -14539,8 +14539,8 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
-            "초등학교거리":1181.8543114878,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":626.3265018475,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -15008,7 +15008,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=27&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FWPf3Zpq"
         },
         {
             "index":235,
@@ -15093,7 +15093,7 @@
             "300m이내점포수":29,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.68,
+            "초등학교학업성취도":90.24,
             "초등학교거리":132.3532791139,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -15470,7 +15470,7 @@
                 ]
             ],
             "rank_gap":24,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=28&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Ge5daiEA"
         },
         {
             "index":662,
@@ -15555,7 +15555,7 @@
             "300m이내점포수":17,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":212.3950402225,
             "중학교학업성취도":71.8,
             "500m이내학원가":0,
@@ -15882,7 +15882,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=29&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x5l8ZzX0"
         },
         {
             "index":684,
@@ -15967,7 +15967,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":1058.0534544832,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -16114,7 +16114,7 @@
                 ]
             ],
             "rank_gap":-23,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=30&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FsKqDYLR"
         },
         {
             "index":337,
@@ -16199,7 +16199,7 @@
             "300m이내점포수":46,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.95,
             "초등학교거리":168.0295590081,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -16726,7 +16726,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=31&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FFiSlR5T"
         },
         {
             "index":671,
@@ -16761,16 +16761,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":38.0,
-            "초등학군":95.719111216,
+            "초등학군":95.647111216,
             "중학군":43.08,
-            "학군총점":39.961777804,
+            "학군총점":39.943777804,
             "인구수":34.53,
             "인구증감":34.78,
             "인구총점":34.605,
             "일자리":24.95,
             "소득수준":66.62,
             "일자리총점":37.451,
-            "가치 총점":51.930888902,
+            "가치 총점":51.921888902,
             "매매실거래년":20221203.0,
             "매매실거래가":28000.0,
             "평단가":931,
@@ -16811,7 +16811,7 @@
             "300m이내점포수":57,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":104.20777804,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -17088,7 +17088,7 @@
                 ]
             ],
             "rank_gap":-14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=32&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GyyNolW0"
         },
         {
             "index":129,
@@ -17173,7 +17173,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":296.0369098962,
             "중학교학업성취도":71.8,
             "500m이내학원가":0,
@@ -17492,7 +17492,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=33&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x7rBSWKE"
         },
         {
             "index":90,
@@ -17577,7 +17577,7 @@
             "300m이내점포수":29,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":413.7875434419,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -17954,7 +17954,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=34&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5oiXDes3"
         },
         {
             "index":95,
@@ -18039,7 +18039,7 @@
             "300m이내점포수":98,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":451.343227685,
             "중학교학업성취도":71.8,
             "500m이내학원가":0,
@@ -18416,7 +18416,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=35&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FFiSlR5D"
         },
         {
             "index":557,
@@ -18501,7 +18501,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.84,
+            "초등학교학업성취도":90.14,
             "초등학교거리":337.4989125304,
             "중학교학업성취도":74.9,
             "500m이내학원가":0,
@@ -19020,7 +19020,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=36&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GguPREC4"
         },
         {
             "index":667,
@@ -19105,7 +19105,7 @@
             "300m이내점포수":57,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":191.1196234902,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -19432,7 +19432,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=37&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xI2gwKRQ"
         },
         {
             "index":685,
@@ -19517,7 +19517,7 @@
             "300m이내점포수":52,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":632.719599383,
             "중학교학업성취도":79.1,
             "500m이내학원가":0,
@@ -19664,7 +19664,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=38&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FmV2vL7r"
         },
         {
             "index":280,
@@ -19749,7 +19749,7 @@
             "300m이내점포수":40,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":311.8529090882,
             "중학교학업성취도":79.1,
             "500m이내학원가":2,
@@ -20026,7 +20026,7 @@
                 ]
             ],
             "rank_gap":18,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=39&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FFiSlRUS"
         },
         {
             "index":262,
@@ -20111,7 +20111,7 @@
             "300m이내점포수":34,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":472.5887099545,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -20518,7 +20518,7 @@
                 ]
             ],
             "rank_gap":16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=40&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xNlm8Ew8"
         },
         {
             "index":186,
@@ -20603,7 +20603,7 @@
             "300m이내점포수":27,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":853.6467380406,
             "중학교학업성취도":79.1,
             "500m이내학원가":0,
@@ -21022,7 +21022,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=41&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FDXjN3gU"
         },
         {
             "index":377,
@@ -21107,7 +21107,7 @@
             "300m이내점포수":18,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":428.1319323829,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -21476,7 +21476,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=42&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GSUHteOu"
         },
         {
             "index":217,
@@ -21561,7 +21561,7 @@
             "300m이내점포수":38,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.68,
+            "초등학교학업성취도":90.24,
             "초등학교거리":291.7709458396,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -21736,7 +21736,7 @@
                 ]
             ],
             "rank_gap":25,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=43&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x7rBSWVV"
         },
         {
             "index":569,
@@ -21821,7 +21821,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.84,
+            "초등학교학업성취도":90.14,
             "초등학교거리":307.3927593007,
             "중학교학업성취도":74.9,
             "500m이내학원가":0,
@@ -22240,7 +22240,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=44&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5rMZE1Dt"
         },
         {
             "index":107,
@@ -22325,7 +22325,7 @@
             "300m이내점포수":69,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":288.8167108697,
             "중학교학업성취도":73.0,
             "500m이내학원가":1,
@@ -22602,7 +22602,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=45&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FrlAZzdC"
         },
         {
             "index":76,
@@ -22687,7 +22687,7 @@
             "300m이내점포수":106,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":228.9483955507,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -22914,7 +22914,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=46&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GHDVKPJD"
         },
         {
             "index":497,
@@ -22999,7 +22999,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":781.2584051009,
             "중학교학업성취도":68.0,
             "500m이내학원가":0,
@@ -23536,7 +23536,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=47&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x7rBSWYS"
         },
         {
             "index":78,
@@ -23621,7 +23621,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":139.0389300512,
             "중학교학업성취도":71.8,
             "500m이내학원가":0,
@@ -23940,7 +23940,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=48&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5KO5tRJs"
         },
         {
             "index":372,
@@ -24025,7 +24025,7 @@
             "300m이내점포수":12,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":538.6074199393,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -24394,7 +24394,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=49&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F6xboXK8"
         },
         {
             "index":212,
@@ -24479,7 +24479,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":599.5426486762,
             "중학교학업성취도":79.1,
             "500m이내학원가":0,
@@ -24856,7 +24856,7 @@
                 ]
             ],
             "rank_gap":10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=50&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G7DZzkhq"
         },
         {
             "index":200,
@@ -24941,7 +24941,7 @@
             "300m이내점포수":46,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":655.0812570409,
             "중학교학업성취도":79.1,
             "500m이내학원가":0,
@@ -25268,7 +25268,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=51&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xWiBVSPy"
         },
         {
             "index":660,
@@ -25353,7 +25353,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":1273.0863085486,
             "중학교학업성취도":82.6,
             "500m이내학원가":0,
@@ -25580,7 +25580,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=52&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/54kxwpPr"
         },
         {
             "index":549,
@@ -25665,7 +25665,7 @@
             "300m이내점포수":41,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.04,
             "초등학교거리":326.2320762015,
             "중학교학업성취도":76.1,
             "500m이내학원가":1,
@@ -26042,7 +26042,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=53&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F0wtGNhb"
         },
         {
             "index":388,
@@ -26127,7 +26127,7 @@
             "300m이내점포수":40,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":299.493944832,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -26696,7 +26696,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=54&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GD5NVGhT"
         },
         {
             "index":506,
@@ -26781,7 +26781,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.86,
             "초등학교거리":619.1672590048,
             "중학교학업성취도":57.8,
             "500m이내학원가":0,
@@ -27368,7 +27368,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=55&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5AfcKvUn"
         },
         {
             "index":309,
@@ -27453,7 +27453,7 @@
             "300m이내점포수":40,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.95,
             "초등학교거리":306.9034791852,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -27830,7 +27830,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=56&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FNlGKcRh"
         },
         {
             "index":218,
@@ -27915,7 +27915,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":189.3974940182,
             "중학교학업성취도":79.1,
             "500m이내학원가":2,
@@ -28142,7 +28142,7 @@
                 ]
             ],
             "rank_gap":17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=57&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G2VxytO3"
         },
         {
             "index":24,
@@ -28227,7 +28227,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":159.4727263195,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -28622,7 +28622,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=58&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gz1glNAV"
         },
         {
             "index":100,
@@ -28707,7 +28707,7 @@
             "300m이내점포수":119,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":456.0851690081,
             "중학교학업성취도":71.8,
             "500m이내학원가":0,
@@ -29184,7 +29184,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=59&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xBhsT0ca"
         },
         {
             "index":516,
@@ -29269,7 +29269,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.86,
             "초등학교거리":1091.0900917485,
             "중학교학업성취도":57.8,
             "500m이내학원가":0,
@@ -29538,7 +29538,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=60&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5VAlWs5U"
         },
         {
             "index":46,
@@ -29623,7 +29623,7 @@
             "300m이내점포수":27,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.91,
+            "초등학교학업성취도":90.08,
             "초등학교거리":410.7696896759,
             "중학교학업성취도":67.8,
             "500m이내학원가":1,
@@ -29892,7 +29892,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=61&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Fyxn5S4a"
         },
         {
             "index":541,
@@ -29977,7 +29977,7 @@
             "300m이내점포수":26,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.04,
             "초등학교거리":246.5415734558,
             "중학교학업성취도":76.1,
             "500m이내학원가":1,
@@ -30504,7 +30504,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=62&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G6yfBmjB"
         },
         {
             "index":7,
@@ -30589,7 +30589,7 @@
             "300m이내점포수":27,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":248.2178741087,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -30966,7 +30966,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=63&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xSnNfiTy"
         },
         {
             "index":532,
@@ -31051,7 +31051,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.04,
             "초등학교거리":640.1778422814,
             "중학교학업성취도":76.1,
             "500m이내학원가":0,
@@ -31378,7 +31378,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=64&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5KO5tRXH"
         },
         {
             "index":650,
@@ -31463,7 +31463,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":410.5677432824,
             "중학교학업성취도":82.6,
             "500m이내학원가":0,
@@ -31782,7 +31782,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=65&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5cA2CIRj"
         },
         {
             "index":654,
@@ -31867,7 +31867,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":465.7483136978,
             "중학교학업성취도":82.6,
             "500m이내학원가":0,
@@ -32186,7 +32186,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=66&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FTkq5eo1"
         },
         {
             "index":113,
@@ -32271,7 +32271,7 @@
             "300m이내점포수":75,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":331.5673795232,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -32598,7 +32598,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=67&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gh8NVUJE"
         },
         {
             "index":326,
@@ -32683,7 +32683,7 @@
             "300m이내점포수":28,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":285.8132369031,
             "중학교학업성취도":79.1,
             "500m이내학원가":2,
@@ -33010,7 +33010,7 @@
                 ]
             ],
             "rank_gap":17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=68&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xqo5hzC1"
         },
         {
             "index":314,
@@ -33095,7 +33095,7 @@
             "300m이내점포수":40,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.95,
             "초등학교거리":139.7766029483,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -33572,7 +33572,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=69&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x1g0Iykz"
         },
         {
             "index":358,
@@ -33657,7 +33657,7 @@
             "300m이내점포수":9,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":569.6421152301,
             "중학교학업성취도":68.0,
             "500m이내학원가":0,
@@ -34034,7 +34034,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=70&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5dyPFiIo"
         },
         {
             "index":0,
@@ -34119,7 +34119,7 @@
             "300m이내점포수":63,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":231.5138286097,
             "중학교학업성취도":73.0,
             "500m이내학원가":1,
@@ -34338,7 +34338,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=71&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FpMZt5Jv"
         },
         {
             "index":196,
@@ -34423,7 +34423,7 @@
             "300m이내점포수":37,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":313.6251399444,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -34750,7 +34750,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=72&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GLASI04g"
         },
         {
             "index":192,
@@ -34835,8 +34835,8 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
-            "초등학교거리":936.8021156335,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":924.2829062546,
             "중학교학업성취도":79.1,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -35162,7 +35162,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=73&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xSnNfidE"
         },
         {
             "index":2,
@@ -35247,7 +35247,7 @@
             "300m이내점포수":15,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":158.350892092,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -35474,7 +35474,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=74&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5HEtpwZy"
         },
         {
             "index":355,
@@ -35559,7 +35559,7 @@
             "300m이내점포수":9,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":548.1827065718,
             "중학교학업성취도":68.0,
             "500m이내학원가":0,
@@ -35836,7 +35836,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=75&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FPeBFQ3k"
         },
         {
             "index":658,
@@ -35921,7 +35921,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":505.9391224466,
             "중학교학업성취도":82.6,
             "500m이내학원가":0,
@@ -36140,7 +36140,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=76&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GLASI0kJ"
         },
         {
             "index":110,
@@ -36225,7 +36225,7 @@
             "300m이내점포수":68,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":438.8649990646,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -36502,7 +36502,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=77&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xvLthonn"
         },
         {
             "index":464,
@@ -36587,7 +36587,7 @@
             "300m이내점포수":22,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":844.7959622121,
             "중학교학업성취도":69.0,
             "500m이내학원가":0,
@@ -37106,7 +37106,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=78&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5rMZE15v"
         },
         {
             "index":402,
@@ -37191,7 +37191,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":960.4556833671,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -37668,7 +37668,7 @@
                 ]
             ],
             "rank_gap":7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=79&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IgNDiEUo"
         },
         {
             "index":65,
@@ -37753,7 +37753,7 @@
             "300m이내점포수":102,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.91,
+            "초등학교학업성취도":90.08,
             "초등학교거리":187.5129703638,
             "중학교학업성취도":67.8,
             "500m이내학원가":1,
@@ -38030,7 +38030,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=80&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gu0daHTz"
         },
         {
             "index":581,
@@ -38115,7 +38115,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.04,
             "초등학교거리":1463.7070491542,
             "중학교학업성취도":68.0,
             "500m이내학원가":0,
@@ -38442,7 +38442,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=81&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GSUHteME"
         },
         {
             "index":220,
@@ -38527,7 +38527,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":118.0745880673,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -38804,7 +38804,7 @@
                 ]
             ],
             "rank_gap":30,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=82&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xPpvbr2K"
         },
         {
             "index":227,
@@ -38889,7 +38889,7 @@
             "300m이내점포수":24,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":269.0624049431,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -39166,7 +39166,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=83&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/578r9FGo"
         },
         {
             "index":49,
@@ -39251,7 +39251,7 @@
             "300m이내점포수":93,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.91,
+            "초등학교학업성취도":90.08,
             "초등학교거리":124.4456942196,
             "중학교학업성취도":67.8,
             "500m이내학원가":1,
@@ -39478,7 +39478,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=84&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FWPf3Z2K"
         },
         {
             "index":225,
@@ -39563,7 +39563,7 @@
             "300m이내점포수":56,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":771.2161139566,
             "중학교학업성취도":79.1,
             "500m이내학원가":0,
@@ -39790,7 +39790,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=85&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GisewdIQ"
         },
         {
             "index":57,
@@ -39875,7 +39875,7 @@
             "300m이내점포수":67,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.91,
+            "초등학교학업성취도":90.08,
             "초등학교거리":361.0334457942,
             "중학교학업성취도":67.8,
             "500m이내학원가":1,
@@ -40152,7 +40152,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=86&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xZOGEweO"
         },
         {
             "index":458,
@@ -40237,7 +40237,7 @@
             "300m이내점포수":26,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":481.8578654274,
             "중학교학업성취도":68.0,
             "500m이내학원가":0,
@@ -40614,7 +40614,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=87&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/59NiO745"
         },
         {
             "index":146,
@@ -40699,7 +40699,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":329.5108621493,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -40976,7 +40976,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=88&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FwAStXCv"
         },
         {
             "index":352,
@@ -41061,7 +41061,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":166.8616728516,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -41338,7 +41338,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=89&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xWiBVSH0"
         },
         {
             "index":17,
@@ -41423,7 +41423,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":542.834862794,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -41900,7 +41900,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=90&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5E3aR2jm"
         },
         {
             "index":53,
@@ -41985,7 +41985,7 @@
             "300m이내점포수":34,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.91,
+            "초등학교학업성취도":90.08,
             "초등학교거리":273.8039254721,
             "중학교학업성취도":67.8,
             "500m이내학원가":1,
@@ -42212,7 +42212,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=91&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FBDJfTAC"
         },
         {
             "index":230,
@@ -42297,7 +42297,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":656.7076313954,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
@@ -42574,7 +42574,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=92&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GKvxtRNF"
         },
         {
             "index":674,
@@ -42659,7 +42659,7 @@
             "300m이내점포수":60,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":286.4673987167,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -42886,7 +42886,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=93&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x1g0IyhD"
         },
         {
             "index":681,
@@ -42971,7 +42971,7 @@
             "300m이내점포수":60,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":281.2845874134,
             "중학교학업성취도":71.8,
             "500m이내학원가":0,
@@ -43248,7 +43248,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=94&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x8iEsZ68"
         },
         {
             "index":363,
@@ -43333,7 +43333,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":1300.9429976546,
             "중학교학업성취도":57.8,
             "500m이내학원가":0,
@@ -43508,7 +43508,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=95&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5i0psFSC"
         },
         {
             "index":51,
@@ -43593,7 +43593,7 @@
             "300m이내점포수":121,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.91,
+            "초등학교학업성취도":90.08,
             "초등학교거리":332.844978877,
             "중학교학업성취도":67.8,
             "500m이내학원가":1,
@@ -43820,7 +43820,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=96&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FcgubN2s"
         },
         {
             "index":397,
@@ -43905,7 +43905,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":563.2927906572,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -44182,7 +44182,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=97&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GqsN5hzo"
         },
         {
             "index":444,
@@ -44267,7 +44267,7 @@
             "300m이내점포수":65,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":615.0717071866,
             "중학교학업성취도":69.0,
             "500m이내학원가":0,
@@ -44544,7 +44544,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=98&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xr6cjwDk"
         },
         {
             "index":68,
@@ -44629,7 +44629,7 @@
             "300m이내점포수":138,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.91,
+            "초등학교학업성취도":90.08,
             "초등학교거리":396.9482973361,
             "중학교학업성취도":67.8,
             "500m이내학원가":1,
@@ -44906,7 +44906,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=99&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5cA2CIpt"
         },
         {
             "index":4,
@@ -44991,7 +44991,7 @@
             "300m이내점포수":17,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":216.4021409739,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -45268,7 +45268,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=100&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FuE6m2o6"
         },
         {
             "index":478,
@@ -45353,7 +45353,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.86,
             "초등학교거리":286.2318050458,
             "중학교학업성취도":57.8,
             "500m이내학원가":1,
@@ -45580,7 +45580,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=101&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FdG7l94u"
         },
         {
             "index":400,
@@ -45665,7 +45665,7 @@
             "300m이내점포수":59,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":551.5637471271,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -45892,7 +45892,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=102&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GbcrgV3k"
         },
         {
             "index":259,
@@ -45977,7 +45977,7 @@
             "300m이내점포수":354,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":511.3288929484,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -46254,7 +46254,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=103&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xPpvbrcW"
         },
         {
             "index":417,
@@ -46339,7 +46339,7 @@
             "300m이내점포수":17,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":433.3853255644,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -46616,7 +46616,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=104&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/50oe0n3z"
         },
         {
             "index":519,
@@ -46701,7 +46701,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":226.093523951,
             "중학교학업성취도":57.8,
             "500m이내학원가":1,
@@ -46928,7 +46928,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=105&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FYaIEi2h"
         },
         {
             "index":55,
@@ -47013,7 +47013,7 @@
             "300m이내점포수":57,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.91,
+            "초등학교학업성취도":90.08,
             "초등학교거리":376.1159102011,
             "중학교학업성취도":67.8,
             "500m이내학원가":1,
@@ -47240,7 +47240,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=106&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GsOPWI6j"
         },
         {
             "index":554,
@@ -47325,7 +47325,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":1032.0745314192,
             "중학교학업성취도":78.4,
             "500m이내학원가":0,
@@ -47602,7 +47602,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=107&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xYT9qwWq"
         },
         {
             "index":447,
@@ -47687,7 +47687,7 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":573.0913150818,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -48114,7 +48114,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=108&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5uciVrnT"
         },
         {
             "index":164,
@@ -48199,7 +48199,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":171.5338449907,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -48526,7 +48526,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=109&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FuE6m2GT"
         },
         {
             "index":149,
@@ -48611,7 +48611,7 @@
             "300m이내점포수":10,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":143.1454669132,
             "중학교학업성취도":56.8,
             "500m이내학원가":1,
@@ -48938,7 +48938,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=110&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FGeFw9ax"
         },
         {
             "index":383,
@@ -49023,7 +49023,7 @@
             "300m이내점포수":18,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":607.6003922612,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -49250,7 +49250,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=111&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xhnKDjyf"
         },
         {
             "index":587,
@@ -49335,7 +49335,7 @@
             "300m이내점포수":24,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":1059.7188326459,
             "중학교학업성취도":71.8,
             "500m이내학원가":0,
@@ -49510,7 +49510,7 @@
                 ]
             ],
             "rank_gap":7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=112&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5s3mPK2R"
         },
         {
             "index":135,
@@ -49595,7 +49595,7 @@
             "300m이내점포수":20,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":175.0794017447,
             "중학교학업성취도":56.8,
             "500m이내학원가":1,
@@ -49822,7 +49822,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=113&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FuE6m2kj"
         },
         {
             "index":257,
@@ -49907,7 +49907,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":496.5512594763,
             "중학교학업성취도":79.1,
             "500m이내학원가":1,
@@ -50134,7 +50134,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=114&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gu0daHZd"
         },
         {
             "index":153,
@@ -50219,7 +50219,7 @@
             "300m이내점포수":10,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":180.7434210727,
             "중학교학업성취도":56.8,
             "500m이내학원가":1,
@@ -50446,7 +50446,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=115&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xvLthoiN"
         },
         {
             "index":565,
@@ -50531,7 +50531,7 @@
             "300m이내점포수":17,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.04,
             "초등학교거리":1732.8199773026,
             "중학교학업성취도":76.1,
             "500m이내학원가":0,
@@ -50706,7 +50706,7 @@
                 ]
             ],
             "rank_gap":14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=116&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5bduoSBn"
         },
         {
             "index":369,
@@ -50791,7 +50791,7 @@
             "300m이내점포수":12,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":658.1005499567,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -51068,7 +51068,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=117&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FYaIEilL"
         },
         {
             "index":424,
@@ -51153,7 +51153,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.1,
+            "초등학교학업성취도":89.88,
             "초등학교거리":260.9596430005,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -51380,7 +51380,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=118&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GcWnh63s"
         },
         {
             "index":35,
@@ -51415,16 +51415,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":30.0,
-            "초등학군":95.9890592413,
+            "초등학군":95.9530592413,
             "중학군":43.92,
-            "학군총점":36.7652648103,
+            "학군총점":36.7562648103,
             "인구수":34.53,
             "인구증감":34.78,
             "인구총점":34.605,
             "일자리":24.95,
             "소득수준":66.62,
             "일자리총점":37.451,
-            "가치 총점":36.7076324052,
+            "가치 총점":36.7031324052,
             "매매실거래년":20221130.0,
             "매매실거래가":10000.0,
             "평단가":451,
@@ -51465,7 +51465,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":104.9276481033,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -51640,7 +51640,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=119&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xUtFa5gP"
         },
         {
             "index":71,
@@ -51725,7 +51725,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":247.4001816038,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -51952,7 +51952,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=120&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5t4er2uu"
         },
         {
             "index":155,
@@ -52037,7 +52037,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":557.6721486715,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -52364,7 +52364,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=121&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F0wtGNS1"
         },
         {
             "index":60,
@@ -52449,7 +52449,7 @@
             "300m이내점포수":71,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.91,
+            "초등학교학업성취도":90.08,
             "초등학교거리":545.0310224747,
             "중학교학업성취도":67.8,
             "500m이내학원가":0,
@@ -52776,7 +52776,7 @@
                 ]
             ],
             "rank_gap":-19,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=122&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GJFEOoCE"
         },
         {
             "index":530,
@@ -52861,7 +52861,7 @@
             "300m이내점포수":87,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.86,
             "초등학교거리":233.6417152968,
             "중학교학업성취도":57.8,
             "500m이내학원가":1,
@@ -53088,7 +53088,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=123&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GHDVKPX8"
         },
         {
             "index":223,
@@ -53173,7 +53173,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":2284.0161767174,
             "중학교학업성취도":79.1,
             "500m이내학원가":0,
@@ -53400,7 +53400,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=124&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xjLJWBGw"
         },
         {
             "index":585,
@@ -53485,7 +53485,7 @@
             "300m이내점포수":24,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":905.9060233365,
             "중학교학업성취도":71.8,
             "500m이내학원가":0,
@@ -53712,7 +53712,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=125&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/54kxwprb"
         },
         {
             "index":137,
@@ -53797,7 +53797,7 @@
             "300m이내점포수":10,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":196.0246786697,
             "중학교학업성취도":56.8,
             "500m이내학원가":1,
@@ -54024,7 +54024,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=126&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FJ6isuaC"
         },
         {
             "index":64,
@@ -54109,7 +54109,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.96,
+            "초등학교학업성취도":90.04,
             "초등학교거리":359.019887335,
             "중학교학업성취도":67.8,
             "500m이내학원가":0,
@@ -54284,7 +54284,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=127&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GLASI0OT"
         },
         {
             "index":643,
@@ -54369,7 +54369,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":117.6753157246,
             "중학교학업성취도":76.1,
             "500m이내학원가":0,
@@ -54544,7 +54544,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=128&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x7rBS72y"
         },
         {
             "index":474,
@@ -54629,7 +54629,7 @@
             "300m이내점포수":25,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":875.2027401685,
             "중학교학업성취도":69.0,
             "500m이내학원가":0,
@@ -54956,7 +54956,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=129&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G3hXwCiQ"
         },
         {
             "index":430,
@@ -55041,7 +55041,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.1,
+            "초등학교학업성취도":89.88,
             "초등학교거리":775.0403178599,
             "중학교학업성취도":69.0,
             "500m이내학원가":0,
@@ -55216,7 +55216,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=130&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xSnNfW9R"
         },
         {
             "index":88,
@@ -55301,7 +55301,7 @@
             "300m이내점포수":72,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":447.1850588706,
             "중학교학업성취도":73.0,
             "500m이내학원가":1,
@@ -55520,7 +55520,7 @@
                 ]
             ],
             "rank_gap":-32,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=131&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5dyPFoUp"
         },
         {
             "index":578,
@@ -55605,7 +55605,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.17,
+            "초등학교학업성취도":89.8,
             "초등학교거리":1451.5899399349,
             "중학교학업성취도":69.1,
             "500m이내학원가":0,
@@ -55832,7 +55832,7 @@
                 ]
             ],
             "rank_gap":11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=132&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FpMZtbcy"
         },
         {
             "index":162,
@@ -55917,7 +55917,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":140.5165359619,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -56144,7 +56144,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=133&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xNlm86T0"
         },
         {
             "index":536,
@@ -56229,7 +56229,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":2330.8577898046,
             "중학교학업성취도":67.8,
             "500m이내학원가":0,
@@ -56606,7 +56606,7 @@
                 ]
             ],
             "rank_gap":11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=134&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5vY428m7"
         },
         {
             "index":233,
@@ -56691,8 +56691,8 @@
             "300m이내점포수":25,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
-            "초등학교거리":833.9014788014,
+            "초등학교학업성취도":90.0,
+            "초등학교거리":773.2651692369,
             "중학교학업성취도":75.6,
             "500m이내학원가":0,
             "500m이내학원수":0,
@@ -56918,7 +56918,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=135&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IgNDiwWI"
         },
         {
             "index":412,
@@ -57003,7 +57003,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":756.828604327,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -57280,7 +57280,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=136&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GcWnhSZK"
         },
         {
             "index":431,
@@ -57365,7 +57365,7 @@
             "300m이내점포수":25,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":778.1525980262,
             "중학교학업성취도":69.0,
             "500m이내학원가":0,
@@ -57642,7 +57642,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=137&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x3iqYEJf"
         },
         {
             "index":415,
@@ -57727,7 +57727,7 @@
             "300m이내점포수":33,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":270.1405973155,
             "중학교학업성취도":56.8,
             "500m이내학원가":1,
@@ -57954,7 +57954,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=138&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5wHAXzaS"
         },
         {
             "index":364,
@@ -58039,7 +58039,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":973.2062396869,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -58366,7 +58366,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=139&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FIYoL6h9"
         },
         {
             "index":526,
@@ -58451,7 +58451,7 @@
             "300m이내점포수":87,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.86,
             "초등학교거리":182.6014070029,
             "중학교학업성취도":57.8,
             "500m이내학원가":1,
@@ -58778,7 +58778,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=140&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gz1gl3OK"
         },
         {
             "index":588,
@@ -58863,7 +58863,7 @@
             "300m이내점포수":33,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":919.2854697917,
             "중학교학업성취도":71.8,
             "500m이내학원가":0,
@@ -59038,7 +59038,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=141&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/52hTFUif"
         },
         {
             "index":33,
@@ -59123,7 +59123,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":479.1077197209,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -59350,7 +59350,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=142&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FCB4kVqE"
         },
         {
             "index":566,
@@ -59435,7 +59435,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":1313.604298858,
             "중학교학업성취도":78.4,
             "500m이내학원가":0,
@@ -59712,7 +59712,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=143&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GXRqlBGc"
         },
         {
             "index":472,
@@ -59797,7 +59797,7 @@
             "300m이내점포수":14,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":584.8366289625,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -60024,7 +60024,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=144&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xXDEtmqf"
         },
         {
             "index":117,
@@ -60109,7 +60109,7 @@
             "300m이내점포수":15,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.99,
+            "초등학교학업성취도":90.01,
             "초등학교거리":621.8784673519,
             "중학교학업성취도":73.0,
             "500m이내학원가":1,
@@ -60520,7 +60520,7 @@
                 ]
             ],
             "rank_gap":-25,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=145&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5rMZEnvT"
         },
         {
             "index":575,
@@ -60605,7 +60605,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":1118.6130033421,
             "중학교학업성취도":69.1,
             "500m이내학원가":0,
@@ -60780,7 +60780,7 @@
                 ]
             ],
             "rank_gap":14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=146&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FZ9WIMlS"
         },
         {
             "index":368,
@@ -60865,7 +60865,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":857.5263804499,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -61040,7 +61040,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=147&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GrqNj35h"
         },
         {
             "index":441,
@@ -61125,7 +61125,7 @@
             "300m이내점포수":284,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":131.9027847618,
             "중학교학업성취도":57.8,
             "500m이내학원가":1,
@@ -61402,7 +61402,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=148&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xHnDZ6Wt"
         },
         {
             "index":349,
@@ -61487,7 +61487,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":1216.4733702426,
             "중학교학업성취도":74.8,
             "500m이내학원가":0,
@@ -61764,7 +61764,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=149&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5OGcvNsY"
         },
         {
             "index":385,
@@ -61849,7 +61849,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":1121.3129082955,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -62126,7 +62126,7 @@
                 ]
             ],
             "rank_gap":11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=150&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IGGKdlrC"
         },
         {
             "index":382,
@@ -62211,7 +62211,7 @@
             "300m이내점포수":53,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":727.3058957126,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -62386,7 +62386,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=151&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GYTcVRoj"
         },
         {
             "index":409,
@@ -62471,7 +62471,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":947.0624447084,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -62698,7 +62698,7 @@
                 ]
             ],
             "rank_gap":7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=152&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FwAStDZG"
         },
         {
             "index":426,
@@ -62783,7 +62783,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.1,
+            "초등학교학업성취도":89.88,
             "초등학교거리":1206.1650380255,
             "중학교학업성취도":69.0,
             "500m이내학원가":0,
@@ -63060,7 +63060,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=153&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G5QJ26LO"
         },
         {
             "index":139,
@@ -63145,7 +63145,7 @@
             "300m이내점포수":20,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":185.8742386057,
             "중학교학업성취도":56.8,
             "500m이내학원가":1,
@@ -63422,7 +63422,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=154&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xoKYDTfl"
         },
         {
             "index":133,
@@ -63507,7 +63507,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":272.4464353196,
             "중학교학업성취도":56.8,
             "500m이내학원가":1,
@@ -63730,7 +63730,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=155&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/59NiOsV3"
         },
         {
             "index":666,
@@ -63815,7 +63815,7 @@
             "300m이내점포수":60,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":382.3212938134,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -63990,7 +63990,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=156&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FBDJfmu7"
         },
         {
             "index":30,
@@ -64075,7 +64075,7 @@
             "300m이내점포수":28,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":346.7317944035,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -64352,7 +64352,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=157&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GFeYRFlc"
         },
         {
             "index":142,
@@ -64437,7 +64437,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":768.1766415786,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -64764,7 +64764,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=158&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xw9WY8TU"
         },
         {
             "index":82,
@@ -64849,7 +64849,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":364.8194553631,
             "중학교학업성취도":73.0,
             "500m이내학원가":1,
@@ -65268,7 +65268,7 @@
                 ]
             ],
             "rank_gap":-32,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=159&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5t4era8h"
         },
         {
             "index":676,
@@ -65353,7 +65353,7 @@
             "300m이내점포수":60,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":359.7720594096,
             "중학교학업성취도":71.8,
             "500m이내학원가":1,
@@ -65730,7 +65730,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=160&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/I5c48M69"
         },
         {
             "index":420,
@@ -65815,7 +65815,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":401.3562513931,
             "중학교학업성취도":56.8,
             "500m이내학원가":0,
@@ -66142,7 +66142,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=161&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GA6BEcOo"
         },
         {
             "index":123,
@@ -66227,7 +66227,7 @@
             "300m이내점포수":1389,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":222.4884054233,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -66654,7 +66654,7 @@
                 ]
             ],
             "rank_gap":-34,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=162&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xhnKDpYf"
         },
         {
             "index":480,
@@ -66739,7 +66739,7 @@
             "300m이내점포수":87,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.86,
             "초등학교거리":284.5896862488,
             "중학교학업성취도":57.8,
             "500m이내학원가":1,
@@ -67066,7 +67066,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=163&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xV3AdhMC"
         },
         {
             "index":429,
@@ -67151,7 +67151,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.1,
+            "초등학교학업성취도":89.88,
             "초등학교거리":1453.0398696889,
             "중학교학업성취도":69.0,
             "500m이내학원가":0,
@@ -67322,7 +67322,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=164&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5i0psQcN"
         },
         {
             "index":453,
@@ -67407,7 +67407,7 @@
             "300m이내점포수":208,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":653.0472489572,
             "중학교학업성취도":69.0,
             "500m이내학원가":0,
@@ -67676,7 +67676,7 @@
                 ]
             ],
             "rank_gap":-24,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=165&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Fyxn5zgM"
         },
         {
             "index":42,
@@ -67761,7 +67761,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.96,
+            "초등학교학업성취도":90.04,
             "초등학교거리":1002.834090364,
             "중학교학업성취도":67.8,
             "500m이내학원가":0,
@@ -67988,7 +67988,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=166&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Ge5daq1W"
         },
         {
             "index":576,
@@ -68073,7 +68073,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":1463.5606012141,
             "중학교학업성취도":69.1,
             "500m이내학원가":0,
@@ -68296,7 +68296,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=167&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xPpvbAyR"
         },
         {
             "index":580,
@@ -68381,7 +68381,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":171.239713879,
             "중학교학업성취도":69.1,
             "500m이내학원가":0,
@@ -68552,7 +68552,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=168&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5bduoQys"
         },
         {
             "index":12,
@@ -68637,7 +68637,7 @@
             "300m이내점포수":28,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":351.5585876136,
             "중학교학업성취도":73.0,
             "500m이내학원가":0,
@@ -69014,7 +69014,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=169&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IFFIoLRv"
         },
         {
             "index":44,
@@ -69099,7 +69099,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":1852.9201497584,
             "중학교학업성취도":67.8,
             "500m이내학원가":0,
@@ -69326,7 +69326,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=170&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FgvSLr4X"
         },
         {
             "index":36,
@@ -69411,7 +69411,7 @@
             "300m이내점포수":32,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":738.0638015995,
             "중학교학업성취도":69.0,
             "500m이내학원가":0,
@@ -69838,7 +69838,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=171&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xcJ9FjrO"
         },
         {
             "index":159,
@@ -69923,7 +69923,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":217.6352547389,
             "중학교학업성취도":56.8,
             "500m이내학원가":1,
@@ -70200,7 +70200,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=172&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5eTwWymV"
         },
         {
             "index":411,
@@ -70285,7 +70285,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.13,
+            "초등학교학업성취도":89.85,
             "초등학교거리":2634.3809390791,
             "중학교학업성취도":54.2,
             "500m이내학원가":0,
@@ -70460,7 +70460,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=173&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F0wtGCbc"
         },
         {
             "index":434,
@@ -70545,7 +70545,7 @@
             "300m이내점포수":208,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":611.3657272485,
             "중학교학업성취도":69.0,
             "500m이내학원가":0,
@@ -71018,7 +71018,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=174&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/ID1kXdHf"
         },
         {
             "index":73,
@@ -71103,7 +71103,7 @@
             "300m이내점포수":1389,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":271.1625352595,
             "중학교학업성취도":71.8,
             "500m이내학원가":0,
@@ -71380,7 +71380,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=175&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FJ6OQJEj"
         },
         {
             "index":456,
@@ -71465,7 +71465,7 @@
             "300m이내점포수":284,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":126.072260769,
             "중학교학업성취도":57.8,
             "500m이내학원가":1,
@@ -71692,7 +71692,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=176&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F7IFl6Ag"
         },
         {
             "index":463,
@@ -71727,16 +71727,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":30.0,
-            "초등학군":82.4711002345,
+            "초등학군":82.5311002345,
             "중학군":35.04,
-            "학군총점":15.4337750586,
+            "학군총점":15.4487750586,
             "인구수":34.53,
             "인구증감":34.78,
             "인구총점":34.605,
             "일자리":24.95,
             "소득수준":66.62,
             "일자리총점":37.451,
-            "가치 총점":18.5168875293,
+            "가치 총점":18.5243875293,
             "매매실거래년":20220907.0,
             "매매실거래가":8500.0,
             "평단가":443,
@@ -71777,7 +71777,7 @@
             "300m이내점포수":284,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.95,
+            "초등학교학업성취도":90.05,
             "초등학교거리":71.2527505863,
             "중학교학업성취도":57.8,
             "500m이내학원가":1,
@@ -71952,7 +71952,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Chungcheongnamdo&sub=4420000000_Chungcheongnamdo_Asan&mon=202212&complex=177&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5HEybM4v"
         }
     ]
 }

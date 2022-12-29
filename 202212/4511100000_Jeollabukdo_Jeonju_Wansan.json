@@ -449,7 +449,7 @@
         "primaryKey":[
             "index"
         ],
-        "pandas_version":"1.4.0"
+        "pandas_version":"0.20.0"
     },
     "data":[
         {
@@ -912,7 +912,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=0&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xtH5YBB4"
         },
         {
             "index":315,
@@ -1324,7 +1324,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=1&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5QGuIjjJ"
         },
         {
             "index":617,
@@ -1409,7 +1409,7 @@
             "300m이내점포수":133,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":591.9478534575,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -1836,7 +1836,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=2&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FfWA8111"
         },
         {
             "index":614,
@@ -1921,7 +1921,7 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":123.0187925083,
             "중학교학업성취도":84.8,
             "500m이내학원가":3,
@@ -2198,7 +2198,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=3&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G9stiaak"
         },
         {
             "index":604,
@@ -2283,7 +2283,7 @@
             "300m이내점포수":46,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":325.1127605367,
             "중학교학업성취도":84.8,
             "500m이내학원가":2,
@@ -2760,7 +2760,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=4&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xZOGEULv"
         },
         {
             "index":611,
@@ -2845,7 +2845,7 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.9,
+            "초등학교학업성취도":90.09,
             "초등학교거리":253.6902012083,
             "중학교학업성취도":76.8,
             "500m이내학원가":3,
@@ -3122,7 +3122,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=5&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5AfcKlTm"
         },
         {
             "index":304,
@@ -3207,7 +3207,7 @@
             "300m이내점포수":742,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":229.550042966,
             "중학교학업성취도":76.4,
             "500m이내학원가":2,
@@ -3382,7 +3382,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=6&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5grdXglY"
         },
         {
             "index":196,
@@ -3467,7 +3467,7 @@
             "300m이내점포수":86,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":398.5385218875,
             "중학교학업성취도":89.6,
             "500m이내학원가":2,
@@ -3694,7 +3694,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=7&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GWrJ0Ocz"
         },
         {
             "index":579,
@@ -3779,7 +3779,7 @@
             "300m이내점포수":93,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":210.6060755485,
             "중학교학업성취도":76.8,
             "500m이내학원가":3,
@@ -4106,7 +4106,7 @@
                 ]
             ],
             "rank_gap":11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=8&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xHnDZ0dB"
         },
         {
             "index":588,
@@ -4191,7 +4191,7 @@
             "300m이내점포수":364,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":185.3925175643,
             "중학교학업성취도":76.8,
             "500m이내학원가":3,
@@ -4618,7 +4618,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=9&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5Rt8p3zd"
         },
         {
             "index":164,
@@ -4703,7 +4703,7 @@
             "300m이내점포수":80,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":174.7891164055,
             "중학교학업성취도":78.3,
             "500m이내학원가":3,
@@ -4878,7 +4878,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=10&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IIf1gJ6X"
         },
         {
             "index":674,
@@ -4963,7 +4963,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":520.4246950446,
             "중학교학업성취도":83.5,
             "500m이내학원가":1,
@@ -5240,7 +5240,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=11&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gu0daOJW"
         },
         {
             "index":431,
@@ -5325,7 +5325,7 @@
             "300m이내점포수":97,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":351.3181601128,
             "중학교학업성취도":78.5,
             "500m이내학원가":2,
@@ -5602,7 +5602,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=12&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xPpvbezj"
         },
         {
             "index":166,
@@ -5687,7 +5687,7 @@
             "300m이내점포수":39,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.82,
+            "초등학교학업성취도":90.16,
             "초등학교거리":136.5983816532,
             "중학교학업성취도":89.6,
             "500m이내학원가":0,
@@ -6364,7 +6364,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=13&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5P2scFvJ"
         },
         {
             "index":344,
@@ -6449,7 +6449,7 @@
             "300m이내점포수":22,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":350.0095627904,
             "중학교학업성취도":74.8,
             "500m이내학원가":0,
@@ -6868,7 +6868,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=14&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FNlGKZ8t"
         },
         {
             "index":632,
@@ -6953,7 +6953,7 @@
             "300m이내점포수":138,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":804.1421808029,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -7180,7 +7180,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=15&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G1FszJCb"
         },
         {
             "index":594,
@@ -7265,7 +7265,7 @@
             "300m이내점포수":756,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":654.103381866,
             "중학교학업성취도":76.4,
             "500m이내학원가":3,
@@ -7592,7 +7592,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=16&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xXDEtug5"
         },
         {
             "index":143,
@@ -7677,7 +7677,7 @@
             "300m이내점포수":87,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":161.9478447762,
             "중학교학업성취도":55.0,
             "500m이내학원가":2,
@@ -7954,7 +7954,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=17&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x5l8ZTpE"
         },
         {
             "index":282,
@@ -8039,7 +8039,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":470.2873154565,
             "중학교학업성취도":76.4,
             "500m이내학원가":2,
@@ -8266,7 +8266,7 @@
                 ]
             ],
             "rank_gap":22,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=18&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5xnLWPFQ"
         },
         {
             "index":583,
@@ -8351,7 +8351,7 @@
             "300m이내점포수":33,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":271.9328749521,
             "중학교학업성취도":76.8,
             "500m이내학원가":3,
@@ -8728,7 +8728,7 @@
                 ]
             ],
             "rank_gap":15,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=19&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FzmQLqeP"
         },
         {
             "index":81,
@@ -8813,7 +8813,7 @@
             "300m이내점포수":8,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":309.9927339249,
             "중학교학업성취도":78.7,
             "500m이내학원가":3,
@@ -8988,7 +8988,7 @@
                 ]
             ],
             "rank_gap":23,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=20&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xsY89dPY"
         },
         {
             "index":153,
@@ -9073,7 +9073,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.89,
+            "초등학교학업성취도":90.1,
             "초등학교거리":430.3270253676,
             "중학교학업성취도":78.7,
             "500m이내학원가":1,
@@ -9400,7 +9400,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=21&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5mgBV2iU"
         },
         {
             "index":391,
@@ -9485,7 +9485,7 @@
             "300m이내점포수":60,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":196.897296821,
             "중학교학업성취도":78.5,
             "500m이내학원가":1,
@@ -9762,7 +9762,7 @@
                 ]
             ],
             "rank_gap":17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=22&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FeCpoY8I"
         },
         {
             "index":570,
@@ -9847,7 +9847,7 @@
             "300m이내점포수":12,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":422.4606170731,
             "중학교학업성취도":59.1,
             "500m이내학원가":1,
@@ -10416,7 +10416,7 @@
                 ]
             ],
             "rank_gap":-16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=23&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GUDtWJdZ"
         },
         {
             "index":403,
@@ -10501,7 +10501,7 @@
             "300m이내점포수":228,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":322.0949500079,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -10778,7 +10778,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=24&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xUtFa258"
         },
         {
             "index":193,
@@ -10863,7 +10863,7 @@
             "300m이내점포수":98,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":156.3560141942,
             "중학교학업성취도":78.3,
             "500m이내학원가":3,
@@ -11090,7 +11090,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=25&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5dyPFpiH"
         },
         {
             "index":140,
@@ -11175,7 +11175,7 @@
             "300m이내점포수":185,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":269.672316865,
             "중학교학업성취도":89.6,
             "500m이내학원가":2,
@@ -11350,7 +11350,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=26&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FfWA81XF"
         },
         {
             "index":179,
@@ -11435,7 +11435,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.82,
+            "초등학교학업성취도":90.16,
             "초등학교거리":506.7182705491,
             "중학교학업성취도":89.6,
             "500m이내학원가":1,
@@ -11708,7 +11708,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=27&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GvXdMQIo"
         },
         {
             "index":458,
@@ -11793,7 +11793,7 @@
             "300m이내점포수":219,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":174.8460182749,
             "중학교학업성취도":78.5,
             "500m이내학원가":2,
@@ -11968,7 +11968,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=28&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xEqAvy8q"
         },
         {
             "index":445,
@@ -12053,7 +12053,7 @@
             "300m이내점포수":104,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":203.0629332531,
             "중학교학업성취도":78.5,
             "500m이내학원가":2,
@@ -12480,7 +12480,7 @@
                 ]
             ],
             "rank_gap":15,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=29&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/53BUGcFV"
         },
         {
             "index":158,
@@ -12565,7 +12565,7 @@
             "300m이내점포수":98,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":218.4981046377,
             "중학교학업성취도":78.3,
             "500m이내학원가":3,
@@ -12740,7 +12740,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=30&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FZ9WIiMb"
         },
         {
             "index":650,
@@ -12825,7 +12825,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":444.6780408979,
             "중학교학업성취도":78.3,
             "500m이내학원가":1,
@@ -13302,7 +13302,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=31&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G8t7NRbR"
         },
         {
             "index":159,
@@ -13387,7 +13387,7 @@
             "300m이내점포수":105,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":388.9450448066,
             "중학교학업성취도":78.3,
             "500m이내학원가":3,
@@ -13562,7 +13562,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=32&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xSnNf3WX"
         },
         {
             "index":284,
@@ -13647,7 +13647,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":497.5258486038,
             "중학교학업성취도":76.4,
             "500m이내학원가":2,
@@ -13870,7 +13870,7 @@
                 ]
             ],
             "rank_gap":19,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=33&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5fjPybVk"
         },
         {
             "index":53,
@@ -13955,7 +13955,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.09,
+            "초등학교학업성취도":89.91,
             "초등학교거리":358.8153126945,
             "중학교학업성취도":78.7,
             "500m이내학원가":2,
@@ -14182,7 +14182,7 @@
                 ]
             ],
             "rank_gap":14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=34&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/58F3TJ27"
         },
         {
             "index":189,
@@ -14267,7 +14267,7 @@
             "300m이내점포수":193,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":478.4741102274,
             "중학교학업성취도":89.6,
             "500m이내학원가":1,
@@ -14494,7 +14494,7 @@
                 ]
             ],
             "rank_gap":-15,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=35&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FdG7lkaJ"
         },
         {
             "index":85,
@@ -14579,7 +14579,7 @@
             "300m이내점포수":626,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":328.9915230694,
             "중학교학업성취도":82.1,
             "500m이내학원가":2,
@@ -14856,7 +14856,7 @@
                 ]
             ],
             "rank_gap":14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=36&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GisewrhC"
         },
         {
             "index":191,
@@ -14941,7 +14941,7 @@
             "300m이내점포수":53,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.92,
             "초등학교거리":353.8504928948,
             "중학교학업성취도":78.3,
             "500m이내학원가":3,
@@ -15168,7 +15168,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=37&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xKWzoPc1"
         },
         {
             "index":337,
@@ -15253,7 +15253,7 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":197.9787260103,
             "중학교학업성취도":74.8,
             "500m이내학원가":0,
@@ -15730,7 +15730,7 @@
                 ]
             ],
             "rank_gap":-30,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=38&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/55yRJUFU"
         },
         {
             "index":670,
@@ -16142,7 +16142,7 @@
                 ]
             ],
             "rank_gap":-22,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=39&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GCuaSpdo"
         },
         {
             "index":646,
@@ -16227,7 +16227,7 @@
             "300m이내점포수":22,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":355.1382432896,
             "중학교학업성취도":83.5,
             "500m이내학원가":1,
@@ -16454,7 +16454,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=40&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xkqIRPGK"
         },
         {
             "index":644,
@@ -16539,7 +16539,7 @@
             "300m이내점포수":15,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":248.2019544233,
             "중학교학업성취도":83.5,
             "500m이내학원가":1,
@@ -16766,7 +16766,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=41&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5vY42UTA"
         },
         {
             "index":150,
@@ -16851,7 +16851,7 @@
             "300m이내점포수":59,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":191.7999528593,
             "중학교학업성취도":78.3,
             "500m이내학원가":2,
@@ -17026,7 +17026,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=42&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FPeBFlPZ"
         },
         {
             "index":451,
@@ -17111,7 +17111,7 @@
             "300m이내점포수":48,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":252.7424307095,
             "중학교학업성취도":78.5,
             "500m이내학원가":2,
@@ -17438,7 +17438,7 @@
                 ]
             ],
             "rank_gap":16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=43&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GfMbBmIb"
         },
         {
             "index":630,
@@ -17523,7 +17523,7 @@
             "300m이내점포수":133,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":560.2071847324,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -17750,7 +17750,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=44&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xpaWL1hL"
         },
         {
             "index":519,
@@ -17835,7 +17835,7 @@
             "300m이내점포수":78,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":356.0323939618,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -18162,7 +18162,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=45&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5fjPybfX"
         },
         {
             "index":648,
@@ -18197,16 +18197,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":58.0,
-            "초등학군":93.4921995153,
+            "초등학군":93.4201995153,
             "중학군":47.46,
-            "학군총점":56.3570498788,
+            "학군총점":56.3390498788,
             "인구수":34.95,
             "인구증감":-26.09,
             "인구총점":16.638,
             "일자리":22.0,
             "소득수준":57.41,
             "일자리총점":32.623,
-            "가치 총점":53.1535249394,
+            "가치 총점":53.1445249394,
             "매매실거래년":20220709.0,
             "매매실거래가":29500.0,
             "평단가":864,
@@ -18247,7 +18247,7 @@
             "300m이내점포수":248,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":98.6404987882,
             "중학교학업성취도":78.7,
             "500m이내학원가":1,
@@ -18474,7 +18474,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=46&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F9pzumfa"
         },
         {
             "index":419,
@@ -18559,7 +18559,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":148.2043876132,
             "중학교학업성취도":80.0,
             "500m이내학원가":1,
@@ -18786,7 +18786,7 @@
                 ]
             ],
             "rank_gap":10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=47&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G7DZzqIR"
         },
         {
             "index":157,
@@ -18871,7 +18871,7 @@
             "300m이내점포수":295,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":173.3254312742,
             "중학교학업성취도":78.3,
             "500m이내학원가":1,
@@ -19046,7 +19046,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=48&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xdkfCzOt"
         },
         {
             "index":640,
@@ -19131,7 +19131,7 @@
             "300m이내점포수":22,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":199.2464699362,
             "중학교학업성취도":78.7,
             "500m이내학원가":1,
@@ -19358,7 +19358,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=49&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5rMZE8Wh"
         },
         {
             "index":438,
@@ -19443,7 +19443,7 @@
             "300m이내점포수":34,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":348.6792464324,
             "중학교학업성취도":78.5,
             "500m이내학원가":1,
@@ -19670,7 +19670,7 @@
                 ]
             ],
             "rank_gap":11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=50&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5D3jXJQD"
         },
         {
             "index":634,
@@ -19755,7 +19755,7 @@
             "300m이내점포수":126,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":146.489522636,
             "중학교학업성취도":84.8,
             "500m이내학원가":2,
@@ -19982,7 +19982,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=51&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FdG7lkbp"
         },
         {
             "index":71,
@@ -20067,7 +20067,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":345.8773161907,
             "중학교학업성취도":82.1,
             "500m이내학원가":1,
@@ -20544,7 +20544,7 @@
                 ]
             ],
             "rank_gap":-20,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=52&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FGeFwY16"
         },
         {
             "index":680,
@@ -20629,7 +20629,7 @@
             "300m이내점포수":17,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.02,
             "초등학교거리":332.2537481221,
             "중학교학업성취도":42.9,
             "500m이내학원가":0,
@@ -20764,7 +20764,7 @@
                 ]
             ],
             "rank_gap":9999,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=53&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gz1glYv3"
         },
         {
             "index":82,
@@ -20849,7 +20849,7 @@
             "300m이내점포수":39,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":326.9971448161,
             "중학교학업성취도":69.9,
             "500m이내학원가":2,
@@ -21126,7 +21126,7 @@
                 ]
             ],
             "rank_gap":19,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=54&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xgTuLi6Q"
         },
         {
             "index":162,
@@ -21211,7 +21211,7 @@
             "300m이내점포수":628,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.92,
             "초등학교거리":514.0215668361,
             "중학교학업성취도":89.6,
             "500m이내학원가":1,
@@ -21438,7 +21438,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=55&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5MCSQFJt"
         },
         {
             "index":642,
@@ -21523,7 +21523,7 @@
             "300m이내점포수":22,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":221.2206066808,
             "중학교학업성취도":78.7,
             "500m이내학원가":1,
@@ -21750,7 +21750,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=56&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5yqBxi5L"
         },
         {
             "index":636,
@@ -21835,7 +21835,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":135.2627817827,
             "중학교학업성취도":76.8,
             "500m이내학원가":1,
@@ -22162,7 +22162,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=57&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FdG7lkmJ"
         },
         {
             "index":667,
@@ -22247,7 +22247,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.92,
             "초등학교거리":448.739254201,
             "중학교학업성취도":78.3,
             "500m이내학원가":1,
@@ -22474,7 +22474,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=58&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gt91v3Xv"
         },
         {
             "index":598,
@@ -22559,7 +22559,7 @@
             "300m이내점포수":762,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":763.708198179,
             "중학교학업성취도":76.4,
             "500m이내학원가":2,
@@ -22986,7 +22986,7 @@
                 ]
             ],
             "rank_gap":-38,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=59&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GbcrgqGC"
         },
         {
             "index":160,
@@ -23071,7 +23071,7 @@
             "300m이내점포수":79,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":134.2961468445,
             "중학교학업성취도":78.3,
             "500m이내학원가":2,
@@ -23298,7 +23298,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=60&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xR0PHBYO"
         },
         {
             "index":455,
@@ -23383,7 +23383,7 @@
             "300m이내점포수":221,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":316.9416173587,
             "중학교학업성취도":78.5,
             "500m이내학원가":2,
@@ -23660,7 +23660,7 @@
                 ]
             ],
             "rank_gap":14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=61&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5UGrBxkJ"
         },
         {
             "index":151,
@@ -23745,7 +23745,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":168.0139592624,
             "중학교학업성취도":78.3,
             "500m이내학원가":2,
@@ -23972,7 +23972,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=62&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FEdNmcEk"
         },
         {
             "index":31,
@@ -24057,7 +24057,7 @@
             "300m이내점포수":608,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":447.271341287,
             "중학교학업성취도":78.7,
             "500m이내학원가":2,
@@ -24284,7 +24284,7 @@
                 ]
             ],
             "rank_gap":20,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=63&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GfMbBm9z"
         },
         {
             "index":223,
@@ -24369,7 +24369,7 @@
             "300m이내점포수":33,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.02,
             "초등학교거리":218.2699435869,
             "중학교학업성취도":42.9,
             "500m이내학원가":0,
@@ -24846,7 +24846,7 @@
                 ]
             ],
             "rank_gap":-41,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=64&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5s3mP81A"
         },
         {
             "index":529,
@@ -24931,7 +24931,7 @@
             "300m이내점포수":47,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.09,
+            "초등학교학업성취도":89.91,
             "초등학교거리":141.7655116949,
             "중학교학업성취도":78.7,
             "500m이내학원가":2,
@@ -25158,7 +25158,7 @@
                 ]
             ],
             "rank_gap":20,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=65&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FAQRJqe6"
         },
         {
             "index":416,
@@ -25243,7 +25243,7 @@
             "300m이내점포수":211,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":357.5612132698,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -25418,7 +25418,7 @@
                 ]
             ],
             "rank_gap":14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=66&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F5FC8l3C"
         },
         {
             "index":41,
@@ -25503,7 +25503,7 @@
             "300m이내점포수":16,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.09,
+            "초등학교학업성취도":89.91,
             "초등학교거리":250.9790618826,
             "중학교학업성취도":78.7,
             "500m이내학원가":1,
@@ -25730,7 +25730,7 @@
                 ]
             ],
             "rank_gap":21,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=67&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xR0PHBeH"
         },
         {
             "index":459,
@@ -25815,7 +25815,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":456.7975378113,
             "중학교학업성취도":76.4,
             "500m이내학원가":2,
@@ -26042,7 +26042,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=68&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5kXkpwRm"
         },
         {
             "index":183,
@@ -26127,7 +26127,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.82,
+            "초등학교학업성취도":90.16,
             "초등학교거리":490.7473557039,
             "중학교학업성취도":89.6,
             "500m이내학원가":1,
@@ -26350,7 +26350,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=69&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5VAlWb51"
         },
         {
             "index":623,
@@ -26435,7 +26435,7 @@
             "300m이내점포수":186,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":437.8185359012,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -26912,7 +26912,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=70&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FxX9yEmE"
         },
         {
             "index":182,
@@ -26997,7 +26997,7 @@
             "300m이내점포수":67,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.92,
             "초등학교거리":146.0784365644,
             "중학교학업성취도":78.3,
             "500m이내학원가":1,
@@ -27172,7 +27172,7 @@
                 ]
             ],
             "rank_gap":-16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=71&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xqo5hItt"
         },
         {
             "index":511,
@@ -27257,7 +27257,7 @@
             "300m이내점포수":57,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.09,
+            "초등학교학업성취도":89.91,
             "초등학교거리":180.5507802199,
             "중학교학업성취도":78.7,
             "500m이내학원가":2,
@@ -27534,7 +27534,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=72&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5jjmZaRL"
         },
         {
             "index":407,
@@ -27619,7 +27619,7 @@
             "300m이내점포수":17,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":505.9028525861,
             "중학교학업성취도":78.5,
             "500m이내학원가":0,
@@ -27896,7 +27896,7 @@
                 ]
             ],
             "rank_gap":-17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=73&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FPeBFlyV"
         },
         {
             "index":301,
@@ -27981,7 +27981,7 @@
             "300m이내점포수":22,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":593.3007782587,
             "중학교학업성취도":80.2,
             "500m이내학원가":1,
@@ -28258,7 +28258,7 @@
                 ]
             ],
             "rank_gap":7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=74&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GVWNvjcs"
         },
         {
             "index":527,
@@ -28343,7 +28343,7 @@
             "300m이내점포수":64,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.94,
+            "초등학교학업성취도":90.05,
             "초등학교거리":123.357985679,
             "중학교학업성취도":78.7,
             "500m이내학원가":2,
@@ -28570,7 +28570,7 @@
                 ]
             ],
             "rank_gap":28,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=75&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x0hzZS5U"
         },
         {
             "index":361,
@@ -28655,7 +28655,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":525.1331591769,
             "중학교학업성취도":80.0,
             "500m이내학원가":0,
@@ -29182,7 +29182,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=76&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GUDtWJBs"
         },
         {
             "index":524,
@@ -29267,7 +29267,7 @@
             "300m이내점포수":25,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.94,
+            "초등학교학업성취도":90.05,
             "초등학교거리":133.3902209422,
             "중학교학업성취도":78.7,
             "500m이내학원가":1,
@@ -29494,7 +29494,7 @@
                 ]
             ],
             "rank_gap":34,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=77&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xSnNf3eR"
         },
         {
             "index":424,
@@ -29579,7 +29579,7 @@
             "300m이내점포수":26,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":134.2676578966,
             "중학교학업성취도":78.5,
             "500m이내학원가":0,
@@ -29906,7 +29906,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=78&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5P2scF9M"
         },
         {
             "index":188,
@@ -29991,7 +29991,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.82,
+            "초등학교학업성취도":90.16,
             "초등학교거리":483.2995345021,
             "중학교학업성취도":89.6,
             "500m이내학원가":1,
@@ -30162,7 +30162,7 @@
                 ]
             ],
             "rank_gap":15,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=79&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FTkq5IoB"
         },
         {
             "index":177,
@@ -30247,7 +30247,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.82,
+            "초등학교학업성취도":90.16,
             "초등학교거리":538.3767405018,
             "중학교학업성취도":89.6,
             "500m이내학원가":1,
@@ -30474,7 +30474,7 @@
                 ]
             ],
             "rank_gap":15,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=80&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GHDVKCOu"
         },
         {
             "index":406,
@@ -30559,7 +30559,7 @@
             "300m이내점포수":204,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":404.3108443446,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -30734,7 +30734,7 @@
                 ]
             ],
             "rank_gap":27,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=81&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x3iqYVlk"
         },
         {
             "index":414,
@@ -30819,7 +30819,7 @@
             "300m이내점포수":235,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":460.1714313448,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -31046,7 +31046,7 @@
                 ]
             ],
             "rank_gap":29,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=82&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5lCxHAKI"
         },
         {
             "index":434,
@@ -31131,7 +31131,7 @@
             "300m이내점포수":24,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":339.9501310874,
             "중학교학업성취도":70.2,
             "500m이내학원가":0,
@@ -31458,7 +31458,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=83&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F3oOAKlO"
         },
         {
             "index":567,
@@ -31543,7 +31543,7 @@
             "300m이내점포수":46,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.09,
+            "초등학교학업성취도":89.91,
             "초등학교거리":185.8703542728,
             "중학교학업성취도":78.7,
             "500m이내학원가":2,
@@ -31820,7 +31820,7 @@
                 ]
             ],
             "rank_gap":17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=84&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GKvxtBKp"
         },
         {
             "index":138,
@@ -31905,7 +31905,7 @@
             "300m이내점포수":250,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":401.4175703504,
             "중학교학업성취도":55.0,
             "500m이내학원가":1,
@@ -32132,7 +32132,7 @@
                 ]
             ],
             "rank_gap":-30,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=85&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5JQVDwOI"
         },
         {
             "index":356,
@@ -32217,7 +32217,7 @@
             "300m이내점포수":573,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":357.0460577388,
             "중학교학업성취도":80.0,
             "500m이내학원가":0,
@@ -32594,7 +32594,7 @@
                 ]
             ],
             "rank_gap":-27,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=86&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FjjcDgVR"
         },
         {
             "index":417,
@@ -32679,7 +32679,7 @@
             "300m이내점포수":66,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":428.2460374426,
             "중학교학업성취도":78.5,
             "500m이내학원가":1,
@@ -32906,7 +32906,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=87&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GnCvsYgY"
         },
         {
             "index":48,
@@ -32991,7 +32991,7 @@
             "300m이내점포수":33,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":181.8166722563,
             "중학교학업성취도":82.1,
             "500m이내학원가":0,
@@ -33294,7 +33294,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=88&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GZjsR18d"
         },
         {
             "index":141,
@@ -33329,16 +33329,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":63.0,
-            "초등학군":84.1851916386,
+            "초등학군":84.1191916386,
             "중학군":33.0,
-            "학군총점":55.2462979097,
+            "학군총점":55.2297979097,
             "인구수":34.95,
             "인구증감":-26.09,
             "인구총점":16.638,
             "일자리":22.0,
             "소득수준":57.41,
             "일자리총점":32.623,
-            "가치 총점":46.5231489548,
+            "가치 총점":46.5148989548,
             "매매실거래년":20220718.0,
             "매매실거래가":36500.0,
             "평단가":954,
@@ -33379,7 +33379,7 @@
             "300m이내점포수":87,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.94,
             "초등학교거리":75.3879790966,
             "중학교학업성취도":55.0,
             "500m이내학원가":2,
@@ -33606,7 +33606,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=89&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xKWzoP9u"
         },
         {
             "index":669,
@@ -33641,16 +33641,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":51.0,
-            "초등학군":93.4766226404,
+            "초등학군":93.4046226404,
             "중학군":47.46,
-            "학군총점":56.3531556601,
+            "학군총점":56.3351556601,
             "인구수":34.95,
             "인구증감":-26.09,
             "인구총점":16.638,
             "일자리":22.0,
             "소득수준":57.41,
             "일자리총점":32.623,
-            "가치 총점":46.50157783,
+            "가치 총점":46.49257783,
             "매매실거래년":20221019.0,
             "매매실거래가":10900.0,
             "평단가":531,
@@ -33691,7 +33691,7 @@
             "300m이내점포수":15,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":98.601556601,
             "중학교학업성취도":78.7,
             "500m이내학원가":1,
@@ -33866,7 +33866,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=90&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5Zvj9F28"
         },
         {
             "index":526,
@@ -33951,7 +33951,7 @@
             "300m이내점포수":14,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":127.1746915418,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -34126,7 +34126,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=91&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FkdjNwFm"
         },
         {
             "index":537,
@@ -34211,7 +34211,7 @@
             "300m이내점포수":14,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.09,
+            "초등학교학업성취도":89.91,
             "초등학교거리":505.0117910411,
             "중학교학업성취도":76.4,
             "500m이내학원가":2,
@@ -34488,7 +34488,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=92&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GA6BEtvT"
         },
         {
             "index":497,
@@ -34573,7 +34573,7 @@
             "300m이내점포수":78,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":268.9731804111,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -34896,7 +34896,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=93&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xJaqMxRj"
         },
         {
             "index":313,
@@ -34981,7 +34981,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":213.4611720729,
             "중학교학업성취도":59.1,
             "500m이내학원가":1,
@@ -35208,7 +35208,7 @@
                 ]
             ],
             "rank_gap":-28,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=94&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5i0psVId"
         },
         {
             "index":44,
@@ -35293,7 +35293,7 @@
             "300m이내점포수":53,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":305.2096534143,
             "중학교학업성취도":82.1,
             "500m이내학원가":0,
@@ -35620,7 +35620,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=95&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F8nbwvtg"
         },
         {
             "index":25,
@@ -35705,7 +35705,7 @@
             "300m이내점포수":25,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":127.0671605969,
             "중학교학업성취도":69.9,
             "500m이내학원가":1,
@@ -35880,7 +35880,7 @@
                 ]
             ],
             "rank_gap":21,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=96&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G3hXwMDD"
         },
         {
             "index":440,
@@ -35965,7 +35965,7 @@
             "300m이내점포수":67,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":427.3159507718,
             "중학교학업성취도":69.9,
             "500m이내학원가":0,
@@ -36342,7 +36342,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=97&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xXDEtuYq"
         },
         {
             "index":219,
@@ -36427,7 +36427,7 @@
             "300m이내점포수":8,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":455.2809641588,
             "중학교학업성취도":74.9,
             "500m이내학원가":0,
@@ -36754,7 +36754,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=98&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5atqPUuV"
         },
         {
             "index":394,
@@ -36839,7 +36839,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":315.2702859747,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -37166,7 +37166,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=99&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FrlAZrYZ"
         },
         {
             "index":165,
@@ -37251,7 +37251,7 @@
             "300m이내점포수":49,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":139.1955642086,
             "중학교학업성취도":78.3,
             "500m이내학원가":1,
@@ -37426,7 +37426,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=100&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Go52bHnL"
         },
         {
             "index":39,
@@ -37511,7 +37511,7 @@
             "300m이내점포수":25,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":200.272403439,
             "중학교학업성취도":69.9,
             "500m이내학원가":1,
@@ -37738,7 +37738,7 @@
                 ]
             ],
             "rank_gap":23,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=101&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x5l8ZTq1"
         },
         {
             "index":542,
@@ -37823,7 +37823,7 @@
             "300m이내점포수":434,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":490.5387071669,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -38150,7 +38150,7 @@
                 ]
             ],
             "rank_gap":-32,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=102&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IFFIoVfC"
         },
         {
             "index":461,
@@ -38235,7 +38235,7 @@
             "300m이내점포수":84,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":308.1601296463,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -38462,7 +38462,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=103&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GCuaSp8y"
         },
         {
             "index":428,
@@ -38547,7 +38547,7 @@
             "300m이내점포수":36,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":214.9725241864,
             "중학교학업성취도":78.5,
             "500m이내학원가":0,
@@ -38824,7 +38824,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=104&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GIt8T9KK"
         },
         {
             "index":551,
@@ -38909,7 +38909,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":229.3288328983,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -39578,7 +39578,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=105&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xoKYDMXI"
         },
         {
             "index":507,
@@ -39663,7 +39663,7 @@
             "300m이내점포수":434,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":500.1248197702,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -39990,7 +39990,7 @@
                 ]
             ],
             "rank_gap":-31,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=106&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5zolRinA"
         },
         {
             "index":214,
@@ -40075,7 +40075,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":317.9252372238,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -40402,7 +40402,7 @@
                 ]
             ],
             "rank_gap":-24,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=107&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FeCpoYbT"
         },
         {
             "index":504,
@@ -40487,7 +40487,7 @@
             "300m이내점포수":57,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.09,
+            "초등학교학업성취도":89.91,
             "초등학교거리":309.1588280816,
             "중학교학업성취도":78.7,
             "500m이내학원가":2,
@@ -40764,7 +40764,7 @@
                 ]
             ],
             "rank_gap":14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=108&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G7DZzqLC"
         },
         {
             "index":546,
@@ -40849,7 +40849,7 @@
             "300m이내점포수":442,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":520.9886069026,
             "중학교학업성취도":76.4,
             "500m이내학원가":2,
@@ -41226,7 +41226,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=109&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x9c5Ivk3"
         },
         {
             "index":195,
@@ -41311,7 +41311,7 @@
             "300m이내점포수":11,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.82,
+            "초등학교학업성취도":90.16,
             "초등학교거리":285.9901584312,
             "중학교학업성취도":55.0,
             "500m이내학원가":0,
@@ -41478,7 +41478,7 @@
                 ]
             ],
             "rank_gap":-33,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=110&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5t4erTI3"
         },
         {
             "index":146,
@@ -41563,7 +41563,7 @@
             "300m이내점포수":36,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.82,
+            "초등학교학업성취도":90.16,
             "초등학교거리":265.135244061,
             "중학교학업성취도":89.6,
             "500m이내학원가":0,
@@ -41890,7 +41890,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=111&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FiEOsR4e"
         },
         {
             "index":37,
@@ -41975,7 +41975,7 @@
             "300m이내점포수":71,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":222.2917496156,
             "중학교학업성취도":69.9,
             "500m이내학원가":1,
@@ -42202,7 +42202,7 @@
                 ]
             ],
             "rank_gap":20,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=112&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GvXdMQiP"
         },
         {
             "index":481,
@@ -42287,7 +42287,7 @@
             "300m이내점포수":70,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":427.0962010291,
             "중학교학업성취도":78.7,
             "500m이내학원가":2,
@@ -42614,7 +42614,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=113&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GQYNg9vn"
         },
         {
             "index":491,
@@ -42699,7 +42699,7 @@
             "300m이내점포수":90,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":409.4969944877,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -42926,7 +42926,7 @@
                 ]
             ],
             "rank_gap":15,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=114&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xQN8d1BB"
         },
         {
             "index":493,
@@ -43011,7 +43011,7 @@
             "300m이내점포수":79,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.94,
+            "초등학교학업성취도":90.05,
             "초등학교거리":418.0463687581,
             "중학교학업성취도":78.7,
             "500m이내학원가":2,
@@ -43238,7 +43238,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=115&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/56DaCtug"
         },
         {
             "index":319,
@@ -43323,7 +43323,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":376.2537778494,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -43600,7 +43600,7 @@
                 ]
             ],
             "rank_gap":-18,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=116&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FLKhst2C"
         },
         {
             "index":485,
@@ -43685,7 +43685,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":582.0231829201,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -44012,7 +44012,7 @@
                 ]
             ],
             "rank_gap":-14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=117&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G6yfBJai"
         },
         {
             "index":230,
@@ -44097,7 +44097,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.85,
+            "초등학교학업성취도":90.13,
             "초등학교거리":756.7131242312,
             "중학교학업성취도":82.7,
             "500m이내학원가":0,
@@ -44474,7 +44474,7 @@
                 ]
             ],
             "rank_gap":19,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=118&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xfRkC93N"
         },
         {
             "index":247,
@@ -44559,7 +44559,7 @@
             "300m이내점포수":27,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":411.3564567113,
             "중학교학업성취도":74.3,
             "500m이내학원가":1,
@@ -44786,7 +44786,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=119&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5oiXDrWp"
         },
         {
             "index":328,
@@ -44871,7 +44871,7 @@
             "300m이내점포수":9,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":310.1077272867,
             "중학교학업성취도":74.8,
             "500m이내학원가":0,
@@ -45148,7 +45148,7 @@
                 ]
             ],
             "rank_gap":-50,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=120&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FLKhst25"
         },
         {
             "index":476,
@@ -45233,7 +45233,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":455.0335175028,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -45510,7 +45510,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=121&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gz1glYeo"
         },
         {
             "index":65,
@@ -45595,7 +45595,7 @@
             "300m이내점포수":25,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":581.3748857169,
             "중학교학업성취도":70.2,
             "500m이내학원가":0,
@@ -45922,7 +45922,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=122&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xI2gwSGA"
         },
         {
             "index":410,
@@ -46007,7 +46007,7 @@
             "300m이내점포수":32,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.98,
             "초등학교거리":244.6957892669,
             "중학교학업성취도":78.5,
             "500m이내학원가":1,
@@ -46334,319 +46334,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=123&sort=sortDefault"
-        },
-        {
-            "index":23,
-            "아파트명":"대왕장미타운",
-            "매매타입":"아파트",
-            "전용면적(m2)":"78.77",
-            "전용면적(평)":"23평",
-            "법정동주소":"전라북도 전주시 완산구 삼천동1가 305-10",
-            "도로명주소":"전라북도 전주시 완산구 난전들로 257",
-            "세대점수":30,
-            "입주년차":0,
-            "용적률점수":"--",
-            "건폐율점수":"--",
-            "세대당주차수":0,
-            "난방방식":30,
-            "공급면적":"--",
-            "전용률":"--",
-            "욕실수":50,
-            "현관타입":100,
-            "주거총점":28.5,
-            "지역구공급총점":100.0,
-            "역세권":"NA",
-            "30분내 이동가능 거점":"NA",
-            "1시간내 이동가능 거점":"NA",
-            "교통총점":"NA",
-            "백화점":0,
-            "아울렛몰":0,
-            "대형마트":0,
-            "은행":0,
-            "병원":30,
-            "종합병원":100,
-            "공원":80,
-            "혐오시설":0,
-            "인프라총점":22.4,
-            "초등학군":91.1260311987,
-            "중학군":42.82,
-            "학군총점":53.9095077997,
-            "인구수":34.95,
-            "인구증감":-26.09,
-            "인구총점":16.638,
-            "일자리":22.0,
-            "소득수준":57.41,
-            "일자리총점":32.623,
-            "가치 총점":40.2897538998,
-            "매매실거래년":20221203.0,
-            "매매실거래가":12700.0,
-            "평단가":532,
-            "전세실거래년":20220906.0,
-            "전세실거래가":14000.0,
-            "전세가율":102.36,
-            "장기전세가율평균":80.92,
-            "전세가율거품지수":-21.44,
-            "검색코드":"15054",
-            "세대수":340.0,
-            "난방":"개별난방",
-            "주차":"0 (세대당 0.0대)",
-            "현관구조":"계단식",
-            "관리비평균":132388.0,
-            "방수":3.0,
-            "욕실개수":1.0,
-            "층간소음":"정보 없음",
-            "준공년월":"1997-05-10",
-            "준공년차":25.0,
-            "가까운역이름":"NA",
-            "역노선":"NA",
-            "가까운역거리":"NA",
-            "역세권여부":"NA",
-            "30분이내주요거점역":"NA",
-            "30분거점역이름":"NA",
-            "1시간이내주요거점역":"NA",
-            "1시간거점역이름":"NA",
-            "3km이내백화점수":0,
-            "5km이내아울렛몰수":0,
-            "1km이내대형먀트수":0,
-            "500m이내은행수":0,
-            "500m이내병원수":8,
-            "5km이내대형병원수":3,
-            "500m이내공원수":1,
-            "800m이내대형공원수":0,
-            "3km이내혐오시설수":0,
-            "300m이내상권":3,
-            "300m이내점포수":60,
-            "한강":0,
-            "해운대":0,
-            "초등학교학업성취도":90.08,
-            "초등학교거리":92.6950779968,
-            "중학교학업성취도":69.9,
-            "500m이내학원가":1,
-            "500m이내학원수":15,
-            "300m이내유흥주점":0,
-            "300m이내단란주점":0,
-            "300m이내모텔":0,
-            "용적률":0,
-            "건폐율":0,
-            "Y":35.791695,
-            "X":127.115873,
-            "매매실거래날짜목록":[
-                "201901",
-                "201902",
-                "201903",
-                "201904",
-                "201905",
-                "201906",
-                "201907",
-                "201908",
-                "201909",
-                "201910",
-                "201911",
-                "201912",
-                "202001",
-                "202002",
-                "202003",
-                "202004",
-                "202005",
-                "202006",
-                "202007",
-                "202008",
-                "202009",
-                "202010",
-                "202011",
-                "202012",
-                "202101",
-                "202102",
-                "202103",
-                "202104",
-                "202105",
-                "202106",
-                "202107",
-                "202108",
-                "202109",
-                "202110",
-                "202111",
-                "202112",
-                "202201",
-                "202202",
-                "202203",
-                "202204",
-                "202205",
-                "202206",
-                "202207",
-                "202208",
-                "202209",
-                "202210",
-                "202211",
-                "202212"
-            ],
-            "rank":123.0,
-            "area_info":"23평(78.77),32평(105.94)",
-            "sales_info":"1.27억 (2022-12-03),1.82억 (2022-11-29)",
-            "last_sales":"2022-12-03,12700.0,23평(78.77)",
-            "last_price_per":"532",
-            "rent_info":"1.3억 (2022-03-28),1.4억 (2022-09-06)",
-            "last_rent":"2022-09-06,14000.0,32평(105.94)",
-            "rent_ratio":"102.36,76.92",
-            "maintenance":"132388.0,187899.0",
-            "price_per":"532,567",
-            "room":"3.0,3.0",
-            "bath":"1.0,2.0",
-            "sales_history_price":[
-                [
-                    0,
-                    0,
-                    0,
-                    10800.0,
-                    10700.0,
-                    9900.0,
-                    12300.0,
-                    12300.0,
-                    12300.0,
-                    11300.0,
-                    9800.0,
-                    9800.0,
-                    10000.0,
-                    9425.0,
-                    10000.0,
-                    10000.0,
-                    9700.0,
-                    9700.0,
-                    8650.0,
-                    10000.0,
-                    10000.0,
-                    9816.6666666667,
-                    10216.6666666667,
-                    9300.0,
-                    10850.0,
-                    9300.0,
-                    9400.0,
-                    12000.0,
-                    12000.0,
-                    10175.0,
-                    10175.0,
-                    11800.0,
-                    11550.0,
-                    11950.0,
-                    11950.0,
-                    11950.0,
-                    11950.0,
-                    12500.0,
-                    12500.0,
-                    12900.0,
-                    12900.0,
-                    14300.0,
-                    14300.0,
-                    13100.0,
-                    13100.0,
-                    13100.0,
-                    13100.0,
-                    12700.0
-                ],
-                [
-                    0,
-                    0,
-                    13000.0,
-                    13000.0,
-                    13000.0,
-                    13000.0,
-                    14800.0,
-                    13000.0,
-                    13000.0,
-                    13000.0,
-                    14800.0,
-                    14800.0,
-                    14800.0,
-                    14800.0,
-                    14800.0,
-                    14800.0,
-                    14800.0,
-                    11875.0,
-                    11875.0,
-                    12300.0,
-                    14650.0,
-                    13433.3333333333,
-                    13600.0,
-                    13500.0,
-                    13500.0,
-                    13500.0,
-                    13500.0,
-                    13500.0,
-                    13750.0,
-                    13750.0,
-                    15433.3333333333,
-                    15500.0,
-                    15500.0,
-                    17000.0,
-                    14600.0,
-                    14600.0,
-                    14950.0,
-                    14950.0,
-                    16000.0,
-                    15300.0,
-                    15100.0,
-                    15100.0,
-                    15100.0,
-                    15100.0,
-                    15100.0,
-                    15900.0,
-                    18200.0,
-                    18200.0
-                ]
-            ],
-            "rank_history":[
-                [
-                    "202212",
-                    123
-                ],
-                [
-                    "202211",
-                    162
-                ],
-                [
-                    "202210",
-                    162
-                ],
-                [
-                    "202209",
-                    162
-                ],
-                [
-                    "202208",
-                    160
-                ],
-                [
-                    "202207",
-                    159
-                ],
-                [
-                    "202206",
-                    160
-                ],
-                [
-                    "202205",
-                    163
-                ],
-                [
-                    "202204",
-                    171
-                ],
-                [
-                    "202203",
-                    172
-                ],
-                [
-                    "202202",
-                    156
-                ],
-                [
-                    "202201",
-                    158
-                ]
-            ],
-            "rank_gap":39,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=124&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FYaIEe2h"
         },
         {
             "index":540,
@@ -46731,7 +46419,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.09,
+            "초등학교학업성취도":89.91,
             "초등학교거리":353.490967945,
             "중학교학업성취도":76.4,
             "500m이내학원가":2,
@@ -46793,7 +46481,7 @@
                 "202211",
                 "202212"
             ],
-            "rank":124.0,
+            "rank":123.0,
             "area_info":"23평(78.85),31평(104.62)",
             "sales_info":"1.9억 (2022-11-15),2.1억 (2022-06-07)",
             "last_sales":"2022-11-15,19000.0,23평(78.85)",
@@ -46910,7 +46598,7 @@
             "rank_history":[
                 [
                     "202212",
-                    124
+                    123
                 ],
                 [
                     "202211",
@@ -46957,8 +46645,320 @@
                     133
                 ]
             ],
-            "rank_gap":32,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=125&sort=sortDefault"
+            "rank_gap":33,
+            "sURL":"https:\/\/me2.do\/G3hXwMyJ"
+        },
+        {
+            "index":23,
+            "아파트명":"대왕장미타운",
+            "매매타입":"아파트",
+            "전용면적(m2)":"78.77",
+            "전용면적(평)":"23평",
+            "법정동주소":"전라북도 전주시 완산구 삼천동1가 305-10",
+            "도로명주소":"전라북도 전주시 완산구 난전들로 257",
+            "세대점수":30,
+            "입주년차":0,
+            "용적률점수":"--",
+            "건폐율점수":"--",
+            "세대당주차수":0,
+            "난방방식":30,
+            "공급면적":"--",
+            "전용률":"--",
+            "욕실수":50,
+            "현관타입":100,
+            "주거총점":28.5,
+            "지역구공급총점":100.0,
+            "역세권":"NA",
+            "30분내 이동가능 거점":"NA",
+            "1시간내 이동가능 거점":"NA",
+            "교통총점":"NA",
+            "백화점":0,
+            "아울렛몰":0,
+            "대형마트":0,
+            "은행":0,
+            "병원":30,
+            "종합병원":100,
+            "공원":80,
+            "혐오시설":0,
+            "인프라총점":22.4,
+            "초등학군":91.0240311987,
+            "중학군":42.82,
+            "학군총점":53.8840077997,
+            "인구수":34.95,
+            "인구증감":-26.09,
+            "인구총점":16.638,
+            "일자리":22.0,
+            "소득수준":57.41,
+            "일자리총점":32.623,
+            "가치 총점":40.2770038998,
+            "매매실거래년":20221203.0,
+            "매매실거래가":12700.0,
+            "평단가":532,
+            "전세실거래년":20220906.0,
+            "전세실거래가":14000.0,
+            "전세가율":102.36,
+            "장기전세가율평균":80.92,
+            "전세가율거품지수":-21.44,
+            "검색코드":"15054",
+            "세대수":340.0,
+            "난방":"개별난방",
+            "주차":"0 (세대당 0.0대)",
+            "현관구조":"계단식",
+            "관리비평균":132388.0,
+            "방수":3.0,
+            "욕실개수":1.0,
+            "층간소음":"정보 없음",
+            "준공년월":"1997-05-10",
+            "준공년차":25.0,
+            "가까운역이름":"NA",
+            "역노선":"NA",
+            "가까운역거리":"NA",
+            "역세권여부":"NA",
+            "30분이내주요거점역":"NA",
+            "30분거점역이름":"NA",
+            "1시간이내주요거점역":"NA",
+            "1시간거점역이름":"NA",
+            "3km이내백화점수":0,
+            "5km이내아울렛몰수":0,
+            "1km이내대형먀트수":0,
+            "500m이내은행수":0,
+            "500m이내병원수":8,
+            "5km이내대형병원수":3,
+            "500m이내공원수":1,
+            "800m이내대형공원수":0,
+            "3km이내혐오시설수":0,
+            "300m이내상권":3,
+            "300m이내점포수":60,
+            "한강":0,
+            "해운대":0,
+            "초등학교학업성취도":89.91,
+            "초등학교거리":92.6950779968,
+            "중학교학업성취도":69.9,
+            "500m이내학원가":1,
+            "500m이내학원수":15,
+            "300m이내유흥주점":0,
+            "300m이내단란주점":0,
+            "300m이내모텔":0,
+            "용적률":0,
+            "건폐율":0,
+            "Y":35.791695,
+            "X":127.115873,
+            "매매실거래날짜목록":[
+                "201901",
+                "201902",
+                "201903",
+                "201904",
+                "201905",
+                "201906",
+                "201907",
+                "201908",
+                "201909",
+                "201910",
+                "201911",
+                "201912",
+                "202001",
+                "202002",
+                "202003",
+                "202004",
+                "202005",
+                "202006",
+                "202007",
+                "202008",
+                "202009",
+                "202010",
+                "202011",
+                "202012",
+                "202101",
+                "202102",
+                "202103",
+                "202104",
+                "202105",
+                "202106",
+                "202107",
+                "202108",
+                "202109",
+                "202110",
+                "202111",
+                "202112",
+                "202201",
+                "202202",
+                "202203",
+                "202204",
+                "202205",
+                "202206",
+                "202207",
+                "202208",
+                "202209",
+                "202210",
+                "202211",
+                "202212"
+            ],
+            "rank":124.0,
+            "area_info":"23평(78.77),32평(105.94)",
+            "sales_info":"1.27억 (2022-12-03),1.82억 (2022-11-29)",
+            "last_sales":"2022-12-03,12700.0,23평(78.77)",
+            "last_price_per":"532",
+            "rent_info":"1.3억 (2022-03-28),1.4억 (2022-09-06)",
+            "last_rent":"2022-09-06,14000.0,32평(105.94)",
+            "rent_ratio":"102.36,76.92",
+            "maintenance":"132388.0,187899.0",
+            "price_per":"532,567",
+            "room":"3.0,3.0",
+            "bath":"1.0,2.0",
+            "sales_history_price":[
+                [
+                    0,
+                    0,
+                    0,
+                    10800.0,
+                    10700.0,
+                    9900.0,
+                    12300.0,
+                    12300.0,
+                    12300.0,
+                    11300.0,
+                    9800.0,
+                    9800.0,
+                    10000.0,
+                    9425.0,
+                    10000.0,
+                    10000.0,
+                    9700.0,
+                    9700.0,
+                    8650.0,
+                    10000.0,
+                    10000.0,
+                    9816.6666666667,
+                    10216.6666666667,
+                    9300.0,
+                    10850.0,
+                    9300.0,
+                    9400.0,
+                    12000.0,
+                    12000.0,
+                    10175.0,
+                    10175.0,
+                    11800.0,
+                    11550.0,
+                    11950.0,
+                    11950.0,
+                    11950.0,
+                    11950.0,
+                    12500.0,
+                    12500.0,
+                    12900.0,
+                    12900.0,
+                    14300.0,
+                    14300.0,
+                    13100.0,
+                    13100.0,
+                    13100.0,
+                    13100.0,
+                    12700.0
+                ],
+                [
+                    0,
+                    0,
+                    13000.0,
+                    13000.0,
+                    13000.0,
+                    13000.0,
+                    14800.0,
+                    13000.0,
+                    13000.0,
+                    13000.0,
+                    14800.0,
+                    14800.0,
+                    14800.0,
+                    14800.0,
+                    14800.0,
+                    14800.0,
+                    14800.0,
+                    11875.0,
+                    11875.0,
+                    12300.0,
+                    14650.0,
+                    13433.3333333333,
+                    13600.0,
+                    13500.0,
+                    13500.0,
+                    13500.0,
+                    13500.0,
+                    13500.0,
+                    13750.0,
+                    13750.0,
+                    15433.3333333333,
+                    15500.0,
+                    15500.0,
+                    17000.0,
+                    14600.0,
+                    14600.0,
+                    14950.0,
+                    14950.0,
+                    16000.0,
+                    15300.0,
+                    15100.0,
+                    15100.0,
+                    15100.0,
+                    15100.0,
+                    15100.0,
+                    15900.0,
+                    18200.0,
+                    18200.0
+                ]
+            ],
+            "rank_history":[
+                [
+                    "202212",
+                    124
+                ],
+                [
+                    "202211",
+                    162
+                ],
+                [
+                    "202210",
+                    162
+                ],
+                [
+                    "202209",
+                    162
+                ],
+                [
+                    "202208",
+                    160
+                ],
+                [
+                    "202207",
+                    159
+                ],
+                [
+                    "202206",
+                    160
+                ],
+                [
+                    "202205",
+                    163
+                ],
+                [
+                    "202204",
+                    171
+                ],
+                [
+                    "202203",
+                    172
+                ],
+                [
+                    "202202",
+                    156
+                ],
+                [
+                    "202201",
+                    158
+                ]
+            ],
+            "rank_gap":38,
+            "sURL":"https:\/\/me2.do\/xoKYDMJE"
         },
         {
             "index":207,
@@ -47043,7 +47043,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":199.2668741368,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -47270,7 +47270,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=126&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/50oe0X3M"
         },
         {
             "index":474,
@@ -47355,7 +47355,7 @@
             "300m이내점포수":14,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":233.9393242552,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -47582,7 +47582,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=127&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FqHiEa1C"
         },
         {
             "index":6,
@@ -47667,7 +47667,7 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":282.8868446849,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -48044,7 +48044,7 @@
                 ]
             ],
             "rank_gap":15,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=128&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GaT2pJv8"
         },
         {
             "index":371,
@@ -48129,7 +48129,7 @@
             "300m이내점포수":65,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":242.4504809693,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -48356,7 +48356,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=129&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xmPtHWEl"
         },
         {
             "index":19,
@@ -48441,7 +48441,7 @@
             "300m이내점포수":35,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":436.795443796,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -48718,7 +48718,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=130&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5jjmZapq"
         },
         {
             "index":256,
@@ -48803,7 +48803,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":252.8866550021,
             "중학교학업성취도":59.1,
             "500m이내학원가":1,
@@ -49130,7 +49130,7 @@
                 ]
             ],
             "rank_gap":-9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=131&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FiEOsRhL"
         },
         {
             "index":33,
@@ -49215,7 +49215,7 @@
             "300m이내점포수":224,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":243.2404916158,
             "중학교학업성취도":82.1,
             "500m이내학원가":1,
@@ -49542,7 +49542,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=132&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G7DZzq7e"
         },
         {
             "index":369,
@@ -49627,7 +49627,7 @@
             "300m이내점포수":73,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":367.2369337334,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -49854,7 +49854,7 @@
                 ]
             ],
             "rank_gap":15,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=133&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xdkfCzYb"
         },
         {
             "index":562,
@@ -49939,7 +49939,7 @@
             "300m이내점포수":156,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":344.5367262152,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -50316,7 +50316,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=134&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5P2scFTo"
         },
         {
             "index":305,
@@ -50401,7 +50401,7 @@
             "300m이내점포수":213,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":498.0910553091,
             "중학교학업성취도":80.2,
             "500m이내학원가":1,
@@ -50778,7 +50778,7 @@
                 ]
             ],
             "rank_gap":-43,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=135&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FeCpoYad"
         },
         {
             "index":55,
@@ -50863,7 +50863,7 @@
             "300m이내점포수":33,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":135.7656588074,
             "중학교학업성취도":82.1,
             "500m이내학원가":1,
@@ -51190,7 +51190,7 @@
                 ]
             ],
             "rank_gap":19,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=136&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GD5NVH3P"
         },
         {
             "index":78,
@@ -51275,7 +51275,7 @@
             "300m이내점포수":78,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":562.5376601387,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -51552,7 +51552,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=137&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xdkfCzU2"
         },
         {
             "index":185,
@@ -51637,7 +51637,7 @@
             "300m이내점포수":36,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.82,
+            "초등학교학업성취도":90.16,
             "초등학교거리":266.3259248038,
             "중학교학업성취도":89.6,
             "500m이내학원가":0,
@@ -51864,7 +51864,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=138&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5E3aR7dl"
         },
         {
             "index":501,
@@ -51949,7 +51949,7 @@
             "300m이내점포수":162,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":355.0715322797,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -52172,7 +52172,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=139&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FeCpoYrX"
         },
         {
             "index":310,
@@ -52257,7 +52257,7 @@
             "300m이내점포수":194,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":621.490498325,
             "중학교학업성취도":80.2,
             "500m이내학원가":2,
@@ -52534,7 +52534,7 @@
                 ]
             ],
             "rank_gap":-20,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=140&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Go52bHgc"
         },
         {
             "index":69,
@@ -52619,7 +52619,7 @@
             "300m이내점포수":23,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":308.6788675167,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -52846,7 +52846,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=141&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xtH5YBPs"
         },
         {
             "index":479,
@@ -52931,7 +52931,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":639.5920585072,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -53154,7 +53154,7 @@
                 ]
             ],
             "rank_gap":-10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=142&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5QGuIjS1"
         },
         {
             "index":92,
@@ -53239,7 +53239,7 @@
             "300m이내점포수":34,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":644.9704302381,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -53566,7 +53566,7 @@
                 ]
             ],
             "rank_gap":10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=143&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/ID1oV0AS"
         },
         {
             "index":249,
@@ -53651,7 +53651,7 @@
             "300m이내점포수":18,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.04,
+            "초등학교학업성취도":89.96,
             "초등학교거리":719.7976948325,
             "중학교학업성취도":74.3,
             "500m이내학원가":0,
@@ -53978,7 +53978,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=144&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Flx2DopI"
         },
         {
             "index":331,
@@ -54063,7 +54063,7 @@
             "300m이내점포수":58,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":393.7430350147,
             "중학교학업성취도":74.8,
             "500m이내학원가":0,
@@ -54490,7 +54490,7 @@
                 ]
             ],
             "rank_gap":-16,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=145&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G9stixuS"
         },
         {
             "index":52,
@@ -54575,7 +54575,7 @@
             "300m이내점포수":40,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":571.7787492614,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -54750,7 +54750,7 @@
                 ]
             ],
             "rank_gap":10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=146&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xI2gw4QV"
         },
         {
             "index":22,
@@ -54835,7 +54835,7 @@
             "300m이내점포수":45,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":152.6533243411,
             "중학교학업성취도":82.1,
             "500m이내학원가":0,
@@ -55010,7 +55010,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=147&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IFFIo4cV"
         },
         {
             "index":43,
@@ -55095,7 +55095,7 @@
             "300m이내점포수":24,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":161.2188595322,
             "중학교학업성취도":82.1,
             "500m이내학원가":1,
@@ -55270,7 +55270,7 @@
                 ]
             ],
             "rank_gap":17,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=148&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GA6BEzac"
         },
         {
             "index":518,
@@ -55355,7 +55355,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":289.6069553052,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -55530,7 +55530,7 @@
                 ]
             ],
             "rank_gap":-7,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=149&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xbn7o34F"
         },
         {
             "index":187,
@@ -55615,7 +55615,7 @@
             "300m이내점포수":8,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.82,
+            "초등학교학업성취도":90.16,
             "초등학교거리":399.403919375,
             "중학교학업성취도":89.6,
             "500m이내학원가":0,
@@ -55790,7 +55790,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=150&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5qAa9pTb"
         },
         {
             "index":534,
@@ -55875,7 +55875,7 @@
             "300m이내점포수":129,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":528.3326683674,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -56152,7 +56152,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=151&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FuE6mnUi"
         },
         {
             "index":288,
@@ -56237,7 +56237,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":532.0809412701,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -56464,7 +56464,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=152&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GTSeiRr1"
         },
         {
             "index":376,
@@ -56549,7 +56549,7 @@
             "300m이내점포수":14,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":552.0480075188,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -56826,7 +56826,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=153&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gz1gl4Oj"
         },
         {
             "index":352,
@@ -56911,7 +56911,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":573.1232966909,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -57238,7 +57238,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=154&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xQN8dhVt"
         },
         {
             "index":489,
@@ -57323,7 +57323,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":418.906403863,
             "중학교학업성취도":59.1,
             "500m이내학원가":1,
@@ -57550,7 +57550,7 @@
                 ]
             ],
             "rank_gap":-14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=155&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5QGuICeN"
         },
         {
             "index":218,
@@ -57635,7 +57635,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":775.6624268775,
             "중학교학업성취도":74.9,
             "500m이내학원가":0,
@@ -57810,7 +57810,7 @@
                 ]
             ],
             "rank_gap":13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=156&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FM61GSpe"
         },
         {
             "index":286,
@@ -57895,7 +57895,7 @@
             "300m이내점포수":220,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":328.7193129076,
             "중학교학업성취도":74.3,
             "500m이내학원가":1,
@@ -58122,7 +58122,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=157&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GGU8EZkc"
         },
         {
             "index":523,
@@ -58207,7 +58207,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":158.2725622609,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -58382,7 +58382,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=158&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xSnNft22"
         },
         {
             "index":235,
@@ -58467,7 +58467,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":593.6882167895,
             "중학교학업성취도":80.2,
             "500m이내학원가":1,
@@ -58744,7 +58744,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=159&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5OGcvIsG"
         },
         {
             "index":677,
@@ -58829,7 +58829,7 @@
             "300m이내점포수":12,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":751.2649261964,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -59106,7 +59106,7 @@
                 ]
             ],
             "rank_gap":-48,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=160&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IIf1g6PH"
         },
         {
             "index":253,
@@ -59191,7 +59191,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":320.0559017797,
             "중학교학업성취도":59.1,
             "500m이내학원가":1,
@@ -59468,7 +59468,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=161&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F5FC87vR"
         },
         {
             "index":59,
@@ -59553,7 +59553,7 @@
             "300m이내점포수":41,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":517.1217499869,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -59728,7 +59728,7 @@
                 ]
             ],
             "rank_gap":12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=162&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xYT9qyBL"
         },
         {
             "index":60,
@@ -59813,7 +59813,7 @@
             "300m이내점포수":92,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":602.1092021445,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -60090,7 +60090,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=163&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5AfcKTa6"
         },
         {
             "index":657,
@@ -60452,7 +60452,7 @@
                 ]
             ],
             "rank_gap":-48,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=164&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IFFIo4Mt"
         },
         {
             "index":275,
@@ -60487,16 +60487,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":49.0,
-            "초등학군":91.6539533178,
+            "초등학군":91.6899533178,
             "중학군":35.46,
-            "학군총점":35.8974883294,
+            "학군총점":35.9064883294,
             "인구수":34.95,
             "인구증감":-26.09,
             "인구총점":16.638,
             "일자리":22.0,
             "소득수준":57.41,
             "일자리총점":32.623,
-            "가치 총점":34.9237441647,
+            "가치 총점":34.9282441647,
             "매매실거래년":20221130.0,
             "매매실거래가":15000.0,
             "평단가":494,
@@ -60537,7 +60537,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":94.1798832944,
             "중학교학업성취도":59.1,
             "500m이내학원가":1,
@@ -61014,7 +61014,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=165&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GbcrgdQB"
         },
         {
             "index":16,
@@ -61099,7 +61099,7 @@
             "300m이내점포수":27,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":431.1089288097,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -61274,7 +61274,7 @@
                 ]
             ],
             "rank_gap":9,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=166&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xcJ9F0M6"
         },
         {
             "index":30,
@@ -61359,7 +61359,7 @@
             "300m이내점포수":215,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":193.3542389168,
             "중학교학업성취도":82.1,
             "500m이내학원가":1,
@@ -61534,7 +61534,7 @@
                 ]
             ],
             "rank_gap":10,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=167&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/54kxwFaw"
         },
         {
             "index":327,
@@ -61619,7 +61619,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":456.0398681733,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -61794,7 +61794,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=168&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5BvkBqOA"
         },
         {
             "index":463,
@@ -61879,7 +61879,7 @@
             "300m이내점포수":84,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":373.9730242576,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -62252,7 +62252,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=169&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/F4t0IRv8"
         },
         {
             "index":204,
@@ -62337,7 +62337,7 @@
             "300m이내점포수":40,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":120.8141952113,
             "중학교학업성취도":59.1,
             "500m이내학원가":1,
@@ -62610,7 +62610,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=170&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/G4LxNbOD"
         },
         {
             "index":209,
@@ -62695,7 +62695,7 @@
             "300m이내점포수":13,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":418.6838128171,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -63072,7 +63072,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=171&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xkqIRwoo"
         },
         {
             "index":421,
@@ -63157,7 +63157,7 @@
             "300m이내점포수":53,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":309.5118575676,
             "중학교학업성취도":69.9,
             "500m이내학원가":0,
@@ -63434,7 +63434,7 @@
                 ]
             ],
             "rank_gap":8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=172&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5kXkpcQN"
         },
         {
             "index":663,
@@ -63846,7 +63846,7 @@
                 ]
             ],
             "rank_gap":-51,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=173&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FXrKSWVE"
         },
         {
             "index":531,
@@ -63931,7 +63931,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":294.8403790123,
             "중학교학업성취도":76.4,
             "500m이내학원가":1,
@@ -64106,7 +64106,7 @@
                 ]
             ],
             "rank_gap":-11,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=174&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GWrJ0cVT"
         },
         {
             "index":198,
@@ -64191,7 +64191,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":417.7976286936,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -64618,7 +64618,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=175&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GguPRFoC"
         },
         {
             "index":468,
@@ -64703,7 +64703,7 @@
             "300m이내점포수":12,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":414.4092937465,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -65130,7 +65130,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=176&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xD6jzdVt"
         },
         {
             "index":63,
@@ -65215,7 +65215,7 @@
             "300m이내점포수":242,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":283.7063753976,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -65442,7 +65442,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=177&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5VAlWiUe"
         },
         {
             "index":379,
@@ -65527,7 +65527,7 @@
             "300m이내점포수":40,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":367.9182291062,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -66054,7 +66054,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=178&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FSO5UlyS"
         },
         {
             "index":514,
@@ -66139,7 +66139,7 @@
             "300m이내점포수":78,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":498.7165194562,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -66462,7 +66462,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=179&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GpefDoUw"
         },
         {
             "index":260,
@@ -66547,7 +66547,7 @@
             "300m이내점포수":228,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":425.4724358818,
             "중학교학업성취도":59.1,
             "500m이내학원가":1,
@@ -67274,7 +67274,7 @@
                 ]
             ],
             "rank_gap":-32,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=180&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xI2gw4oD"
         },
         {
             "index":272,
@@ -67359,7 +67359,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":645.8046777153,
             "중학교학업성취도":80.2,
             "500m이내학원가":1,
@@ -67636,7 +67636,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=181&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5UGrByIc"
         },
         {
             "index":495,
@@ -67721,7 +67721,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.12,
+            "초등학교학업성취도":89.87,
             "초등학교거리":473.9891465514,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -67948,7 +67948,7 @@
                 ]
             ],
             "rank_gap":2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=182&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Fv7FHlBO"
         },
         {
             "index":398,
@@ -68033,7 +68033,7 @@
             "300m이내점포수":74,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":335.7346472812,
             "중학교학업성취도":69.9,
             "500m이내학원가":0,
@@ -68410,7 +68410,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=183&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FIYoL2FH"
         },
         {
             "index":242,
@@ -68495,7 +68495,7 @@
             "300m이내점포수":6,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":428.52048903,
             "중학교학업성취도":74.3,
             "500m이내학원가":1,
@@ -68872,7 +68872,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=184&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GSUHtPd4"
         },
         {
             "index":660,
@@ -68957,7 +68957,7 @@
             "300m이내점포수":12,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":786.2544114498,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -69234,7 +69234,7 @@
                 ]
             ],
             "rank_gap":-39,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=185&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xi5wZDnc"
         },
         {
             "index":239,
@@ -69319,7 +69319,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":608.2162385754,
             "중학교학업성취도":74.3,
             "500m이내학원가":0,
@@ -69596,7 +69596,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=186&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xV3Adce3"
         },
         {
             "index":17,
@@ -69681,7 +69681,7 @@
             "300m이내점포수":50,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":423.8882415852,
             "중학교학업성취도":70.2,
             "500m이내학원가":1,
@@ -69856,7 +69856,7 @@
                 ]
             ],
             "rank_gap":0,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=187&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5pEHlmt2"
         },
         {
             "index":120,
@@ -69941,7 +69941,7 @@
             "300m이내점포수":47,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":215.2880066278,
             "중학교학업성취도":48.4,
             "500m이내학원가":0,
@@ -70112,7 +70112,7 @@
                 ]
             ],
             "rank_gap":-2,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=188&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Fv7FHlCA"
         },
         {
             "index":11,
@@ -70197,7 +70197,7 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":431.5158555111,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -70372,7 +70372,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=189&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gd1i2hE0"
         },
         {
             "index":238,
@@ -70457,7 +70457,7 @@
             "300m이내점포수":20,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":89.97,
+            "초등학교학업성취도":90.03,
             "초등학교거리":656.1374763842,
             "중학교학업성취도":74.3,
             "500m이내학원가":0,
@@ -70632,7 +70632,7 @@
                 ]
             ],
             "rank_gap":-5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=190&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xoKYDzmy"
         },
         {
             "index":26,
@@ -70717,7 +70717,7 @@
             "300m이내점포수":74,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.08,
+            "초등학교학업성취도":89.91,
             "초등학교거리":326.8172483682,
             "중학교학업성취도":69.9,
             "500m이내학원가":0,
@@ -71044,7 +71044,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=191&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/IFFIo4zt"
         },
         {
             "index":350,
@@ -71129,7 +71129,7 @@
             "300m이내점포수":48,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":358.5188304328,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -71356,7 +71356,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=192&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FxX9yqZS"
         },
         {
             "index":136,
@@ -71441,7 +71441,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":622.4112136411,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -71668,7 +71668,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=193&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xNlm8cDD"
         },
         {
             "index":96,
@@ -71753,7 +71753,7 @@
             "300m이내점포수":59,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":296.517914913,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -72030,7 +72030,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=194&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xI2gw4EZ"
         },
         {
             "index":373,
@@ -72115,7 +72115,7 @@
             "300m이내점포수":59,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":487.8313132082,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -72376,7 +72376,7 @@
                 ]
             ],
             "rank_gap":-3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=195&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5VAlWizM"
         },
         {
             "index":100,
@@ -72461,7 +72461,7 @@
             "300m이내점포수":34,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":484.6261737749,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -72938,7 +72938,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=196&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xgTuLfm2"
         },
         {
             "index":107,
@@ -73023,7 +73023,7 @@
             "300m이내점포수":8,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":535.3014874835,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -73300,7 +73300,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=197&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5G5hMdsd"
         },
         {
             "index":110,
@@ -73385,7 +73385,7 @@
             "300m이내점포수":39,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":407.6148830276,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -73612,7 +73612,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=198&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GHDVKTia"
         },
         {
             "index":128,
@@ -73697,7 +73697,7 @@
             "300m이내점포수":19,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":404.4747054099,
             "중학교학업성취도":48.4,
             "500m이내학원가":0,
@@ -73920,7 +73920,7 @@
                 ]
             ],
             "rank_gap":-6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=199&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xvLthwHi"
         },
         {
             "index":2,
@@ -74005,7 +74005,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":137.5573201094,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -74332,7 +74332,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=200&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5Zvj9sYf"
         },
         {
             "index":1,
@@ -74417,7 +74417,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.94,
             "초등학교거리":602.0073287756,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -74588,7 +74588,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=201&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FSO5UluV"
         },
         {
             "index":18,
@@ -74673,7 +74673,7 @@
             "300m이내점포수":60,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":385.9058587813,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -74848,7 +74848,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=202&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/Gd1i2hx2"
         },
         {
             "index":532,
@@ -74933,7 +74933,7 @@
             "300m이내점포수":180,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.05,
+            "초등학교학업성취도":89.95,
             "초등학교거리":308.5219900658,
             "중학교학업성취도":59.1,
             "500m이내학원가":0,
@@ -75156,7 +75156,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=203&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x3iqYZoe"
         },
         {
             "index":112,
@@ -75241,7 +75241,7 @@
             "300m이내점포수":39,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":481.092687068,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -75568,7 +75568,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=204&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5pEHlm4y"
         },
         {
             "index":116,
@@ -75653,7 +75653,7 @@
             "300m이내점포수":39,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":513.3699991106,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -75980,7 +75980,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=205&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FpMZt2sB"
         },
         {
             "index":130,
@@ -76065,7 +76065,7 @@
             "300m이내점포수":50,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":293.2403976291,
             "중학교학업성취도":48.4,
             "500m이내학원가":0,
@@ -76240,7 +76240,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=206&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GVWNvpZd"
         },
         {
             "index":0,
@@ -76325,7 +76325,7 @@
             "300m이내점포수":11,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.06,
+            "초등학교학업성취도":89.93,
             "초등학교거리":725.3127537882,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -76496,7 +76496,7 @@
                 ]
             ],
             "rank_gap":6,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=207&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xKWzoFnp"
         },
         {
             "index":121,
@@ -76581,7 +76581,7 @@
             "300m이내점포수":11,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":443.0867934143,
             "중학교학업성취도":48.4,
             "500m이내학원가":0,
@@ -77058,7 +77058,7 @@
                 ]
             ],
             "rank_gap":-1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=208&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5IsTkHUb"
         },
         {
             "index":134,
@@ -77143,7 +77143,7 @@
             "300m이내점포수":39,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":437.7695605584,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -77370,7 +77370,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=209&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FfWA8np4"
         },
         {
             "index":13,
@@ -77455,7 +77455,7 @@
             "300m이내점포수":31,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.01,
+            "초등학교학업성취도":89.99,
             "초등학교거리":404.4102995488,
             "중학교학업성취도":72.2,
             "500m이내학원가":0,
@@ -77732,7 +77732,7 @@
                 ]
             ],
             "rank_gap":5,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=210&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GcWnhJMh"
         },
         {
             "index":290,
@@ -77817,7 +77817,7 @@
             "300m이내점포수":206,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.92,
             "초등학교거리":516.5547783049,
             "중학교학업성취도":80.2,
             "500m이내학원가":1,
@@ -78144,7 +78144,7 @@
                 ]
             ],
             "rank_gap":-13,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=211&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GKvxthc3"
         },
         {
             "index":132,
@@ -78229,7 +78229,7 @@
             "300m이내점포수":8,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":490.4283317233,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -78456,7 +78456,7 @@
                 ]
             ],
             "rank_gap":4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=212&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xBhsTK2W"
         },
         {
             "index":387,
@@ -78541,7 +78541,7 @@
             "300m이내점포수":19,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.02,
+            "초등학교학업성취도":89.97,
             "초등학교거리":492.244920518,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -78868,7 +78868,7 @@
                 ]
             ],
             "rank_gap":1,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=213&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FAQRJ8Ze"
         },
         {
             "index":131,
@@ -78953,7 +78953,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":600.554951421,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -79128,7 +79128,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=214&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/GXRqlWvd"
         },
         {
             "index":99,
@@ -79213,7 +79213,7 @@
             "300m이내점포수":7,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":557.4026046035,
             "중학교학업성취도":63.4,
             "500m이내학원가":0,
@@ -79388,7 +79388,7 @@
                 ]
             ],
             "rank_gap":3,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=215&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/x1g0IJRp"
         },
         {
             "index":12,
@@ -79423,16 +79423,16 @@
             "공원":100,
             "혐오시설":0,
             "인프라총점":28.0,
-            "초등학군":77.5521871003,
+            "초등학군":77.4681871003,
             "중학군":29.04,
-            "학군총점":31.0040467751,
+            "학군총점":30.9830467751,
             "인구수":34.95,
             "인구증감":-26.09,
             "인구총점":16.638,
             "일자리":22.0,
             "소득수준":57.41,
             "일자리총점":32.623,
-            "가치 총점":26.0020233875,
+            "가치 총점":25.9915233875,
             "매매실거래년":20221201.0,
             "매매실거래가":5000.0,
             "평단가":208,
@@ -79473,7 +79473,7 @@
             "300m이내점포수":72,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.07,
+            "초등학교학업성취도":89.93,
             "초등학교거리":58.7754677508,
             "중학교학업성취도":48.4,
             "500m이내학원가":0,
@@ -79648,7 +79648,7 @@
                 ]
             ],
             "rank_gap":-4,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=216&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/5AfcKT88"
         },
         {
             "index":503,
@@ -79733,7 +79733,7 @@
             "300m이내점포수":21,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":287.7382194501,
             "중학교학업성취도":76.4,
             "500m이내학원가":0,
@@ -79908,7 +79908,7 @@
                 ]
             ],
             "rank_gap":-14,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=217&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FAQRJ862"
         },
         {
             "index":88,
@@ -79993,7 +79993,7 @@
             "300m이내점포수":0,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":608.2100520684,
             "중학교학업성취도":74.8,
             "500m이내학원가":0,
@@ -80320,7 +80320,7 @@
                 ]
             ],
             "rank_gap":-12,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=218&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/FLKhs5Mg"
         },
         {
             "index":294,
@@ -80405,7 +80405,7 @@
             "300m이내점포수":220,
             "한강":0,
             "해운대":0,
-            "초등학교학업성취도":90.03,
+            "초등학교학업성취도":89.97,
             "초등학교거리":458.721097039,
             "중학교학업성취도":80.2,
             "500m이내학원가":1,
@@ -80882,7 +80882,7 @@
                 ]
             ],
             "rank_gap":-8,
-            "sURL":"https:\/\/www.aptrank.kr\/?reg=Jeollabukdo&sub=4511100000_Jeollabukdo_Jeonju_Wansan&mon=202212&complex=219&sort=sortDefault"
+            "sURL":"https:\/\/me2.do\/xagTMx3D"
         }
     ]
 }
