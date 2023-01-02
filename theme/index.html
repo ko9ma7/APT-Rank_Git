@@ -1053,6 +1053,8 @@
         addon_html += "</div>";
         addon_html += "<div id='NLink'><button type='button' class='goThemeLink' onclick='openNaver(" + searchCode + ")'>N부동산</button></div>"
 
+        shareText += "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' " + "최고가 대비 변동\n\n"
+
         if(i < 5){
           shareText += "#" + aptName + ", " + apt_p + "\n"
           shareText += hPrice + " → " + cPrice + "억\n"
@@ -1067,7 +1069,7 @@
     saveLocalStorage()
 
     shareTitle = "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' "
-    shareTitle += "최고가 대비 등락\n\n"
+    shareTitle += "최고가 대비 변동\n\n"
     shareURL = "\nhttps://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&theme=" + selectedTheme    
   }
 
