@@ -175,7 +175,7 @@
         <div id="themeSelections">        
           <div id="sido_selection"><select id="sido" onChange="sidoChange()"></select></div>
           <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>
-          <div id="update_info">업데이트 : 2022-12-02 <br> (2022년 10월 데이터 기준) </div>
+          <div id="update_info">업데이트 : 2023-01-03 <br> (2022년 11월 데이터 기준) </div>
           <div id="go_to_aptrank" onClick="openAptrank()"></div>
         </div>
         <div id="dataWrapper">
@@ -490,7 +490,7 @@
     
     //url = "https://www.aptrank.kr/biz/" + region + ".json"
     //url = "https://www.aptrank.kr/biz/Location_Build_Valuated.json"
-    url = "https://www.aptrank.kr/biz/BIZ_Valuated_202210.json"
+    url = "https://www.aptrank.kr/biz/BIZ_Valuated_202211.json"
     //url = "./BIZ_Valuated_202207_01.json"
 
     $.getJSON(url, function(json) {
@@ -1261,19 +1261,19 @@ function ListUp(listData){
               addon_html += "<div class='graph'> <canvas id='supplyChart'></canvas></div>"
 
               addon_html += "<div class = 'subRegion_supply_table2'>"
-                addon_html += "<div class='table_top'>1년 후</div>" + "<div class='table_top'>2년 후</div>" + "<div class='table_top'>3년 후</div>" + "<div class='table_top'>4년 후</div>"
+                addon_html += "<div class='table_top'>1년 후</div>" + "<div class='table_top'>2년 후</div>" + "<div class='table_top'>3년 후</div>"// + "<div class='table_top'>4년 후</div>"
                 
                 supply_1y = Number(supply_volume[1] + supply_new_volume[1]).toLocaleString() + "세대"
                 supply_2y = Number(supply_volume[2] + supply_new_volume[2]).toLocaleString() + "세대"
                 supply_3y = Number(supply_volume[3] + supply_new_volume[3]).toLocaleString() + "세대"
-                supply_4y = Number(supply_volume[4] + supply_new_volume[4]).toLocaleString() + "세대"
+                //supply_4y = Number(supply_volume[4] + supply_new_volume[4]).toLocaleString() + "세대"
 
-                var supply_text = ["", "당해", "1년 후", "2년 후", "3년 후", "4년 후", ""]
-                var supply_array = [null, supply_volume[0], supply_volume[1], supply_volume[2], supply_volume[3], supply_volume[4], null]
-                var supply_new_array = [null, supply_new_volume[0], supply_new_volume[1], supply_new_volume[2], supply_new_volume[3], supply_new_volume[4], null]
-                var supply_10y = [supply_proper, supply_proper, supply_proper, supply_proper, supply_proper, supply_proper, supply_proper]
+                var supply_text = ["", "2023년", "2024년", "2025년", "2026년", ""]
+                var supply_array = [null, supply_volume[0], supply_volume[1], supply_volume[2], supply_volume[3], null]
+                var supply_new_array = [null, supply_new_volume[0], supply_new_volume[1], supply_new_volume[2], supply_new_volume[3], null]
+                var supply_10y = [supply_proper, supply_proper, supply_proper, supply_proper, supply_proper, supply_proper]
 
-                addon_html += "<div>" + supply_1y + "</div>" + "<div>" + supply_2y + "</div>" + "<div>" + supply_3y + "</div>" + "<div>" + supply_4y + "</div>"
+                addon_html += "<div>" + supply_1y + "</div>" + "<div>" + supply_2y + "</div>" + "<div>" + supply_3y + "</div>" //+ "<div>" + supply_4y + "</div>"
               addon_html += "</div>"
             addon_html += "</div>"
 

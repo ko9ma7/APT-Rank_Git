@@ -394,7 +394,7 @@
   }
   .subRegion_supply_table2{
     display:grid;    
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 0.8rem;    
     text-align: center;
     border-top: 1px solid #ddd;    
