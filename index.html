@@ -115,7 +115,8 @@
         <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>    
         <div id="month_selection">
           <select id="month" onChange="updateMonth()">
-            <option value="202212" selected>2022년 12월</option>
+            <option value="202301" selected>2023년 01월</option>
+            <option value="202212">2022년 12월</option>
             <option value="202211">2022년 11월</option>
             <option value="202210">2022년 10월</option>
             <option value="202209">2022년 09월</option>
@@ -320,7 +321,7 @@
 
 
 <script>
-  var selectedMonth = "202212"
+  var selectedMonth = "202301"
   var selectedRegion = "Seoul"
   var selectedSubRegion = "1168000000_Seoul_Gangnam"
   var selectedComplex = ""
@@ -495,7 +496,7 @@
       }
     })
 
-    if($.cookie('popCookie') != "202212"){
+    if($.cookie('popCookie') != "202301"){
       startNotice = true
       showNotice()
       //초기 진입 시 공지 팝업 표시하는 경우, 변수 startNotice에 true 할당      
@@ -2452,6 +2453,7 @@
     if(selectedMonth == "202210"){ detailHtml += notice_202210 }
     if(selectedMonth == "202211"){ detailHtml += notice_202211 }
     if(selectedMonth == "202212"){ detailHtml += notice_202212 }
+    if(selectedMonth == "202301"){ detailHtml += notice_202301 }
 
     detailHtml += "<div class='popupTitle' style='text-align: center; padding-bottom: 1em'>아파트랭크란?</div>";
     detailHtml +=  "<div class='notice'>아파트랭크는 '주거', '인프라', '교통', '교육환경'을 AI로 분석하여 점수로 계산하여 입지 정보를 제공하는 서비스 입니다.</div>"
@@ -2491,7 +2493,7 @@
     $('#footerBtn3').css({"grid-column" : "span 2"})
     $('.modal-footer').css({"padding-top" : "3px"})
 
-    if($.cookie('popCookie') != '202212'){
+    if($.cookie('popCookie') != '202301'){
       $('#flexCheckDefault').prop("checked", false)
     }
     else{
@@ -2501,7 +2503,7 @@
     $('#flexCheckDefault').change(function(){
       if($(this).is(':checked')){
         //console.log("CHECKED!!")
-        $.cookie('popCookie', '202212', { expires: 7, path: '/' });
+        $.cookie('popCookie', '202301', { expires: 7, path: '/' });
         console.log($.cookie('popCookie'))
       }
       else{
