@@ -1051,11 +1051,12 @@
         addon_html += "<div class='themeInfo'>" + hPrice + "억 (" + hPrice_date + ") → " + cPrice + "억 (" + cPrice_date +")</div>";
 
         addon_html += "</div>";
-        addon_html += "<div id='NLink'><button type='button' class='goThemeLink' onclick='openNaver(" + searchCode + ")'>N부동산</button></div>"
-
-        shareText += "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' " + "최고가 대비 변동\n\n"
+        addon_html += "<div id='NLink'><button type='button' class='goThemeLink' onclick='openNaver(" + searchCode + ")'>N부동산</button></div>"        
 
         if(i < 5){
+          if (i == 0){
+            shareText += "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' " + "최고가 대비 변동\n\n"
+          }
           shareText += "#" + aptName + ", " + apt_p + "\n"
           shareText += hPrice + " → " + cPrice + "억\n"
           shareText += "(" + gap_ratio.toFixed(2) + "%, " + (gap_price/10000).toFixed(2) + "억) \n\n"          

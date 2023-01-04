@@ -1,3 +1,13 @@
+var notice_202301 = 
+"<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2023년 1월 업데이트 안내 (2023-01-04)</div>"
++"<ul>"
++"<li><div class='notice'>지역별 소득 정보를 업데이트 했습니다. (2021년 원천징수정보 반영)</div></li>"
++"<li><div class='notice'>서울시 지역구의 주요역 도착 예상 시간을 오전 7:50분 부터로 계산 변경 적용했습니다. <br> (경기도 및 광역시는 점차적으로 적용 예정입니다.)</div></li>"
++"<li><div class='notice'>2023년 1월 인구 변동 정보 업데이트 했습니다.</div></li>"
++"<li><div class='notice'>KB월간 시계열 기준 12월 시군구 정보 반영했습니다.</div></li>"
++"</ul>"      
++"<hr>"
+
 var notice_202212 = 
 "<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2022년 12월 업데이트 안내 (2022-12-22) <br><span style='font-size: 0.9em; color: #fe4040'>가중치 조정으로 인해 상당수의 랭크 변동이 있습니다 <br> 업데이트 내용을 꼭 확인해 주세요</span></div>"
 +"<ul>"
