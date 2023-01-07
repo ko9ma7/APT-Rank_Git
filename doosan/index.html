@@ -194,7 +194,7 @@
           <div id="sido_selection"><select id="sido" onChange="sidoChange()"></select></div>
           <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>          
           <div></div>
-          <div id="update_info" style="text-align: right">업데이트 : 2023-01-03 <br> (2022년 11월 데이터 기준) </div>
+          <div id="update_info" style="text-align: right">업데이트 : 2022-12-02 <br> (2022년 10월 데이터 기준) </div>
         </div>
         <div id="dataWrapper">
           <div id="dataList"></div>
@@ -487,7 +487,7 @@
     
     //url = "https://www.aptrank.kr/biz/" + region + ".json"
     //url = "https://www.aptrank.kr/biz/Location_Build_Valuated.json"
-    url = "https://www.aptrank.kr/doosan/BIZ_Valuated_Doosan_202211.json"
+    url = "https://www.aptrank.kr/doosan/BIZ_Valuated_Doosan_202210.json"
 
     $.getJSON(url, function(json) {
         //console.log(json);
@@ -1451,6 +1451,62 @@ function ListUp(listData){
 
 
               addon_html += "</div>"
+            addon_html += "</div>"            
+
+            //입주물량
+            addon_html += "<div class='subRegion_info'>"              
+
+              addon_html += "<div class='subRegion_title'>"
+                addon_html += "<div class='subRegion_name'>" + "<span style='color:" + set_color(supply_score[0]) +"'>●</span>" + " 공급물량 <span style='font-size: 0.85em'>(" + supply_score[0].toFixed(2) + "점 / " + supply_score[1] + ")</span></div>"
+                addon_html += "<div class='subRegion_qna' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice(\"supply\")'><i class='fa-solid fa-circle-question'></i></div>"
+              addon_html += "</div>"
+
+              addon_html += "<div class = 'subRegion_supply_table1'>"
+                addon_html += "<div class='table_top'>적정공급 <span style='font-size: 0.6em'>(인구x0.5%)</span></div>" + "<div class='table_top'>당해공급</div>"+ "<div class='table_top'>적정공급 대비</div>"
+                
+                supply_proper_formatted = Number(supply_proper).toLocaleString() + "세대"
+                supply_volume_this_year = (Number(supply_volume[0]) + Number(supply_new_volume[0])).toLocaleString() + "세대"
+                supply_volume_plus_minus = supply_proper - (Number(supply_volume[0]) + Number(supply_new_volume[0]))
+                if(supply_volume_plus_minus < 0){
+                  supply_volume_plus_minus = (supply_volume_plus_minus * -1).toLocaleString() + "세대 과다"
+                }
+                else{
+                  supply_volume_plus_minus = supply_volume_plus_minus.toLocaleString() + "세대 부족"
+                }
+
+                addon_html += "<div><strong>" + supply_proper_formatted + "</div>" + "<div>" + supply_volume_this_year + "</div>" + "<div>" + supply_volume_plus_minus + "</strong></div>"
+              addon_html += "</div>"
+
+              addon_html += "<div class='graph'> <canvas id='supplyChart'></canvas></div>"
+
+              addon_html += "<div class = 'subRegion_supply_table2'>"
+                addon_html += "<div class='table_top'><strong>당해</strong></div>" + "<div class='table_top'>1년 후</div>" + "<div class='table_top'>2년 후</div>" + "<div class='table_top'>3년 후</div>" + "<div class='table_top'>4년 후</div>"
+
+                supply_0y = ( Number(supply_volume[0]) + Number(supply_new_volume[0]) ).toLocaleString() + "세대"                
+                supply_1y = ( Number(supply_volume[1]) + Number(supply_new_volume[1]) ).toLocaleString() + "세대"
+                supply_2y = ( Number(supply_volume[2]) + Number(supply_new_volume[2]) ).toLocaleString() + "세대"
+                supply_3y = ( Number(supply_volume[3]) + Number(supply_new_volume[3]) ).toLocaleString() + "세대"
+                supply_4y = ( Number(supply_volume[4]) + Number(supply_new_volume[4]) ).toLocaleString() + "세대"
+
+                supply_new_1y = Number(supply_new_volume[1]).toLocaleString() + "세대"
+                supply_new_2y = Number(supply_new_volume[2]).toLocaleString() + "세대"
+                supply_new_3y = Number(supply_new_volume[3]).toLocaleString() + "세대"
+                supply_new_4y = Number(supply_new_volume[4]).toLocaleString() + "세대"                
+
+                var supply_text = ["", "당해", "1년 후", "2년 후", "3년 후", "4년 후", ""]
+                var supply_array = [null, supply_volume[0], supply_volume[1], supply_volume[2], supply_volume[3], supply_volume[4], null]
+
+                if(supply_new_volume[0] == 0){new_volume_current = null} else{new_volume_current = supply_new_volume[0]}
+                if(supply_new_volume[1] == 0){new_volume_1y = null} else{new_volume_1y = supply_new_volume[1]}
+                if(supply_new_volume[2] == 0){new_volume_2y = null} else{new_volume_2y = supply_new_volume[2]}
+                if(supply_new_volume[3] == 0){new_volume_3y = null} else{new_volume_3y = supply_new_volume[3]}
+                if(supply_new_volume[4] == 0){new_volume_4y = null} else{new_volume_4y = supply_new_volume[4]}                
+
+                var supply_new_array = [null, new_volume_current, new_volume_1y, new_volume_2y, new_volume_3y, new_volume_4y, null]
+                var supply_10y = [supply_proper, supply_proper, supply_proper, supply_proper, supply_proper, supply_proper, supply_proper]
+
+                addon_html += "<div><strong>" + supply_0y + "</strong></div>" + "<div>" + supply_1y + "</div>" + "<div>" + supply_2y + "</div>" + "<div>" + supply_3y + "</div>" + "<div>" + supply_4y + "</div>"
+              addon_html += "</div>"
             addon_html += "</div>"
 
             //미분양
@@ -1471,7 +1527,7 @@ function ListUp(listData){
             if(find_name[2] == "Changwon"){ non_sales_add_text = " (창원시 전체)" }              
 
             addon_html += "<div class='subRegion_title'>"
-              addon_html += "<div class='subRegion_name'>" + "<span style='color:" + set_color(non_sales_result[0]) +"'>●</span>" + " 미분양" + non_sales_add_text + "<span style='font-size: 0.85em'> (" + non_sales_result[0].toFixed(2) + "점 / "+ non_sales_result[2] +")</span></div>"
+              addon_html += "<div class='subRegion_name'>" + "<span style='color:" + set_color(non_sales_result[0]) +"'>●</span>" + " 미분양</div>" // + non_sales_add_text + "<span style='font-size: 0.85em'> (" + non_sales_result[0].toFixed(2) + "점 / "+ non_sales_result[2] +")</span></div>"
               addon_html += "<div class='subRegion_qna' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice(\"non_sales\")'><i class='fa-solid fa-circle-question'></i></div>"
             addon_html += "</div>"
 
@@ -1502,65 +1558,7 @@ function ListUp(listData){
               addon_html += "<div>" + non_sales_5m + "</div>" + "<div>" + non_sales_4m + "</div>" + "<div>" + non_sales_3m + "</div>"
                             + "<div>" + non_sales_2m + "</div>" + "<div><strong>" + non_sales_1m + "</strong></div>"
             addon_html += "</div>"
-            addon_html += "</div>"            
-
-            
-
-            //입주물량
-            addon_html += "<div class='subRegion_info'>"              
-
-              addon_html += "<div class='subRegion_title'>"
-                addon_html += "<div class='subRegion_name'>" + "<span style='color:" + set_color(supply_score[0]) +"'>●</span>" + " 공급물량 <span style='font-size: 0.85em'>(" + supply_score[0].toFixed(2) + "점 / " + supply_score[1] + ")</span></div>"
-                addon_html += "<div class='subRegion_qna' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice(\"supply\")'><i class='fa-solid fa-circle-question'></i></div>"
-              addon_html += "</div>"
-
-              addon_html += "<div class = 'subRegion_supply_table1'>"
-                addon_html += "<div class='table_top'>적정공급 <span style='font-size: 0.6em'>(인구x0.5%)</span></div>" + "<div class='table_top'>당해공급</div>"+ "<div class='table_top'>적정공급 대비</div>"
-                
-                supply_proper_formatted = Number(supply_proper).toLocaleString() + "세대"
-                supply_volume_this_year = (Number(supply_volume[0]) + Number(supply_new_volume[0])).toLocaleString() + "세대"
-                supply_volume_plus_minus = supply_proper - (Number(supply_volume[0]) + Number(supply_new_volume[0]))
-                if(supply_volume_plus_minus < 0){
-                  supply_volume_plus_minus = (supply_volume_plus_minus * -1).toLocaleString() + "세대 과다"
-                }
-                else{
-                  supply_volume_plus_minus = supply_volume_plus_minus.toLocaleString() + "세대 부족"
-                }
-
-                addon_html += "<div><strong>" + supply_proper_formatted + "</div>" + "<div>" + supply_volume_this_year + "</div>" + "<div>" + supply_volume_plus_minus + "</strong></div>"
-              addon_html += "</div>"
-
-              addon_html += "<div class='graph'> <canvas id='supplyChart'></canvas></div>"
-
-              addon_html += "<div class = 'subRegion_supply_table2'>"
-                addon_html += "<div class='table_top'><strong>당해</strong></div>" + "<div class='table_top'>1년 후</div>" + "<div class='table_top'>2년 후</div>" + "<div class='table_top'>3년 후</div>" //+ "<div class='table_top'>4년 후</div>"
-
-                supply_0y = ( Number(supply_volume[0]) + Number(supply_new_volume[0]) ).toLocaleString() + "세대"                
-                supply_1y = ( Number(supply_volume[1]) + Number(supply_new_volume[1]) ).toLocaleString() + "세대"
-                supply_2y = ( Number(supply_volume[2]) + Number(supply_new_volume[2]) ).toLocaleString() + "세대"
-                supply_3y = ( Number(supply_volume[3]) + Number(supply_new_volume[3]) ).toLocaleString() + "세대"
-                //supply_4y = ( Number(supply_volume[4]) + Number(supply_new_volume[4]) ).toLocaleString() + "세대"
-
-                supply_new_1y = Number(supply_new_volume[1]).toLocaleString() + "세대"
-                supply_new_2y = Number(supply_new_volume[2]).toLocaleString() + "세대"
-                supply_new_3y = Number(supply_new_volume[3]).toLocaleString() + "세대"
-                //supply_new_4y = Number(supply_new_volume[4]).toLocaleString() + "세대"                
-
-                var supply_text = ["", "당해", "1년 후", "2년 후", "3년 후", ""]
-                var supply_array = [null, supply_volume[0], supply_volume[1], supply_volume[2], supply_volume[3], null]
-
-                if(supply_new_volume[0] == 0){new_volume_current = null} else{new_volume_current = supply_new_volume[0]}
-                if(supply_new_volume[1] == 0){new_volume_1y = null} else{new_volume_1y = supply_new_volume[1]}
-                if(supply_new_volume[2] == 0){new_volume_2y = null} else{new_volume_2y = supply_new_volume[2]}
-                if(supply_new_volume[3] == 0){new_volume_3y = null} else{new_volume_3y = supply_new_volume[3]}
-                //if(supply_new_volume[4] == 0){new_volume_4y = null} else{new_volume_4y = supply_new_volume[4]}                
-
-                var supply_new_array = [null, new_volume_current, new_volume_1y, new_volume_2y, new_volume_3y, null]
-                var supply_10y = [supply_proper, supply_proper, supply_proper, supply_proper, supply_proper, supply_proper]
-
-                addon_html += "<div><strong>" + supply_0y + "</strong></div>" + "<div>" + supply_1y + "</div>" + "<div>" + supply_2y + "</div>" + "<div>" + supply_3y + "</div>" //+ "<div>" + supply_4y + "</div>"
-              addon_html += "</div>"
-            addon_html += "</div>"
+            addon_html += "</div>"   
 
 
           addon_html += "</div>"
