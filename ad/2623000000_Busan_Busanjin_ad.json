@@ -6,6 +6,10 @@
                 "type":"integer"
             },
             {
+                "name":"ad_type",
+                "type":"string"
+            },
+            {
                 "name":"상호",
                 "type":"string"
             },
@@ -66,6 +70,7 @@
     "data":[
         {
             "index":0,
+            "ad_type":"Direct",
             "상호":"아파트랭크",
             "대표":"아랭",
             "휴대폰":"1012345678",
