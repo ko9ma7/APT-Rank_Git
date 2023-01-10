@@ -407,10 +407,10 @@
     }
 
     if(broswerInfo.indexOf("inApp")>-1){
-      shareHtml = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"20px\"/></div>"
+      shareHtml = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"28px\"/></div>"
     }
     else{
-      shareHtml = "<div class='tShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
+      shareHtml = "<div class='tShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"      
     }
     $('#themeShare').html(shareHtml)
 
@@ -708,6 +708,29 @@
 
         var count = 0
         shareText = ""
+
+        if(type == "under100M"){
+          shareText = "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' 공시가 1억 이하 단지"
+        }
+        if(type == "under300M"){
+          shareText = "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' 공시가 3억 이하 단지"
+        }
+        if(type == "under5floor"){
+          shareText = "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' 5층 이하 단지"
+        }
+        if(type == "over30year"){
+          shareText = "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' 30년 이상 단지"
+        }
+        if(type == "newApt"){
+          shareText = "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' 분양권"
+        }
+        if(type == "rebuild"){
+          shareText = "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' 재건축"
+        }
+        if(type == "tripGuide"){
+          shareText = "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' 동별 임장 가이드"
+        }
+        
         for(var i = 0 ; i < itemNum ; i++){
           var aptName = listData[i]["아파트명"]
           var apt_m = listData[i]["전용면적(m2)"]
@@ -943,27 +966,27 @@
         if(count < 1 && type != "tripGuide"){          
           if(type == "under100M"){
             addon_html = "<div class='content'><div class='apt_name' style='text-align:center; padding-top: 2em'>" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "에는 <br> 공시가격 1억 이하 아파트 단지가 없네요. </div></div>"
-            shareText = "공시가격 1억 이하 아파트 단지가 없네요.\n"
+            shareText += "공시가격 1억 이하 아파트 단지가 없네요.\n"
           }
           if(type == "under300M"){
             addon_html = "<div class='content'><div class='apt_name' style='text-align:center; padding-top: 2em'>" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "에는 <br> 공시가격 3억 이하 아파트 단지가 없네요. </div></div>"
-            shareText = "공시가격 3억 이하 아파트 단지가 없네요.\n"
+            shareText += "공시가격 3억 이하 아파트 단지가 없네요.\n"
           }
           if(type == "under5floor"){
             addon_html = "<div class='content'><div class='apt_name' style='text-align:center; padding-top: 2em'>" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "에는 <br> 5층 이하 아파트 단지가 없네요. </div></div>"
-            shareText = "5층 이하 아파트 단지가 없네요.\n"
+            shareText += "5층 이하 아파트 단지가 없네요.\n"
           }
           if(type == "over30year"){
             addon_html = "<div class='content'><div class='apt_name' style='text-align:center; padding-top: 2em'>" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "에는 <br> 30년 이상 단지가 없네요. </div></div>"
-            shareText = "30년 이상 아파트 단지가 없네요.\n"
+            shareText += "30년 이상 아파트 단지가 없네요.\n"
           }
           if(type == "newApt"){
             addon_html = "<div class='content'><div class='apt_name' style='text-align:center; padding-top: 2em'>" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "에는 <br> 분양권 아파트 단지가 없네요. </div></div>"
-            shareText = "분양권 아파트 단지가 없네요.\n"
+            shareText += "분양권 아파트 단지가 없네요.\n"
           }
           if(type == "rebuild"){
             addon_html = "<div class='content'><div class='apt_name' style='text-align:center; padding-top: 2em'>" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "에는 <br> 재건축 아파트 단지가 없네요. </div></div>"
-            shareText = "재건축 아파트 단지가 없네요.\n"
+            shareText += "재건축 아파트 단지가 없네요.\n"
           }          
           $('#themeDataList').append(addon_html);         
         }
