@@ -407,7 +407,7 @@
     }
 
     if(broswerInfo.indexOf("inApp")>-1){
-      shareHtml = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"./kakao_icon.png\" height=\"1.2em\"/></div>"
+      shareHtml = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"20px\"/></div>"
     }
     else{
       shareHtml = "<div class='tShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
@@ -996,7 +996,7 @@
     if(type == "rebuild"){
       shareTitle += "재건축 아파트 단지\n\n"
     }
-    shareURL = "\nhttps://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&theme=" + selectedTheme    
+    shareURL = "https://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&theme=" + selectedTheme    
   }
 
   function RatioListUp(listData, type){
@@ -1080,7 +1080,7 @@
 
     shareTitle = "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' "
     shareTitle += "최고가 대비 변동\n\n"
-    shareURL = "\nhttps://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&theme=" + selectedTheme    
+    shareURL = "https://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&theme=" + selectedTheme    
   }
 
   function selectStartPoint(distance_check){
