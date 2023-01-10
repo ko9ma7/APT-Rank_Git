@@ -91,7 +91,7 @@
     <div id="centerBox">
       <div id="titleBar_theme">
         <!--검색 버튼 표시-->
-        <div id='help' style='font-size: 1.2em' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>        
+        <div id='themeShare'></div>        
         <div id="rearrange" class="position-relative" onClick='showRearrangeBar(this)'><i class="fa-solid fa-arrow-down-wide-short"></i></div>
         <!--타이틀 표시-->
         <div id="title" onClick='scrollUp()'><img src="./apt-rank_theme_blank.png" height="34px"/></div>
@@ -405,6 +405,15 @@
       showNotice()
       $('#exampleModal').modal("show");
     }
+
+    if(broswerInfo.indexOf("inApp")>-1){
+      shareHtml = "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src='./kakao_icon.png' height='1.2em'/></div>"
+    }
+    else{
+      shareHtml = "<div class='tShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
+    }
+    $('#themeShare').html(shareHtml)
+
   });
 
   function sidoChange(){
