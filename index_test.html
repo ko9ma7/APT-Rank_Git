@@ -732,6 +732,7 @@ function updateTable(month, region){
 
     //광고정보 로딩
     ad_url = "https://www.aptrank.kr/ad/" + region + "_ad.json"
+    $.ajaxSetup({ async: false });
     $.getJSON(ad_url, function(ad_json) {
         adData = ad_json;
         ad_detail = adData.data
@@ -748,6 +749,7 @@ function updateTable(month, region){
           page_url = ad_detail[0]['홈페이지']
         }
     })
+    $.ajaxSetup({ async: true });
 
     url = "https://www.aptrank.kr/" + month + "/" + region + ".json"
 

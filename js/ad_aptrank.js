@@ -4,6 +4,20 @@ String.prototype.phoneNoRep = function()
     return str.replace(/(^02|^0505|^1[0-9]{3}|^0[0-9]{2})([0-9]+)?([0-9]{4})$/,"$1-$2-$3").replace("--", "-");
 }
 
+function checkMobile(){
+	var varUA = navigator.userAgent.toLowerCase(); //userAgent 값 얻기
+	if ( varUA.indexOf('android') > -1) {
+		//안드로이드
+		return "android";
+	} else if ( varUA.indexOf("iphone") > -1||varUA.indexOf("ipad") > -1||varUA.indexOf("ipod") > -1 ) {
+		//IOS
+		return "ios";
+	} else {
+		//아이폰, 안드로이드 외
+		return "other";
+	}
+}
+
 var ad_default = 
 "<div class='adBox' onClick=\"window.open('https://naver.me/xGiHpeIf')\">"
     + "<div id='adText'>"
@@ -43,6 +57,14 @@ function callNumber(num){
     location.href = "tel:" + num
 }
 
+function sendMessage(device, num){    
+    location.href = 'sms:' + num + (device == 'ios' ? '&' : '?') + 'body='+ encodeURIComponent("아파트랭크를 통해 연락 드립니다.");
+}
+
+function goMap(url){
+    window.open(url)
+}
+
 function showAD(){
     console.log(adData)
     shop_name = adData.data[0]['상호']
@@ -60,6 +82,7 @@ function showAD(){
     shop_home = adData.data[0]['홈페이지']
     shop_x = 37.3207458 //데이터 추가
     shop_y = 127.1151086 //데이터 추가
+    shop_map_url = "https://naver.me/5RcF1oCG" //데이터 추가
 
     titleHtml = "";
     detailHtml = "";
@@ -68,22 +91,26 @@ function showAD(){
     titleHtml += "<div id='ad_title'>"
         titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/" + shop_icon + "' height='60px'></div></div>"
         titleHtml += "<div id='ad_title_sub'>"
-            titleHtml += "<div class='popupTitle'><h1 style='font-size: 1em; font-weight: 600 ; padding-left: 5px'>" + shop_name + "</h></div>"
+            titleHtml += "<div class='popupTitle'><h1 style='font-size: 1.1em; font-weight: 600 ; padding-left: 5px'>" + shop_name + "</h></div>"
             titleHtml += "<div style='font-size: 0.65em; padding-left: 5px'>대표: " + shop_owner + "</div>"
             titleHtml += "<div style='font-size: 0.65em; padding-left: 5px'>주소: " + shop_address + "</div>"
-            titleHtml += "<div style='font-size: 0.65em; padding-left: 5px'>전화: " + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
+            titleHtml += "<div style='font-size: 0.75em; padding-left: 5px; padding-top: 3px; font-weight: 600'>전화: " + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
         titleHtml += "</div>"
     titleHtml += "</div>"    
 
     detailHtml += "<div class='notice'>" + shop_comment + "</div><hr>"
-    detailHtml += "<div id='ad_map_wrap''>"
+    detailHtml += "<div id='ad_map_wrap' onClick='goMap(shop_map_url)'>"
         detailHtml += "<div id='ad_map'></div>"
     detailHtml += "</div>"
 
-    footerHtml += "<div class='modal-footer'>"        
-    footerHtml += " <div id='adBtn1'><button type='button' class='goApt' onClick='callNumber(shop_cell)'>" + shop_cell_with_hyphen + "</button></a></div>"    
-    footerHtml += " <div id='adBtn2'><button type='button' class='goApt' onClick='callNumber(shop_phone)'>" + shop_phone_with_hyphen + "</button></a></div>"
-    footerHtml += " <div id='adBtn3'><button type='button' class='goApt' onClick='window.open(\"" + shop_home + "\")'>홈페이지</button></div>"
+    footerHtml += "<div class='modal-footer'>"    
+    if ( navigator.platform ) {
+        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+            footerHtml += " <div id='adBtn1'><button type='button' class='goApt' onClick='callNumber(shop_cell)'> 전화걸기 (" + shop_cell_with_hyphen + ")</button></a></div>"
+            footerHtml += " <div id='adBtn2'><button type='button' class='goApt' onClick='sendMessage(checkMobile(), shop_cell)'><i class='fa-regular fa-envelope'></i> 문자상담 </button></a></div>"            
+        } else {}
+    }    
+    footerHtml += " <div id='adBtn3'><button type='button' class='goApt' onClick='window.open(\"" + shop_home + "\")'>매물보기</button></div>"
     footerHtml += "</div>"  
 
     $('#toggleModalLabel').html(titleHtml);
