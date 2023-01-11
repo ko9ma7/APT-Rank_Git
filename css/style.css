@@ -228,7 +228,16 @@
   }
   #ad_title{
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 80px 1fr;
+  }
+  #ad_map_wrap{
+    width: 100%;
+    text-align: center;
+    justify-self: center;
+  }
+  #ad_map{
+    width: 365px;
+    height: 250px;
   }
   .searchedListBox{    
     align-items: center;
@@ -964,5 +973,11 @@
     .comment, .stationList{
       font-size: 0.8em;
     }
-
+    #ad_map{
+      width: 480px;
+    }
+    #ad_title{
+      display: grid;
+      grid-template-columns: 100px 1fr;
+    }
   }  

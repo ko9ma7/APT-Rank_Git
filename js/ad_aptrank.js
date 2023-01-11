@@ -39,6 +39,10 @@ var ad_pop =
         + "</div>"
     + "</div>"
 
+function callNumber(num){
+    location.href = "tel:" + num
+}
+
 function showAD(){
     console.log(adData)
     shop_name = adData.data[0]['상호']
@@ -53,8 +57,9 @@ function showAD(){
     shop_phone_with_hyphen = shop_phone.phoneNoRep()
     shop_cell = "0" + adData.data[0]['휴대폰']
     shop_cell_with_hyphen = shop_cell.phoneNoRep()
-    shop_x = 37.320811
-    shop_y = 127.115336
+    shop_home = adData.data[0]['홈페이지']
+    shop_x = 37.3207458 //데이터 추가
+    shop_y = 127.1151086 //데이터 추가
 
     titleHtml = "";
     detailHtml = "";
@@ -63,12 +68,33 @@ function showAD(){
     titleHtml += "<div id='ad_title'>"
         titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/" + shop_icon + "' height='60px'></div></div>"
         titleHtml += "<div id='ad_title_sub'>"
-            titleHtml += "<div class='popupTitle'><h1 style='font-size: 1em; font-weight: 600'>" + shop_name + "</h></div>"
-            titleHtml += "<div style='font-size: 0.7em'>대표: " + shop_owner + "</div>"
-            titleHtml += "<div style='font-size: 0.7em'>주소: " + shop_address + "</div>"
-            titleHtml += "<div style='font-size: 0.7em'>전화: " + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
+            titleHtml += "<div class='popupTitle'><h1 style='font-size: 1em; font-weight: 600 ; padding-left: 5px'>" + shop_name + "</h></div>"
+            titleHtml += "<div style='font-size: 0.65em; padding-left: 5px'>대표: " + shop_owner + "</div>"
+            titleHtml += "<div style='font-size: 0.65em; padding-left: 5px'>주소: " + shop_address + "</div>"
+            titleHtml += "<div style='font-size: 0.65em; padding-left: 5px'>전화: " + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
         titleHtml += "</div>"
-    titleHtml += "</div>"
+    titleHtml += "</div>"    
+
+    detailHtml += "<div class='notice'>" + shop_comment + "</div><hr>"
+    detailHtml += "<div id='ad_map_wrap''>"
+        detailHtml += "<div id='ad_map'></div>"
+    detailHtml += "</div>"
+
+    footerHtml += "<div class='modal-footer'>"        
+    footerHtml += " <div id='adBtn1'><button type='button' class='goApt' onClick='callNumber(shop_cell)'>" + shop_cell_with_hyphen + "</button></a></div>"    
+    footerHtml += " <div id='adBtn2'><button type='button' class='goApt' onClick='callNumber(shop_phone)'>" + shop_phone_with_hyphen + "</button></a></div>"
+    footerHtml += " <div id='adBtn3'><button type='button' class='goApt' onClick='window.open(\"" + shop_home + "\")'>홈페이지</button></div>"
+    footerHtml += "</div>"  
+
+    $('#toggleModalLabel').html(titleHtml);
+    $('#simulDetail').html(detailHtml);
+    $('#toggle1footer').html(footerHtml);
+
+    $('#adBtn3').css({"grid-column" : "span 2"})
+    $('.modal-footer').css({"padding-top" : "3px"})
+
+    var browserWidth = $("#simulDetail").css('width');
+    console.log(browserWidth)
 
     var mapOptions = {
         center: new naver.maps.LatLng(shop_x, shop_y),
@@ -82,18 +108,11 @@ function showAD(){
         disableDoubleClickZoom: true,
         disableTwoFingerTapZoom: true
     };
-    
-    var map = new naver.maps.Map('ad_map', mapOptions);
+
+    var map = new naver.maps.Map('ad_map', mapOptions);    
     
     var marker = new naver.maps.Marker({
         position: new naver.maps.LatLng(shop_x, shop_y),
         map: map
     });
-
-    detailHtml += "<div style='font-size: 0.85em'>" + shop_comment + "</div>"
-    detailHtml += "<div id='ad_map'></div>"
-
-    $('#toggleModalLabel').html(titleHtml);
-    $('#simulDetail').html(detailHtml);
-    $('#toggle1footer').html(footerHtml);
 }
