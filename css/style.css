@@ -193,6 +193,43 @@
     padding-top: 0.5em;
     padding-bottom: 0.5em;
   }
+  .adBox{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    align-items: center;
+    border-radius: 8px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+  }
+  #adSub1{
+    padding-left: 15px;
+    color: gray;  
+    font-size: 0.7em;
+  }
+  #adTitle{
+    padding-left: 15px;
+    font-size: 1em;
+    font-weight: 700;
+  }
+  #adImage{
+    text-align: center;
+  }
+  #adInfo{
+    padding-left: 15px;
+    color: gray;
+    font-size: 0.75em;   
+  }
+  #ad_title{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+  }
   .searchedListBox{    
     align-items: center;
     border-bottom: 1px solid #ccc;
