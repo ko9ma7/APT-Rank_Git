@@ -88,7 +88,7 @@ function showAD(){
     detailHtml = "";
     footerHtml = "";
 	
-    titleHtml += "<div class='popupTitle'><h1 style='font-size: 1.1em; font-weight: 600 ; padding-left: 5px; text-align:center; border-bottom: 1px solid gray'>" + shop_name + "</h></div>"
+    titleHtml += "<div class='popupTitle'><h1 style='font-size: 1.1em; font-weight: 600 ; padding-left: 5px;>" + shop_name + "</h></div>"
     titleHtml += "<div id='ad_title'>"	
         titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/" + shop_icon + "' height='60px'></div></div>"	
         titleHtml += "<div id='ad_title_sub'>"
@@ -121,8 +121,8 @@ function showAD(){
     $('.modal-footer').css({"padding-top" : "3px"})
 
     var browserWidth = $("#simulDetail").css('width');
-    var w = $(window).width() - 15;
-    var h = $(window).height() - 15;
+    var w = $(window).width() - 40;
+    var h = 250;
 	
     var mapOptions = {
         center: new naver.maps.LatLng(shop_x, shop_y),
