@@ -70,6 +70,10 @@
                 "type":"string"
             },
             {
+                "name":"homepage",
+                "type":"string"
+            },
+            {
                 "name":"map_url",
                 "type":"string"
             }

@@ -737,7 +737,7 @@ function updateTable(month, region){
         partData = part_json;
         part_detail = partData.data
         if(part_detail.length > 0){
-          part_type = part_detail[0]['ad_type']
+          part_type = part_detail[0]['request_type']
           main_title = part_detail[0]['주문장']
           sub_title = part_detail[0]['보조문장']
           cell_num = "0" + part_detail[0]['휴대폰']          

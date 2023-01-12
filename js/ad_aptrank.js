@@ -67,22 +67,33 @@ function goMap(url){
 
 function showPART(){
     console.log(partData)
-    shop_name = partData.data[0]['상호']
-    shop_address = "경기 용인시 기흥구 죽전로 57 엘림프라자 112호" // 데이터 추가
-    shop_owner = partData.data[0]['대표']
-    shop_icon = "icon_apt_rank.png" //데이터 추가
-    shop_comment = "안녕하세요. 신촌공인중개사사무소입니다.<br> 정확한 시세분석과 신뢰있는 업무처리로 <br> 고객님의 안전한 부동산거래를 생명으로 삼고 <br> 책임 중개를 성실히 해 나가겠습니다."
-    + "<br> 고객님의 이익을 최대한 실현하고 <br> 고객님의 조건과 취향에 맞는 아파트를 선택해 드리겠습니다. <br><br>"
-    + "♥중개사무소 위치안내♥ <br> 경기도 용인시 기흥구 보정동 1208-4번지 엘림프라자 112호 <br> (보정동 꽃메사거리 베스킨라빈스 건물에 위치) <br><br>"
-    + "지금 한통의 전화로 부동산에 관한 완벽한 정보를 얻으실 수 있습니다. <br> 여러분의 소중한 재산을 부동산 전문가에게 맡겨주세요. <br> 전화주시면 내 집을 구하는 마음으로 책임중개 하도록 하겠습니다." //데이터 추가
-    shop_phone = "0" + partData.data[0]['전화']
+    shop_name = partData.data[0]['shop_name']
+    shop_address = partData.data[0]['address']
+    shop_owner = partData.data[0]['owner']
+    shop_icon = partData.data[0]['icon']
+    shop_comment = partData.data[0]['comment']
+    shop_phone = "0" + partData.data[0]['phone']
     shop_phone_with_hyphen = shop_phone.phoneNoRep()
-    shop_cell = "0" + partData.data[0]['휴대폰']
+    shop_cell = "0" + partData.data[0]['cellphone']
     shop_cell_with_hyphen = shop_cell.phoneNoRep()
-    shop_home = partData.data[0]['홈페이지']
-    shop_x = 37.3207458 //데이터 추가
-    shop_y = 127.1151086 //데이터 추가
-    shop_map_url = "https://naver.me/5RcF1oCG" //데이터 추가
+    shop_home = partData.data[0]['homepage']
+    shop_x = Number(partData.data[0]['x'])
+    shop_y = Number(partData.data[0]['y'])
+    shop_map_url = partData.data[0]['map_url']
+
+    /*    
+    "main_title":"신촌공인중개사사무소",
+    "sub_title":"용인시 수지구 부동산의 모든 정보",
+    "cellphone":"318982300",
+    "phone":"1090178371",
+    "start_date":"2023-01-01",
+    "end_date":"2023-03-02",
+    "duration":60,    
+    
+    "y":127.1151086,
+    "x":37.3207458,
+    "map_url":"https:\/\/naver.me\/5RcF1oCG"
+    */
 
     titleHtml = "";
     detailHtml = "";
