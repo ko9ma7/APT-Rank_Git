@@ -110,7 +110,7 @@ function showAD(){
             footerHtml += " <div id='adBtn2'><button type='button' class='goApt' onClick='sendMessage(checkMobile(), shop_cell)' style='font-size: 0.85em'><i class='fa-regular fa-envelope'></i> 문자 </button></div>"            
         } else {}
     }    
-    footerHtml += " <div id='adBtn3'><button type='button' class='goApt' onClick='window.open(\"" + shop_home + "\")' style='font-size: 0.85em'><i class='fa-solid fa-building-circle-check'></i>매물보기</button></div>"
+    footerHtml += " <div id='adBtn3'><button type='button' class='goApt' onClick='window.open(\"" + shop_home + "\")' style='font-size: 0.85em'><i class='fa-solid fa-house'></i> 매물보기</button></div>"
     footerHtml += "</div>"  
 
     $('#toggleModalLabel').html(titleHtml);
