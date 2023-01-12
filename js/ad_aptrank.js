@@ -88,9 +88,9 @@ function showAD(){
     detailHtml = "";
     footerHtml = "";
 	
-    titleHtml += "<div class='popupTitle'><h1 style='font-size: 1.1em; font-weight: 600 ; padding-left: 5px;>" + shop_name + "</h></div>"
+    titleHtml += "<div class='popupTitle'><h1 style='font-size: 1.1em; font-weight: 600 ; padding-left: 5px;'>" + shop_name + "</h></div>"
     titleHtml += "<div id='ad_title'>"	
-        titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/" + shop_icon + "' height='60px'></div></div>"	
+        titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/" + shop_icon + "' height='55px'></div></div>"	
         titleHtml += "<div id='ad_title_sub'>"
             titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray'>대표 " + shop_owner + "</div>"
             titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray'>" + shop_address + "</div>"
