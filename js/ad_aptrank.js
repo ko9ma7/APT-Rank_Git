@@ -81,20 +81,6 @@ function showPART(){
     shop_y = Number(partData.data[0]['y'])
     shop_map_url = partData.data[0]['map_url']
 
-    /*    
-    "main_title":"신촌공인중개사사무소",
-    "sub_title":"용인시 수지구 부동산의 모든 정보",
-    "cellphone":"318982300",
-    "phone":"1090178371",
-    "start_date":"2023-01-01",
-    "end_date":"2023-03-02",
-    "duration":60,    
-    
-    "y":127.1151086,
-    "x":37.3207458,
-    "map_url":"https:\/\/naver.me\/5RcF1oCG"
-    */
-
     titleHtml = "";
     detailHtml = "";
     footerHtml = "";

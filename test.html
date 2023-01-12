@@ -738,15 +738,15 @@ function updateTable(month, region){
         part_detail = partData.data
         if(part_detail.length > 0){
           part_type = part_detail[0]['request_type']
-          main_title = part_detail[0]['주문장']
-          sub_title = part_detail[0]['보조문장']
-          cell_num = "0" + part_detail[0]['휴대폰']          
-          phone_num = "0" + part_detail[0]['전화']
+          main_title = part_detail[0]['main_title']
+          sub_title = part_detail[0]['sub_title']
+          cell_num = "0" + part_detail[0]['cellphone']          
+          phone_num = "0" + part_detail[0]['phone']
           cell_num_with_pyphen = cell_num.phoneNoRep()
           phone_num_with_pyphen = phone_num.phoneNoRep()
-          img_url = part_detail[0]['ImageLink']
+          img_url = part_detail[0]['icon']
           //img_url = "apt-rank_blank2"
-          page_url = part_detail[0]['홈페이지']
+          page_url = part_detail[0]['homepage']
         }
     })
     $.ajaxSetup({ async: true });
