@@ -20,13 +20,10 @@ function checkMobile(){
 
 var part_default = 
 "<div class='partBox' onClick=\"window.open('https://naver.me/xGiHpeIf')\">"
-    + "<div id='partText'>"
-        + "<div id='partSub1'>아파트랭크 파트너쉽 (광고, 제휴)</div>"
-        + "<div id='partTitle'>아파트랭크의 파트너가 되어 주세요!</div>"
-        + "<div id='partInfo'>클릭하면 파트너쉽 신청 양식으로 연결됩니다.</div>"
-    + "</div>"
-    + "<div id='partImage'>"
-    + "<img src='./ad/icon_apt_rank.png' height='55px'>"
+    + "<div id='partDefaultText'>"
+        + "<div id='partSub1' style='text-align:center'>아파트랭크 파트너쉽 (광고, 제휴)</div>"
+        + "<div id='partTitle' style='text-align:center'>아파트랭크의 파트너가 되어 주세요!</div>"
+        + "<div id='partInfo' style='text-align:center'>클릭하면 파트너쉽 신청 양식으로 연결됩니다.</div>"
     + "</div>"
 + "</div>"
 
@@ -72,6 +69,7 @@ function showPART(){
     shop_owner = partData.data[0]['owner']
     shop_icon = partData.data[0]['icon']
     shop_comment = partData.data[0]['comment']
+    shop_comment = shop_comment.replace(/\n/g, '<br>')
     shop_phone = "0" + partData.data[0]['phone']
     shop_phone_with_hyphen = shop_phone.phoneNoRep()
     shop_cell = "0" + partData.data[0]['cellphone']
@@ -85,12 +83,13 @@ function showPART(){
     detailHtml = "";
     footerHtml = "";
 	
-    titleHtml += "<div class='popupTitle' style='font-size: 1.1em; font-weight: 600; padding-left: 5px;'>" + shop_name + "</div>"
+    
     titleHtml += "<div id='part_title'>"        
         titleHtml += "<div id='part_title_sub'>"
-            titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray'>대표 " + shop_owner + "</div>"
+            titleHtml += "<div class='popupTitle' style='font-size: 1.1em; font-weight: 600; padding-left: 5px;'>" + shop_name + "</div>"
+            titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; padding-bottom: 8px; color:gray'>대표 " + shop_owner + "</div>"
             titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray'>" + shop_address + "</div>"
-            titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; padding-top: 3px; font-weight: 600'>" + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
+            titleHtml += "<div style='font-size: 0.6em; padding-left: 6px; padding-top: 3px; font-weight: 600'>" + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
         titleHtml += "</div>"
         titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/" + shop_icon + "' height='55px'></div></div>"
     titleHtml += "</div>"    
