@@ -21,9 +21,9 @@ function checkMobile(){
 var part_default = 
 "<div class='partBox' onClick=\"window.open('https://naver.me/xGiHpeIf')\">"
     + "<div id='partDefaultText'>"
-        + "<div id='partSub1' style='text-align:center'>아파트랭크 파트너쉽 (광고, 제휴)</div>"
-        + "<div id='partTitle' style='text-align:center'>아파트랭크의 파트너가 되어 주세요!</div>"
-        + "<div id='partInfo' style='text-align:center'>클릭하면 파트너쉽 신청 양식으로 연결됩니다.</div>"
+        + "<div id='partSub1' style='text-align:center;'>아파트랭크 파트너쉽 (광고, 제휴)</div>"
+        + "<div id='partTitle' style='text-align:center;'>아파트랭크의 파트너가 되어 주세요!</div>"
+        + "<div id='partInfo' style='text-align:center;'>클릭하면 파트너쉽 신청 양식으로 연결됩니다.</div>"
     + "</div>"
 + "</div>"
 
@@ -86,8 +86,8 @@ function showPART(){
     
     titleHtml += "<div id='part_title'>"        
         titleHtml += "<div id='part_title_sub'>"
-            titleHtml += "<div class='popupTitle' style='font-size: 1.1em; font-weight: 600; padding-left: 5px;'>" + shop_name + "</div>"
-            titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; padding-bottom: 8px; color:gray'>대표 " + shop_owner + "</div>"
+            titleHtml += "<div class='popupTitle' style='font-weight: 600; padding-left: 5px; font-size:0.9em'>" + shop_name + "</div>"
+            titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray; margin-bottom: 5px'>대표 " + shop_owner + "</div>"
             titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray'>" + shop_address + "</div>"
             titleHtml += "<div style='font-size: 0.6em; padding-left: 6px; padding-top: 3px; font-weight: 600'>" + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
         titleHtml += "</div>"
