@@ -96,13 +96,12 @@ function showPART(){
             titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; padding-top: 3px; font-weight: 600'>" + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
         titleHtml += "</div>"
         titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/" + shop_icon + "' height='55px'></div></div>"
-    titleHtml += "</div>"
+    titleHtml += "</div>"    
 
+    detailHtml += "<div class='notice'>" + shop_comment + "</div><hr>"
     detailHtml += "<div id='part_map_wrap' onClick='goMap(shop_map_url)'>"
         detailHtml += "<div id='part_map'></div>"
-    detailHtml += "</div><hr>"
-
-    detailHtml += "<div class='notice'>" + shop_comment + "</div>"
+    detailHtml += "</div>"
 
     footerHtml += "<div class='modal-footer'>"    
     if ( navigator.platform ) {

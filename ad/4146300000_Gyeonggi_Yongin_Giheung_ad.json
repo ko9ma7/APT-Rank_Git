@@ -3,63 +3,75 @@
         "fields":[
             {
                 "name":"index",
-                "type":"integer"
-            },
-            {
-                "name":"ad_type",
                 "type":"string"
             },
             {
-                "name":"상호",
+                "name":"request_type",
                 "type":"string"
             },
             {
-                "name":"대표",
+                "name":"shop_name",
                 "type":"string"
             },
             {
-                "name":"휴대폰",
+                "name":"owner",
                 "type":"string"
             },
             {
-                "name":"전화",
+                "name":"main_title",
                 "type":"string"
             },
             {
-                "name":"이메일",
+                "name":"sub_title",
                 "type":"string"
             },
             {
-                "name":"홈페이지",
+                "name":"cellphone",
                 "type":"string"
             },
             {
-                "name":"주문장",
+                "name":"phone",
                 "type":"string"
             },
             {
-                "name":"보조문장",
+                "name":"start_date",
                 "type":"string"
             },
             {
-                "name":"소개문장",
-                "type":"number"
-            },
-            {
-                "name":"ImageLink",
+                "name":"end_date",
                 "type":"string"
             },
             {
-                "name":"sDate",
+                "name":"duration",
                 "type":"string"
             },
             {
-                "name":"Duration",
-                "type":"integer"
+                "name":"address",
+                "type":"string"
             },
             {
-                "name":"Nmap",
-                "type":"number"
+                "name":"email",
+                "type":"string"
+            },
+            {
+                "name":"icon",
+                "type":"string"
+            },
+            {
+                "name":"comment",
+                "type":"string"
+            },
+            {
+                "name":"y",
+                "type":"string"
+            },
+            {
+                "name":"x",
+                "type":"string"
+            },
+            {
+                "name":"map_url",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -68,5 +80,6 @@
         "pandas_version":"1.4.0"
     },
     "data":[
+
     ]
 }

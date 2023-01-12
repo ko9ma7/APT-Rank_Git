@@ -6,60 +6,72 @@
                 "type":"integer"
             },
             {
-                "name":"ad_type",
+                "name":"request_type",
                 "type":"string"
             },
             {
-                "name":"상호",
+                "name":"shop_name",
                 "type":"string"
             },
             {
-                "name":"대표",
+                "name":"owner",
                 "type":"string"
             },
             {
-                "name":"휴대폰",
+                "name":"main_title",
                 "type":"string"
             },
             {
-                "name":"전화",
+                "name":"sub_title",
                 "type":"string"
             },
             {
-                "name":"이메일",
+                "name":"cellphone",
                 "type":"string"
             },
             {
-                "name":"홈페이지",
+                "name":"phone",
                 "type":"string"
             },
             {
-                "name":"주문장",
+                "name":"start_date",
                 "type":"string"
             },
             {
-                "name":"보조문장",
+                "name":"end_date",
                 "type":"string"
             },
             {
-                "name":"소개문장",
-                "type":"number"
-            },
-            {
-                "name":"ImageLink",
-                "type":"string"
-            },
-            {
-                "name":"sDate",
-                "type":"string"
-            },
-            {
-                "name":"Duration",
+                "name":"duration",
                 "type":"integer"
             },
             {
-                "name":"Nmap",
+                "name":"address",
+                "type":"string"
+            },
+            {
+                "name":"email",
                 "type":"number"
+            },
+            {
+                "name":"icon",
+                "type":"string"
+            },
+            {
+                "name":"comment",
+                "type":"string"
+            },
+            {
+                "name":"y",
+                "type":"number"
+            },
+            {
+                "name":"x",
+                "type":"number"
+            },
+            {
+                "name":"map_url",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -70,20 +82,23 @@
     "data":[
         {
             "index":0,
-            "ad_type":"Pop",
-            "상호":"신촌공인중개사사무소",
-            "대표":"정희선",
-            "휴대폰":"1012345678",
-            "전화":"21234567",
-            "이메일":"aptranking@gmail.com",
-            "홈페이지":"https:\/\/www.aptrank.kr",
-            "주문장":"신촌공인중개사사무소",
-            "보조문장":"수지구 부동산의 모든 정보는",
-            "소개문장":null,
-            "ImageLink":"icon_apt_rank.png",
-            "sDate":"2023-01-01",
-            "Duration":30,
-            "Nmap":null
+            "request_type":"Pop",
+            "shop_name":"신촌공인중개사사무소",
+            "owner":"정희선",
+            "main_title":"신촌공인중개사사무소",
+            "sub_title":"용인시 수지구 부동산의 모든 정보",
+            "cellphone":"318982300",
+            "phone":"1090178371",
+            "start_date":"2023-01-01",
+            "end_date":"2023-03-02",
+            "duration":60,
+            "address":"경기도 용인시 기흥구 죽전로 57 엘림프라자 112호",
+            "email":null,
+            "icon":"icon_apt_rank.png",
+            "comment":"안녕하세요. 신촌공인중개사사무소입니다.\n정확한 시세분석과 신뢰있는 업무처리로\n고객님의 안전한 부동산거래를 생명으로 삼고\n책임 중개를 성실히 해 나가겠습니다.\n고객님의 이익을 최대한 실현하고\n고객님의 조건과 취향에 맞는 아파트를 선택해 드리겠습니다.\n\n♥중개사무소 위치안내♥\n경기도 용인시 기흥구 보정동 1208-4번지 엘림프라자 112호\n(보정동 꽃메사거리 베스킨라빈스 건물에 위치)\n\n지금 한통의 전화로 부동산에 관한 완벽한 정보를 얻으실 수 있습니다.\n여러분의 소중한 재산을 부동산 전문가에게 맡겨주세요.\n전화주시면 내 집을 구하는 마음으로 책임중개 하도록 하겠습니다.",
+            "y":127.1151086,
+            "x":37.3207458,
+            "map_url":"https:\/\/naver.me\/5RcF1oCG"
         }
     ]
 }

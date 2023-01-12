@@ -3,63 +3,75 @@
         "fields":[
             {
                 "name":"index",
-                "type":"integer"
-            },
-            {
-                "name":"ad_type",
                 "type":"string"
             },
             {
-                "name":"상호",
+                "name":"request_type",
                 "type":"string"
             },
             {
-                "name":"대표",
+                "name":"shop_name",
                 "type":"string"
             },
             {
-                "name":"휴대폰",
+                "name":"owner",
                 "type":"string"
             },
             {
-                "name":"전화",
+                "name":"main_title",
                 "type":"string"
             },
             {
-                "name":"이메일",
+                "name":"sub_title",
                 "type":"string"
             },
             {
-                "name":"홈페이지",
+                "name":"cellphone",
                 "type":"string"
             },
             {
-                "name":"주문장",
+                "name":"phone",
                 "type":"string"
             },
             {
-                "name":"보조문장",
+                "name":"start_date",
                 "type":"string"
             },
             {
-                "name":"소개문장",
-                "type":"number"
-            },
-            {
-                "name":"ImageLink",
+                "name":"end_date",
                 "type":"string"
             },
             {
-                "name":"sDate",
+                "name":"duration",
                 "type":"string"
             },
             {
-                "name":"Duration",
-                "type":"integer"
+                "name":"address",
+                "type":"string"
             },
             {
-                "name":"Nmap",
-                "type":"number"
+                "name":"email",
+                "type":"string"
+            },
+            {
+                "name":"icon",
+                "type":"string"
+            },
+            {
+                "name":"comment",
+                "type":"string"
+            },
+            {
+                "name":"y",
+                "type":"string"
+            },
+            {
+                "name":"x",
+                "type":"string"
+            },
+            {
+                "name":"map_url",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -68,22 +80,6 @@
         "pandas_version":"1.4.0"
     },
     "data":[
-        {
-            "index":0,
-            "ad_type":"Direct",
-            "상호":"아파트랭크",
-            "대표":"아랭",
-            "휴대폰":"1012345678",
-            "전화":"21234567",
-            "이메일":"aptranking@gmail.com",
-            "홈페이지":"https:\/\/www.aptrank.kr",
-            "주문장":"아파트 입지 분석은 아파트랭크",
-            "보조문장":"객관적이고 표준화된 입지 분석 정보",
-            "소개문장":null,
-            "ImageLink":"icon_apt_rank.png",
-            "sDate":"2023-01-01",
-            "Duration":30,
-            "Nmap":null
-        }
+
     ]
 }
