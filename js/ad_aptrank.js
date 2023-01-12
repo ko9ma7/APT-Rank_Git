@@ -120,8 +120,14 @@ function showAD(){
     $('#adBtn3').css({"grid-column" : "span 2"})
     $('.modal-footer').css({"padding-top" : "3px"})
 
-    var browserWidth = $("#simulDetail").css('width');
-    var w = $(window).width() - 40;
+    if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+	 var w = $(window).width() - 40;
+	 $('#popupTitle').css({"text-align" : "left"})
+    }
+    else{
+	 var w = 480;
+	 $('#popupTitle').css({"text-align" : "center"})
+    }    
     var h = 250;
 	
     var mapOptions = {
