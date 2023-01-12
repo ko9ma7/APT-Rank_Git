@@ -121,10 +121,12 @@ function showAD(){
     $('.modal-footer').css({"padding-top" : "3px"})
 
     var browserWidth = $("#simulDetail").css('width');
-    console.log(browserWidth)
-
+    var w = $(window).width() - 15;
+    var h = $(window).height() - 15;
+	
     var mapOptions = {
         center: new naver.maps.LatLng(shop_x, shop_y),
+	size: new naver.maps.Size(w, h),
         zoom: 16, //지도의 초기 줌 레벨
         zoomControl: false, //줌 컨트롤의 표시 여부
         draggable: false,
@@ -133,7 +135,7 @@ function showAD(){
         keyboardShortcuts: false,
         disableDoubleTapZoom: true,
         disableDoubleClickZoom: true,
-        disableTwoFingerTapZoom: true
+        disableTwoFingerTapZoom: true,	
     };
 
     var map = new naver.maps.Map('ad_map', mapOptions);    
