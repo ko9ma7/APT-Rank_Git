@@ -88,12 +88,12 @@ function showAD(){
     detailHtml = "";
     footerHtml = "";
 	
-    titleHtml += "<div class='popupTitle'><h1 style='font-size: 0.9em; font-weight: 600 ; padding-left: 5px'>" + shop_name + "</h></div>"
+    titleHtml += "<div class='popupTitle'><h1 style='font-size: 1em; font-weight: 600 ; padding-left: 5px; text-align:center'>" + shop_name + "</h></div>"
     titleHtml += "<div id='ad_title'>"	
         titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/" + shop_icon + "' height='60px'></div></div>"	
         titleHtml += "<div id='ad_title_sub'>"
-            titleHtml += "<div style='font-size: 0.6em; padding-left: 5px'>대표: " + shop_owner + "</div>"
-            titleHtml += "<div style='font-size: 0.6em; padding-left: 5px'>" + shop_address + "</div>"
+            titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray'>대표 " + shop_owner + "</div>"
+            titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray'>" + shop_address + "</div>"
             titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; padding-top: 3px; font-weight: 600'>" + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
         titleHtml += "</div>"
     titleHtml += "</div>"    
@@ -106,11 +106,11 @@ function showAD(){
     footerHtml += "<div class='modal-footer'>"    
     if ( navigator.platform ) {
         if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-            footerHtml += " <div id='adBtn1'><button type='button' class='goApt' onClick='callNumber(shop_cell)' style='font-size: 0.85em'> <i class='fa-solid fa-phone-flip'></i> " + shop_cell_with_hyphen + "</button></a></div>"
-            footerHtml += " <div id='adBtn2'><button type='button' class='goApt' onClick='sendMessage(checkMobile(), shop_cell)' style='font-size: 0.85em'><i class='fa-regular fa-envelope'></i> 문자 </button></a></div>"            
+            footerHtml += " <div id='adBtn1'><button type='button' class='goApt' onClick='callNumber(shop_cell)' style='font-size: 0.85em'><i class='fa-solid fa-phone'></i>" + ' ' + shop_cell_with_hyphen + "</button></div>"
+            footerHtml += " <div id='adBtn2'><button type='button' class='goApt' onClick='sendMessage(checkMobile(), shop_cell)' style='font-size: 0.85em'><i class='fa-regular fa-envelope'></i> 문자 </button></div>"            
         } else {}
     }    
-    footerHtml += " <div id='adBtn3'><button type='button' class='goApt' onClick='window.open(\"" + shop_home + "\")' style='font-size: 0.85em'>매물보기</button></div>"
+    footerHtml += " <div id='adBtn3'><button type='button' class='goApt' onClick='window.open(\"" + shop_home + "\")' style='font-size: 0.85em'><i class='fa-solid fa-building-circle-check'></i>매물보기</button></div>"
     footerHtml += "</div>"  
 
     $('#toggleModalLabel').html(titleHtml);
