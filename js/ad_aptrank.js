@@ -91,7 +91,7 @@ function showPART(){
             titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray'>" + shop_address + "</div>"
             titleHtml += "<div style='font-size: 0.6em; padding-left: 6px; padding-top: 3px; font-weight: 600'>" + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
         titleHtml += "</div>"
-        titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/" + shop_icon + "' height='55px' alt='' style='clip-path: circle(50px at center);'></div></div>"
+        titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/" + shop_icon + "' height='55px' alt='' style='clip-path: circle(40%)'></div></div>"
     titleHtml += "</div>"    
 
     detailHtml += "<div class='notice'>" + shop_comment + "</div><hr>"
