@@ -86,7 +86,7 @@ function showPART(){
     
     titleHtml += "<div id='part_title'>"        
         titleHtml += "<div id='part_title_sub'>"
-            titleHtml += "<div class='popupTitle' style='font-weight: 600; padding-left: 5px; font-size:0.95em'>" + shop_name + "</div>"
+            titleHtml += "<div class='popupTitle' style='font-weight: 600; padding-left: 5px; font-size:1em'>" + shop_name + "</div>"
             titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray; margin-bottom: 5px'>대표 " + shop_owner + "</div>"
             titleHtml += "<div style='font-size: 0.6em; padding-left: 5px; color:gray'>" + shop_address + "</div>"
             titleHtml += "<div style='font-size: 0.6em; padding-left: 6px; padding-top: 3px; font-weight: 600'>" + shop_cell_with_hyphen + " / " + shop_phone_with_hyphen + "</div>"
