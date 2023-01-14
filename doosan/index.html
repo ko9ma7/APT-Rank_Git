@@ -194,7 +194,8 @@
           <div id="sido_selection"><select id="sido" onChange="sidoChange()"></select></div>
           <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>          
           <div></div>
-          <div id="update_info" style="text-align: right">업데이트 : 2022-12-02 <br> (2022년 11월 데이터 기준) </div>
+          <div id="update_info" style="text-align: right; padding-right: 20px">업데이트 : 2022-12-02 <br> (2022년 11월 데이터 기준) </div>
+          <div class='appointment' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showAppointmentResult()'><button type='button' class='goApt' style='font-size: 0.9em'>주간 아파트 청약 결과</button></div>
         </div>
         <div id="dataWrapper">
           <div id="dataList"></div>
@@ -1644,8 +1645,8 @@ function showNotice(info){
     
     footerHtml += "<div class='modal-footer'>"
     footerHtml += "<div class='notice' id='footerCheck' ><strong>업무 협업, 데이터 커스터마이징 문의는 '이메일 문의하기' 또는 '카카오톡 1:1 문의하기'를 통해 진행해 주세요.</strong></div>"
-    footerHtml += "<div id='footerBtn2'><a href='mailto:aptranking@gmail.com'><button type='button' class='goApt' style='font-size: 0.85em'>이메일 문의하기</button></a></div>"
-    footerHtml += "<div id='footerBtn2'><a href='https://pf.kakao.com/_vESNb/chat' target='_blank'><button type='button' class='gokakao' style='font-size: 0.85em'>카카오톡 1:1 문의하기</button></a></div>"
+    footerHtml += "<div id='footerBtn2'><a href='mailto:aptranking@gmail.com'><button type='button' class='goApt' style='font-size: 0.85em'>이메일 문의하기</button></div>"
+    footerHtml += "<div id='footerBtn2'><a href='https://pf.kakao.com/_vESNb/chat' target='_blank'><button type='button' class='gokakao' style='font-size: 0.85em'>카카오톡 1:1 문의하기</button></div>"
     footerHtml += "</div>"  
 
 
@@ -1654,7 +1655,29 @@ function showNotice(info){
     //$('#footer').html(footerHtml);
     $('#footerCheck').css({"grid-column" : "span 2"})
     $('.modal-footer').css({"padding-top" : "3px"})
+    $('.modal-dialog-scrollable').css({'max-width' : '50%'})
   }
+
+function showAppointmentResult(){
+  modal_title = ""
+  modal_info= ""
+  
+  modal_title = "주간 아파트 청약 결과"
+  modal_info = "<div id='appointmentResult'>"
+      +"<div><img src='./appointment/01.png' width='100%'/></div>"
+      +"<div><img src='./appointment/02.png' width='100%'/></div>"
+      +"<div><img src='./appointment/03.png' width='100%'/></div>"
+      +"<div><img src='./appointment/04.png' width='100%'/></div>"
+    +"</div>"
+
+  var titleHtml = "<div class='popupTitle'>" + modal_title + "</div>";
+  var footerHtml = ""
+  var detailHtml = "<div class='notice'>" + modal_info + "</div>"
+
+  $('#exampleModalLabel').html(titleHtml);
+  $('#aptDetail').html(detailHtml);
+  $('.modal-dialog-scrollable').css({'max-width' : '90%'})
+}
 
   var pcDevice = "win16|win32|win64|mac|macintel"
 
