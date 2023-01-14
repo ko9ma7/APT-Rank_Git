@@ -76,6 +76,29 @@ function showSearchBar(){
       if(sortSelection == "sortDefault"){
         sortData = aptData
       }
+      /*
+      //광고정보 표시영역
+      if(partData.data.length > 0){
+        if(part_type == 'Direct'){
+          $('#dataList').append(part_info);
+          $('.partBox').click(function(){
+            window.open(page_url)
+          })
+        }
+        if(part_type == 'Pop'){
+          $('#dataList').append(part_pop);
+        }
+        
+        $('#partSub1').html(sub_title)
+        $('#partTitle').html(main_title)
+        $('#partInfo').html(cell_num_with_pyphen + " / " + phone_num_with_pyphen)
+        $('#partImage').html("<img src='./ad/" + img_url + "' height='49px'>")
+      }
+      else{
+        $('#dataList').append(part_default);
+        $('.partBox').css({'grid-template-columns':'1fr'})
+      }
+      */
 
       for(var i = 0 ; i < sortData.data.length ; i++){
             var aptName = sortData.data[i]["아파트명"]
