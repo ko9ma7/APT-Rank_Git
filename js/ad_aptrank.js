@@ -19,7 +19,7 @@ function checkMobile(){
 }
 
 var part_default = 
-"<div class='partBox' onClick=\"window.open('https://forms.gle/hNYnz2g8BAQjUgA1A)\">"
+"<div class='partBox' onClick=\"window.open('https://forms.gle/hNYnz2g8BAQjUgA1A')\">"
     + "<div id='partDefaultText'>"
         + "<div id='partSub1' style='text-align:center;'>아파트랭크 파트너쉽 (광고, 제휴)</div>"
         //+ "<div id='partTitle' style='text-align:center;'>아파트랭크의 파트너가 되어 주세요!</div>"
