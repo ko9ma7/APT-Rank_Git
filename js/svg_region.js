@@ -128,8 +128,6 @@ var svg_Seoul =
 +"<text transform='matrix(1 0 0 1 360 479)' id='txt_1121500000_Seoul_Gwangjin' class='TEXT'>광진구</text>"
 +"<text transform='matrix(1 0 0 1 423 476)' id='txt_1174000000_Seoul_Gangdong' class='TEXT'>강동구</text>"
 +"</g>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
 +"</svg>"
 
 var svg_Incheon = 
@@ -165,8 +163,7 @@ var svg_Incheon =
 +"<text transform='matrix(1 0 0 1 342 532)' id='txt_2826000000_Incheon_Seo' class='TEXT'>서구</text>"
 +"<text transform='matrix(1 0 0 1 397 597)' id='txt_2823700000_Incheon_Bupyeong' class='TEXT'>부평구</text>"
 +"<text transform='matrix(1 0 0 1 402 535)' id='txt_2824500000_Incheon_Gyeyang' class='TEXT'>계양구</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Gyeonggi =
@@ -296,8 +293,7 @@ var svg_Gyeonggi =
 +"<text transform='matrix(1 0 0 1 112 450)' id='txt_4128000000_Gyeonggi_Goyang' class='TEXT'>고양시</text>"
 +"<text transform='matrix(1 0 0 1 33 430)' id='txt_4157000000_Gyeonggi_Gimpo' class='TEXT'>김포시</text>"
 +"<text transform='matrix(1 0 0 1 251 449)' id='txt_4136000000_Gyeonggi_Namyangju' class='TEXT'>남양주시</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Gyeonggi_detail =
@@ -498,8 +494,7 @@ var svg_Gyeonggi_detail =
 +"<circle class='st10' cx='150' cy='506' r='3'/>"
 +"<circle class='st10' cx='122' cy='410' r='3'/>"
 +"<circle class='st10' cx='341' cy='376' r='3'/>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Busan =
@@ -559,8 +554,7 @@ var svg_Busan =
 +"<text transform='matrix(1 0 0 1 272 406)' id='txt_2641000000_Busan_Geumjeong' class='TEXT'>금정구</text>"
 +"<text transform='matrix(1 0 0 1 219 439)' id='txt_2632000000_Busan_Buk' class='TEXT'>북구</text>"
 +"<text transform='matrix(1 0 0 1 362 363)' id='txt_2671000000_Busan_Gijangn' class='TEXT'>기장군</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Daegu =
@@ -596,8 +590,7 @@ var svg_Daegu =
 +"<text transform='matrix(1 0 0 1 339 467)' id='txt_2726000000_Daegu_Suseong' class='TEXT'>수성구</text>"
 +"<text transform='matrix(1 0 0 1 252 350)' id='txt_2723000000_Daegu_Buk' class='TEXT'>북구</text>"
 +"<text transform='matrix(1 0 0 1 365 329)' id='txt_2714000000_Daegu_Dong' class='TEXT'>동구</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Gwangju =
@@ -618,8 +611,7 @@ var svg_Gwangju =
 +"<text transform='matrix(1 0 0 1 381 549)' id='txt_2911000000_Gwangju_Dong' class='TEXT'>동구</text>"
 +"<text transform='matrix(1 0 0 1 339 425)' id='txt_2917000000_Gwangju_Buk' class='TEXT'>북구</text>"
 +"<text transform='matrix(1 0 0 1 130 476)' id='txt_2920000000_Gwangju_Gwangsan' class='TEXT'>광산구</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Daejeon =
@@ -640,8 +632,7 @@ var svg_Daejeon =
 +"<text transform='matrix(1 0 0 1 245 569)' id='txt_3014000000_Daejeon_Jung' class='TEXT'>중구</text>"
 +"<text transform='matrix(1 0 0 1 126 422)' id='txt_3020000000_Daejeon_Yuseong' class='TEXT'>유성구</text>"
 +"<text transform='matrix(1 0 0 1 145 594)' id='txt_3017000000_Daejeon_Seo' class='TEXT'>서구</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Ulsan =
@@ -662,8 +653,7 @@ var svg_Ulsan =
 +"<text transform='matrix(1 0 0 1 410 479)' id='txt_3117000000_Ulsan_Dong' class='TEXT'>동구</text>"
 +"<text transform='matrix(1 0 0 1 305 433)' id='txt_3111000000_Ulsan_Jung' class='TEXT'>중구</text>"
 +"<text transform='matrix(1 0 0 1 366 382)' id='txt_3120000000_Ulsan_Buk' class='TEXT'>북구</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Sejong =
@@ -673,8 +663,7 @@ var svg_Sejong =
 +"</style>"
 +"<path id='3611000000_Sejong_Sejong' class='st0' d='M277.6,706.6L222.5,671l-23.7-34.9l-12.2-50.6l6.4-54.6l5.8-63.4 l-41.7-21.3l-48.7-61.6l14.1-41l-6.4-55.1l-26.9-25.6l18-33.3l47.4-2.6l91,53.9l44.9-1.3l5.1,21.8h16.7l-5.1,39.8l-28.2,19.2 l12.8,30.8l20.5,24.4v41l34.6,14.1l44.2,18.6l17.8,21.1l-9.4,53l9.4,20.5l-21.5,12l5.3,42.1l-17.6,43l-38.5,39.8l-39.8,1.3 L277.6,706.6z'/>"
 +"<text transform='matrix(1 0 0 1 220 467)' id='txt_3611000000_Sejong_Sejong' class='TEXT'>세종시</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Jejudo =
@@ -688,8 +677,7 @@ var svg_Jejudo =
 +"</g>"
 +"<text transform='matrix(1 0 0 1 184 455)' id='txt_5011000000_Jejudo_Jeju' class='TEXT'>제주시</text>"
 +"<text transform='matrix(1 0 0 1 249 530)' id='txt_5013000000_Jejudo_Seogwipo' class='TEXT'>서귀포시</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Gangwondo =
@@ -735,8 +723,7 @@ var svg_Gangwondo =
 +		"<text transform='matrix(1 0 0 1 138 435)' id='txt_4211000000_Gangwondo_Chuncheon' class='TEXT'>춘천시</text>"
 +		"<text transform='matrix(1 0 0 1 122 374)' id='txt_4279000000_Gangwondo_Hwacheon' class='TEXT'>화천군</text>"
 +		"<text transform='matrix(1 0 0 1 55 354)' id='txt_4278000000_Gangwondo_Cheorwon' class='TEXT'>철원군</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +		"</svg>"
 
 var svg_Chungcheongbukdo =
@@ -774,8 +761,7 @@ var svg_Chungcheongbukdo =
 +"<text transform='matrix(1 0 0 1 92 446)' id='txt_4311400000_Chungcheongbukdo_Cheongju_Cheongwon' class='TEXT'>청원구</text>"
 +"<text transform='matrix(1 0 0 1 61 522)' id='txt_4311200000_Chungcheongbukdo_Cheongju_Seowon' class='TEXT'>서원구</text>"
 +"<text transform='matrix(1 0 0 1 53 475)' id='txt_4311300000_Chungcheongbukdo_Cheongju_Heungdeok' class='TEXT'>흥덕구</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Chungcheongnamdo =
@@ -817,8 +803,7 @@ var svg_Chungcheongnamdo =
 +"<text transform='matrix(1 0 0 1 349 564)' id='txt_4425000000_Chungcheongnamdo_Gyeryong' class='TEXT'>계룡시</text>"
 +"<text transform='matrix(1 0 0 1 319 340)' id='txt_4413300000_Chungcheongnamdo_Cheonan_Seobuk' class='TEXT'>천안 서북구</text>"
 +"<text transform='matrix(1 0 0 1 343 379)' id='txt_4413100000_Chungcheongnamdo_Cheonan_Dongnam' class='TEXT'>천안 동남구</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Jeollabukdo =
@@ -858,8 +843,7 @@ var svg_Jeollabukdo =
 +"<text transform='matrix(1 0 0 1 408 393)' id='txt_4573000000_Jeollabukdo_Muju' class='TEXT'>무주군</text>"
 +"<text transform='matrix(1 0 0 1 206 454)' id='txt_4511100000_Jeollabukdo_Jeonju_Wansan' class='TEXT'>전주 완산구</text>"
 +"<text transform='matrix(1 0 0 1 202 422)' id='txt_4511300000_Jeollabukdo_Jeonju_Deokjin' class='TEXT'>전주 덕진구</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Jeollanamdo =
@@ -913,8 +897,7 @@ var svg_Jeollanamdo =
 +"<text transform='matrix(1 0 0 1 258 341)' id='txt_4671000000_Jeollanamdo_Damyang' class='TEXT'>담양군</text>"
 +"<text transform='matrix(1 0 0 1 327 358)' id='txt_4672000000_Jeollanamdo_Gokseong' class='TEXT'>곡성군</text>"
 +"<text transform='matrix(1 0 0 1 386 360)' id='txt_4673000000_Jeollanamdo_Gurye' class='TEXT'>구례군</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Gyeongsangbukdo =
@@ -972,8 +955,7 @@ var svg_Gyeongsangbukdo =
 +"<text transform='matrix(1 0 0 1 158 391)' id='txt_4790000000_Gyeongsangbukdo_Yecheon' class='TEXT'>예천군</text>"
 +"<text transform='matrix(1 0 0 1 70 468)' id='txt_4725000000_Gyeongsangbukdo_Sangju' class='TEXT'>상주시</text>"
 +"<text transform='matrix(1 0 0 1 96 382)' id='txt_4728000000_Gyeongsangbukdo_Mungyeong' class='TEXT'>문경시</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
 
 var svg_Gyeongsangnamdo =
@@ -1027,6 +1009,5 @@ var svg_Gyeongsangnamdo =
 +"<text transform='matrix(1 0 0 1 45 381)' id='txt_4887000000_Gyeongsangnamdo_Hamyang' class='TEXT'>함양군</text>"
 +"<text transform='matrix(1 0 0 1 160 383)' id='txt_4889000000_Gyeongsangnamdo_Hapcheon' class='TEXT'>합천군</text>"
 +"<text transform='matrix(1 0 0 1 95 314)' id='txt_4888000000_Gyeongsangnamdo_Geochang' class='TEXT'>거창군</text>"
-+"<path class='go_Korea' id='go_Korea_bg' fill='#ffffff' stroke='#666666' stroke-width='3' d='M85.6,100H27c-2.8,0-5-2.2-5-5V65.3c0-2.8,2.2-5,5-5h58.7c2.8,0,5,2.2,5,5V95C90.6,97.7,88.4,100,85.6,100z'/>"
-+"<path class='go_Korea' id='go_Korea_arrow' fill='#666666' d='M43.6,80.2V80l12.7-12.3l2.6,2.9l-8,7.3H69v4.3H50.8l8,7.3l-2.6,2.9L43.6,80.2z'/>"
+
 +"</svg>"
