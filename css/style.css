@@ -213,16 +213,24 @@
     -webkit-user-select: none;
     user-select: none;
   }
+  #partText{
+    width: auto;
+  }
   #partSub1{
     padding-left: 15px;
     color: gray;  
     font-size: 0.75em;
     font-weight: 500;
+    white-space:nowrap;
+    text-overflow:clip;
   }
   #partTitle{
+    width: auto;
     padding-left: 15px;
     font-size: 0.9em;
     font-weight: 600;
+    white-space:nowrap;
+    text-overflow:clip;
   }
   #partImage{
     text-align: center;
@@ -235,7 +243,7 @@
   #part_title{
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 80px;
+    grid-template-columns: 110% 60px;
   }
   #part_map_wrap{
     width: 100%;
@@ -986,7 +994,7 @@
     #part_title{
       display: grid;
       width: 100%;
-      grid-template-columns: 110% 60px;
+      grid-template-columns: 150% 60px;
     }
     #partSub1{
       text-align: center; 
