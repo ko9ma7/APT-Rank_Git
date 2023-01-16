@@ -1151,6 +1151,22 @@ function updateTable(month, region){
     }
     detailHtml += "</div></div>"
 
+    if(Number(selectedMonth) > 202212){
+      //지도
+      detailHtml += "<div class='card'>";      
+      detailHtml += "<div class='card-body' style='padding: 0'>";
+
+      if(apt_type == "분양(예정)"){
+        go_url = "https://hogangnono.com/apt/" + searchCode
+      }else{
+        go_url = "https://new.land.naver.com/complexes/" + searchCode
+      } 
+      detailHtml += "<div id='part_map_wrap' onClick='goMap(go_url)'>"
+      detailHtml += "<div id='detail_map' ></div>"
+      detailHtml += "</div>"
+      detailHtml += "</div></div></div>"
+    }
+
     //주거
     detailHtml += "<div class='card'>";
     detailHtml += "<div class='card-header'>";
@@ -1732,6 +1748,38 @@ function updateTable(month, region){
     $('#exampleModalLabel').html(titleHtml);
     $('#aptDetail').html(detailHtml);
     $('#footer').html(footerHtml);
+
+    if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+      var dw = $(window).width() - 60;	 
+      //var w = 430;	 
+    }
+    else{
+      var dw = 460;	 
+    }    
+    var dh = 150;
+
+    if(Number(selectedMonth) > 202212){      
+      var detailMapOptions = {
+        center: new naver.maps.LatLng(Number(coord_y), Number(coord_x)),
+	      size: new naver.maps.Size(dw, dh),
+        zoom: 15, //지도의 초기 줌 레벨
+        zoomControl: false, //줌 컨트롤의 표시 여부
+        draggable: false,
+        pinchZoom: false,
+        scrollWheel: false,
+        keyboardShortcuts: false,
+        disableDoubleTapZoom: true,
+        disableDoubleClickZoom: true,
+        disableTwoFingerTapZoom: true,
+      };
+
+      var detailMap = new naver.maps.Map('detail_map', detailMapOptions);    
+      
+      var detailMarker = new naver.maps.Marker({
+          position: new naver.maps.LatLng(Number(coord_y), Number(coord_x)),
+          map: detailMap
+      });
+    }
 
     if(broswerInfo.indexOf("inApp")>-1){
       $('.modal-footer').css({"grid-template-columns" : "0.2fr 1fr 0.2fr", "text-align":"center", "text-align": "-webkit-center"})

@@ -250,7 +250,7 @@
     text-align: center;
     justify-self: center;
   }
-  #part_map{
+  #part_map, #detail_map{
     width: 100%;
     height: 200px;
   }
