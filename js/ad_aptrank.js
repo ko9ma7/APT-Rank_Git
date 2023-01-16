@@ -60,7 +60,7 @@ function sendMessage(device, num){
 }
 
 function goMap(url){
-    window.open(url)
+    window.open(url, '_blank')
 }
 
 function showPART(){

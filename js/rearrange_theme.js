@@ -40,9 +40,10 @@ function showRearrangeBar(){
     rearrangeMenu += "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeName' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeName'>이름순</label></div>"    
   }
   else if(selectedTheme == "ratioFrom201906"){
-    rearrangeMenu = "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeDownRatio' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeUpRatio'>상승률순</label></div>"
+    rearrangeMenu = "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeUpRatio' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeUpRatio'>상승률순</label></div>"
     rearrangeMenu += "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeNew' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeNew'>최근거래순</label></div>"
-    rearrangeMenu += "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeName' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeName'>이름순</label></div>"    
+    rearrangeMenu += "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeName' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeName'>이름순</label></div>"
+    rearrangeMenu += "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeDownRatio2' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeDownRatio2'>하락률순</label></div>"
   }
 
   $('.rearrangeArea').html(rearrangeMenu);
@@ -116,12 +117,12 @@ function showRearrangeBar(){
     }, 400, 'easeInQuad'
     );
 
-    if(selectedTheme != 'hPriceRatio'){
-      rearrangeSelection = "rearrangeName"
-      //$(".aptPrice").css({'color': 'rgb(85, 85, 85)', 'font-weight': '400'})
-      //$(".aptYear").css({'color': 'gray', 'font-weight': '400'})
-      //$(".aptNum").css({'color': 'rgb(85, 85, 85)', 'font-weight': '400'})
-      //updateRegion()
+    if(selectedTheme == 'hPriceRatio'){
+      rearrangeSelection = "rearrangeDownRatio"
+      updateTable(selectedTheme, selectedSubRegion)
+    }
+    else if(selectedTheme == 'ratioFrom201906'){
+      rearrangeSelection = "rearrangeUpRatio"
       updateTable(selectedTheme, selectedSubRegion)
     }
     else{
@@ -170,8 +171,12 @@ function showRearrangeBar(){
       type = "desc"       
     }
     if(rearrangeSelection == "rearrangeUpRatio"){      
-      key="상승률" 
+      key="등락률" 
       type = "desc"       
+    }
+    if(rearrangeSelection == "rearrangeDownRatio2"){      
+      key="등락률" 
+      type = "asc"       
     }
 
     data = aptData.data    
