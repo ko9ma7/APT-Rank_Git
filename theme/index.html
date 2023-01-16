@@ -115,6 +115,7 @@
             <option value="newApt">분양권</option>
             <option value="rebuild">재건축</option>
             <option value="hPriceRatio">최고가 대비 변동</option>
+            <option value="ratioFrom201906">'19.6월 대비 변동</option>
             <option value="tripGuide">동별 임장 가이드</option>
           </select>
         </div>
@@ -600,9 +601,30 @@
     //console.log("AAAAAAAAAA", region)
     url = "https://www.aptrank.kr/theme/" + region + ".json"
     url2 = "https://www.aptrank.kr/theme/" + region + "_ratio.json"
+    url3 = "https://www.aptrank.kr/theme/" + region + "_ratioFrom201906.json"
     $('#themeDataList').html("");
 
-    if(type != 'hPriceRatio'){
+    if(type == "hPriceRatio"){
+      $.getJSON(url2, function(json) {
+        //console.log(json);
+        aptData = json;         
+        //sortData = json;
+        //itemNum = json.data.length;
+
+        RatioListUp(aptData.data, type)
+      })
+    }
+    else if(type == "ratioFrom201906"){
+      $.getJSON(url3, function(json) {
+        //console.log(json);
+        aptData = json;         
+        //sortData = json;
+        //itemNum = json.data.length;
+
+        Ratio2ListUp(aptData.data, type)
+      })
+    }
+    else{
       $.getJSON(url, function(json) {        
           sortData = json;
       })
@@ -620,18 +642,6 @@
           ListUp(aptData.data, type)
     })
   }
-
-  else{
-    $.getJSON(url2, function(json) {
-      //console.log(json);
-      aptData = json;         
-      //sortData = json;
-      //itemNum = json.data.length;
-
-      RatioListUp(aptData.data, type)
-    })
-  }
-
 }
 
   function showDistance(arr){    
@@ -1105,6 +1115,95 @@
     shareTitle += "최고가 대비 변동\n\n"
     shareURL = "https://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&theme=" + selectedTheme    
   }
+
+  function Ratio2ListUp(listData, type){
+    $('html').scrollTop(0)    
+    $('#themeDataList').html("");
+    $("#tripGuide").css("visibility", "hidden")
+    //$("#rearrange").css("visibility", "hidden")
+    itemNum = listData.length;        
+
+    var count = 0
+    shareText = ""
+    for(var i = 0 ; i < itemNum ; i++){
+      var aptName = listData[i]["아파트명"]
+      var apt_m = listData[i]["전용면적(m2)"]
+      var apt_p = listData[i]["전용면적(평)"]
+      var apt_type = listData[i]["타입"]
+      var aptAddress = listData[i]["법정동주소"]          
+      var house_num = listData[i]["세대수"]
+      var aptDuration = listData[i]["준공년차"]
+      var buildDate = listData[i]["준공년월"]
+      var searchCode = listData[i]["코드"]
+      var coord_y = listData[i]["y"]
+      var coord_x = listData[i]["x"]
+      var hPrice_info = listData[i]["2019년6월가격"]
+      var cPrice_info = listData[i]["현재가정보"]
+      var gap_price = listData[i]["차액"]
+      var gap_ratio = listData[i]["등락률"]
+
+      if(apt_type == "APT"){        
+        aptYear = buildDate + " (" + aptDuration + "년차)"        
+      }
+      if(apt_type == "JGC"){        
+        aptYear = buildDate + " (" + aptDuration + "년차, 재건축)"        
+      }
+      if(apt_type == "ABYG"){
+        aptYear = "(분양권, " + buildDate.substr(0, 7) + " 예정)"        
+      }
+
+      var addon_html = ""
+
+      if(hPrice_info[0] != '거래 정보 없음'){
+        addon_html += "<div class='themeListBox'>";
+        addon_html += "<div class='content'>";
+        addon_html += "<div class='apt_name'>" + aptName;
+        addon_html += "<span class='aptYear'>    " + aptYear + "</span></div>";
+        addon_html += "<div class='apt_info'>"+ house_num.toLocaleString() + "세대 / ";
+
+        if(apt_type == "ABYG"){
+          aptAddress = listData[i]["법정동주소"]
+          addon_html += aptAddress + "</div>";
+        }
+        else{
+          addon_html += aptAddress + "</div>";
+        }
+        var hPrice = (hPrice_info[0]/10000).toFixed(2)
+        var cPrice = (cPrice_info[0]/10000).toFixed(2)
+        var hPrice_date = hPrice_info[1].substr(2, 10)
+        var cPrice_date = cPrice_info[1].substr(2, 10)
+
+        if(gap_ratio < 0){        
+          addon_html += "<div class='themeDrop'>▼" + Math.abs(gap_ratio).toFixed(2) + "% (" + (gap_price/10000).toFixed(2) +"억) <span style='color:#555'> / " + apt_p + "(" + apt_m + "㎡)</span></div>";
+        }
+        else{
+          addon_html += "<div class='themePoint'>▲" + Math.abs(gap_ratio).toFixed(2) + "% (" + (gap_price/10000).toFixed(2) +"억) <span style='color:#555'> / " + apt_p + "(" + apt_m + "㎡)</span></div>";
+        }
+        addon_html += "<div class='themeInfo'>" + hPrice + "억 (" + hPrice_date + ") → " + cPrice + "억 (" + cPrice_date +")</div>";
+
+        addon_html += "</div>";
+        addon_html += "<div id='NLink'><button type='button' class='goThemeLink' onclick='openNaver(" + searchCode + ")'>N부동산</button></div>"        
+
+        if(i < 5){
+          if (i == 0){
+            shareText += "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' " + "2019년 6월 대비 변동\n\n"
+          }
+          shareText += "#" + aptName + ", " + apt_p + "\n"
+          shareText += hPrice + " → " + cPrice + "억\n"
+          shareText += "(" + gap_ratio.toFixed(2) + "%, " + (gap_price/10000).toFixed(2) + "억) \n\n"          
+        }
+        
+        $('#themeDataList').append(addon_html);
+      }
+    }
+    $('#themeDataList').append("<div style='height: 2em'></div>");   
+   
+    saveLocalStorage()
+
+    shareTitle = "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' "
+    shareTitle += "2019년 6월 대비 변동\n\n"
+    shareURL = "https://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&theme=" + selectedTheme    
+  }  
 
   function selectStartPoint(distance_check){
     titleHtml = "<div class='popupTitle'>임장 시작 단지를 선택하세요</div>";
