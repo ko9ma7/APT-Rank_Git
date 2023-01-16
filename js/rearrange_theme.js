@@ -39,6 +39,11 @@ function showRearrangeBar(){
     rearrangeMenu += "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeNew' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeNew'>최근거래순</label></div>"
     rearrangeMenu += "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeName' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeName'>이름순</label></div>"    
   }
+  else if(selectedTheme == "ratioFrom201906"){
+    rearrangeMenu = "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeDownRatio' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeUpRatio'>상승률순</label></div>"
+    rearrangeMenu += "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeNew' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeNew'>최근거래순</label></div>"
+    rearrangeMenu += "<div><input type='radio' class='btn-check' name='btnRearrange' autocomplete='off' id='rearrangeName' onClick='rearrangeList(this)'><label class='btn btn-outline-danger' for='rearrangeName'>이름순</label></div>"    
+  }
 
   $('.rearrangeArea').html(rearrangeMenu);
   showAPTRearrangeBar()
@@ -50,11 +55,14 @@ function showRearrangeBar(){
     $(".btn-outline-danger").css('border', '1px solid white')
     $('.rearrangeArea').css('grid-template-rows', '2.2em 2.2em')
     $('.rearrangeArea').css('padding-top', '5px')
-    if(selectedTheme != 'hPriceRatio'){
-      $('#rearrangeName').prop("checked", true)
+    if(selectedTheme == 'hPriceRatio'){
+      $('#rearrangeDownRatio').prop("checked", true)      
+    }
+    else if(selectedTheme == 'ratioFrom201906'){
+      $('#rearrangeUpRatio').prop("checked", true)
     }
     else{
-      $('#rearrangeDownRatio').prop("checked", true)
+      $('#rearrangeName').prop("checked", true)
     }
 
     $("#rearrangeCard").animate({
@@ -88,6 +96,9 @@ function showRearrangeBar(){
     }
     if(selectedTheme == "hPriceRatio"){
       rearrangeAPTNotice += " 최고가 대비 변동률"
+    }
+    if(selectedTheme == "ratioFrom201906"){
+      rearrangeAPTNotice += " 19년 6월 대비 변동률"
     }
 
     $('#rearrangeNotice').html(rearrangeAPTNotice)
@@ -158,6 +169,10 @@ function showRearrangeBar(){
       key="최근거래일" 
       type = "desc"       
     }
+    if(rearrangeSelection == "rearrangeUpRatio"){      
+      key="상승률" 
+      type = "desc"       
+    }
 
     data = aptData.data    
     
@@ -176,10 +191,13 @@ function showRearrangeBar(){
       });
     };
     sortData = sortJSON(data, key, type)
-    if(selectedTheme != 'hPriceRatio'){
-      ListUp(sortData, selectedTheme)
+    if(selectedTheme == 'hPriceRatio'){
+      RatioListUp(sortData, selectedTheme)      
+    }
+    else if(selectedTheme == 'ratioFrom201906'){
+      Ratio2ListUp(sortData, selectedTheme)
     }
     else{
-      RatioListUp(sortData, selectedTheme)
+      ListUp(sortData, selectedTheme)
     }
   }
