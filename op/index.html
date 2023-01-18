@@ -64,6 +64,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"  crossorigin="anonymous"></script>
   <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=uod39kursd"></script>
 
   <script src="../js/menu_select_box.js" type="text/javascript"></script>
   <script src="../js/draw_chart.js" type="text/javascript"></script>
@@ -941,7 +942,23 @@
     detailHtml += "<div class='graph' style='height: 200px'> <canvas id='valueChart'></canvas></div>"
     detailHtml += "<div class='comment'>(지역구의 모든 오피스텔에 대해 100점으로 환산한 상대 점수 입니다.)</div>";
     detailHtml += "<hr style='margin-bottom: 0'><div class='rankGraphTitle'>- 균형잡힌 가중치 순위 변동 -</div><div class='graph' style='height: 120px;'> <canvas id='rankChart'></canvas></div>"
-    detailHtml += "</div></div>"    
+    detailHtml += "</div></div>"
+
+    if(Number(selectedMonth) > 202212){
+      //지도
+      detailHtml += "<div class='card'>";      
+      detailHtml += "<div class='card-body' style='padding: 0'>";
+
+      if(apt_type == "분양(예정)"){
+        go_url = "https://hogangnono.com/apt/" + searchCode
+      }else{
+        go_url = "https://new.land.naver.com/complexes/" + searchCode
+      } 
+      detailHtml += "<div id='part_map_wrap' onClick='goMap(go_url)'>"
+      detailHtml += "<div id='detail_map' ></div>"
+      detailHtml += "</div>"
+      detailHtml += "</div></div></div>"
+    }
 
     if(isNaN(transportScore) == false){
       //교통
@@ -1247,6 +1264,39 @@
     $('#exampleModalLabel').html(titleHtml);
     $('#aptDetail').html(detailHtml);
     $('#footer').html(footerHtml);
+
+    //지도 그리는 함수
+    if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+      var dw = $(window).width() - 40;	 
+      //var w = 430;	 
+    }
+    else{
+      var dw = 460;	 
+    }    
+    var dh = 150;
+
+    if(Number(selectedMonth) > 202212){      
+      var detailMapOptions = {
+        center: new naver.maps.LatLng(String(coord_y), String(coord_x)),
+	      size: new naver.maps.Size(dw, dh),
+        zoom: 15, //지도의 초기 줌 레벨
+        zoomControl: false, //줌 컨트롤의 표시 여부
+        draggable: false,
+        pinchZoom: false,
+        scrollWheel: false,
+        keyboardShortcuts: false,
+        disableDoubleTapZoom: true,
+        disableDoubleClickZoom: true,
+        disableTwoFingerTapZoom: true,
+      };
+
+      var detailMap = new naver.maps.Map('detail_map', detailMapOptions);
+      
+      var detailMarker = new naver.maps.Marker({
+          position: new naver.maps.LatLng(String(coord_y), String(coord_x)),
+          map: detailMap
+      });
+    } 
 
     if(broswerInfo.indexOf("inApp")>-1){
       $('.modal-footer').css({"grid-template-columns" : "0.2fr 1fr 0.2fr", "text-align":"center", "text-align": "-webkit-center"})

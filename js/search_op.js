@@ -1,3 +1,7 @@
+function goMap(url){
+  window.open(url, '_blank')
+}
+
 function showSearchBar(){  
   if(selectedRegion == "Korea"){
     showRegionSearchBar()
