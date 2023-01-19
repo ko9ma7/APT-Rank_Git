@@ -72,7 +72,7 @@
   <script src="../js/svg_region.js" type="text/javascript"></script>
   <script src="../js/BIZ_guide.js" type="text/javascript"></script>
 
-  <link href="../css/style_biz.css" rel="stylesheet"/>
+  <link href="./style_biz.css" rel="stylesheet"/>
   <link href="../css/slider.css" rel="stylesheet"/>
   <link href="../css/distance.css" rel="stylesheet"/>
 
@@ -178,9 +178,10 @@
       <div id='contentBox'>
         <div id="themeSelections">        
           <div id="sido_selection"><select id="sido" onChange="sidoChange()"></select></div>
-          <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>
+          <div id="gungu_selection" style="width: 330px"><select id="gungu" onChange="updateRegion()"></select></div>          
           <div id="update_info">업데이트 : 2023-01-03 <br> (2022년 11월 데이터 기준) </div>
           <div id="go_to_aptrank" onClick="openAptrank()"></div>
+          <div id='bizShare'></div>          
         </div>
         <div id="dataWrapper">
           <div id="dataList"></div>
@@ -303,6 +304,15 @@
         }
       }
     });
+
+    if(broswerInfo.indexOf("inApp")>-1){
+      shareHtml = "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"28px\"/></div>"
+    }
+    else{
+      shareHtml = "<div class='bShare' onClick='share(shareTitle, shareText, shareURL)'><button type='button' class='goApt' style='font-size: 0.95em; height: 46px'><i class='fa-solid fa-up-right-from-square'></i> 공유하기</button></div>"      
+    }
+    $('#bizShare').html(shareHtml)
+
   });
 
   function loadStandardInterest_KO(){
@@ -772,6 +782,27 @@ function set_color(score){
   return color_code
 }
 
+function set_status(score){
+  status = ""
+  if(score > very_good['min']){
+    status = "매우좋음"
+  }
+  else if (score <= good['max'] && score > good['min']){
+    status = "좋음"
+  }
+  else if (score <= normal['max'] && score > normal['min']){
+    status = "보통"
+  }
+  else if (score <= bad['max'] && score > bad['min']){
+    status = "나쁨"
+  }
+  else if (score <= very_bad['max'] && score >= very_bad['min']){
+    status = "매우나쁨"
+  }
+
+  return status
+}
+
 function changeRegion(sido){
   find_length = sido.split("_")
 
@@ -800,9 +831,10 @@ function ListUp(listData){
             + "<div style='text-align:center; font-size: 1.5em; line-height: 2em'><i class='fa-solid fa-circle-chevron-right'></i></div>"        
     $('#go_to_aptrank').html(aptrank_link)
 
+    shareTextSum = ""
+
     for(i = 0; i < listData.length; i++){
       var compare_link = listData[i]["Link"]      
-      
       for(j = 1; j <regions.length; j++){
         if(compare_link == regions[j][1]){            
             var region_name = listData[i]["시군구"]
@@ -868,13 +900,23 @@ function ListUp(listData){
                               + "<div>@"+Math.round(price_per_py[3], 0).toLocaleString()+"</div>" + "<div>@"+Math.round(Number(price_per_py[4]), 0).toLocaleString()+"</div>" + "<div>@"+Math.round(price_per_py[5], 0).toLocaleString()+"</div>"
               addon_html += "</div>"
             addon_html += "</div>"
+
+            shareTextSum += "ㆍ" + region_name + " : " + set_status(total_score[0][0]) + '\n'
           }
         }
-    }    
+    }
+    shareTitle = "아파트랭크BIZ "
+    shareTitle += "'" + $('#sido option:selected').text() + "' " + "부동산 시장 현황"
+
+    shareText = "아파트랭크BIZ " + "'" + $('#sido option:selected').text() + "'" + "부동산 시장 현황" +  "\n\n"
+    shareText += shareTextSum
+    
+    shareURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
   }
   else{
     $('#dataList').css("display", "block")
 
+    shareTextSum = ""
     for(i = 0; i < listData.length; i++){
       var compare_link = listData[i]["Link"]
       if(compare_link == selectedSubRegion){
@@ -939,27 +981,39 @@ function ListUp(listData){
               if (pop_rate_3y >= 0){ pop_rate_comment = (pop_rate_3y) + "% 증가"}
 
               eval_summary = "<li>" + region_name + "의 총인구 <u>" + pop_total + "</u> (3년전 대비 <u>'" + pop_rate_comment + "'</u>)"
-              eval_summary += "<li>" +"매매가는 최근 3개월전 가격 대비 <span style='color:" + set_text_color(sales_score[2][2]) + "'>'" + sales_score[2][2] + "세'</span>"              
+              eval_summary += "<li>" + "매매가는 최근 3개월전 가격 대비 <span style='color:" + set_text_color(sales_score[2][2]) + "'>'" + sales_score[2][2] + "세'</span>"
+
+              shareTextSum += "ㆍ" + region_name + "의 총인구 " + pop_total + " (3년전 대비 '" + pop_rate_comment + "')" + "\n"
+              shareTextSum += "ㆍ" + "매매가는 최근 3개월전 가격 대비 '" + sales_score[2][2] + "세'" + "\n"
 
               deal_10y_avg = Number(deal_info[0]).toFixed(0)
               deal_current = Number(deal_info[1])
               deal_rate = ((deal_info[1]/deal_info[0])*100).toFixed(2) + "%"
 
               eval_summary += "<li>" + "거래량은 <u>총 " + deal_current + "건</u>, 10년 평균 대비 <u>" + deal_rate + "</u>로 <span style='color:" + set_text_color(deal_score[0][1]) + "'>'" + deal_score[0][1] + "'</span>"
+              shareTextSum += "ㆍ" + "거래량은 총 " + deal_current + "건, 10년 평균 대비 " + deal_rate + "로 '" + deal_score[0][1] + "'\n"
 
               supply_proper_formatted = Number(supply_proper).toLocaleString()
               supply_volume_year = Number(supply_volume[0]+supply_new_volume[0]).toLocaleString()
               supply_volume_plus_minus = supply_proper - (supply_volume[0]+supply_new_volume[0])
               if(supply_volume_plus_minus < 0){
-                supply_volume_plus_minus = "'<u>" + (supply_volume_plus_minus * -1).toLocaleString() + "세대 과다'</u>로"
+                supply_volume_plus_minus = "'<u>" + (supply_volume_plus_minus * -1).toLocaleString() + "세대 과다'</u>로"                
               }
               else{
-                supply_volume_plus_minus = "'<u>" + supply_volume_plus_minus.toLocaleString() + "세대 부족'</u>으로"
+                supply_volume_plus_minus = "'<u>" + supply_volume_plus_minus.toLocaleString() + "세대 부족'</u>으로"                
               }
+
+              supply_volume_plus_minus_txt = supply_volume_plus_minus.replace("<u>", "")
+              supply_volume_plus_minus_txt = supply_volume_plus_minus_txt.replace("</u>", "")
               
               eval_summary += "<li>" + "공급물량은 당해 기준, <u>총 " + supply_volume_year + "세대</u>가 입주 예정"
+              shareTextSum += "ㆍ" + "공급물량은 당해 기준, 총 " + supply_volume_year + "세대가 입주 예정" + "\n"
+
               eval_summary += "<li>" + "적정공급량 대비 " + supply_volume_plus_minus + " 예상되어 <span style='color:" + set_text_color(supply_score[1]) + "'>'" + supply_score[1] + "'</span>"
+              shareTextSum += "ㆍ" + "적정공급량 대비 " + supply_volume_plus_minus_txt + " 예상되어 '" + supply_score[1] + "'\n"
+
               eval_summary += "<li>" + "종합적 결과, <u>" + region_name + "</u>는 현재 진입하기에 <span style='color:" + set_text_color(total_score[0][1]) + "'>'" + total_score[0][1] + "'</span>"
+              shareTextSum += "ㆍ" + "종합적 결과, " + region_name + "는 현재 진입하기에 '" + total_score[0][1] + "'" + "\n"
 
               addon_html += "<div id='region_summary'>" + eval_summary + "</div>"
             addon_html +="</div>"
@@ -1340,6 +1394,14 @@ function ListUp(listData){
       }
     }
   }
+
+  shareTitle = "아파트랭크BIZ "
+  shareTitle += "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' " + "부동산 시장 현황"
+
+  shareText = "아파트랭크BIZ " + "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' " + "부동산 시장 현황" +  "\n\n"
+  shareText += shareTextSum
+  
+  shareURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
 
   $('#dataList').append(addon_html);
   if(selectedRegion != 'Korea'){
