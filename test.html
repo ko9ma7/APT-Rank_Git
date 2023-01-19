@@ -1594,7 +1594,7 @@ function updateTable(month, region){
       detailHtml += "<div class='priceHistoryOption'>"        
         detailHtml += "<div style='text-align:left; padding-left:10px'><input type='checkbox' id='showGraph' checked='true' onChange='graphShowHide(this)' style='width: 0.8em; height: 0.8em'>"
           detailHtml += "<label for='showGraph' style='font-size: 0.85em; padding-left: 3px'>그래프보기</label></input></div>"
-        detailHtml += "<div style='text-align: right'><select id='pStart' onChange='price_sDateChange(this)'></select> - <select id='pEnd' onChange='price_eDateChange(this)'></select></div>"
+        detailHtml += "<div style='text-align: right'><select id='pStart' onChange='price_sDateChange(this.value)'></select> - <select id='pEnd' onChange='price_eDateChange(this.value)'></select></div>"
       detailHtml += "</div>"
       detailHtml += "<div id='popEducation'>"
       detailHtml += "<div class='popTable'>"
@@ -1831,7 +1831,7 @@ function updateTable(month, region){
           price_eOption += "<option value='" + w + "'>" + "'" + sales_history_date[w].substr(2, 2)+ "." + sales_history_date[w].substr(4, 2)  + "</option>"
       }
       $('#pStart').html(price_sOption)
-      $("#pStart").val(0).prop("selected", true);
+      $("#pStart").val(5).prop("selected", true);
 
       $('#pEnd').html(price_eOption)
       $("#pEnd").val(sales_history_date.length-1).prop("selected", true);
@@ -1839,6 +1839,11 @@ function updateTable(month, region){
       priceChartDraw(priceCharts, sales_history_price, sales_history_date, 0, sales_history_date.length)
     }    
   }
+
+  //초기 그래프 표시 안 함
+  $('.priceGraph').hide()
+    $('.popSubPriceTable').css({'margin-top' : '3px', 'margin-bottom' : '0px'})
+    price_sDateChange( $("#pStart").val() )
 
   function graphShowHide(obj){
     if(obj.checked){
@@ -1851,8 +1856,8 @@ function updateTable(month, region){
     }    
   }
 
-  function price_sDateChange(obj){    
-    startVal = Number(obj.value) + 1
+  function price_sDateChange(val){    
+    startVal = Number(val) + 1
     endVal = $("#pEnd").val()    
 
     eDateOption = ""
@@ -1871,9 +1876,9 @@ function updateTable(month, region){
     priceChartUpdate(priceCharts, sales_history_price, sales_history_date, startVal, endVal)
   }
 
-  function price_eDateChange(obj){    
+  function price_eDateChange(val){    
     startVal = $("#pStart").val()  
-    endVal = Number(obj.value) - 1
+    endVal = Number(val) - 1
 
     priceChartUpdate(priceCharts, sales_history_price, sales_history_date, startVal, endVal)
   }
