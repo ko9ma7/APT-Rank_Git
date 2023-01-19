@@ -62,6 +62,8 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"  crossorigin="anonymous"></script>
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+
 
   <script src="../js/menu_select_box_BIZ.js" type="text/javascript"></script>
   <script src="../js/draw_chart_BIZ.js" type="text/javascript"></script>
@@ -245,11 +247,14 @@
   var broswerInfo = navigator.userAgent;  
 
   $(document).ready(function(){
+
+    Kakao.init(kakaoKey);
+
     var option = ""
     for(i = 0 ; i < regions.length ; i++){
         option += "<option value='" + regions[i][1] + "'>" + regions[i][0] + "</option>"
     }
-    $('#sido').html(option)    
+    $('#sido').html(option)
 
     var lastRegion = localStorage.getItem('lastRegion')
     var lastSubRegion = localStorage.getItem('lastSubRegion')
@@ -306,12 +311,12 @@
     });
 
     if(broswerInfo.indexOf("inApp")>-1){
-      shareHtml = "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)' style='text-align:center'><img src=\"kakao_icon.png\" height=\"40px\"/></div>"
+      shareHtml = "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)' style='text-align:center; font-size: 0.95em; height: 46px'><img src=\"kakao_icon.png\" height=\"36px\"/> 공유하기</div>"
     }
     else{
       shareHtml = "<div class='bShare' onClick='share(shareTitle, shareText, shareURL)'><button type='button' class='goApt' style='font-size: 0.95em; height: 46px'><i class='fa-solid fa-up-right-from-square'></i> 공유하기</button></div>"      
     }
-    $('#bizShare').html(shareHtml)
+    $('#bizShare').html(shareHtml)    
 
   });
 
