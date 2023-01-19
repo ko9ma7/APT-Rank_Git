@@ -1592,7 +1592,7 @@ function updateTable(month, region){
 
       detailHtml += "<div class='card-body' style='padding-top: 5px; padding-left: 5px; padding-right: 5px;'>";
       detailHtml += "<div class='priceHistoryOption'>"        
-        detailHtml += "<div style='text-align:left; padding-left:10px'><input type='checkbox' id='showGraph' checked='true' onChange='graphShowHide(this)' style='width: 0.8em; height: 0.8em'>"
+        detailHtml += "<div style='text-align:left; padding-left:10px'><input type='checkbox' id='showGraph' onChange='graphShowHide(this)' style='width: 0.8em; height: 0.8em'>"
           detailHtml += "<label for='showGraph' style='font-size: 0.85em; padding-left: 3px'>그래프보기</label></input></div>"
         detailHtml += "<div style='text-align: right'><select id='pStart' onChange='price_sDateChange(this.value)'></select> - <select id='pEnd' onChange='price_eDateChange(this.value)'></select></div>"
       detailHtml += "</div>"
@@ -1749,6 +1749,7 @@ function updateTable(month, region){
     $('#aptDetail').html(detailHtml);
     $('#footer').html(footerHtml);
 
+    //지도 그리는 함수
     if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
       var dw = $(window).width() - 60;	 
       //var w = 430;	 
@@ -1837,13 +1838,13 @@ function updateTable(month, region){
       $("#pEnd").val(sales_history_date.length-1).prop("selected", true);
 
       priceChartDraw(priceCharts, sales_history_price, sales_history_date, 0, sales_history_date.length)
-    }    
-  }
+    }
 
-  //초기 그래프 표시 안 함
-  $('.priceGraph').hide()
+    //초기 그래프 표시 안 함
+    $('.priceGraph').hide()
     $('.popSubPriceTable').css({'margin-top' : '3px', 'margin-bottom' : '0px'})
     price_sDateChange( $("#pStart").val() )
+  }
 
   function graphShowHide(obj){
     if(obj.checked){
