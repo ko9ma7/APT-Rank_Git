@@ -913,7 +913,7 @@ function ListUp(listData){
     shareTitle = "아파트랭크BIZ "
     shareTitle += "'" + $('#sido option:selected').text() + "' " + "부동산 시장 현황"
 
-    shareText = "아파트랭크BIZ " + "'" + $('#sido option:selected').text() + "'" + "부동산 시장 현황" +  "\n\n"
+    shareText = "[" + $('#sido option:selected').text() + "]" +  "\n\n"
     shareText += shareTextSum
     
     shareURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
@@ -988,15 +988,15 @@ function ListUp(listData){
               eval_summary = "<li>" + region_name + "의 총인구 <u>" + pop_total + "</u> (3년전 대비 <u>'" + pop_rate_comment + "'</u>)"
               eval_summary += "<li>" + "매매가는 최근 3개월전 가격 대비 <span style='color:" + set_text_color(sales_score[2][2]) + "'>'" + sales_score[2][2] + "세'</span>"
 
-              shareTextSum += "ㆍ" + region_name + "의 총인구 " + pop_total + " (3년전 대비 '" + pop_rate_comment + "')" + "\n"
-              shareTextSum += "ㆍ" + "매매가는 최근 3개월전 가격 대비 '" + sales_score[2][2] + "세'" + "\n"
+              shareTextSum += "ㆍ" + "총인구 " + pop_total + " (3년전 대비 '" + pop_rate_comment + "')" + "\n"
+              shareTextSum += "ㆍ" + "매매가 최근 3개월전 가격 대비 '" + sales_score[2][2] + "세'" + "\n"
 
               deal_10y_avg = Number(deal_info[0]).toFixed(0)
               deal_current = Number(deal_info[1])
               deal_rate = ((deal_info[1]/deal_info[0])*100).toFixed(2) + "%"
 
               eval_summary += "<li>" + "거래량은 <u>총 " + deal_current + "건</u>, 10년 평균 대비 <u>" + deal_rate + "</u>로 <span style='color:" + set_text_color(deal_score[0][1]) + "'>'" + deal_score[0][1] + "'</span>"
-              shareTextSum += "ㆍ" + "거래량은 총 " + deal_current + "건, 10년 평균 대비 " + deal_rate + "로 '" + deal_score[0][1] + "'\n"
+              shareTextSum += "ㆍ" + "거래량 총 " + deal_current + "건, 10년 평균 대비 " + deal_rate + "로 '" + deal_score[0][1] + "'\n"
 
               supply_proper_formatted = Number(supply_proper).toLocaleString()
               supply_volume_year = Number(supply_volume[0]+supply_new_volume[0]).toLocaleString()
@@ -1012,7 +1012,7 @@ function ListUp(listData){
               supply_volume_plus_minus_txt = supply_volume_plus_minus_txt.replace("</u>", "")
               
               eval_summary += "<li>" + "공급물량은 당해 기준, <u>총 " + supply_volume_year + "세대</u>가 입주 예정"
-              shareTextSum += "ㆍ" + "공급물량은 당해 기준, 총 " + supply_volume_year + "세대가 입주 예정" + "\n"
+              shareTextSum += "ㆍ" + "공급물량 당해 기준, 총 " + supply_volume_year + "세대 입주 예정" + "\n"
 
               eval_summary += "<li>" + "적정공급량 대비 " + supply_volume_plus_minus + " 예상되어 <span style='color:" + set_text_color(supply_score[1]) + "'>'" + supply_score[1] + "'</span>"
               shareTextSum += "ㆍ" + "적정공급량 대비 " + supply_volume_plus_minus_txt + " 예상되어 '" + supply_score[1] + "'\n"
@@ -1403,7 +1403,7 @@ function ListUp(listData){
   shareTitle = "아파트랭크BIZ "
   shareTitle += "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' " + "부동산 시장 현황"
 
-  shareText = "아파트랭크BIZ " + "'" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "' " + "부동산 시장 현황" +  "\n\n"
+  shareText = "[" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "]" +  "\n\n"
   shareText += shareTextSum
   
   shareURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
