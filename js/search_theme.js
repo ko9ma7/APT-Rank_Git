@@ -91,9 +91,9 @@
             if(hPrice_info[0] != '거래 정보 없음'){
               addon_html += "<div class='themeListBox'>";
               addon_html += "<div class='content'>";
-              addon_html += "<div style='display: flex'>";
+              addon_html += "<div>";
                 addon_html += "<div class='searched_apt_name'>" + aptName + "</div>";
-                addon_html += "<div class='aptYear' style='font-weight: 600; font-size: 0.8em'>&nbsp" + aptYear + "</div>";
+                addon_html += "<div class='aptYear' style='font-weight: 600; font-size: 0.65em'>" + aptYear + "</div>";
               addon_html += "</div>";
               addon_html += "<div class='searched_apt_info'>"+ house_num.toLocaleString() + "세대 / ";
       
@@ -136,14 +136,13 @@
 
       $(".searched_apt_name:contains('" + input + "')").each(function(){
         var regex = new RegExp(input, 'gi')
-        $(this).html( $(this).text().replace(regex, "<span class='colorTxt'><u>"+input+"</u></span>") );
+        $(this).html( $(this).text().replace(regex, "<span class='colorTxt'>"+input+"</span>") );
       })
       $(".searched_apt_info:contains('" + input + "')").each(function(){
         var regex2 = new RegExp(input, 'gi')
-        $(this).html( $(this).text().replace(regex2, "<span class='colorTxt'><u>"+input+"</u></span>") );
+        $(this).html( $(this).text().replace(regex2, "<span class='colorTxt'>"+input+"</span>") );
       })
-
-      $(".aptYear").css({'font-size' : '0.8em', 'color' : 'gray'})
+      
       $('#themeDataList').append("<div style='height: 2em'></div>");
       $('html').scrollTop(0)
   }

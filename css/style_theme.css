@@ -322,7 +322,8 @@
     color: #fe4040
   }
   .aptYear{
-    font-size: 0.8em;
+    font-size: 0.65em;
+    font-weight: 600;
     color: gray
   }
   .apt_info, .searched_apt_info{
@@ -615,12 +616,17 @@
     text-align: right;
     padding-right: 15px;
   }
-  #search, #sort{
+  #sort{
     font-size: 1.5em;
     color: white;
     text-align: left;
     padding-left: 15px;
-  }  
+  }
+  #search, #sort{
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+  }
   .settingArea{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
