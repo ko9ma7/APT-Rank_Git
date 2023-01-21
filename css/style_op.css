@@ -323,6 +323,10 @@
     font-size: 0.9em;
     color: gray
   }
+  .colorTxt{
+    font-weight: 600;
+    color: #fe4040;
+  }
   .apt_info{
     font-size: 0.7em;
     color:rgb(85, 85, 85);

@@ -224,8 +224,7 @@ function showSearchBar(){
 
               $('#dataList').append(addon_html);
             }            
-          }
-          
+          }          
           if(rearrangeAPTSelection == "rearrangePrice" || !(minValue == 0 && maxValue == 60)){
             $(".aptPrice").css({'color': '#0047ab', 'font-weight': '600'})
           }
@@ -237,6 +236,16 @@ function showSearchBar(){
           }
 
         }
+
+        $(".apt_name:contains('" + input + "')").each(function(){
+          var regex = new RegExp(input, 'gi')
+          $(this).html( $(this).text().replace(regex, "<span class='colorTxt'>"+input+"</span>") );
+        })
+        $(".apt_address:contains('" + input + "')").each(function(){
+          var regex2 = new RegExp(input, 'gi')
+          $(this).html( $(this).text().replace(regex2, "<span class='colorTxt'>"+input+"</span>") );
+        })
+
       $('#dataList').append("<div style='height: 2em'></div>");
       $('html').scrollTop(0)
   }
