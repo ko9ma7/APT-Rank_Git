@@ -78,7 +78,7 @@ function showSearchBar(){
       }
       /*
       //광고정보 표시영역
-      if(partData.data.length > 0){
+      if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
         if(part_type == 'Direct'){
           $('#dataList').append(part_info);
           $('.partBox').click(function(){
