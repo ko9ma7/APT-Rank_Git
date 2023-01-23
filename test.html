@@ -368,6 +368,16 @@
   var sales_history_date = []
   var priceCharts = []
 
+  var today = new Date()
+  var today_year = today.getFullYear();
+  var today_month = dateReturn( (today.getMonth() + 1))
+  var today_day = dateReturn( today.getDate() );
+  var today_num = Number(today_year + today_month + today_day)
+
+  function dateReturn(n){
+    return n<10 ? "0"+n : n
+  }
+
   var broswerInfo = navigator.userAgent;
 
   $(document).ready(function(){
@@ -744,6 +754,10 @@ function updateTable(month, region){
           cell_num_with_pyphen = cell_num.phoneNoRep()
           phone_num_with_pyphen = phone_num.phoneNoRep()
           img_url = part_detail[0]['icon']
+          part_sDate = part_detail[0]['start_date']
+          part_sDate_Num = Number(part_sDate.replace(/-/gi, ""))
+          part_eDate = part_detail[0]['end_date']
+          part_eDate_Num = Number(part_eDate.replace(/-/gi, ""))
           //img_url = "apt-rank_blank2"
           page_url = part_detail[0]['homepage']
         }
@@ -772,7 +786,7 @@ function updateTable(month, region){
         eduSum = 0;
 
         //광고정보 표시영역
-        if(partData.data.length > 0){
+        if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
           if(part_type == 'Direct'){
             $('#dataList').append(part_info);
             $('.partBox').click(function(){
@@ -1426,8 +1440,7 @@ function updateTable(month, region){
       //var current_year = selectedMonth.substr(0, 4)
       //var current_month = selectedMonth.substr(4, 2) - 1
       //var current_day = "01"
-      var start_date = new Date()
-      start_date.setMonth(start_date.getMonth() - 1)      
+      start_date = today.setMonth(today.getMonth() - 1)      
 
       if(isNaN(last_sales_price)){
         detailHtml += "<div class='popResult'>거래 정보 없음</div></div>"
@@ -1438,7 +1451,7 @@ function updateTable(month, region){
         var compare_day = Number(last_sales_date.substr(8, 2))
         var compare_date = new Date(compare_year, compare_month, compare_day)        
 
-        if(compare_date > start_date){
+        if(compare_date > today){
           detailHtml += "<div class='popResult' style='color: #fe4040'>" + last_sales_area + ", " + Math.round(last_sales_price/100)/100 + "억, "+ last_sales_date.substr(2) + "</div></div>"
         }
         else{

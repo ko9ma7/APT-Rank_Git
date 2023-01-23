@@ -84,6 +84,26 @@
         "pandas_version":"1.4.0"
     },
     "data":[
-
+        {
+            "index":0,
+            "request_type":"Pop",
+            "shop_name":"아파트랭크",
+            "owner":"아파트랭크",
+            "main_title":"아파트 입지 분석은 아파트랭크",
+            "sub_title":"객관적이고 표준화된 아파트 입지 분석 정보",
+            "cellphone":"1012345678",
+            "phone":"21234567",
+            "start_date":"2023-01-01",
+            "end_date":"2023-01-23",
+            "duration":60,
+            "address":"서울시 중구 세종대로 110",
+            "email":"aptranking@gmail.com",
+            "icon":"icon_apt_rank.png",
+            "comment":"안녕하세요. 아파트랭크 입니다.\n\n아파트랭크는 '주거', '인프라', '교통', '교육환경'을 AI로 분석하여 점수로 계산하여 입지 정보를 제공하는 서비스 입니다.\n\n아파트랭크의 점수는 '가격' 및 '지형고도'를 제외하고 산정되며, 그 결과는 생각하시는 순위와 크게 다를 수 있습니다.\n\n아파트랭크의 점수는 투자지표가 아님을 말씀드리며, 투자 판단에 대한 모든 책임은 투자자 본인에게 있습니다.",
+            "y":126.977874,
+            "x":37.566271,
+            "homepage":"http:\/\/www.aptrank.kr",
+            "map_url":"https:\/\/naver.me\/xw6Wqj2F"
+        }
     ]
 }
