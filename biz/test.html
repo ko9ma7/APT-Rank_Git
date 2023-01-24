@@ -221,11 +221,11 @@
 
     <div></div>
     <div id='partnership'>
+      <div id="part0"></div>
       <div id="part1"></div>
       <div id="part2"></div>
       <div id="part3"></div>
-      <div id="part4"></div>
-      <div id="part5"></div>      
+      <div id="part4"></div>      
     </div>
     <div></div>
   </div>
@@ -849,38 +849,28 @@ function ListUp(listData){
   $('#dataList').html("");
 
   //광고정보 로딩
-  part_url = "https://www.aptrank.kr/ad/" + selectedSubRegion + "_ad.json"
+  part_url = "https://www.aptrank.kr/ad/biz_partnership.json"
     $.ajaxSetup({ async: false });
     $.getJSON(part_url, function(part_json) {
         partData = part_json;
         part_detail = partData.data
-        if(part_detail.length > 0){
-          part_type = part_detail[0]['request_type']
-          main_title = part_detail[0]['main_title']
-          sub_title = part_detail[0]['sub_title']
-          cell_num = "0" + part_detail[0]['cellphone']          
-          phone_num = "0" + part_detail[0]['phone']
-          cell_num_with_pyphen = cell_num.phoneNoRep()
-          phone_num_with_pyphen = phone_num.phoneNoRep()
+        for( var p = 0 ; p < part_detail.length; p++){
+          shop_name = part_detail[0]['shop_name']          
           part_sDate = part_detail[0]['start_date']
           part_sDate_Num = Number(part_sDate.replace(/-/gi, ""))
           part_eDate = part_detail[0]['end_date']
           part_eDate_Num = Number(part_eDate.replace(/-/gi, ""))
           page_url = part_detail[0]['homepage']
-        }
-
-        //광고정보 표시영역
-        if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){          
-          $('#part1').html(part_info);
-          $('.partBox').click(function(){
-            window.open(page_url)
-          })
-          
-          $('#partSub1').html(sub_title)
-          $('#partTitle').html(main_title)          
-        }
-        else{
-          $('#part1').html(part_default);          
+          partDivID = "#part" + p
+          if(today_num >= part_sDate_Num && today_num <= part_eDate_Num){
+            $(partDivID).html(part_info);
+            $('.partBox').click(function(){
+              window.open(page_url)
+            })
+          }
+          else{
+            $(partDivID).html(part_default);  
+          }
         }
     })
     $.ajaxSetup({ async: true });
