@@ -789,12 +789,28 @@ function ListUp(listData){
 
   var addon_html = ""     
   if(selectedRegion == 'Korea'){
-    $('#dataList').css("display", "grid")
+    $('#dataList').css({"display":"grid", "grid-template-columns":"1fr"})
     //아파트랭크 연결 버튼
     var aptrank_link = "<div><img src = './icon_apt_rank.png' width='40px' height='40px'></div>"
             + "<div style='padding-left: 8px;'>전국 시도 <br> 아파트랭크 정보 보기</div>"
             + "<div style='text-align:center; font-size: 1.5em; line-height: 2em'><i class='fa-solid fa-circle-chevron-right'></i></div>"        
     $('#go_to_aptrank').html(aptrank_link)
+
+    addon_html += "<div id='table_index'>"
+      addon_html += "<div style='grid-column: 1; grid-row: 1/span 2; border-right: 1px solid #ccc'></div>"
+       + "<div style='grid-column: 2 / span 2; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc'>인구</div>"
+       + "<div style='grid-column: 4 / span 2; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc'>가격 (전분기 대비)</div>"
+       + "<div style='grid-column: 6 / span 2; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc'>거래량</div>"
+       + "<div style='grid-column: 8 / span 2; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc'>공급</div>"
+       + "<div style='grid-column: 10 / span 2; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc'>미분양</div>"
+       + "<div style='grid-column: 12; grid-row: 1/span 2; border-right: 1px solid #ccc;'>PIR</div>"
+       + "<div style='grid-column: 13; grid-row: 1/span 2; border-right: 1px solid #ccc;'>K-HAI</div>"
+      addon_html += "<div style='border-right: 1px solid #ccc'>총인구</div>" + "<div style='border-right: 1px solid #ccc'>3년 대비</div>"
+      addon_html += "<div style='border-right: 1px solid #ccc'>매매</div>" + "<div style='border-right: 1px solid #ccc'>전세</div>"
+      addon_html += "<div style='border-right: 1px solid #ccc'>당분기</div>" + "<div style='border-right: 1px solid #ccc'>전분기 대비</div>"
+      addon_html += "<div style='border-right: 1px solid #ccc'>당해</div>" + "<div style='border-right: 1px solid #ccc'>적정공급 대비</div>"
+      addon_html += "<div style='border-right: 1px solid #ccc'>당월</div>" + "<div style='border-right: 1px solid #ccc'>위험수준</div>"
+    addon_html += "</div>"
 
     for(i = 0; i < listData.length; i++){
       var compare_link = listData[i]["Link"]      
@@ -842,14 +858,17 @@ function ListUp(listData){
             var deal_rate_quater_avg = listData[i]["분기별_거래량_상승률"]
             var deal_score = listData[i]["거래량점수"]
 
+            var PIRs_BPs = listData[i]["PIRBP"]
             var regulation_info = listData[i]["규제현황"]
 
             var total_score = listData[i]["총점"]
             var sido_id = compare_link
 
+            $('#dataList').css('row-gap', '0.25em')
+
             addon_html += "<div class='region_info' id='" + sido_id + "' onClick='changeRegion(this.id)'>"
-              addon_html += "<div class='region_status'>"
-                addon_html += "<div class='region_name'>" + "<span style='color:" + set_color(total_score[0]) +"'>●</span>" + " " + region_name + "</div>"
+              /*
+              addon_html += "<div class='region_status'>"                
                 addon_html += "<div style='font-size: 0.8em; font-weight: 600; text-align: right; color: #666666; line-height: 2em'>" + "지역구 현황 :&nbsp" + "</div>"
                 addon_html += "<div class='subregion_traffic'><span style='color:#13a140'>●</span></div>" + "<div class='subregion_num'>" + color_status[0] + "</div>"
                 addon_html += "<div class='subregion_traffic'><span style='color:#66d488'>●</span></div>" + "<div class='subregion_num'>" + color_status[1] + "</div>"
@@ -858,6 +877,7 @@ function ListUp(listData){
                 addon_html += "<div class='subregion_traffic'><span style='color:#B80F0A'>●</span></div>" + "<div class='subregion_num'>" + color_status[4] + "</div>"
                 addon_html += "<div class='subregion_traffic'><span style='color:#dddddd'>●</span></div>" + "<div class='subregion_num'>" + color_status[5] + "</div>"
               addon_html += "</div>"
+              */
               
               addon_html += "<div class = 'region_table1'>"
 
@@ -865,15 +885,73 @@ function ListUp(listData){
                 if(supply_plus_minus < 0){ supply_pm =  Math.abs(supply_plus_minus*-1).toLocaleString() + " 과다"}
                 if(supply_plus_minus >= 0){ supply_pm =  Math.abs(supply_plus_minus).toLocaleString() + " 부족"}
 
-                addon_html += "<div class='table_top'><strong>수요대비</strong></div>" + "<div class='table_top'>총인구</div>" + "<div class='table_top'>적정공급량</div>" + "<div class='table_top'>당해 공급량</div>"
-                addon_html += "<div><strong>" + supply_pm + "</strong></div>" + "<div>" + pop_info[0][0].toLocaleString() +"명</div>" + "<div>"+ supply_proper.toLocaleString() + "세대</div>" + "<div>"+supply_volume[0].toLocaleString()+"세대</div>"
-              addon_html += "</div>"
+                //인구
+                pop_rate_3y = Number(pop_rate[4]).toFixed(2) + "%"
 
-              addon_html += "<div class = 'region_table2'>"
-                addon_html += "<div class='table_top'><strong>평균평단가</strong></div>" + "<div class='table_top'>10평형</div>"
-                              + "<div class='table_top'>20평형</div>" + "<div class='table_top'>30평형</div>" + "<div class='table_top'>40평형</div>" + "<div class='table_top'>50평형↑</div>"
-                addon_html += "<div><strong>@"+Math.round(price_per_py[0], 0).toLocaleString()+"</strong></div>" + "<div>@"+Math.round(price_per_py[1], 0).toLocaleString()+"</div>" + "<div>@"+Math.round(price_per_py[2], 0).toLocaleString()+"</div>"
-                              + "<div>@"+Math.round(price_per_py[3], 0).toLocaleString()+"</div>" + "<div>@" + Math.round( (Number(price_per_py[4])), 0).toLocaleString() + "</div>" + "<div>@"+Math.round(price_per_py[5], 0).toLocaleString()+"</div>"
+                addon_html += "<div class='region_name' style='border-right: 1px solid #ddd;'>" + "<span style='color:" + set_color(total_score[0]) +"'>●</span>" + " " + region_name + "</div>"
+                addon_html += "<div style='text-align: right; padding-right: 15px'>" + pop_info[0][0].toLocaleString() +"명</div>"
+                              + "<div style='border-right: 1px solid #ddd; '>" + pop_rate_3y + "</div>"
+
+                //가격
+                if(sales_rate_quater_avg[sales_rate_quater_avg.length-1] < 0){
+                  last_sales = "<span style='color:#fe4040'>-" + Number(sales_rate_quater_avg[sales_rate_quater_avg.length-1]*-1).toFixed(2) + "% </span>"
+                }
+                else{
+                  last_sales = "<span style='color:#000000'>+" + Number(sales_rate_quater_avg[sales_rate_quater_avg.length-1]).toFixed(2) + "% </span>"
+                }
+
+                if(rent_rate_quater_avg[rent_rate_quater_avg.length-1] < 0){
+                  last_rent = "<span style='color:#fe4040'>-" + Number(rent_rate_quater_avg[rent_rate_quater_avg.length-1]*-1).toFixed(2) + "% </span>"
+                }
+                else{
+                  last_rent = "<span style='color:#000000'>+" + Number(rent_rate_quater_avg[rent_rate_quater_avg.length-1]).toFixed(2) + "% </span>"
+                }                
+
+                addon_html += "<div>" + last_sales + "</div>"
+                              + "<div style='border-right: 1px solid #ddd'>" + last_rent + "</div>"
+
+
+                //거래량
+                deal_3y_avg_text = Number( Number(deal_3y_avg).toFixed(0) ).toLocaleString() + "건"
+                if(deal_rate_quater_avg[deal_rate_quater_avg.length-1] < 0){
+                  last_deal_rate = "<span style='color:#fe4040'>-" + Number(deal_rate_quater_avg[deal_rate_quater_avg.length-1]*-1).toFixed(2) + "% </span>"
+                }
+                else{
+                  last_deal_rate = "<span style='color:#000'>+" + Number(deal_rate_quater_avg[deal_rate_quater_avg.length-1]).toFixed(2) + "% </span>"
+                }
+
+                addon_html += "<div style='text-align: right; padding-right: 15px'>" + deal_3y_avg_text + "</div>"
+                              + "<div style='border-right: 1px solid #ddd'>" + last_deal_rate + "</div>"
+
+                //공급                
+                supply_volume_this_year = (Number(supply_volume[0]) + Number(supply_new_volume[0])).toLocaleString() + "세대"
+                supply_volume_plus_minus = supply_proper - (Number(supply_volume[0]) + Number(supply_new_volume[0]))
+                if(supply_volume_plus_minus < 0){
+                  supply_volume_plus_minus = (supply_volume_plus_minus * -1).toLocaleString() + "세대 과다"
+                }
+                else{
+                  supply_volume_plus_minus = supply_volume_plus_minus.toLocaleString() + "세대 부족"
+                }
+
+                addon_html += "<div style='text-align: right; padding-right: 15px'>" + supply_volume_this_year + "</div>"
+                              + "<div style='border-right: 1px solid #ddd; text-align: right; padding-right: 15px; font-size: 0.85em'>" + supply_volume_plus_minus + "</div>"
+
+                //미분양
+                non_sales_this = Number( Number(non_sales_result[3]).toFixed(0) ).toLocaleString() + "세대"
+
+                addon_html += "<div style='text-align: right; padding-right: 15px'>" + non_sales_this + "</div>"
+                              + "<div style='border-right: 1px solid #ddd; font-size: 0.85em'>" + non_sales_result[1] + "</div>"
+
+                //PIR
+                PIRs = PIRs_BPs[1]
+                BPs = PIRs_BPs[2]
+                PIRBP_quater = PIRs_BPs[0]                
+                recent_PIR = PIRs[PIRs.length-1].toFixed(2) + "년"
+                recent_BP = BPs[BPs.length-1].toFixed(1) + "%"
+
+                addon_html += "<div style='border-right: 1px solid #ddd'>" + recent_PIR + "</div>"
+                addon_html += "<div>" + recent_BP + "</div>"
+
               addon_html += "</div>"
             addon_html += "</div>"
           }
@@ -1405,7 +1483,7 @@ function ListUp(listData){
                 addon_html += "<div class = 'subRegion_deal_table1'>"
                 addon_html += "<div class='table_top'>3년 평균</div>" + "<div class='table_top'>당분기</div>" + "<div class='table_top'>평균대비</div>"
                 
-                deal_3y_avg_text = Number(deal_3y_avg).toFixed(0) + "건"
+                deal_3y_avg_text = Number(deal_3y_avg).toFixed(0) + "건"                
                 deal_current_text = Number(deal_quater_avg[deal_quater_avg.length-1]).toFixed(0) + "건"
                 deal_rate = ((deal_quater_avg[deal_quater_avg.length-1]/deal_3y_avg)*100).toFixed(2) + "%"
 

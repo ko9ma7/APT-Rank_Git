@@ -40,6 +40,22 @@
     background-color: #0c4ea2;
     color: white;
   }
+
+  #table_index{
+    text-align: center;
+    align-content: center;
+    font-weight: 600;
+    font-size: 0.85em;    
+    border-radius: 3px;
+    display: grid;    
+    grid-template-columns: 1fr 1fr 0.7fr 0.7fr 0.7fr 0.8fr 0.9fr 1.1fr 1.1fr 1fr 1.3fr 0.6fr 0.6fr;
+    background: #f1f1f1;
+    box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.3) 0px 1px 3px 1px;    
+  }
+  #table_index > *{
+    height: 100%
+  }
+
   .go_Korea{
     display:grid;    
     position: absolute;
@@ -264,21 +280,22 @@
     display:grid;
     width: 100%;
     height: 100%;
-    border-radius: 5px;    
+    border-radius: 3px;    
     box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.3) 0px 1px 3px 1px;
   }
   .region_info:hover{
-    box-shadow: rgba(0, 177, 204, 0.3) 0px 0px 0px 3px;
+    background: rgba(128, 208, 255, 0.3)
   }
   .table_top{
     background-color: #ddd;
   }
   .region_table1{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 0.80rem;
+    grid-template-columns: 1fr 1fr 0.7fr 0.7fr 0.7fr 0.8fr 0.9fr 1.1fr 1.1fr 1fr 1.3fr 0.6fr 0.6fr;
+    font-size: 0.85em;
+    line-height: 1.7em;
     text-align: center;
-    line-height: 1.4rem;
+    align-content: center;
   }
   .region_table2{
     display:grid;    
@@ -306,11 +323,9 @@
   }
 
   .region_name{
-    font-size: 0.95em;
+    text-align: left;
     font-weight: 600;    
-    justify-items: baseline;
-    padding-left: 8px;
-    line-height: 1.7rem;
+    padding-left: 8px;    
   }
 
   .subRegion_info{
