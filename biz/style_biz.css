@@ -20,6 +20,64 @@
     /*justify-content: center;*/
   }
 
+  #partnership{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 3px;
+    column-gap: 5px;
+    height: 80px;
+  }
+
+  #part0, #part1, #part2, #part3, #part4{
+    height: 80px;
+    width: 100%;    
+  }
+
+  .partBox{
+    font-family:'Spoqa Han Sans Neo', 'sans-serif';
+    align-items: center;
+    border-radius: 6px;
+    height: 80px;
+    background: rgb(233, 233, 233);
+    box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.3) 0px 1px 3px 1px;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  #partText, #partDefaultText{
+    display: flex;    
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    justify-content: center;
+  }
+  #partSub1{
+    padding-left: 15px;
+    color: gray;  
+    font-size: 0.8em;
+    font-weight: 500;
+    white-space:nowrap;
+    text-overflow:clip;
+  }
+  #partTitle{
+    width: auto;
+    padding-left: 15px;
+    font-size: 1em;
+    font-weight: 600;
+    white-space:nowrap;
+    text-overflow:clip;
+  }
+  #partImage{
+    text-align: center;
+  }
+  #partInfo{
+    padding-left: 15px;
+    color: gray;
+    font-size: 0.7em;   
+  }
+
   #standatd_interest{
     display:grid;
     grid-template-columns: 1.5fr 0.5fr;
@@ -39,6 +97,22 @@
     background-color: #162235;
     color: white;
   }
+
+  #table_index{
+    text-align: center;
+    align-content: center;
+    font-weight: 600;
+    font-size: 0.8em;    
+    border-radius: 3px;
+    display: grid;    
+    grid-template-columns: 1fr 1fr 0.7fr 0.8fr 0.9fr 0.7fr 0.7fr 1.1fr 1.1fr 1fr 1.3fr 2fr;
+    background: #f1f1f1;
+    box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.3) 0px 1px 3px 1px;    
+  }
+  #table_index > *{
+    height: 100%
+  }
+
   .go_Korea{
     display:grid;    
     position: absolute;
@@ -67,7 +141,6 @@
   #footer_area{
     display: grid;
     grid-template-columns: 1fr 1800px 1fr;
-    height: 10px;
     position: relative;
     text-align: center;
     width: 100%;
@@ -76,6 +149,7 @@
   #footer_text{
     justify-items: center;
     text-align: right;
+    font-size: 0.85em;
     padding-right: 20px;
     background: #162235;
     color:white;    
@@ -162,8 +236,8 @@
     display: grid;
     grid-template-columns: 1fr 900px 900px 1fr;
     width: 100%;    
-    height: 50px;    
-    line-height: 50px;    
+    height: 40px;    
+    line-height: 40px;    
     z-index: 500;
   }
   #title{
@@ -242,23 +316,25 @@
   }
   .region_info{
     display:grid;
+    font-size: 0.9em;
     width: 100%;
     height: 100%;
-    border-radius: 5px;    
+    border-radius: 3px;    
     box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.3) 0px 1px 3px 1px;
   }
   .region_info:hover{
-    box-shadow: rgba(0, 177, 204, 0.3) 0px 0px 0px 3px;
+    background: rgba(53, 117, 155, 0.3)
   }
   .table_top{
     background-color: #ddd;
   }
   .region_table1{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 0.80rem;
+    grid-template-columns: 1fr 1fr 0.7fr 0.8fr 0.9fr 0.7fr 0.7fr 1.1fr 1.1fr 1fr 1.3fr 2fr;
+    font-size: 0.9em;
+    line-height: 2.2em;
     text-align: center;
-    line-height: 1.4rem;
+    align-content: center;
   }
   .region_table2{
     display:grid;    
@@ -269,28 +345,25 @@
   }
   .region_status{
     display: grid;
-    border-bottom: 1px solid #aaa;    
-    grid-template-columns: 1fr 1fr 15px 20px 15px 20px 15px 20px 15px 20px 15px 20px 15px 20px;
+    padding-left: 3px;    
+    grid-template-columns: 0.85fr 1fr 0.85fr 1fr 0.85fr 1fr 0.85fr 1fr 0.85fr 1fr 0.85fr 1fr;
+    justify-content: center;
   }
   .subregion_traffic{
-    text-align: center;
-    font-size: 0.8em;
+    text-align: center;    
     line-height: 2em;
   }
   .subregion_num{
-    text-align: left;
-    font-size: 0.8em;
+    text-align: left;    
     font-weight: 600;
     padding-left: 1px;
     line-height: 2em;
   }
 
   .region_name{
-    font-size: 0.95em;
+    text-align: left;
     font-weight: 600;    
-    justify-items: baseline;
-    padding-left: 3px;
-    line-height: 1.7rem;
+    padding-left: 8px;    
   }
 
   .subRegion_info{
