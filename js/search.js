@@ -141,7 +141,7 @@ function showSearchBar(){
                 if(rearrangeAPTSelection == "rearrangeNew"){ sortName = "신축순" }
                 if(rearrangeAPTSelection == "rearrangeHouse"){ sortName = "세대수순" }
 
-                var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showDetail(" + i + ")'>";
+                var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#baseModal' id='myModal' onClick='showDetail(" + i + ")'>";
 
                   if(selectedMonth == "202201"){
                     addon_html += "<div class='rank_content'>"
@@ -311,7 +311,7 @@ function showSearchBar(){
         //console.log(valueSum)
 
         if(checkPrice(last_sales[1])){
-          var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showTopDetail(" + i + ")'>";
+          var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#baseModal' id='myModal' onClick='showTopDetail(" + i + ")'>";
 
           addon_html += "<div class='rank_content'>"
           addon_html += "<div class='ranksame'> TOP </div>"
@@ -402,7 +402,7 @@ function showSearchBar(){
           regPopSum += regSortData.data[i]["인구총점"]
           regJobSum += regSortData.data[i]["일자리총점"]
 
-          var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showRegionDetail(" + i + ")'>";          
+          var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#baseModal' id='myModal' onClick='showRegionDetail(" + i + ")'>";          
 
           if(selectedMonth == "202201"){
             addon_html += "<div class='rank_content'>"

@@ -32,6 +32,12 @@
   <meta property="og:description" content="데이터로 분석된 대한민국 아파트 입지">
   <meta property="og:image" content="https://www.aptrank.kr/thumbnail_4.jpg">
   <meta property="og:url" content="https://www.aptrank.kr/">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://www.aptrank.kr/">
+  <meta name="twitter:title" content="아파트랭크">
+  <meta name="twitter:description" content="데이터로 분석된 대한민국 아파트 입지 | 숫자로 보는 아파트 입지 분석, 아파트랭크">
+
   <meta name="keyword" content="아파트랭크, 아파트순위, 부동산, 아파트, 입지, 순위, 아파트입지, 우리동네, 호가, 대장아파트, 최고가, 신고가, 호재, AI, 등수, 아파트 실거래가, 아파트 시세, 재건축, 재개발, 실거래가, 시세, 호가, 매매, 전세, 월세">
   <meta name="description" content="데이터로 분석된 대한민국 아파트 입지 | 숫자로 보는 아파트 입지 분석, 아파트랭크">
   <meta name="author" content="아파트랭크">
@@ -110,8 +116,8 @@
         <!--공유 버튼-->
         <!-- <div id="search" onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div> -->
         <!--단지 가중치 설정 버튼 표시-->
-        <div id='sort' class="position-relative" data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showSorting()'><i class="fa-solid fa-sliders"></i></div>
-        <div id='help' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice()'><i class="fa-solid fa-circle-question"></i></div>
+        <div id='sort' class="position-relative" data-bs-toggle='modal' data-bs-target='#baseModal' id='myModal' onClick='showSorting()'><i class="fa-solid fa-sliders"></i></div>
+        <div id='help' data-bs-toggle='modal' data-bs-target='#baseModal' id='myModal' onClick='showNotice()'><i class="fa-solid fa-circle-question"></i></div>
 
       </div>
 
@@ -138,7 +144,7 @@
       </div>
 
       <!--단지 가중치 표시창-->
-      <!-- <div id="weight" data-bs-toggle='modal' data-bs-target='#exampleModal' onClick='showSorting()'></div> -->
+      <!-- <div id="weight" data-bs-toggle='modal' data-bs-target='#baseModal' onClick='showSorting()'></div> -->
       <div id="weight"></div>
 
       <!--단지 검색창-->
@@ -259,11 +265,11 @@
   <!-- Vertically centered scrollable modal -->
   <!-- Button trigger modal -->
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="baseModal" tabindex="-1" aria-labelledby="baseModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="baseModalLabel">Modal title</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" id='aptDetail'></div>
@@ -500,7 +506,7 @@
             //console.log("startNotice: ", startNotice)
             //console.log("가중치 팝업 표시 : ", alwaysSortingPop)
             showSorting()
-            $('#exampleModal').modal("show");
+            $('#baseModal').modal("show");
           }
         }
         startNotice = false        
@@ -516,7 +522,7 @@
       startNotice = true
       showNotice()
       //초기 진입 시 공지 팝업 표시하는 경우, 변수 startNotice에 true 할당      
-      $('#exampleModal').modal("show");
+      $('#baseModal').modal("show");
     }
   });
 
@@ -718,7 +724,7 @@
             //console.log("POP: ", alwaysSortingPop)
             //console.log("regionSelection: ", regionSelection)
             showSorting()
-            $('#exampleModal').modal("show");                        
+            $('#baseModal').modal("show");                        
         }
         regionSelection = false     
         //*********************************************/
@@ -836,7 +842,7 @@ function updateTable(month, region){
 
             //console.log(valueSum)
 
-            var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#exampleModal' id='aptSelect' onClick='showDetail(" + i + ")'>";
+            var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#baseModal' id='aptSelect' onClick='showDetail(" + i + ")'>";
 
             if(selectedMonth == "202201"){
               addon_html += "<div class='rank'>"
@@ -923,7 +929,7 @@ function updateTable(month, region){
         if(selectedComplex != ""){          
           showDetail(selectedComplex)          
           $('html').scrollTop( 70 * Number(selectedComplex) )
-          $('#exampleModal').modal("show");
+          $('#baseModal').modal("show");
           selectedComplex = ""
         }
 
@@ -1758,7 +1764,7 @@ function updateTable(month, region){
     }
     footerHtml += "</div>"
 
-    $('#exampleModalLabel').html(titleHtml);
+    $('#baseModalLabel').html(titleHtml);
     $('#aptDetail').html(detailHtml);
     $('#footer').html(footerHtml);
 
@@ -1857,6 +1863,39 @@ function updateTable(month, region){
     $('.priceGraph').hide()
     $('.popSubPriceTable').css({'margin-top' : '3px', 'margin-bottom' : '0px'})
     price_sDateChange( $("#pStart").val() )
+
+    changeMetaTag(aptName, aptData.data[index]["법정동주소"], rank, $('#gungu option:selected').text(), kakaoShareURL, aptValue)
+  }
+
+  function changeMetaTag(aptName, addr, rank, short_name, url, aptValue){
+    dong_name = ""
+    split_addr = addr.split(" ")
+    if(split_addr[1].slice(-1) == "구"){
+      dong_name = split_addr[2]
+    }
+    else{
+      dong_name = split_addr[3]
+    }    
+
+    main_title = "'" + dong_name + " " + aptName + "'" + "의 주거, 교통, 인프라, 교육, 입지분석 | 표준화된 아파트랭크 입지분석"
+    $(document).attr("title", main_title); 
+
+    meta_title = "'" + aptName + "'" + "의 입지 점수는 " + aptValue + "점 | 표준화된 아파트랭크 입지분석"
+    $("meta[property='og\\:title']").attr("content", main_title);
+
+    $("meta[property='og\\:url']").attr("content", url );
+
+    meta_description = "'" + aptName + "'" + "의 주거, 교통, 인프라, 교육 환경 분석 정보를 데이터로 확인하세요."
+    $("meta[property='og\\:description']").attr("content", meta_description );
+
+    $("meta[property='og\\:site_name']").attr("content", '아파트랭크' );
+
+    $("meta[name='twitter\\:card']").attr("content", 'summary');
+    $("meta[name='twitter\\:url']").attr("content", url);
+    $("meta[name='twitter\\:title']").attr("content", meta_title);
+    $("meta[name='twitter\\:description']").attr("content", meta_description);
+
+    $('link[rel=canonical]').attr('href', 'https://aptrank.kr/apt/' + aptName);
   }
 
   function graphShowHide(obj){
@@ -2118,7 +2157,7 @@ function updateTable(month, region){
           regPopSum += regData.data[i]["인구총점"]
           regJobSum += regData.data[i]["일자리총점"]
 
-          var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showRegionDetail(" + i + ")'>";
+          var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#baseModal' id='myModal' onClick='showRegionDetail(" + i + ")'>";
 
           if(selectedMonth == "202201"){
             addon_html += "<div class='rank_content'>"
@@ -2408,7 +2447,7 @@ function updateTable(month, region){
     }
     footerHtml += "</div>"
 
-    $('#exampleModalLabel').html(titleHtml);
+    $('#baseModalLabel').html(titleHtml);
     $('#aptDetail').html(detailHtml);
     $('#footer').html(footerHtml);
 
@@ -2504,7 +2543,7 @@ function updateTable(month, region){
     );
     rearrangeSelection = "rearrangeRegionScore"
 
-    $('#exampleModal').modal('hide');
+    $('#baseModal').modal('hide');
     $('#toggleModal1').modal("hide");
     $('#toggleModal2').modal("hide");
 
@@ -2612,7 +2651,7 @@ function updateTable(month, region){
     footerHtml += "</div>"  
 
 
-    $('#exampleModalLabel').html(titleHtml);
+    $('#baseModalLabel').html(titleHtml);
     $('#aptDetail').html(detailHtml);
     $('#footer').html(footerHtml);
 
