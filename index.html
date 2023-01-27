@@ -477,6 +477,10 @@
       }
     });
 
+    $('#baseModal').on('hidden.bs.modal', function() {
+      changeMetaTagToDefault()
+    });
+
     $('div.modal').on('hidden.bs.modal', function() {
       //var hash = this.id;
       //history.replaceState('', document.title, window.location.pathname);
@@ -1836,6 +1840,26 @@
     $("meta[name='twitter\\:description']").attr("content", meta_description);
 
     //$('link[rel=canonical]').attr('href', 'https://aptrank.kr/apt/' + aptName);
+  }
+
+  function changeMetaTagToDefault(){
+    main_title = "아파트랭크 - 데이터로 분석된 아파트 입지 순위"
+    $(document).attr("title", main_title); 
+
+    meta_title = "객관적이고 표준화된 아파트 입지분석 | 아파트랭크"
+    $("meta[property='og\\:title']").attr("content", main_title);
+    
+    $("meta[property='og\\:url']").attr("content", "https://www.aptrank.kr/" );
+    
+    meta_description = "데이터로 분석된 대한민국 아파트 입지"
+    $("meta[property='og\\:description']").attr("content", meta_description );
+    
+    $("meta[property='og\\:site_name']").attr("content", '아파트랭크' );
+
+    $("meta[name='twitter\\:card']").attr("content", 'summary');
+    $("meta[name='twitter\\:url']").attr("content", "https://www.aptrank.kr/");
+    $("meta[name='twitter\\:title']").attr("content", meta_title);
+    $("meta[name='twitter\\:description']").attr("content", meta_description);
   }
 
   function graphShowHide(obj){
