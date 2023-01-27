@@ -19,7 +19,7 @@ function checkMobile(){
 }
 
 var part_default = 
-"<div class='partBox' onClick=\"window.open('https://forms.gle/hNYnz2g8BAQjUgA1A')\">"
+"<div class='partBox' onClick=\"window.open('https://forms.gle/AXNhUed2LYjrgmFLA')\">"
     + "<div id='partDefaultText'>"        
         + "<div id='partTitle' style='text-align:center;'>아파트랭크BIZ 파트너쉽 (광고, 제휴)</div>"
         + "<div id='partSub1' style='text-align:center;'>클릭하면 파트너쉽 신청 양식으로 연결됩니다.</div>"

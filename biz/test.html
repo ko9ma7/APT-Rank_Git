@@ -75,7 +75,7 @@
   <script src="../js/BIZ_guide.js" type="text/javascript"></script>
   <script src="./ad_aptrank_biz.js" type="text/javascript"></script>
 
-  <link href="./style_biz_.css" rel="stylesheet"/>
+  <link href="./style_biz.css" rel="stylesheet"/>
   <link href="../css/slider.css" rel="stylesheet"/>
   <link href="../css/distance.css" rel="stylesheet"/>
 
@@ -90,13 +90,23 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <div id="footer_area">
+  <!-- 타이틀 영역 -->
+  <div id="titleBar_theme">
+    <!--검색 버튼 표시-->
+    <!-- <div id='help' style='font-size: 1.2em' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div> -->
+    <!-- <div id="rearrange" class="position-relative" onClick='showRearrangeBar(this)'><i class="fa-solid fa-arrow-down-wide-short"></i></div> -->
     <div></div>
-    <div style="height: 8px; background: #162235;"></div>
+    <!--타이틀 표시-->
+    <!-- <div id="title" onClick='window.location.reload()'>아파트랭크<span id="themeLogo">BIZ</span> X 파트너를 찾습니다!</div> -->
+    <div id="title" onClick='window.location.reload()'>아파트랭크<span id="themeLogo">BIZ</span><span id="themeLogo">BETA</span><span style='font-weight:400; font-size: 0.85em'>  _www.aptrank.kr/biz</span></div>
+    <div id="footer_text">Copyright 2022 | 아파트랭크BIZ | <a href="mailto:aptranking@gmail.com" style="text-decoration:None; color: white">협업/광고/제휴문의는 aptranking@gmail.com으로 문의해 주세요</a></div>
+    <!--공유 버튼-->        
+    <!-- <div id='tripGuide' data-bs-toggle='modal' data-bs-target='#toggleModal1' id='myModal' onClick='showDistance(routeArray)'><i class="fa-solid fa-route"></i></div> -->
+    
+    <!--단지 가중치 설정 버튼 표시-->        
+    <!-- <div id='help' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice()'><i class="fa-solid fa-circle-question"></i></div> -->
     <div></div>
   </div>
-
-  <!-- 타이틀 영역 -->
 
   <div id="container">
     <div></div>
@@ -203,26 +213,6 @@
     <div></div>
   </div>
   -->
-
-    <!-- 타이틀 영역 -->
-    <div id="titleBar_theme">
-      <!--검색 버튼 표시-->
-      <!-- <div id='help' style='font-size: 1.2em' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div> -->
-      <!-- <div id="rearrange" class="position-relative" onClick='showRearrangeBar(this)'><i class="fa-solid fa-arrow-down-wide-short"></i></div> -->
-      <div></div>
-      <!--타이틀 표시-->
-      <!-- <div id="title" onClick='window.location.reload()'>아파트랭크<span id="themeLogo">BIZ</span> X 파트너를 찾습니다!</div> -->
-      <div id="title" onClick='window.location.reload()'>아파트랭크<span id="themeLogo">BIZ</span><span id="themeLogo">BETA</span><span style='font-weight:400; font-size: 0.85em'>  _www.aptrank.kr/biz</span></div>
-      <div id="footer_text">Copyright 2022 | 아파트랭크BIZ | <a href="mailto:aptranking@gmail.com" style="text-decoration:None; color: white">협업/광고/제휴문의는 aptranking@gmail.com으로 문의해 주세요</a></div>
-      <!--공유 버튼-->        
-      <!-- <div id='tripGuide' data-bs-toggle='modal' data-bs-target='#toggleModal1' id='myModal' onClick='showDistance(routeArray)'><i class="fa-solid fa-route"></i></div> -->
-      
-      <!--단지 가중치 설정 버튼 표시-->        
-      <!-- <div id='help' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice()'><i class="fa-solid fa-circle-question"></i></div> -->
-      <div></div>
-    </div>
-
-  <!--
   <div id="footer_area">
     <div></div>
     <div style="height: 3px; background: #162235;"></div>
@@ -237,7 +227,6 @@
       <div id="part4"></div>      
     </div>
     <div></div>
-  -->
   </div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
