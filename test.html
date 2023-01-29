@@ -1878,7 +1878,12 @@ function updateTable(month, region){
       dong_name = split_addr[2]
     }
     else{
-      dong_name = split_addr[3]
+      if(split_addr[2].slice(-1) == "구"){
+        dong_name = split_addr[3]
+      }
+      else{
+        dong_name = split_addr[2]
+      }
     }    
 
     main_title = "'" + dong_name + " " + aptName + "'" + "의 주거, 교통, 인프라, 교육, 입지분석 | 표준화된 아파트랭크 입지분석"
