@@ -1800,7 +1800,9 @@
       $('#pEnd').html(price_eOption)
       $("#pEnd").val(sales_history_date.length-1).prop("selected", true);
 
-      priceChartDraw(priceCharts, sales_history_price, sales_history_date, 0, sales_history_date.length)
+      if(apt_type != "분양(예정)"){
+        priceChartDraw(priceCharts, sales_history_price, sales_history_date, 0, sales_history_date.length)
+      }
     }
 
     //초기 그래프 표시 안 함
