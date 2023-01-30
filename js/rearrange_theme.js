@@ -195,7 +195,7 @@ function showRearrangeBar(){
         }
       });
     };
-    sortData = sortJSON(data, key, type)
+    sortData.data = sortJSON(data, key, type)
     if(selectedTheme == 'hPriceRatio'){
       RatioListUp(sortData, selectedTheme)      
     }

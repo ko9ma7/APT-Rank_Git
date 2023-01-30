@@ -470,7 +470,7 @@
   .popSubTable{
     display: grid;
     height: 1.8em;
-    grid-template-columns: 1.5fr 1fr;    
+    grid-template-columns: 1fr 1.5fr;    
     margin-top: 10px;
     margin-bottom: 10px;
     border-bottom: solid 1px rgb(216, 216, 216);
@@ -713,6 +713,9 @@
     margin-bottom: 10px;
     word-wrap: break-word;
     word-break: keep-all;
+  }
+  .modal-title{
+    width: 100%;
   }
   .modal-footer{
     display: grid;
