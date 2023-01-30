@@ -205,6 +205,10 @@
     padding-bottom: 0.5em;
   }
 
+  .themeListBox:active{
+    background: #ffdfde
+  }
+
   .themeDongList{
     display: grid;    
     align-items: left;    
@@ -470,9 +474,17 @@
   .popSubTable{
     display: grid;
     height: 1.8em;
-    grid-template-columns: 1fr 1.5fr;    
-    margin-top: 10px;
-    margin-bottom: 10px;
+    grid-template-columns: 1fr 1.5fr;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px rgb(216, 216, 216);
+  }
+  .popSubTable2{
+    display: grid;
+    height: 3em;
+    grid-template-columns: 0.3fr 1fr;    
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-bottom: solid 1px rgb(216, 216, 216);
   }
   .popSubPriceTable{

@@ -1616,9 +1616,9 @@
       detailHtml += "<div class='popSubTable'><div class='popContent'; style='font-weight: 600'>" + "변동률" + "</div>"
                  + "<div class='popResult' style='color: blue'>▼" + Math.abs(gap_ratio).toFixed(2) + "% (" + (gap_price/10000).toFixed(2) +"억)</div></div>";
 
-      detailHtml += "<div class='popSubTable'><div class='popContent' font-weight: 600'>" + "변동가격" + "</div>"
+      detailHtml += "<div class='popSubTable2'><div class='popContent' font-weight: 600'>" + "변동가격" + "</div>"
 
-                 + "<div class='popResult'>" + hPrice + "억 (" + hPrice_date + ") → " + cPrice + "억 (" + cPrice_date +")" + "</div></div>";                 
+                 + "<div class='popResult'>" + hPrice + "억 (" + hPrice_date + ") <br>→ " + cPrice + "억 (" + cPrice_date +")" + "</div></div>";                 
       detailHtml += "<div class='popSubTable'><div class='popContent' font-weight: 600'>" + "평형" + "</div>"
                  + "<div class='popResult'>" + apt_p + "(" + apt_m + "㎡)" + "</div></div>";
       
@@ -1652,8 +1652,8 @@
         shareText += "ㆍ변동률 : " + "▲" + Math.abs(gap_ratio).toFixed(2) + "% (" + (gap_price/10000).toFixed(2) +"억)" + "\n"
       }                 
 
-      detailHtml += "<div class='popSubTable'><div class='popContent' font-weight: 600'>" + "변동가격" + "</div>"
-                 + "<div class='popResult'>" + + hPrice + "억 (" + hPrice_date + ") → " + cPrice + "억 (" + cPrice_date +")" + "</div></div>"; 
+      detailHtml += "<div class='popSubTable2'><div class='popContent' font-weight: 600'>" + "변동가격" + "</div>"
+                 + "<div class='popResult'>" + + hPrice + "억 (" + hPrice_date + ") <br>→ " + cPrice + "억 (" + cPrice_date +")" + "</div></div>"; 
 
       detailHtml += "<div class='popSubTable'><div class='popContent' font-weight: 600'>" + "평형" + "</div>"
                  + "<div class='popResult'>" + apt_p + "(" + apt_m + "㎡)" + "</div></div>";
@@ -1713,7 +1713,7 @@
     else{
       var dw = 480;	 
     }    
-    var dh = 250;
+    var dh = 200;
 
     var detailMapOptions = {
       center: new naver.maps.LatLng(String(coord_y), String(coord_x)),
