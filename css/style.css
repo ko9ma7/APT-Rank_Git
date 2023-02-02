@@ -241,7 +241,7 @@
   #part_title{
     display: grid;
     min-width: 100%;
-    grid-template-columns: 1fr 110px;
+    grid-template-columns: 1fr 100px;
   }
   #part_map_wrap{
     width: 100%;
