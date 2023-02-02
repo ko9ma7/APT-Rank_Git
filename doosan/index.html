@@ -198,7 +198,7 @@
           <div id="sido_selection"><select id="sido" onChange="sidoChange()"></select></div>
           <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>          
           <div></div>
-          <div id="update_info" style="text-align: right; padding-right: 20px">업데이트 : 2022-12-02 <br> (2022년 11월 데이터 기준) </div>
+          <div id="update_info" style="text-align: right; padding-right: 20px">업데이트 : 2022-02-02 <br> (2022년 12월 데이터 기준) </div>
           <div class='appointment' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showAppointmentResult()'><button type='button' class='goApt' style='font-size: 0.9em'>주간 아파트 청약 결과</button></div>
         </div>
         <div id="dataWrapper">
@@ -499,7 +499,7 @@
     
     //url = "https://www.aptrank.kr/biz/" + region + ".json"
     //url = "https://www.aptrank.kr/biz/Location_Build_Valuated.json"
-    url = "https://www.aptrank.kr/doosan/BIZ_Valuated_Doosan_202211.json"
+    url = "https://www.aptrank.kr/doosan/BIZ_Valuated_Doosan_202212.json"
 
     $.getJSON(url, function(json) {
         //console.log(json);
@@ -1748,7 +1748,7 @@ function showAppointmentResult(){
   modal_info = "<div id='appointmentResult'>"
       +"<div><img src='./appointment/01.png' width='100%'/></div>"
       +"<div><img src='./appointment/02.png' width='100%'/></div>"
-      +"<div><img src='./appointment/03.png' width='100%'/></div>"
+      //+"<div><img src='./appointment/03.png' width='100%'/></div>"
       //+"<div><img src='./appointment/04.png' width='100%'/></div>"
     +"</div>"
 

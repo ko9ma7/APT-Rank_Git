@@ -63,6 +63,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="shortcut icon" href="https://www.aptrank.kr/apr-rank.png"/>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/spoqa-han-sans/3.2.1/css/SpoqaHanSansNeo.min.css' rel='stylesheet' type='text/css'>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
@@ -123,7 +126,8 @@
         <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>    
         <div id="month_selection">
           <select id="month" onChange="updateMonth()">
-            <option value="202301" selected>2023년 01월</option>
+            <option value="202302" selected>2023년 02월</option>
+            <option value="202301">2023년 01월</option>
             <option value="202212">2022년 12월</option>
             <option value="202211">2022년 11월</option>
             <option value="202210">2022년 10월</option>
@@ -329,7 +333,7 @@
 
 
 <script>
-  var selectedMonth = "202301"
+  var selectedMonth = "202302"
   var selectedRegion = "Seoul"
   var selectedSubRegion = "1168000000_Seoul_Gangnam"
   var selectedComplex = ""
@@ -355,6 +359,7 @@
   var prevValue = 0;
   var regData = "";
   var regSortData = "";
+  var adData = "";
 
   var modalState = 0;
   var searchState = 0;
@@ -370,10 +375,17 @@
   var sales_history_date = []
   var priceCharts = []
 
-  var broswerInfo = navigator.userAgent;
+  var today = new Date()
+  var today_year = today.getFullYear();
+  var today_month = dateReturn( (today.getMonth() + 1))
+  var today_day = dateReturn( today.getDate() );
+  var today_num = Number(today_year + today_month + today_day)
 
-  var url = window.location.href;
-  var host = window.location.host;
+  function dateReturn(n){
+    return n<10 ? "0"+n : n
+  }
+
+  var broswerInfo = navigator.userAgent;
 
   $(document).ready(function(){
     //document.cookie = "safeCookie1=foo; SameSite=Lax";
@@ -479,7 +491,7 @@
 
     $('#baseModal').on('hidden.bs.modal', function() {
       changeMetaTagToDefault()
-    });
+    });    
 
     $('div.modal').on('hidden.bs.modal', function() {
       //var hash = this.id;
@@ -511,7 +523,7 @@
       }
     })
 
-    if($.cookie('popCookie') != "202301"){
+    if($.cookie('popCookie') != "202302"){
       startNotice = true
       showNotice()
       //초기 진입 시 공지 팝업 표시하는 경우, 변수 startNotice에 true 할당      
@@ -729,13 +741,41 @@
     showWeight()
   }
 
-  function updateTable(month, region){
+function updateTable(month, region){
     //$('div.modal').modal("hide");    
     $('#sort').css("visibility", "visible")
     $('#rearrange').css("visibility", "visible")
     //$('html').scrollTop(0)
     //initSorting()
-    url = "https://www.aptrank.kr/" + month + "/" + region + ".json"    
+
+    $('#dataList').html("");
+
+    //광고정보 로딩
+    part_url = "https://www.aptrank.kr/ad/" + region + "_ad.json"
+    $.ajaxSetup({ async: false });
+    $.getJSON(part_url, function(part_json) {
+        partData = part_json;
+        part_detail = partData.data
+        if(part_detail.length > 0){
+          part_type = part_detail[0]['request_type']
+          main_title = part_detail[0]['main_title']
+          sub_title = part_detail[0]['sub_title']
+          cell_num = "0" + part_detail[0]['cellphone']          
+          phone_num = "0" + part_detail[0]['phone']
+          cell_num_with_pyphen = cell_num.phoneNoRep()
+          phone_num_with_pyphen = phone_num.phoneNoRep()
+          img_url = part_detail[0]['icon']
+          part_sDate = part_detail[0]['start_date']
+          part_sDate_Num = Number(part_sDate.replace(/-/gi, ""))
+          part_eDate = part_detail[0]['end_date']
+          part_eDate_Num = Number(part_eDate.replace(/-/gi, ""))
+          //img_url = "apt-rank_blank2"
+          page_url = part_detail[0]['homepage']
+        }
+    })
+    $.ajaxSetup({ async: true });
+
+    url = "https://www.aptrank.kr/" + month + "/" + region + ".json"
 
     $.getJSON(url, function(json) {        
         sortData = json;
@@ -745,8 +785,7 @@
         aptData_original = json;
     })
 
-    $.getJSON(url, function(json) {
-        $('#dataList').html("");
+    $.getJSON(url, function(json) {        
         //console.log(json);
         aptData = json;         
         //sortData = json;
@@ -757,6 +796,28 @@
         infraSum = 0;
         eduSum = 0;
 
+        //광고정보 표시영역
+        if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
+          if(part_type == 'Direct'){
+            $('#dataList').append(part_info);
+            $('.partBox').click(function(){
+              window.open(page_url)
+            })
+          }
+          if(part_type == 'Pop'){
+            $('#dataList').append(part_pop);
+          }
+          
+          $('#partSub1').html(sub_title)
+          $('#partTitle').html(main_title)          
+          $('#partInfo').html(cell_num_with_pyphen + " / " + phone_num_with_pyphen)
+          $('#partImage').html("<img src='./ad/image/" + img_url + "' height='58px'>")
+        }
+        else{
+          $('#dataList').append(part_default);
+          $('.partBox').css({'grid-template-columns':'1fr'})
+        }
+        
         for(var i = 0 ; i < itemNum ; i++){
           var aptName = aptData.data[i]["아파트명"]
           var apt_m = aptData.data[i]["전용면적(m2)"]
@@ -1130,6 +1191,7 @@
       detailHtml += "</div>"
       detailHtml += "</div></div></div>"
     }
+
     //주거
     detailHtml += "<div class='card'>";
     detailHtml += "<div class='card-header'>";
@@ -1389,8 +1451,7 @@
       //var current_year = selectedMonth.substr(0, 4)
       //var current_month = selectedMonth.substr(4, 2) - 1
       //var current_day = "01"
-      var start_date = new Date()
-      start_date.setMonth(start_date.getMonth() - 1)      
+      start_date = today.setMonth(today.getMonth() - 1)      
 
       if(isNaN(last_sales_price)){
         detailHtml += "<div class='popResult'>거래 정보 없음</div></div>"
@@ -1401,7 +1462,7 @@
         var compare_day = Number(last_sales_date.substr(8, 2))
         var compare_date = new Date(compare_year, compare_month, compare_day)        
 
-        if(compare_date > start_date){
+        if(compare_date > today){
           detailHtml += "<div class='popResult' style='color: #fe4040'>" + last_sales_area + ", " + Math.round(last_sales_price/100)/100 + "억, "+ last_sales_date.substr(2) + "</div></div>"
         }
         else{
@@ -1714,7 +1775,7 @@
 
     //지도 그리는 함수
     if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-      var dw = $(window).width() - 40;	 
+      var dw = $(window).width() - 60;	 
       //var w = 430;	 
     }
     else{
@@ -1724,7 +1785,7 @@
 
     if(Number(selectedMonth) > 202212){      
       var detailMapOptions = {
-        center: new naver.maps.LatLng(String(coord_y), String(coord_x)),
+        center: new naver.maps.LatLng(Number(coord_y), Number(coord_x)),
 	      size: new naver.maps.Size(dw, dh),
         zoom: 15, //지도의 초기 줌 레벨
         zoomControl: false, //줌 컨트롤의 표시 여부
@@ -1737,13 +1798,13 @@
         disableTwoFingerTapZoom: true,
       };
 
-      var detailMap = new naver.maps.Map('detail_map', detailMapOptions);
+      var detailMap = new naver.maps.Map('detail_map', detailMapOptions);    
       
       var detailMarker = new naver.maps.Marker({
-          position: new naver.maps.LatLng(String(coord_y), String(coord_x)),
+          position: new naver.maps.LatLng(Number(coord_y), Number(coord_x)),
           map: detailMap
       });
-    } 
+    }
 
     if(broswerInfo.indexOf("inApp")>-1){
       $('.modal-footer').css({"grid-template-columns" : "0.2fr 1fr 0.2fr", "text-align":"center", "text-align": "-webkit-center"})
@@ -1827,18 +1888,18 @@
         dong_name = split_addr[2]
       }
     }    
-    
+
     main_title = "'" + dong_name + " " + aptName + "'" + "의 주거, 교통, 인프라, 교육, 입지분석 | 표준화된 아파트랭크 입지분석"
     $(document).attr("title", main_title); 
 
     meta_title = "'" + aptName + "'" + "의 입지 점수는 " + aptValue + "점 | 표준화된 아파트랭크 입지분석"
     $("meta[property='og\\:title']").attr("content", main_title);
-    
+
     $("meta[property='og\\:url']").attr("content", url );
-    
+
     meta_description = "'" + aptName + "'" + "의 주거, 교통, 인프라, 교육 환경 분석 정보를 데이터로 확인하세요."
     $("meta[property='og\\:description']").attr("content", meta_description );
-    
+
     $("meta[property='og\\:site_name']").attr("content", '아파트랭크' );
 
     $("meta[name='twitter\\:card']").attr("content", 'summary');
@@ -1867,7 +1928,7 @@
     $("meta[name='twitter\\:url']").attr("content", "https://www.aptrank.kr/");
     $("meta[name='twitter\\:title']").attr("content", meta_title);
     $("meta[name='twitter\\:description']").attr("content", meta_description);
-  }
+  }  
 
   function graphShowHide(obj){
     if(obj.checked){
@@ -1880,7 +1941,7 @@
     }    
   }
 
-  function price_sDateChange(val){
+  function price_sDateChange(val){    
     startVal = Number(val) + 1
     endVal = $("#pEnd").val()    
 
@@ -2591,6 +2652,7 @@
     if(selectedMonth == "202211"){ detailHtml += notice_202211 }
     if(selectedMonth == "202212"){ detailHtml += notice_202212 }
     if(selectedMonth == "202301"){ detailHtml += notice_202301 }
+    if(selectedMonth == "202302"){ detailHtml += notice_202302 }
 
     detailHtml += "<div class='popupTitle' style='text-align: center; padding-bottom: 1em'>아파트랭크란?</div>";
     detailHtml +=  "<div class='notice'>아파트랭크는 '주거', '인프라', '교통', '교육환경'을 AI로 분석하여 점수로 계산하여 입지 정보를 제공하는 서비스 입니다.</div>"
@@ -2630,7 +2692,7 @@
     $('#footerBtn3').css({"grid-column" : "span 2"})
     $('.modal-footer').css({"padding-top" : "3px"})
 
-    if($.cookie('popCookie') != '202301'){
+    if($.cookie('popCookie') != '202302'){
       $('#flexCheckDefault').prop("checked", false)
     }
     else{
@@ -2640,7 +2702,7 @@
     $('#flexCheckDefault').change(function(){
       if($(this).is(':checked')){
         //console.log("CHECKED!!")
-        $.cookie('popCookie', '202301', { expires: 7, path: '/' });
+        $.cookie('popCookie', '202302', { expires: 7, path: '/' });
         console.log($.cookie('popCookie'))
       }
       else{

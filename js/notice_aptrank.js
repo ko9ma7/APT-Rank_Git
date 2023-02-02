@@ -1,3 +1,15 @@
+var notice_202302 = 
+"<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2023년 2월 업데이트 안내 (2023-02-02)</div>"
++"<ul>"
++"<li><div class='notice'>교육통계서비스 기반 2022년 하반기 초등학교 정보 업데이트 했습니다.</div></li>"
++"<li><div class='notice'>경기도 일부 지역구의 주요역 도착 예상 시간을 오전 7:50분 부터로 계산 변경 적용했습니다. <br> (경기도 및 광역시는 점차적으로 적용 예정입니다.)</div></li>"
++"<li><div class='notice'>2023년 2월 인구 변동 정보 업데이트 했습니다.</div></li>"
++"<li><div class='notice'>교육 감점 요소인 유흥시설/모텔 정보 업데이트 했습니다.</div></li>"
++"<li><div class='notice'>KB월간 시계열 기준 1월 시군구 정보 반영했습니다.</div></li>"
++"<li><div class='notice'>배너 광고 영역 추가 했습니다.</div></li>"
++"</ul>"      
++"<hr>"
+
 var notice_202301 = 
 "<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2023년 1월 업데이트 안내 (2023-01-04)</div>"
 +"<ul>"
