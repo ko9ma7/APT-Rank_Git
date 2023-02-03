@@ -76,7 +76,6 @@ function showSearchBar(){
       if(sortSelection == "sortDefault"){
         sortData = aptData
       }
-      /*
       //광고정보 표시영역
       if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
         if(part_type == 'Direct'){
@@ -90,15 +89,19 @@ function showSearchBar(){
         }
         
         $('#partSub1').html(sub_title)
-        $('#partTitle').html(main_title)
-        $('#partInfo').html(cell_num_with_pyphen + " / " + phone_num_with_pyphen)
-        $('#partImage').html("<img src='./ad/" + img_url + "' height='49px'>")
+        $('#partTitle').html(main_title)          
+        if(sub_comment == ""){
+          $('#partInfo').html(cell_num_with_pyphen + " / " + phone_num_with_pyphen)
+        }
+        else{
+          $('#partInfo').html(sub_comment)
+        }
+        $('#partImage').html("<img src='./ad/image/" + img_url + "' height='58px'>")
       }
       else{
         $('#dataList').append(part_default);
         $('.partBox').css({'grid-template-columns':'1fr'})
       }
-      */
 
       for(var i = 0 ; i < sortData.data.length ; i++){
             var aptName = sortData.data[i]["아파트명"]
