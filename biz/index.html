@@ -858,11 +858,11 @@ function ListUp(listData){
           part_sDate = part_detail[p]['start_date']
           part_sDate_Num = Number(part_sDate.replace(/-/gi, ""))
           part_eDate = part_detail[p]['end_date']
-          part_eDate_Num = Number(part_eDate.replace(/-/gi, ""))
-          page_url = part_detail[p]['homepage']
-          part_image = part_detail[p]['icon']
+          part_eDate_Num = Number(part_eDate.replace(/-/gi, ""))          
           partDivID = "#part" + p
           if(today_num >= part_sDate_Num && today_num <= part_eDate_Num){
+            page_url = part_detail[p]['homepage']
+            part_image = part_detail[p]['icon']
             $(partDivID).html(part_biz);
             $('.partBox').html('<img src=../ad/image/' + part_image + '>')
             $('.partBox').click(function(){
