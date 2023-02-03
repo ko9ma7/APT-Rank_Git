@@ -36,6 +36,9 @@ var part_info =
         + "</div>"
     + "</div>"
 
+var part_biz =
+"<div class='partBox' id='partSelect'></div>"    
+
 var part_pop =
 "<div class='partBox' data-bs-toggle='modal' data-bs-target='#toggleModal1' id='partSelect' onClick='showPART()'>"
     + "<div id='partText'>"
