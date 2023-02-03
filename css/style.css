@@ -250,7 +250,7 @@
   }
   #part_map, #detail_map{
     width: 100%;
-    height: 200px;
+    height: 150px;
   }
   .searchedListBox{    
     align-items: center;
