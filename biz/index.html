@@ -878,8 +878,8 @@ function ListUp(listData){
 
   var addon_html = ""     
   if(selectedRegion == 'Korea'){
-    $('#dataList').css("display", "grid")
-    $('#dataList').css("grid-template-columns", "1fr")
+    //$('#dataList').css("display", "grid")
+    //$('#dataList').css("grid-template-columns", "1fr")
     //아파트랭크 연결 버튼
     var aptrank_link = "<div><img src = './icon_apt_rank.png' width='40px' height='40px'></div>"
             + "<div style='padding-left: 8px;'>전국 시도 <br> 아파트랭크 정보 보기</div>"
@@ -945,7 +945,7 @@ function ListUp(listData){
             var total_score = listData[i]["총점"]
             var sido_id = compare_link
 
-            $('#dataList').css('row-gap', '0.25em')
+            //$('#dataList').css('row-gap', '0.25em')
 
             addon_html += "<div class='region_info' id='" + sido_id + "' onClick='changeRegion(this.id)'>"              
               addon_html += "<div class = 'region_table1'>"
@@ -1022,7 +1022,7 @@ function ListUp(listData){
     shareURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
   }
   else{
-    $('#dataList').css("display", "block")
+    //$('#dataList').css("display", "block")
 
     shareTextSum = ""
     for(i = 0; i < listData.length; i++){
@@ -1400,6 +1400,7 @@ function ListUp(listData){
               
             addon_html += "</div>"
 
+            //공급물량
             addon_html += "<div class='subRegion_info'>"              
 
               addon_html += "<div class='subRegion_title'>"
@@ -1442,6 +1443,7 @@ function ListUp(listData){
               addon_html += "</div>"
             addon_html += "</div>"
 
+            //미분양
             addon_html += "<div class='subRegion_info'>"              
 
               if(non_sales[0] == '6개월 미분양위험'){ non_sales_score = 0; non_sales_status = non_sales[0] }
@@ -1498,7 +1500,52 @@ function ListUp(listData){
                               + "<div>" + non_sales_2m + "</div>" + "<div>" + non_sales_1m + "</div>"
               addon_html += "</div>"
             addon_html += "</div>"
-          addon_html += "</div>"
+
+            var regName = $('#sido option:selected').text() + " " + $('#gungu option:selected').text()
+            regName = regName.replace(" 전체", "")
+
+            //매매, 전세가격지수
+            if(rateExist.includes(regName)){
+              addon_html += "<div class='subRegion_info2' style='grid-column: 1 / span 2;'>"
+                addon_html += "<div class='subRegion_title'>"
+                  addon_html += "<div class='subRegion_name'>매매/전세 지수</div>"
+                  addon_html += "<div class='subRegion_qna'></div>"
+                addon_html += "</div>"
+                addon_html += "<div class='graph' style='height: 250px;'> <canvas id='priceRateChart'></canvas></div>"
+              addon_html += "</div>"
+
+              var dateArray = ["", ""]
+              var salesArray = [null, null]
+              var rentArray = [null, null]
+
+              rate_url = "https://www.aptrank.kr/202302/Price_Rate/" + regName + ".json"
+
+              $.getJSON(rate_url, function(json) {                
+                rateData = json
+                console.log(rateData)
+                for (var i = (rateData.data).length-60 ; i < (rateData.data).length ; i++){
+                  pushed_date = "'"+(rateData.data[i]["Date"]).toString().substr(2, 2) + "." + (rateData.data[i]["Date"]).toString().substr(4, 2)
+                  dateArray.push(pushed_date)
+                  salesArray.push(rateData.data[i]["Sales"])
+                  rentArray.push(rateData.data[i]["Rent"])
+                }
+
+                dateArray.push("")
+                dateArray.push("")
+                salesArray.push(null)
+                salesArray.push(null)
+                rentArray.push(null)
+                rentArray.push(null)
+
+                drawPriceRateChart(dateArray, salesArray, rentArray)
+              })
+              $('.subRegion_info2').show()
+            }
+            else{
+              $('.subRegion_info2').hide()
+            }
+          addon_html += "</div></div>"
+          addon_html += "<div></div>"
       }
     }
   }

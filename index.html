@@ -2534,8 +2534,9 @@ function updateTable(month, region){
 
       $.getJSON(url, function(json) {
         rateData = json
-        for (var i = 0 ; i < (rateData.data).length ; i++){
-          dateArray.push(rateData.data[i]["Date"])
+        for (var i = (rateData.data).length-36 ; i < (rateData.data).length ; i++){
+          pushed_date = "'"+(rateData.data[i]["Date"]).toString().substr(2, 2) + "." + (rateData.data[i]["Date"]).toString().substr(4, 2)
+          dateArray.push(pushed_date)
           salesArray.push(rateData.data[i]["Sales"])
           rentArray.push(rateData.data[i]["Rent"])
         }
