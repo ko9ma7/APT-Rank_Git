@@ -376,7 +376,7 @@
       showWeight()
       //aptData = aptData_original      
       //aptSearch()
-      updateTable(selectedMonth, selectedSubRegion)
+      updateTable(selectedMonth, selectedSubRegion)      
       $('html').scrollTop(0)
       //updateRegion()
     }
@@ -397,8 +397,7 @@
       else{
         total = Number(valLiving) + Number(valInfra) + Number(valEdu)      
         rearrange(sortData, valLiving/total, 0, valInfra/total, valEdu/total)
-      }
-      
+      }     
       aptSearch()
       $('html').scrollTop(0)
     }
@@ -406,7 +405,7 @@
       showWeight()
       //aptData = aptData_original      
       //aptSearch()
-      updateTable(selectedMonth, selectedSubRegion)
+      updateTable(selectedMonth, selectedSubRegion)      
       $('html').scrollTop(0)
       //updateRegion()
     }

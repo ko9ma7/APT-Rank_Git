@@ -758,7 +758,7 @@ function updateTable(month, region){
         part_detail = partData.data
         if(part_detail.length > 0){
           part_type = part_detail[0]['request_type']
-          main_title = part_detail[0]['main_title']
+          part_main_title = part_detail[0]['main_title']
           sub_title = part_detail[0]['sub_title']
           sub_comment = part_detail[0]['sub_comment']
           cell_num = "0" + part_detail[0]['cellphone']          
@@ -810,7 +810,7 @@ function updateTable(month, region){
           }
           
           $('#partSub1').html(sub_title)
-          $('#partTitle').html(main_title)          
+          $('#partTitle').html(part_main_title)
           if(sub_comment == ""){
             $('#partInfo').html(cell_num_with_pyphen + " / " + phone_num_with_pyphen)
           }

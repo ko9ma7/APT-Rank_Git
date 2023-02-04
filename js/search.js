@@ -73,9 +73,6 @@ function showSearchBar(){
       console.log(maxValue/2*10000) 
       input = $('#inputSearch').val()
 
-      if(sortSelection == "sortDefault"){
-        sortData = aptData
-      }
       //광고정보 표시영역
       if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
         if(part_type == 'Direct'){
@@ -89,7 +86,7 @@ function showSearchBar(){
         }
         
         $('#partSub1').html(sub_title)
-        $('#partTitle').html(main_title)          
+        $('#partTitle').html(part_main_title)
         if(sub_comment == ""){
           $('#partInfo').html(cell_num_with_pyphen + " / " + phone_num_with_pyphen)
         }
@@ -101,6 +98,10 @@ function showSearchBar(){
       else{
         $('#dataList').append(part_default);
         $('.partBox').css({'grid-template-columns':'1fr'})
+      }
+
+      if(sortSelection == "sortDefault"){
+        sortData = aptData
       }
 
       for(var i = 0 ; i < sortData.data.length ; i++){
