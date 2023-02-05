@@ -1502,11 +1502,80 @@ function ListUp(listData){
             addon_html += "</div>"
 
             var regName = $('#sido option:selected').text() + " " + $('#gungu option:selected').text()
-            regName = regName.replace(" 전체", "")
+            regName = regName.replace(" 전체", "")            
 
-            //매매, 전세가격지수
-            if(rateExist.includes(regName)){
-              addon_html += "<div class='subRegion_info2' style='grid-column: 1 / span 2;'>"
+          //아파트랭크
+          addon_html += "<div class='subRegion_rank'>"
+            addon_html += "<div class='subRegion_title'>"
+              addon_html += "<div class='subRegion_name'>아파트랭크 입지 분석</div>"
+              addon_html += "<div class='subRegion_qna'></div>"
+            addon_html += "</div>"
+            addon_html += "<div class='aptRankList' style='background: #ddd; height: 24px'>"
+              addon_html += "<div>단지</div>"
+              addon_html += "<div>주거</div>"
+              addon_html += "<div>교통</div>"
+              addon_html += "<div>인프라</div>"
+              addon_html += "<div>교육</div>"
+              addon_html += "<div>총점</div>"              
+            addon_html += "</div>"
+            addon_html += "<div id='arank0'></div>"
+            addon_html += "<div id='arank1'></div>"
+            addon_html += "<div id='arank2'></div>"
+            addon_html += "<div id='arank3'></div>"
+            addon_html += "<div id='arank4'></div>"
+            addon_html += "<div id='arank5'></div>"
+            addon_html += "<div id='arank6'></div>"            
+          addon_html += "</div>"
+
+          rank_url = "https://www.aptrank.kr/202302/" + selectedSubRegion + ".json"
+          
+          $.ajax({
+            url: rank_url,
+            type: 'HEAD',
+            success: function(){
+              $.getJSON(rank_url, function(json) {
+                rankData = json
+                rankDetail = rankData.data
+                for( var p = 0 ; p < 7; p++){
+                  aptName = rankDetail[p]['아파트명']          
+                  aptAddress = rankDetail[p]['법정동주소']
+                  aptLivingScore = rankDetail[p]['주거총점']
+                  aptTransScore = rankDetail[p]['교통총점']
+                  aptInfraScore = rankDetail[p]['인프라총점']
+                  aptEduScore = rankDetail[p]['학군총점']
+                  aptValueScore = rankDetail[p]['가치 총점']
+                  aptURL = rankDetail[p]['sURL']                          
+                  arankID = "#arank" + p
+
+                  rankHTML = "<div class='aptRankList' onClick='window.open(\"" + aptURL + "\")'>"
+                    rankHTML += "<div id='aptName'>" + aptName + "</div>"
+                    rankHTML += "<div>" + aptLivingScore.toFixed(1) + "</div>"
+                    if(aptTransScore != "NA"){
+                      rankHTML += "<div>" + aptTransScore.toFixed(1) + "</div>"
+                    }
+                    else{
+                      rankHTML += "<div>--</div>"
+                    }                    
+                    rankHTML += "<div>" + aptInfraScore.toFixed(1) + "</div>"
+                    rankHTML += "<div>" + aptEduScore.toFixed(1) + "</div>"
+                    rankHTML += "<div style='font-weight: 600'>" + aptValueScore.toFixed(1) + "</div>"
+                  rankHTML += "</div>"
+
+                  $(arankID).html(rankHTML)
+                }        
+
+                $('.subRegion_rank').show()
+              })
+            },          
+            error: function(){
+              console.log("No file")
+              $('.subRegion_rank').hide()
+            }
+          })
+
+          //매매, 전세가격지수
+          if(rateExist.includes(regName)){
+              addon_html += "<div class='subRegion_info2' style='grid-column: 2 / span 2;'>"
                 addon_html += "<div class='subRegion_title'>"
                   addon_html += "<div class='subRegion_name'>매매/전세 지수</div>"
                   addon_html += "<div class='subRegion_qna'></div>"
@@ -1522,7 +1591,6 @@ function ListUp(listData){
 
               $.getJSON(rate_url, function(json) {                
                 rateData = json
-                console.log(rateData)
                 for (var i = (rateData.data).length-60 ; i < (rateData.data).length ; i++){
                   pushed_date = "'"+(rateData.data[i]["Date"]).toString().substr(2, 2) + "." + (rateData.data[i]["Date"]).toString().substr(4, 2)
                   dateArray.push(pushed_date)
@@ -1544,8 +1612,8 @@ function ListUp(listData){
             else{
               $('.subRegion_info2').hide()
             }
+
           addon_html += "</div></div>"
-          addon_html += "<div></div>"
       }
     }
   }

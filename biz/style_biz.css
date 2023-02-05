@@ -294,18 +294,18 @@
   }
 
   #dataWrapper{
-    position: relative;
-    left: 20px;
+    position: relative;    
     width: 100%;
     height: 93%;    
-    overflow: auto;    
+    overflow: auto;
+    padding-left: 20px;
     padding-bottom: 5px;
     padding-right: 0px;
   }
 
   #dataList{
     display:block;    
-    width: 98%;
+    width: 100%;
     height: auto;
     padding-left: 5px;
     padding-top: 2px;
@@ -370,32 +370,54 @@
     border-radius: 5px;
     box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.3) 0px 1px 3px 1px;
   }
-  .subRegion_info2{
+  .subRegion_info2, .subRegion_rank{
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 5px;
     box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.3) 0px 1px 3px 1px;
-  }  
+  }
+  .aptRankList{
+    display:grid;    
+    grid-template-columns: 1fr 0.25fr 0.25fr 0.25fr 0.25fr 0.25fr;
+    align-content: center;
+    padding-top: 7px;    
+    padding-bottom: 7px;
+    font-size: 0.8em;    
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  .aptRankList:hover{
+    background: rgba(53, 117, 155, 0.3)
+  }
+  #aptName{
+    text-align: left;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 3px;
+  }
   .subRegion_py_price_table{
     display:grid;    
     grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1fr;
     font-size: 0.8rem;    
     text-align: center;    
-    line-height: 1.8rem;
+    line-height: 1.5rem;
   }
   .subRegion_year_table{
     display:grid;    
     grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     font-size: 0.8rem;    
     text-align: center;    
-    line-height: 1.8rem;
+    line-height: 1.5rem;
   }
   .subRegion_regu_table{
     display:grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 0.8rem;    
     text-align: center;    
-    line-height: 1.8rem;
+    line-height: 1.5rem;
   }
   .subRegion_pop_table1{
     display:grid;    
@@ -517,20 +539,20 @@
     grid-template-columns: 1fr 30px;
   }
   .subRegion_name{
-    font-size: 1.15em;
+    font-size: 1em;
     font-weight: 600;
     border-bottom: 1px solid #aaa;  
     padding-left: 8px;    
-    height: 2em;
-    line-height: 2em;
+    height: 1.8em;
+    line-height: 1.8em;
   }
   .subRegion_qna{
-    font-size: 1.15em;
+    font-size: 1em;
     text-align: center;
     font-weight: 600;
     border-bottom: 1px solid #aaa;      
-    height: 2em;
-    line-height: 2em;
+    height: 1.8em;
+    line-height: 1.8em;
   }
   .subRegion_qna:hover{
     color: #133eb3;    
@@ -552,8 +574,8 @@
     grid-template-columns: 1.2fr 1.5fr 1.2fr;
     column-gap: 0.9em; 
     width: 100%;
-    height: 85px;
-    margin-bottom: 1em;
+    height: auto;
+    margin-bottom: 0.5em;
   }
 
   #subRegion_line3{
