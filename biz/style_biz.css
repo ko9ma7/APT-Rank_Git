@@ -557,7 +557,7 @@
   .subRegion_qna:hover{
     color: #133eb3;    
   }
-  #subRegion_line1{
+  #subRegion_line1{    
     display:grid;
     grid-template-columns: 1fr;
     width: 100%;

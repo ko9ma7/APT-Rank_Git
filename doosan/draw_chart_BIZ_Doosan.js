@@ -647,17 +647,17 @@ function drawPriceRateChart(dateArray, salesArray, rentArray){
       {
         label: "매매",
         data: salesData,        
-        borderColor: "#162235",
-        borderWidth: 2,
-        backgroundColor: "#162235",
+        borderColor: "#0c4ea2",
+        borderWidth: 1,
+        backgroundColor: "#0c4ea2",
         pointRadius: 1
       },
       {
         label: "전세",
         data: rentData,
-        borderColor: "#107318",
-        borderWidth: 2,
-        backgroundColor: "#107318",
+        borderColor: "#148f2f",
+        borderWidth: 1,
+        backgroundColor: "#148f2f",
         pointRadius: 1
       }
     ],
@@ -717,6 +717,7 @@ function drawPriceRateChart(dateArray, salesArray, rentArray){
           textAlign: 'center',          
           font: {            
             size: 12,
+            weight: 600,
           },
 
           /*

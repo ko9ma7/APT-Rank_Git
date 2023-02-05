@@ -1646,8 +1646,8 @@ function ListUp(listData){
           //아파트랭크
           addon_html += "<div class='subRegion_rank'>"
             addon_html += "<div class='subRegion_title'>"
-              addon_html += "<div class='subRegion_name'>아파트랭크 입지 분석</div>"
-              addon_html += "<div class='subRegion_qna'></div>"
+              addon_html += "<div class='subRegion_name'>아파트 입지 평가 TOP 7</div>"
+              addon_html += "<div class='subRegion_qna' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice(\"aptrank_list\")'><i class='fa-solid fa-circle-question'></i></div>"
             addon_html += "</div>"
             addon_html += "<div class='aptRankList' style='background: #ddd; height: 24px'>"
               addon_html += "<div>단지</div>"
@@ -1719,8 +1719,8 @@ function ListUp(listData){
           if(rateExist.includes(regName)){
               addon_html += "<div class='subRegion_info2' style='grid-column: 2 / span 2;'>"
                 addon_html += "<div class='subRegion_title'>"
-                  addon_html += "<div class='subRegion_name'>매매/전세 지수</div>"
-                  addon_html += "<div class='subRegion_qna'></div>"
+                  addon_html += "<div class='subRegion_name'>KB부동산 매매/전세 지수</div>"
+                  addon_html += "<div class='subRegion_qna' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice(\"sales_rent_index\")'><i class='fa-solid fa-circle-question'></i></div>"
                 addon_html += "</div>"
                 addon_html += "<div class='graph' style='height: 250px;'> <canvas id='priceRateChart'></canvas></div>"
               addon_html += "</div>"
@@ -1832,6 +1832,14 @@ function showNotice(info){
     modal_title = biz_title_PIRBP
     modal_info = biz_info_PIRBP
   }
+  if(info == "aptrank_list"){
+    modal_title = biz_title_aptrank_list
+    modal_info = biz_info_aptrank_list
+  } 
+  if(info == "sales_rent_index"){
+    modal_title = biz_title_sales_rent_index
+    modal_info = biz_info_sales_rent_index
+  }  
 
     var titleHtml = "<div class='popupTitle'>" + modal_title + "</div>";
     var footerHtml = ""
