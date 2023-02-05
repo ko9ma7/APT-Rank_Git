@@ -789,7 +789,7 @@ function ListUp(listData){
 
   var addon_html = ""     
   if(selectedRegion == 'Korea'){
-    $('#dataList').css({"display":"grid", "grid-template-columns":"1fr"})
+    //$('#dataList').css({"display":"grid", "grid-template-columns":"1fr"})
     //아파트랭크 연결 버튼
     var aptrank_link = "<div><img src = './icon_apt_rank.png' width='40px' height='40px'></div>"
             + "<div style='padding-left: 8px;'>전국 시도 <br> 아파트랭크 정보 보기</div>"
@@ -864,7 +864,7 @@ function ListUp(listData){
             var total_score = listData[i]["총점"]
             var sido_id = compare_link
 
-            $('#dataList').css('row-gap', '0.25em')
+            //$('#dataList').css('row-gap', '0.25em')
 
             addon_html += "<div class='region_info' id='" + sido_id + "' onClick='changeRegion(this.id)'>"
               /*
@@ -959,7 +959,7 @@ function ListUp(listData){
     }    
   }
   else{
-    $('#dataList').css("display", "block")
+    //$('#dataList').css("display", "block")
     var duration = listData[0]["시점"]
     var time_line = []
     for(i = 0 ; i < duration.length;  i++){
@@ -1490,7 +1490,7 @@ function ListUp(listData){
                 addon_html += "<div><strong>" + deal_3y_avg_text + "</div>" + "<div>" + deal_current_text + "</div>" + "<div>" + deal_rate + "</strong></div>"
               addon_html += "</div>"
 
-              addon_html += "<div class='graph'> <canvas id='dealChart'></canvas></div>"
+              addon_html += "<div class='graph2'> <canvas id='dealChart'></canvas></div>"
 
               addon_html += "<div class = 'subRegion_deal_table2'>"
                 for ( p = 7 ; p < time_line.length ; p++ ){
@@ -1560,7 +1560,7 @@ function ListUp(listData){
                 addon_html += "<div><strong>" + supply_proper_formatted + "</div>" + "<div>" + supply_volume_this_year + "</div>" + "<div>" + supply_volume_plus_minus + "</strong></div>"
               addon_html += "</div>"
 
-              addon_html += "<div class='graph'> <canvas id='supplyChart'></canvas></div>"
+              addon_html += "<div class='graph2'> <canvas id='supplyChart'></canvas></div>"
 
               addon_html += "<div class = 'subRegion_supply_table2'>"
                 addon_html += "<div class='table_top'><strong>2023년</strong></div>" + "<div class='table_top'>2024년</div>" + "<div class='table_top'>2025년</div>" + "<div class='table_top'>2026년</div>" // + "<div class='table_top'>2026년</div>"
@@ -1622,7 +1622,7 @@ function ListUp(listData){
               addon_html += "<div><strong>" + non_sales_this + "</div>" + "<div>" + non_sales_result[1] + "</strong></div>"
             addon_html += "</div>"
 
-            addon_html += "<div class='graph'> <canvas id='nonSalesChart'></canvas></div>"
+            addon_html += "<div class='graph2'> <canvas id='nonSalesChart'></canvas></div>"
 
             addon_html += "<div class = 'subRegion_non_sales_table2'>"
               addon_html += "<div class='table_top'>5개월 전</div>" + "<div class='table_top'>4개월 전</div>" + "<div class='table_top'>3개월 전</div>"
@@ -1641,7 +1641,119 @@ function ListUp(listData){
               addon_html += "<div>" + non_sales_5m + "</div>" + "<div>" + non_sales_4m + "</div>" + "<div>" + non_sales_3m + "</div>"
                             + "<div>" + non_sales_2m + "</div>" + "<div><strong>" + non_sales_1m + "</strong></div>"
             addon_html += "</div>"
-            addon_html += "</div>"   
+            addon_html += "</div>"
+
+          //아파트랭크
+          addon_html += "<div class='subRegion_rank'>"
+            addon_html += "<div class='subRegion_title'>"
+              addon_html += "<div class='subRegion_name'>아파트랭크 입지 분석</div>"
+              addon_html += "<div class='subRegion_qna'></div>"
+            addon_html += "</div>"
+            addon_html += "<div class='aptRankList' style='background: #ddd; height: 24px'>"
+              addon_html += "<div>단지</div>"
+              addon_html += "<div>주거</div>"
+              addon_html += "<div>교통</div>"
+              addon_html += "<div>인프라</div>"
+              addon_html += "<div>교육</div>"
+              addon_html += "<div>총점</div>"              
+            addon_html += "</div>"
+            addon_html += "<div id='arank0'></div>"
+            addon_html += "<div id='arank1'></div>"
+            addon_html += "<div id='arank2'></div>"
+            addon_html += "<div id='arank3'></div>"
+            addon_html += "<div id='arank4'></div>"
+            addon_html += "<div id='arank5'></div>"
+            addon_html += "<div id='arank6'></div>"            
+          addon_html += "</div>"
+
+          rank_url = "https://www.aptrank.kr/202302/" + selectedSubRegion + ".json"
+          
+          $.ajax({
+            url: rank_url,
+            type: 'HEAD',
+            success: function(){
+              $.getJSON(rank_url, function(json) {
+                rankData = json
+                rankDetail = rankData.data
+                for( var p = 0 ; p < 7; p++){
+                  aptName = rankDetail[p]['아파트명']          
+                  aptAddress = rankDetail[p]['법정동주소']
+                  aptLivingScore = rankDetail[p]['주거총점']
+                  aptTransScore = rankDetail[p]['교통총점']
+                  aptInfraScore = rankDetail[p]['인프라총점']
+                  aptEduScore = rankDetail[p]['학군총점']
+                  aptValueScore = rankDetail[p]['가치 총점']
+                  aptURL = rankDetail[p]['sURL']                          
+                  arankID = "#arank" + p
+
+                  rankHTML = "<div class='aptRankList' onClick='window.open(\"" + aptURL + "\")'>"
+                    rankHTML += "<div id='aptName'>" + aptName + "</div>"
+                    rankHTML += "<div>" + aptLivingScore.toFixed(1) + "</div>"
+                    if(aptTransScore != "NA"){
+                      rankHTML += "<div>" + aptTransScore.toFixed(1) + "</div>"
+                    }
+                    else{
+                      rankHTML += "<div>--</div>"
+                    }                    
+                    rankHTML += "<div>" + aptInfraScore.toFixed(1) + "</div>"
+                    rankHTML += "<div>" + aptEduScore.toFixed(1) + "</div>"
+                    rankHTML += "<div style='font-weight: 600'>" + aptValueScore.toFixed(1) + "</div>"
+                  rankHTML += "</div>"
+
+                  $(arankID).html(rankHTML)
+                }        
+
+                $('.subRegion_rank').show()
+              })
+            },          
+            error: function(){
+              console.log("No file")
+              $('.subRegion_rank').hide()
+            }
+          })
+
+          //매매, 전세가격지수
+          var regName = $('#sido option:selected').text() + " " + $('#gungu option:selected').text()
+          regName = regName.replace(" 전체", "")
+
+          if(rateExist.includes(regName)){
+              addon_html += "<div class='subRegion_info2' style='grid-column: 2 / span 2;'>"
+                addon_html += "<div class='subRegion_title'>"
+                  addon_html += "<div class='subRegion_name'>매매/전세 지수</div>"
+                  addon_html += "<div class='subRegion_qna'></div>"
+                addon_html += "</div>"
+                addon_html += "<div class='graph' style='height: 250px;'> <canvas id='priceRateChart'></canvas></div>"
+              addon_html += "</div>"
+
+              var dateArray = ["", ""]
+              var salesArray = [null, null]
+              var rentArray = [null, null]
+
+              rate_url = "https://www.aptrank.kr/202302/Price_Rate/" + regName + ".json"
+
+              $.getJSON(rate_url, function(json) {                
+                rateData = json
+                for (var i = (rateData.data).length-60 ; i < (rateData.data).length ; i++){
+                  pushed_date = "'"+(rateData.data[i]["Date"]).toString().substr(2, 2) + "." + (rateData.data[i]["Date"]).toString().substr(4, 2)
+                  dateArray.push(pushed_date)
+                  salesArray.push(rateData.data[i]["Sales"])
+                  rentArray.push(rateData.data[i]["Rent"])
+                }
+
+                dateArray.push("")
+                dateArray.push("")
+                salesArray.push(null)
+                salesArray.push(null)
+                rentArray.push(null)
+                rentArray.push(null)
+
+                drawPriceRateChart(dateArray, salesArray, rentArray)
+              })
+              $('.subRegion_info2').show()
+            }
+            else{
+              $('.subRegion_info2').hide()
+            }
 
 
           addon_html += "</div>"

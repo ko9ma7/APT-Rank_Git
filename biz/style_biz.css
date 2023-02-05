@@ -403,21 +403,21 @@
     grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1fr;
     font-size: 0.8rem;    
     text-align: center;    
-    line-height: 1.5rem;
+    line-height: 1.8rem;
   }
   .subRegion_year_table{
     display:grid;    
     grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     font-size: 0.8rem;    
     text-align: center;    
-    line-height: 1.5rem;
+    line-height: 1.8rem;
   }
   .subRegion_regu_table{
     display:grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr;
     font-size: 0.8rem;    
     text-align: center;    
-    line-height: 1.5rem;
+    line-height: 1.8rem;
   }
   .subRegion_pop_table1{
     display:grid;    

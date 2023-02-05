@@ -331,3 +331,101 @@ function drawNonSalesChart(rankMonth, rankData, id_name){
     },
 });
 }
+
+function drawPriceRateChart(dateArray, salesArray, rentArray){
+  var label = dateArray
+  var salesData = salesArray
+  var rentData = rentArray  
+
+  var priceRate_ctx = document.getElementById("priceRateChart").getContext('2d');  
+  var priceRateChart = new Chart(priceRate_ctx, {
+    plugins:[ChartDataLabels],   
+    type: 'line',    
+    data:{
+      labels: label,
+      datasets:[
+      {
+        label: "매매",
+        data: salesData,        
+        borderColor: "#162235",
+        borderWidth: 2,
+        backgroundColor: "#162235",
+        pointRadius: 1
+      },
+      {
+        label: "전세",
+        data: rentData,
+        borderColor: "#107318",
+        borderWidth: 2,
+        backgroundColor: "#107318",
+        pointRadius: 1
+      }
+    ],
+    },
+
+    options: {      
+      responsive: true,      
+      maintainAspectRatio: false,
+      interaction: {
+        mode: 'index',
+        intersect: false,
+      },
+      stacked: false,
+      scales:{
+        yAxes:{
+          display: true,
+          min: 60,
+          max: 140,
+          ticks:{            
+            stepSize: 25,            
+          }
+        },
+        x: {
+          ticks: {                
+              maxRotation: 0,
+              font: {
+                size: 12
+              }
+          }
+        },
+      },
+      animation: {
+        delay: 500, // change delay to suit your needs.
+      },
+      plugins: {
+        legend: {          
+          display: true,
+          position: 'left',
+          align: 'start',
+          labels:{
+            boxWidth: 12,
+            boxHeight: 12,
+            font:{
+              size: 12
+            }            
+          }
+        },
+        title: {
+          display: false,          
+        },
+        datalabels: {
+          display: 'auto',          
+          color: 'black',
+          align: 'top',
+          anchor: 'start',
+          padding: 4,
+          textAlign: 'center',          
+          font: {            
+            size: 12,
+          },
+
+          /*
+          formatter: function(value){
+            return (value/10000).toFixed(1) + "만";
+          }
+          */
+        }
+      }
+    },
+});
+}

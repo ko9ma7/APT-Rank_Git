@@ -1501,9 +1501,6 @@ function ListUp(listData){
               addon_html += "</div>"
             addon_html += "</div>"
 
-            var regName = $('#sido option:selected').text() + " " + $('#gungu option:selected').text()
-            regName = regName.replace(" 전체", "")            
-
           //아파트랭크
           addon_html += "<div class='subRegion_rank'>"
             addon_html += "<div class='subRegion_title'>"
@@ -1574,6 +1571,9 @@ function ListUp(listData){
           })
 
           //매매, 전세가격지수
+          var regName = $('#sido option:selected').text() + " " + $('#gungu option:selected').text()
+          regName = regName.replace(" 전체", "")
+
           if(rateExist.includes(regName)){
               addon_html += "<div class='subRegion_info2' style='grid-column: 2 / span 2;'>"
                 addon_html += "<div class='subRegion_title'>"
