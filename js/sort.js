@@ -118,7 +118,7 @@
     footerHtml += "<div><button type='button' id='sortApply' class='btn btn-outline-danger' onClick='applySorting()'>적용</button></div>"    
     footerHtml += "</div>"    
     
-    $('#exampleModalLabel').html(titleHtml);
+    $('#baseModalLabel').html(titleHtml);
     $('#aptDetail').html(detailHtml);
     $('#footer').html(footerHtml);
 
