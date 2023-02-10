@@ -1,3 +1,12 @@
+function goSearchBySearchType(){
+  if(searchType == "global"){
+    unifiedAptSearch()
+  }
+  if(searchType == "local"){
+    aptSearch()    
+  }
+}
+
 function showUnifiedSearchBar(){  
   showUnifiedAptSearchBar()
 }

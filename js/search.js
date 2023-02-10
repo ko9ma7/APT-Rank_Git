@@ -69,9 +69,12 @@ function showSearchBar(){
     }
     else{
       $('#dataList').html("");
-      console.log(minValue/2*10000)
-      console.log(maxValue/2*10000) 
-      input = $('#inputSearch').val()
+      if(selectedMonth >= 202211){
+        input = $('#inputUnifiedSearch').val()
+      }
+      else{
+        input = $('#inputSearch').val()
+      }
 
       //광고정보 표시영역
       if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
@@ -104,7 +107,7 @@ function showSearchBar(){
         sortData = aptData
       }
 
-      for(var i = 0 ; i < sortData.data.length ; i++){
+      for(var i = 0 ; i < sortData.data.length ; i++){        
             var aptName = sortData.data[i]["아파트명"]
             var searchName = sortData.data[i]["아파트명"] + " " + sortData.data[i]["법정동주소"] + " " + sortData.data[i]["매매타입"]
 
