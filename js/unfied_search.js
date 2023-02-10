@@ -3,7 +3,16 @@ function goSearchBySearchType(){
     unifiedAptSearch()
   }
   if(searchType == "local"){
-    aptSearch()    
+    if(selectedSubRegion == "1000000000_Korea"){
+      regionSearch()
+    }
+    else if(selectedSubRegion == "Living_Top300" || selectedSubRegion == "Trans_Top300" || selectedSubRegion == "Infra_Top300" || selectedSubRegion == "Edu_Top300" || selectedSubRegion == "Balanced_Top300"){
+      topAptSearch()
+    }
+    else{
+      aptSearch()
+    }
+    console.log(selectedSubRegion)    
   }
 }
 

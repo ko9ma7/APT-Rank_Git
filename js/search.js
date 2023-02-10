@@ -321,7 +321,13 @@ function showSearchBar(){
 
   function topAptSearch(){
     $('#dataList').html("");
-    input = $('#inputSearch').val()
+    
+    if(selectedMonth >= 202211){
+      input = $('#inputUnifiedSearch').val()
+    }
+    else{
+      input = $('#inputSearch').val()
+    }
 
     for(var i = 0 ; i < sortData.data.length ; i++){
       var aptName = sortData.data[i]["아파트명"]
@@ -371,13 +377,16 @@ function showSearchBar(){
           }
           if(apt_type == "분양권"){
             addon_html += "<span class='aptYear'> (분양권, " + sortData.data[i]["준공년월"].substr(0, 7) + " 예정)</span></div>";
-          } 
+          }
+          if(apt_type == "분양(예정)"){
+            addon_html += "<span class='aptYear'> (분양예정) </span></div>";
+          }
           
           if(last_sales_date == "1800-01-01"){
-            addon_html += "<div class='apt_info'><span class='aptNum'>" + house_num.toLocaleString() + "세대</span> / <span class='aptPrice'>거래 정보 없음</span></div>";
+            addon_html += "<div class='apt_info'><span class='aptNum'>" + Number(house_num).toLocaleString() + "세대</span> / <span class='aptPrice'>거래 정보 없음</span></div>";
           }
           else{
-            addon_html += "<div class='apt_info'><span class='aptNum'>"+ house_num.toLocaleString() + "세대</span> / <span class='aptPrice'>" + Math.round(last_sales_price/100)/100 + "억, " + last_sales_area + ", " + last_sales_date_short + "</span></div>";
+            addon_html += "<div class='apt_info'><span class='aptNum'>"+ Number(house_num).toLocaleString() + "세대</span> / <span class='aptPrice'>" + Math.round(last_sales_price/100)/100 + "억, " + last_sales_area + ", " + last_sales_date_short + "</span></div>";
           }
           addon_html += "<div class='apt_address'>" + aptAddress2 + "</div>";
           addon_html += "</div>";
@@ -423,7 +432,13 @@ function showSearchBar(){
   var regionInput = ""
   function regionSearch(){
     $('#dataList').html("");
-    input = $('#regionInputSearch').val()      
+    
+    if(selectedMonth >= 202211){
+      input = $('#inputUnifiedSearch').val()
+    }
+    else{
+      input = $('#regionInputSearch').val()
+    }
       for(var i = 0 ; i < itemNum ; i++){
         var searchName = regSortData.data[i]["시도"]
 
