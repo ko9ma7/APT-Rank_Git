@@ -598,20 +598,6 @@
     }
   }
 
-  function shortRegionName(rName){
-    split_rName = rName.split(" ")
-    if(split_rName[1] == "성남시" || split_rName[1] == "안양시" || split_rName[1] == "안산시" || split_rName[1] == "고양시" || split_rName[1] == "수원시" || split_rName[1] == "용인시"
-    || split_rName[1] == "청주시" || split_rName[1] == "전주시" | split_rName[1] == "포항시" || split_rName[1] == "창원시" || split_rName[1] == "천안시"){
-      return split_rName[1] + " " + split_rName[2]
-    }
-    else if(split_rName[1] == "세종시"){
-      return split_rName[1]
-    }
-    else {
-      return rName      
-    }
-  }
-
   function radioActive(val){
     searchType = val
     $("#inputUnifiedSearch").val("")

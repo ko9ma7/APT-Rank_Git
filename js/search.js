@@ -1,3 +1,37 @@
+function shortRegionName(rName){
+  split_rName = rName.split(" ")
+  if(split_rName[1] == "성남시" || split_rName[1] == "안양시" || split_rName[1] == "안산시" || split_rName[1] == "고양시" || split_rName[1] == "수원시" || split_rName[1] == "용인시"
+  || split_rName[1] == "청주시" || split_rName[1] == "전주시" | split_rName[1] == "포항시" || split_rName[1] == "창원시" || split_rName[1] == "천안시"){
+    return split_rName[1] + " " + split_rName[2]
+  }
+  else if(split_rName[1] == "세종시"){
+    return split_rName[1]
+  }
+  else if(split_rName[0] == "전국"){
+    if(selectedSubRegion == "Living_Top300"){
+      return "주거 TOP300"
+    }
+    else if(selectedSubRegion == "Trans_Top300"){
+      return "교통 TOP300"        
+    }
+    else if(selectedSubRegion == "Infra_Top300"){
+      return "인프라 TOP300"        
+    }
+    else if(selectedSubRegion == "Edu_Top300"){
+      return "교육 TOP300"        
+    }
+    else if(selectedSubRegion == "Balanced_Top300"){
+      return "균형 TOP300"        
+    }
+    else{
+      return "시군구"
+    }
+  }
+  else {
+    return rName      
+  }
+}
+
 function showSearchBar(){  
   if(selectedMonth >= 202211){
     showUnifiedSearchBar()
