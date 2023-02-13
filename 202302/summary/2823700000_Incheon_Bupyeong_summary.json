@@ -107,7 +107,7 @@
         {
             "index":4,
             "sort":"balanced",
-            "name":"부개4구역재개발사업",
+            "name":"부개4구역재개발",
             "search_code":"ggj27",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -185,7 +185,7 @@
         {
             "index":10,
             "sort":"living",
-            "name":"부개4구역재개발사업",
+            "name":"부개4구역재개발",
             "search_code":"ggj27",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -536,7 +536,7 @@
         {
             "index":37,
             "sort":"infra",
-            "name":"부개4구역재개발사업",
+            "name":"부개4구역재개발",
             "search_code":"ggj27",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -614,7 +614,7 @@
         {
             "index":43,
             "sort":"education",
-            "name":"부개4구역재개발사업",
+            "name":"부개4구역재개발",
             "search_code":"ggj27",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,

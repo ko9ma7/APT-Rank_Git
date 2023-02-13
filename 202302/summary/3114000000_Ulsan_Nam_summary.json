@@ -81,6 +81,19 @@
         {
             "index":2,
             "sort":"balanced",
+            "name":"옥동경남아너스빌ubc",
+            "search_code":"154078",
+            "apt_type":"분양권",
+            "apt_year":-3.0,
+            "value_score":65.534,
+            "region":"울산시 남구",
+            "region_code":"Ulsan",
+            "sub_region_code":"3114000000_Ulsan_Nam",
+            "shorten_url":"https:\/\/me2.do\/Go5csAFV"
+        },
+        {
+            "index":3,
+            "sort":"balanced",
             "name":"울산롯데캐슬골드1단지",
             "search_code":"24847",
             "apt_type":"아파트",
@@ -92,7 +105,7 @@
             "shorten_url":"https:\/\/me2.do\/Go5csAFV"
         },
         {
-            "index":3,
+            "index":4,
             "sort":"balanced",
             "name":"신정현대홈타운3단지",
             "search_code":"12083",
@@ -105,7 +118,7 @@
             "shorten_url":"https:\/\/me2.do\/Go5csAFV"
         },
         {
-            "index":4,
+            "index":5,
             "sort":"balanced",
             "name":"울산번영로두산위브",
             "search_code":"111259",
@@ -118,7 +131,7 @@
             "shorten_url":"https:\/\/me2.do\/Go5csAFV"
         },
         {
-            "index":5,
+            "index":6,
             "sort":"balanced",
             "name":"문수로2차아이파크2단지",
             "search_code":"104797",
@@ -131,7 +144,20 @@
             "shorten_url":"https:\/\/me2.do\/Go5csAFV"
         },
         {
-            "index":6,
+            "index":7,
+            "sort":"balanced",
+            "name":"문수로아이파크1단지",
+            "search_code":"12051",
+            "apt_type":"아파트",
+            "apt_year":20.0,
+            "value_score":64.442,
+            "region":"울산시 남구",
+            "region_code":"Ulsan",
+            "sub_region_code":"3114000000_Ulsan_Nam",
+            "shorten_url":"https:\/\/me2.do\/Go5csAFV"
+        },
+        {
+            "index":8,
             "sort":"balanced",
             "name":"문수로대공원에일린의뜰",
             "search_code":"136011",
@@ -144,39 +170,13 @@
             "shorten_url":"https:\/\/me2.do\/Go5csAFV"
         },
         {
-            "index":7,
+            "index":9,
             "sort":"balanced",
             "name":"신성미소지움2단지",
             "search_code":"19544",
             "apt_type":"아파트",
             "apt_year":16.0,
             "value_score":63.87,
-            "region":"울산시 남구",
-            "region_code":"Ulsan",
-            "sub_region_code":"3114000000_Ulsan_Nam",
-            "shorten_url":"https:\/\/me2.do\/Go5csAFV"
-        },
-        {
-            "index":8,
-            "sort":"balanced",
-            "name":"대현더샵2단지",
-            "search_code":"111348",
-            "apt_type":"아파트",
-            "apt_year":5.0,
-            "value_score":63.356,
-            "region":"울산시 남구",
-            "region_code":"Ulsan",
-            "sub_region_code":"3114000000_Ulsan_Nam",
-            "shorten_url":"https:\/\/me2.do\/Go5csAFV"
-        },
-        {
-            "index":9,
-            "sort":"balanced",
-            "name":"문수로금호어울림더퍼스트",
-            "search_code":"152855",
-            "apt_type":"분양권",
-            "apt_year":-2.0,
-            "value_score":62.9,
             "region":"울산시 남구",
             "region_code":"Ulsan",
             "sub_region_code":"3114000000_Ulsan_Nam",
@@ -549,11 +549,11 @@
         {
             "index":38,
             "sort":"education",
-            "name":"문수로금호어울림더퍼스트",
-            "search_code":"152855",
-            "apt_type":"분양권",
-            "apt_year":-2.0,
-            "value_score":62.65,
+            "name":"문수로아이파크1단지",
+            "search_code":"12051",
+            "apt_type":"아파트",
+            "apt_year":20.0,
+            "value_score":63.367,
             "region":"울산시 남구",
             "region_code":"Ulsan",
             "sub_region_code":"3114000000_Ulsan_Nam",
@@ -562,11 +562,11 @@
         {
             "index":39,
             "sort":"education",
-            "name":"대현더샵2단지",
-            "search_code":"111348",
-            "apt_type":"아파트",
-            "apt_year":5.0,
-            "value_score":62.456,
+            "name":"옥동경남아너스빌ubc",
+            "search_code":"154078",
+            "apt_type":"분양권",
+            "apt_year":-3.0,
+            "value_score":63.259,
             "region":"울산시 남구",
             "region_code":"Ulsan",
             "sub_region_code":"3114000000_Ulsan_Nam",

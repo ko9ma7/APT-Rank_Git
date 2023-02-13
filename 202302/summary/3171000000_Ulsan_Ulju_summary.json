@@ -133,19 +133,6 @@
         {
             "index":6,
             "sort":"balanced",
-            "name":"구영우미린1차",
-            "search_code":"25216",
-            "apt_type":"아파트",
-            "apt_year":16.0,
-            "value_score":54.416,
-            "region":"울산시 울주군",
-            "region_code":"Ulsan",
-            "sub_region_code":"3171000000_Ulsan_Ulju",
-            "shorten_url":"https:\/\/me2.do\/54k5oEoR"
-        },
-        {
-            "index":7,
-            "sort":"balanced",
             "name":"구영2차푸르지오",
             "search_code":"25420",
             "apt_type":"아파트",
@@ -157,10 +144,23 @@
             "shorten_url":"https:\/\/me2.do\/54k5oEoR"
         },
         {
-            "index":8,
+            "index":7,
             "sort":"balanced",
             "name":"풍경채",
             "search_code":"25058",
+            "apt_type":"아파트",
+            "apt_year":16.0,
+            "value_score":54.416,
+            "region":"울산시 울주군",
+            "region_code":"Ulsan",
+            "sub_region_code":"3171000000_Ulsan_Ulju",
+            "shorten_url":"https:\/\/me2.do\/54k5oEoR"
+        },
+        {
+            "index":8,
+            "sort":"balanced",
+            "name":"구영우미린1차",
+            "search_code":"25216",
             "apt_type":"아파트",
             "apt_year":16.0,
             "value_score":54.416,
@@ -380,19 +380,6 @@
         {
             "index":25,
             "sort":"infra",
-            "name":"구영우미린1차",
-            "search_code":"25216",
-            "apt_type":"아파트",
-            "apt_year":16.0,
-            "value_score":42.2943157895,
-            "region":"울산시 울주군",
-            "region_code":"Ulsan",
-            "sub_region_code":"3171000000_Ulsan_Ulju",
-            "shorten_url":"https:\/\/me2.do\/54k5oEoR"
-        },
-        {
-            "index":26,
-            "sort":"infra",
             "name":"구영2차푸르지오",
             "search_code":"25420",
             "apt_type":"아파트",
@@ -404,10 +391,23 @@
             "shorten_url":"https:\/\/me2.do\/54k5oEoR"
         },
         {
-            "index":27,
+            "index":26,
             "sort":"infra",
             "name":"풍경채",
             "search_code":"25058",
+            "apt_type":"아파트",
+            "apt_year":16.0,
+            "value_score":42.2943157895,
+            "region":"울산시 울주군",
+            "region_code":"Ulsan",
+            "sub_region_code":"3171000000_Ulsan_Ulju",
+            "shorten_url":"https:\/\/me2.do\/54k5oEoR"
+        },
+        {
+            "index":27,
+            "sort":"infra",
+            "name":"구영우미린1차",
+            "search_code":"25216",
             "apt_type":"아파트",
             "apt_year":16.0,
             "value_score":42.2943157895,
@@ -510,19 +510,6 @@
         {
             "index":35,
             "sort":"education",
-            "name":"구영우미린1차",
-            "search_code":"25216",
-            "apt_type":"아파트",
-            "apt_year":16.0,
-            "value_score":52.966,
-            "region":"울산시 울주군",
-            "region_code":"Ulsan",
-            "sub_region_code":"3171000000_Ulsan_Ulju",
-            "shorten_url":"https:\/\/me2.do\/54k5oEoR"
-        },
-        {
-            "index":36,
-            "sort":"education",
             "name":"구영2차푸르지오",
             "search_code":"25420",
             "apt_type":"아파트",
@@ -534,10 +521,23 @@
             "shorten_url":"https:\/\/me2.do\/54k5oEoR"
         },
         {
-            "index":37,
+            "index":36,
             "sort":"education",
             "name":"풍경채",
             "search_code":"25058",
+            "apt_type":"아파트",
+            "apt_year":16.0,
+            "value_score":52.966,
+            "region":"울산시 울주군",
+            "region_code":"Ulsan",
+            "sub_region_code":"3171000000_Ulsan_Ulju",
+            "shorten_url":"https:\/\/me2.do\/54k5oEoR"
+        },
+        {
+            "index":37,
+            "sort":"education",
+            "name":"구영우미린1차",
+            "search_code":"25216",
             "apt_type":"아파트",
             "apt_year":16.0,
             "value_score":52.966,

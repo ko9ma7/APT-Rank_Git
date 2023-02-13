@@ -137,7 +137,7 @@
             "search_code":1390,
             "apt_type":"아파트",
             "apt_year":28.0,
-            "value_score":65.602,
+            "value_score":66.652,
             "region":"경기도 고양시 일산서구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
@@ -145,6 +145,19 @@
         },
         {
             "index":7,
+            "sort":"balanced",
+            "name":"문촌4단지삼익",
+            "search_code":1379,
+            "apt_type":"아파트",
+            "apt_year":29.0,
+            "value_score":65.1228,
+            "region":"경기도 고양시 일산서구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
+            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
+        },
+        {
+            "index":8,
             "sort":"balanced",
             "name":"강선15단지보성",
             "search_code":1368,
@@ -157,26 +170,13 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":8,
-            "sort":"balanced",
-            "name":"문촌15단지부영",
-            "search_code":1387,
-            "apt_type":"아파트",
-            "apt_year":30.0,
-            "value_score":64.062,
-            "region":"경기도 고양시 일산서구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
-            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
-        },
-        {
             "index":9,
             "sort":"balanced",
-            "name":"문촌4단지삼익",
-            "search_code":1379,
+            "name":"강선6단지금호,한양",
+            "search_code":25867,
             "apt_type":"아파트",
             "apt_year":29.0,
-            "value_score":63.0228,
+            "value_score":64.2012,
             "region":"경기도 고양시 일산서구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
@@ -198,6 +198,19 @@
         {
             "index":11,
             "sort":"living",
+            "name":"e편한세상일산어반스카이(주상복합)",
+            "search_code":125202,
+            "apt_type":"아파트",
+            "apt_year":1.0,
+            "value_score":68.3456,
+            "region":"경기도 고양시 일산서구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
+            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
+        },
+        {
+            "index":12,
+            "sort":"living",
             "name":"일산두산위브더제니스(주상복합)",
             "search_code":100702,
             "apt_type":"아파트",
@@ -209,7 +222,7 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":12,
+            "index":13,
             "sort":"living",
             "name":"문촌16단지뉴삼익",
             "search_code":1373,
@@ -222,7 +235,20 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":13,
+            "index":14,
+            "sort":"living",
+            "name":"문촌4단지삼익",
+            "search_code":1379,
+            "apt_type":"아파트",
+            "apt_year":29.0,
+            "value_score":64.9804,
+            "region":"경기도 고양시 일산서구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
+            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
+        },
+        {
+            "index":15,
             "sort":"living",
             "name":"강선19단지우성",
             "search_code":1370,
@@ -235,7 +261,7 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":14,
+            "index":16,
             "sort":"living",
             "name":"문촌17단지신안",
             "search_code":1380,
@@ -248,7 +274,7 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":15,
+            "index":17,
             "sort":"living",
             "name":"후곡8단지동신",
             "search_code":2968,
@@ -261,7 +287,7 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":16,
+            "index":18,
             "sort":"living",
             "name":"강선7단지삼환,유원",
             "search_code":1369,
@@ -274,39 +300,13 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":17,
+            "index":19,
             "sort":"living",
             "name":"산들5단지동문굿모닝힐",
             "search_code":9457,
             "apt_type":"아파트",
             "apt_year":19.0,
             "value_score":64.5752,
-            "region":"경기도 고양시 일산서구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
-            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
-        },
-        {
-            "index":18,
-            "sort":"living",
-            "name":"e편한세상일산어반스카이(주상복합)",
-            "search_code":125202,
-            "apt_type":"아파트",
-            "apt_year":1.0,
-            "value_score":64.1456,
-            "region":"경기도 고양시 일산서구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
-            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
-        },
-        {
-            "index":19,
-            "sort":"living",
-            "name":"일산동양",
-            "search_code":8548,
-            "apt_type":"아파트",
-            "apt_year":19.0,
-            "value_score":63.5456,
             "region":"경기도 고양시 일산서구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
@@ -380,6 +380,19 @@
         {
             "index":25,
             "sort":"transport",
+            "name":"문촌9단지주공",
+            "search_code":1390,
+            "apt_type":"아파트",
+            "apt_year":28.0,
+            "value_score":64.277,
+            "region":"경기도 고양시 일산서구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
+            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
+        },
+        {
+            "index":26,
+            "sort":"transport",
             "name":"문촌17단지신안",
             "search_code":1380,
             "apt_type":"아파트",
@@ -391,26 +404,13 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":26,
-            "sort":"transport",
-            "name":"문촌9단지주공",
-            "search_code":1390,
-            "apt_type":"아파트",
-            "apt_year":28.0,
-            "value_score":63.227,
-            "region":"경기도 고양시 일산서구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
-            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
-        },
-        {
             "index":27,
             "sort":"transport",
-            "name":"강선15단지보성",
-            "search_code":1368,
+            "name":"문촌4단지삼익",
+            "search_code":1379,
             "apt_type":"아파트",
-            "apt_year":30.0,
-            "value_score":61.7562,
+            "apt_year":29.0,
+            "value_score":63.4478,
             "region":"경기도 고양시 일산서구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
@@ -419,11 +419,11 @@
         {
             "index":28,
             "sort":"transport",
-            "name":"문촌15단지부영",
-            "search_code":1387,
+            "name":"강선6단지금호,한양",
+            "search_code":25867,
             "apt_type":"아파트",
-            "apt_year":30.0,
-            "value_score":61.737,
+            "apt_year":29.0,
+            "value_score":62.7262,
             "region":"경기도 고양시 일산서구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
@@ -432,11 +432,11 @@
         {
             "index":29,
             "sort":"transport",
-            "name":"문촌4단지삼익",
-            "search_code":1379,
+            "name":"e편한세상일산어반스카이(주상복합)",
+            "search_code":125202,
             "apt_type":"아파트",
-            "apt_year":29.0,
-            "value_score":61.3478,
+            "apt_year":1.0,
+            "value_score":61.8592,
             "region":"경기도 고양시 일산서구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
@@ -484,6 +484,19 @@
         {
             "index":33,
             "sort":"infra",
+            "name":"문촌9단지주공",
+            "search_code":1390,
+            "apt_type":"아파트",
+            "apt_year":28.0,
+            "value_score":74.87,
+            "region":"경기도 고양시 일산서구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
+            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
+        },
+        {
+            "index":34,
+            "sort":"infra",
             "name":"강선19단지우성",
             "search_code":1370,
             "apt_type":"아파트",
@@ -495,7 +508,7 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":34,
+            "index":35,
             "sort":"infra",
             "name":"문촌17단지신안",
             "search_code":1380,
@@ -508,7 +521,7 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":35,
+            "index":36,
             "sort":"infra",
             "name":"문촌15단지부영",
             "search_code":1387,
@@ -521,26 +534,13 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":36,
+            "index":37,
             "sort":"infra",
             "name":"강선15단지보성",
             "search_code":1368,
             "apt_type":"아파트",
             "apt_year":30.0,
             "value_score":73.452,
-            "region":"경기도 고양시 일산서구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
-            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
-        },
-        {
-            "index":37,
-            "sort":"infra",
-            "name":"문촌9단지주공",
-            "search_code":1390,
-            "apt_type":"아파트",
-            "apt_year":28.0,
-            "value_score":73.12,
             "region":"경기도 고양시 일산서구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
@@ -575,6 +575,19 @@
         {
             "index":40,
             "sort":"education",
+            "name":"문촌4단지삼익",
+            "search_code":1379,
+            "apt_type":"아파트",
+            "apt_year":29.0,
+            "value_score":72.976,
+            "region":"경기도 고양시 일산서구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
+            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
+        },
+        {
+            "index":41,
+            "sort":"education",
             "name":"후곡8단지동신",
             "search_code":2968,
             "apt_type":"아파트",
@@ -586,7 +599,33 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":41,
+            "index":42,
+            "sort":"education",
+            "name":"문촌5단지쌍용한일",
+            "search_code":1384,
+            "apt_type":"아파트",
+            "apt_year":29.0,
+            "value_score":71.976,
+            "region":"경기도 고양시 일산서구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
+            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
+        },
+        {
+            "index":43,
+            "sort":"education",
+            "name":"강선6단지금호,한양",
+            "search_code":25867,
+            "apt_type":"아파트",
+            "apt_year":29.0,
+            "value_score":71.504,
+            "region":"경기도 고양시 일산서구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
+            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
+        },
+        {
+            "index":44,
             "sort":"education",
             "name":"후곡9단지LG롯데",
             "search_code":3858,
@@ -599,7 +638,7 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":42,
+            "index":45,
             "sort":"education",
             "name":"후곡3단지현대",
             "search_code":2973,
@@ -612,7 +651,7 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":43,
+            "index":46,
             "sort":"education",
             "name":"문촌3단지우성",
             "search_code":1385,
@@ -625,7 +664,20 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":44,
+            "index":47,
+            "sort":"education",
+            "name":"문촌2단지라이프",
+            "search_code":1378,
+            "apt_type":"아파트",
+            "apt_year":29.0,
+            "value_score":69.976,
+            "region":"경기도 고양시 일산서구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
+            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
+        },
+        {
+            "index":48,
             "sort":"education",
             "name":"후곡10단지동아서안임광",
             "search_code":100255,
@@ -638,65 +690,13 @@
             "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
         },
         {
-            "index":45,
+            "index":49,
             "sort":"education",
             "name":"강선1단지대우,벽산",
             "search_code":1367,
             "apt_type":"아파트",
             "apt_year":29.0,
             "value_score":69.9214156824,
-            "region":"경기도 고양시 일산서구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
-            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
-        },
-        {
-            "index":46,
-            "sort":"education",
-            "name":"후곡15단지건영",
-            "search_code":3855,
-            "apt_type":"아파트",
-            "apt_year":29.0,
-            "value_score":69.288,
-            "region":"경기도 고양시 일산서구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
-            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
-        },
-        {
-            "index":47,
-            "sort":"education",
-            "name":"강선7단지삼환,유원",
-            "search_code":1369,
-            "apt_type":"아파트",
-            "apt_year":30.0,
-            "value_score":68.774641829,
-            "region":"경기도 고양시 일산서구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
-            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
-        },
-        {
-            "index":48,
-            "sort":"education",
-            "name":"후곡17단지태영",
-            "search_code":2971,
-            "apt_type":"아파트",
-            "apt_year":29.0,
-            "value_score":68.688,
-            "region":"경기도 고양시 일산서구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",
-            "shorten_url":"https:\/\/me2.do\/xsY5RqEL"
-        },
-        {
-            "index":49,
-            "sort":"education",
-            "name":"후곡4단지금호한양",
-            "search_code":2964,
-            "apt_type":"아파트",
-            "apt_year":28.0,
-            "value_score":68.676,
             "region":"경기도 고양시 일산서구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128700000_Gyeonggi_Goyang_Ilsanseo",

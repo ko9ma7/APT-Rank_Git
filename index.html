@@ -537,7 +537,7 @@
       }
     })
 
-    if($.cookie('popCookie') != "202302"){
+    if($.cookie('popCookie') != "20230213"){
       startNotice = true
       showNotice()
       //초기 진입 시 공지 팝업 표시하는 경우, 변수 startNotice에 true 할당      
@@ -2724,7 +2724,7 @@ function updateTable(month, region){
     $('#footerBtn3').css({"grid-column" : "span 2"})
     $('.modal-footer').css({"padding-top" : "3px"})
 
-    if($.cookie('popCookie') != '202302'){
+    if($.cookie('popCookie') != '20230213'){
       $('#flexCheckDefault').prop("checked", false)
     }
     else{
@@ -2734,7 +2734,7 @@ function updateTable(month, region){
     $('#flexCheckDefault').change(function(){
       if($(this).is(':checked')){
         //console.log("CHECKED!!")
-        $.cookie('popCookie', '202302', { expires: 7, path: '/' });
+        $.cookie('popCookie', '20230213', { expires: 7, path: '/' });
         console.log($.cookie('popCookie'))
       }
       else{

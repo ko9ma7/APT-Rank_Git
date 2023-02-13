@@ -107,19 +107,6 @@
         {
             "index":4,
             "sort":"balanced",
-            "name":"학마을영남",
-            "search_code":"8259",
-            "apt_type":"아파트",
-            "apt_year":26.0,
-            "value_score":51.3084,
-            "region":"인천시 계양구",
-            "region_code":"Incheon",
-            "sub_region_code":"2824500000_Incheon_Gyeyang",
-            "shorten_url":"https:\/\/me2.do\/GPFpmoWd"
-        },
-        {
-            "index":5,
-            "sort":"balanced",
             "name":"학마을서해",
             "search_code":"8251",
             "apt_type":"아파트",
@@ -131,13 +118,26 @@
             "shorten_url":"https:\/\/me2.do\/GPFpmoWd"
         },
         {
-            "index":6,
+            "index":5,
             "sort":"balanced",
             "name":"용종마을중앙",
             "search_code":"8536",
             "apt_type":"아파트",
             "apt_year":26.0,
             "value_score":50.1584,
+            "region":"인천시 계양구",
+            "region_code":"Incheon",
+            "sub_region_code":"2824500000_Incheon_Gyeyang",
+            "shorten_url":"https:\/\/me2.do\/GPFpmoWd"
+        },
+        {
+            "index":6,
+            "sort":"balanced",
+            "name":"학마을영남",
+            "search_code":"8259",
+            "apt_type":"아파트",
+            "apt_year":26.0,
+            "value_score":49.8084,
             "region":"인천시 계양구",
             "region_code":"Incheon",
             "sub_region_code":"2824500000_Incheon_Gyeyang",
@@ -341,19 +341,6 @@
         {
             "index":22,
             "sort":"transport",
-            "name":"학마을영남",
-            "search_code":"8259",
-            "apt_type":"아파트",
-            "apt_year":26.0,
-            "value_score":55.5334,
-            "region":"인천시 계양구",
-            "region_code":"Incheon",
-            "sub_region_code":"2824500000_Incheon_Gyeyang",
-            "shorten_url":"https:\/\/me2.do\/GPFpmoWd"
-        },
-        {
-            "index":23,
-            "sort":"transport",
             "name":"용종마을중앙",
             "search_code":"8536",
             "apt_type":"아파트",
@@ -365,7 +352,7 @@
             "shorten_url":"https:\/\/me2.do\/GPFpmoWd"
         },
         {
-            "index":24,
+            "index":23,
             "sort":"transport",
             "name":"초정마을두산쌍용",
             "search_code":"2411",
@@ -378,7 +365,7 @@
             "shorten_url":"https:\/\/me2.do\/GPFpmoWd"
         },
         {
-            "index":25,
+            "index":24,
             "sort":"transport",
             "name":"학마을서해",
             "search_code":"8251",
@@ -391,7 +378,7 @@
             "shorten_url":"https:\/\/me2.do\/GPFpmoWd"
         },
         {
-            "index":26,
+            "index":25,
             "sort":"transport",
             "name":"힐스테이트자이계양",
             "search_code":"143101",
@@ -404,13 +391,26 @@
             "shorten_url":"https:\/\/me2.do\/GPFpmoWd"
         },
         {
-            "index":27,
+            "index":26,
             "sort":"transport",
             "name":"용종마을신대진",
             "search_code":"2412",
             "apt_type":"아파트",
             "apt_year":26.0,
             "value_score":54.7834,
+            "region":"인천시 계양구",
+            "region_code":"Incheon",
+            "sub_region_code":"2824500000_Incheon_Gyeyang",
+            "shorten_url":"https:\/\/me2.do\/GPFpmoWd"
+        },
+        {
+            "index":27,
+            "sort":"transport",
+            "name":"학마을영남",
+            "search_code":"8259",
+            "apt_type":"아파트",
+            "apt_year":26.0,
+            "value_score":54.4084,
             "region":"인천시 계양구",
             "region_code":"Incheon",
             "sub_region_code":"2824500000_Incheon_Gyeyang",

@@ -120,6 +120,19 @@
         {
             "index":5,
             "sort":"balanced",
+            "name":"강촌3단지훼미리",
+            "search_code":2921,
+            "apt_type":"아파트",
+            "apt_year":31.0,
+            "value_score":64.6632,
+            "region":"경기도 고양시 일산동구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
+            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
+        },
+        {
+            "index":6,
+            "sort":"balanced",
             "name":"강촌우방",
             "search_code":2920,
             "apt_type":"아파트",
@@ -131,7 +144,7 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":6,
+            "index":7,
             "sort":"balanced",
             "name":"호수4단지럭키롯데",
             "search_code":17253,
@@ -144,7 +157,7 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":7,
+            "index":8,
             "sort":"balanced",
             "name":"흰돌3단지국제,한진",
             "search_code":2950,
@@ -157,26 +170,13 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":8,
+            "index":9,
             "sort":"balanced",
             "name":"호수3단지삼환유원",
             "search_code":1355,
             "apt_type":"아파트",
             "apt_year":29.0,
             "value_score":63.8132,
-            "region":"경기도 고양시 일산동구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
-            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
-        },
-        {
-            "index":9,
-            "sort":"balanced",
-            "name":"강촌동아",
-            "search_code":2918,
-            "apt_type":"아파트",
-            "apt_year":30.0,
-            "value_score":63.3952,
             "region":"경기도 고양시 일산동구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
@@ -341,6 +341,19 @@
         {
             "index":22,
             "sort":"transport",
+            "name":"강촌3단지훼미리",
+            "search_code":2921,
+            "apt_type":"아파트",
+            "apt_year":31.0,
+            "value_score":63.0882,
+            "region":"경기도 고양시 일산동구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
+            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
+        },
+        {
+            "index":23,
+            "sort":"transport",
             "name":"일산요진와이시티(주상복합)",
             "search_code":107014,
             "apt_type":"아파트",
@@ -352,7 +365,7 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":23,
+            "index":24,
             "sort":"transport",
             "name":"킨텍스원시티(3블럭,주상복합)",
             "search_code":116753,
@@ -365,7 +378,7 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":24,
+            "index":25,
             "sort":"transport",
             "name":"킨텍스원시티(1블럭,주상복합)",
             "search_code":116750,
@@ -378,7 +391,7 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":25,
+            "index":26,
             "sort":"transport",
             "name":"강촌우방",
             "search_code":2920,
@@ -391,7 +404,7 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":26,
+            "index":27,
             "sort":"transport",
             "name":"흰돌3단지국제,한진",
             "search_code":2950,
@@ -404,7 +417,7 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":27,
+            "index":28,
             "sort":"transport",
             "name":"호수4단지럭키롯데",
             "search_code":17253,
@@ -417,26 +430,13 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":28,
+            "index":29,
             "sort":"transport",
             "name":"강촌라이프",
             "search_code":2909,
             "apt_type":"아파트",
             "apt_year":31.0,
             "value_score":60.4332,
-            "region":"경기도 고양시 일산동구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
-            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
-        },
-        {
-            "index":29,
-            "sort":"transport",
-            "name":"호수3단지삼환유원",
-            "search_code":1355,
-            "apt_type":"아파트",
-            "apt_year":29.0,
-            "value_score":60.4132,
             "region":"경기도 고양시 일산동구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
@@ -510,6 +510,19 @@
         {
             "index":35,
             "sort":"infra",
+            "name":"강촌3단지훼미리",
+            "search_code":2921,
+            "apt_type":"아파트",
+            "apt_year":31.0,
+            "value_score":70.322,
+            "region":"경기도 고양시 일산동구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
+            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
+        },
+        {
+            "index":36,
+            "sort":"infra",
             "name":"호수1단지대우",
             "search_code":2606,
             "apt_type":"아파트",
@@ -521,7 +534,7 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":36,
+            "index":37,
             "sort":"infra",
             "name":"흰돌3단지국제,한진",
             "search_code":2950,
@@ -534,7 +547,7 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":37,
+            "index":38,
             "sort":"infra",
             "name":"호수2단지현대",
             "search_code":1357,
@@ -547,26 +560,13 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":38,
+            "index":39,
             "sort":"infra",
             "name":"킨텍스원시티(2블럭,주상복합)",
             "search_code":116752,
             "apt_type":"아파트",
             "apt_year":4.0,
             "value_score":68.82,
-            "region":"경기도 고양시 일산동구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
-            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
-        },
-        {
-            "index":39,
-            "sort":"infra",
-            "name":"호수4단지럭키롯데",
-            "search_code":17253,
-            "apt_type":"아파트",
-            "apt_year":29.0,
-            "value_score":68.622,
             "region":"경기도 고양시 일산동구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
@@ -614,6 +614,19 @@
         {
             "index":43,
             "sort":"education",
+            "name":"강촌3단지훼미리",
+            "search_code":2921,
+            "apt_type":"아파트",
+            "apt_year":31.0,
+            "value_score":72.244,
+            "region":"경기도 고양시 일산동구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
+            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
+        },
+        {
+            "index":44,
+            "sort":"education",
             "name":"강촌한신2단지",
             "search_code":2922,
             "apt_type":"아파트",
@@ -625,7 +638,20 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":44,
+            "index":45,
+            "sort":"education",
+            "name":"백송풍림,삼호",
+            "search_code":2945,
+            "apt_type":"아파트",
+            "apt_year":31.0,
+            "value_score":70.244,
+            "region":"경기도 고양시 일산동구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
+            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
+        },
+        {
+            "index":46,
             "sort":"education",
             "name":"백마6단지벽산",
             "search_code":2925,
@@ -638,7 +664,20 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":45,
+            "index":47,
+            "sort":"education",
+            "name":"백송대림",
+            "search_code":2934,
+            "apt_type":"아파트",
+            "apt_year":30.0,
+            "value_score":68.872,
+            "region":"경기도 고양시 일산동구",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
+            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
+        },
+        {
+            "index":48,
             "sort":"education",
             "name":"백마3단지금호,한양",
             "search_code":25588,
@@ -651,52 +690,13 @@
             "shorten_url":"https:\/\/me2.do\/G1F13kGA"
         },
         {
-            "index":46,
+            "index":49,
             "sort":"education",
             "name":"백마4단지한양,청구",
             "search_code":2931,
             "apt_type":"아파트",
             "apt_year":29.0,
             "value_score":67.572,
-            "region":"경기도 고양시 일산동구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
-            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
-        },
-        {
-            "index":47,
-            "sort":"education",
-            "name":"숲속6단지두산위브",
-            "search_code":19243,
-            "apt_type":"아파트",
-            "apt_year":17.0,
-            "value_score":65.768,
-            "region":"경기도 고양시 일산동구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
-            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
-        },
-        {
-            "index":48,
-            "sort":"education",
-            "name":"백마5단지쌍용,한성",
-            "search_code":2928,
-            "apt_type":"아파트",
-            "apt_year":29.0,
-            "value_score":64.972,
-            "region":"경기도 고양시 일산동구",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",
-            "shorten_url":"https:\/\/me2.do\/G1F13kGA"
-        },
-        {
-            "index":49,
-            "sort":"education",
-            "name":"백송삼부",
-            "search_code":2938,
-            "apt_type":"아파트",
-            "apt_year":30.0,
-            "value_score":64.6140354983,
             "region":"경기도 고양시 일산동구",
             "region_code":"Gyeonggi",
             "sub_region_code":"4128500000_Gyeonggi_Goyang_Ilsandong",

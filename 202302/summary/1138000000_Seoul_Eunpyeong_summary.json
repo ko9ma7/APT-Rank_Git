@@ -94,7 +94,7 @@
         {
             "index":3,
             "sort":"balanced",
-            "name":"대조1구역재개발",
+            "name":"힐스테이트메디알레",
             "search_code":"e6335",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -185,7 +185,7 @@
         {
             "index":10,
             "sort":"living",
-            "name":"대조1구역재개발",
+            "name":"힐스테이트메디알레",
             "search_code":"e6335",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -497,7 +497,7 @@
         {
             "index":34,
             "sort":"infra",
-            "name":"대조1구역재개발",
+            "name":"힐스테이트메디알레",
             "search_code":"e6335",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,

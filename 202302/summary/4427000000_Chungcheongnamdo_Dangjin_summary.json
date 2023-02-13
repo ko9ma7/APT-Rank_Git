@@ -133,7 +133,7 @@
         {
             "index":6,
             "sort":"balanced",
-            "name":"호반써밋시그니처",
+            "name":"호반써밋시그니처1",
             "search_code":133618,
             "apt_type":"아파트",
             "apt_year":1.0,
@@ -211,7 +211,7 @@
         {
             "index":12,
             "sort":"living",
-            "name":"호반써밋시그니처",
+            "name":"호반써밋시그니처1",
             "search_code":133618,
             "apt_type":"아파트",
             "apt_year":1.0,
@@ -393,7 +393,7 @@
         {
             "index":26,
             "sort":"infra",
-            "name":"호반써밋시그니처",
+            "name":"호반써밋시그니처1",
             "search_code":133618,
             "apt_type":"아파트",
             "apt_year":1.0,
@@ -523,7 +523,7 @@
         {
             "index":36,
             "sort":"education",
-            "name":"호반써밋시그니처",
+            "name":"호반써밋시그니처1",
             "search_code":133618,
             "apt_type":"아파트",
             "apt_year":1.0,

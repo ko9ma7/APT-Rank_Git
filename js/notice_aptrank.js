@@ -1,5 +1,11 @@
 var notice_202302 = 
-"<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2023년 2월 업데이트 안내 (2023-02-02)</div>"
+"<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2023년 2월 2차 업데이트 안내 (2023-02-13)</div>"
++"<ul>"
++"<li><div class='notice'>학원가 규모에 따라 거리 계산 영역을 유동적으로 적용했습니다.</div></li>"
++"<li><div class='notice'>신규 분양 예정 단지 업데이트 했습니다.</div></li>"
++"</ul>"
++"<hr>"
++"<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2023년 2월 업데이트 안내 (2023-02-02)</div>"
 +"<ul>"
 +"<li><div class='notice'>교육통계서비스 기반 2022년 하반기 초등학교 정보 업데이트 했습니다.</div></li>"
 +"<li><div class='notice'>경기도 일부 지역구의 주요역 도착 예상 시간을 오전 7:50분 부터로 계산 변경 적용했습니다. <br> (경기도 및 광역시는 점차적으로 적용 예정입니다.)</div></li>"

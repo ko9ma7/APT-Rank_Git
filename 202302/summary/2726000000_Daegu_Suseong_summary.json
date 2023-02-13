@@ -68,6 +68,19 @@
         {
             "index":1,
             "sort":"balanced",
+            "name":"힐스테이트만촌역(주상복합)",
+            "search_code":"140871",
+            "apt_type":"분양권",
+            "apt_year":-1.0,
+            "value_score":72.925,
+            "region":"대구시 수성구",
+            "region_code":"Daegu",
+            "sub_region_code":"2726000000_Daegu_Suseong",
+            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
+        },
+        {
+            "index":2,
+            "sort":"balanced",
             "name":"범어SK뷰",
             "search_code":"25632",
             "apt_type":"아파트",
@@ -79,7 +92,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":2,
+            "index":3,
             "sort":"balanced",
             "name":"범어센트레빌",
             "search_code":"126425",
@@ -92,7 +105,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":3,
+            "index":4,
             "sort":"balanced",
             "name":"범어라온프라이빗2차",
             "search_code":"112471",
@@ -105,7 +118,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":4,
+            "index":5,
             "sort":"balanced",
             "name":"빌리브범어120",
             "search_code":"145659",
@@ -118,7 +131,20 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":5,
+            "index":6,
+            "sort":"balanced",
+            "name":"해링턴플레이스만촌(주상복합)",
+            "search_code":"127804",
+            "apt_type":"아파트",
+            "apt_year":0.0,
+            "value_score":66.5,
+            "region":"대구시 수성구",
+            "region_code":"Daegu",
+            "sub_region_code":"2726000000_Daegu_Suseong",
+            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
+        },
+        {
+            "index":7,
             "sort":"balanced",
             "name":"범어화산샬레",
             "search_code":"107941",
@@ -131,7 +157,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":6,
+            "index":8,
             "sort":"balanced",
             "name":"빌리브범어",
             "search_code":"112876",
@@ -144,39 +170,13 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":7,
+            "index":9,
             "sort":"balanced",
             "name":"수성범어더블유(주상복합)",
             "search_code":"140634",
             "apt_type":"분양권",
             "apt_year":0.0,
             "value_score":66.0578,
-            "region":"대구시 수성구",
-            "region_code":"Daegu",
-            "sub_region_code":"2726000000_Daegu_Suseong",
-            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
-        },
-        {
-            "index":8,
-            "sort":"balanced",
-            "name":"범어센트럴푸르지오(주상복합)",
-            "search_code":"112285",
-            "apt_type":"아파트",
-            "apt_year":4.0,
-            "value_score":65.8634,
-            "region":"대구시 수성구",
-            "region_code":"Daegu",
-            "sub_region_code":"2726000000_Daegu_Suseong",
-            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
-        },
-        {
-            "index":9,
-            "sort":"balanced",
-            "name":"수성1지구재개발",
-            "search_code":"fnU0b",
-            "apt_type":"분양(예정)",
-            "apt_year":-2.0,
-            "value_score":65.7626,
             "region":"대구시 수성구",
             "region_code":"Daegu",
             "sub_region_code":"2726000000_Daegu_Suseong",
@@ -237,6 +237,19 @@
         {
             "index":14,
             "sort":"living",
+            "name":"힐스테이트만촌역(주상복합)",
+            "search_code":"140871",
+            "apt_type":"분양권",
+            "apt_year":-1.0,
+            "value_score":70.15,
+            "region":"대구시 수성구",
+            "region_code":"Daegu",
+            "sub_region_code":"2726000000_Daegu_Suseong",
+            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
+        },
+        {
+            "index":15,
+            "sort":"living",
             "name":"범어SK뷰",
             "search_code":"25632",
             "apt_type":"아파트",
@@ -248,7 +261,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":15,
+            "index":16,
             "sort":"living",
             "name":"수성롯데캐슬더퍼스트",
             "search_code":"106725",
@@ -261,7 +274,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":16,
+            "index":17,
             "sort":"living",
             "name":"범어에일린의뜰",
             "search_code":"125113",
@@ -274,7 +287,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":17,
+            "index":18,
             "sort":"living",
             "name":"범어센트럴푸르지오(주상복합)",
             "search_code":"112285",
@@ -287,26 +300,13 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":18,
+            "index":19,
             "sort":"living",
             "name":"수성태영데시앙",
             "search_code":"24878",
             "apt_type":"아파트",
             "apt_year":15.0,
             "value_score":64.3192,
-            "region":"대구시 수성구",
-            "region_code":"Daegu",
-            "sub_region_code":"2726000000_Daegu_Suseong",
-            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
-        },
-        {
-            "index":19,
-            "sort":"living",
-            "name":"힐스테이트만촌역(주상복합)",
-            "search_code":"140871",
-            "apt_type":"분양권",
-            "apt_year":-1.0,
-            "value_score":63.15,
             "region":"대구시 수성구",
             "region_code":"Daegu",
             "sub_region_code":"2726000000_Daegu_Suseong",
@@ -341,6 +341,58 @@
         {
             "index":22,
             "sort":"transport",
+            "name":"힐스테이트만촌역(주상복합)",
+            "search_code":"140871",
+            "apt_type":"분양권",
+            "apt_year":-1.0,
+            "value_score":68.875,
+            "region":"대구시 수성구",
+            "region_code":"Daegu",
+            "sub_region_code":"2726000000_Daegu_Suseong",
+            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
+        },
+        {
+            "index":23,
+            "sort":"transport",
+            "name":"해링턴플레이스만촌(주상복합)",
+            "search_code":"127804",
+            "apt_type":"아파트",
+            "apt_year":0.0,
+            "value_score":68.65,
+            "region":"대구시 수성구",
+            "region_code":"Daegu",
+            "sub_region_code":"2726000000_Daegu_Suseong",
+            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
+        },
+        {
+            "index":24,
+            "sort":"transport",
+            "name":"수성아크로타워(주상복합)",
+            "search_code":"25360",
+            "apt_type":"아파트",
+            "apt_year":15.0,
+            "value_score":67.9,
+            "region":"대구시 수성구",
+            "region_code":"Daegu",
+            "sub_region_code":"2726000000_Daegu_Suseong",
+            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
+        },
+        {
+            "index":25,
+            "sort":"transport",
+            "name":"만촌월드메르디앙(주상복합)",
+            "search_code":"14998",
+            "apt_type":"아파트",
+            "apt_year":16.0,
+            "value_score":67.9,
+            "region":"대구시 수성구",
+            "region_code":"Daegu",
+            "sub_region_code":"2726000000_Daegu_Suseong",
+            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
+        },
+        {
+            "index":26,
+            "sort":"transport",
             "name":"범어SK뷰",
             "search_code":"25632",
             "apt_type":"아파트",
@@ -352,7 +404,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":23,
+            "index":27,
             "sort":"transport",
             "name":"두산위브더제니스(주상복합)",
             "search_code":"23801",
@@ -365,7 +417,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":24,
+            "index":28,
             "sort":"transport",
             "name":"빌리브범어120",
             "search_code":"145659",
@@ -378,65 +430,13 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":25,
+            "index":29,
             "sort":"transport",
             "name":"범어라온프라이빗2차",
             "search_code":"112471",
             "apt_type":"아파트",
             "apt_year":5.0,
             "value_score":65.45,
-            "region":"대구시 수성구",
-            "region_code":"Daegu",
-            "sub_region_code":"2726000000_Daegu_Suseong",
-            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
-        },
-        {
-            "index":26,
-            "sort":"transport",
-            "name":"범어효성해링턴플레이스",
-            "search_code":"111607",
-            "apt_type":"아파트",
-            "apt_year":5.0,
-            "value_score":64.5498,
-            "region":"대구시 수성구",
-            "region_code":"Daegu",
-            "sub_region_code":"2726000000_Daegu_Suseong",
-            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
-        },
-        {
-            "index":27,
-            "sort":"transport",
-            "name":"범어아이파크",
-            "search_code":"f9B7e",
-            "apt_type":"분양(예정)",
-            "apt_year":-2.0,
-            "value_score":64.4748,
-            "region":"대구시 수성구",
-            "region_code":"Daegu",
-            "sub_region_code":"2726000000_Daegu_Suseong",
-            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
-        },
-        {
-            "index":28,
-            "sort":"transport",
-            "name":"범어센트럴푸르지오(주상복합)",
-            "search_code":"112285",
-            "apt_type":"아파트",
-            "apt_year":4.0,
-            "value_score":64.3394,
-            "region":"대구시 수성구",
-            "region_code":"Daegu",
-            "sub_region_code":"2726000000_Daegu_Suseong",
-            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
-        },
-        {
-            "index":29,
-            "sort":"transport",
-            "name":"범어풀비체",
-            "search_code":"103890",
-            "apt_type":"아파트",
-            "apt_year":10.0,
-            "value_score":64.1498,
             "region":"대구시 수성구",
             "region_code":"Daegu",
             "sub_region_code":"2726000000_Daegu_Suseong",
@@ -523,6 +523,19 @@
         {
             "index":36,
             "sort":"infra",
+            "name":"힐스테이트만촌역(주상복합)",
+            "search_code":"140871",
+            "apt_type":"분양권",
+            "apt_year":-1.0,
+            "value_score":67.9,
+            "region":"대구시 수성구",
+            "region_code":"Daegu",
+            "sub_region_code":"2726000000_Daegu_Suseong",
+            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
+        },
+        {
+            "index":37,
+            "sort":"infra",
             "name":"대구범어삼성쉐르빌",
             "search_code":"26777",
             "apt_type":"아파트",
@@ -534,7 +547,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":37,
+            "index":38,
             "sort":"infra",
             "name":"범어화산샬레",
             "search_code":"107941",
@@ -547,26 +560,13 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":38,
+            "index":39,
             "sort":"infra",
             "name":"빌리브범어",
             "search_code":"112876",
             "apt_type":"아파트",
             "apt_year":4.0,
             "value_score":67.708,
-            "region":"대구시 수성구",
-            "region_code":"Daegu",
-            "sub_region_code":"2726000000_Daegu_Suseong",
-            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
-        },
-        {
-            "index":39,
-            "sort":"infra",
-            "name":"범어청구하이츠",
-            "search_code":"7086",
-            "apt_type":"아파트",
-            "apt_year":23.0,
-            "value_score":66.6,
             "region":"대구시 수성구",
             "region_code":"Daegu",
             "sub_region_code":"2726000000_Daegu_Suseong",
@@ -588,6 +588,19 @@
         {
             "index":41,
             "sort":"education",
+            "name":"힐스테이트만촌역(주상복합)",
+            "search_code":"140871",
+            "apt_type":"분양권",
+            "apt_year":-1.0,
+            "value_score":74.2,
+            "region":"대구시 수성구",
+            "region_code":"Daegu",
+            "sub_region_code":"2726000000_Daegu_Suseong",
+            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
+        },
+        {
+            "index":42,
+            "sort":"education",
             "name":"범어SK뷰",
             "search_code":"25632",
             "apt_type":"아파트",
@@ -599,7 +612,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":42,
+            "index":43,
             "sort":"education",
             "name":"범어라온프라이빗2차",
             "search_code":"112471",
@@ -612,7 +625,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":43,
+            "index":44,
             "sort":"education",
             "name":"범어센트레빌",
             "search_code":"126425",
@@ -625,7 +638,7 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":44,
+            "index":45,
             "sort":"education",
             "name":"빌리브범어120",
             "search_code":"145659",
@@ -638,20 +651,20 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":45,
+            "index":46,
             "sort":"education",
-            "name":"범어효성해링턴플레이스",
-            "search_code":"111607",
+            "name":"해링턴플레이스만촌(주상복합)",
+            "search_code":"127804",
             "apt_type":"아파트",
-            "apt_year":5.0,
-            "value_score":70.116,
+            "apt_year":0.0,
+            "value_score":70.7,
             "region":"대구시 수성구",
             "region_code":"Daegu",
             "sub_region_code":"2726000000_Daegu_Suseong",
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":46,
+            "index":47,
             "sort":"education",
             "name":"범어화산샬레",
             "search_code":"107941",
@@ -664,26 +677,13 @@
             "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
         },
         {
-            "index":47,
-            "sort":"education",
-            "name":"빌리브범어",
-            "search_code":"112876",
-            "apt_type":"아파트",
-            "apt_year":4.0,
-            "value_score":70.016,
-            "region":"대구시 수성구",
-            "region_code":"Daegu",
-            "sub_region_code":"2726000000_Daegu_Suseong",
-            "shorten_url":"https:\/\/me2.do\/Fzmhaq72"
-        },
-        {
             "index":48,
             "sort":"education",
-            "name":"대구범어삼성쉐르빌",
-            "search_code":"26777",
+            "name":"범어효성해링턴플레이스",
+            "search_code":"111607",
             "apt_type":"아파트",
-            "apt_year":13.0,
-            "value_score":69.516,
+            "apt_year":5.0,
+            "value_score":70.116,
             "region":"대구시 수성구",
             "region_code":"Daegu",
             "sub_region_code":"2726000000_Daegu_Suseong",
@@ -692,11 +692,11 @@
         {
             "index":49,
             "sort":"education",
-            "name":"범어풀비체",
-            "search_code":"103890",
+            "name":"빌리브범어",
+            "search_code":"112876",
             "apt_type":"아파트",
-            "apt_year":10.0,
-            "value_score":69.516,
+            "apt_year":4.0,
+            "value_score":70.016,
             "region":"대구시 수성구",
             "region_code":"Daegu",
             "sub_region_code":"2726000000_Daegu_Suseong",
