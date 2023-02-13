@@ -84,6 +84,27 @@
         "pandas_version":"1.4.0"
     },
     "data":[
-
+        {
+            "index":0,
+            "request_type":"Direct",
+            "shop_name":"해피니스 스토어",
+            "owner":"박하림",
+            "main_title":"8가지 다양한 컬러, 수호신 마스크!",
+            "sub_title":"피부자극과 답답함이 걱정이시라면?",
+            "sub_comment" : "네이버 해피니스스토어에서 파격 할인중!",
+            "cellphone":"1091507719",
+            "phone":"315085551",
+            "start_date":"2023-02-13",
+            "end_date":"2023-03-10",
+            "duration":30,
+            "address":"",
+            "email":"pxlphl@naver.com",
+            "icon":"1168000000_Seoul_Gangnam.png",
+            "comment":"",
+            "y":127.0977807,
+            "x":37.8365406,
+            "homepage":"https:\/\/smartstore.naver.com\/_happiness_store_2\/products\/5881350366",
+            "map_url":""
+        }
     ]
 }
