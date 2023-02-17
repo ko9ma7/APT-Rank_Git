@@ -38,6 +38,14 @@ function drawRankChart(rankMonth, rankData, id_name, max_val1, max_val2){
         y:{
           display: false,          
         },
+        x: {
+          ticks: {                
+              maxRotation: 0,
+              font: {
+                size: 12
+              }
+          }
+        },
         POP:{
           type: 'linear',
           display: true,
@@ -149,6 +157,14 @@ function drawPriceChart(rankMonth, rankData, rankData2, id_name, max_val1, max_v
         y:{
           display: false,          
         },
+        x: {
+          ticks: {                
+              maxRotation: 0,
+              font: {
+                size: 12
+              }
+          }
+        },
         SALE:{
           type: 'linear',
           display: true,
@@ -258,6 +274,14 @@ function drawPIRBPChart(rankMonth, rankData, rankData2, id_name, max_val1, max_v
           display: false,          
           suggestedMax: max_val1,
         },
+        x: {
+          ticks: {                
+              maxRotation: 0,
+              font: {
+                size: 12
+              }
+          }
+        },
         PIR:{
           type: 'linear',
           display: false,
@@ -361,6 +385,14 @@ function drawDealChart(rankMonth, rankData, id_name, max_val, avg10){
           //ticks:{            
           //  stepSize: 0.1,
           //}
+        }
+      },
+      x: {
+        ticks: {                
+            maxRotation: 0,
+            font: {
+              size: 12
+            }
         }
       },
       animation: {            
