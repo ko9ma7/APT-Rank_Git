@@ -283,7 +283,7 @@
     box-shadow: rgba(60, 64, 67, 0.5) 0px 1px 2px 0px, rgba(60, 64, 67, 0.3) 0px 1px 3px 1px;
   }
   .region_info:hover{
-    background: rgba(128, 208, 255, 0.3)
+    background: rgba(255, 128, 128, 0.1)
   }
   .table_top{
     background-color: #ddd;
@@ -350,7 +350,7 @@
     border-bottom: 1px solid #ddd;
   }
   .aptRankList:hover{
-    background: rgba(128, 208, 255, 0.3)
+    background: rgba(255, 128, 128, 0.1)
   }
   #aptName{
     text-align: left;
@@ -537,7 +537,7 @@
     line-height: 1.8em;
   }
   .subRegion_qna:hover{
-    color: #133eb3;    
+    color: #b31313;    
   }
   #subRegion_line1{
     display:grid;
@@ -1037,7 +1037,7 @@
     border: None;
   }
   .goApt:hover, .gokakao:Hover{
-    box-shadow: rgba(0, 177, 204, 0.3) 0px 0px 0px 3px;
+    box-shadow: rgba(255, 128, 128, 0.3) 0px 0px 0px 3px;
   }
   .goApt:active{
     background-color: #2c405f;
