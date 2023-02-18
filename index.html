@@ -781,6 +781,7 @@ function updateTable(month, region){
         partData = part_json;
         part_detail = partData.data
         if(part_detail.length > 0){
+          part_title = part_detail[0]['shop_name'] 
           part_type = part_detail[0]['request_type']
           part_main_title = part_detail[0]['main_title']
           sub_title = part_detail[0]['sub_title']
@@ -826,6 +827,8 @@ function updateTable(month, region){
           if(part_type == 'Direct'){
             $('#dataList').append(part_info);
             $('.partBox').click(function(){
+              var ad_click_date = new Date();
+              gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', '파트너쉽선택' : part_title + "\t" + ad_click_date + "\t" + ($('#sido option:selected').text() + " " + $('#gungu option:selected').text())});
               window.open(page_url)
             })
           }
@@ -1026,7 +1029,14 @@ function updateTable(month, region){
       aptRank = (Number(index)+1) + "/" + (itemNum) + "위"
     }
 
-    gtag('event','아파트상세', { 'event_category' : short_name, 'event_label' : aptName + "(" + short_name + ")"});
+    if(Number(selectedMonth) > 202211){
+      eventURL = aptData.data[index]["sURL"]
+    }
+    else{
+      eventURL = ""
+    }
+
+    gtag('event','아파트상세', { 'event_category' : short_name, 'event_label' : aptName + "(" + short_name + ")" + "\t" + short_name + "\t" + eventURL});
 
     if(Number(selectedMonth) > 202203){      
       if(apt_type == "아파트"){        

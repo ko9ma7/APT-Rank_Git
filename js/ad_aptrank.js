@@ -86,7 +86,9 @@ function showPART(){
     titleHtml = "";
     detailHtml = "";
     footerHtml = "";
-	
+
+    var ad_click_date = new Date();
+    gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', '파트너쉽선택' : shop_name + "\t" + ad_click_date + "\t" + ($('#sido option:selected').text() + " " + $('#gungu option:selected').text())});	
     
     titleHtml += "<div id='part_title'>"        
         titleHtml += "<div id='part_title_sub'>"
