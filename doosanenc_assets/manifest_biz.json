@@ -6,7 +6,7 @@
     "start_url": "https://www.aptrank.kr/doosanenc_assets/index.html",
     "display": "standalone",
     "theme_color": "#000000",
-    "background_color": "#162235",
+    "background_color": "#005eb8",
     "orientation": "landscape",
     "icons": [{
       "src": "https://www.aptrank.kr/doosanenc_assets/biz_Doosan-512x512.png",
