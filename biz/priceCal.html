@@ -972,13 +972,13 @@ function updateResult(){
     $('#py60_val').html("--")
   }
   else{
-    $('#py_val').html("@" + pyPriceAvg.toLocaleString())
-    $('#py10_val').html((pyPriceAvg * 16 * 10000).toLocaleString())
-    $('#py20_val').html((pyPriceAvg * 24 * 10000).toLocaleString())
-    $('#py30_val').html((pyPriceAvg * 34 * 10000).toLocaleString())
-    $('#py40_val').html((pyPriceAvg * 45 * 10000).toLocaleString())
-    $('#py50_val').html((pyPriceAvg * 55 * 10000).toLocaleString())
-    $('#py60_val').html((pyPriceAvg * 65 * 10000).toLocaleString())
+    $('#py_val').html("@" + Number( pyPriceAvg.toFixed(2) ).toLocaleString())
+    $('#py10_val').html( Number( Number(pyPriceAvg * 16 * 10000).toFixed(0) ).toLocaleString() )
+    $('#py20_val').html( Number( Number(pyPriceAvg * 24 * 10000).toFixed(0) ).toLocaleString() )
+    $('#py30_val').html( Number( Number(pyPriceAvg * 34 * 10000).toFixed(0) ).toLocaleString() )
+    $('#py40_val').html( Number( Number(pyPriceAvg * 45 * 10000).toFixed(0) ).toLocaleString() )
+    $('#py50_val').html( Number( Number(pyPriceAvg * 55 * 10000).toFixed(0) ).toLocaleString() )
+    $('#py60_val').html( Number( Number(pyPriceAvg * 65 * 10000).toFixed(0) ).toLocaleString() )
   }
 }
 
