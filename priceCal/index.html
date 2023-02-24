@@ -874,12 +874,18 @@ function updatePrice(compareid){
   years = Number(startYear) - Number(buildYearNum)
 
   py_val = $('#aptpy' + compareid + ' option:selected').val()
+  optionNum = $('#aptpy' + compareid + ' option').length
   console.log(py_val)
   findDate = startYear + startMonth
 
   for(var i = 0 ; i <= dateArray.length ; i++){
     if(dateArray[i] == findDate){
-      price = sales_history[py_val][i]
+      if(optionNum > 1){
+        price = sales_history[py_val][i]
+      }
+      else{
+        price = sales_history[i]
+      }      
       break;
     }
     else{
