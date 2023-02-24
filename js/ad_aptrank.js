@@ -100,10 +100,13 @@ function showPART(){
         titleHtml +="<div style='text-align:center; align-self:center'><div class='image_wrap'><img src='./ad/image/" + shop_icon + "' height='70px' alt='' style='clip-path: circle(38%)'></div></div>"
     titleHtml += "</div>"    
 
-    detailHtml += "<div class='notice'>" + shop_comment + "</div><hr>"
-    detailHtml += "<div id='part_map_wrap' onClick='goMap(shop_map_url)'>"
-        detailHtml += "<div id='part_map'></div>"
-    detailHtml += "</div>"
+    detailHtml += "<div class='notice'>" + shop_comment + "</div>"
+    if(shop_x != ""){        
+        detailHtml += "<hr>"
+        detailHtml += "<div id='part_map_wrap' onClick='goMap(shop_map_url)'>"
+            detailHtml += "<div id='part_map'></div>"
+        detailHtml += "</div>"
+    }
 
     footerHtml += "<div class='modal-footer'>"    
     if ( navigator.platform ) {
@@ -111,8 +114,14 @@ function showPART(){
             footerHtml += " <div id='partBtn1'><button type='button' class='goApt' onClick='callNumber(shop_cell)' style='font-size: 0.85em'><i class='fa-solid fa-phone'></i>" + ' ' + shop_cell_with_hyphen + "</button></div>"
             footerHtml += " <div id='partBtn2'><button type='button' class='goApt' onClick='sendMessage(checkMobile(), shop_cell)' style='font-size: 0.85em'><i class='fa-regular fa-envelope'></i> 문자보내기 </button></div>"            
         } else {}
-    }    
-    footerHtml += " <div id='partBtn3'><button type='button' class='goApt' onClick='window.open(\"" + shop_home + "\")' style='font-size: 0.85em'><i class='fa-solid fa-house'></i> 홈페이지</button></div>"
+    }
+    if(shop_home != ""){
+        footerHtml += " <div id='partBtn3'><button type='button' class='goApt' onClick='window.open(\"" + shop_home + "\")' style='font-size: 0.85em'><i class='fa-solid fa-house'></i> 홈페이지</button></div>"
+    }
+    else{
+        footerHtml += " <div id='partBtn3'><button type='button' class='goApt' style='font-size: 0.85em' disabled><i class='fa-solid fa-house'></i> 홈페이지 준비 중</button></div>"
+    }
+    
     footerHtml += "</div>"  
 
     $('#toggleModalLabel').html(titleHtml);
