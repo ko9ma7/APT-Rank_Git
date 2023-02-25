@@ -30,11 +30,11 @@
   <title>분양가 GENERATOR</title>
   <meta property="og:type" content="website">
   <meta property="og:title" content="분양가 Generator">
-  <meta property="og:description" content="아파트 분양 적합한 지역 찾기">
-  <meta property="og:image" content="https://www.aptrank.kr/biz/thumbnail_biz2.png">
-  <meta property="og:url" content="https://www.aptrank.kr/biz/">
+  <meta property="og:description" content="알고리즘 기반 분양가 GENERATOR">
+  <meta property="og:image" content="https://www.aptrank.kr/priceCal/thumbnail_priceCal.png">
+  <meta property="og:url" content="https://www.aptrank.kr/priceCal/">
   <meta name="keyword" content="부동산, 아파트, 입지, 순위, 아파트입지, 우리동네, 호가, 대장아파트, 최고가, 신고가, 호재, AI, 등수">
-  <meta name="description" content="아파트 분양 적합한 지역 찾기">
+  <meta name="description" content="알고리즘 기반 분양가 GENERATOR">
   <meta name="author" content="분양가 GENERATOR">
   <meta name="robots" content="index,follow">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes, minimal-ui">
@@ -149,18 +149,18 @@
             <div id="housingSelection">
               <div class="step1Title">주택가격상승률</div>
                 <div id="wrapper" style="padding-left: 30px">
+                  <label class='radioOptions'>
+                    <div><input type="radio" class="housingPrice" name="housing_options" id="housing_option3" autocomplete="off" value = "Housing_KO" checked onchange="set_housing_ratio()"> Korea</div>
+                    <div id='Housing_KO' class='housing_value' for="housing_option3"></div>
+                  </label>
                   <label class='radioOptions'>                  
-                    <div><input type="radio" class="housingPrice" name="housing_options" id="housing_option1" autocomplete="off" value = "Housing_OECD" checked onchange="set_housing_ratio()"> OECD</div>
+                    <div><input type="radio" class="housingPrice" name="housing_options" id="housing_option1" autocomplete="off" value = "Housing_OECD" onchange="set_housing_ratio()"> OECD</div>
                     <div id='Housing_OECD' class='housing_value' for="housing_option1"></div>
                   </label>
                   <label class='radioOptions'>
                     <div><input type="radio" class="housingPrice" name="housing_options" id="housing_option2" autocomplete="off" value = "Housing_US" onchange="set_housing_ratio()"> US</div>
                     <div id='Housing_US' class='housing_value' for="housing_option2"></div>
-                  </label>
-                  <label class='radioOptions'>
-                    <div><input type="radio" class="housingPrice" name="housing_options" id="housing_option3" autocomplete="off" value = "Housing_KO" onchange="set_housing_ratio()"> Korea</div>
-                    <div id='Housing_KO' class='housing_value' for="housing_option3"></div>
-                  </label>
+                  </label>                  
                   <label class='radioOptions'>
                     <div><input type="radio" class="housingPrice" name="housing_options" id="housing_option4" autocomplete="off" value = "Housing_CUSTOM" onchange="set_housing_ratio()"> 직접설정</div>
                     <div id='Housing_CUSTOM' class='housing_value' for="housing_option4"><input type='number' id='housing_custom' min='-80' max='80' value="33.00" step="0.05" onchange="set_custom_housing_ratio()" onkeyup="set_custom_housing_ratio()">%</div>
@@ -171,18 +171,18 @@
             <div id="CPISelection">
               <div class="step1Title">현재 인플레이션률</div>
                 <div id="wrapper" style="padding-left: 30px">
+                  <label class='radioOptions'>
+                    <div><input type="radio" class="CPI" name="CPI_options" id="CPI_option3" autocomplete="off" value = "CPI_KO" checked onchange="set_CPI_ratio()"> Korea</div>
+                    <div id='CPI_KO' class='CPI_value' for="CPI_option3"></div>
+                  </label>
                   <label class='radioOptions'>                  
-                    <div><input type="radio" class="CPI" name="CPI_options" id="CPI_option1" autocomplete="off" value = "CPI_OECD" checked onchange="set_CPI_ratio()"> OECD</div>
+                    <div><input type="radio" class="CPI" name="CPI_options" id="CPI_option1" autocomplete="off" value = "CPI_OECD" onchange="set_CPI_ratio()"> OECD</div>
                     <div id='CPI_OECD' class='CPI_value' for="CPI_option1"></div>
                   </label>
                   <label class='radioOptions'>
                     <div><input type="radio" class="CPI" name="CPI_options" id="CPI_option2" autocomplete="off" value = "CPI_US" onchange="set_CPI_ratio()"> US</div>
                     <div id='CPI_US' class='CPI_value' for="CPI_option2"></div>
-                  </label>
-                  <label class='radioOptions'>
-                    <div><input type="radio" class="CPI" name="CPI_options" id="CPI_option3" autocomplete="off" value = "CPI_KO" onchange="set_CPI_ratio()"> Korea</div>
-                    <div id='CPI_KO' class='CPI_value' for="CPI_option3"></div>
-                  </label>
+                  </label>                  
                   <label class='radioOptions'>
                     <div><input type="radio" class="CPI" name="CPI_options" id="CPI_option4" autocomplete="off" value = "CPI_CUSTOM" onchange="set_CPI_ratio()"> 직접설정</div>
                     <div id='CPI_CUSTOM' class='CPI_value' for="CPI_option4"><input type='number' id='CPI_custom' min='-15' max='15' value="3.00" step="0.05" onchange="set_custom_CPI_ratio()" onkeyup="set_custom_CPI_ratio()">%</div>
@@ -193,7 +193,7 @@
             <div>
               <div id="wrapper" style="text-align: center;">
                 <div class="step1Title">임의가중치</div>
-                <div id="addtional"><input type='number' id='addon_KO' min='-15' max='15' value="3.00" step="0.05" onchange="set_addon_ratio()" onkeyup="set_addon_ratio()">%</div>
+                <div id="addtional"><input type='number' id='addon_KO' min='-15' max='15' value="0.00" step="0.05" onchange="set_addon_ratio()" onkeyup="set_addon_ratio()">%</div>
               </div>
             </div>
 
@@ -289,7 +289,7 @@
 
   var housingRatio = 0
   var CPIRatio = 0
-  var addonRatio = 3
+  var addonRatio = 0
   var finalRatio = 0
   var houseDepreciation = 3
 
@@ -433,13 +433,13 @@
         $('#CPI_US').html(getLatestCPI('CPI_US') + "%")
         $('#CPI_OECD').html(getLatestCPI('CPI_OECD') + "%")
         //$('#CPI_CUSTOM').html(getLatestCPI('CPI_CUSTOM'))
-        CPIRatio = Number(getLatestCPI('CPI_OECD'))
+        CPIRatio = Number(getLatestCPI('CPI_KO'))
 
         $('#Housing_KO').html(getLatestHousingPriceRate('Housing_KO') + "%")
         $('#Housing_US').html(getLatestHousingPriceRate('Housing_US') + "%")
         $('#Housing_OECD').html(getLatestHousingPriceRate('Housing_OECD') + "%")
         //$('#Housing_CUSTOM').html(getLatestCPI('CPI_KO'))
-        housingRatio = Number(getLatestHousingPriceRate('Housing_OECD'))
+        housingRatio = Number(getLatestHousingPriceRate('Housing_KO'))
 
         set_final_ratio()
     })
@@ -927,6 +927,7 @@ function updatePrice(compareid){
   else{
     comment2 = "② '" + complex + "' 단지가 " + startYear + "년 신축이라면 <br>"
     comment2 += "&nbsp&nbsp&nbsp&nbsp&nbsp( " + comment1_result + " x (1 + (" + years + "년 x 건물감가 " + (houseDepreciation).toFixed(2) + "%) )"
+    
     resul2_price = price * (1 + (years * houseDepreciation/100))
     comment2_result = ( resul2_price / 10000 ).toFixed(2) + "억"
 
@@ -935,6 +936,7 @@ function updatePrice(compareid){
     
     comment3 = "③ '" + complex + "' 단지에 상승률 결과를 반영하면, <br>"
     comment3 += "&nbsp&nbsp&nbsp&nbsp&nbsp( " + comment2_result + " x (1 + 상승률 결과 " + finalRatio + "%) )"
+    
     resul3_price = resul2_price * (1 + finalRatio/100)
     comment3_result = ( resul3_price / 10000 ).toFixed(2) + "억"
 
