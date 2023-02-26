@@ -101,7 +101,7 @@
         <div></div>
         <!--타이틀 표시-->
         <!-- <div id="title" onClick='window.location.reload()'>아파트랭크<span id="themeLogo">BIZ</span> X 파트너를 찾습니다!</div> -->
-        <div id="title_m" onClick='window.location.reload()'>분양가 GENERATOR <span id="themeLogo">BETA</span></div>      
+        <div id="title_m" onClick='window.location.reload()'>분양가 GENERATOR<span id="themeLogo">BETA</span></div>      
         <!--공유 버튼-->        
         <!-- <div id='tripGuide' data-bs-toggle='modal' data-bs-target='#toggleModal1' id='myModal' onClick='showDistance(routeArray)'><i class="fa-solid fa-route"></i></div> -->
         
@@ -188,7 +188,7 @@
 
             <div class="envoironment_setting">
               <div class="step1Title_m">상승률 결과</div>              
-              <div id='rate_result_value' style='font-size: 1.3em; font-weight: 600; color: rgb(180, 40, 40); margin-left: 15px'></div>
+              <div id='rate_result_value' style='font-size: 1.2em; font-weight: 600; color: rgb(180, 40, 40); margin-left: 15px'></div>
             </div>
           </div>
         </div>
@@ -473,7 +473,7 @@
                 //+ "<div class='subRegion_name'>비교단지 " + (i+1) + "</div>"
                 + "</div>"
         
-                + "<div class = 'subRegion_pop_table1'>"
+                + "<div class = 'subRegion_pop_table1_m'>"
                 + "<div><select class='aptListSelect' id='aptListSelect" + i + "' onChange='updateComplex(this.value, " + i + ")'></select></div>"
                 + "<div><select class='aptListSelect' id='aptpy" + i + "' onChange='updatePyeong(this.value, " + i + ")'></select></div>"
                 + "</div>"
@@ -912,7 +912,7 @@ function updatePrice(compareid){
 
   complex_val = $("#aptListSelect" + compareid+ ' option:selected').val()
 
-  comment1 = "① '" + complex + "'의 " + startYear + "년 " + startMonth + "월 매매가"
+  comment1 = startYear + "년 " + startMonth + "월 매매가"
   if(price == 0 || isNaN(price)){
     comment1_result = "거래없음"
   }
@@ -933,7 +933,7 @@ function updatePrice(compareid){
     //$('#compare' + compareid + "_result2").html("--")
     //$('#compare' + compareid + "_comment3").html("--")
     //$('#compare' + compareid + "_result3").html("--")
-    //$('#compare' + compareid + "_comment4").html("--")
+    $('#compare' + compareid + "_comment4").html("--")
     $('#compare' + compareid + "_result4").html("--")
     priceResult[compareid] = 0
   }
@@ -956,7 +956,7 @@ function updatePrice(compareid){
     //$('#compare' + compareid + "_comment3").html(comment3)
     //$('#compare' + compareid + "_result3").html(comment3_result)
 
-    comment4 = "④ '" + complex + "' 단지 비교 적정 평단가 <br>"
+    comment4 = "단지 비교 적정 평단가 <br>"
     py = $("#aptpy" + compareid+ ' option:selected').text()
     py = py.substr(0, py.indexOf('평'))
     py = Number(py)
