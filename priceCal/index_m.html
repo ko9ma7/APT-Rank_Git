@@ -80,6 +80,16 @@
   <link href="../css/distance.css" rel="stylesheet"/>
 
   <script src="../js/doubleSlider.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    var UserAgent = navigator.userAgent; 
+    if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null)
+    {}
+    else{
+      location.href = "https://www.aptrank.kr/priceCal/"; /* PC 홈페이지 경로 */
+    }
+  </script>
+
 </head>
 <style>
 </style>
