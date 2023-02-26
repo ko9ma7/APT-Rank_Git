@@ -155,7 +155,7 @@
             </div>
 
             <div id="housingSelection">
-              <div class="step1Title">주택가격상승률</div>
+              <div class="step1Title">주택가격상승률 (~2022.06)</div>
                 <div id="wrapper" style="padding-left: 30px">
                   <label class='radioOptions'>
                     <div><input type="radio" class="housingPrice" name="housing_options" id="housing_option3" autocomplete="off" value = "Housing_KO" checked onchange="set_housing_ratio()"> Korea</div>
@@ -519,7 +519,7 @@
     }
     else{
       housing_ratio_txt = $("#" + housing_ratio_val).text();
-      housingRatio = Number(housing_ratio_txt.replace("%", ""))
+      housingRatio = Number(housing_ratio_txt.replace("%", ""))      
     }
     set_final_ratio()
   }
@@ -771,11 +771,16 @@ function getLatestHousingPriceRate(baseData){
   baseDateVal = checkObj[startYear + "-" + startQuater]
   checkArray = Object.values(checkObj)
 
-  for(var j = checkArray.length-1 ; j > 0 ; j--){    
-    if(checkArray[j] != 'NA'){
-      //console.log(checkArray[0][i])
-      housingRatio = ((checkArray[j] / baseDateVal) - 1) * 100
-      return housingRatio.toFixed(2)
+  if(baseDateVal == "NA" || isNaN(baseDateVal)){
+    housingRatio = 0
+    return housingRatio.toFixed(2)
+  }
+  else{
+    for(var j = checkArray.length-1 ; j > 0 ; j--){    
+      if(checkArray[j] != 'NA'){      
+        housingRatio = ((checkArray[j] / baseDateVal) - 1) * 100      
+        return housingRatio.toFixed(2)
+      }
     }
   }
 }

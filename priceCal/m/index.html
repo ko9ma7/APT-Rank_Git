@@ -147,7 +147,7 @@
             </div>
 
             <div class="envoironment_setting">
-              <div class="step1Title_m">주택가격상승률</div>
+              <div class="step1Title_m" style="line-height: 1em;">주택가격상승률<br><span style='font-size: 0.6em'>(~2022.2Q)</span></div>
               <div id="wrapper2">
                 <div>
                   <select id='housingPrice_sel' onChange='set_housing_ratio()'>
@@ -779,11 +779,17 @@ function getLatestHousingPriceRate(baseData){
   baseDateVal = checkObj[startYear + "-" + startQuater]
   checkArray = Object.values(checkObj)
 
-  for(var j = checkArray.length-1 ; j > 0 ; j--){    
-    if(checkArray[j] != 'NA'){
-      //console.log(checkArray[0][i])
-      housingRatio = ((checkArray[j] / baseDateVal) - 1) * 100
-      return housingRatio.toFixed(2)
+  if(baseDateVal == "NA" || isNaN(baseDateVal)){
+    housingRatio = 0
+    return housingRatio.toFixed(2)
+  }
+  else{
+    for(var j = checkArray.length-1 ; j > 0 ; j--){    
+      if(checkArray[j] != 'NA'){
+        //console.log(checkArray[0][i])
+        housingRatio = ((checkArray[j] / baseDateVal) - 1) * 100
+        return housingRatio.toFixed(2)
+      }
     }
   }
 }
