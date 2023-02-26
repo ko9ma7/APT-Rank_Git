@@ -814,7 +814,7 @@
     outline: none
   }
   #baseDate_m, #housingPrice_sel, #CPI_sel{
-    width: 150px;
+    width: 100px;
     border: 0px;
     font-size: 0.85em;
     margin-left: 15px;
