@@ -163,7 +163,7 @@
   #titleBar_theme_m{   
     position: fixed;
     display: grid;
-    grid-template-columns: 50px 50px 1fr 50px 50px;
+    grid-template-columns: 1fr;
     top: 0;
     left: 0;
     right: 0;
@@ -782,7 +782,7 @@
   }
   #wrapper2{
     display: grid;
-    grid-template-columns: 1fr 0.8fr;
+    grid-template-columns: 1fr 1fr;
     text-align: right;
     height: 100%
   }
@@ -814,7 +814,7 @@
     outline: none
   }
   #baseDate_m, #housingPrice_sel, #CPI_sel{
-    width: 180px;
+    width: 150px;
     border: 0px;
     font-size: 0.85em;
     margin-left: 15px;
@@ -831,10 +831,11 @@
   }
   .envoironment_setting{
     display: grid;
-    grid-template-columns: 0.4fr 1fr;
+    grid-template-columns: 100px 1fr;
     padding-top: 5px;
     padding-bottom: 3px;
     border-bottom: 1px solid #ddd;
+    text-align: left;
   }
   #housingSelection{
     display: block;
