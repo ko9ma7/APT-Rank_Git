@@ -137,7 +137,7 @@
         </div>
 
         <div id = "step1_m" style="margin-top: 105px;">
-          <div class='stepInfo_m'>① 시장 환경 설정</div>
+          <div class='stepInfo_m'>① 시장 환경</div>
 
           <div id="step1Content_m">
             <div class="envoironment_setting">
@@ -199,7 +199,7 @@
         </div>
 
         <div id="step3_m">
-          <div class='stepInfo_m'>③ 비교 단지 설정</div>
+          <div class='stepInfo_m'>③ 비교 단지</div>
           <div id="step3Content_m"></div>
         </div>
 
@@ -417,14 +417,16 @@
         //$('#CPI_KO').html(getLatestCPI('CPI_KO') + "%")
         //$('#CPI_US').html(getLatestCPI('CPI_US') + "%")
         //$('#CPI_OECD').html(getLatestCPI('CPI_OECD') + "%")
-        //$('#CPI_CUSTOM').html(getLatestCPI('CPI_CUSTOM'))
+        //$('#CPI_CUSTOM').html(getLatestCPI('CPI_CUSTOM'))        
         CPIRatio = Number(getLatestCPI('CPI_KO'))
+        $("#CPI_custom_m").val(getLatestCPI('CPI_KO'))
 
         //$('#Housing_KO').html(getLatestHousingPriceRate('Housing_KO') + "%")
         //$('#Housing_US').html(getLatestHousingPriceRate('Housing_US') + "%")
         //$('#Housing_OECD').html(getLatestHousingPriceRate('Housing_OECD') + "%")
-        //$('#Housing_CUSTOM').html(getLatestCPI('CPI_KO'))
+        //$('#Housing_CUSTOM').html(getLatestCPI('CPI_KO'))        
         housingRatio = Number(getLatestHousingPriceRate('Housing_KO'))
+        $("#housing_custom_m").val(getLatestHousingPriceRate('Housing_KO'))
 
         set_final_ratio()
     })
