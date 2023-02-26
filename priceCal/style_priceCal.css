@@ -650,7 +650,7 @@
   }
   #themeSelections_m{
     display: grid;
-    grid-template-columns: 0.8fr 1.5fr 1.3fr;
+    grid-template-columns: 0.8fr 1.5fr;
     align-content: center;
     justify-content: center;
     height: 50px;
@@ -663,13 +663,17 @@
     right: 0;
   }  
   .stepInfo{    
-    font-weight: 600;
+    font-weight: 900;
     height: 100%;
     margin-right: 15px;
     border-right: 1px solid #ccc
   }
   .stepInfo_m{
-    font-weight: 600;    
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+    color: #28487c
   }
   #step1, #step2, #step3, #step4{
     background-color: #fff;
@@ -679,20 +683,36 @@
     margin-bottom: 10px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   }
-  #step1_m{
+  #step1_m, #step2_m, #step3_m, #step4_m{
     background-color: #fff;
     border-radius: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    align-items: center;
+    align-items: center;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 10px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+  #step2_m{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
   }
   .step1Title{
     background-color: #460808;
     color: #fff;
     text-align: center;
     font-size: 0.8em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+  }
+  .step1Title_m{    
+    text-align: left;
+    font-size: 0.85em;
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 5px;
@@ -715,7 +735,14 @@
     font-weight: 600;
     font-size: 1.5em;
   }
+  #py_val_m, #py10_val_m, #py20_val_m, #py30_val_m, #py40_val_m, #py50_val_m, #py60_val_m{
+    font-weight: 600;
+    font-size: 1em;
+  }
   #py_val{
+    color: rgb(180, 40, 40)
+  }
+  #py_val_m{
     color: rgb(180, 40, 40)
   }
   #step1, #step2, #step3, #step4{
@@ -731,6 +758,13 @@
     width: 60px;
     text-align: right;
     height: 1.2em;
+  }
+  #addon_KO_m, #CPI_custom_m, #housing_custom_m, #house_depreciation_m{    
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: 80px;
+    text-align: center;
+    font-size: 0.85em;    
   }
   .housing_value, .CPI_value{
     text-align: right;
@@ -749,6 +783,7 @@
   #wrapper2{
     display: grid;
     grid-template-columns: 1fr 0.8fr;
+    text-align: right;
     height: 100%
   }
   #addtional{
@@ -758,7 +793,8 @@
     justify-content: center;
   }
   #addtional_m{
-    display: block
+    display: block;
+    margin-left: 15px
   }
   #step1Content{
     display: grid;    
@@ -766,7 +802,8 @@
     column-gap: 15px;    
   }
   #step1Content_m{
-    display: block;    
+    display: grid;
+    row-gap: 5px;
   }
   #baseDate{
     width: 100%;
@@ -776,9 +813,18 @@
   #baseDate:focus{
     outline: none
   }
-  #baseDate_m{
-    width: 100%;
+  #baseDate_m, #housingPrice_sel, #CPI_sel{
+    width: 180px;
     border: 0px;
+    font-size: 0.85em;
+    margin-left: 15px;
+    appearance: none;
+    border-radius: 10px;
+    background-color: #ddd;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-weight: 600;
   }
   #baseDate_m:focus{
     outline: none
@@ -786,6 +832,9 @@
   .envoironment_setting{
     display: grid;
     grid-template-columns: 0.4fr 1fr;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
   }
   #housingSelection{
     display: block;
@@ -800,9 +849,17 @@
     column-gap: 10px;
     row-gap: 10px;
   }
+  #step3Content_m{
+    display: grid;    
+    row-gap: 10px;
+  }
   .compares{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .compares_m{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
   }
   .compare_comment{
     display: grid;
@@ -816,10 +873,28 @@
     border-bottom: 1px solid #ddd;
     align-content: center;
   }
+  .compare_comment_m{
+    display: grid;
+    height: 30px;
+    font-size: 0.85em;
+    font-weight: 600;
+    grid-template-columns: 1fr 0.3fr;
+    column-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #ddd;
+    align-content: center;
+  }  
   #step4Content{
     display: grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 10px;    
+  }
+  #step4Content_m{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    row-gap: 10px;
+    column-gap: 10px;
   }
   .aptListSelect{
     border: 0;
