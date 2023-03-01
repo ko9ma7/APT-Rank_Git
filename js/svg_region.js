@@ -102,6 +102,10 @@ var svg_Seoul =
 +	"l-12.7,17.7l-2.2,11.1l-19.4,14.4l-11.1-5l-0.6-14.4l-5-14.4l-6.6-7.2l-1.1-16.6l11.1-9.4l-10.5-21.6L146,467.7z'/>"
 +"</g>"
 +"<g>"
++"<g>"
++"<path fill='#FFFFFF' stroke='#DDDDDD' stroke-width='2' class='st0' d='M129.1,299.2H35.9c-5.1,0-9.3-4.2-9.3-9.3v-75.5c0-5.1,4.2-9.3,9.3-9.3h93.2c5.1,0,9.3,4.2,9.3,9.3v75.5 C138.4,295.1,134.2,299.2,129.1,299.2z'/>"
++"<path id='Seoul' fill='#DDDDDD' stroke='#FFFFFF' stroke-width='3' class='st0' d='M118.4,261.8l6.8-5l-0.6-4.4l-1.5-3l-6.5-0.6l-5.8,3.5l-0.2,0.5l-3.1-5.2	l3.4-3.3l-0.3-7v-0.9l-5.3-9.5l-0.9-10.6l-5.3-0.6l-0.3,0.6l-2.7,1.4l-6.9-4.6l-6.1,6.7l-1.5,8.9l0.1,1.4l-1.3,2l-2.2-0.9l-2-1.9 l-2.8-5.4l-4.9,5.2l-3.9,1.4l-0.7,10.9l-3,1.8l-0.8-0.1l-4.3,3.9l-6.2-0.6l-8-5.4l-8.5,13l11,4.6l0.3,0.2l2.1,8.3l-3,3.2l2.4,6.7 l5.2-2.3L56,272l1.4,1.8l5.8,13.2l5.2-3.1l0.3-0.1l4.5,3.5l3.8,0.2l6-7.5l0.2,0.5l9.8,0.6l2.7,7.4l4.7,1.5l6.1-9l1.3-1.3l5.3-0.3 l0.2-0.4l6.7-8.1l-2.1-5.3v-0.9L118.4,261.8z'/>"
++"</g>"
 +"<text transform='matrix(1 0 0 1 241 502)' id='txt_1117000000_Seoul_Yongsan' class='TEXT'>용산구</text>"
 +"<text transform='matrix(1 0 0 1 153 514)' id='txt_1156000000_Seoul_Yeongdeungpo' class='TEXT'>영등포구</text>"
 +"<text transform='matrix(1 0 0 1 202 546)' id='txt_1159000000_Seoul_Dongjak' class='TEXT'>동작구</text>"
@@ -127,6 +131,7 @@ var svg_Seoul =
 +"<text transform='matrix(1 0 0 1 369 409)' id='txt_1126000000_Seoul_Jungnang' class='TEXT'>중랑구</text>"
 +"<text transform='matrix(1 0 0 1 360 479)' id='txt_1121500000_Seoul_Gwangjin' class='TEXT'>광진구</text>"
 +"<text transform='matrix(1 0 0 1 423 476)' id='txt_1174000000_Seoul_Gangdong' class='TEXT'>강동구</text>"
++"<text transform='matrix(1 0 0 1 71 262)' id='txt_Seoul' class='TEXT'>전체</text>"
 +"</g>"
 +"</svg>"
 
@@ -154,6 +159,12 @@ var svg_Incheon =
 +"<path id='2814000000_Incheon_Dong' fill='#DDDDDD' stroke='#FFFFFF' stroke-width='3' class='st0' d='M353.3,623.9l-14.2-8.2L322,602.6l11.9-7.8l8.6-8.6l6.6,1.6l1.6,8.8"
 +	"l14.9,13.4l-10.4,9.3L353.3,623.9z'/>"
 +"<path id='2811000000_Incheon_Jung' fill='#DDDDDD' stroke='#FFFFFF' stroke-width='3' class='st0' d='M250.7,556.5l-9,9l-7,22.9l-40.8,2l4,15.9l-16.9,11.9l26.9,35.8l27.8-14.9l14.9-20.9l21.9-6l28.8-10.9,l-15.9-25.9L250.7,556.5z M198,674.9l14.9,15.9l8-13.9l-12.9-5L198,674.9z M338.2,658l-10.9-6.8l-1.1-12.3l-8.6,7.1l-6.3-5.6l0.4-12.7l8.2-11.6l1.1-13.4l7.1,3.7l13.1,12.3l12.3,5.2,l-6.3,18.3l4.5,14.2L338.2,658z'/>"
+
++"<g>"
++"<path fill='#FFFFFF' stroke='#DDDDDD' stroke-width='2' class='st0' d='M456,313.7h-93.2c-5.1,0-9.3-4.2-9.3-9.3v-75.5c0-5.1,4.2-9.3,9.3-9.3H456c5.1,0,9.3,4.2,9.3,9.3v75.5 C465.3,309.6,461.1,313.7,456,313.7z'/>"
++"<path id='Incheon' fill='#DDDDDD' stroke='#FFFFFF' stroke-width='3' class='st0' d='M386,257 382.8,260.2 380.4,268.2 366.1,268.9 367.5,274.5 361.6,278.6 371,291.2 380.7,285.9 386,278.6 393.6,276.5 403.7,272.7 398.2,263.6z M447.6,275.1 447.4,266.2 451.4,262.9 451.5,261.3 452.7,251.3 459,242.9 457.7,241.8 445.6,240.6 442.8,238.5 422.9,223.9 417.7,233.3 402.2,240.1 409.5,249.2 410.4,258.7 414.4,261.3 414.2,267.1 418,267.6 415.1,270.4 410.6,273.2 410.2,277.9 407.4,281.9 407.2,286.4 409.4,288.4 412.4,285.9 412.8,290.2 416.6,292.6 419.6,297.3 426.6,303 426.6,303 432.2,307 443.6,307.4 456.6,282.5 453,279.8z'/>"
++"</g>"
+
 +"<text transform='matrix(1 0 0 1 191 404)' id='txt_2871000000_Incheon_Ganghwa' class='TEXT'>강화군</text>"
 +"<text transform='matrix(1 0 0 1 228 610)' id='txt_2811000000_Incheon_Jung' class='TEXT'>중구</text>"
 +"<text transform='matrix(1 0 0 1 320 613)' id='txt_2814000000_Incheon_Dong' class='TEXT'>동구</text>"
@@ -163,6 +174,7 @@ var svg_Incheon =
 +"<text transform='matrix(1 0 0 1 342 532)' id='txt_2826000000_Incheon_Seo' class='TEXT'>서구</text>"
 +"<text transform='matrix(1 0 0 1 397 597)' id='txt_2823700000_Incheon_Bupyeong' class='TEXT'>부평구</text>"
 +"<text transform='matrix(1 0 0 1 402 535)' id='txt_2824500000_Incheon_Gyeyang' class='TEXT'>계양구</text>"
++"<text transform='matrix(1 0 0 1 418 257)' id='txt_Incheon' class='TEXT'>전체</text>"
 
 +"</svg>"
 
@@ -537,6 +549,10 @@ var svg_Busan =
 +	"<path id='2611000000_Busan_Jung' class='st0' d='M252.1,564.2v-11.9l-12.7,1.7l-8.5,13.6l11,9.3L252.1,564.2z'/>"
 +	"<path id='2620000000_Busan_Yeongdo' class='st0' d='M276.8,574.4l-24.6,1.7l-3.4,15.3l31.4,25.5l11-5.9l-6.8-20.4"
 +		"l-0.8-11L276.8,574.4z'/>"
++"<g>"
++"<path fill='#FFFFFF' stroke='#DDDDDD' stroke-width='2' d='M145.8,364.7H52.6c-5.1,0-9.3-4.2-9.3-9.3v-75.5c0-5.1,4.2-9.3,9.3-9.3h93.2c5.1,0,9.3,4.2,9.3,9.3v75.5 C155.1,360.6,150.9,364.7,145.8,364.7z'/>"
++"<path id='Busan' fill='#DDDDDD' stroke='#FFFFFF' stroke-width='3' class='st0' d='M145.1,286.5 144.5,278.4 140.3,275.7 137,276.5 129.6,275.4 127.6,281.1 123,284.2 119,280.9 115.4,281.1 113.1,295.7 101.2,300.1 94.3,303.9 92.8,302.8 89.6,311.4 89.4,311.7 78.9,315.2 75.1,319 67,319.4 64,326.3 64.4,331.7 59,329 56.3,332.5 50.2,333 51.5,336.7 58.2,341.8 58.8,345.3 55.1,348.1 58.8,350.5 68,350.3 69.7,342.5 72.1,341.1 72.2,349.7 74.9,349 77.8,343.2 80.9,342.1 81.4,352.8 83.9,360.6 87.4,355.9 91.6,353.4 94.5,350.5 99.4,344.3 101.2,341.3 103.1,338.2 104.6,340.7 105.8,343.9 110.6,344.5 114,344.9 115.7,338.8 114,335.5 115,333 119.8,332.3 123.4,332.1 127.6,332.1 129.6,326.3 134.3,322.9 134.9,315.4 137.4,314.9 138.7,311.4 140.7,307.2 139.9,303 143,298.6 140.7,295.7 143.5,290.7 147,292.4 147.9,289.7z'/>"
++"</g>"
 +"</g>"
 +"<text transform='matrix(1 0 0 1 252 599)' id='txt_2620000000_Busan_Yeongdo' class='TEXT'>영도구</text>"
 +"<text transform='matrix(1 0 0 1 239 570)' id='txt_2611000000_Busan_Jung' class='TEXT'>중구</text>"
@@ -554,6 +570,7 @@ var svg_Busan =
 +"<text transform='matrix(1 0 0 1 272 406)' id='txt_2641000000_Busan_Geumjeong' class='TEXT'>금정구</text>"
 +"<text transform='matrix(1 0 0 1 219 439)' id='txt_2632000000_Busan_Buk' class='TEXT'>북구</text>"
 +"<text transform='matrix(1 0 0 1 362 363)' id='txt_2671000000_Busan_Gijangn' class='TEXT'>기장군</text>"
++"<text transform='matrix(1 0 0 1 91 324)' id='txt_Busan' class='TEXT'>전체</text>"
 
 +"</svg>"
 
@@ -582,6 +599,10 @@ var svg_Daegu =
 +		"l-8.1-26.2l-68.7-26.9l-36.3-4l-8.1,18.8L258.9,540l-36.3-12.1L201,506.3l-20.2-13.5l-18.8-2.7l-53.8,8.1l-31,66l48.5,39"
 +		"l-5.4,41.7l-74-8.1l5.4,37.7L88,710.9l2.7,39L144.5,719z'/>"
 +"</g>"
++"<g>"
++"<path fill='#FFFFFF' stroke='#DDDDDD' stroke-width='2' d='M111.9,303.9H34.3c-4.2,0-7.7-4.8-7.7-10.7V206c0-5.9,3.5-10.7,7.7-10.7h77.6c4.2,0,7.7,4.8,7.7,10.7v87.1 C119.6,299.1,116.1,303.9,111.9,303.9z'/>"
++"<path id='Daegu' fill='#DDDDDD' stroke='#FFFFFF' stroke-width='3' class='st0' d='M105.7,225.4l-0.7-12.7l-1.8-5l-5.4-1.5H85.2l-5.2,6.4l-8.5,4.2l-3.5-2.4 l-1.9,1.9l1.4,5.2l-1.2,5.9l-3.3,5.9l-6.2-1.9l-0.5-7.3l-3.5-1.6l-6.6,5.6l-4,6.8v10.1l6.8-1.6l9.4,4.7l-0.7,2.8l0,0l-9.4,1.4 L43,263.9l8.5,6.8l-0.9,7.3l-13-1.4l0.9,6.6l6.4,6.4l0.5,6.8l9.4-5.4l9.9-0.2l1.4-7.8l1.3-3.2l1.1-6l6.4-5l10.3,0.4l-0.7,6.4 l10.5-3.7l2.2-6.6l1.8-3.9l-1.4-4.6l0,0l4.6-3.5l-0.6-6.6l3.5-5.9l3.6-2.4l0.6-10.6L105.7,225.4z'/>"
++"</g>"
 +"<text transform='matrix(1 0 0 1 186 573)' id='txt_2771000000_Daegu_Dalseong' class='TEXT'>달성군</text>"
 +"<text transform='matrix(1 0 0 1 195 475)' id='txt_2729000000_Daegu_Dalseo' class='TEXT'>달서구</text>"
 +"<text transform='matrix(1 0 0 1 263 467)' id='txt_2720000000_Daegu_Nam' class='TEXT'>남구</text>"
@@ -590,7 +611,7 @@ var svg_Daegu =
 +"<text transform='matrix(1 0 0 1 339 467)' id='txt_2726000000_Daegu_Suseong' class='TEXT'>수성구</text>"
 +"<text transform='matrix(1 0 0 1 252 350)' id='txt_2723000000_Daegu_Buk' class='TEXT'>북구</text>"
 +"<text transform='matrix(1 0 0 1 365 329)' id='txt_2714000000_Daegu_Dong' class='TEXT'>동구</text>"
-
++"<text transform='matrix(1 0 0 1 65 251)' id='txt_Daegu' class='TEXT'>전체</text>"
 +"</svg>"
 
 var svg_Gwangju =
@@ -606,11 +627,16 @@ var svg_Gwangju =
 +	"<path id='2915500000_Gwangju_Nam' class='st0' d='M239,565l23.7-18.4l39-10.7l14.5-8.4l-0.8-26l16.1-19.9l13.8-0.8 l5.4,13.8l6.9,23.7l-9.9,16.1L347,568l-36,16.1l-48.2,12.3l-29.9,22.2l-50.5-2.3L166.3,604l50.5-39H239z'/>"
 +	"<path id='2914000000_Gwangju_Seo' class='st0' d='M228.3,530.5l10.7-17.6l19.1-52h38.3l35.2,20.7l-13,17.6l-1.5,26 l-15.3,10.7l-39,10.7L240.5,565h-23.7v-21.4L228.3,530.5z'/>"
 +"</g>"
++"<g>"
++"<path fill='#FFFFFF' stroke='#DDDDDD' stroke-width='2' d='M134.6,312.3H41.4c-5.1,0-9.3-4.2-9.3-9.3v-75.5c0-5.1,4.2-9.3,9.3-9.3h93.2c5.1,0,9.3,4.2,9.3,9.3V303 C143.9,308.2,139.7,312.3,134.6,312.3z'/>"
++"<path id='Gwangju' fill='#DDDDDD' stroke='#FFFFFF' stroke-width='3' class='st0' d='M109.8,286.9l7.9,6.5l2.1-3.1l7.4-3.4l4.1-6.2l4.2-6.5l-1.6-4v-4.5l3.1-2.9 l-4.7-6l-6.5,0.2l-4.1-4l-3.6-9.1l-5.5-8.3l-4.5-3.5l-6.9,4.1l-5.9,0.2l-5.4,5.5l-10.5,4.7l-12.7-6l-0.5-5.5h-4.7l-3.6,12.7 l-9.1,1.2l-8.1,7.7l3.1,5.7l-4.7,3.6c0,0-0.5,11.5,0,12.2c0.5,0.7,6,4.5,6,4.5l18.8-0.3l6.4,7.9l-1.2,4.7l3.6,2.8l11.4,0.5l6.7-5 l10.8-2.8L109.8,286.9z'/>"
++"</g>"
 +"<text transform='matrix(1 0 0 1 264 510)' id='txt_2914000000_Gwangju_Seo' class='TEXT'>서구</text>"
 +"<text transform='matrix(1 0 0 1 281 569)' id='txt_2915500000_Gwangju_Nam' class='TEXT'>남구</text>"
 +"<text transform='matrix(1 0 0 1 381 549)' id='txt_2911000000_Gwangju_Dong' class='TEXT'>동구</text>"
 +"<text transform='matrix(1 0 0 1 339 425)' id='txt_2917000000_Gwangju_Buk' class='TEXT'>북구</text>"
 +"<text transform='matrix(1 0 0 1 130 476)' id='txt_2920000000_Gwangju_Gwangsan' class='TEXT'>광산구</text>"
++"<text transform='matrix(1 0 0 1 76 272)' id='txt_Gwangju' class='TEXT'>전체</text>"
 
 +"</svg>"
 
@@ -627,11 +653,16 @@ var svg_Daejeon =
 +	"<path id='3023000000_Daejeon_Daedeok' class='st0' d='M334.2,443.1l-15.2-45.7l48.2-71.1l8.9-31.7l-12.7-11.4 l-10.2-35.6L338,265.4l-22.9,31.7l-16.5-6.3l-47-8.9l-3.8,11.4l24.1,55.9l-11.4,58.4l-19,12.7l15.2,44.4l15.2,5.1l24.1-21.6 l16.5,7.6L334.2,443.1z'/>"
 +	"<path id='3011000000_Daejeon_Dong' class='st0' d='M306.2,703.4l-30.5-22.9l30.5-55.9l-12.7-22.9l5.1-25.4l-8.9-24.1 l31.7-16.5L291,514.2l-20.3-22.9l1.3-21.6l24.1-21.6l16.5,7.6l21.6-12.7l-15.2-45.7l48.2-67.3l21.6,36.8l14-21.6l32.2,4.7l5.1,16.9 l16.9,8.5l-22.4,16.9l-21.6,3.4l-3.8,52.5l-30,27.1l-8,44l8,38.9l-11.9,32.2l1.7,44L306.2,703.4z'/>"
 +"</g>"
++"<g>"
++"<path fill='#FFFFFF' stroke='#DDDDDD' stroke-width='2' d='M106,301.9H28.5c-4.2,0-7.7-4.8-7.7-10.7V204c0-5.9,3.5-10.7,7.7-10.7H106c4.2,0,7.7,4.8,7.7,10.7v87.1 C113.8,297.2,110.3,301.9,106,301.9z'/>"
++"<path id='Daejeon' fill='#DDDDDD' stroke='#FFFFFF' stroke-width='3' class='st0' d='M102.1,225.2 89.6,220.9 91.2,215.1 87,206.4 80,215.5 68.4,212.7 68.2,203.9 63.8,200.4 56.8,202.5 57.7,210.4 56.8,216.7 50.5,223.5 42.5,224.2 37.4,230.2 37.4,247.7 33.5,261.2 42.1,270.1 40.4,276.1 53.7,290.8 59.3,282.4 59.1,272.4 64.9,267.7 65.6,278.7 78.4,290.1 89.9,277.4 89.6,269.3 91.8,263.4 90.3,256.3 91.8,248.2 97.3,243.2 98,233.6 102,233z'/>"
++"</g>"
 +"<text transform='matrix(1 0 0 1 323 499)' id='txt_3011000000_Daejeon_Dong' class='TEXT'>동구</text>"
 +"<text transform='matrix(1 0 0 1 282 365)' id='txt_3023000000_Daejeon_Daedeok' class='TEXT'>대덕구</text>"
 +"<text transform='matrix(1 0 0 1 245 569)' id='txt_3014000000_Daejeon_Jung' class='TEXT'>중구</text>"
 +"<text transform='matrix(1 0 0 1 126 422)' id='txt_3020000000_Daejeon_Yuseong' class='TEXT'>유성구</text>"
 +"<text transform='matrix(1 0 0 1 145 594)' id='txt_3017000000_Daejeon_Seo' class='TEXT'>서구</text>"
++"<text transform='matrix(1 0 0 1 49 249)' id='txt_Daejeon' class='TEXT'>전체</text>"
 
 +"</svg>"
 
@@ -648,11 +679,16 @@ var svg_Ulsan =
 +	"<path id='3114000000_Ulsan_Nam' class='st0' d='M390.2,530.7l-27.1,16.6l-16.6-25.4l-24.5-14l-33.2-35.9l-24.5-7 l14.9-20.1l14.9,1.7l14.9,9.6l7-6.1l45.5-2.6l35,25.4l-6.1,17.5l-1.7,16.6L390.2,530.7z'/>"
 +	"<path id='3171000000_Ulsan_Ulju' class='st0' d='M372.7,656.6l-6.1-29.7l6.1-18.4l-4.4-19.2l8.7-15.7l-14-26.2 l-16.6-25.4l-29.7-15.7l-28-34.1l-24.5-7l14.9-20.1l-2.6-23.6l25.4-11.4l11.4,2.6l-3.5-49.9l-0.9-21.9l-28.9-14l-3.5-46.4 L231,268.2l-47.2,1.7l-8.7-7l-21,17.5l-33.2,5.2L98,331.2l16.6,23.6l-25.4,0.9l-36.7,14l14.9,21.9l-5.2,26.2l-36.7,21v20.1l21,17.5 l10.5,10.5l45.5,6.1l41.1,29.7l42.9,57.7l39.4-2.6l20.1,26.2l-14,26.2l36.7,5.2l16.6-6.1l17.5,14.9l2.6,40.2l13.1,11.4l33.2-27.1 l18.4-4.4L372.7,656.6z'/>"
 +"</g>"
++"<g>"
++"<path fill='#FFFFFF' stroke='#DDDDDD' stroke-width='2' d='M137.9,695.8H44.7c-5.1,0-9.3-4.2-9.3-9.3V611c0-5.1,4.2-9.3,9.3-9.3h93.2c5.1,0,9.3,4.2,9.3,9.3v75.5 C147.2,691.7,143,695.8,137.9,695.8z'/>"
++"<path id='Ulsan' fill='#DDDDDD' stroke='#FFFFFF' stroke-width='3' class='st0' d='M133.4,632.3 130.5,628.1 128.8,621.9 114.6,616 104.6,622.6 98.4,620.4 97.7,611.2 88.7,608.8 77.7,607.7 67,612.2 62.4,621.2 65.7,625.9 60.7,626 53.4,628.8 56.4,633.1 55.4,638.3 48.1,642.5 48.1,646.4 54.3,652 71.4,659 79.9,670.4 91.7,675.1 88.9,680.3 102.9,683 103.4,691 106,693.2 116.7,685.5 115.5,679.6 117.5,669.1 114.8,663.9 120.1,660.6 119.8,655.9 124.3,655.4 124.8,661.3 128.9,658 131.2,653.9 131.4,646.1z'/>"
++"</g>"
 +"<text transform='matrix(1 0 0 1 178 443)' id='txt_3171000000_Ulsan_Ulju' class='TEXT'>울주군</text>"
 +"<text transform='matrix(1 0 0 1 336 487)' id='txt_3114000000_Ulsan_Nam' class='TEXT'>남구</text>"
 +"<text transform='matrix(1 0 0 1 410 479)' id='txt_3117000000_Ulsan_Dong' class='TEXT'>동구</text>"
 +"<text transform='matrix(1 0 0 1 305 433)' id='txt_3111000000_Ulsan_Jung' class='TEXT'>중구</text>"
 +"<text transform='matrix(1 0 0 1 366 382)' id='txt_3120000000_Ulsan_Buk' class='TEXT'>북구</text>"
++"<text transform='matrix(1 0 0 1 81 649)' id='txt_Ulsan' class='TEXT'>전체</text>"
 
 +"</svg>"
 
