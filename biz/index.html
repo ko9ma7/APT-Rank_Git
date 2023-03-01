@@ -1717,6 +1717,14 @@ function showNotice(info){
     if(selectedSubRegion == "4117000000_Gyeonggi_Anyang"){ to_subRegion = "4117300000_Gyeonggi_Anyang_Dongan" }
     if(selectedSubRegion == "4146000000_Gyeonggi_Yongin"){ to_subRegion = "4146500000_Gyeonggi_Yongin_Suji" }
 
+    if(selectedSubRegion == "Seoul"){ to_subRegion = "1168000000_Seoul_Gangnam"}
+    if(selectedSubRegion == "Busan"){ to_subRegion = "2650000000_Busan_Suyeong" }
+    if(selectedSubRegion == "Daegu"){ to_subRegion = "2726000000_Daegu_Suseong" }
+    if(selectedSubRegion == "Incheon"){ to_subRegion = "2818500000_Incheon_Yeonsu" }
+    if(selectedSubRegion == "Gwangju"){ to_subRegion = "2915500000_Gwangju_Nam" }
+    if(selectedSubRegion == "Daejeon"){ to_subRegion = "3020000000_Daejeon_Yuseong" }
+    if(selectedSubRegion == "Ulsan"){ to_subRegion = "3114000000_Ulsan_Nam" }
+
     aURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + to_subRegion
     if ( navigator.platform ) {
         if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
