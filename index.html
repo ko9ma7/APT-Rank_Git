@@ -481,7 +481,7 @@
     //통합검색
     if(selectedMonth >= 202211){
       //$('#search').css("visibility", "hidden")
-      searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json"
+      searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json?v=1.1"
       $.getJSON(searching_url, function(json) {
         searchingData = json;        
         //.success(function(){
@@ -713,7 +713,7 @@
 
     //통합검색
     if(selectedMonth >= 202211){
-      searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json"
+      searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json?v=1.1"
       $.getJSON(searching_url, function(json) {        
         searchingData = json;       
         console.log(searchingData)
@@ -775,7 +775,7 @@ function updateTable(month, region){
     $('#dataList').html("");
 
     //광고정보 로딩
-    part_url = "https://www.aptrank.kr/ad/" + region + "_ad.json"
+    part_url = "https://www.aptrank.kr/ad/" + region + "_ad.json?v=1.1"
     $.ajaxSetup({ async: false });
     $.getJSON(part_url, function(part_json) {
         partData = part_json;
@@ -801,7 +801,7 @@ function updateTable(month, region){
     })
     $.ajaxSetup({ async: true });
 
-    url = "https://www.aptrank.kr/" + month + "/" + region + ".json"
+    url = "https://www.aptrank.kr/" + month + "/" + region + ".json?v=1.1"
 
     $.getJSON(url, function(json) {        
         sortData = json;
@@ -2200,7 +2200,7 @@ function updateTable(month, region){
     //$('html').scrollTop(0)
     $('#sort').css("visibility", "hidden")
     $('#rearrange').css("visibility", "visible")
-    url = "https://www.aptrank.kr/" + month + "/" + region + ".json"
+    url = "https://www.aptrank.kr/" + month + "/" + region + ".json?v=1.1"
     $('#dataList').html("");
 
     setTimeout(function(){}, 250)
@@ -2471,7 +2471,7 @@ function updateTable(month, region){
 
     //매매, 전세가격지수
     if(rateExist.includes(regName) && Number(selectedMonth) > 202203){
-      url = "https://www.aptrank.kr/" + selectedMonth + "/Price_Rate/" + regName + ".json"
+      url = "https://www.aptrank.kr/" + selectedMonth + "/Price_Rate/" + regName + ".json?v=1.1"
 
       detailHtml += "<div class='card'>";
       detailHtml += "<div class='card-header'>";
