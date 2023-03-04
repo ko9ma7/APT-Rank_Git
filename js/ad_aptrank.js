@@ -21,8 +21,8 @@ function checkMobile(){
 var part_default = 
 "<div class='partBox' onClick=\"window.open('https://forms.gle/7d9Am6RzXfBAsa6e7')\">"
     + "<div id='partDefaultText'>"
-        + "<div id='partSub1' style='text-align:center;'>아파트랭크 파트너쉽 (광고, 제휴)</div>"
-        + "<div id='partTitle' style='text-align:center;'>아파트랭크의 파트너가 되어 주세요!</div>"
+        + "<div id='partSub1' style='text-align:center;'>40,000명의 사용자 | 월 55,000원 (지역구당) </div>"
+        + "<div id='partTitle' style='text-align:center;'>아파트랭크의 파트너가 되어 주세요! (광고, 제휴)</div>"
         //+ "<div id='partTitle' style='text-align:center;'>30일 무료 파트너쉽 신청 진행 중! (~2/24일 까지)</div>"
         + "<div id='partInfo' style='text-align:center;'>클릭하면 파트너쉽 신청 양식으로 연결됩니다.</div>"
     + "</div>"

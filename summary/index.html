@@ -101,7 +101,8 @@
         <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>
         <div id="month_selection">
           <select id="month" onChange="updateMonth()">
-            <option value="202302" selected>2023년 02월</option>
+            <option value="202303" selected>2023년 03월</option>
+            <option value="202302">2023년 02월</option>
             <option value="202301">2023년 01월</option>
             <option value="202212">2022년 12월</option>
             <option value="202211">2022년 11월</option>
@@ -627,11 +628,14 @@ function allShareWithComment(){
     shareText += "\n아파트랭크는 저평가를 찾기 위한 목적으로 '주거', '인프라', '교통', '교육'의 요소들을 수치로 계산하여 순위를 매기는 입지 자동 계산 앱입니다.\n"
     shareText += "'가격'이 제외되어 있기 때문에, 생각하시는 순위와 다를 수 있음을 말씀드립니다.\n\n"
     
-    shareText += "[2월 업데이트 요약]\n"
-    shareText += "- 2022년 하반기 초등학교 정보 업데이트\n"
-    shareText += "- 학원가 규모에 따른 거리계산 가변 적용\n" 
-    shareText += "- 경기도 지역구의 주요역 도착 예상 시간을 오전 7:50분 부터로 계산 변경 적용\n"
-    shareText += "- 2023년 2월 인구 변동 정보 업데이트\n\n"    
+    shareText += "[3월 업데이트 요약]\n"
+    shareText += "- 지역별 소득 정보 업데이트 (국세청)\n"
+    shareText += "- 지역별 일자리수 정보 업데이트 (통계청)\n" 
+    shareText += "- 지역별 병원 정보 업데이트(건강보험심사평가원)\n"
+    shareText += "- 지역별 병원 정보 업데이트(건강보험심사평가원)\n"
+    shareText += "- 경기도 지역구 주요역 도착 예상 시간을 오전 7:50분 부터로 계산 변경 적용\n"
+    shareText += "- 전국 하나로마트 지점 정보 업데이트\n"
+    shareText += "- 혐오시설 정보 업데이트\n\n"    
     
     shareText += "※ 아파트랭크는 계산된 참조자료 입니다. 실제 임장, 현지 거주 의견, 부동산 조언 등 현장 정보가 가장 정확합니다.\n"  
     shareText += "※ 응원, 문의, 제안, 버그제보는 아파트랭크 '카카오톡 1:1 문의하기(https://pf.kakao.com/_vESNb/chat)'로 남겨주시면 적극 반영 검토하겠습니다.\n\n"
@@ -878,11 +882,14 @@ function shareToCafe(){
     shareText += "\n아파트랭크는 저평가를 찾기 위한 목적으로 '주거', '인프라', '교통', '교육'의 요소들을 수치로 계산하여 순위를 매기는 입지 자동 계산 앱입니다.\n"
     shareText += "'가격'이 제외되어 있기 때문에, 생각하시는 순위와 다를 수 있음을 말씀드립니다.\n\n"
     
-    shareText += "[2월 업데이트 요약]\n"
-    shareText += "- 2022년 하반기 초등학교 정보 업데이트\n"
-    shareText += "- 학원가 규모에 따른 거리계산 가변 적용\n" 
-    shareText += "- 경기도 지역구의 주요역 도착 예상 시간을 오전 7:50분 부터로 계산 변경 적용\n"
-    shareText += "- 2023년 2월 인구 변동 정보 업데이트\n\n"
+    shareText += "[3월 업데이트 요약]\n"
+    shareText += "- 지역별 소득 정보 업데이트 (국세청)\n"
+    shareText += "- 지역별 일자리수 정보 업데이트 (통계청)\n" 
+    shareText += "- 지역별 병원 정보 업데이트(건강보험심사평가원)\n"
+    shareText += "- 지역별 병원 정보 업데이트(건강보험심사평가원)\n"
+    shareText += "- 경기도 지역구 주요역 도착 예상 시간을 오전 7:50분 부터로 계산 변경 적용\n"
+    shareText += "- 전국 하나로마트 지점 정보 업데이트\n"
+    shareText += "- 혐오시설 정보 업데이트\n\n"
 
     shareText += "※ 아파트랭크는 계산된 참조자료 입니다. 실제 임장, 현지 거주 의견, 부동산 조언 등 현장 정보가 가장 정확합니다.\n"  
     shareText += "※ 응원, 문의, 제안, 버그제보는 아파트랭크 '카카오톡 1:1 문의하기(https://pf.kakao.com/_vESNb/chat)'로 남겨주시면 적극 반영 검토하겠습니다.\n\n"

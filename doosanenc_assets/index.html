@@ -198,7 +198,7 @@
           <div id="sido_selection"><select id="sido" onChange="sidoChange()"></select></div>
           <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>          
           <div></div>
-          <div id="update_info" style="text-align: right; padding-right: 20px">업데이트 : 2022-02-02 <br> (2022년 12월 데이터 기준) </div>
+          <div id="update_info" style="text-align: right; padding-right: 20px">업데이트 : 2023-03-04 <br> (2023년 1월 데이터 기준) </div>
           <div class='appointment' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showAppointmentResult()'><button type='button' class='goApt' style='font-size: 0.9em'>주간 아파트 청약 결과</button></div>
         </div>
         <div id="dataWrapper">
@@ -499,7 +499,7 @@
     
     //url = "https://www.aptrank.kr/biz/" + region + ".json"
     //url = "https://www.aptrank.kr/biz/Location_Build_Valuated.json"
-    url = "https://www.aptrank.kr/doosanenc_assets/BIZ_Valuated_Doosan_202212.json"
+    url = "https://www.aptrank.kr/doosanenc_assets/BIZ_Valuated_Doosan_202301.json"
 
     $.getJSON(url, function(json) {
         //console.log(json);
@@ -1666,7 +1666,7 @@ function ListUp(listData){
             addon_html += "<div id='arank6'></div>"            
           addon_html += "</div>"
 
-          rank_url = "https://www.aptrank.kr/202302/" + selectedSubRegion + ".json"
+          rank_url = "https://www.aptrank.kr/202303/" + selectedSubRegion + ".json"
           
           $.ajax({
             url: rank_url,
@@ -1729,7 +1729,7 @@ function ListUp(listData){
               var salesArray = [null, null]
               var rentArray = [null, null]
 
-              rate_url = "https://www.aptrank.kr/202302/Price_Rate/" + regName + ".json"
+              rate_url = "https://www.aptrank.kr/202303/Price_Rate/" + regName + ".json"
 
               $.getJSON(rate_url, function(json) {                
                 rateData = json

@@ -1,3 +1,17 @@
+var notice_202303 = 
+"<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2023년 3월 업데이트 안내 (2023-03-04)</div>"
++"<ul>"
++"<li><div class='notice'>지역별 소득 정보 업데이트 했습니다.(국세청)</div></li>"
++"<li><div class='notice'>지역별 일자리수 정보 업데이트 했습니다.(통계청)</div></li>"
++"<li><div class='notice'>지역별 병원 정보 업데이트 했습니다.(건강보험심사평가원)</div></li>"
++"<li><div class='notice'>경기도 지역구의 주요역 도착 예상 시간을 오전 7:50분 부터로 계산 변경 적용했습니다. <br> (광역시는 점차적으로 적용 예정입니다.)</div></li>"
++"<li><div class='notice'>전국 하나로마트(대형마트) 지점 정보 업데이트 했습니다.</div></li>"
++"<li><div class='notice'>혐오시설 정보 업데이트 했습니다.</div></li>"
++"<li><div class='notice'>KB월간 시계열 기준 2월 시군구 정보 반영했습니다.</div></li>"
++"<li><div class='notice'>배너 광고 유료 운영으로 전환했습니다.<br>(지역구당 30일 55,000원)</div></li>"
++"</ul>"      
++"<hr>"
+
 var notice_202302 = 
 "<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2023년 2월 2차 업데이트 안내 (2023-02-13)</div>"
 +"<ul>"
