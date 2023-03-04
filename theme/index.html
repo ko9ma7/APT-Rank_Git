@@ -791,7 +791,7 @@
         $('#themeDataList').append(part_info);
         $('.partBox').click(function(){
           var ad_click_date = new Date();
-          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', '파트너쉽선택' : part_title + "\t" + ad_click_date + "\t" + ($('#sido option:selected').text() + " " + $('#gungu option:selected').text())});
+          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : part_title});
           window.open(page_url)
         })
       }
@@ -1119,7 +1119,7 @@
         $('#themeDataList').append(part_info);
         $('.partBox').click(function(){
           var ad_click_date = new Date();
-          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', '파트너쉽선택' : part_title + "\t" + ad_click_date + "\t" + ($('#sido option:selected').text() + " " + $('#gungu option:selected').text())});
+          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : part_title});
           window.open(page_url)
         })
       }
@@ -1235,7 +1235,7 @@
         $('#themeDataList').append(part_info);
         $('.partBox').click(function(){
           var ad_click_date = new Date();
-          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', '파트너쉽선택' : part_title + "\t" + ad_click_date + "\t" + ($('#sido option:selected').text() + " " + $('#gungu option:selected').text())});
+          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : part_title});
           window.open(page_url)
         })
       }
