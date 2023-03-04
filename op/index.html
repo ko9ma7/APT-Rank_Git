@@ -75,6 +75,7 @@
   <script src="../js/weight_cal.js" type="text/javascript"></script>
   <script src="../js/weight_array.js" type="text/javascript"></script>
   <script src="../js/simulation.js" type="text/javascript"></script>
+  <script src="./js/ad_oprank.js" type="text/javascript"></script>
 
   <link href="../css/style_op.css" rel="stylesheet"/>
   <link href="../css/slider_op.css" rel="stylesheet"/>
@@ -660,6 +661,33 @@
     //console.log("AAAAAAAAAA", region)
     url = "https://www.aptrank.kr/op/" + month + "/" + region + "_OPST.json"
     $('#dataList').html("");
+
+    //광고정보 로딩
+    part_url = "https://www.aptrank.kr/ad_op/" + region + "_ad.json"
+    $.ajaxSetup({ async: false });
+    $.getJSON(part_url, function(part_json) {
+        partData = part_json;
+        part_detail = partData.data
+        if(part_detail.length > 0){
+          part_title = part_detail[0]['shop_name'] 
+          part_type = part_detail[0]['request_type']
+          part_main_title = part_detail[0]['main_title']
+          sub_title = part_detail[0]['sub_title']
+          sub_comment = part_detail[0]['sub_comment']
+          cell_num = "0" + part_detail[0]['cellphone']          
+          phone_num = "0" + part_detail[0]['phone']
+          cell_num_with_pyphen = cell_num.phoneNoRep()
+          phone_num_with_pyphen = phone_num.phoneNoRep()
+          img_url = part_detail[0]['icon']
+          part_sDate = part_detail[0]['start_date']
+          part_sDate_Num = Number(part_sDate.replace(/-/gi, ""))
+          part_eDate = part_detail[0]['end_date']
+          part_eDate_Num = Number(part_eDate.replace(/-/gi, ""))
+          //img_url = "apt-rank_blank2"
+          page_url = part_detail[0]['homepage']
+        }
+    })
+    $.ajaxSetup({ async: true });    
 
     $.getJSON(url, function(json) {        
         sortData = json;
