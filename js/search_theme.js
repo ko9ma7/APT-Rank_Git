@@ -49,6 +49,33 @@
     $('#themeDataList').html("");
     input = $('#inputSearch').val()
 
+    //광고정보 표시영역
+    if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
+      if(part_type == 'Direct'){
+        $('#themeDataList').append(part_info);
+        $('.partBox').click(function(){
+          window.open(page_url)
+        })
+      }
+      if(part_type == 'Pop'){
+        $('#themeDataList').append(part_pop);
+      }
+      
+      $('#partSub1').html(sub_title)
+      $('#partTitle').html(part_main_title)
+      if(sub_comment == ""){
+        $('#partInfo').html(cell_num_with_pyphen + " / " + phone_num_with_pyphen)
+      }
+      else{
+        $('#partInfo').html(sub_comment)
+      }
+      $('#partImage').html("<img src='./ad_op/image/" + img_url + "' height='58px'>")
+    }
+    else{
+      $('#themeDataList').append(part_default);
+      $('.partBox').css({'grid-template-columns':'1fr'})
+    }
+
     for(var i = 0 ; i < sortData.data.length ; i++){
           var aptName = sortData.data[i]["아파트명"]
           var searchName = sortData.data[i]["아파트명"] + " " + sortData.data[i]["법정동주소"] + " " + sortData.data[i]["매매타입"]
@@ -89,7 +116,7 @@
             var addon_html = ""
       
             if(hPrice_info[0] != '거래 정보 없음'){
-              addon_html += "<div class='themeListBox'>";
+              addon_html += "<div class='themeListBox' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showDetail(" + i + ")'>";
               addon_html += "<div class='content'>";
               addon_html += "<div>";
                 addon_html += "<div class='searched_apt_name'>" + aptName + "</div>";
