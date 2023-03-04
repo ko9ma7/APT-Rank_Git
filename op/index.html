@@ -75,7 +75,7 @@
   <script src="../js/weight_cal.js" type="text/javascript"></script>
   <script src="../js/weight_array.js" type="text/javascript"></script>
   <script src="../js/simulation.js" type="text/javascript"></script>
-  <script src="./js/ad_oprank.js" type="text/javascript"></script>
+  <script src="../js/ad_oprank.js" type="text/javascript"></script>
 
   <link href="../css/style_op.css" rel="stylesheet"/>
   <link href="../css/slider_op.css" rel="stylesheet"/>
@@ -329,6 +329,16 @@
   var modalState = 0;
   var searchState = 0;
   var popupHistory = [];
+
+  var today = new Date()
+  var today_year = today.getFullYear();
+  var today_month = dateReturn( (today.getMonth() + 1))
+  var today_day = dateReturn( today.getDate() );
+  var today_num = Number(today_year + today_month + today_day)
+
+  function dateReturn(n){
+    return n<10 ? "0"+n : n
+  }
 
   var startNotice = false;
   var noticePop = false;
@@ -707,6 +717,35 @@
         transportSum = 0;
         infraSum = 0;
         eduSum = 0;
+
+        //광고정보 표시영역
+        if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
+          if(part_type == 'Direct'){
+            $('#dataList').append(part_info);
+            $('.partBox').click(function(){
+              var ad_click_date = new Date();
+              gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', '파트너쉽선택' : part_title + "\t" + ad_click_date + "\t" + ($('#sido option:selected').text() + " " + $('#gungu option:selected').text())});
+              window.open(page_url)
+            })
+          }
+          if(part_type == 'Pop'){
+            $('#dataList').append(part_pop);
+          }
+          
+          $('#partSub1').html(sub_title)
+          $('#partTitle').html(part_main_title)
+          if(sub_comment == ""){
+            $('#partInfo').html(cell_num_with_pyphen + " / " + phone_num_with_pyphen)
+          }
+          else{
+            $('#partInfo').html(sub_comment)
+          }
+          $('#partImage').html("<img src='./ad/image/" + img_url + "' height='58px'>")
+        }
+        else{
+          $('#dataList').append(part_default);
+          $('.partBox').css({'grid-template-columns':'1fr'})
+        }
 
         for(var i = 0 ; i < itemNum ; i++){
           var aptName = aptData.data[i]["오피스텔명"]

@@ -84,28 +84,6 @@
         "pandas_version":"1.4.0"
     },
     "data":[
-        {
-            "index":0,
-            "request_type":"Direct",
-            "shop_name":"긴글자테스트긴글자테스트긴글자테스트긴글자테스트",
-            "owner":"긴글자테스트",
-            "main_title":"긴글자테스트긴글자테스트긴글자테스트긴글자테스트긴글자테스트",
-            "sub_title":"긴글자테스트긴글자테스트긴글자테스트긴글자테스트긴글자테스트",
-            "sub_comment": "긴글자테스트긴글자테스트긴글자테스트긴글자테스트긴글자테스트",
-            "cellphone":"010-2995-1346",
-            "phone":"010-2995-1346",
-            "start_date":"2023-02-03",
-            "end_date":"2023-03-30",
-            "duration":60,
-            "address":"",
-            "email":"warslion@naver.com",
-            "icon":"2629000000_Busan_Nam.png",
-            "comment":"",
-            "y":"",
-            "x":"",
-            "homepage":"https:\/\/blog.naver.com\/unusualcare",
-            "map_url":"" 
-        }
 
     ]
 }

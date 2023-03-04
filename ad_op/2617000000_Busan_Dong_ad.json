@@ -84,27 +84,6 @@
         "pandas_version":"1.4.0"
     },
     "data":[
-        {
-            "index":0,
-            "request_type":"Direct",
-            "shop_name":"두산건설",
-            "owner":"김규태",
-            "main_title":"두산위브더제니스 오션시티",
-            "sub_title":"부산 북항, 큰 변화의 최중심!",
-            "sub_comment": "우암2구역 | 3,048세대 (일반2,033세대)",
-            "cellphone":"1600-9959",
-            "phone":"1600-9959",
-            "start_date":"2023-02-03",
-            "end_date":"2023-03-02",
-            "duration":30,
-            "address":"부산시 남구 우암동 129",
-            "email":null,
-            "icon":"2611000000_Busan_Jung_rank.png",
-            "comment":"",
-            "y":"",
-            "x":"",
-            "homepage":"https:\/\/home-planner.co.kr\/wa-weve",
-            "map_url":"" 
-        }
+
     ]
 }

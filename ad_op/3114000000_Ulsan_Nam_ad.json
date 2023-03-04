@@ -84,27 +84,6 @@
         "pandas_version":"1.4.0"
     },
     "data":[
-        {
-            "index":0,
-            "request_type":"Direct",
-            "shop_name":"하이리페움 상업시설",
-            "owner":"최우철",
-            "main_title":"동부산 하이리페움 상업시설 분양중!",
-            "sub_title":"부산최대규모 아이스포츠파크 4월 오픈예정!",
-            "sub_comment" : "",
-            "cellphone":"1086784283",
-            "phone":"517236669",
-            "start_date":"2023-02-13",
-            "end_date":"2023-03-10",
-            "duration":30,
-            "address":"경기도 양주시 옥정동 1007-4번지",
-            "email":"woochulc@gmail.com",
-            "icon":"2671000000_Busan_Gijangn.png",
-            "comment":"양주옥정 메가시티지산 독점편의점입니다",
-            "y":127.0977807,
-            "x":37.8365406,
-            "homepage":"https:\/\/highlifeum.cafe24.com",
-            "map_url":""
-        }
+
     ]
 }
