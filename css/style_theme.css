@@ -1002,5 +1002,22 @@
     .comment, .stationList{
       font-size: 0.8em;
     }
-
+    .partBox{
+      height: 75px;
+    }
+    #partSub1{
+      text-align: center; 
+      font-size: 0.8em;
+      padding-left: 0;
+    }
+    #partTitle{
+      text-align: center;      
+      font-size: 1em;
+      padding-left: 0;
+    }
+    #partInfo{
+      text-align: center;      
+      font-size: 0.7em;  
+      padding-left: 0;
+    }
   }  
