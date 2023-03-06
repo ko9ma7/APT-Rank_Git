@@ -1,5 +1,5 @@
 function post(aptName, log_date, short_name) {
-  const url = "https://www.aptrank.kr/log/202303.json"
+  const url = "https://www.aptrank.kr/log/"
 
   fetch(url, {
     method: "POST",
