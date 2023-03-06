@@ -38,6 +38,7 @@
   <meta name="author" content="아파트랭크">
   <meta name="robots" content="index,follow">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <!-- 주소창 등의 웹 브라우저 UI를 표시하지 않기 -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -787,6 +788,7 @@
 
     //광고정보 표시영역
     if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
+      gtag('event','파트너쉽노출', { 'event_category' : 'View_Partnership', 'event_label' : part_title});
       if(part_type == 'Direct'){
         $('#themeDataList').append(part_info);
         $('.partBox').click(function(){
@@ -1115,6 +1117,7 @@
 
     //광고정보 표시영역
     if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
+      gtag('event','파트너쉽노출', { 'event_category' : 'View_Partnership', 'event_label' : part_title});
       if(part_type == 'Direct'){
         $('#themeDataList').append(part_info);
         $('.partBox').click(function(){
@@ -1231,6 +1234,7 @@
 
     //광고정보 표시영역
     if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
+      gtag('event','파트너쉽노출', { 'event_category' : 'View_Partnership', 'event_label' : part_title});
       if(part_type == 'Direct'){
         $('#themeDataList').append(part_info);
         $('.partBox').click(function(){

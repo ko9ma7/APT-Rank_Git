@@ -756,7 +756,14 @@
     margin-right: 2px;
     background: white;
     border: none;
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #ddd;
+
+    appearance: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    background: url('../arrow.png') no-repeat 96% 50% #fff;    
+    background-color: white;    
   }  
   #sido:focus, #gungu:focus, #month:focus, #theme:focus{
     outline: 0;    
