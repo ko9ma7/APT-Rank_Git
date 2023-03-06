@@ -1,8 +1,11 @@
   body{
     -ms-overflow-style: none;
-    background-color: #ddd;
-    
+    background-color: #ddd;    
     font-family: 'Roboto', sans-serif;
+    padding-top: constant(safe-area-inset-top, 15px);
+    padding-top: env(safe-area-inset-top, 15px);    
+    min-height: 100vh;
+    min-height: -webkit-fill-available; 
   }
 
   #container{    
@@ -763,7 +766,8 @@
     -webkit-appearance: none;
     -webkit-border-radius: 0;
     background: url('../arrow.png') no-repeat 96% 50% #fff;    
-    background-color: white;    
+    background-color: white;
+    color: black
   }  
   #sido:focus, #gungu:focus, #month:focus, #theme:focus{
     outline: 0;    
