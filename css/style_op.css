@@ -482,11 +482,8 @@
   }
 
   #sido, #gungu, #month, #theme{
-    appearance: none;
     border-radius: 0;
-    -webkit-appearance: none;
     -webkit-border-radius: 0;
-    background: url('../arrow.png') no-repeat 96% 50% #fff;
     width: 95%;
     height: 2em;
     font-size: 0.8em;
