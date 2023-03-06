@@ -1,7 +1,11 @@
   body{
     -ms-overflow-style: none;
     background-color: #ddd;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+    min-height: 100vh;
+    min-height: -webkit-fill-available;     
   }
 
   #container{    

@@ -1,5 +1,9 @@
   body{
     -ms-overflow-style: none;
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+    min-height: 100vh;
+    min-height: -webkit-fill-available; 
   }
   #titleBar{
     position: fixed;
@@ -476,12 +480,18 @@
   }
 
   #sido, #gungu, #month, #theme{
+    appearance: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    background: url('../arrow.png') no-repeat 98% 50% #fff;
     width: 95%;
     height: 2em;
     font-size: 0.8em;
     margin-right: 2px;
+    padding-left: 5px;
     border: none;
-    background-color: white;
+    background-color: white;  
   }
   #sido:focus, #gungu:focus, #month:focus, #theme:focus{
     outline: 0;
