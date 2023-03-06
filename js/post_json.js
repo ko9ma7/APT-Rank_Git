@@ -1,16 +1,11 @@
 function post(aptName, log_date, short_name) {
-  const url = "https://my-json-server.typicode.com/APT-Rank/jsonlog/db.json"
+  const url = "https://my-json-server.typicode.com/APT-Rank/jsonlog/posts/1"
 
   fetch(url, {    
     method: "POST",
-    mode: 'cors',
-    cache: 'no-cache',
-    credentials: 'same-origin',
     headers: {
       'Content-Type': 'application/json'
     },
-    redirect: 'follow',
-    referrerPolicy: 'no-referrer',
     body: JSON.stringify({
       'aptName': aptName,
       'region': short_name,
