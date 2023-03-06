@@ -2,8 +2,8 @@
     -ms-overflow-style: none;
     padding-top: constant(safe-area-inset-top, 15px);
     padding-top: env(safe-area-inset-top, 15px);
-    padding-bottom: constant(safe-area-inset-bottom, 15px);
-    padding-bottom: env(safe-area-inset-bottom, 15px);
+    padding-bottom: calc(constant(safe-area-inset-bottom, 15px));
+    padding-bottom: calc(env(safe-area-inset-bottom) - 15px);
     min-height: 100vh;
     min-height: -webkit-fill-available; 
   }

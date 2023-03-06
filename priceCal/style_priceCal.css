@@ -833,7 +833,9 @@
     padding-top: 2px;
     padding-bottom: 2px;
     text-align: center;
+    text-align: -webkit-center;
     font-weight: 600;
+    color: black;
   }
   #baseDate_m:focus{
     outline: none
@@ -918,6 +920,7 @@
     padding-bottom: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: black;
   }
   .aptListSelect:focus{
     outline: none
@@ -992,12 +995,19 @@
   }
 
   #sido_m, #gungu_m{
+    appearance: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    background: url('../arrow.png') no-repeat 96% 50% #fff;
     width: 95%;
     height: 2em;
     font-size: 0.8em;
     margin-right: 2px;
+    padding-left: 5px;
     border: none;
     background-color: white;
+    color: black;
   }    
 
   #sido, #gungu, #month, #theme{
@@ -1008,7 +1018,16 @@
     margin-right: 2px;
     background: white;
     border: none;
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #ddd;
+
+    appearance: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    background: url('../arrow.png') no-repeat 96% 50% #fff;
+    padding-left: 5px;
+    background-color: white;
+    color: black;
   }  
   #sido:focus, #gungu:focus, #month:focus, #theme:focus{
     outline: 0;    
