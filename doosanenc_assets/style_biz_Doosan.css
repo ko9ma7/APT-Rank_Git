@@ -759,12 +759,9 @@
     padding-left: 5px;    
     border: none;
     border-bottom: 1px solid #ddd;
-
-    appearance: none;
-    border-radius: 0;
-    -webkit-appearance: none;
-    -webkit-border-radius: 0;
-    background: url('../arrow.png') no-repeat 96% 50% #fff;    
+    
+    border-radius: 0;    
+    -webkit-border-radius: 0;    
     background-color: white;
     color: black;
   }  

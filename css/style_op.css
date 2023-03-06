@@ -1,9 +1,9 @@
   body{
     -ms-overflow-style: none;
-    padding-top: constant(safe-area-inset-top, 15px);
-    padding-top: env(safe-area-inset-top, 15px);
-    padding-bottom: constant(safe-area-inset-bottom, 15px);
-    padding-bottom: env(safe-area-inset-bottom, 15px);
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
     min-height: 100vh;
     min-height: -webkit-fill-available; 
   }

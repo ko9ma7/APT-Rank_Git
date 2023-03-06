@@ -1,9 +1,9 @@
   body{
     -ms-overflow-style: none;
-    padding-top: constant(safe-area-inset-top, 15px);
-    padding-top: env(safe-area-inset-top, 15px);
-    padding-bottom: constant(safe-area-inset-bottom, 15px);
-    padding-bottom: env(safe-area-inset-bottom, 15px);
+    padding-top: constant(safe-area-inset-top);
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
     min-height: 100vh;
     min-height: -webkit-fill-available; 
   }
@@ -493,12 +493,9 @@
     font-size: 1.1em;
   }
 
-  #sido, #gungu, #month, #theme{
-    appearance: none;
+  #sido, #gungu, #month, #theme{    
     border-radius: 0;
-    -webkit-appearance: none;
-    -webkit-border-radius: 0;
-    background: url('../arrow.png') no-repeat 96% 50% #fff;
+    -webkit-border-radius: 0;    
     width: 95%;
     height: 2em;
     font-size: 0.8em;
