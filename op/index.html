@@ -470,6 +470,12 @@
       //초기 진입 시 공지 팝업 표시하는 경우, 변수 startNotice에 true 할당      
       $('#exampleModal').modal("show");
     }
+
+    var blank_height = "2em"
+
+    if(checkMobile() == "ios"){ blank_height = "3em" }
+    else{ blank_height = "2em" }
+    $("#linkToAptrank").css('height', blank_height) 
   });
 
   function showWeight(){

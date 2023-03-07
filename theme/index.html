@@ -439,6 +439,12 @@
     }
     else{
       $('#guide_and_search').html(tripGuide_html)
+
+    var blank_height = "2em"
+
+    if(checkMobile() == "ios"){ blank_height = "3em" }
+    else{ blank_height = "2em" }
+    $("#linkToAptrank").css('height', blank_height) 
     }
 
   });
