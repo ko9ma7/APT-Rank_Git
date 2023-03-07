@@ -301,6 +301,7 @@
   var selectedTheme = "under100M"
 
   var updated_ver = "?v=1.0"
+  var blank_height = "2em"
 
   var regionName = ""
 
@@ -438,9 +439,7 @@
       $('#guide_and_search').html(search_html)
     }
     else{
-      $('#guide_and_search').html(tripGuide_html)
-
-    var blank_height = "2em"
+      $('#guide_and_search').html(tripGuide_html)    
 
     if(checkMobile() == "ios"){ blank_height = "3em" }
     else{ blank_height = "2em" }

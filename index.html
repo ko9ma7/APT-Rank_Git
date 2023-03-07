@@ -376,6 +376,7 @@
   var regData = "";
   var regSortData = "";
   var adData = "";
+  var blank_height = "2em"
 
   var modalState = 0;
   var searchState = 0;
@@ -546,9 +547,7 @@
       showNotice()
       //초기 진입 시 공지 팝업 표시하는 경우, 변수 startNotice에 true 할당      
       $('#baseModal').modal("show");
-    }
-
-    var blank_height = "2em"
+    }    
 
     if(checkMobile() == "ios"){ blank_height = "3em" }
     else{ blank_height = "2em" }
@@ -966,7 +965,8 @@ function updateTable(month, region){
             $('#dataList').append(addon_html); 
           }         
         }
-        $('#dataList').append("<div style='height: " +  blank_height + "'></div>");
+        console.log(blank_height)
+        $('#dataList').append("<div style='height: " + blank_height + "'></div>");
         if(!(minValue == 0 && maxValue == 60)){
           $(".aptPrice").css({'color': '#fe4040', 'font-weight': '600'})
         }
