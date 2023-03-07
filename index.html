@@ -48,7 +48,7 @@
   <!-- 주소창 등의 웹 브라우저 UI를 표시하지 않기 -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <!-- 상태 바의 스타일을 지정 -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
   <!-- 홈 화면에서 표시되는 앱 이름을 지정 -->
   <meta name="apple-mobile-web-app-title" content="아파트랭크">
   <!-- 홈 화면에서 표시되는 앱 아이콘을 지정 -->
@@ -546,6 +546,19 @@
       //초기 진입 시 공지 팝업 표시하는 경우, 변수 startNotice에 true 할당      
       $('#baseModal').modal("show");
     }
+
+    var blank_height = "2em"
+
+    if(checkMobile() == "ios"){
+      $("##linkToAptrank").css('height', '3em')
+      $("##linkToAptrank").css('line-height', '3em')
+      blank_height = "3em"
+    }
+    else{
+      $("##linkToAptrank").css('height', '2em')
+      $("##linkToAptrank").css('line-height', '2em')
+      blank_height = "2em"
+    }
   });
 
   function showWeight(){
@@ -959,7 +972,7 @@ function updateTable(month, region){
             $('#dataList').append(addon_html); 
           }         
         }
-        $('#dataList').append("<div style='height: 2em'></div>");
+        $('#dataList').append("<div style='height: " +  blank_height + "'></div>");
         if(!(minValue == 0 && maxValue == 60)){
           $(".aptPrice").css({'color': '#fe4040', 'font-weight': '600'})
         }
@@ -2294,7 +2307,7 @@ function updateTable(month, region){
 
           $('#dataList').append(addon_html);
         }
-        $('#dataList').append("<div style='height: 2em'></div>");
+        $('#dataList').append("<div style='height: " +  blank_height + "'></div>");
     })
 
     saveLocalStorage()
