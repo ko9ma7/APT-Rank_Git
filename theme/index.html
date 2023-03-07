@@ -442,16 +442,10 @@
       $('#guide_and_search').html(tripGuide_html)
     }
 
-    if(checkMobile() == "ios"){
-      blank_height = "3em"
-      $("#linkToAptrank").css('align-content', 'none')
-    }
-    else{
-      blank_height = "2em"
-      $("#linkToAptrank").css('align-content', 'center')
-    }
+    if(checkMobile() == "ios"){ blank_height = "3em" }
+    else{ blank_height = "2em" }
     $("#linkToAptrank").css('height', blank_height)
-
+    $("#linkToAptrank").css('line-height', blank_height)
   });
 
   function sidoChange(){
