@@ -549,16 +549,10 @@
 
     var blank_height = "2em"
 
-    if(checkMobile() == "ios"){
-      $("##linkToAptrank").css('height', '3em')
-      $("##linkToAptrank").css('line-height', '3em')
-      blank_height = "3em"
-    }
-    else{
-      $("##linkToAptrank").css('height', '2em')
-      $("##linkToAptrank").css('line-height', '2em')
-      blank_height = "2em"
-    }
+    if(checkMobile() == "ios"){ blank_height = "3em" }
+    else{ blank_height = "2em" }
+    $("##linkToAptrank").css('height', blank_height)
+    $("##linkToAptrank").css('line-height', blank_height)      
   });
 
   function showWeight(){
