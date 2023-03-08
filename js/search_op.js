@@ -82,7 +82,7 @@ function showSearchBar(){
       else{
         $('#partInfo').html(sub_comment)
       }
-      $('#partImage').html("<img src='./ad_op/image/" + img_url + "' height='58px'>")
+      $('#partImage').html("<img src='./ad_op/image/" + img_url + "' height='70px'>")
     }
     else{
       $('#dataList').append(part_default);
