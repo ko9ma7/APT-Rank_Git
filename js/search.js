@@ -130,7 +130,13 @@ function showSearchBar(){
         else{
           $('#partInfo').html(sub_comment)
         }
-        $('#partImage').html("<img src='./ad/image/" + img_url + "' height='58px'>")
+        
+        if(checkMobile() == 'other'){
+          $('#partImage').html("<img src='./ad/image/" + img_url + "' height='70px' style='border-radius: 10px;'>")
+        }
+        else{
+          $('#partImage').html("<img src='./ad/image/" + img_url + "' height='58px' style='border-radius: 10px;'>")
+        }
       }
       else{
         $('#dataList').append(part_default);

@@ -81,8 +81,14 @@ function showSearchBar(){
       }
       else{
         $('#partInfo').html(sub_comment)
+      }      
+
+      if(checkMobile() == 'other'){
+        $('#partImage').html("<img src='../ad_op/image/" + img_url + "' height='70px' style='border-radius: 10px;'>")
       }
-      $('#partImage').html("<img src='./ad_op/image/" + img_url + "' height='58px' style='border-radius: 10px;'>")
+      else{
+        $('#partImage').html("<img src='../ad_op/image/" + img_url + "' height='58px' style='border-radius: 10px;'>")
+      }
     }
     else{
       $('#dataList').append(part_default);
