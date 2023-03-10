@@ -326,6 +326,7 @@
   var today_month = dateReturn( (today.getMonth() + 1))
   var today_day = dateReturn( today.getDate() );
   var today_num = Number(today_year + today_month + today_day)
+  var today_str = today_year + "-" + today_month + "-" + today_day
 
   function dateReturn(n){
     return n<10 ? "0"+n : n
@@ -793,12 +794,13 @@
 
     //광고정보 표시영역
     if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
-      gtag('event','파트너쉽노출', { 'event_category' : 'View_Partnership', 'event_label' : part_title});
+      part_title = partData.data[0]['shop_name'] 
+      gtag('event','파트너쉽노출', { 'event_category' : 'View_Partnership', 'event_label' : "랭크Theme," + today_str + "," + part_title + ",뷰"});
       if(part_type == 'Direct'){
         $('#themeDataList').append(part_info);
         $('.partBox').click(function(){
           var ad_click_date = new Date();
-          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : part_title});
+          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "랭크Theme," + today_str + "," + part_title + ",클릭"});
           window.open(page_url)
         })
       }
@@ -1122,12 +1124,12 @@
 
     //광고정보 표시영역
     if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
-      gtag('event','파트너쉽노출', { 'event_category' : 'View_Partnership', 'event_label' : part_title});
+      gtag('event','파트너쉽노출', { 'event_category' : 'View_Partnership', 'event_label' : "랭크Theme," + today_str + "," + part_title + ",뷰"});
       if(part_type == 'Direct'){
         $('#themeDataList').append(part_info);
         $('.partBox').click(function(){
           var ad_click_date = new Date();
-          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : part_title});
+          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "랭크Theme," + today_str + "," + part_title + ",클릭"});
           window.open(page_url)
         })
       }
@@ -1239,12 +1241,12 @@
 
     //광고정보 표시영역
     if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
-      gtag('event','파트너쉽노출', { 'event_category' : 'View_Partnership', 'event_label' : part_title});
+      gtag('event','파트너쉽노출', { 'event_category' : 'View_Partnership', 'event_label' : "랭크Theme," + today_str + "," + part_title + ",뷰"});
       if(part_type == 'Direct'){
         $('#themeDataList').append(part_info);
         $('.partBox').click(function(){
           var ad_click_date = new Date();
-          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : part_title});
+          gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "랭크Theme," + today_str + "," + part_title + ",클릭"});
           window.open(page_url)
         })
       }
