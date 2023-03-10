@@ -1058,7 +1058,7 @@ function updateTable(month, region){
       eventURL = ""
     }
 
-    gtag('event','아파트상세', { 'event_category' : short_name, 'event_label' : aptName + "(" + short_name + ")" + "\t" + short_name + "\t" + eventURL});
+    gtag('event','아파트상세', { 'event_category' : short_name, 'event_label' : aptName + "(" + short_name + ")"});
 
     if(Number(selectedMonth) > 202203){      
       if(apt_type == "아파트"){        
