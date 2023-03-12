@@ -112,9 +112,12 @@ function showSearchBar(){
 
       //광고정보 표시영역
       if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
+        part_title = partData.data[0]['shop_name'] 
+        gtag('event','파트너쉽노출', { 'event_category' : 'View_Partnership', 'event_label' : "아파트랭크," + today_str + "," + part_title + ",뷰,파트너쉽"});
         if(part_type == 'Direct'){
           $('#dataList').append(part_info);
           $('.partBox').click(function(){
+            gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "아파트랭크," + today_str + "," + part_title + ",클릭,파트너쉽"});
             window.open(page_url)
           })
         }
