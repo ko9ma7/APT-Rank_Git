@@ -703,7 +703,7 @@
   #themeSelections{        
     display: grid;
     position: relative;
-    grid-template-columns: 200px 330px 1fr 1fr 150px 80px;
+    grid-template-columns: 200px 330px 1fr 250px 150px 80px;
     height: 60px;
     width: 98%;
     padding-left: 25px;
