@@ -189,6 +189,9 @@
     text-align: center;    
     z-index: 500;
   }
+  #appointment, #bizCal{
+    margin-left: 10px;
+  }  
   #appointmentResult{
     display: grid;
     grid-template-columns: 1fr;
@@ -692,7 +695,7 @@
   #themeSelections{        
     display: grid;
     position: relative;
-    grid-template-columns: 200px 350px 1.5fr 1fr 180px;
+    grid-template-columns: 200px 350px 1fr 1fr 180px 150px;
     height: 70px;
     width: 98%;
     padding-left: 25px;
