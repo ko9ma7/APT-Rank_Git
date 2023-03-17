@@ -1,0 +1,18 @@
+{
+  "name": "aptrank",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https;//gitbub.com/APT-Rank/APT-Rank_Git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "aptrank",
+  "license": "ISC",
+  "description": ""
+}
