@@ -1,5 +1,5 @@
 function post(aptName, log_date, short_name) {
-  const url = "https://my-json-server.typicode.com/APT-Rank/jsonlog/db"
+  const url = "https://github.com/APT-Rank/log/db"
 
   fetch(url, {    
     method: "POST",
