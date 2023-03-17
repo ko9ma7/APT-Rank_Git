@@ -4,7 +4,8 @@ function post(aptName, log_date, short_name) {
   fetch(url, {    
     method: "POST",
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      "Access-Control-Allow-Origin": "*"
     },
     body: JSON.stringify({
       "aptName": aptName,
