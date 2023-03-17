@@ -14,5 +14,9 @@
   ],
   "author": "aptrank",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "chatgpt": "^5.1.1",
+    "json-server": "^0.17.2"
+  }
 }
