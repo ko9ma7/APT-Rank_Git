@@ -1,10 +1,11 @@
 function post(aptName, log_date, short_name) {
-  const url = "https://www.aptrank.kr/log/db.json"
+  const url = "https://www.aptrank.kr/log/db/"
 
   fetch(url, {    
     method: "POST",
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'Allows' : 'POST, PUT, DELELE'
     },
     body: JSON.stringify({
       "aptName": aptName,
