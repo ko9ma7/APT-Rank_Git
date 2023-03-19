@@ -42,8 +42,8 @@ jobs:
         git pull
         git config --local user.email "aptranking@gmail.com"
         git config --local user.name "APT-Rank"
-        git add news.json
-        git add blogs.json
+        git add ./newsinfo/news.json
+        git add ./newsinfo/blogs.json
         git commit -m "News, Blog Update"
     - name: Push
       uses: ad-m/github-push-action@master
