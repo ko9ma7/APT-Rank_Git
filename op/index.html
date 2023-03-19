@@ -193,10 +193,11 @@
 
       <!--아파트랭크 연결-->
       <div id="linkToAptrank">
-        <div id = 'tab1' onClick='openAptrank()'>아파트랭크</div>
-        <div id = 'tab2' onClick='openAptrankTheme()'>랭크:THEME</div>
-        <div id = 'tab3' style='background-color: #293249; color:white;'>오피스텔랭크</div>
-        <div id = 'tab4' onClick='openAptrankBIZ()'>아파트랭크BIZ</div>
+        <div id = 'tab1' onClick='openAptrank()'>아파트R</div>
+        <div id = 'tab2' onClick='openAptrankTheme()'>THEME</div>
+        <div id = 'tab3' style='background-color: #293249; color:white;'>오피스텔R</div>
+        <div id = 'tab4' onClick='openAptrankNEWS()'>NEWS</div>
+        <div id = 'tab5' onClick='openAptrankBIZ()'>BIZ</div>        
       </div>
 
       <!--단지 검색창 닫기 플로팅 버튼-->
@@ -326,7 +327,7 @@
   var prevValue = 0;
   var regData = "";
   var regSortData = "";
-  var blank_height = "2em"
+  var blank_height = "3em"
 
   var modalState = 0;
   var searchState = 0;
@@ -474,7 +475,7 @@
     }    
 
     if(checkMobile() == "ios"){ blank_height = "3em" }
-    else{ blank_height = "2em" }
+    else{ blank_height = "3em" }
     $("#linkToAptrank").css('height', blank_height)
     $("#linkToAptrank").css('line-height', blank_height)
   });
@@ -851,7 +852,9 @@
             $('#dataList').append(addon_html); 
           }         
         }
-        $('#dataList').append("<div style='height: 2em'></div>");
+        $('#dataList').append("<div style='height:" + blank_height + "'></div>");
+
+
         if(!(minValue == 0 && maxValue == 60)){
           $(".aptPrice").css({'color': '#fe4040', 'font-weight': '600'})
         }
@@ -1879,6 +1882,20 @@
   }
   function openAptrankBIZ(){
     aURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
+    location.href = aURL
+    /*
+    if ( navigator.platform ) {
+        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+          location.href = aURL
+        } else {
+          window.open(aURL)
+        }
+    }
+    */
+  }
+
+  function openAptrankNEWS(){
+    aURL = "https://www.aptrank.kr/newsinfo"
     location.href = aURL
     /*
     if ( navigator.platform ) {

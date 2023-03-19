@@ -185,10 +185,11 @@
 
       <!--아파트랭크 연결-->      
       <div id="linkToAptrank">        
-        <div id = 'tab1' onClick='openAptrank()'>아파트랭크</div>
-        <div id = 'tab2' style='background-color: #fe4040; color:white;'>랭크:THEME</i></div>
-        <div id = 'tab3' onClick='openOprank()'>오피스텔랭크</div>
-        <div id = 'tab4' onClick='openAptrankBIZ()'>아파트랭크BIZ</div>
+        <div id = 'tab1' onClick='openAptrank()'>아파트R</div>
+        <div id = 'tab2' style='background-color: #fe4040; color:white;'>THEME</i></div>
+        <div id = 'tab3' onClick='openOprank()'>오피스텔R</div>
+        <div id = 'tab4' onClick='openAptrankNEWS()'>NEWS</div>
+        <div id = 'tab5' onClick='openAptrankBIZ()'>BIZ</div>        
       </div>
 
       <!--단지 검색창 닫기 플로팅 버튼-->
@@ -301,7 +302,7 @@
   var selectedTheme = "under100M"
 
   var updated_ver = "?v=1.2"
-  var blank_height = "2em"
+  var blank_height = "3em"
 
   var regionName = ""
 
@@ -444,7 +445,7 @@
     }
 
     if(checkMobile() == "ios"){ blank_height = "3em" }
-    else{ blank_height = "2em" }
+    else{ blank_height = "3em" }
     $("#linkToAptrank").css('height', blank_height)
     $("#linkToAptrank").css('line-height', blank_height)
   });
@@ -1087,7 +1088,7 @@
       shareText = "아파트 단지가 없네요.\n"
       $('#themeDataList').append(addon_html);        
     }
-    $('#themeDataList').append("<div style='height: 2em'></div>");        
+    $('#themeDataList').append("<div style='height:" + blank_height + "'></div>");
     
     saveLocalStorage()
 
@@ -1223,7 +1224,7 @@
         $('#themeDataList').append(addon_html);
       }
     }
-    $('#themeDataList').append("<div style='height: 2em'></div>");   
+    $('#themeDataList').append("<div style='height:" + blank_height + "'></div>");
    
     saveLocalStorage()
 
@@ -1347,7 +1348,7 @@
         $('#themeDataList').append(addon_html);
       }
     }
-    $('#themeDataList').append("<div style='height: 2em'></div>");   
+    $('#themeDataList').append("<div style='height:" + blank_height + "'></div>");
    
     saveLocalStorage()
 
@@ -1512,7 +1513,21 @@
         }
     }
     */
-  } 
+  }
+
+  function openAptrankNEWS(){
+    aURL = "https://www.aptrank.kr/newsinfo"
+    location.href = aURL
+    /*
+    if ( navigator.platform ) {
+        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+          location.href = aURL
+        } else {
+          window.open(aURL)
+        }
+    }
+    */
+  }   
   function showNotice(){
     var titleHtml = "<div class='popupTitle'> 아파트랭크 Theme </div>";
     var footerHtml = ""    
