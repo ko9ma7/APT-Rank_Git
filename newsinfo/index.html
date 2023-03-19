@@ -381,19 +381,35 @@
           
           addon_html = "<div class='themeListBox' onClick='window.open(\"" + newsLink + "\")'>";
           addon_html += "<div class='content'>";
-          addon_html += "<div class='news_title'>" + newsTitle + "</div>";
+          addon_html += "<div class='news_title'>" + "<span id='themeLogo'>" + (i+1) + "</span>" + newsTitle + "</div>";
           addon_html += "<div class='news_date'>" + formatted_date + "</div>";
           addon_html += "<div class='news_description'>"+ newsDescription + "</div>";          
           addon_html += "</div></div>"
 
           cleared_title = newsTitle.replaceAll("&apos;", "")
           cleared_title = cleared_title.replaceAll("&quot;", "")
+          cleared_title = cleared_title.replaceAll("&lt;", "")
+          cleared_title = cleared_title.replaceAll("&gt;", "")
 
-          //shareText += "ㆍ" + cleared_title + " (" + formatted_date + ")" + "\n"
-          shareText += "ㆍ" + cleared_title + "\n"
-          shareText += newsLink + "\n\n"
+          //shareText += "ㆍ" + cleared_title + " (" + formatted_date + ")" + "\n"          
+          if(today_str == formatted_date.substr(0, 10)){
+            shareText += "ㆍ" + cleared_title + "\n"
+            shareText += newsLink + "\n\n"
+          }          
           $('#themeDataList').append(addon_html);
         }
+
+        shareText += "ㆍ전국 아파트의 입지 분석과 순위 " + "\n"
+        shareText += "https://www.aptrank.kr" + "\n\n"
+
+        shareText += "ㆍ전국 오피스텔의 입지 분석과 순위" + "\n"
+        shareText += "https://www.aptrank.kr/op" + "\n\n"
+
+        shareText += "ㆍ최고가대비 변동률 / 1억이하 / 재건축 / 분양권 확인 " + "\n"
+        shareText += "https://www.aptrank.kr" + "\n\n"
+
+        shareText += "ㆍ아파트 투자하기 적합한 지역 추천" + "\n"
+        shareText += "https://www.aptrank.kr/biz" + "\n\n"
 
         $('#themeDataList').append("<div style='height: " + blank_height + "'></div>");
 
