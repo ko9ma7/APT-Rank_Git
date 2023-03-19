@@ -42,5 +42,5 @@ def generateNews(type, searchText):
         print("Error Code:" + rescode)
     
 
-generateNews("News", "부동산, 아파트")
+generateNews("News", "부동산, 아파트, 금리, 분양")
 generateNews("Blog", "부동산, 아파트, 아파트랭크")

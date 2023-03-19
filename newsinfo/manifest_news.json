@@ -1,27 +1,27 @@
 {
-    "name": "아파트랭크:THEME",
-    "short_name": "아파트랭크:THEME",
-    "description": "대한민국 아파트 테마별 분류",
+    "name": "아파트랭크NEWS",
+    "short_name": "아파트랭크NEWS",
+    "description": "아파트랭크 뉴스",
     "dir": "ltr",
     "start_url": "https://www.aptrank.kr/theme/index.html",
     "display": "standalone",
     "theme_color": "#000000",
-    "background_color": "#ff3d38",
+    "background_color": "#e31939",
     "orientation": "portrait",
     "icons": [{
-      "src": "https://www.aptrank.kr/apt-rank-theme-512x512.png",
+      "src": "https://www.aptrank.kr/apt-rank-news-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },{
-      "src": "https://www.aptrank.kr/apt-rank-theme-192x192.png",
+      "src": "https://www.aptrank.kr/apt-rank-news-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     }, {
-      "src": "https://www.aptrank.kr/apt-rank-theme-114x114.png",
+      "src": "https://www.aptrank.kr/apt-rank-news-114x114.png",
       "sizes": "114x114",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     }]
 }
