@@ -114,7 +114,7 @@
         <div id = 'tab2' onClick='openAptrank("https://www.aptrank.kr/theme")'>THEME</i></div>
         <div id = 'tab3' onClick='openAptrank("https://www.aptrank.kr/op")'>오피스텔R</div>        
         <div id = 'tab4' style='background-color: #e31939; color:white;'>NEWS</div>
-        <div id = 'tab5' onClick='openAptrank("https://www.aptrank.kr/biz")'>BIZ</div>
+        <div id = 'tab5' onClick='window.open("https://www.aptrank.kr/biz")'>BIZ</div>
       </div>
     </div>
   </div>
@@ -287,7 +287,7 @@
 
     initSorting()
 
-    url = "https://www.aptrank.kr/newsinfo/news.json"
+    url = "https://www.aptrank.kr/newsinfo/news.json?v=" + Math.random()
     $('#themeDataList').html("");
 
     //광고정보 로딩

@@ -1503,7 +1503,7 @@
 
   function openAptrankBIZ(){
     aURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
-    location.href = aURL
+    window.open(aURL)
     /*
     if ( navigator.platform ) {
         if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
