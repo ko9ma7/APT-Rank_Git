@@ -5,7 +5,7 @@ name: News Auto Update
 
 on:
   schedule:    
-    - cron: "*/5 * * * *"
+    - cron: "15 */2 * * *"
 
 permissions:
   actions: write
