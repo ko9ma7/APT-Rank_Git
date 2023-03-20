@@ -270,6 +270,8 @@
   var broswerInfo = navigator.userAgent;  
 
   $(document).ready(function(){
+    document.documentElement.requestFullScreen();
+    screen.orientation.lock('landscape')
 
     Kakao.init(kakaoKey);
 
