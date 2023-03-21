@@ -1,9 +1,16 @@
 {
-    "lastBuildDate": "Wed, 22 Mar 2023 03:21:37 +0900",
-    "total": 709214,
+    "lastBuildDate": "Wed, 22 Mar 2023 04:14:44 +0900",
+    "total": 709213,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "[시론] <b>시장</b> 방치하면 모두 죽는다",
+            "originallink": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202303151700049610858",
+            "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202303151700049610858",
+            "description": "<b>부동산 시장</b>도 예외는 아니다. 신규 <b>부동산</b> 공급을 담당하는 건설<b>시장</b>의 수요가 지지부진하면서 금융<b>시장</b>이 타격을 받을 것이라는 우려도 점차 현실화하고 있다. 미래의 풍요로움을 담보로 현재의 궁핍을 해결하는 것이... ",
+            "pubDate": "Wed, 22 Mar 2023 04:12:00 +0900"
+        },
         {
             "title": "‘中 양회 수혜주’라 믿고 샀는데 울상… 화장품·여행주 어찌할까요",
             "originallink": "https://www.chosun.com/economy/stock-finance/2023/03/22/USNH7JXAQRCVBPET5UUWFBIYUA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
@@ -40,7 +47,7 @@
             "pubDate": "Wed, 22 Mar 2023 00:02:00 +0900"
         },
         {
-            "title": "‘부실 시한폭탄’ <b>부동산</b>PF… 2금융권 ‘위험 노출’만 200조 [사설]",
+            "title": "[사설]‘부실 시한폭탄’ <b>부동산</b>PF… 2금융권 ‘위험 노출’만 200조",
             "originallink": "https://www.donga.com/news/Opinion/article/all/20230321/118455748/1",
             "link": "https://n.news.naver.com/mnews/article/020/0003486656?sid=110",
             "description": "SVB 사태 이전부터 <b>부동산</b> PF <b>시장</b>은 금리 상승, <b>부동산</b> 가격 하락, 인플레이션에 따른 건설비 상승 등 각종 악재에 노출돼 부실 우려를 키워 왔다. 전국 미분양 주택은 이미 7만 채를 넘어섰다. 이런 상황에서 미국... ",
@@ -206,13 +213,6 @@
             "link": "http://www.g-enews.com/ko-kr/news/article/news_all/20230321151701202483d802ba66_1/article.html",
             "description": "금융감독원 관계자는 &quot;금리·환율 등 금융<b>시장</b>의 불확실성 및 <b>부동산</b> 경기 악화 등 대내·외 경제여건 변화에 따른 리스크 요인이 상존하는데다, IFRS17 등 新제도 시행으로 보험사의 경영 환경 및 전략 변화 등에... ",
             "pubDate": "Tue, 21 Mar 2023 18:26:00 +0900"
-        },
-        {
-            "title": "원희룡 &quot;미분양 10만호까지 각오…하락세 여전&quot;",
-            "originallink": "http://www.yonhapnewstv.co.kr/MYH20230321015900641/?input=1825m",
-            "link": "https://n.news.naver.com/mnews/article/422/0000589775?sid=101",
-            "description": "<b>시장</b> 상황에 대한 냉철한 모니터링과 정부의 정책적 뒷받침이 중요한 시점이라고 강조했습니다. 연합뉴스TV 팽재용입니다. (paengman@yna.co.kr) #미분양_10만호_각오 #원희룡 #<b>부동산</b>연착륙 #<b>부동산시장</b>",
-            "pubDate": "Tue, 21 Mar 2023 18:22:00 +0900"
         }
     ]
 }
