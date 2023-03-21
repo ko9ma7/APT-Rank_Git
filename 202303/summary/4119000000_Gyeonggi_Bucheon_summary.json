@@ -276,6 +276,19 @@
         {
             "index":17,
             "sort":"living",
+            "name":"부천일루미스테이트",
+            "search_code":"127082",
+            "apt_type":"아파트",
+            "apt_year":0.0,
+            "value_score":64.2132,
+            "region":"경기도 부천시",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4119000000_Gyeonggi_Bucheon",
+            "shorten_url":"https:\/\/me2.do\/F3oWPK46"
+        },
+        {
+            "index":18,
+            "sort":"living",
             "name":"푸른창보밀레시티",
             "search_code":"3610",
             "apt_type":"아파트",
@@ -287,26 +300,13 @@
             "shorten_url":"https:\/\/me2.do\/F3oWPK46"
         },
         {
-            "index":18,
+            "index":19,
             "sort":"living",
             "name":"진달래효성",
             "search_code":"3615",
             "apt_type":"아파트",
             "apt_year":21.0,
             "value_score":64.096,
-            "region":"경기도 부천시",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4119000000_Gyeonggi_Bucheon",
-            "shorten_url":"https:\/\/me2.do\/F3oWPK46"
-        },
-        {
-            "index":19,
-            "sort":"living",
-            "name":"라일락서해그랑블",
-            "search_code":"3603",
-            "apt_type":"아파트",
-            "apt_year":21.0,
-            "value_score":63.946,
             "region":"경기도 부천시",
             "region_code":"Gyeonggi",
             "sub_region_code":"4119000000_Gyeonggi_Bucheon",

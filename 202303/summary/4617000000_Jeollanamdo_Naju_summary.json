@@ -159,7 +159,7 @@
         {
             "index":8,
             "sort":"balanced",
-            "name":"이노시티애시앙",
+            "name":"이노시티애시앙1단지",
             "search_code":127728,
             "apt_type":"아파트",
             "apt_year":3.0,
@@ -250,7 +250,7 @@
         {
             "index":15,
             "sort":"living",
-            "name":"이노시티애시앙",
+            "name":"이노시티애시앙1단지",
             "search_code":127728,
             "apt_type":"아파트",
             "apt_year":3.0,

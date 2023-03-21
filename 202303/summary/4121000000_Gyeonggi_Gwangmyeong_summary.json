@@ -55,7 +55,7 @@
         {
             "index":0,
             "sort":"balanced",
-            "name":"유-플래닛(주상복합)",
+            "name":"유-플래닛광명역데시앙(주상복합)",
             "search_code":"112522",
             "apt_type":"아파트",
             "apt_year":4.0,
@@ -81,7 +81,7 @@
         {
             "index":2,
             "sort":"balanced",
-            "name":"광명제12R구역재개발",
+            "name":"광명12R구역재개발",
             "search_code":"fcZf9",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -185,7 +185,7 @@
         {
             "index":10,
             "sort":"living",
-            "name":"유-플래닛(주상복합)",
+            "name":"유-플래닛광명역데시앙(주상복합)",
             "search_code":"112522",
             "apt_type":"아파트",
             "apt_year":4.0,
@@ -211,7 +211,7 @@
         {
             "index":12,
             "sort":"living",
-            "name":"광명제12R구역재개발",
+            "name":"광명12R구역재개발",
             "search_code":"fcZf9",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -276,19 +276,6 @@
         {
             "index":17,
             "sort":"living",
-            "name":"주공8단지",
-            "search_code":"1619",
-            "apt_type":"재건축",
-            "apt_year":38.0,
-            "value_score":66.2676,
-            "region":"경기도 광명시",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4121000000_Gyeonggi_Gwangmyeong",
-            "shorten_url":"https:\/\/me2.do\/FsK75Juc"
-        },
-        {
-            "index":18,
-            "sort":"living",
             "name":"철산자이더헤리티지",
             "search_code":"154299",
             "apt_type":"분양권",
@@ -300,13 +287,26 @@
             "shorten_url":"https:\/\/me2.do\/FsK75Juc"
         },
         {
-            "index":19,
+            "index":18,
             "sort":"living",
             "name":"철산센트럴푸르지오",
             "search_code":"122487",
             "apt_type":"아파트",
             "apt_year":2.0,
             "value_score":65.8876,
+            "region":"경기도 광명시",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4121000000_Gyeonggi_Gwangmyeong",
+            "shorten_url":"https:\/\/me2.do\/FsK75Juc"
+        },
+        {
+            "index":19,
+            "sort":"living",
+            "name":"광명제9R구역주택재개발정비사업",
+            "search_code":"fbe7e",
+            "apt_type":"분양(예정)",
+            "apt_year":-2.0,
+            "value_score":64.3692,
             "region":"경기도 광명시",
             "region_code":"Gyeonggi",
             "sub_region_code":"4121000000_Gyeonggi_Gwangmyeong",
@@ -328,7 +328,7 @@
         {
             "index":21,
             "sort":"transport",
-            "name":"유-플래닛(주상복합)",
+            "name":"유-플래닛광명역데시앙(주상복합)",
             "search_code":"112522",
             "apt_type":"아파트",
             "apt_year":4.0,
@@ -354,7 +354,7 @@
         {
             "index":23,
             "sort":"transport",
-            "name":"광명제12R구역재개발",
+            "name":"광명12R구역재개발",
             "search_code":"fcZf9",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -445,7 +445,7 @@
         {
             "index":30,
             "sort":"infra",
-            "name":"유-플래닛(주상복합)",
+            "name":"유-플래닛광명역데시앙(주상복합)",
             "search_code":"112522",
             "apt_type":"아파트",
             "apt_year":4.0,
@@ -549,7 +549,7 @@
         {
             "index":38,
             "sort":"infra",
-            "name":"광명제12R구역재개발",
+            "name":"광명12R구역재개발",
             "search_code":"fcZf9",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -588,7 +588,7 @@
         {
             "index":41,
             "sort":"education",
-            "name":"유-플래닛(주상복합)",
+            "name":"유-플래닛광명역데시앙(주상복합)",
             "search_code":"112522",
             "apt_type":"아파트",
             "apt_year":4.0,
@@ -601,7 +601,7 @@
         {
             "index":42,
             "sort":"education",
-            "name":"광명제12R구역재개발",
+            "name":"광명12R구역재개발",
             "search_code":"fcZf9",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,

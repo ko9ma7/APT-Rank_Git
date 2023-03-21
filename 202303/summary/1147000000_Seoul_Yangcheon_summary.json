@@ -679,8 +679,8 @@
         {
             "index":48,
             "sort":"education",
-            "name":"벽산미라지타워(주상복합)",
-            "search_code":"12227",
+            "name":"목동가든스위트(주상복합)",
+            "search_code":"8410",
             "apt_type":"아파트",
             "apt_year":24.0,
             "value_score":67.904,
@@ -692,8 +692,8 @@
         {
             "index":49,
             "sort":"education",
-            "name":"목동가든스위트(주상복합)",
-            "search_code":"8410",
+            "name":"벽산미라지타워(주상복합)",
+            "search_code":"12227",
             "apt_type":"아파트",
             "apt_year":24.0,
             "value_score":67.904,

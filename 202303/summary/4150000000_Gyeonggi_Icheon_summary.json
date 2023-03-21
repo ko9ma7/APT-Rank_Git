@@ -81,6 +81,19 @@
         {
             "index":2,
             "sort":"balanced",
+            "name":"이천중리B2BL",
+            "search_code":"gk8d8",
+            "apt_type":"분양(예정)",
+            "apt_year":-2.0,
+            "value_score":46.5636,
+            "region":"경기도 이천시",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4150000000_Gyeonggi_Icheon",
+            "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
+        },
+        {
+            "index":3,
+            "sort":"balanced",
             "name":"이천중리택지개발지구B-3블록예미지",
             "search_code":"faAe6",
             "apt_type":"분양(예정)",
@@ -92,7 +105,7 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":3,
+            "index":4,
             "sort":"balanced",
             "name":"이천금호어울림",
             "search_code":"ggo80",
@@ -105,7 +118,7 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":4,
+            "index":5,
             "sort":"balanced",
             "name":"갈산현진에버빌",
             "search_code":"27266",
@@ -118,7 +131,7 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":5,
+            "index":6,
             "sort":"balanced",
             "name":"설봉푸르지오2차",
             "search_code":"101727",
@@ -131,7 +144,7 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":6,
+            "index":7,
             "sort":"balanced",
             "name":"이천송정자이",
             "search_code":"gg116",
@@ -144,7 +157,7 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":7,
+            "index":8,
             "sort":"balanced",
             "name":"힐스테이트",
             "search_code":"26236",
@@ -157,26 +170,13 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":8,
+            "index":9,
             "sort":"balanced",
             "name":"이천센트럴푸르지오",
             "search_code":"109527",
             "apt_type":"아파트",
             "apt_year":7.0,
             "value_score":43.3296,
-            "region":"경기도 이천시",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4150000000_Gyeonggi_Icheon",
-            "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
-        },
-        {
-            "index":9,
-            "sort":"balanced",
-            "name":"증포한솔솔파크1차",
-            "search_code":"24767",
-            "apt_type":"아파트",
-            "apt_year":17.0,
-            "value_score":43.0796,
             "region":"경기도 이천시",
             "region_code":"Gyeonggi",
             "sub_region_code":"4150000000_Gyeonggi_Icheon",
@@ -224,6 +224,19 @@
         {
             "index":13,
             "sort":"living",
+            "name":"이천중리B2BL",
+            "search_code":"gk8d8",
+            "apt_type":"분양(예정)",
+            "apt_year":-2.0,
+            "value_score":56.3924,
+            "region":"경기도 이천시",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4150000000_Gyeonggi_Icheon",
+            "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
+        },
+        {
+            "index":14,
+            "sort":"living",
             "name":"이천라온프라이빗",
             "search_code":"124881",
             "apt_type":"아파트",
@@ -235,7 +248,7 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":14,
+            "index":15,
             "sort":"living",
             "name":"이천신안실크밸리",
             "search_code":"147902",
@@ -248,7 +261,7 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":15,
+            "index":16,
             "sort":"living",
             "name":"이천송정자이",
             "search_code":"gg116",
@@ -261,7 +274,7 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":16,
+            "index":17,
             "sort":"living",
             "name":"이천롯데캐슬골드스카이(주상복합)",
             "search_code":"110158",
@@ -274,7 +287,7 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":17,
+            "index":18,
             "sort":"living",
             "name":"이천증포동자이",
             "search_code":"gcOa3",
@@ -287,26 +300,13 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":18,
+            "index":19,
             "sort":"living",
             "name":"부발읍한라비발디",
             "search_code":"fJx5d",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
             "value_score":50.4636,
-            "region":"경기도 이천시",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4150000000_Gyeonggi_Icheon",
-            "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
-        },
-        {
-            "index":19,
-            "sort":"living",
-            "name":"갈산현진에버빌",
-            "search_code":"27266",
-            "apt_type":"아파트",
-            "apt_year":15.0,
-            "value_score":48.8284,
             "region":"경기도 이천시",
             "region_code":"Gyeonggi",
             "sub_region_code":"4150000000_Gyeonggi_Icheon",
@@ -419,11 +419,11 @@
         {
             "index":28,
             "sort":"transport",
-            "name":"현대성우오스타2단지",
-            "search_code":"100599",
-            "apt_type":"아파트",
-            "apt_year":13.0,
-            "value_score":31.4102,
+            "name":"이천중리B2BL",
+            "search_code":"gk8d8",
+            "apt_type":"분양(예정)",
+            "apt_year":-2.0,
+            "value_score":32.7818,
             "region":"경기도 이천시",
             "region_code":"Gyeonggi",
             "sub_region_code":"4150000000_Gyeonggi_Icheon",
@@ -432,11 +432,11 @@
         {
             "index":29,
             "sort":"transport",
-            "name":"이천자이더파크",
-            "search_code":"144367",
-            "apt_type":"분양권",
-            "apt_year":-1.0,
-            "value_score":31.2668,
+            "name":"현대성우오스타2단지",
+            "search_code":"100599",
+            "apt_type":"아파트",
+            "apt_year":13.0,
+            "value_score":31.4102,
             "region":"경기도 이천시",
             "region_code":"Gyeonggi",
             "sub_region_code":"4150000000_Gyeonggi_Icheon",
@@ -536,6 +536,19 @@
         {
             "index":37,
             "sort":"infra",
+            "name":"이천중리B2BL",
+            "search_code":"gk8d8",
+            "apt_type":"분양(예정)",
+            "apt_year":-2.0,
+            "value_score":37.628,
+            "region":"경기도 이천시",
+            "region_code":"Gyeonggi",
+            "sub_region_code":"4150000000_Gyeonggi_Icheon",
+            "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
+        },
+        {
+            "index":38,
+            "sort":"infra",
             "name":"진우",
             "search_code":"10478",
             "apt_type":"아파트",
@@ -547,26 +560,13 @@
             "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
         },
         {
-            "index":38,
+            "index":39,
             "sort":"infra",
             "name":"증포한솔솔파크1차",
             "search_code":"24767",
             "apt_type":"아파트",
             "apt_year":17.0,
             "value_score":37.458,
-            "region":"경기도 이천시",
-            "region_code":"Gyeonggi",
-            "sub_region_code":"4150000000_Gyeonggi_Icheon",
-            "shorten_url":"https:\/\/me2.do\/GguqtEjQ"
-        },
-        {
-            "index":39,
-            "sort":"infra",
-            "name":"세영",
-            "search_code":"15131",
-            "apt_type":"아파트",
-            "apt_year":31.0,
-            "value_score":37.42,
             "region":"경기도 이천시",
             "region_code":"Gyeonggi",
             "sub_region_code":"4150000000_Gyeonggi_Icheon",

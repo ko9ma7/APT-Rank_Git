@@ -276,6 +276,19 @@
         {
             "index":17,
             "sort":"living",
+            "name":"속초롯데캐슬인더스카이",
+            "search_code":"134151",
+            "apt_type":"아파트",
+            "apt_year":0.0,
+            "value_score":48.654,
+            "region":"강원도 속초시",
+            "region_code":"Gangwondo",
+            "sub_region_code":"4221000000_Gangwondo_Sokcho",
+            "shorten_url":"https:\/\/me2.do\/xmPyG9ms"
+        },
+        {
+            "index":18,
+            "sort":"living",
             "name":"속초청호아이파크",
             "search_code":"111624",
             "apt_type":"아파트",
@@ -287,26 +300,13 @@
             "shorten_url":"https:\/\/me2.do\/xmPyG9ms"
         },
         {
-            "index":18,
+            "index":19,
             "sort":"living",
             "name":"속초장사동테라스하우스",
             "search_code":"fCT60",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
             "value_score":48.176,
-            "region":"강원도 속초시",
-            "region_code":"Gangwondo",
-            "sub_region_code":"4221000000_Gangwondo_Sokcho",
-            "shorten_url":"https:\/\/me2.do\/xmPyG9ms"
-        },
-        {
-            "index":19,
-            "sort":"living",
-            "name":"하우스토리",
-            "search_code":"104321",
-            "apt_type":"아파트",
-            "apt_year":12.0,
-            "value_score":48.14,
             "region":"강원도 속초시",
             "region_code":"Gangwondo",
             "sub_region_code":"4221000000_Gangwondo_Sokcho",

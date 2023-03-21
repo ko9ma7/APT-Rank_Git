@@ -250,19 +250,6 @@
         {
             "index":15,
             "sort":"living",
-            "name":"환호해맞이그린빌",
-            "search_code":19732,
-            "apt_type":"아파트",
-            "apt_year":18.0,
-            "value_score":62.14,
-            "region":"경상북도 포항시 북구",
-            "region_code":"Gyeongsangbukdo",
-            "sub_region_code":"4711300000_Gyeongsangbukdo_Pohang_Buk",
-            "shorten_url":"https:\/\/me2.do\/5MCGXtiU"
-        },
-        {
-            "index":16,
-            "sort":"living",
             "name":"창포메트로시티2단지",
             "search_code":108575,
             "apt_type":"아파트",
@@ -274,7 +261,7 @@
             "shorten_url":"https:\/\/me2.do\/5MCGXtiU"
         },
         {
-            "index":17,
+            "index":16,
             "sort":"living",
             "name":"우현우방아이유쉘센트럴",
             "search_code":111936,
@@ -287,7 +274,7 @@
             "shorten_url":"https:\/\/me2.do\/5MCGXtiU"
         },
         {
-            "index":18,
+            "index":17,
             "sort":"living",
             "name":"힐스테이트환호공원2블럭",
             "search_code":149099,
@@ -300,13 +287,26 @@
             "shorten_url":"https:\/\/me2.do\/5MCGXtiU"
         },
         {
-            "index":19,
+            "index":18,
             "sort":"living",
             "name":"힐스테이트환호공원1블럭",
             "search_code":149098,
             "apt_type":"분양권",
             "apt_year":-2.0,
             "value_score":60.54,
+            "region":"경상북도 포항시 북구",
+            "region_code":"Gyeongsangbukdo",
+            "sub_region_code":"4711300000_Gyeongsangbukdo_Pohang_Buk",
+            "shorten_url":"https:\/\/me2.do\/5MCGXtiU"
+        },
+        {
+            "index":19,
+            "sort":"living",
+            "name":"두호SK뷰푸르지오2단지",
+            "search_code":117341,
+            "apt_type":"아파트",
+            "apt_year":3.0,
+            "value_score":60.524,
             "region":"경상북도 포항시 북구",
             "region_code":"Gyeongsangbukdo",
             "sub_region_code":"4711300000_Gyeongsangbukdo_Pohang_Buk",
@@ -419,8 +419,8 @@
         {
             "index":28,
             "sort":"infra",
-            "name":"산호그린맨션3차",
-            "search_code":101133,
+            "name":"산호그린맨션1차",
+            "search_code":16368,
             "apt_type":"아파트",
             "apt_year":33.0,
             "value_score":59.9250526316,
@@ -432,10 +432,10 @@
         {
             "index":29,
             "sort":"infra",
-            "name":"산호그린맨션1차",
-            "search_code":16368,
+            "name":"제일우성1차",
+            "search_code":16376,
             "apt_type":"아파트",
-            "apt_year":33.0,
+            "apt_year":27.0,
             "value_score":59.9250526316,
             "region":"경상북도 포항시 북구",
             "region_code":"Gyeongsangbukdo",

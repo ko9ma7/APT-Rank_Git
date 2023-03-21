@@ -250,19 +250,6 @@
         {
             "index":15,
             "sort":"living",
-            "name":"센트레빌아스테리움시그니처",
-            "search_code":"dyLcb",
-            "apt_type":"분양(예정)",
-            "apt_year":-1.0,
-            "value_score":62.1892,
-            "region":"서울시 은평구",
-            "region_code":"Seoul",
-            "sub_region_code":"1138000000_Seoul_Eunpyeong",
-            "shorten_url":"https:\/\/me2.do\/xr6915Hu"
-        },
-        {
-            "index":16,
-            "sort":"living",
             "name":"북한산현대힐스테이트3차",
             "search_code":"26191",
             "apt_type":"아파트",
@@ -274,7 +261,7 @@
             "shorten_url":"https:\/\/me2.do\/xr6915Hu"
         },
         {
-            "index":17,
+            "index":16,
             "sort":"living",
             "name":"힐스테이트백련산4차",
             "search_code":"110251",
@@ -287,7 +274,7 @@
             "shorten_url":"https:\/\/me2.do\/xr6915Hu"
         },
         {
-            "index":18,
+            "index":17,
             "sort":"living",
             "name":"래미안베라힐즈",
             "search_code":"111575",
@@ -300,13 +287,26 @@
             "shorten_url":"https:\/\/me2.do\/xr6915Hu"
         },
         {
-            "index":19,
+            "index":18,
             "sort":"living",
             "name":"DMC파인시티자이",
             "search_code":"136043",
             "apt_type":"분양권",
             "apt_year":0.0,
             "value_score":60.5211751202,
+            "region":"서울시 은평구",
+            "region_code":"Seoul",
+            "sub_region_code":"1138000000_Seoul_Eunpyeong",
+            "shorten_url":"https:\/\/me2.do\/xr6915Hu"
+        },
+        {
+            "index":19,
+            "sort":"living",
+            "name":"백련산해모로",
+            "search_code":"119053",
+            "apt_type":"아파트",
+            "apt_year":3.0,
+            "value_score":60.3284,
             "region":"서울시 은평구",
             "region_code":"Seoul",
             "sub_region_code":"1138000000_Seoul_Eunpyeong",
@@ -692,11 +692,11 @@
         {
             "index":49,
             "sort":"education",
-            "name":"센트레빌아스테리움시그니처",
-            "search_code":"dyLcb",
-            "apt_type":"분양(예정)",
-            "apt_year":-1.0,
-            "value_score":54.748,
+            "name":"은평뉴타운우물골6단지",
+            "search_code":"26875",
+            "apt_type":"아파트",
+            "apt_year":14.0,
+            "value_score":54.488,
             "region":"서울시 은평구",
             "region_code":"Seoul",
             "sub_region_code":"1138000000_Seoul_Eunpyeong",

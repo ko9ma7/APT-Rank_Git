@@ -120,7 +120,7 @@
         {
             "index":5,
             "sort":"balanced",
-            "name":"내당동",
+            "name":"내당동재건축",
             "search_code":"dAb8a",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -250,7 +250,7 @@
         {
             "index":15,
             "sort":"living",
-            "name":"내당동",
+            "name":"내당동재건축",
             "search_code":"dAb8a",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -380,7 +380,7 @@
         {
             "index":25,
             "sort":"transport",
-            "name":"내당동",
+            "name":"내당동재건축",
             "search_code":"dAb8a",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -497,7 +497,7 @@
         {
             "index":34,
             "sort":"infra",
-            "name":"내당동",
+            "name":"내당동재건축",
             "search_code":"dAb8a",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
@@ -614,7 +614,7 @@
         {
             "index":43,
             "sort":"education",
-            "name":"내당동",
+            "name":"내당동재건축",
             "search_code":"dAb8a",
             "apt_type":"분양(예정)",
             "apt_year":-2.0,
