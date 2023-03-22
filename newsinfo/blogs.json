@@ -1,15 +1,79 @@
 {
-    "lastBuildDate": "Wed, 22 Mar 2023 08:17:14 +0900",
-    "total": 4988,
+    "lastBuildDate": "Wed, 22 Mar 2023 10:16:06 +0900",
+    "total": 5000,
     "start": 1,
     "display": 30,
     "items": [
         {
-            "title": "<b>부동산</b> News [2023. 03. 22]",
-            "link": "https://blog.naver.com/ohjushin/223051916754",
+            "title": "23.03.22(수) 뉴스",
+            "link": "https://blog.naver.com/dusvndeh/223051993567",
+            "description": "인근 <b>부동산</b>시장이 뜨겁게 달아오르고 있다. 지난 20일 찾은 남사읍 소재 <b>부동산</b>들에는 집주인들이... 인근 <b>아파트</b> 시장 또한 일제히 호가가 뛰었다. 최근까지 가격이 최고점 대비 절반 수준으로 빠져... ",
+            "bloggername": "박학잡식 博學雜識",
+            "bloggerlink": "blog.naver.com/dusvndeh",
+            "postdate": "20230322"
+        },
+        {
+            "title": "&quot;이곳에 가면 2000만원에 <b>아파트</b> 살 수 있어요&quot; 다시 고개... ",
+            "link": "https://blog.naver.com/heyjeans/223051983658",
+            "description": "<b>아파트</b>가 모여있어 급매물 출현이 많았던 지역이 갭투자가 많았던 지역으로 꼽혔다. 한국<b>부동산</b>원... 지역에 <b>랭크</b>된 원인으로 분석된다. 실제 거래된 사례를 보면 인천 송도동 송도더샵센트럴시티... ",
+            "bloggername": "heyjeans님의 블로그",
+            "bloggerlink": "blog.naver.com/heyjeans",
+            "postdate": "20230322"
+        },
+        {
+            "title": "2023.3.22뉴스",
+            "link": "https://blog.naver.com/kds851101/223051982448",
             "description": "지역에 <b>랭크</b>된 원인으로 분석된다. [서울=뉴시스] <b>아파트</b>값이 급락한 지역을 중심으로 전세를 끼고 집을 사는 '갭투자'가 늘고 있다. 21일 <b>부동산</b> 빅데이터업체 아실에 따르면 최근 3개월간 시군구 기준... ",
-            "bloggername": "40대 직장인의 경제적 자유를 위하여",
-            "bloggerlink": "blog.naver.com/ohjushin",
+            "bloggername": "",
+            "bloggerlink": "blog.naver.com/kds851101",
+            "postdate": "20230322"
+        },
+        {
+            "title": "[SBS 모범택시2] 매주 자체 최고 시청률 경신 + 화제성 1위... ",
+            "link": "https://blog.naver.com/dnbnnews/223051980197",
+            "description": "사기꾼', <b>아파트</b> 청약 가점을 위해 불법 입양을 알선하는 '<b>부동산</b> 브로커'까지, 대한민국 곳곳에... 1위에 <b>랭크</b>되며 싹쓸이 1위에 등극한 것. 해외에서의 위상도 날로 높아지고 있다. ‘모범택시2’의 해외... ",
+            "bloggername": "동네방네뉴스",
+            "bloggerlink": "blog.naver.com/dnbnnews",
+            "postdate": "20230322"
+        },
+        {
+            "title": "1000만원에 <b>아파트</b> 산다 … 청주 갭투자 성행",
+            "link": "https://blog.naver.com/6604ksk/223051957927",
+            "description": "한국<b>부동산</b>원에 따르면 지난 한 해 동안 청주의 <b>아파트</b> 가격은 4.62% 하락했다. 청원구(-4.71%), 상당구... 지역에 <b>랭크</b>된 원인으로 분석된다. 실제 거래된 가격을 보면 복대동 두진백로 전용 59㎡의 경우... ",
+            "bloggername": "선빵임다님의 블로그",
+            "bloggerlink": "blog.naver.com/6604ksk",
+            "postdate": "20230322"
+        },
+        {
+            "title": "2000만원에 <b>아파트</b> 산다...송도·동탄·세종 &apos;갭투자&apos; 늘어",
+            "link": "https://blog.naver.com/6604ksk/223051954393",
+            "description": "대단지 <b>아파트</b>가 모여있어 급매물 출현이 많았던 지역이 대다수를 차지한다. 한국<b>부동산</b>원에... 지역에 <b>랭크</b>된 원인으로 분석된다. 실제 거래된 가격을 보면 송도동 송도더샵센트럴시티 전용 59㎡의... ",
+            "bloggername": "선빵임다님의 블로그",
+            "bloggerlink": "blog.naver.com/6604ksk",
+            "postdate": "20230322"
+        },
+        {
+            "title": "&quot;이곳에 가면 2000만원에 <b>아파트</b> 살 수 있어요&quot; 다시 고개... ",
+            "link": "https://blog.naver.com/nyslydia/223051948264",
+            "description": "아실의 자료에 따르면 지난해 하락폭이 크고 주로 대단지 <b>아파트</b>가 모여있어 급매물 출현이 많았던 지역이 갭투자가 많았던 지역으로 꼽혔다. 한국<b>부동산</b>원에 따르면 지난 한 해 동안 세종시... ",
+            "bloggername": "Adagio Cantabile",
+            "bloggerlink": "blog.naver.com/nyslydia",
+            "postdate": "20230322"
+        },
+        {
+            "title": "2023년 3월 22일 <b>부동산</b>뉴스",
+            "link": "https://blog.naver.com/cctv90/223051934708",
+            "description": "지역에 <b>랭크</b>된 원인으로 분석된다. 실제 거래된 사례를 보면 인천 송도동 송도더샵센트럴시티 전용... 22일 <b>부동산</b>업계에 따르면 올해 들어 <b>아파트</b> 거래가 소폭 늘어나면서 이삿짐센터, <b>부동산</b> 중개업자... ",
+            "bloggername": "[ 람보르비트 ] 주식 / 코인 No.1 호가창 트레이더",
+            "bloggerlink": "blog.naver.com/cctv90",
+            "postdate": "20230322"
+        },
+        {
+            "title": "앞으로의 주식 <b>부동산</b> 투자방향- 적중한것과 부족했던 점의... ",
+            "link": "https://blog.naver.com/ssolmong/223051925881",
+            "description": "<b>부동산</b> 투자방향- 적중한것과 부족한점의 복기도 같이&gt; - 대한민국 전기차 강국될것, 현대차및 부품주와 LG전자 여전히 홀딩의견, 2차전지 실질 수혜주 찾아야 - 상가 추가급락시 먼저 관심가질것 고층<b>아파트</b>... ",
+            "bloggername": "작은부자 경제분석",
+            "bloggerlink": "blog.naver.com/ssolmong",
             "postdate": "20230322"
         },
         {
@@ -26,14 +90,6 @@
             "description": "통해 <b>부동산</b> 가치 알아보기 - 명품 옷 입고 아주 비싼 음식을 먹는다고 명품 인간이 되는 건 아닙니다... 땅은 <b>아파트</b>가 아니니까 (땅이 반드시 싸야 하는 이유) 사람의 성기를 보고 성격을 판단하는 일은... ",
             "bloggername": "김현기의 토지이야기",
             "bloggerlink": "blog.naver.com/sunggong360503",
-            "postdate": "20230321"
-        },
-        {
-            "title": "“얼마나 떨어졌길래?” 전용 59㎡, 매매-전세 2000만",
-            "link": "https://blog.naver.com/mungch1214/223051059262",
-            "description": "대단지 <b>아파트</b>가 모여있어 급매물 출현이 많았던 지역이 대다수를 차지한다. 한국<b>부동산</b>원에... 지역에 <b>랭크</b>된 원인으로 분석된다. 실제 거래된 가격을 보면 송도동 송도더샵센트럴시티 전용 59㎡의... ",
-            "bloggername": "겨울밤의 낭만",
-            "bloggerlink": "blog.naver.com/mungch1214",
             "postdate": "20230321"
         },
         {
@@ -187,62 +243,6 @@
             "bloggername": "부동산 가치 투자 가이드",
             "bloggerlink": "blog.naver.com/hantedstory",
             "postdate": "20230317"
-        },
-        {
-            "title": "e편한세상 용인한숲시티 삼성전자용인에 세계 최대 반도체... ",
-            "link": "https://blog.naver.com/birch_2023/223047134423",
-            "description": "거론되면서, <b>부동산</b>앱인 호갱노노에서 검색어 1위 지역으로 용인시처인구 남사, 1위<b>아파트</b>로 한숲시티5단지가 <b>랭크</b>되기도 했다. 분양초기 교통불편, 기반시설 취약하여 평가가 좋지 못했으나, 평당... ",
-            "bloggername": "birch_2023님의 블로그",
-            "bloggerlink": "blog.naver.com/birch_2023",
-            "postdate": "20230317"
-        },
-        {
-            "title": "<b>아파트</b> 브랜드 순위. 국토교통부의 시공능력평가로 알아보자!... ",
-            "link": "https://blog.naver.com/lsyivy0722/223046847545",
-            "description": "주요공종별 중 건축의 종합순위는 현대건설과 삼성물산이 나란히 1~2위에 <b>랭크</b>되어 있습니다. 그런데 세부항목 중 <b>아파트</b>의 공사실적 순위에서는 지에스건설(자이)이 1위에 올라 있습니다. 그래도 현대건설은... ",
-            "bloggername": "맨즈스터프",
-            "bloggerlink": "blog.naver.com/lsyivy0722",
-            "postdate": "20230317"
-        },
-        {
-            "title": "[<b>부동산</b> 공부] 종로구 분위기임장 - 광화문역~독립문역... ",
-            "link": "https://blog.naver.com/pjsoon02231/223044544286",
-            "description": "비싸다는 <b>아파트</b> 이상. 높게는 100억 가까이 간다. 노숙부터 시작해 쪽방촌, 달동네, 고시원, 여관 셋방... <b>부동산</b>지인에서는 창신동 &gt; 숭인동 &gt; 평창동 &gt; 무악동 ... 순으로 인구수가 많음을 확인함. 나무위키와 좀... ",
-            "bloggername": "써니의 추억저장소",
-            "bloggerlink": "blog.naver.com/pjsoon02231",
-            "postdate": "20230316"
-        },
-        {
-            "title": "갭투자 증가 지역",
-            "link": "https://blog.naver.com/0228me/223044883724",
-            "description": "OutUrl=naver <b>부동산</b> 하락기에 시장에 급매물이 쏟아지는 것을 틈타 전세를 끼고 매매하는 갭투자가... 모두 집주인이 <b>아파트</b>를 사들인 후 새로 임대차 계약을 맺은 사례들이다. 대표적으로 화성시 진안동... ",
-            "bloggername": "베베터의 부동산 재테크",
-            "bloggerlink": "blog.naver.com/0228me",
-            "postdate": "20230315"
-        },
-        {
-            "title": "일백마블 <b>부동산</b>감각 :  (230315)",
-            "link": "https://blog.naver.com/newhopeman/223044852067",
-            "description": "매일매일 좋은 <b>부동산</b> 투자전략을 배운다는 건, 발품, 눈품, 손품 등 일단 많이 살펴보는 것이... 2억이면 <b>아파트</b> 사네 … 급락한 세종서 고개 든 갭투자 ■ 2000억원 규모 한국 신사옥 공사 수주 ■ 20점대... ",
-            "bloggername": "바로바로 올라타기",
-            "bloggerlink": "blog.naver.com/newhopeman",
-            "postdate": "20230315"
-        },
-        {
-            "title": "&apos;고점대비 30% 넘게 빠졌네&apos;...신축 급매물에 매수세... ",
-            "link": "https://blog.naver.com/fuhong/223044841446",
-            "description": "<b>아파트</b> 단지들을 보면 입주 5년 이내 신축 대단지들이 큰 비중을 차지하는 모습이다. 14일 <b>부동산</b>... 상위에 <b>랭크</b>됐다. 헬리오시티가 14건으로 갭투자가 가장 많았고 고덕아르테온·고덕자이 등 상일동... ",
-            "bloggername": "하품용의 돈되는 부동산 소식",
-            "bloggerlink": "blog.naver.com/fuhong",
-            "postdate": "20230315"
-        },
-        {
-            "title": "<b>부동산</b>뉴스 230315 : 서울 분양가 3.3㎡당 3474만원",
-            "link": "https://blog.naver.com/blackhs76/223044828661",
-            "description": "정황 ○ <b>부동산</b>은 정보다 ○ 분당·일산 거래 늘었지만 <b>아파트</b>값 하락… 특별법 효과 아직 없어... 10위권에 <b>랭크</b>된 A급의 18홀 골프장 창립회원 모집 선착순 마감 예정 ○ 자산운용업계 검사 대상 오르나... ",
-            "bloggername": "김소장의 변화 성장 균형",
-            "bloggerlink": "blog.naver.com/blackhs76",
-            "postdate": "20230315"
         }
     ]
 }
