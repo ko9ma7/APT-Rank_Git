@@ -1,9 +1,17 @@
 {
-    "lastBuildDate": "Wed, 22 Mar 2023 11:35:43 +0900",
-    "total": 5004,
+    "lastBuildDate": "Wed, 22 Mar 2023 12:18:11 +0900",
+    "total": 5005,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "20230322_지역신문읽기",
+            "link": "https://blog.naver.com/oullplus/223052092761",
+            "description": "인천 송도, '갭투자' 상위 <b>랭크</b> 인천일보(www.incheonilbo.com) 인천일보가 한 <b>부동산</b> 분석 업체에서 낸... 대단위 <b>아파트</b>로 이루어져 급매물 출현이 많았던 공통점이 있다&quot;고 분석했습니다. 수도권 제2순환도로... ",
+            "bloggername": "어울플러스",
+            "bloggerlink": "blog.naver.com/oullplus",
+            "postdate": "20230322"
+        },
         {
             "title": "의무 임대보증 관리 강화 / 서울 <b>아파트</b>값 내림세 진정",
             "link": "https://blog.naver.com/sejin-ind/223052034853",
@@ -234,14 +242,6 @@
             "description": "금주 하락률 상위: 부산 강서구, 군포, 화성, 의정부, 인천 중구가 새롭게 <b>랭크</b>에 올랐네요 1-3.... 한 <b>부동산</b> 소장님을 뵌 적이 있었는데 그분도 세종시 투자자였습니다. 이는 세종시 <b>아파트</b> 가격이 전세가가... ",
             "bloggername": "돈과 시간에 자유로‘은’",
             "bloggerlink": "blog.naver.com/hy2906",
-            "postdate": "20230319"
-        },
-        {
-            "title": "아산시 <b>부동산</b> 시장 현황(feat. <b>아파트 랭크</b>, <b>부동산</b> 지인, 아실)",
-            "link": "https://blog.naver.com/minminj0823/223048992892",
-            "description": "<b>아파트 랭크</b>, 아실, <b>부동산</b> 지인 등 프롭테크 사이트를 활용하여 파악해 보겠습니다. 참조 : <b>아파트랭크</b> 1. <b>아파트</b> 선행지표(시장강도) <b>부동산</b> 지표들 중 현재 동행보다는 선행지표를 잘 알아둬야 합니다.... ",
-            "bloggername": "A부터Z까지 ATOZ(아토즈)",
-            "bloggerlink": "blog.naver.com/minminj0823",
             "postdate": "20230319"
         }
     ]
