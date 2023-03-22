@@ -1,9 +1,23 @@
 {
-    "lastBuildDate": "Thu, 23 Mar 2023 03:21:50 +0900",
-    "total": 709833,
+    "lastBuildDate": "Thu, 23 Mar 2023 04:15:09 +0900",
+    "total": 709835,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "[사설]‘널뛰기’ 공시가격 신뢰성 회복이 과제다",
+            "originallink": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202303221630328930757",
+            "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202303221630328930757",
+            "description": "2016∼2020년 5년간 매년 4∼5%대 상승률을 보이던 공시가격은 <b>부동산시장</b> 과열로 2021년 19.05%, 2022년 17.20% 각각 급등했다. 그러다 올해 역대 최대 하락률을 보여 1년간 변동률이 35.81%에 이른다. 공시가격을 기초로... ",
+            "pubDate": "Thu, 23 Mar 2023 04:12:00 +0900"
+        },
+        {
+            "title": "실제 보유세 절감폭은 정부 발표보다 줄어들 가능성",
+            "originallink": "https://www.chosun.com/economy/economy_general/2023/03/23/VHTKAKCNFVDMHKCZGEXTP74AGA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+            "link": "https://n.news.naver.com/mnews/article/023/0003753402?sid=101",
+            "description": "다만, 정부는 <b>부동산 시장</b> 상황, 세수 등을 감안할 때 공정<b>시장</b>가액비율 인상이 확정된 것은 아니라는 입장이다. 추경호 경제부총리 겸 기재부 장관은 이날 공정<b>시장</b>가액비율 인상 여부를 묻는 국회의원 질문에... ",
+            "pubDate": "Thu, 23 Mar 2023 03:21:00 +0900"
+        },
         {
             "title": "집값 빠진 세종 -30% 인천 -24%… 서울선 송파·노원 -23% ‘최대’",
             "originallink": "https://www.chosun.com/economy/real_estate/2023/03/23/C3LR3M62JVE77B5PURAJUDIOFU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
@@ -19,7 +33,7 @@
             "pubDate": "Thu, 23 Mar 2023 03:07:00 +0900"
         },
         {
-            "title": "[속보]美 연준, 베이비스텝 단행…5% 금리시대 열어",
+            "title": "美 연준, 베이비스텝 단행…5% 금리시대 열었다",
             "originallink": "https://www.donga.com/news/Inter/article/all/20230323/118475215/1",
             "link": "https://n.news.naver.com/mnews/article/020/0003487034?sid=104",
             "description": "팬데믹 유동성 파티와 뒤이은 연준의 급속한 금리 인상에 중소 은행을 비롯해 미 <b>부동산 시장</b> 확산 조짐마저 보이고 있어 워싱턴포스트(WP) 등 미 언론도 사설을 통해 &quot;동결하고 상황을 살펴봐야 한다&quot;고 주장했었다.... ",
@@ -199,20 +213,6 @@
             "link": "http://www.kyeongin.com/main/view.php?key=20230322010004228",
             "description": "불법 공급은 점차 늘어날 가능성이 있다는 게 국토부 관측인데, 지난해 <b>부동산 시장</b>이 위축되면서 하반기부터 미분양 단지가 급격히 늘어남에 따라 시행사 등 사업 주체가 불법 공급을 시도할 수 있다는 게 이유다.... ",
             "pubDate": "Wed, 22 Mar 2023 20:22:00 +0900"
-        },
-        {
-            "title": "아파트 보유세 부담 준다… 공동주택 공시가 18.61% 역대급 하락",
-            "originallink": "http://www.joongboo.com/news/articleView.html?idxno=363583918",
-            "link": "http://www.joongboo.com/news/articleView.html?idxno=363583918",
-            "description": "공동주택 공시가는 2016∼2020년 5년간 매년 4∼5%대 상승률을 보이다 <b>부동산시장</b> 과열로 2021년 19.05%, 지난해 17.20% 급등했다. 그러다 올해 역대 최대 하락률을 보여 1년간 변동률이 35.81%에 이른다. 모든 시도의... ",
-            "pubDate": "Wed, 22 Mar 2023 20:18:00 +0900"
-        },
-        {
-            "title": "아파트 평균 매매가 2억 붕괴 정부 연착륙 정책도 무용지물",
-            "originallink": "http://www.cctimes.kr/news/articleView.html?idxno=744351",
-            "link": "http://www.cctimes.kr/news/articleView.html?idxno=744351",
-            "description": "<b>부동산</b> 업계 관계자는 &quot;정부가 <b>부동산시장</b> 연착륙을 위해 규제완화 정책을 연이어 내놓고 있지만 실거래로 이어지지 않아 아파트 매매·전세가격 하락이 당분간 지속될 것 같다&quot;고 전망했다. /이형모 선임기자",
-            "pubDate": "Wed, 22 Mar 2023 20:10:00 +0900"
         }
     ]
 }
