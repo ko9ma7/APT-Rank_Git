@@ -1132,7 +1132,7 @@ function ListUp(listData){
                 addon_html += "<div class = 'subRegion_year_table'>"
                   addon_html += "<div class='table_top'><strong>평균연차</strong></div>" + "<div class='table_top'>0-5년</div>"
                                 + "<div class='table_top'>6-10년</div>" + "<div class='table_top'>11-15년</div>" + "<div class='table_top'>16-20년</div>"
-                                + "<div class='table_top'>20-25년</div>" + "<div class='table_top'>26-30년</div>"+ "<div class='table_top'>31년↑</div>"
+                                + "<div class='table_top'>20-25년</div>" + "<div class='table_top'>26년↑</div>" //+ "<div class='table_top'>31년↑</div>"
 
                 build_year_avg = Math.round(build_year[0], 0)+"년"
                 build_year_00_05 = Math.round(Number(build_year[1]),0).toLocaleString()
@@ -1140,12 +1140,12 @@ function ListUp(listData){
                 build_year_11_15 = Math.round(Number(build_year[3]),0).toLocaleString()
                 build_year_16_20 = Math.round(Number(build_year[4]),0).toLocaleString()
                 build_year_21_25 = Math.round(Number(build_year[5]),0).toLocaleString()
-                build_year_26_30 = Math.round(Number(build_year[6]),0).toLocaleString()
-                build_year_31 = Math.round(Number(build_year[7]),0).toLocaleString()
+                build_year_26_30 = Math.round( Number(build_year[6]) + Number(build_year[7]),0).toLocaleString()
+                //build_year_31 = Math.round(Number(build_year[7]),0).toLocaleString()
 
                 addon_html += "<div><strong>" + build_year_avg +"</strong></div>" + "<div>" + build_year_00_05 +"</div>" + "<div>" + build_year_06_10 + "</div>"
                               + "<div>" + build_year_11_15 +"</div>" + "<div>" + build_year_16_20 + "</div>" + "<div>" + build_year_21_25 + "</div>"
-                              + "<div>" + build_year_26_30 + "</div>" + "<div>" + build_year_31 + "</div>"
+                              + "<div>" + build_year_26_30 + "</div>"// + "<div>" + build_year_31 + "</div>"
               addon_html += "</div>"
             addon_html += "</div>"
 
