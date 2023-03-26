@@ -1,9 +1,51 @@
 {
-    "lastBuildDate": "Sun, 26 Mar 2023 20:14:47 +0900",
-    "total": 710649,
+    "lastBuildDate": "Sun, 26 Mar 2023 21:30:09 +0900",
+    "total": 710655,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "1분기 수도권 아파트 거래량 ↑… 쌓인 급매물에 아직은 하락세",
+            "originallink": "https://www.gokorea.kr/news/articleView.html?idxno=739771",
+            "link": "https://www.gokorea.kr/news/articleView.html?idxno=739771",
+            "description": "한편, 지난 24일 윤지해 <b>부동산</b>114리서치센터 수석연구원은 작년 말부터 이어진 정부의 금융 및 세금 규제 완화 정책에 따른 <b>부동산 시장</b>과 관련해 &quot;정책 효과들에 힘입어 거래량은 점차 정상궤도에 진입할 가능성이... ",
+            "pubDate": "Sun, 26 Mar 2023 21:26:00 +0900"
+        },
+        {
+            "title": "포항 민·관, 전세 사기 예방 힘 모은다",
+            "originallink": "https://www.dkilbo.com/news/articleView.html?idxno=395824",
+            "link": "https://www.dkilbo.com/news/articleView.html?idxno=395824",
+            "description": "김남일 포항시 부<b>시장</b>은 &quot;이번 협약을 통해 관계기관과 지속적인 협력관계를 유지해 전세 사기로 피해를 입는 시민이 없도록 최선을 다하겠다&quot;며, &quot;전세 사기 예방과 안정적인 <b>부동산</b> 거래 <b>시장</b> 형성을 위해 노력해... ",
+            "pubDate": "Sun, 26 Mar 2023 21:26:00 +0900"
+        },
+        {
+            "title": "전세사기 급증 추세 막을 대비책 없나",
+            "originallink": "https://www.ulsanpress.net/news/articleView.html?idxno=500955",
+            "link": "https://www.ulsanpress.net/news/articleView.html?idxno=500955",
+            "description": "<b>부동산 시장</b> 침체 여파가 어디까지 이어질지 막연하기만 해 불안감을 키운다. 지금으로선 회복 기미조차 보이지 않아 각종 부작용이 우려된다. 특히 미분양 증가와 역전세 현상의 피해가 잇따라 대책 마련도 시급한... ",
+            "pubDate": "Sun, 26 Mar 2023 20:48:00 +0900"
+        },
+        {
+            "title": "여의도 면적 14배 경제구역 추가 &apos;효과 의구심&apos;… &quot;신중해야&quot;",
+            "originallink": "http://www.kyeongin.com/main/view.php?key=20230324010004733",
+            "link": "http://www.kyeongin.com/main/view.php?key=20230324010004733",
+            "description": "유승분 의원은 &quot;현재 우리나라뿐 아니라 전 세계적으로 벌어지고 있는 저성장과 인구 감소 등 여건 변화는 물론이고, <b>부동산 시장</b> 하락 국면 등을 고려한다면 경제자유구역 확대는 오히려 대내외적 여건 변화에 역행하는... ",
+            "pubDate": "Sun, 26 Mar 2023 20:28:00 +0900"
+        },
+        {
+            "title": "&apos;전세계약 상담 받으세요&apos;…전세사기 예방 맞손",
+            "originallink": "http://www.kyongbuk.co.kr/news/articleView.html?idxno=2127449",
+            "link": "http://www.kyongbuk.co.kr/news/articleView.html?idxno=2127449",
+            "description": "김남일 포항시 부<b>시장</b>은 &quot;이번 협약을 통해 관계기관과 지속적인 협력관계를 유지해 전세 사기로 피해를 입는 시민이 없도록 최선을 다하겠다&quot;며, &quot;전세 사기 예방과 안정적인 <b>부동산</b> 거래 <b>시장</b> 형성을 위해 노력해... ",
+            "pubDate": "Sun, 26 Mar 2023 20:22:00 +0900"
+        },
+        {
+            "title": "&quot;전세사기 막자&quot; 포항시, 관계기관과 손잡아",
+            "originallink": "http://www.kbmaeil.com/news/articleView.html?idxno=954061",
+            "link": "http://www.kbmaeil.com/news/articleView.html?idxno=954061",
+            "description": "김남일 포항시 부<b>시장</b>은 &quot;이번 협약을 통해 관계기관과 지속적인 협력관계를 유지해 전세 사기로 피해를 입는 시민이 없도록 최선을 다하겠다&quot;며 &quot;전세 사기 예방과 안정적인 <b>부동산</b> 거래 <b>시장</b> 형성을 위해 노력해... ",
+            "pubDate": "Sun, 26 Mar 2023 20:16:00 +0900"
+        },
         {
             "title": "인천e음카드 사용자·결제액 감소 대책 시급",
             "originallink": "http://www.joongboo.com/news/articleView.html?idxno=363584366",
@@ -171,48 +213,6 @@
             "link": "https://n.news.naver.com/mnews/article/366/0000888136?sid=101",
             "description": "정부가 <b>부동산 시장</b> 경착륙을 막기 위해 대대적인 규제 완화에 나선 효과로 보인다. 26일 국토교통부 실거래가 공개시스템을 보면 따르면 올해 1분기(이달 23일까지·계약일 기준) 수도권 아파트 매매량은 2만... ",
             "pubDate": "Sun, 26 Mar 2023 17:31:00 +0900"
-        },
-        {
-            "title": "[알려株5] 삼성FN리츠, 삼성그룹의 첫 공모 리츠",
-            "originallink": "https://www.itooza.com/common/iview.php?no=2023032617015969506",
-            "link": "https://www.itooza.com/common/iview.php?no=2023032617015969506",
-            "description": "그러나 최근의 <b>부동산시장</b> 침체에다, 고금리 분위기로 높은 배당수익률이 장점인 리츠가 상대적으로 투자자의 외면을 받고 있는 점 등은 우려 요인이다. 삼성증권과 한국투자증권이 대표주관사를 맡았고... ",
-            "pubDate": "Sun, 26 Mar 2023 17:30:00 +0900"
-        },
-        {
-            "title": "[fn이사람] &quot;포용금융으로 사회적 역할을 이행할 수 있다는 점에 매력 느껴&quot;",
-            "originallink": "http://www.fnnews.com/news/202303261425429901",
-            "link": "https://n.news.naver.com/mnews/article/014/0004986842?sid=101",
-            "description": "지금처럼 <b>부동산 시장</b>이 불황인 시기에 대출 이후 시세가 하락하는 일 등에 대비하기 위해서다. 이 밖에 &quot;연체 이후 부실 발생시 빠른 상환 절차를 밟을 수 있도록 매입사 계약도 체결해둔 상태&quot;라고 김 대표는 밝혔다. 다만... ",
-            "pubDate": "Sun, 26 Mar 2023 17:26:00 +0900"
-        },
-        {
-            "title": "세종 아파트 매매가 드디어 바닥 찍었나… 1년 8개월만 상승",
-            "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=966445",
-            "link": "http://www.ggilbo.com/news/articleView.html?idxno=966445",
-            "description": "무엇보다 매물 소진의 경우 하락세 속에서 이뤄지는 것보다 상승세 속에서 이뤄지는 게 가격 반등의 신호라 <b>부동산시장</b>에서 여겨지는 만큼 세종의 아파트 매매가가 오르는 상황에서 매물 소진이 빠르게 이뤄진 건... ",
-            "pubDate": "Sun, 26 Mar 2023 17:18:00 +0900"
-        },
-        {
-            "title": "탈중국 외쳤지만…글로벌 CEO 100인 베이징에 ‘그래도 중국’[중국은 지금]",
-            "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=01722006635547256",
-            "link": "https://n.news.naver.com/mnews/article/018/0005449798?sid=101",
-            "description": "역대 가장 보수적인 성장 목표이나, 글로벌 경제 둔화에 따른 수요 위축, 강한 반등을 보여주지 않는 <b>부동산 시장</b> 등이 아직 성장의 발목을 잡고 있다. 미국은 반도체·인공지능(AI) 등 전략 산업 분야에서 중국에 대한... ",
-            "pubDate": "Sun, 26 Mar 2023 17:16:00 +0900"
-        },
-        {
-            "title": "문턱 높아진 보증보험 가입…빌라 주인 &apos;세입자 구하기 어렵네&apos;",
-            "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=01712166635547256",
-            "link": "https://n.news.naver.com/mnews/article/018/0005449795?sid=101",
-            "description": "이 때문에 <b>부동산 시장</b>에서는 전세 빌라의 반전세 혹은 월세화가 더욱 가속할 것이라는 전망이 나온다. 서울<b>부동산</b>정보광장에 따르면 서울 다세대·연립주택 월별 임대차 거래에서 월세가 차지하는 비중도 최근 다시... ",
-            "pubDate": "Sun, 26 Mar 2023 17:14:00 +0900"
-        },
-        {
-            "title": "안전한 줄 알았는데…“당신이 투자한 해외<b>부동산</b>은 안녕하십니까”",
-            "originallink": "https://www.etoday.co.kr/news/view/2234209",
-            "link": "https://www.etoday.co.kr/news/view/2234209",
-            "description": "상업용 <b>부동산 시장</b> 위기 가능성을 경고하고 있다. 뱅크오브아메리카도 우려의 목소리를 냈다. 뱅크오브아메리카가 펀드매니저를 대상으로 진행한 월간 설문조사에서 투자자들은 2020년 10월 이후 <b>부동산 시장</b>이... ",
-            "pubDate": "Sun, 26 Mar 2023 17:12:00 +0900"
         }
     ]
 }
