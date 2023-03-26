@@ -1,9 +1,17 @@
 {
-    "lastBuildDate": "Sun, 26 Mar 2023 10:22:01 +0900",
-    "total": 5005,
+    "lastBuildDate": "Sun, 26 Mar 2023 11:40:16 +0900",
+    "total": 5008,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "시장 현황, 가보자고!(feat. <b>아파트 랭크</b>, <b>부동산</b> 지인, 아실)",
+            "link": "https://blog.naver.com/minminj0823/223053091582",
+            "description": "<b>아파트 랭크</b>, 아실, <b>부동산</b> 지인 등 프롭테크 사이트를 활용하여 파악해 보겠습니다. 참조 : <b>아파트랭크</b> 1. <b>아파트</b> 선행지표(시장강도) <b>부동산</b> 지표들 중 현재 동행보다는 선행지표를 잘 알아둬야 합니다.... ",
+            "bloggername": "A부터Z까지 ATOZ(아토즈)",
+            "bloggerlink": "blog.naver.com/minminj0823",
+            "postdate": "20230326"
+        },
         {
             "title": "김해 <b>아파트</b> 매매 지금 괜찮을까?(+급매 리스트)",
             "link": "https://blog.naver.com/sevun77/223055107836",
@@ -66,14 +74,6 @@
             "description": "역세권 <b>아파트</b>의 경우 2021년 <b>부동산</b> 시장 호황기 때 높은 가격상승을 겪었지만 지난해 침체기에... 것이 이들 지역이 갭투자 상위 지역에 <b>랭크</b>된 원인이라고 분석된다. 봉단 동일 114공인중개사 입니다.",
             "bloggername": "dongil114est님의 블로그",
             "bloggerlink": "blog.naver.com/dongil114est",
-            "postdate": "20230323"
-        },
-        {
-            "title": "시장 현황, 가보자고!(feat. <b>아파트 랭크</b>, <b>부동산</b> 지인, 아실)",
-            "link": "https://blog.naver.com/minminj0823/223053070906",
-            "description": "<b>아파트 랭크</b>, 아실, <b>부동산</b> 지인 등 프롭테크 사이트를 활용하여 파악해 보겠습니다. 참조 : <b>아파트랭크</b> 1. <b>아파트</b> 선행지표(시장강도) <b>부동산</b> 지표들 중 현재 동행보다는 선행지표를 잘 알아둬야 합니다.... ",
-            "bloggername": "A부터Z까지 ATOZ(아토즈)",
-            "bloggerlink": "blog.naver.com/minminj0823",
             "postdate": "20230323"
         },
         {
