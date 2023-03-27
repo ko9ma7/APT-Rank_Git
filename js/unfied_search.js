@@ -85,7 +85,7 @@ function unifiedAptSearch(){
       $(this).html( $(this).text().replace(regex2, "<span class='colorTxt'>"+unifiedInput+"</span>") );
     })
 
-    $('#dataList').append("<div style='height: 2em'></div>");
+    $('#dataList').append("<div style='height: 3em'></div>");
     //$('html').scrollTop(0)
   }
   else{      

@@ -323,7 +323,7 @@ function showSearchBar(){
             }
 
           }
-          $('#dataList').append("<div style='height: 2em'></div>");
+          $('#dataList').append("<div style='height: 3em'></div>");
           $('html').scrollTop(0)
         }      
   }
