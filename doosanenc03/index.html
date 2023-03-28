@@ -1086,7 +1086,7 @@ function ListUp(listData){
               if (pop_rate_3y >= 0){ pop_rate_comment = (pop_rate_3y) + "% 증가"}
 
               eval_summary = "<li>" + region_name + "의 총인구 <u>" + pop_total + "</u> (3년전 대비 <u>'" + pop_rate_comment + "'</u>)"
-              eval_summary += "<li>" +"매매가는 최근 3개월전 가격 대비 <span style='color:" + set_text_color(sales_score[0][1]) + "'>'" + sales_score[0][2] + "세'</span>"
+              eval_summary += "<li>" +"매매가는 최근 3개월전 가격 대비 <span style='color:" + set_text_color(sales_score[1][1]) + "'>'" + sales_score[1][2] + "세'</span>"
  
               deal_avg = Number(deal_3y_avg).toFixed(0)
               deal_current = Number(Number(deal_quater_avg[deal_quater_avg.length-1]).toFixed(0)).toLocaleString()
