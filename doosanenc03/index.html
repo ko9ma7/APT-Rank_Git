@@ -1086,7 +1086,7 @@ function ListUp(listData){
               if (pop_rate_3y >= 0){ pop_rate_comment = (pop_rate_3y) + "% 증가"}
 
               eval_summary = "<li>" + region_name + "의 총인구 <u>" + pop_total + "</u> (3년전 대비 <u>'" + pop_rate_comment + "'</u>)"
-              eval_summary += "<li>" +"매매가는 최근 이전 분기 가격 대비 <span style='color:" + set_text_color(sales_score[2]) + "'>'" + sales_score[2] + "세'</span>"
+              eval_summary += "<li>" +"매매가는 최근 3개월전 가격 대비 <span style='color:" + set_text_color(sales_score[0][1]) + "'>'" + sales_score[0][2] + "세'</span>"
  
               deal_avg = Number(deal_3y_avg).toFixed(0)
               deal_current = Number(Number(deal_quater_avg[deal_quater_avg.length-1]).toFixed(0)).toLocaleString()
@@ -1107,7 +1107,7 @@ function ListUp(listData){
               eval_summary += "<li>" + " 입주물량은 당해 기준, <u>총 " + supply_volume_year + "세대</u> 입주 예정."
               eval_summary += "<li>" + " 적정공급량 대비 " + supply_volume_plus_minus + "<span style='color:" + set_text_color(supply_score[1]) + "'> '" + supply_score[1] + "'</span>"
 
-              eval_summary += "<li>" +" 종합적 결과, <u>" + region_name + "</u> 분양 시장은 <span style='color:" + set_text_color(total_score[1]) + "'>'" + total_score[1] + "' 수준</span> "
+              eval_summary += "<li>" +" 종합적 결과, <u>" + region_name + "</u> 분양 시장은 <span style='color:" + set_text_color(total_score[1]) + "'>'" + total_score[1] + "'</span> "
 
               addon_html += "<div id='region_summary'>" + eval_summary + "</div>"
             addon_html +="</div>"
@@ -1365,7 +1365,7 @@ function ListUp(listData){
             //PIR/BP           
             addon_html += "<div class='subRegion_info'>"
               addon_html += "<div class='subRegion_title'>"
-                addon_html += "<div class='subRegion_name'>" + "<span style='color:" + set_color(PIRBP_score[0]) + "'>●</span> PIR / K-HAI (" + long_region_name[0] + ")<span style='font-size: 0.85em'>(" + PIRBP_score[0].toFixed(2) + "점 / " + PIRBP_score[1] + ")</span></div>"
+                addon_html += "<div class='subRegion_name'>" + "<span style='color:" + set_color(PIRBP_score[0]) + "'>●</span> PIR / K-HAI (" + long_region_name[0] + ")<span style='font-size: 0.85em'> (" + PIRBP_score[0].toFixed(2) + "점 / " + PIRBP_score[1] + ")</span></div>"
                 addon_html += "<div class='subRegion_qna' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showNotice(\"PIRBP\")'><i class='fa-solid fa-circle-question'></i></div>"
               addon_html += "</div>"
               
