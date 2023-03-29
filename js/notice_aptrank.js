@@ -8,7 +8,6 @@ var notice_202303 =
 +"<li><div class='notice'>전국 하나로마트(대형마트) 지점 정보 업데이트 했습니다.</div></li>"
 +"<li><div class='notice'>혐오시설 정보 업데이트 했습니다.</div></li>"
 +"<li><div class='notice'>KB월간 시계열 기준 2월 시군구 정보 반영했습니다.</div></li>"
-+"<li><div class='notice'>배너 광고 유료 운영으로 전환했습니다.<br>(지역구당 30일 55,000원)</div></li>"
 +"</ul>"      
 +"<hr>"
 
