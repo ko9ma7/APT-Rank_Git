@@ -1036,6 +1036,7 @@ function ListUp(listData){
         var sales_score = listData[i]["매매점수_배열"]
 
         var price_per_py = listData[i]["평단가"]
+        var price_per_py_detail = listData[i]["평단가상세"]
 
         var build_year = listData[i]["년차"]
         var build_score = listData[i]["노후도점수"]
@@ -1124,7 +1125,13 @@ function ListUp(listData){
 
             //평단가 표시
             addon_html += "<div class='subRegion_info'>"
-              addon_html += "<div class='subRegion_name'>평단가<span style='font-size: 0.7em'> (단위: 만원)</span></div>"
+              addon_html += "<div class='subRegion_title'>"
+                addon_html += "<div class='subRegion_name'>평단가<span style='font-size: 0.7em'> (단위: 만원)</span></div>"
+                array_priceper = new Array(price_per_py_detail)                
+                addon_html += "<div class='subRegion_qna' data-bs-toggle='modal' data-bs-target='#exampleModal' id='myModal' onClick='showPricePer(array_priceper)'><i class='fa-solid fa-circle-info'></i></div>"
+              addon_html += "</div>"
+
+
               addon_html += "<div class = 'subRegion_py_price_table'>"
                 addon_html += "<div class='table_top'><strong>평균</strong></div>" + "<div class='table_top'>10평형</div>"
                               + "<div class='table_top'>20평형</div>" + "<div class='table_top'>30평형</div>" + "<div class='table_top'>40평형</div>" + "<div class='table_top'>50평형↑</div>"
@@ -1890,6 +1897,149 @@ function showNotice(info){
     $('.modal-footer').css({"padding-top" : "3px"})
     $('.modal-dialog-scrollable').css({'max-width' : '50%'})
   }
+
+  function showPricePer(arr){
+  modal_title = ""
+  modal_info= ""
+
+  py10 = arr[0][0]
+  py20 = arr[0][1]
+  py30 = arr[0][2]
+  py40 = arr[0][3]
+  py50 = arr[0][4]
+
+  modal_title = "평단가 상세 정보"
+  modal_info += "<div class='table-responsive' style='display: grid; grid-template-columns: 100px 1fr'>"
+
+
+    modal_info += "<div style='font-size: 1.25em; font-weight: 600'>ㆍ10평형 </div>"
+
+    modal_info += "<table class='table table-striped' style='text-align: center; margin-bottom: 25px'>"
+      modal_info += "<thead class='table-light' style='position:sticky ;top: 0'>"
+        modal_info += "<tr>"
+          modal_info += "<th scope='col'>" + "10~14평" + "</th>"
+          modal_info += "<th scope='col'>" + "14~16평" + "</th>"
+          modal_info += "<th scope='col'>" + "16~18평" + "</th>"
+          modal_info += "<th scope='col'>" + "18~20평" + "</th>"          
+        modal_info += "</tr>"
+      modal_info += "</thead>"
+
+        modal_info += "<tbody>"
+            for(var k = 0 ; k < py10.length ; k++){
+              if(isNaN(py10[k])){
+                modal_info += "<td>" + py10[k] + "</td>"                
+              }
+              else{                
+                modal_info += "<td>@" + Number(py10[k].toFixed(0)).toLocaleString() + "</td>"
+              }
+            }
+        modal_info += "</tbody>"
+      modal_info += "</table>"
+
+      modal_info += "<div style='font-size: 1.25em; font-weight: 600'>ㆍ20평형 </div>"
+
+      modal_info += "<table class='table table-striped' style='text-align: center; margin-bottom: 25px'>"
+      modal_info += "<thead class='table-light' style='position:sticky ;top: 0'>"
+        modal_info += "<tr>"
+          modal_info += "<th scope='col'>" + "20~24평" + "</th>"
+          modal_info += "<th scope='col'>" + "24~26평" + "</th>"
+          modal_info += "<th scope='col'>" + "26~28평" + "</th>"
+          modal_info += "<th scope='col'>" + "28~30평" + "</th>"          
+        modal_info += "</tr>"
+      modal_info += "</thead>"
+
+        modal_info += "<tbody>"
+            for(var k = 0 ; k < py20.length ; k++){
+              if(isNaN(py20[k])){
+                modal_info += "<td>" + py20[k] + "</td>"                
+              }
+              else{                
+                modal_info += "<td>@" + Number(py20[k].toFixed(0)).toLocaleString() + "</td>"
+              }
+            }
+        modal_info += "</tbody>"
+      modal_info += "</table>"
+
+      modal_info += "<div style='font-size: 1.25em; font-weight: 600'>ㆍ30평형 </div>"
+      
+      modal_info += "<table class='table table-striped' style='text-align: center; margin-bottom: 25px'>"
+      modal_info += "<thead class='table-light' style='position:sticky ;top: 0'>"
+        modal_info += "<tr>"
+          modal_info += "<th scope='col'>" + "30~32평" + "</th>"
+          modal_info += "<th scope='col'>" + "32~36평" + "</th>"
+          modal_info += "<th scope='col'>" + "36~38평" + "</th>"
+          modal_info += "<th scope='col'>" + "38~40평" + "</th>"          
+        modal_info += "</tr>"
+      modal_info += "</thead>"
+
+        modal_info += "<tbody>"
+            for(var k = 0 ; k < py30.length ; k++){
+              if(isNaN(py30[k])){
+                modal_info += "<td>" + py30[k] + "</td>"                
+              }
+              else{                
+                modal_info += "<td>@" + Number(py30[k].toFixed(0)).toLocaleString() + "</td>"
+              }
+            }
+        modal_info += "</tbody>"
+      modal_info += "</table>"
+
+      modal_info += "<div style='font-size: 1.25em; font-weight: 600'>ㆍ40평형 </div>"
+      
+      modal_info += "<table class='table table-striped' style='text-align: center; margin-bottom: 25px'>"
+      modal_info += "<thead class='table-light' style='position:sticky ;top: 0'>"
+        modal_info += "<tr>"
+          modal_info += "<th scope='col'>" + "40~44평" + "</th>"
+          modal_info += "<th scope='col'>" + "44~48평" + "</th>"
+          modal_info += "<th scope='col'>" + "48~50평" + "</th>"          
+        modal_info += "</tr>"
+      modal_info += "</thead>"
+
+        modal_info += "<tbody>"
+            for(var k = 0 ; k < py40.length ; k++){
+              if(isNaN(py40[k])){
+                modal_info += "<td>" + py40[k] + "</td>"                
+              }
+              else{                
+                modal_info += "<td>@" + Number(py40[k].toFixed(0)).toLocaleString() + "</td>"
+              }
+            }
+        modal_info += "</tbody>"
+      modal_info += "</table>"
+
+      modal_info += "<div style='font-size: 1.25em; font-weight: 600'>ㆍ50평형↑ </div>"
+
+      modal_info += "<table class='table table-striped' style='text-align: center; margin-bottom: 25px'>"
+      modal_info += "<thead class='table-light' style='position:sticky ;top: 0'>"
+        modal_info += "<tr>"
+          modal_info += "<th scope='col'>" + "50~54평" + "</th>"
+          modal_info += "<th scope='col'>" + "54~60평" + "</th>"
+          modal_info += "<th scope='col'>" + "60평 초과" + "</th>"
+        modal_info += "</tr>"
+      modal_info += "</thead>"
+
+        modal_info += "<tbody>"
+            for(var k = 0 ; k < py50.length ; k++){
+              if(isNaN(py50[k])){
+                modal_info += "<td>" + py50[k] + "</td>"                
+              }
+              else{                
+                modal_info += "<td>@" + Number(py50[k].toFixed(0)).toLocaleString() + "</td>"
+              }
+            }
+        modal_info += "</tbody>"
+      modal_info += "</table>"       
+
+  modal_info += "</div>"
+
+  var titleHtml = "<div class='popupTitle'>" + modal_title + "</div>";
+  var footerHtml = ""
+  var detailHtml = "<div class='notice'>" + modal_info + "</div>"
+
+  $('#exampleModalLabel').html(titleHtml);
+  $('#aptDetail').html(detailHtml);
+  $('.modal-dialog-scrollable').css({'max-width' : '40%'})  
+}  
 
 function showAppointmentResult(){
   modal_title = ""

@@ -1056,6 +1056,15 @@
   .gokakao:active{
     background-color: #f8bf02;
   }
+  .goDetail{
+    width: 100%;    
+    height: 1.8em;
+    background-color: #0c4ea2;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: None;
+  }  
   
   .toShare{
     width: 100%;    
