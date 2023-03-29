@@ -1,9 +1,51 @@
 {
-    "lastBuildDate": "Wed, 29 Mar 2023 12:19:03 +0900",
-    "total": 711420,
+    "lastBuildDate": "Wed, 29 Mar 2023 13:22:02 +0900",
+    "total": 711426,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "고분양가 외면에…수도권 할인분양, 통할까?",
+            "originallink": "http://news.bizwatch.co.kr/article/real_estate/2023/03/28/0014",
+            "link": "https://n.news.naver.com/mnews/article/648/0000015045?sid=101",
+            "description": "지난해 하반기부터 이어진 <b>부동산 시장</b> 침체로 수도권 청약 단지들의 실적이 엇갈리고 있다. 분양가가 합리적인 수준으로 평가받는 단지의 경우 수요가 쏠리며 완판에 성공하는 반면 고분양가 논란에 휩싸이면... ",
+            "pubDate": "Wed, 29 Mar 2023 13:14:00 +0900"
+        },
+        {
+            "title": "美 오피스 <b>시장</b> 위기…고급 빌딩도 디폴트·공실 늘어난다",
+            "originallink": "http://news.einfomax.co.kr/news/articleView.html?idxno=4260051",
+            "link": "http://news.einfomax.co.kr/news/articleView.html?idxno=4260051",
+            "description": "*그림1* 원격 근무가 확산하고 금리가 오름에 따라 상업용 <b>부동산 시장</b>의 더 많은 부분에 고통이 확산하고 있다고 매체는 전했다. 팬데믹 기간에는 현대화된 편의시설을 갖춘 빌딩들은 가격이 더 낮은 빌딩에 비해... ",
+            "pubDate": "Wed, 29 Mar 2023 13:06:00 +0900"
+        },
+        {
+            "title": "아파트에 집중된 규제완화, 오피스텔·상업용 <b>부동산</b>은 여전히 찬바람",
+            "originallink": "http://www.fntimes.com/html/view.php?ud=2023032912380022655e6e69892f_18",
+            "link": "http://www.fntimes.com/html/view.php?ud=2023032912380022655e6e69892f_18",
+            "description": "<b>부동산</b>플래닛 정수민 대표는 &quot;상업용 <b>부동산 시장</b> 불황에 따른 거래 하락세가 새해에도 이어지면서 올 1월 서울시 상업업무용 빌딩 거래량이 극심한 가뭄을 보였다”며 ”지난달 한국은행이 기준 금리를... ",
+            "pubDate": "Wed, 29 Mar 2023 12:40:00 +0900"
+        },
+        {
+            "title": "검찰, 새마을금고중앙회 등 8곳 압수수색",
+            "originallink": "http://www.naeil.com/news_view/?id_art=455864",
+            "link": "http://www.naeil.com/news_view/?id_art=455864",
+            "description": "한편 새마을금고가 PF(2000억원)에 참여한 부산 다대포 개발사업(다대 마린시티)이 <b>부동산</b> 금융<b>시장</b> 한파로 투자자 모집에 어려움을 겪고 있는 것으로 알려졌다. 착공 시 1조원이 넘는 PF 자금 조달이 필요한 미니 신도시급... ",
+            "pubDate": "Wed, 29 Mar 2023 12:36:00 +0900"
+        },
+        {
+            "title": "‘미분양 리스크’…<b>부동산</b>PF 우려에 금융당국 촉각",
+            "originallink": "https://www.junggi.co.kr/article/articleView.html?no=30237",
+            "link": "https://www.junggi.co.kr/article/articleView.html?no=30237",
+            "description": "또, <b>부동산 시장</b> 내 불안심리가 완화되고 있지만 <b>부동산</b> PF 부실은 경제·금융 등 여러 부문에 미치는 파급효과도 크고, 회복에도 상당한 시간이 소요될 수 밖에 없어 선제적인 대응방안을 마련할 필요가 있다고 의견을... ",
+            "pubDate": "Wed, 29 Mar 2023 12:32:00 +0900"
+        },
+        {
+            "title": "PF 부실 ‘경고등’ 은행은 괜찮나 [지방 <b>부동산</b>發 PF 리스크-은행]",
+            "originallink": "http://www.fntimes.com/html/view.php?ud=20230329075951514f09e13944d_18",
+            "link": "http://www.fntimes.com/html/view.php?ud=20230329075951514f09e13944d_18",
+            "description": "KB금융그룹은 약 5000억원 규모의 부채담보부증권(CDO) 발행을 통해 <b>부동산</b>PF <b>시장</b> 유동성을 지원하기로 했다. 이번 CDO 발행에는 KB국민은행, KB증권, KB손해보험, KB캐피탈, KB저축은행 등이 투자자로 참여한다.... ",
+            "pubDate": "Wed, 29 Mar 2023 12:26:00 +0900"
+        },
         {
             "title": "[이종혁의 투자] 분기말 거래 기피와 조지 소로스",
             "originallink": "http://news.einfomax.co.kr/news/articleView.html?idxno=4260042",
@@ -29,7 +71,7 @@
             "title": "[단독] &apos;전세사기&apos; 극심 강서구, 갭투자도 서울서 가장 많이 몰렸다",
             "originallink": "https://hankookilbo.com/News/Read/A2023032116370005667?did=NA",
             "link": "https://n.news.naver.com/mnews/article/469/0000731155?sid=101",
-            "description": "갭투자는 하반기 <b>부동산시장</b> 리스크의 핵으로 떠오르고 있다. 26일 국회 국토교통위원회 소속 박상혁 더불어민주당 의원실이 국토교통부로부터 받은 &apos;임대보증금 승계 현황(작년 1월~올해 1월)&apos;을 분석한 결과, 서울... ",
+            "description": "갭투자는 하반기 <b>부동산시장</b> 리스크의 핵으로 떠오르고 있다. 26일 국회 국토교통위원회 소속 박상혁 더불어민주당 의원실이 국토교통부로부터 받은 &apos;임대보증금 승계 현황(작년 1월~올해 1월)&apos;을 분석한... ",
             "pubDate": "Wed, 29 Mar 2023 12:01:00 +0900"
         },
         {
@@ -171,48 +213,6 @@
             "link": "http://www.constimes.co.kr/news/articleView.html?idxno=238644",
             "description": "국토부는 또 신축빌라 관련 불법광고 중 전세사기로 이어질 가능성이 있는 무자격자의 온라인 표시·광고에 대해서도 <b>부동산</b>광고<b>시장</b>감시센터(한국인터넷광고재단)와 함께 모니터링을 진행했다. 이를 토대로... ",
             "pubDate": "Wed, 29 Mar 2023 11:08:00 +0900"
-        },
-        {
-            "title": "<b>부동산</b> 불법·무자격자 광고 여전히 횡행 ...&quot;불법행위 뿌리뽑겠다&quot;",
-            "originallink": "https://www.ajunews.com/view/20230329085957594",
-            "link": "https://www.ajunews.com/view/20230329085957594",
-            "description": "[사진=국토교통부] 국토부는 신축빌라 관련 불법광고 중 전세사기로 이어질 가능성이 있는 무자격자의 온라인 표시·광고에 대해서도 <b>부동산</b>광고<b>시장</b>감시센터와 함께 모니터링을 실시했다. 소비자를 현혹시키는... ",
-            "pubDate": "Wed, 29 Mar 2023 11:06:00 +0900"
-        },
-        {
-            "title": "[자막뉴스] SVB, 간판 바꾸고 영업 시작...&quot;아직 끝나지 않았다&quot;",
-            "originallink": "https://www.ytn.co.kr/_ln/0134_202303291105396855",
-            "link": "https://n.news.naver.com/mnews/article/052/0001866525?sid=104",
-            "description": "은행 위기에서 촉발된 신용 경색이 상업 <b>부동산 시장</b>으로 이어지고 결국 경기침체를 부를 거라는 관측이 제기되고 있는 겁니다. [닐 카시카리 / 미니애폴리스 연방준비은행 총재 : (은행 위기로) 경기침체에 더 가까워진... ",
-            "pubDate": "Wed, 29 Mar 2023 11:05:00 +0900"
-        },
-        {
-            "title": "18년 만에 ‘여의도 새 아파트’…브라이튼 여의도, 민간임대로 선회한 이유는...",
-            "originallink": "https://economist.co.kr/article/view/ecn202303280070",
-            "link": "https://n.news.naver.com/mnews/article/243/0000042518?sid=101",
-            "description": "여의도MBC부지복합개발PFV의 한 참여사는 “<b>부동산 시장</b> 상황을 살펴봤을 때 브라이튼 여의도 아파트 수요자들이 4년 동안 먼저 임대주택으로 살아보고 나서 추후에 구매를 결정할 수 있도록 하는 것이 더 적정하다고... ",
-            "pubDate": "Wed, 29 Mar 2023 11:05:00 +0900"
-        },
-        {
-            "title": "거래가뭄 풀리나...서울 아파트 거래 2400건 돌파, 1년5개월來 최다",
-            "originallink": "https://www.chosun.com/economy/real_estate/2023/03/29/R7BQQK5BJBFVNOU2MIIFN7UH3E/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-            "link": "https://n.news.naver.com/mnews/article/023/0003754604?sid=101",
-            "description": "극심한 거래 절벽이 <b>부동산 시장</b> 경착륙을 부추기고 경제 전반에 악영향을 미칠 수 있다는 우려가 나오면서 정부는 올해 1월 서울 대부분 지역을 규제지역에서 해제했고 2월에는 무주택자들을 대상으로... ",
-            "pubDate": "Wed, 29 Mar 2023 11:03:00 +0900"
-        },
-        {
-            "title": "증권사 미분양 껑충 &apos;예의주시&apos;…후순위·브릿지론 경계 선순위 [지방 <b>부동산</b>...",
-            "originallink": "http://www.fntimes.com/html/view.php?ud=202303281438459777179ad43907_18",
-            "link": "http://www.fntimes.com/html/view.php?ud=202303281438459777179ad43907_18",
-            "description": "유동성 한숨 돌렸지만 <b>부동산 시장</b> &apos;찬바람&apos; PF보증 &apos;위험&apos; 익스포저 많은 중소형사 유의 대구, 경북 등 지방 <b>부동산 시장</b> 미분양이 증가 추이를 보이면서 증권사들이 연쇄적인 <b>부동산</b> PF(프로젝트파이낸싱) 리스크... ",
-            "pubDate": "Wed, 29 Mar 2023 11:02:00 +0900"
-        },
-        {
-            "title": "국토부, 매매‧전세 불법 온라인 광고 201건 적발",
-            "originallink": "https://www.dailian.co.kr/news/view/1216927/?sc=Naver",
-            "link": "https://n.news.naver.com/mnews/article/119/0002697221?sid=101",
-            "description": "아울러 국토부는 전세사기로 이어질 가능성이 있는 무자격자의 온라인 표시·광고에 대해서도 <b>부동산</b>광고<b>시장</b>감시센터와 함께 모니터링을 실시했다. 우선 소비자 현혹 광고로 의심되는 건을 조사해 4931건의 불법 의심... ",
-            "pubDate": "Wed, 29 Mar 2023 11:02:00 +0900"
         }
     ]
 }
