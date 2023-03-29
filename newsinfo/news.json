@@ -1,9 +1,23 @@
 {
-    "lastBuildDate": "Wed, 29 Mar 2023 22:25:54 +0900",
-    "total": 711523,
+    "lastBuildDate": "Wed, 29 Mar 2023 23:55:56 +0900",
+    "total": 711525,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "&quot;최악 위기 넘겼나?&quot; 뉴욕증시, 은행권 우려 완화로 상승 출발",
+            "originallink": "https://view.asiae.co.kr/article/2023032923315913463",
+            "link": "https://n.news.naver.com/mnews/article/277/0005238185?sid=101",
+            "description": "BCA는 &quot;투자자들이 상업용 <b>부동산 시장</b>을 주시해야 한다&quot;면서도 &quot;아직은 당혹스러워할 필요가 없다&quot;고 진단했다. 유럽증시도 상승세다. UBS의 에르모티 전 CEO 재영입 소식에 은행주 중심으로 랠리가 두드러진다. 독일... ",
+            "pubDate": "Wed, 29 Mar 2023 23:33:00 +0900"
+        },
+        {
+            "title": "[건설·<b>부동산</b> 1장] 쌍용·GS·롯데건설 외",
+            "originallink": "http://www.newsprime.co.kr/news/article.html?no=597210",
+            "link": "http://www.newsprime.co.kr/news/article.html?no=597210",
+            "description": "2019년 베타서비스를 선보인 이후 지금까지 건설사, 금융사, 공공기관을 비롯한 준전문가 집단을 위해 90여개 이상의 <b>부동산 시장</b> 지표를 선정해 서비스를 제공해왔다. 직방에 따르면, 기존 <b>부동산</b> 분석 데이터들은... ",
+            "pubDate": "Wed, 29 Mar 2023 22:34:00 +0900"
+        },
         {
             "title": "부진 예상 깬 GS건설…3월 3개단지 모두 흥행",
             "originallink": "https://www.nbntv.kr/news/articleView.html?idxno=69196",
@@ -199,20 +213,6 @@
             "link": "http://www.srtimes.kr/news/articleView.html?idxno=132929",
             "description": "29일 <b>부동산시장</b> 분석업체 <b>부동산</b>인포가 주택도시보증공사(HUG)의 주택정보포털 자료를 분석한 결과 지난해 12월 전국 아파트 3.3㎡당 분양가(전용 60㎡초과 85㎡이하)는 2020년 1월 대비 1188.9만원에서 1533.5만원으로... ",
             "pubDate": "Wed, 29 Mar 2023 17:14:00 +0900"
-        },
-        {
-            "title": "계룡건설 이승찬 회장 취임..&quot;국민 신뢰받는 기업으로 성장&quot;",
-            "originallink": "http://kpenews.com/View.aspx?No=2770583",
-            "link": "http://kpenews.com/View.aspx?No=2770583",
-            "description": "이번 조직개편은 최근 국내외 금융<b>시장</b> 불안, <b>부동산시장</b> 침체, 고물가에 따른 공사원가 상승으로 건설환경이 악화되는 시점에 선제적으로 나온 것으로 그 의미가 있다. 계룡건설은 이번 개편을 통해 조직의 체질을... ",
-            "pubDate": "Wed, 29 Mar 2023 17:12:00 +0900"
-        },
-        {
-            "title": "검찰, 새마을금고 압수수색...8.8억 PF 수수료 불법 지급 정황",
-            "originallink": "https://www.nbntv.kr/news/articleView.html?idxno=69215",
-            "link": "https://www.nbntv.kr/news/articleView.html?idxno=69215",
-            "description": "최근 <b>부동산 시장</b>이 침체기에 접어들면서 <b>부동산</b> 관련 대출 큰 손으로 꼽히는 새마을금고에 대해 건전성 악화를 우려하는 목소리가 크다. 이에 새마을금고중앙회는 28일 &quot;최근 문제가 되는 PF 대출과 관련해... ",
-            "pubDate": "Wed, 29 Mar 2023 17:10:00 +0900"
         }
     ]
 }
