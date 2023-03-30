@@ -1,9 +1,17 @@
 {
-    "lastBuildDate": "Thu, 30 Mar 2023 15:22:25 +0900",
-    "total": 5009,
+    "lastBuildDate": "Thu, 30 Mar 2023 16:16:53 +0900",
+    "total": 5011,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "&quot;이곳에 가면 2000만원에 <b>아파트</b> 살 수 있어요&quot; 다시 고개... ",
+            "link": "https://blog.naver.com/daniels98/223059949575",
+            "description": "<b>아파트</b>가 모여있어 급매물 출현이 많았던 지역이 갭투자가 많았던 지역으로 꼽혔다. 한국<b>부동산</b>원... 지역에 <b>랭크</b>된 원인으로 분석된다. 실제 거래된 사례를 보면 인천 송도동 송도더샵센트럴시티 전용... ",
+            "bloggername": "♣ 다산행운부동산 ♣",
+            "bloggerlink": "blog.naver.com/daniels98",
+            "postdate": "20230330"
+        },
         {
             "title": "전셋값 바닥? 강남서 1억원 반등 거래",
             "link": "https://blog.naver.com/life_upgrade_project/223059533711",
@@ -235,14 +243,6 @@
             "bloggername": "룡이다 BLOG",
             "bloggerlink": "blog.naver.com/ohryong22",
             "postdate": "20230323"
-        },
-        {
-            "title": "파주 운정 호반써밋 모델하우스 정보",
-            "link": "https://blog.naver.com/seojh552700/223052593383",
-            "description": "침체된 <b>부동산</b> 시장 속에서도 승승장구를 유지한 신도시에 조성되는 <b>아파트</b>입니다. 운정 3지구... 브랜드 평가 9위에 <b>랭크</b>된 건설사로 8년을 연속해 대한 주택보증 AAA 등급을 받은 굴지의 건설 회사이며, 흔히... ",
-            "bloggername": "복돼지 하우스",
-            "bloggerlink": "blog.naver.com/seojh552700",
-            "postdate": "20230322"
         }
     ]
 }
