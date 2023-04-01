@@ -1,0 +1,248 @@
+gungu,region_code,sido,file_name,20230331
+서울시 강남구,1168000000,Seoul,1168000000_Seoul_Gangnam,66
+서울시 강동구,1174000000,Seoul,1174000000_Seoul_Gangdong,103
+서울시 강북구,1130500000,Seoul,1130500000_Seoul_Gangbuk,54
+서울시 강서구,1150000000,Seoul,1150000000_Seoul_Gangseo,78
+서울시 관악구,1162000000,Seoul,1162000000_Seoul_Gwanak,36
+서울시 광진구,1121500000,Seoul,1121500000_Seoul_Gwangjin,25
+서울시 구로구,1153000000,Seoul,1153000000_Seoul_Guro,76
+서울시 금천구,1154500000,Seoul,1154500000_Seoul_Geumcheon,39
+서울시 노원구,1135000000,Seoul,1135000000_Seoul_Nowon,111
+서울시 도봉구,1132000000,Seoul,1132000000_Seoul_Dobong,53
+서울시 동대문구,1123000000,Seoul,1123000000_Seoul_Dongdaemun,75
+서울시 동작구,1159000000,Seoul,1159000000_Seoul_Dongjak,61
+서울시 마포구,1144000000,Seoul,1144000000_Seoul_Mapo,71
+서울시 서대문구,1141000000,Seoul,1141000000_Seoul_Seodaemun,66
+서울시 서초구,1165000000,Seoul,1165000000_Seoul_Seocho,52
+서울시 성동구,1120000000,Seoul,1120000000_Seoul_Seongdong,71
+서울시 성북구,1129000000,Seoul,1129000000_Seoul_Seongbuk,85
+서울시 송파구,1171000000,Seoul,1171000000_Seoul_Songpa,119
+서울시 양천구,1147000000,Seoul,1147000000_Seoul_Yangcheon,71
+서울시 영등포구,1156000000,Seoul,1156000000_Seoul_Yeongdeungpo,65
+서울시 용산구,1117000000,Seoul,1117000000_Seoul_Yongsan,15
+서울시 은평구,1138000000,Seoul,1138000000_Seoul_Eunpyeong,321
+서울시 종로구,1111000000,Seoul,1111000000_Seoul_Jongno,13
+서울시 중구,1114000000,Seoul,1114000000_Seoul_Jung,15
+서울시 중랑구,1126000000,Seoul,1126000000_Seoul_Jungnang,37
+경기도 가평군,4182000000,Gyeonggi,4182000000_Gyeonggi_Gapyeong,13
+경기도 고양시 덕양구,4128100000,Gyeonggi,4128100000_Gyeonggi_Goyang_Deogyang,209
+경기도 고양시 일산동구,4128500000,Gyeonggi,4128500000_Gyeonggi_Goyang_Ilsandong,83
+경기도 고양시 일산서구,4128700000,Gyeonggi,4128700000_Gyeonggi_Goyang_Ilsanseo,109
+경기도 과천시,4129000000,Gyeonggi,4129000000_Gyeonggi_Gwacheon,27
+경기도 광명시,4121000000,Gyeonggi,4121000000_Gyeonggi_Gwangmyeong,82
+경기도 광주시,4161000000,Gyeonggi,4161000000_Gyeonggi_Gwangju,83
+경기도 구리시,4131000000,Gyeonggi,4131000000_Gyeonggi_Guri,46
+경기도 군포시,4141000000,Gyeonggi,4141000000_Gyeonggi_Gunpo,75
+경기도 김포시,4157000000,Gyeonggi,4157000000_Gyeonggi_Gimpo,312
+경기도 남양주시,4136000000,Gyeonggi,4136000000_Gyeonggi_Namyangju,219
+경기도 동두천시,4125000000,Gyeonggi,4125000000_Gyeonggi_Dongducheon,48
+경기도 부천시,4119000000,Gyeonggi,4119000000_Gyeonggi_Bucheon,229
+경기도 성남시 분당구,4113500000,Gyeonggi,4113500000_Gyeonggi_Seongnam_Bundang,143
+경기도 성남시 수정구,4113100000,Gyeonggi,4113100000_Gyeonggi_Seongnam_Sujeong,29
+경기도 성남시 중원구,4113300000,Gyeonggi,4113300000_Gyeonggi_Seongnam_Jungwon,36
+경기도 수원시 권선구,4111300000,Gyeonggi,4111300000_Gyeonggi_Suwon_Gwonseon,172
+경기도 수원시 영통구,4111700000,Gyeonggi,4111700000_Gyeonggi_Suwon_Yeongtong,289
+경기도 수원시 장안구,4111100000,Gyeonggi,4111100000_Gyeonggi_Suwon_Jangan,62
+경기도 수원시 팔달구,4111500000,Gyeonggi,4111500000_Gyeonggi_Suwon_Paldal,41
+경기도 시흥시,4139000000,Gyeonggi,4139000000_Gyeonggi_Siheung,384
+경기도 안산시 단원구,4127300000,Gyeonggi,4127300000_Gyeonggi_Ansan_Danwon,170
+경기도 안산시 상록구,4127100000,Gyeonggi,4127100000_Gyeonggi_Ansan_Sangnok,59
+경기도 안성시,4155000000,Gyeonggi,4155000000_Gyeonggi_Anseong,109
+경기도 안양시 동안구,4117300000,Gyeonggi,4117300000_Gyeonggi_Anyang_Dongan,131
+경기도 안양시 만안구,4117100000,Gyeonggi,4117100000_Gyeonggi_Anyang_Manan,66
+경기도 양주시,4163000000,Gyeonggi,4163000000_Gyeonggi_Yangju,158
+경기도 양평군,4183000000,Gyeonggi,4183000000_Gyeonggi_Yangpyeong,22
+경기도 여주시,4167000000,Gyeonggi,4167000000_Gyeonggi_Yeoju,53
+경기도 연천군,4180000000,Gyeonggi,4180000000_Gyeonggi_Yeoncheon,14
+경기도 오산시,4137000000,Gyeonggi,4137000000_Gyeonggi_Osan,169
+경기도 용인시 기흥구,4146300000,Gyeonggi,4146300000_Gyeonggi_Yongin_Giheung,209
+경기도 용인시 수지구,4146500000,Gyeonggi,4146500000_Gyeonggi_Yongin_Suji,200
+경기도 용인시 처인구,4146100000,Gyeonggi,4146100000_Gyeonggi_Yongin_Cheoin,148
+경기도 의왕시,4143000000,Gyeonggi,4143000000_Gyeonggi_Uiwang,51
+경기도 의정부시,4115000000,Gyeonggi,4115000000_Gyeonggi_Uijeongbu,204
+경기도 이천시,4150000000,Gyeonggi,4150000000_Gyeonggi_Icheon,85
+경기도 파주시,4148000000,Gyeonggi,4148000000_Gyeonggi_Paju,231
+경기도 평택시,4122000000,Gyeonggi,4122000000_Gyeonggi_Pyeongtaek,446
+경기도 포천시,4165000000,Gyeonggi,4165000000_Gyeonggi_Pocheon,36
+경기도 하남시,4145000000,Gyeonggi,4145000000_Gyeonggi_Hanam,131
+경기도 화성시,4159000000,Gyeonggi,4159000000_Gyeonggi_Hwaseong,615
+인천시 강화군,2871000000,Incheon,2871000000_Incheon_Ganghwa,5
+인천시 계양구,2824500000,Incheon,2824500000_Incheon_Gyeyang,127
+인천시 남동구,2820000000,Incheon,2820000000_Incheon_Namdong,283
+인천시 동구,2814000000,Incheon,2814000000_Incheon_Dong,31
+인천시 미추홀구,2817700000,Incheon,2817700000_Incheon_Michuhol,123
+인천시 부평구,2823700000,Incheon,2823700000_Incheon_Bupyeong,230
+인천시 서구,2826000000,Incheon,2826000000_Incheon_Seo,396
+인천시 연수구,2818500000,Incheon,2818500000_Incheon_Yeonsu,337
+인천시 중구,2811000000,Incheon,2811000000_Incheon_Jung,106
+광주시 광산구,2920000000,Gwangju,2920000000_Gwangju_Gwangsan,268
+광주시 남구,2915500000,Gwangju,2915500000_Gwangju_Nam,79
+광주시 동구,2911000000,Gwangju,2911000000_Gwangju_Dong,53
+광주시 북구,2917000000,Gwangju,2917000000_Gwangju_Buk,296
+광주시 서구,2914000000,Gwangju,2914000000_Gwangju_Seo,147
+대구시 남구,2720000000,Daegu,2720000000_Daegu_Nam,21
+대구시 달서구,2729000000,Daegu,2729000000_Daegu_Dalseo,304
+대구시 달성군,2771000000,Daegu,2771000000_Daegu_Dalseong,229
+대구시 동구,2714000000,Daegu,2714000000_Daegu_Dong,194
+대구시 북구,2723000000,Daegu,2723000000_Daegu_Buk,200
+대구시 서구,2717000000,Daegu,2717000000_Daegu_Seo,29
+대구시 수성구,2726000000,Daegu,2726000000_Daegu_Suseong,175
+대구시 중구,2711000000,Daegu,2711000000_Daegu_Jung,65
+대전시 대덕구,3023000000,Daejeon,3023000000_Daejeon_Daedeok,67
+대전시 동구,3011000000,Daejeon,3011000000_Daejeon_Dong,110
+대전시 서구,3017000000,Daejeon,3017000000_Daejeon_Seo,224
+대전시 유성구,3020000000,Daejeon,3020000000_Daejeon_Yuseong,220
+대전시 중구,3014000000,Daejeon,3014000000_Daejeon_Jung,97
+부산시 강서구,2644000000,Busan,2644000000_Busan_Gangseo,127
+부산시 금정구,2641000000,Busan,2641000000_Busan_Geumjeong,46
+부산시 기장군,2671000000,Busan,2671000000_Busan_Gijangn,113
+부산시 남구,2629000000,Busan,2629000000_Busan_Nam,134
+부산시 동구,2617000000,Busan,2617000000_Busan_Dong,21
+부산시 동래구,2626000000,Busan,2626000000_Busan_Dongnae,111
+부산시 부산진구,2623000000,Busan,2623000000_Busan_Busanjin,177
+부산시 북구,2632000000,Busan,2632000000_Busan_Buk,190
+부산시 사상구,2653000000,Busan,2653000000_Busan_Sasang,82
+부산시 사하구,2638000000,Busan,2638000000_Busan_Saha,161
+부산시 서구,2614000000,Busan,2614000000_Busan_Seo,32
+부산시 수영구,2650000000,Busan,2650000000_Busan_Suyeong,60
+부산시 연제구,2647000000,Busan,2647000000_Busan_Yeonje,111
+부산시 영도구,2620000000,Busan,2620000000_Busan_Yeongdo,41
+부산시 중구,2611000000,Busan,2611000000_Busan_Jung,9
+부산시 해운대구,2635000000,Busan,2635000000_Busan_Haeundae,167
+강원도 강릉시,4215000000,Gangwondo,4215000000_Gangwondo_Gangneung,97
+강원도 고성군,4282000000,Gangwondo,4282000000_Gangwondo_Goseong,10
+강원도 동해시,4217000000,Gangwondo,4217000000_Gangwondo_Donghae,78
+강원도 삼척시,4223000000,Gangwondo,4223000000_Gangwondo_Samcheok,40
+강원도 속초시,4221000000,Gangwondo,4221000000_Gangwondo_Sokcho,84
+강원도 양구군,4280000000,Gangwondo,4280000000_Gangwondo_Yanggu,7
+강원도 양양군,4283000000,Gangwondo,4283000000_Gangwondo_Yangyang,14
+강원도 영월군,4275000000,Gangwondo,4275000000_Gangwondo_Yeongwol,14
+강원도 원주시,4213000000,Gangwondo,4213000000_Gangwondo_Wonju,357
+강원도 인제군,4281000000,Gangwondo,4281000000_Gangwondo_Inje,6
+강원도 정선군,4277000000,Gangwondo,4277000000_Gangwondo_Jeongseon,11
+강원도 철원군,4278000000,Gangwondo,4278000000_Gangwondo_Cheorwon,3
+강원도 춘천시,4211000000,Gangwondo,4211000000_Gangwondo_Chuncheon,241
+강원도 태백시,4219000000,Gangwondo,4219000000_Gangwondo_Taebaek,50
+강원도 평창군,4276000000,Gangwondo,4276000000_Gangwondo_Pyeongchang,27
+강원도 홍천군,4272000000,Gangwondo,4272000000_Gangwondo_Hongcheon,32
+강원도 화천군,4279000000,Gangwondo,4279000000_Gangwondo_Hwacheon,3
+강원도 횡성군,4273000000,Gangwondo,4273000000_Gangwondo_Hoengseong,13
+경상남도 거제시,4831000000,Gyeongsangnamdo,4831000000_Gyeongsangnamdo_Geoje,119
+경상남도 거창군,4888000000,Gyeongsangnamdo,4888000000_Gyeongsangnamdo_Geochang,17
+경상남도 고성군,4882000000,Gyeongsangnamdo,4882000000_Gyeongsangnamdo_Goseong,15
+경상남도 김해시,4825000000,Gyeongsangnamdo,4825000000_Gyeongsangnamdo_Gimhae,393
+경상남도 남해군,4884000000,Gyeongsangnamdo,4884000000_Gyeongsangnamdo_Namhae,5
+경상남도 밀양시,4827000000,Gyeongsangnamdo,4827000000_Gyeongsangnamdo_Miryang,55
+경상남도 사천시,4824000000,Gyeongsangnamdo,4824000000_Gyeongsangnamdo_Sacheon,83
+경상남도 산청군,4886000000,Gyeongsangnamdo,4886000000_Gyeongsangnamdo_Sancheong,2
+경상남도 양산시,4833000000,Gyeongsangnamdo,4833000000_Gyeongsangnamdo_Yangsan,243
+경상남도 의령군,4872000000,Gyeongsangnamdo,4872000000_Gyeongsangnamdo_Uiryeong,2
+경상남도 진주시,4817000000,Gyeongsangnamdo,4817000000_Gyeongsangnamdo_Jinju,249
+경상남도 창녕군,4874000000,Gyeongsangnamdo,4874000000_Gyeongsangnamdo_Changnyeong,25
+경상남도 창원시 마산합포구,4812500000,Gyeongsangnamdo,4812500000_Gyeongsangnamdo_Changwon_Masanhappo,109
+경상남도 창원시 마산회원구,4812700000,Gyeongsangnamdo,4812700000_Gyeongsangnamdo_Changwon_Masanhoewon,129
+경상남도 창원시 성산구,4812300000,Gyeongsangnamdo,4812300000_Gyeongsangnamdo_Changwon_Seongsan,226
+경상남도 창원시 의창구,4812100000,Gyeongsangnamdo,4812100000_Gyeongsangnamdo_Changwon_Uichang,130
+경상남도 창원시 진해구,4812900000,Gyeongsangnamdo,4812900000_Gyeongsangnamdo_Changwon_Jinhae,111
+경상남도 통영시,4822000000,Gyeongsangnamdo,4822000000_Gyeongsangnamdo_Tongyeong,74
+경상남도 하동군,4885000000,Gyeongsangnamdo,4885000000_Gyeongsangnamdo_Hadong,9
+경상남도 함안군,4873000000,Gyeongsangnamdo,4873000000_Gyeongsangnamdo_Haman,37
+경상남도 함양군,4887000000,Gyeongsangnamdo,4887000000_Gyeongsangnamdo_Hamyang,5
+경상남도 합천군,4889000000,Gyeongsangnamdo,4889000000_Gyeongsangnamdo_Hapcheon,5
+경상북도 경산시,4729000000,Gyeongsangbukdo,4729000000_Gyeongsangbukdo_Gyeongsan,137
+경상북도 경주시,4713000000,Gyeongsangbukdo,4713000000_Gyeongsangbukdo_Gyeongju,153
+경상북도 고령군,4783000000,Gyeongsangbukdo,4783000000_Gyeongsangbukdo_Goryeong,3
+경상북도 구미시,4719000000,Gyeongsangbukdo,4719000000_Gyeongsangbukdo_Gumi,331
+경상북도 군위군,4772000000,Gyeongsangbukdo,4772000000_Gyeongsangbukdo_Gunwi,2
+경상북도 김천시,4715000000,Gyeongsangbukdo,4715000000_Gyeongsangbukdo_Gimcheon,107
+경상북도 문경시,4728000000,Gyeongsangbukdo,4728000000_Gyeongsangbukdo_Mungyeong,31
+경상북도 봉화군,4792000000,Gyeongsangbukdo,4792000000_Gyeongsangbukdo_Bonghwa,3
+경상북도 상주시,4725000000,Gyeongsangbukdo,4725000000_Gyeongsangbukdo_Sangju,31
+경상북도 성주군,4784000000,Gyeongsangbukdo,4784000000_Gyeongsangbukdo_Seongju,3
+경상북도 안동시,4717000000,Gyeongsangbukdo,4717000000_Gyeongsangbukdo_Andong,93
+경상북도 영덕군,4777000000,Gyeongsangbukdo,4777000000_Gyeongsangbukdo_Yeongdeok,1
+경상북도 영양군,4776000000,Gyeongsangbukdo,4776000000_Gyeongsangbukdo_Yeongyang,0
+경상북도 영주시,4721000000,Gyeongsangbukdo,4721000000_Gyeongsangbukdo_Yeongju,43
+경상북도 영천시,4723000000,Gyeongsangbukdo,4723000000_Gyeongsangbukdo_Yeongcheon,82
+경상북도 예천군,4790000000,Gyeongsangbukdo,4790000000_Gyeongsangbukdo_Yecheon,20
+경상북도 울진군,4793000000,Gyeongsangbukdo,4793000000_Gyeongsangbukdo_Uljin,7
+경상북도 의성군,4773000000,Gyeongsangbukdo,4773000000_Gyeongsangbukdo_Uiseong,4
+경상북도 청도군,4782000000,Gyeongsangbukdo,4782000000_Gyeongsangbukdo_Cheongdo,4
+경상북도 청송군,4775000000,Gyeongsangbukdo,4775000000_Gyeongsangbukdo_Cheongsong,2
+경상북도 칠곡군,4785000000,Gyeongsangbukdo,4785000000_Gyeongsangbukdo_Chilgok,100
+경상북도 포항시 남구,4711100000,Gyeongsangbukdo,4711100000_Gyeongsangbukdo_Pohang_Nam,147
+경상북도 포항시 북구,4711300000,Gyeongsangbukdo,4711300000_Gyeongsangbukdo_Pohang_Buk,219
+세종시 세종시,3611000000,Sejong,3611000000_Sejong_Sejong,401
+울산시 남구,3114000000,Ulsan,3114000000_Ulsan_Nam,240
+울산시 동구,3117000000,Ulsan,3117000000_Ulsan_Dong,73
+울산시 북구,3120000000,Ulsan,3120000000_Ulsan_Buk,192
+울산시 울주군,3171000000,Ulsan,3171000000_Ulsan_Ulju,108
+울산시 중구,3111000000,Ulsan,3111000000_Ulsan_Jung,132
+전라남도 강진군,4681000000,Jeollanamdo,4681000000_Jeollanamdo_Gangjin,3
+전라남도 고흥군,4677000000,Jeollanamdo,4677000000_Jeollanamdo_Goheung,12
+전라남도 곡성군,4672000000,Jeollanamdo,4672000000_Jeollanamdo_Gokseong,6
+전라남도 광양시,4623000000,Jeollanamdo,4623000000_Jeollanamdo_Gwangyang,150
+전라남도 구례군,4673000000,Jeollanamdo,4673000000_Jeollanamdo_Gurye,7
+전라남도 나주시,4617000000,Jeollanamdo,4617000000_Jeollanamdo_Naju,66
+전라남도 담양군,4671000000,Jeollanamdo,4671000000_Jeollanamdo_Damyang,4
+전라남도 목포시,4611000000,Jeollanamdo,4611000000_Jeollanamdo_Mokpo,146
+전라남도 무안군,4684000000,Jeollanamdo,4684000000_Jeollanamdo_Muan,61
+전라남도 보성군,4678000000,Jeollanamdo,4678000000_Jeollanamdo_Boseong,11
+전라남도 순천시,4615000000,Jeollanamdo,4615000000_Jeollanamdo_Suncheon??,199
+전라남도 여수시,4613000000,Jeollanamdo,4613000000_Jeollanamdo_Yeosu,129
+전라남도 영광군,4687000000,Jeollanamdo,4687000000_Jeollanamdo_Yeonggwang,9
+전라남도 영암군,4683000000,Jeollanamdo,4683000000_Jeollanamdo_Yeongam,57
+전라남도 완도군,4689000000,Jeollanamdo,4689000000_Jeollanamdo_Wando,4
+전라남도 장성군,4688000000,Jeollanamdo,4688000000_Jeollanamdo_Jangseong,7
+전라남도 장흥군,4680000000,Jeollanamdo,4680000000_Jeollanamdo_Jangheung,6
+전라남도 진도군,4690000000,Jeollanamdo,4690000000_Jeollanamdo_Jindo,3
+전라남도 함평군,4686000000,Jeollanamdo,4686000000_Jeollanamdo_Hampyeong,2
+전라남도 해남군,4682000000,Jeollanamdo,4682000000_Jeollanamdo_Haenam,24
+전라남도 화순군,4679000000,Jeollanamdo,4679000000_Jeollanamdo_Hwasun,30
+전라북도 고창군,4579000000,Jeollabukdo,4579000000_Jeollabukdo_Gochang,8
+전라북도 군산시,4513000000,Jeollabukdo,4513000000_Jeollabukdo_Gunsan,199
+전라북도 김제시,4521000000,Jeollabukdo,4521000000_Jeollabukdo_Gimje,34
+전라북도 남원시,4519000000,Jeollabukdo,4519000000_Jeollabukdo_Namwon,27
+전라북도 무주군,4573000000,Jeollabukdo,4573000000_Jeollabukdo_Muju,2
+전라북도 부안군,4580000000,Jeollabukdo,4580000000_Jeollabukdo_Buan,16
+전라북도 순창군,4577000000,Jeollabukdo,4577000000_Jeollabukdo_Sunchang,5
+전라북도 완주군,4571000000,Jeollabukdo,4571000000_Jeollabukdo_Wanju,59
+전라북도 익산시,4514000000,Jeollabukdo,4514000000_Jeollabukdo_Iksan,139
+전라북도 임실군,4575000000,Jeollabukdo,4575000000_Jeollabukdo_Imsil,2
+전라북도 장수군,4574000000,Jeollabukdo,4574000000_Jeollabukdo_Jangsu,1
+전라북도 전주시 덕진구,4511300000,Jeollabukdo,4511300000_Jeollabukdo_Jeonju_Deokjin,294
+전라북도 전주시 완산구,4511100000,Jeollabukdo,4511100000_Jeollabukdo_Jeonju_Wansan,218
+전라북도 정읍시,4518000000,Jeollabukdo,4518000000_Jeollabukdo_Jeongeup,67
+전라북도 진안군,4572000000,Jeollabukdo,4572000000_Jeollabukdo_Jinan,3
+제주도 제주시,5011000000,Jejudo,5011000000_Jejudo_Jeju,73
+제주도 서귀포시,5013000000,Jejudo,5013000000_Jejudo_Seogwipo,44
+충청남도 계룡시,4425000000,Chungcheongnamdo,4425000000_Chungcheongnamdo_Gyeryong,35
+충청남도 공주시,4415000000,Chungcheongnamdo,4415000000_Chungcheongnamdo_Gongju,41
+충청남도 금산군,4471000000,Chungcheongnamdo,4471000000_Chungcheongnamdo_Geumsan,17
+충청남도 논산시,4423000000,Chungcheongnamdo,4423000000_Chungcheongnamdo_Nonsan,41
+충청남도 당진시,4427000000,Chungcheongnamdo,4427000000_Chungcheongnamdo_Dangjin,98
+충청남도 보령시,4418000000,Chungcheongnamdo,4418000000_Chungcheongnamdo_Boryeong,53
+충청남도 부여군,4476000000,Chungcheongnamdo,4476000000_Chungcheongnamdo_Buyeo,12
+충청남도 서산시,4421000000,Chungcheongnamdo,4421000000_Chungcheongnamdo_Seosan,225
+충청남도 서천군,4477000000,Chungcheongnamdo,4477000000_Chungcheongnamdo_Seocheon,11
+충청남도 아산시,4420000000,Chungcheongnamdo,4420000000_Chungcheongnamdo_Asan,343
+충청남도 예산군,4481000000,Chungcheongnamdo,4481000000_Chungcheongnamdo_Yesan,36
+충청남도 천안시 동남구,4413100000,Chungcheongnamdo,4413100000_Chungcheongnamdo_Cheonan_Dongnam,241
+충청남도 천안시 서북구,4413300000,Chungcheongnamdo,4413300000_Chungcheongnamdo_Cheonan_Seobuk,427
+충청남도 청양군,4479000000,Chungcheongnamdo,4479000000_Chungcheongnamdo_Cheongyang,1
+충청남도 태안군,4482500000,Chungcheongnamdo,4482500000_Chungcheongnamdo_Taean,26
+충청남도 홍성군,4480000000,Chungcheongnamdo,4480000000_Chungcheongnamdo_Hongseong,48
+충청북도 괴산군,4376000000,Chungcheongbukdo,4376000000_Chungcheongbukdo_Goesan,4
+충청북도 단양군,4380000000,Chungcheongbukdo,4380000000_Chungcheongbukdo_Danyang,6
+충청북도 보은군,4372000000,Chungcheongbukdo,4372000000_Chungcheongbukdo_Boeun,17
+충청북도 영동군,4374000000,Chungcheongbukdo,4374000000_Chungcheongbukdo_Yeongdong,13
+충청북도 옥천군,4373000000,Chungcheongbukdo,4373000000_Chungcheongbukdo_Okcheon,9
+충청북도 음성군,4377000000,Chungcheongbukdo,4377000000_Chungcheongbukdo_Eumseong,67
+충청북도 제천시,4315000000,Chungcheongbukdo,4315000000_Chungcheongbukdo_Jecheon,108
+충청북도 증평군,4374500000,Chungcheongbukdo,4374500000_Chungcheongbukdo_Jeungpyeong,47
+충청북도 진천군,4375000000,Chungcheongbukdo,4375000000_Chungcheongbukdo_Jincheon,57
+충청북도 청주시 상당구,4311100000,Chungcheongbukdo,4311100000_Chungcheongbukdo_Cheongju_Sangdang,165
+충청북도 청주시 서원구,4311200000,Chungcheongbukdo,4311200000_Chungcheongbukdo_Cheongju_Seowon,175
+충청북도 청주시 청원구,4311400000,Chungcheongbukdo,4311400000_Chungcheongbukdo_Cheongju_Cheongwon,200
+충청북도 청주시 흥덕구,4311300000,Chungcheongbukdo,4311300000_Chungcheongbukdo_Cheongju_Heungdeok,283
+충청북도 충주시,4313000000,Chungcheongbukdo,4313000000_Chungcheongbukdo_Chungju,190
