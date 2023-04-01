@@ -1,9 +1,16 @@
 {
-    "lastBuildDate": "Sat, 01 Apr 2023 13:20:38 +0900",
-    "total": 712083,
+    "lastBuildDate": "Sat, 01 Apr 2023 14:16:31 +0900",
+    "total": 712084,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "평택 <b>부동산시장</b> 반등… &apos;힐스테이트 평택 화양&apos; 선착순계약에 인파 몰려",
+            "originallink": "http://www.ikld.kr/news/articleView.html?idxno=271855",
+            "link": "http://www.ikld.kr/news/articleView.html?idxno=271855",
+            "description": "금리인상과 경기 침체 등으로 <b>부동산 시장</b> 분위기가 가라앉은 가운데, 최근 경기도 평택시가 &apos;바닥&apos;을 찍고 반등세를 보인다는 시각이 제기되고 있다. 이달부터 선착순 동·호 지정 계약에 돌입한 &apos;힐스테이트 평택... ",
+            "pubDate": "Sat, 01 Apr 2023 13:40:00 +0900"
+        },
         {
             "title": "오늘부터 맨션세…임대로 몰려…500만불 이상 5.5% 추가",
             "originallink": "https://news.koreadaily.com/2023/03/31/economy/realestate/20230331211756884.html",
@@ -75,17 +82,17 @@
             "pubDate": "Sat, 01 Apr 2023 09:04:00 +0900"
         },
         {
-            "title": "&apos;창원 롯데캐슬 하버팰리스&apos; 선착순 동·호수 잔여세대 공급 중",
-            "originallink": "http://www.ikld.kr/news/articleView.html?idxno=271802",
-            "link": "http://www.ikld.kr/news/articleView.html?idxno=271802",
-            "description": "[국토일보 하종숙 기자] 가파른 추세로 오르던 금리 탓에 <b>부동산 시장</b>이 얼어 붙었다. 하지만 지난 23일 금융통화위원회에서 기준 금리를 연 3.5%로 동결한다고 밝혀 시중은행도 대출 금리를 소폭 인하한다는 소식을... ",
-            "pubDate": "Sat, 01 Apr 2023 09:02:00 +0900"
-        },
-        {
             "title": "&quot;연예인도 입주한다&quot; 하이엔드 시니어 레지던스 &apos;VL르웨스트&apos; 주목",
             "originallink": "http://www.ikld.kr/news/articleView.html?idxno=271822",
             "link": "http://www.ikld.kr/news/articleView.html?idxno=271822",
             "description": "<b>부동산 시장</b>에서 유명인이 입주하는 주택이 화제인 가운데, 최근 롯데건설이 공급한 하이엔드 시니어 레지던스 &apos;VL르웨스트&apos;도 눈길을 끌고 있다. 기존의 실버타운과 차별화된 상품성을 내세우면서 연예인이나 셀럽 같은... ",
+            "pubDate": "Sat, 01 Apr 2023 09:02:00 +0900"
+        },
+        {
+            "title": "&apos;창원 롯데캐슬 하버팰리스&apos; 선착순 동·호수 잔여세대 공급 중",
+            "originallink": "http://www.ikld.kr/news/articleView.html?idxno=271802",
+            "link": "http://www.ikld.kr/news/articleView.html?idxno=271802",
+            "description": "[국토일보 하종숙 기자] 가파른 추세로 오르던 금리 탓에 <b>부동산 시장</b>이 얼어 붙었다. 하지만 지난 23일 금융통화위원회에서 기준 금리를 연 3.5%로 동결한다고 밝혀 시중은행도 대출 금리를 소폭 인하한다는 소식을... ",
             "pubDate": "Sat, 01 Apr 2023 09:02:00 +0900"
         },
         {
@@ -206,13 +213,6 @@
             "link": "https://n.news.naver.com/mnews/article/020/0003488836?sid=101",
             "description": "이는 <b>부동산</b> 및 주식<b>시장</b> 침체가 큰 영향을 끼쳤다. 지난해 12월 주택 매매량이 1년 전보다 48.6% 급감하면서 양도소득세가 4조1000억 원 감소했다. 증권거래세는 8000억 원으로 지난해보다 8000억 원 줄었다. 경기... ",
             "pubDate": "Sat, 01 Apr 2023 03:01:00 +0900"
-        },
-        {
-            "title": "[관점뉴스] 올해 국세수입 벌써 15조원 감소...경기도는 &apos;마이너스 추경&apos; 감수...",
-            "originallink": "https://www.news2day.co.kr/article/20230331500248",
-            "link": "https://www.news2day.co.kr/article/20230331500248",
-            "description": "경기 둔화에 <b>부동산</b> 및 주식<b>시장</b>의 침체가 겹치고 지난해 좋았던 세수 여건으로 인한 기저효과도 작용한 결과이다. 올해 말 ‘세수 펑크’가 발생할 수 있다는 우려도 더욱 짙어지고 있다. 지방자치단체 또한 세수... ",
-            "pubDate": "Sat, 01 Apr 2023 03:00:00 +0900"
         }
     ]
 }
