@@ -797,7 +797,14 @@ function updateTable(region){
     })
     $.ajaxSetup({ async: true });
 
-    url = "https://www.aptrank.kr/price/recent/202303" + region + ".json" + update_ver
+    count_url = "https://www.aptrank.kr/price/recent/daily_count.json?v=" + Math.random()
+    $.getJSON(count_url, function(json){
+      count_data = json
+      test = count_data['data'][0]
+      console.log(typeof(test))
+    })
+
+    url = "https://www.aptrank.kr/price/recent/202303/" + region + ".json" + update_ver    
 
     $.getJSON(url, function(json) {        
         //console.log(json);

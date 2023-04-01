@@ -18,8 +18,8 @@
                 "type":"string"
             },
             {
-                "name":"20230331",
-                "type":"integer"
+                "name":"daily_count",
+                "type":"string"
             }
         ],
         "primaryKey":[
@@ -33,1729 +33,3952 @@
             "region_code":1168000000,
             "sido":"Seoul",
             "file_name":"1168000000_Seoul_Gangnam",
-            "20230331":66
+            "daily_count":[
+                [
+                    "20230331",
+                    66
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 강동구",
             "region_code":1174000000,
             "sido":"Seoul",
             "file_name":"1174000000_Seoul_Gangdong",
-            "20230331":103
+            "daily_count":[
+                [
+                    "20230331",
+                    103
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 강북구",
             "region_code":1130500000,
             "sido":"Seoul",
             "file_name":"1130500000_Seoul_Gangbuk",
-            "20230331":54
+            "daily_count":[
+                [
+                    "20230331",
+                    54
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 강서구",
             "region_code":1150000000,
             "sido":"Seoul",
             "file_name":"1150000000_Seoul_Gangseo",
-            "20230331":78
+            "daily_count":[
+                [
+                    "20230331",
+                    78
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 관악구",
             "region_code":1162000000,
             "sido":"Seoul",
             "file_name":"1162000000_Seoul_Gwanak",
-            "20230331":36
+            "daily_count":[
+                [
+                    "20230331",
+                    36
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 광진구",
             "region_code":1121500000,
             "sido":"Seoul",
             "file_name":"1121500000_Seoul_Gwangjin",
-            "20230331":25
+            "daily_count":[
+                [
+                    "20230331",
+                    25
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 구로구",
             "region_code":1153000000,
             "sido":"Seoul",
             "file_name":"1153000000_Seoul_Guro",
-            "20230331":76
+            "daily_count":[
+                [
+                    "20230331",
+                    76
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 금천구",
             "region_code":1154500000,
             "sido":"Seoul",
             "file_name":"1154500000_Seoul_Geumcheon",
-            "20230331":39
+            "daily_count":[
+                [
+                    "20230331",
+                    39
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 노원구",
             "region_code":1135000000,
             "sido":"Seoul",
             "file_name":"1135000000_Seoul_Nowon",
-            "20230331":111
+            "daily_count":[
+                [
+                    "20230331",
+                    111
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 도봉구",
             "region_code":1132000000,
             "sido":"Seoul",
             "file_name":"1132000000_Seoul_Dobong",
-            "20230331":53
+            "daily_count":[
+                [
+                    "20230331",
+                    53
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 동대문구",
             "region_code":1123000000,
             "sido":"Seoul",
             "file_name":"1123000000_Seoul_Dongdaemun",
-            "20230331":75
+            "daily_count":[
+                [
+                    "20230331",
+                    75
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 동작구",
             "region_code":1159000000,
             "sido":"Seoul",
             "file_name":"1159000000_Seoul_Dongjak",
-            "20230331":61
+            "daily_count":[
+                [
+                    "20230331",
+                    61
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 마포구",
             "region_code":1144000000,
             "sido":"Seoul",
             "file_name":"1144000000_Seoul_Mapo",
-            "20230331":71
+            "daily_count":[
+                [
+                    "20230331",
+                    71
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 서대문구",
             "region_code":1141000000,
             "sido":"Seoul",
             "file_name":"1141000000_Seoul_Seodaemun",
-            "20230331":66
+            "daily_count":[
+                [
+                    "20230331",
+                    66
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 서초구",
             "region_code":1165000000,
             "sido":"Seoul",
             "file_name":"1165000000_Seoul_Seocho",
-            "20230331":52
+            "daily_count":[
+                [
+                    "20230331",
+                    52
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 성동구",
             "region_code":1120000000,
             "sido":"Seoul",
             "file_name":"1120000000_Seoul_Seongdong",
-            "20230331":71
+            "daily_count":[
+                [
+                    "20230331",
+                    71
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 성북구",
             "region_code":1129000000,
             "sido":"Seoul",
             "file_name":"1129000000_Seoul_Seongbuk",
-            "20230331":85
+            "daily_count":[
+                [
+                    "20230331",
+                    85
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 송파구",
             "region_code":1171000000,
             "sido":"Seoul",
             "file_name":"1171000000_Seoul_Songpa",
-            "20230331":119
+            "daily_count":[
+                [
+                    "20230331",
+                    119
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 양천구",
             "region_code":1147000000,
             "sido":"Seoul",
             "file_name":"1147000000_Seoul_Yangcheon",
-            "20230331":71
+            "daily_count":[
+                [
+                    "20230331",
+                    71
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 영등포구",
             "region_code":1156000000,
             "sido":"Seoul",
             "file_name":"1156000000_Seoul_Yeongdeungpo",
-            "20230331":65
+            "daily_count":[
+                [
+                    "20230331",
+                    65
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 용산구",
             "region_code":1117000000,
             "sido":"Seoul",
             "file_name":"1117000000_Seoul_Yongsan",
-            "20230331":15
+            "daily_count":[
+                [
+                    "20230331",
+                    15
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 은평구",
             "region_code":1138000000,
             "sido":"Seoul",
             "file_name":"1138000000_Seoul_Eunpyeong",
-            "20230331":321
+            "daily_count":[
+                [
+                    "20230331",
+                    321
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 종로구",
             "region_code":1111000000,
             "sido":"Seoul",
             "file_name":"1111000000_Seoul_Jongno",
-            "20230331":13
+            "daily_count":[
+                [
+                    "20230331",
+                    13
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 중구",
             "region_code":1114000000,
             "sido":"Seoul",
             "file_name":"1114000000_Seoul_Jung",
-            "20230331":15
+            "daily_count":[
+                [
+                    "20230331",
+                    15
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"서울시 중랑구",
             "region_code":1126000000,
             "sido":"Seoul",
             "file_name":"1126000000_Seoul_Jungnang",
-            "20230331":37
+            "daily_count":[
+                [
+                    "20230331",
+                    37
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 가평군",
             "region_code":4182000000,
             "sido":"Gyeonggi",
             "file_name":"4182000000_Gyeonggi_Gapyeong",
-            "20230331":13
+            "daily_count":[
+                [
+                    "20230331",
+                    13
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 고양시 덕양구",
             "region_code":4128100000,
             "sido":"Gyeonggi",
             "file_name":"4128100000_Gyeonggi_Goyang_Deogyang",
-            "20230331":209
+            "daily_count":[
+                [
+                    "20230331",
+                    209
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 고양시 일산동구",
             "region_code":4128500000,
             "sido":"Gyeonggi",
             "file_name":"4128500000_Gyeonggi_Goyang_Ilsandong",
-            "20230331":83
+            "daily_count":[
+                [
+                    "20230331",
+                    83
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 고양시 일산서구",
             "region_code":4128700000,
             "sido":"Gyeonggi",
             "file_name":"4128700000_Gyeonggi_Goyang_Ilsanseo",
-            "20230331":109
+            "daily_count":[
+                [
+                    "20230331",
+                    109
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 과천시",
             "region_code":4129000000,
             "sido":"Gyeonggi",
             "file_name":"4129000000_Gyeonggi_Gwacheon",
-            "20230331":27
+            "daily_count":[
+                [
+                    "20230331",
+                    27
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 광명시",
             "region_code":4121000000,
             "sido":"Gyeonggi",
             "file_name":"4121000000_Gyeonggi_Gwangmyeong",
-            "20230331":82
+            "daily_count":[
+                [
+                    "20230331",
+                    82
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 광주시",
             "region_code":4161000000,
             "sido":"Gyeonggi",
             "file_name":"4161000000_Gyeonggi_Gwangju",
-            "20230331":83
+            "daily_count":[
+                [
+                    "20230331",
+                    83
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 구리시",
             "region_code":4131000000,
             "sido":"Gyeonggi",
             "file_name":"4131000000_Gyeonggi_Guri",
-            "20230331":46
+            "daily_count":[
+                [
+                    "20230331",
+                    46
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 군포시",
             "region_code":4141000000,
             "sido":"Gyeonggi",
             "file_name":"4141000000_Gyeonggi_Gunpo",
-            "20230331":75
+            "daily_count":[
+                [
+                    "20230331",
+                    75
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 김포시",
             "region_code":4157000000,
             "sido":"Gyeonggi",
             "file_name":"4157000000_Gyeonggi_Gimpo",
-            "20230331":312
+            "daily_count":[
+                [
+                    "20230331",
+                    312
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 남양주시",
             "region_code":4136000000,
             "sido":"Gyeonggi",
             "file_name":"4136000000_Gyeonggi_Namyangju",
-            "20230331":219
+            "daily_count":[
+                [
+                    "20230331",
+                    219
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 동두천시",
             "region_code":4125000000,
             "sido":"Gyeonggi",
             "file_name":"4125000000_Gyeonggi_Dongducheon",
-            "20230331":48
+            "daily_count":[
+                [
+                    "20230331",
+                    48
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 부천시",
             "region_code":4119000000,
             "sido":"Gyeonggi",
             "file_name":"4119000000_Gyeonggi_Bucheon",
-            "20230331":229
+            "daily_count":[
+                [
+                    "20230331",
+                    229
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 성남시 분당구",
             "region_code":4113500000,
             "sido":"Gyeonggi",
             "file_name":"4113500000_Gyeonggi_Seongnam_Bundang",
-            "20230331":143
+            "daily_count":[
+                [
+                    "20230331",
+                    143
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 성남시 수정구",
             "region_code":4113100000,
             "sido":"Gyeonggi",
             "file_name":"4113100000_Gyeonggi_Seongnam_Sujeong",
-            "20230331":29
+            "daily_count":[
+                [
+                    "20230331",
+                    29
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 성남시 중원구",
             "region_code":4113300000,
             "sido":"Gyeonggi",
             "file_name":"4113300000_Gyeonggi_Seongnam_Jungwon",
-            "20230331":36
+            "daily_count":[
+                [
+                    "20230331",
+                    36
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 수원시 권선구",
             "region_code":4111300000,
             "sido":"Gyeonggi",
             "file_name":"4111300000_Gyeonggi_Suwon_Gwonseon",
-            "20230331":172
+            "daily_count":[
+                [
+                    "20230331",
+                    172
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 수원시 영통구",
             "region_code":4111700000,
             "sido":"Gyeonggi",
             "file_name":"4111700000_Gyeonggi_Suwon_Yeongtong",
-            "20230331":289
+            "daily_count":[
+                [
+                    "20230331",
+                    289
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 수원시 장안구",
             "region_code":4111100000,
             "sido":"Gyeonggi",
             "file_name":"4111100000_Gyeonggi_Suwon_Jangan",
-            "20230331":62
+            "daily_count":[
+                [
+                    "20230331",
+                    62
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 수원시 팔달구",
             "region_code":4111500000,
             "sido":"Gyeonggi",
             "file_name":"4111500000_Gyeonggi_Suwon_Paldal",
-            "20230331":41
+            "daily_count":[
+                [
+                    "20230331",
+                    41
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 시흥시",
             "region_code":4139000000,
             "sido":"Gyeonggi",
             "file_name":"4139000000_Gyeonggi_Siheung",
-            "20230331":384
+            "daily_count":[
+                [
+                    "20230331",
+                    384
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 안산시 단원구",
             "region_code":4127300000,
             "sido":"Gyeonggi",
             "file_name":"4127300000_Gyeonggi_Ansan_Danwon",
-            "20230331":170
+            "daily_count":[
+                [
+                    "20230331",
+                    170
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 안산시 상록구",
             "region_code":4127100000,
             "sido":"Gyeonggi",
             "file_name":"4127100000_Gyeonggi_Ansan_Sangnok",
-            "20230331":59
+            "daily_count":[
+                [
+                    "20230331",
+                    59
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 안성시",
             "region_code":4155000000,
             "sido":"Gyeonggi",
             "file_name":"4155000000_Gyeonggi_Anseong",
-            "20230331":109
+            "daily_count":[
+                [
+                    "20230331",
+                    109
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 안양시 동안구",
             "region_code":4117300000,
             "sido":"Gyeonggi",
             "file_name":"4117300000_Gyeonggi_Anyang_Dongan",
-            "20230331":131
+            "daily_count":[
+                [
+                    "20230331",
+                    131
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 안양시 만안구",
             "region_code":4117100000,
             "sido":"Gyeonggi",
             "file_name":"4117100000_Gyeonggi_Anyang_Manan",
-            "20230331":66
+            "daily_count":[
+                [
+                    "20230331",
+                    66
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 양주시",
             "region_code":4163000000,
             "sido":"Gyeonggi",
             "file_name":"4163000000_Gyeonggi_Yangju",
-            "20230331":158
+            "daily_count":[
+                [
+                    "20230331",
+                    158
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 양평군",
             "region_code":4183000000,
             "sido":"Gyeonggi",
             "file_name":"4183000000_Gyeonggi_Yangpyeong",
-            "20230331":22
+            "daily_count":[
+                [
+                    "20230331",
+                    22
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 여주시",
             "region_code":4167000000,
             "sido":"Gyeonggi",
             "file_name":"4167000000_Gyeonggi_Yeoju",
-            "20230331":53
+            "daily_count":[
+                [
+                    "20230331",
+                    53
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 연천군",
             "region_code":4180000000,
             "sido":"Gyeonggi",
             "file_name":"4180000000_Gyeonggi_Yeoncheon",
-            "20230331":14
+            "daily_count":[
+                [
+                    "20230331",
+                    14
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 오산시",
             "region_code":4137000000,
             "sido":"Gyeonggi",
             "file_name":"4137000000_Gyeonggi_Osan",
-            "20230331":169
+            "daily_count":[
+                [
+                    "20230331",
+                    169
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 용인시 기흥구",
             "region_code":4146300000,
             "sido":"Gyeonggi",
             "file_name":"4146300000_Gyeonggi_Yongin_Giheung",
-            "20230331":209
+            "daily_count":[
+                [
+                    "20230331",
+                    209
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 용인시 수지구",
             "region_code":4146500000,
             "sido":"Gyeonggi",
             "file_name":"4146500000_Gyeonggi_Yongin_Suji",
-            "20230331":200
+            "daily_count":[
+                [
+                    "20230331",
+                    200
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 용인시 처인구",
             "region_code":4146100000,
             "sido":"Gyeonggi",
             "file_name":"4146100000_Gyeonggi_Yongin_Cheoin",
-            "20230331":148
+            "daily_count":[
+                [
+                    "20230331",
+                    148
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 의왕시",
             "region_code":4143000000,
             "sido":"Gyeonggi",
             "file_name":"4143000000_Gyeonggi_Uiwang",
-            "20230331":51
+            "daily_count":[
+                [
+                    "20230331",
+                    51
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 의정부시",
             "region_code":4115000000,
             "sido":"Gyeonggi",
             "file_name":"4115000000_Gyeonggi_Uijeongbu",
-            "20230331":204
+            "daily_count":[
+                [
+                    "20230331",
+                    204
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 이천시",
             "region_code":4150000000,
             "sido":"Gyeonggi",
             "file_name":"4150000000_Gyeonggi_Icheon",
-            "20230331":85
+            "daily_count":[
+                [
+                    "20230331",
+                    85
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 파주시",
             "region_code":4148000000,
             "sido":"Gyeonggi",
             "file_name":"4148000000_Gyeonggi_Paju",
-            "20230331":231
+            "daily_count":[
+                [
+                    "20230331",
+                    231
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 평택시",
             "region_code":4122000000,
             "sido":"Gyeonggi",
             "file_name":"4122000000_Gyeonggi_Pyeongtaek",
-            "20230331":446
+            "daily_count":[
+                [
+                    "20230331",
+                    446
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 포천시",
             "region_code":4165000000,
             "sido":"Gyeonggi",
             "file_name":"4165000000_Gyeonggi_Pocheon",
-            "20230331":36
+            "daily_count":[
+                [
+                    "20230331",
+                    36
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 하남시",
             "region_code":4145000000,
             "sido":"Gyeonggi",
             "file_name":"4145000000_Gyeonggi_Hanam",
-            "20230331":131
+            "daily_count":[
+                [
+                    "20230331",
+                    131
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경기도 화성시",
             "region_code":4159000000,
             "sido":"Gyeonggi",
             "file_name":"4159000000_Gyeonggi_Hwaseong",
-            "20230331":615
+            "daily_count":[
+                [
+                    "20230331",
+                    615
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"인천시 강화군",
             "region_code":2871000000,
             "sido":"Incheon",
             "file_name":"2871000000_Incheon_Ganghwa",
-            "20230331":5
+            "daily_count":[
+                [
+                    "20230331",
+                    5
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"인천시 계양구",
             "region_code":2824500000,
             "sido":"Incheon",
             "file_name":"2824500000_Incheon_Gyeyang",
-            "20230331":127
+            "daily_count":[
+                [
+                    "20230331",
+                    127
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"인천시 남동구",
             "region_code":2820000000,
             "sido":"Incheon",
             "file_name":"2820000000_Incheon_Namdong",
-            "20230331":283
+            "daily_count":[
+                [
+                    "20230331",
+                    283
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"인천시 동구",
             "region_code":2814000000,
             "sido":"Incheon",
             "file_name":"2814000000_Incheon_Dong",
-            "20230331":31
+            "daily_count":[
+                [
+                    "20230331",
+                    31
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"인천시 미추홀구",
             "region_code":2817700000,
             "sido":"Incheon",
             "file_name":"2817700000_Incheon_Michuhol",
-            "20230331":123
+            "daily_count":[
+                [
+                    "20230331",
+                    123
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"인천시 부평구",
             "region_code":2823700000,
             "sido":"Incheon",
             "file_name":"2823700000_Incheon_Bupyeong",
-            "20230331":230
+            "daily_count":[
+                [
+                    "20230331",
+                    230
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"인천시 서구",
             "region_code":2826000000,
             "sido":"Incheon",
             "file_name":"2826000000_Incheon_Seo",
-            "20230331":396
+            "daily_count":[
+                [
+                    "20230331",
+                    396
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"인천시 연수구",
             "region_code":2818500000,
             "sido":"Incheon",
             "file_name":"2818500000_Incheon_Yeonsu",
-            "20230331":337
+            "daily_count":[
+                [
+                    "20230331",
+                    337
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"인천시 중구",
             "region_code":2811000000,
             "sido":"Incheon",
             "file_name":"2811000000_Incheon_Jung",
-            "20230331":106
+            "daily_count":[
+                [
+                    "20230331",
+                    106
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"광주시 광산구",
             "region_code":2920000000,
             "sido":"Gwangju",
             "file_name":"2920000000_Gwangju_Gwangsan",
-            "20230331":268
+            "daily_count":[
+                [
+                    "20230331",
+                    268
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"광주시 남구",
             "region_code":2915500000,
             "sido":"Gwangju",
             "file_name":"2915500000_Gwangju_Nam",
-            "20230331":79
+            "daily_count":[
+                [
+                    "20230331",
+                    79
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"광주시 동구",
             "region_code":2911000000,
             "sido":"Gwangju",
             "file_name":"2911000000_Gwangju_Dong",
-            "20230331":53
+            "daily_count":[
+                [
+                    "20230331",
+                    53
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"광주시 북구",
             "region_code":2917000000,
             "sido":"Gwangju",
             "file_name":"2917000000_Gwangju_Buk",
-            "20230331":296
+            "daily_count":[
+                [
+                    "20230331",
+                    296
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"광주시 서구",
             "region_code":2914000000,
             "sido":"Gwangju",
             "file_name":"2914000000_Gwangju_Seo",
-            "20230331":147
+            "daily_count":[
+                [
+                    "20230331",
+                    147
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대구시 남구",
             "region_code":2720000000,
             "sido":"Daegu",
             "file_name":"2720000000_Daegu_Nam",
-            "20230331":21
+            "daily_count":[
+                [
+                    "20230331",
+                    21
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대구시 달서구",
             "region_code":2729000000,
             "sido":"Daegu",
             "file_name":"2729000000_Daegu_Dalseo",
-            "20230331":304
+            "daily_count":[
+                [
+                    "20230331",
+                    304
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대구시 달성군",
             "region_code":2771000000,
             "sido":"Daegu",
             "file_name":"2771000000_Daegu_Dalseong",
-            "20230331":229
+            "daily_count":[
+                [
+                    "20230331",
+                    229
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대구시 동구",
             "region_code":2714000000,
             "sido":"Daegu",
             "file_name":"2714000000_Daegu_Dong",
-            "20230331":194
+            "daily_count":[
+                [
+                    "20230331",
+                    194
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대구시 북구",
             "region_code":2723000000,
             "sido":"Daegu",
             "file_name":"2723000000_Daegu_Buk",
-            "20230331":200
+            "daily_count":[
+                [
+                    "20230331",
+                    200
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대구시 서구",
             "region_code":2717000000,
             "sido":"Daegu",
             "file_name":"2717000000_Daegu_Seo",
-            "20230331":29
+            "daily_count":[
+                [
+                    "20230331",
+                    29
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대구시 수성구",
             "region_code":2726000000,
             "sido":"Daegu",
             "file_name":"2726000000_Daegu_Suseong",
-            "20230331":175
+            "daily_count":[
+                [
+                    "20230331",
+                    175
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대구시 중구",
             "region_code":2711000000,
             "sido":"Daegu",
             "file_name":"2711000000_Daegu_Jung",
-            "20230331":65
+            "daily_count":[
+                [
+                    "20230331",
+                    65
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대전시 대덕구",
             "region_code":3023000000,
             "sido":"Daejeon",
             "file_name":"3023000000_Daejeon_Daedeok",
-            "20230331":67
+            "daily_count":[
+                [
+                    "20230331",
+                    67
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대전시 동구",
             "region_code":3011000000,
             "sido":"Daejeon",
             "file_name":"3011000000_Daejeon_Dong",
-            "20230331":110
+            "daily_count":[
+                [
+                    "20230331",
+                    110
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대전시 서구",
             "region_code":3017000000,
             "sido":"Daejeon",
             "file_name":"3017000000_Daejeon_Seo",
-            "20230331":224
+            "daily_count":[
+                [
+                    "20230331",
+                    224
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대전시 유성구",
             "region_code":3020000000,
             "sido":"Daejeon",
             "file_name":"3020000000_Daejeon_Yuseong",
-            "20230331":220
+            "daily_count":[
+                [
+                    "20230331",
+                    220
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"대전시 중구",
             "region_code":3014000000,
             "sido":"Daejeon",
             "file_name":"3014000000_Daejeon_Jung",
-            "20230331":97
+            "daily_count":[
+                [
+                    "20230331",
+                    97
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 강서구",
             "region_code":2644000000,
             "sido":"Busan",
             "file_name":"2644000000_Busan_Gangseo",
-            "20230331":127
+            "daily_count":[
+                [
+                    "20230331",
+                    127
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 금정구",
             "region_code":2641000000,
             "sido":"Busan",
             "file_name":"2641000000_Busan_Geumjeong",
-            "20230331":46
+            "daily_count":[
+                [
+                    "20230331",
+                    46
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 기장군",
             "region_code":2671000000,
             "sido":"Busan",
             "file_name":"2671000000_Busan_Gijangn",
-            "20230331":113
+            "daily_count":[
+                [
+                    "20230331",
+                    113
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 남구",
             "region_code":2629000000,
             "sido":"Busan",
             "file_name":"2629000000_Busan_Nam",
-            "20230331":134
+            "daily_count":[
+                [
+                    "20230331",
+                    134
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 동구",
             "region_code":2617000000,
             "sido":"Busan",
             "file_name":"2617000000_Busan_Dong",
-            "20230331":21
+            "daily_count":[
+                [
+                    "20230331",
+                    21
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 동래구",
             "region_code":2626000000,
             "sido":"Busan",
             "file_name":"2626000000_Busan_Dongnae",
-            "20230331":111
+            "daily_count":[
+                [
+                    "20230331",
+                    111
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 부산진구",
             "region_code":2623000000,
             "sido":"Busan",
             "file_name":"2623000000_Busan_Busanjin",
-            "20230331":177
+            "daily_count":[
+                [
+                    "20230331",
+                    177
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 북구",
             "region_code":2632000000,
             "sido":"Busan",
             "file_name":"2632000000_Busan_Buk",
-            "20230331":190
+            "daily_count":[
+                [
+                    "20230331",
+                    190
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 사상구",
             "region_code":2653000000,
             "sido":"Busan",
             "file_name":"2653000000_Busan_Sasang",
-            "20230331":82
+            "daily_count":[
+                [
+                    "20230331",
+                    82
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 사하구",
             "region_code":2638000000,
             "sido":"Busan",
             "file_name":"2638000000_Busan_Saha",
-            "20230331":161
+            "daily_count":[
+                [
+                    "20230331",
+                    161
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 서구",
             "region_code":2614000000,
             "sido":"Busan",
             "file_name":"2614000000_Busan_Seo",
-            "20230331":32
+            "daily_count":[
+                [
+                    "20230331",
+                    32
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 수영구",
             "region_code":2650000000,
             "sido":"Busan",
             "file_name":"2650000000_Busan_Suyeong",
-            "20230331":60
+            "daily_count":[
+                [
+                    "20230331",
+                    60
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 연제구",
             "region_code":2647000000,
             "sido":"Busan",
             "file_name":"2647000000_Busan_Yeonje",
-            "20230331":111
+            "daily_count":[
+                [
+                    "20230331",
+                    111
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 영도구",
             "region_code":2620000000,
             "sido":"Busan",
             "file_name":"2620000000_Busan_Yeongdo",
-            "20230331":41
+            "daily_count":[
+                [
+                    "20230331",
+                    41
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 중구",
             "region_code":2611000000,
             "sido":"Busan",
             "file_name":"2611000000_Busan_Jung",
-            "20230331":9
+            "daily_count":[
+                [
+                    "20230331",
+                    9
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"부산시 해운대구",
             "region_code":2635000000,
             "sido":"Busan",
             "file_name":"2635000000_Busan_Haeundae",
-            "20230331":167
+            "daily_count":[
+                [
+                    "20230331",
+                    167
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 강릉시",
             "region_code":4215000000,
             "sido":"Gangwondo",
             "file_name":"4215000000_Gangwondo_Gangneung",
-            "20230331":97
+            "daily_count":[
+                [
+                    "20230331",
+                    97
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 고성군",
             "region_code":4282000000,
             "sido":"Gangwondo",
             "file_name":"4282000000_Gangwondo_Goseong",
-            "20230331":10
+            "daily_count":[
+                [
+                    "20230331",
+                    10
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 동해시",
             "region_code":4217000000,
             "sido":"Gangwondo",
             "file_name":"4217000000_Gangwondo_Donghae",
-            "20230331":78
+            "daily_count":[
+                [
+                    "20230331",
+                    78
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 삼척시",
             "region_code":4223000000,
             "sido":"Gangwondo",
             "file_name":"4223000000_Gangwondo_Samcheok",
-            "20230331":40
+            "daily_count":[
+                [
+                    "20230331",
+                    40
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 속초시",
             "region_code":4221000000,
             "sido":"Gangwondo",
             "file_name":"4221000000_Gangwondo_Sokcho",
-            "20230331":84
+            "daily_count":[
+                [
+                    "20230331",
+                    84
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 양구군",
             "region_code":4280000000,
             "sido":"Gangwondo",
             "file_name":"4280000000_Gangwondo_Yanggu",
-            "20230331":7
+            "daily_count":[
+                [
+                    "20230331",
+                    7
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 양양군",
             "region_code":4283000000,
             "sido":"Gangwondo",
             "file_name":"4283000000_Gangwondo_Yangyang",
-            "20230331":14
+            "daily_count":[
+                [
+                    "20230331",
+                    14
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 영월군",
             "region_code":4275000000,
             "sido":"Gangwondo",
             "file_name":"4275000000_Gangwondo_Yeongwol",
-            "20230331":14
+            "daily_count":[
+                [
+                    "20230331",
+                    14
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 원주시",
             "region_code":4213000000,
             "sido":"Gangwondo",
             "file_name":"4213000000_Gangwondo_Wonju",
-            "20230331":357
+            "daily_count":[
+                [
+                    "20230331",
+                    357
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 인제군",
             "region_code":4281000000,
             "sido":"Gangwondo",
             "file_name":"4281000000_Gangwondo_Inje",
-            "20230331":6
+            "daily_count":[
+                [
+                    "20230331",
+                    6
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 정선군",
             "region_code":4277000000,
             "sido":"Gangwondo",
             "file_name":"4277000000_Gangwondo_Jeongseon",
-            "20230331":11
+            "daily_count":[
+                [
+                    "20230331",
+                    11
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 철원군",
             "region_code":4278000000,
             "sido":"Gangwondo",
             "file_name":"4278000000_Gangwondo_Cheorwon",
-            "20230331":3
+            "daily_count":[
+                [
+                    "20230331",
+                    3
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 춘천시",
             "region_code":4211000000,
             "sido":"Gangwondo",
             "file_name":"4211000000_Gangwondo_Chuncheon",
-            "20230331":241
+            "daily_count":[
+                [
+                    "20230331",
+                    241
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 태백시",
             "region_code":4219000000,
             "sido":"Gangwondo",
             "file_name":"4219000000_Gangwondo_Taebaek",
-            "20230331":50
+            "daily_count":[
+                [
+                    "20230331",
+                    50
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 평창군",
             "region_code":4276000000,
             "sido":"Gangwondo",
             "file_name":"4276000000_Gangwondo_Pyeongchang",
-            "20230331":27
+            "daily_count":[
+                [
+                    "20230331",
+                    27
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 홍천군",
             "region_code":4272000000,
             "sido":"Gangwondo",
             "file_name":"4272000000_Gangwondo_Hongcheon",
-            "20230331":32
+            "daily_count":[
+                [
+                    "20230331",
+                    32
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 화천군",
             "region_code":4279000000,
             "sido":"Gangwondo",
             "file_name":"4279000000_Gangwondo_Hwacheon",
-            "20230331":3
+            "daily_count":[
+                [
+                    "20230331",
+                    3
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"강원도 횡성군",
             "region_code":4273000000,
             "sido":"Gangwondo",
             "file_name":"4273000000_Gangwondo_Hoengseong",
-            "20230331":13
+            "daily_count":[
+                [
+                    "20230331",
+                    13
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 거제시",
             "region_code":4831000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4831000000_Gyeongsangnamdo_Geoje",
-            "20230331":119
+            "daily_count":[
+                [
+                    "20230331",
+                    119
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 거창군",
             "region_code":4888000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4888000000_Gyeongsangnamdo_Geochang",
-            "20230331":17
+            "daily_count":[
+                [
+                    "20230331",
+                    17
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 고성군",
             "region_code":4882000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4882000000_Gyeongsangnamdo_Goseong",
-            "20230331":15
+            "daily_count":[
+                [
+                    "20230331",
+                    15
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 김해시",
             "region_code":4825000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4825000000_Gyeongsangnamdo_Gimhae",
-            "20230331":393
+            "daily_count":[
+                [
+                    "20230331",
+                    393
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 남해군",
             "region_code":4884000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4884000000_Gyeongsangnamdo_Namhae",
-            "20230331":5
+            "daily_count":[
+                [
+                    "20230331",
+                    5
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 밀양시",
             "region_code":4827000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4827000000_Gyeongsangnamdo_Miryang",
-            "20230331":55
+            "daily_count":[
+                [
+                    "20230331",
+                    55
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 사천시",
             "region_code":4824000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4824000000_Gyeongsangnamdo_Sacheon",
-            "20230331":83
+            "daily_count":[
+                [
+                    "20230331",
+                    83
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 산청군",
             "region_code":4886000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4886000000_Gyeongsangnamdo_Sancheong",
-            "20230331":2
+            "daily_count":[
+                [
+                    "20230331",
+                    2
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 양산시",
             "region_code":4833000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4833000000_Gyeongsangnamdo_Yangsan",
-            "20230331":243
+            "daily_count":[
+                [
+                    "20230331",
+                    243
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 의령군",
             "region_code":4872000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4872000000_Gyeongsangnamdo_Uiryeong",
-            "20230331":2
+            "daily_count":[
+                [
+                    "20230331",
+                    2
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 진주시",
             "region_code":4817000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4817000000_Gyeongsangnamdo_Jinju",
-            "20230331":249
+            "daily_count":[
+                [
+                    "20230331",
+                    249
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 창녕군",
             "region_code":4874000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4874000000_Gyeongsangnamdo_Changnyeong",
-            "20230331":25
+            "daily_count":[
+                [
+                    "20230331",
+                    25
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 창원시 마산합포구",
             "region_code":4812500000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4812500000_Gyeongsangnamdo_Changwon_Masanhappo",
-            "20230331":109
+            "daily_count":[
+                [
+                    "20230331",
+                    109
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 창원시 마산회원구",
             "region_code":4812700000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4812700000_Gyeongsangnamdo_Changwon_Masanhoewon",
-            "20230331":129
+            "daily_count":[
+                [
+                    "20230331",
+                    129
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 창원시 성산구",
             "region_code":4812300000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4812300000_Gyeongsangnamdo_Changwon_Seongsan",
-            "20230331":226
+            "daily_count":[
+                [
+                    "20230331",
+                    226
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 창원시 의창구",
             "region_code":4812100000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4812100000_Gyeongsangnamdo_Changwon_Uichang",
-            "20230331":130
+            "daily_count":[
+                [
+                    "20230331",
+                    130
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 창원시 진해구",
             "region_code":4812900000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4812900000_Gyeongsangnamdo_Changwon_Jinhae",
-            "20230331":111
+            "daily_count":[
+                [
+                    "20230331",
+                    111
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 통영시",
             "region_code":4822000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4822000000_Gyeongsangnamdo_Tongyeong",
-            "20230331":74
+            "daily_count":[
+                [
+                    "20230331",
+                    74
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 하동군",
             "region_code":4885000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4885000000_Gyeongsangnamdo_Hadong",
-            "20230331":9
+            "daily_count":[
+                [
+                    "20230331",
+                    9
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 함안군",
             "region_code":4873000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4873000000_Gyeongsangnamdo_Haman",
-            "20230331":37
+            "daily_count":[
+                [
+                    "20230331",
+                    37
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 함양군",
             "region_code":4887000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4887000000_Gyeongsangnamdo_Hamyang",
-            "20230331":5
+            "daily_count":[
+                [
+                    "20230331",
+                    5
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상남도 합천군",
             "region_code":4889000000,
             "sido":"Gyeongsangnamdo",
             "file_name":"4889000000_Gyeongsangnamdo_Hapcheon",
-            "20230331":5
+            "daily_count":[
+                [
+                    "20230331",
+                    5
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 경산시",
             "region_code":4729000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4729000000_Gyeongsangbukdo_Gyeongsan",
-            "20230331":137
+            "daily_count":[
+                [
+                    "20230331",
+                    137
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 경주시",
             "region_code":4713000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4713000000_Gyeongsangbukdo_Gyeongju",
-            "20230331":153
+            "daily_count":[
+                [
+                    "20230331",
+                    153
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 고령군",
             "region_code":4783000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4783000000_Gyeongsangbukdo_Goryeong",
-            "20230331":3
+            "daily_count":[
+                [
+                    "20230331",
+                    3
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 구미시",
             "region_code":4719000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4719000000_Gyeongsangbukdo_Gumi",
-            "20230331":331
+            "daily_count":[
+                [
+                    "20230331",
+                    331
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 군위군",
             "region_code":4772000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4772000000_Gyeongsangbukdo_Gunwi",
-            "20230331":2
+            "daily_count":[
+                [
+                    "20230331",
+                    2
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 김천시",
             "region_code":4715000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4715000000_Gyeongsangbukdo_Gimcheon",
-            "20230331":107
+            "daily_count":[
+                [
+                    "20230331",
+                    107
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 문경시",
             "region_code":4728000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4728000000_Gyeongsangbukdo_Mungyeong",
-            "20230331":31
+            "daily_count":[
+                [
+                    "20230331",
+                    31
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 봉화군",
             "region_code":4792000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4792000000_Gyeongsangbukdo_Bonghwa",
-            "20230331":3
+            "daily_count":[
+                [
+                    "20230331",
+                    3
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 상주시",
             "region_code":4725000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4725000000_Gyeongsangbukdo_Sangju",
-            "20230331":31
+            "daily_count":[
+                [
+                    "20230331",
+                    31
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 성주군",
             "region_code":4784000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4784000000_Gyeongsangbukdo_Seongju",
-            "20230331":3
+            "daily_count":[
+                [
+                    "20230331",
+                    3
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 안동시",
             "region_code":4717000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4717000000_Gyeongsangbukdo_Andong",
-            "20230331":93
+            "daily_count":[
+                [
+                    "20230331",
+                    93
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 영덕군",
             "region_code":4777000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4777000000_Gyeongsangbukdo_Yeongdeok",
-            "20230331":1
+            "daily_count":[
+                [
+                    "20230331",
+                    1
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 영양군",
             "region_code":4776000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4776000000_Gyeongsangbukdo_Yeongyang",
-            "20230331":0
+            "daily_count":[
+                [
+                    "20230331",
+                    0
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 영주시",
             "region_code":4721000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4721000000_Gyeongsangbukdo_Yeongju",
-            "20230331":43
+            "daily_count":[
+                [
+                    "20230331",
+                    43
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 영천시",
             "region_code":4723000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4723000000_Gyeongsangbukdo_Yeongcheon",
-            "20230331":82
+            "daily_count":[
+                [
+                    "20230331",
+                    82
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 예천군",
             "region_code":4790000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4790000000_Gyeongsangbukdo_Yecheon",
-            "20230331":20
+            "daily_count":[
+                [
+                    "20230331",
+                    20
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 울진군",
             "region_code":4793000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4793000000_Gyeongsangbukdo_Uljin",
-            "20230331":7
+            "daily_count":[
+                [
+                    "20230331",
+                    7
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 의성군",
             "region_code":4773000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4773000000_Gyeongsangbukdo_Uiseong",
-            "20230331":4
+            "daily_count":[
+                [
+                    "20230331",
+                    4
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 청도군",
             "region_code":4782000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4782000000_Gyeongsangbukdo_Cheongdo",
-            "20230331":4
+            "daily_count":[
+                [
+                    "20230331",
+                    4
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 청송군",
             "region_code":4775000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4775000000_Gyeongsangbukdo_Cheongsong",
-            "20230331":2
+            "daily_count":[
+                [
+                    "20230331",
+                    2
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 칠곡군",
             "region_code":4785000000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4785000000_Gyeongsangbukdo_Chilgok",
-            "20230331":100
+            "daily_count":[
+                [
+                    "20230331",
+                    100
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 포항시 남구",
             "region_code":4711100000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4711100000_Gyeongsangbukdo_Pohang_Nam",
-            "20230331":147
+            "daily_count":[
+                [
+                    "20230331",
+                    147
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"경상북도 포항시 북구",
             "region_code":4711300000,
             "sido":"Gyeongsangbukdo",
             "file_name":"4711300000_Gyeongsangbukdo_Pohang_Buk",
-            "20230331":219
+            "daily_count":[
+                [
+                    "20230331",
+                    219
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"세종시 세종시",
             "region_code":3611000000,
             "sido":"Sejong",
             "file_name":"3611000000_Sejong_Sejong",
-            "20230331":401
+            "daily_count":[
+                [
+                    "20230331",
+                    401
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"울산시 남구",
             "region_code":3114000000,
             "sido":"Ulsan",
             "file_name":"3114000000_Ulsan_Nam",
-            "20230331":240
+            "daily_count":[
+                [
+                    "20230331",
+                    240
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"울산시 동구",
             "region_code":3117000000,
             "sido":"Ulsan",
             "file_name":"3117000000_Ulsan_Dong",
-            "20230331":73
+            "daily_count":[
+                [
+                    "20230331",
+                    73
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"울산시 북구",
             "region_code":3120000000,
             "sido":"Ulsan",
             "file_name":"3120000000_Ulsan_Buk",
-            "20230331":192
+            "daily_count":[
+                [
+                    "20230331",
+                    192
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"울산시 울주군",
             "region_code":3171000000,
             "sido":"Ulsan",
             "file_name":"3171000000_Ulsan_Ulju",
-            "20230331":108
+            "daily_count":[
+                [
+                    "20230331",
+                    108
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"울산시 중구",
             "region_code":3111000000,
             "sido":"Ulsan",
             "file_name":"3111000000_Ulsan_Jung",
-            "20230331":132
+            "daily_count":[
+                [
+                    "20230331",
+                    132
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 강진군",
             "region_code":4681000000,
             "sido":"Jeollanamdo",
             "file_name":"4681000000_Jeollanamdo_Gangjin",
-            "20230331":3
+            "daily_count":[
+                [
+                    "20230331",
+                    3
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 고흥군",
             "region_code":4677000000,
             "sido":"Jeollanamdo",
             "file_name":"4677000000_Jeollanamdo_Goheung",
-            "20230331":12
+            "daily_count":[
+                [
+                    "20230331",
+                    12
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 곡성군",
             "region_code":4672000000,
             "sido":"Jeollanamdo",
             "file_name":"4672000000_Jeollanamdo_Gokseong",
-            "20230331":6
+            "daily_count":[
+                [
+                    "20230331",
+                    6
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 광양시",
             "region_code":4623000000,
             "sido":"Jeollanamdo",
             "file_name":"4623000000_Jeollanamdo_Gwangyang",
-            "20230331":150
+            "daily_count":[
+                [
+                    "20230331",
+                    150
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 구례군",
             "region_code":4673000000,
             "sido":"Jeollanamdo",
             "file_name":"4673000000_Jeollanamdo_Gurye",
-            "20230331":7
+            "daily_count":[
+                [
+                    "20230331",
+                    7
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 나주시",
             "region_code":4617000000,
             "sido":"Jeollanamdo",
             "file_name":"4617000000_Jeollanamdo_Naju",
-            "20230331":66
+            "daily_count":[
+                [
+                    "20230331",
+                    66
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 담양군",
             "region_code":4671000000,
             "sido":"Jeollanamdo",
             "file_name":"4671000000_Jeollanamdo_Damyang",
-            "20230331":4
+            "daily_count":[
+                [
+                    "20230331",
+                    4
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 목포시",
             "region_code":4611000000,
             "sido":"Jeollanamdo",
             "file_name":"4611000000_Jeollanamdo_Mokpo",
-            "20230331":146
+            "daily_count":[
+                [
+                    "20230331",
+                    146
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 무안군",
             "region_code":4684000000,
             "sido":"Jeollanamdo",
             "file_name":"4684000000_Jeollanamdo_Muan",
-            "20230331":61
+            "daily_count":[
+                [
+                    "20230331",
+                    61
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 보성군",
             "region_code":4678000000,
             "sido":"Jeollanamdo",
             "file_name":"4678000000_Jeollanamdo_Boseong",
-            "20230331":11
+            "daily_count":[
+                [
+                    "20230331",
+                    11
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 순천시",
             "region_code":4615000000,
             "sido":"Jeollanamdo",
             "file_name":"4615000000_Jeollanamdo_Suncheon??",
-            "20230331":199
+            "daily_count":[
+                [
+                    "20230331",
+                    199
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 여수시",
             "region_code":4613000000,
             "sido":"Jeollanamdo",
             "file_name":"4613000000_Jeollanamdo_Yeosu",
-            "20230331":129
+            "daily_count":[
+                [
+                    "20230331",
+                    129
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 영광군",
             "region_code":4687000000,
             "sido":"Jeollanamdo",
             "file_name":"4687000000_Jeollanamdo_Yeonggwang",
-            "20230331":9
+            "daily_count":[
+                [
+                    "20230331",
+                    9
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 영암군",
             "region_code":4683000000,
             "sido":"Jeollanamdo",
             "file_name":"4683000000_Jeollanamdo_Yeongam",
-            "20230331":57
+            "daily_count":[
+                [
+                    "20230331",
+                    57
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 완도군",
             "region_code":4689000000,
             "sido":"Jeollanamdo",
             "file_name":"4689000000_Jeollanamdo_Wando",
-            "20230331":4
+            "daily_count":[
+                [
+                    "20230331",
+                    4
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 장성군",
             "region_code":4688000000,
             "sido":"Jeollanamdo",
             "file_name":"4688000000_Jeollanamdo_Jangseong",
-            "20230331":7
+            "daily_count":[
+                [
+                    "20230331",
+                    7
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 장흥군",
             "region_code":4680000000,
             "sido":"Jeollanamdo",
             "file_name":"4680000000_Jeollanamdo_Jangheung",
-            "20230331":6
+            "daily_count":[
+                [
+                    "20230331",
+                    6
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 진도군",
             "region_code":4690000000,
             "sido":"Jeollanamdo",
             "file_name":"4690000000_Jeollanamdo_Jindo",
-            "20230331":3
+            "daily_count":[
+                [
+                    "20230331",
+                    3
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 함평군",
             "region_code":4686000000,
             "sido":"Jeollanamdo",
             "file_name":"4686000000_Jeollanamdo_Hampyeong",
-            "20230331":2
+            "daily_count":[
+                [
+                    "20230331",
+                    2
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 해남군",
             "region_code":4682000000,
             "sido":"Jeollanamdo",
             "file_name":"4682000000_Jeollanamdo_Haenam",
-            "20230331":24
+            "daily_count":[
+                [
+                    "20230331",
+                    24
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라남도 화순군",
             "region_code":4679000000,
             "sido":"Jeollanamdo",
             "file_name":"4679000000_Jeollanamdo_Hwasun",
-            "20230331":30
+            "daily_count":[
+                [
+                    "20230331",
+                    30
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 고창군",
             "region_code":4579000000,
             "sido":"Jeollabukdo",
             "file_name":"4579000000_Jeollabukdo_Gochang",
-            "20230331":8
+            "daily_count":[
+                [
+                    "20230331",
+                    8
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 군산시",
             "region_code":4513000000,
             "sido":"Jeollabukdo",
             "file_name":"4513000000_Jeollabukdo_Gunsan",
-            "20230331":199
+            "daily_count":[
+                [
+                    "20230331",
+                    199
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 김제시",
             "region_code":4521000000,
             "sido":"Jeollabukdo",
             "file_name":"4521000000_Jeollabukdo_Gimje",
-            "20230331":34
+            "daily_count":[
+                [
+                    "20230331",
+                    34
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 남원시",
             "region_code":4519000000,
             "sido":"Jeollabukdo",
             "file_name":"4519000000_Jeollabukdo_Namwon",
-            "20230331":27
+            "daily_count":[
+                [
+                    "20230331",
+                    27
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 무주군",
             "region_code":4573000000,
             "sido":"Jeollabukdo",
             "file_name":"4573000000_Jeollabukdo_Muju",
-            "20230331":2
+            "daily_count":[
+                [
+                    "20230331",
+                    2
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 부안군",
             "region_code":4580000000,
             "sido":"Jeollabukdo",
             "file_name":"4580000000_Jeollabukdo_Buan",
-            "20230331":16
+            "daily_count":[
+                [
+                    "20230331",
+                    16
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 순창군",
             "region_code":4577000000,
             "sido":"Jeollabukdo",
             "file_name":"4577000000_Jeollabukdo_Sunchang",
-            "20230331":5
+            "daily_count":[
+                [
+                    "20230331",
+                    5
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 완주군",
             "region_code":4571000000,
             "sido":"Jeollabukdo",
             "file_name":"4571000000_Jeollabukdo_Wanju",
-            "20230331":59
+            "daily_count":[
+                [
+                    "20230331",
+                    59
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 익산시",
             "region_code":4514000000,
             "sido":"Jeollabukdo",
             "file_name":"4514000000_Jeollabukdo_Iksan",
-            "20230331":139
+            "daily_count":[
+                [
+                    "20230331",
+                    139
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 임실군",
             "region_code":4575000000,
             "sido":"Jeollabukdo",
             "file_name":"4575000000_Jeollabukdo_Imsil",
-            "20230331":2
+            "daily_count":[
+                [
+                    "20230331",
+                    2
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 장수군",
             "region_code":4574000000,
             "sido":"Jeollabukdo",
             "file_name":"4574000000_Jeollabukdo_Jangsu",
-            "20230331":1
+            "daily_count":[
+                [
+                    "20230331",
+                    1
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 전주시 덕진구",
             "region_code":4511300000,
             "sido":"Jeollabukdo",
             "file_name":"4511300000_Jeollabukdo_Jeonju_Deokjin",
-            "20230331":294
+            "daily_count":[
+                [
+                    "20230331",
+                    294
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 전주시 완산구",
             "region_code":4511100000,
             "sido":"Jeollabukdo",
             "file_name":"4511100000_Jeollabukdo_Jeonju_Wansan",
-            "20230331":218
+            "daily_count":[
+                [
+                    "20230331",
+                    218
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 정읍시",
             "region_code":4518000000,
             "sido":"Jeollabukdo",
             "file_name":"4518000000_Jeollabukdo_Jeongeup",
-            "20230331":67
+            "daily_count":[
+                [
+                    "20230331",
+                    67
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"전라북도 진안군",
             "region_code":4572000000,
             "sido":"Jeollabukdo",
             "file_name":"4572000000_Jeollabukdo_Jinan",
-            "20230331":3
+            "daily_count":[
+                [
+                    "20230331",
+                    3
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"제주도 제주시",
             "region_code":5011000000,
             "sido":"Jejudo",
             "file_name":"5011000000_Jejudo_Jeju",
-            "20230331":73
+            "daily_count":[
+                [
+                    "20230331",
+                    73
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"제주도 서귀포시",
             "region_code":5013000000,
             "sido":"Jejudo",
             "file_name":"5013000000_Jejudo_Seogwipo",
-            "20230331":44
+            "daily_count":[
+                [
+                    "20230331",
+                    44
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 계룡시",
             "region_code":4425000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4425000000_Chungcheongnamdo_Gyeryong",
-            "20230331":35
+            "daily_count":[
+                [
+                    "20230331",
+                    35
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 공주시",
             "region_code":4415000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4415000000_Chungcheongnamdo_Gongju",
-            "20230331":41
+            "daily_count":[
+                [
+                    "20230331",
+                    41
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 금산군",
             "region_code":4471000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4471000000_Chungcheongnamdo_Geumsan",
-            "20230331":17
+            "daily_count":[
+                [
+                    "20230331",
+                    17
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 논산시",
             "region_code":4423000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4423000000_Chungcheongnamdo_Nonsan",
-            "20230331":41
+            "daily_count":[
+                [
+                    "20230331",
+                    41
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 당진시",
             "region_code":4427000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4427000000_Chungcheongnamdo_Dangjin",
-            "20230331":98
+            "daily_count":[
+                [
+                    "20230331",
+                    98
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 보령시",
             "region_code":4418000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4418000000_Chungcheongnamdo_Boryeong",
-            "20230331":53
+            "daily_count":[
+                [
+                    "20230331",
+                    53
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 부여군",
             "region_code":4476000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4476000000_Chungcheongnamdo_Buyeo",
-            "20230331":12
+            "daily_count":[
+                [
+                    "20230331",
+                    12
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 서산시",
             "region_code":4421000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4421000000_Chungcheongnamdo_Seosan",
-            "20230331":225
+            "daily_count":[
+                [
+                    "20230331",
+                    225
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 서천군",
             "region_code":4477000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4477000000_Chungcheongnamdo_Seocheon",
-            "20230331":11
+            "daily_count":[
+                [
+                    "20230331",
+                    11
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 아산시",
             "region_code":4420000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4420000000_Chungcheongnamdo_Asan",
-            "20230331":343
+            "daily_count":[
+                [
+                    "20230331",
+                    343
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 예산군",
             "region_code":4481000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4481000000_Chungcheongnamdo_Yesan",
-            "20230331":36
+            "daily_count":[
+                [
+                    "20230331",
+                    36
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 천안시 동남구",
             "region_code":4413100000,
             "sido":"Chungcheongnamdo",
             "file_name":"4413100000_Chungcheongnamdo_Cheonan_Dongnam",
-            "20230331":241
+            "daily_count":[
+                [
+                    "20230331",
+                    241
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 천안시 서북구",
             "region_code":4413300000,
             "sido":"Chungcheongnamdo",
             "file_name":"4413300000_Chungcheongnamdo_Cheonan_Seobuk",
-            "20230331":427
+            "daily_count":[
+                [
+                    "20230331",
+                    427
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 청양군",
             "region_code":4479000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4479000000_Chungcheongnamdo_Cheongyang",
-            "20230331":1
+            "daily_count":[
+                [
+                    "20230331",
+                    1
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 태안군",
             "region_code":4482500000,
             "sido":"Chungcheongnamdo",
             "file_name":"4482500000_Chungcheongnamdo_Taean",
-            "20230331":26
+            "daily_count":[
+                [
+                    "20230331",
+                    26
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청남도 홍성군",
             "region_code":4480000000,
             "sido":"Chungcheongnamdo",
             "file_name":"4480000000_Chungcheongnamdo_Hongseong",
-            "20230331":48
+            "daily_count":[
+                [
+                    "20230331",
+                    48
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 괴산군",
             "region_code":4376000000,
             "sido":"Chungcheongbukdo",
             "file_name":"4376000000_Chungcheongbukdo_Goesan",
-            "20230331":4
+            "daily_count":[
+                [
+                    "20230331",
+                    4
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 단양군",
             "region_code":4380000000,
             "sido":"Chungcheongbukdo",
             "file_name":"4380000000_Chungcheongbukdo_Danyang",
-            "20230331":6
+            "daily_count":[
+                [
+                    "20230331",
+                    6
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 보은군",
             "region_code":4372000000,
             "sido":"Chungcheongbukdo",
             "file_name":"4372000000_Chungcheongbukdo_Boeun",
-            "20230331":17
+            "daily_count":[
+                [
+                    "20230331",
+                    17
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 영동군",
             "region_code":4374000000,
             "sido":"Chungcheongbukdo",
             "file_name":"4374000000_Chungcheongbukdo_Yeongdong",
-            "20230331":13
+            "daily_count":[
+                [
+                    "20230331",
+                    13
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 옥천군",
             "region_code":4373000000,
             "sido":"Chungcheongbukdo",
             "file_name":"4373000000_Chungcheongbukdo_Okcheon",
-            "20230331":9
+            "daily_count":[
+                [
+                    "20230331",
+                    9
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 음성군",
             "region_code":4377000000,
             "sido":"Chungcheongbukdo",
             "file_name":"4377000000_Chungcheongbukdo_Eumseong",
-            "20230331":67
+            "daily_count":[
+                [
+                    "20230331",
+                    67
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 제천시",
             "region_code":4315000000,
             "sido":"Chungcheongbukdo",
             "file_name":"4315000000_Chungcheongbukdo_Jecheon",
-            "20230331":108
+            "daily_count":[
+                [
+                    "20230331",
+                    108
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 증평군",
             "region_code":4374500000,
             "sido":"Chungcheongbukdo",
             "file_name":"4374500000_Chungcheongbukdo_Jeungpyeong",
-            "20230331":47
+            "daily_count":[
+                [
+                    "20230331",
+                    47
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 진천군",
             "region_code":4375000000,
             "sido":"Chungcheongbukdo",
             "file_name":"4375000000_Chungcheongbukdo_Jincheon",
-            "20230331":57
+            "daily_count":[
+                [
+                    "20230331",
+                    57
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 청주시 상당구",
             "region_code":4311100000,
             "sido":"Chungcheongbukdo",
             "file_name":"4311100000_Chungcheongbukdo_Cheongju_Sangdang",
-            "20230331":165
+            "daily_count":[
+                [
+                    "20230331",
+                    165
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 청주시 서원구",
             "region_code":4311200000,
             "sido":"Chungcheongbukdo",
             "file_name":"4311200000_Chungcheongbukdo_Cheongju_Seowon",
-            "20230331":175
+            "daily_count":[
+                [
+                    "20230331",
+                    175
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 청주시 청원구",
             "region_code":4311400000,
             "sido":"Chungcheongbukdo",
             "file_name":"4311400000_Chungcheongbukdo_Cheongju_Cheongwon",
-            "20230331":200
+            "daily_count":[
+                [
+                    "20230331",
+                    200
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 청주시 흥덕구",
             "region_code":4311300000,
             "sido":"Chungcheongbukdo",
             "file_name":"4311300000_Chungcheongbukdo_Cheongju_Heungdeok",
-            "20230331":283
+            "daily_count":[
+                [
+                    "20230331",
+                    283
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         },
         {
             "gungu":"충청북도 충주시",
             "region_code":4313000000,
             "sido":"Chungcheongbukdo",
             "file_name":"4313000000_Chungcheongbukdo_Chungju",
-            "20230331":190
+            "daily_count":[
+                [
+                    "20230331",
+                    190
+                ],
+                [
+                    "20230402",
+                    0
+                ]
+            ]
         }
     ]
 }
