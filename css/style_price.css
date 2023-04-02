@@ -23,7 +23,7 @@
   }
   .price_content{
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 0.7fr 1fr;
     margin-top: 5px;
   }
   .price_num{
