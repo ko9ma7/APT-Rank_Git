@@ -1,9 +1,51 @@
 {
-    "lastBuildDate": "Sun, 02 Apr 2023 18:15:49 +0900",
-    "total": 712173,
+    "lastBuildDate": "Sun, 02 Apr 2023 19:17:15 +0900",
+    "total": 712179,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "“금리 1~2% 대출 해드려요”…최대 2억, 조건 알고보니",
+            "originallink": "https://www.mk.co.kr/article/10702502",
+            "link": "https://n.news.naver.com/mnews/article/009/0005110533?sid=101",
+            "description": "청년 버팀목대출 한도 늘려 월 대출실적 6배 이상 껑충 2030세대의 주택 구입 증가 추세를 놓고 <b>부동산 시장</b>이 바닥에 접근하고 있다는 해석도 나온다. 고준석 제이에듀투자자문 대표는 “작년 하반기부터 연초까지... ",
+            "pubDate": "Sun, 02 Apr 2023 19:14:00 +0900"
+        },
+        {
+            "title": "`아파트 차별화`로 미분양 파고 넘는다",
+            "originallink": "http://www.dt.co.kr/contents.html?article_no=2023040302101663075001&ref=naver",
+            "link": "https://n.news.naver.com/mnews/article/029/0002792443?sid=101",
+            "description": "대형 건설사 관계자는 &quot;<b>부동산 시장</b>이 호황일 때는 분양만 하면 완판이 가능했지만, 앞으로는 차별화 된 아파트 단지만 기대만큼의 분양 성적을 거두게 될 것&quot;이라고 전했다.",
+            "pubDate": "Sun, 02 Apr 2023 18:55:00 +0900"
+        },
+        {
+            "title": "[생생확대경]주택<b>시장</b> 민낯 보인 &apos;대우건설 440억 손절&apos;",
+            "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=02010646635572184",
+            "link": "https://n.news.naver.com/mnews/article/018/0005454549?sid=110",
+            "description": "지난해 하반기 <b>부동산 시장</b> 분위기가 급격하게 변했다. 기준금리가 가파르게 오르더니 본PF를 앞둔 지난해 말엔 3%를 훌쩍 넘겼다. 대우건설은 감당해야 할 금액이 1200억원에서 1300억원으로 늘었다고 했다. 금리와... ",
+            "pubDate": "Sun, 02 Apr 2023 18:47:00 +0900"
+        },
+        {
+            "title": "“AI로 적정 낙찰가 예측…주거용 넘어 상가·토지까지”",
+            "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=02007366635572184",
+            "link": "https://n.news.naver.com/mnews/article/018/0005454547?sid=101",
+            "description": "강 센터장은 AI가 <b>부동산</b> 경매 <b>시장</b>에 더 많은 영향을 미치리라 예상했다. 그는 “일일이 찾지 않아도 원하는 경매물건을 찾아주고 자동으로 작성해 출력하는 입찰표, 권리관계 등 리스크 분석부터 수익률 분석을 통한... ",
+            "pubDate": "Sun, 02 Apr 2023 18:41:00 +0900"
+        },
+        {
+            "title": "이달부터 입주 전 전매 가능…분양권으로 내집마련 해볼까",
+            "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=01981126635572184",
+            "link": "https://n.news.naver.com/mnews/article/018/0005454538?sid=101",
+            "description": "2일 <b>부동산 시장</b>에 따르면 실거주 의무 폐지와 함께 분양권 전매제한 완화가 이뤄지면 <b>부동산 시장</b>의 거래가 늘어나는데 도움을 줄 것이란 전만이 나온다. 분양권은 준공 후 아파트에 입주할 수 있는 권리다. 정부가... ",
+            "pubDate": "Sun, 02 Apr 2023 18:29:00 +0900"
+        },
+        {
+            "title": "용인·동탄…일자리 생기니 <b>부동산</b> &apos;들썩&apos;",
+            "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=01977846635572184",
+            "link": "https://n.news.naver.com/mnews/article/018/0005454537?sid=101",
+            "description": "<b>부동산 시장</b> 침체기에도 용인, 동탄 등 대규모 일자리가 들어서는 지역에 주택<b>시장</b>이 들썩이고 있다. 통상 일자리가 들어서면 자연스럽게 임대수요가 늘어나고 상권이 활발해지면서 <b>부동산</b> 가격을 밀어 올리는... ",
+            "pubDate": "Sun, 02 Apr 2023 18:28:00 +0900"
+        },
         {
             "title": "<b>부동산</b>PF 익스포저 역대급인데…메리츠證 등 증권사는 충당금 삭감",
             "originallink": "https://www.seoul.co.kr/news/newsView.php?id=20230402500112&wlog_tag3=naver",
@@ -40,7 +82,7 @@
             "pubDate": "Sun, 02 Apr 2023 18:02:00 +0900"
         },
         {
-            "title": "아마존 혁신매장 &quot;영업 끝&quot;…SVB 파산 여파에 흉흉한 실리콘밸리",
+            "title": "&quot;2차 정리해고 닥친다&quot;…SVB 파산 여파에 흉흉한 실리콘밸리",
             "originallink": "https://www.hankyung.com/international/article/2023040201171",
             "link": "https://n.news.naver.com/mnews/article/015/0004827705?sid=104",
             "description": "테크기업의 정리해고가 사무실 폐쇄로 이어지면서 오피스를 비롯한 <b>부동산 시장</b>도 타격을 받고 있다. 사상 유례없는 호황을 누리던 테크기업들이 코로나19 팬데믹 종료 이후 수요 감소로 실적이 악화하자 적극적인... ",
@@ -138,17 +180,17 @@
             "pubDate": "Sun, 02 Apr 2023 16:54:00 +0900"
         },
         {
-            "title": "[리빙 인사이트] 휘청이는 <b>시장</b>, 가구·인테리어가 사는 법…Vol.3 이케아",
-            "originallink": "http://www.enewstoday.co.kr/news/articleView.html?idxno=1650451",
-            "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=1650451",
-            "description": "그 배경에는 <b>부동산 시장</b>의 급격한 악화와 전년도 과밀화된 수요에 따른 기저효과가 있지만, 일각에서는 국내 가구업계의 동반성장을 이끌었던 이케아의 질주에 제동이 걸리기 시작했다는 진단이 나오고 있다. 또한... ",
-            "pubDate": "Sun, 02 Apr 2023 16:33:00 +0900"
-        },
-        {
             "title": "[매일경제TV] 꽁꽁 언 <b>부동산 시장</b> 훈풍 불까",
             "originallink": "https://www.mk.co.kr/article/10702307",
             "link": "https://n.news.naver.com/mnews/article/009/0005110413?sid=106",
             "description": "주택에 적용하는 실거주 의무를 폐지하기 위한 움직임을 보이면서 미분양 문제 해소에 대한 기대감도 점점 커지고 있다. 그동안 꽁꽁 얼어붙었던 분양 <b>시장</b>에 훈풍이 불어올지 <b>부동산</b> 전문가의 분석을 통해 알아보자.",
+            "pubDate": "Sun, 02 Apr 2023 16:33:00 +0900"
+        },
+        {
+            "title": "[리빙 인사이트] 휘청이는 <b>시장</b>, 가구·인테리어가 사는 법…Vol.3 이케아",
+            "originallink": "http://www.enewstoday.co.kr/news/articleView.html?idxno=1650451",
+            "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=1650451",
+            "description": "그 배경에는 <b>부동산 시장</b>의 급격한 악화와 전년도 과밀화된 수요에 따른 기저효과가 있지만, 일각에서는 국내 가구업계의 동반성장을 이끌었던 이케아의 질주에 제동이 걸리기 시작했다는 진단이 나오고 있다. 또한... ",
             "pubDate": "Sun, 02 Apr 2023 16:33:00 +0900"
         },
         {
@@ -171,48 +213,6 @@
             "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=278458",
             "description": "슬로모션 위기는 신용경색으로 인한 상업용 <b>부동산 시장</b> 침체를 우려하는 견해다. 반면 골디락스 주장은 연준의 통화정책이 경제지표와 금융여건에 따라 달라질 수 있기 때문에 위기의 확산을 통제해줄 수 있다는... ",
             "pubDate": "Sun, 02 Apr 2023 16:08:00 +0900"
-        },
-        {
-            "title": "이번주 &apos;휘경자이디센시아&apos; 등 3300여가구 분양 [집슐랭]",
-            "originallink": "https://www.sedaily.com/NewsView/29O5BXKTL1",
-            "link": "https://n.news.naver.com/mnews/article/011/0004174217?sid=101",
-            "description": "내년 예정된 GTX-A 운정역(가칭) 개통 시 서울 접근성이 크게 개선될 것으로 기대된다. *&apos;집슐랭 연재&apos; 구독을 하시면 <b>부동산 시장</b> 및 재테크와 관련한 유익한 정보를 실시간으로 생생하게 전달받으실 수 있습니다.",
-            "pubDate": "Sun, 02 Apr 2023 15:28:00 +0900"
-        },
-        {
-            "title": "국토부, <b>부동산</b> 온라인 불법광고 뿌리 뽑는다",
-            "originallink": "http://www.namdonews.com/news/articleView.html?idxno=719675",
-            "link": "http://www.namdonews.com/news/articleView.html?idxno=719675",
-            "description": "<b>부동산</b>광고<b>시장</b>감시센터 누리집 화면. #A씨는 한 유튜브 광고를 보고 전화로 문의하고 며칠 후 방문을 약속했다. 방문 전일과 당일에도 방문여부를 지속적으로 확인했다. 하지만 도착 후 해당 물건이 이미 계약됐다며... ",
-            "pubDate": "Sun, 02 Apr 2023 15:20:00 +0900"
-        },
-        {
-            "title": "2년 전부터 해외대체투자 경고음…“셀다운 정리 못 해 신규 투자 난항” [해...",
-            "originallink": "https://www.etoday.co.kr/news/view/2236608",
-            "link": "https://www.etoday.co.kr/news/view/2236608",
-            "description": "업계는 해외 <b>부동산 시장</b>의 동향에 촉각을 곤두세우고 있다. 증권업계 관계자는 “신규 물건이 그렇게 많지 않아서 신규로 진행하는 건이 많지 않다”며 “이미 진작에 기표했는데 셀다운이 안 되는 것들, 미매각 기간이... ",
-            "pubDate": "Sun, 02 Apr 2023 15:14:00 +0900"
-        },
-        {
-            "title": "올해 정부 곳간 20조원 부족 전망…4년 만에 세수결손 우려",
-            "originallink": "https://news.imaeil.com/page/view/2023040215012582288",
-            "link": "https://n.news.naver.com/mnews/article/088/0000806657?sid=101",
-            "description": "<b>부동산</b>·주식<b>시장</b> 침체로 양도소득세와 증권거래세, 부가가치세 등이 감소했기 때문이다. 올해 정부가 짠 세입예산 대비 국세 수입이 얼마나 들어왔는지를 의미하는 &apos;진도율&apos;도 2월 13.5%에 머물렀다. 최근 5년간 2월... ",
-            "pubDate": "Sun, 02 Apr 2023 15:12:00 +0900"
-        },
-        {
-            "title": "[단독] 증권사 해외 셀다운에 묶인 돈 7조 넘었다 [해외 부동사 투자위기①]",
-            "originallink": "https://www.etoday.co.kr/news/view/2236604",
-            "link": "https://www.etoday.co.kr/news/view/2236604",
-            "description": "증권사들은 해외 <b>부동산 시장</b> 분위기를 주시하며 셀다운 매각에 속도를 올리고 있다. 미국 <b>부동산</b> 정보업체 ‘커머셜엣지’(CommercialEdge)에 따르면 올해 2월 기준 미국 전국 사무실의 공실률은 전년동기대비 70bp(1bp=0.... ",
-            "pubDate": "Sun, 02 Apr 2023 15:10:00 +0900"
-        },
-        {
-            "title": "&apos;악성 미분양&apos; 급증…충청권 1천88호",
-            "originallink": "http://www.jbnews.com/news/articleView.html?idxno=1389304",
-            "link": "http://www.jbnews.com/news/articleView.html?idxno=1389304",
-            "description": "［중부매일 박상철 기자］ <b>부동산 시장</b> 침체로 미분양 주택 수가 계속 늘고 있다. 특히 지방을 중심으로 &apos;악성 미분양&apos;이라고 불리는 준공 후 미분양 물량이 쌓이고 있어서 우려가 커지고 있다. 최근 국토교통부는... ",
-            "pubDate": "Sun, 02 Apr 2023 15:02:00 +0900"
         }
     ]
 }
