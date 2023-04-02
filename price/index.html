@@ -378,10 +378,18 @@
 
   var today = new Date()
   var today_year = today.getFullYear();
-  var today_month = dateReturn( (today.getMonth() + 1))
+  var today_month = dateReturn( (today.getMonth() + 1))  
   var today_day = dateReturn( today.getDate() );
-  var today_num = Number(today_year + today_month + today_day)
+  var today_num = Number(today_year + today_month + today_day)  
   var today_str = today_year + "-" + today_month + "-" + today_day
+  var this_month = Number(today_year + today_month)
+
+  var last_month_day = new Date()
+  var last_month_on_year = last_month_day.getMonth()
+  last_month_day.setMonth(last_month_on_year-1)
+  var last_month_year = last_month_day.getFullYear();
+  var last_month = dateReturn( (last_month_day.getMonth() + 1))
+  var prev_month = Number(last_month_year + last_month)  
 
   function dateReturn(n){
     return n<10 ? "0"+n : n
@@ -495,45 +503,6 @@
         }
       }
     });
-
-    $('div.modal').on('hidden.bs.modal', function() {
-      //var hash = this.id;
-      //history.replaceState('', document.title, window.location.pathname);
-      
-      //처음 진입 시 공지 팝업이 표시되면, 닫은 후 가중치 팝업 표시
-      if(noticePop == true){     
-        noticePop = false
-      }
-      localSearchText = shortRegionName($("#sido option:selected").text() + " " + $("#gungu option:selected").text())
-      $("#localSearch").html(localSearchText + " 검색")
-
-      var hash = this.id;
-      history.replaceState('', document.title, window.location.pathname);
-
-      if(startNotice == true){
-        if(alwaysSortingPop != "off"){
-          if(selectedRegion != 'Korea'){
-            //console.log("startNotice: ", startNotice)
-            //console.log("가중치 팝업 표시 : ", alwaysSortingPop)
-            showSorting()
-            $('#baseModal').modal("show");
-          }
-        }
-        startNotice = false        
-      }
-
-      if(sortingPop == true){
-        blinkSorting()
-        sortingPop = false
-      }
-    })
-
-    if($.cookie('popCookie') != "202303"){
-      startNotice = true
-      showNotice()
-      //초기 진입 시 공지 팝업 표시하는 경우, 변수 startNotice에 true 할당      
-      $('#baseModal').modal("show");
-    }    
 
     if(checkMobile() == "ios"){ blank_height = "3em" }
     else{ blank_height = "3em" }
@@ -712,7 +681,7 @@
       searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json" + update_ver
       $.getJSON(searching_url, function(json) {        
         searchingData = json;       
-        console.log(searchingData)
+        //console.log(searchingData)
       })
     }
   }
@@ -798,13 +767,20 @@ function updateTable(region){
     $.ajaxSetup({ async: true });
 
     count_url = "https://www.aptrank.kr/price/recent/daily_count.json?v=" + Math.random()
+    count_info = ""
     $.getJSON(count_url, function(json){
       count_data = json
-      test = count_data['data'][0]
-      console.log(typeof(test))
+      
+      for(var y = 0 ; y < count_data['data'].length; y++){        
+        if(count_data['data'][y]['file_name'] == region){
+          count_info = count_data['data'][y]['daily_count']
+          console.log(count_info)
+          break;
+        }
+      }      
     })
 
-    url = "https://www.aptrank.kr/price/recent/202303/" + region + ".json" + update_ver    
+    url = "https://www.aptrank.kr/price/recent/" + prev_month.toString() + "/" + region + ".json?v=" + Math.random()
 
     $.getJSON(url, function(json) {        
         //console.log(json);
@@ -853,10 +829,29 @@ function updateTable(region){
           $('.partBox').css({'grid-template-columns':'1fr'})
         }
 
-        //날짜표시 테스트
-        date_saperator = "<div class='date_saperator'>2023년 3월 31일</div>"
-        
+        sep_counter = 0
+
         for(var i = 0 ; i < itemNum ; i++){
+          var addon_html = ""
+
+          if( i == 0 ){
+            addon_html += "<div class='date_saperator'>" + count_info[count_info.length-1][0] + " (" + count_info[count_info.length-1][1] + "건)" + "</div>"
+            sep_counter += count_info[count_info.length-1][1]
+          }
+          for(var j = count_info.length-2 ; j >= 0 ; j--){
+            recent_date = count_info[j][0]
+            recent_count = count_info[j][1]
+            prev_count = count_info[j+1][1]
+            if( i == sep_counter ){
+              if(prev_count == 0){
+                addon_html += "<div class='no_deal_info'>실거래 정보가 없어요</div>"
+              }
+              addon_html += "<div class='date_saperator'>" + count_info[j][0] + " (" + count_info[j][1] + "건)" + "</div>"
+              sep_counter += recent_count
+            }
+            //sep_counter = 0
+          }          
+          
           var aptName = aptData.data[i]["아파트"]
           var apt_m = aptData.data[i]["전용면적"]
           var apt_p = (Number(apt_m)/3.3058).toFixed(0)
@@ -883,6 +878,8 @@ function updateTable(region){
 
           var dealed_date = dealed_year + "-" + dealed_month + "-" + dealed_day
 
+          var deal_floor = aptData.data[i]["층"]
+
           var canceled = aptData.data[i]["해제여부"]
           var canceled_date = aptData.data[i]["해제사유발생일"]
 
@@ -899,13 +896,18 @@ function updateTable(region){
           var coord_x = aptData.data[i]["x"]
           var coord_y = aptData.data[i]["y"]
 
-          var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#baseModal' id='aptSelect' onClick='showDetail(" + i + ")'>";
+          addon_html += "<div class='listBox' data-bs-toggle='modal' data-bs-target='#baseModal' id='aptSelect' onClick='showDetail(" + i + ")'>";
 
           addon_html += "<div class='content'>";
           addon_html += "<div class='apt_name'>" + aptName + "<span style='color: gray; font-size: 0.75em'> / " + lawed_address +"</span></div>";
 
           last_dealed_date = dealed_history_date[dealed_history_date.length - 2]
           last_dealed_price = dealed_history_price[dealed_history_price.length - 2]
+
+          if(last_dealed_date == dealed_history_date[dealed_history_date.length - 2]){
+            last_dealed_date = dealed_history_date[dealed_history_date.length - 3]
+            last_dealed_price = dealed_history_price[dealed_history_price.length - 3]
+          }          
 
           compare_last = ((deal_price_num/last_dealed_price) - 1) * 100
           compare_max = ((deal_price_num/max_price_deal[1]) - 1) * 100
@@ -928,8 +930,13 @@ function updateTable(region){
             addon_html += "<div class='price_table'>"
               addon_html += "<div class='price_num'>" + Korean_price(deal_price_num) + "</div>"
               addon_html += "<div class='complex_table'>"
-                addon_html += "<div class='apt_address'>"  + dealed_date + "</div>"
-                addon_html += "<div class='apt_address'>"  + apt_p + "평 (" + apt_m + ")" + "</div>"
+                if(deal_type != "중개거래"){
+                  addon_html += "<div class='apt_address'><span stylr='color: #e31939'>"  + deal_type + "</span> | " + dealed_date + "</div>"
+                }
+                else{
+                  addon_html += "<div class='apt_address'>"  + deal_type + " | " + dealed_date + "</div>"
+                }
+                addon_html += "<div class='apt_address'>"  + + deal_floor + "층, " + apt_p + "평 (" + apt_m + ")</div>"
               addon_html += "</div>"
             addon_html += "</div>"
 

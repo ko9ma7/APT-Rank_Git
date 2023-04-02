@@ -41,7 +41,14 @@
   .compare_price{
     display: grid;
     grid-template-columns: 110px 70px 1fr;
-    font-size: 0.8em;    
+    font-size: 0.8em;      
+  }
+  .no_deal_info{
+    height: 3em;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 3em;
   }
   #title{
     font-family: "Roboto";
@@ -427,7 +434,8 @@
   }  
   .apt_address{
     font-size: 0.7em;
-    color: gray;
+    font-weight: 600;
+    color: #777
   }  
   .regionPopUp, .regionPopDown{
     font-size: 0.8em;
