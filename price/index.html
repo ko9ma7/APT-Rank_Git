@@ -842,7 +842,7 @@ function updateTable(region){
           var apt_p = (Number(apt_m)/3.3058).toFixed(0)
           var deal_type = aptData.data[i]["거래유형"]
           var deal_price = aptData.data[i]["거래금액"]
-          deal_price = deal_price.replace(",", "")
+          deal_price = deal_price.replaceAll(",", "")
           var deal_price_num = Number(deal_price)
 
           var road_address = $("#sido option:selected").text() + " " + $("#gungu option:selected").text() + " " + aptData.data[i]["도로명"] + " " + Number(aptData.data[i]["도로명건물본번호코드"])
@@ -1017,7 +1017,7 @@ function updateTable(region){
     var apt_p = (Number(apt_m)/3.3058).toFixed(0)
     var deal_type = aptData.data[index]["거래유형"]
     var deal_price = aptData.data[index]["거래금액"]
-    deal_price = deal_price.replace(",", "")
+    deal_price = deal_price.replaceAll(",", "")
     var deal_price_num = Number(deal_price)
 
     var road_address = $("#sido option:selected").text() + " " + $("#gungu option:selected").text() + " " + aptData.data[index]["도로명"] + " " + Number(aptData.data[index]["도로명건물본번호코드"])
