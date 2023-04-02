@@ -1,9 +1,30 @@
 {
-    "lastBuildDate": "Sun, 02 Apr 2023 23:15:06 +0900",
-    "total": 712188,
+    "lastBuildDate": "Mon, 03 Apr 2023 00:17:24 +0900",
+    "total": 712191,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "요즘 건설사들 최대 관심사 ‘신사업’…주택 이을 ‘캐시카우’ 찾아 동분서...",
+            "originallink": "http://www.fntimes.com/html/view.php?ud=202304022129578541dd55077bc2_18",
+            "link": "http://www.fntimes.com/html/view.php?ud=202304022129578541dd55077bc2_18",
+            "description": "중견사인 계룡건설은 최근 국내외 금융<b>시장</b> 불안, <b>부동산시장</b> 침체, 고물가에 따른 공사원가 상승으로 건설환경이 악화되는 시점에서, 선제적으로 대응하기 위한 조직개편을 단행했다. 경영부문은 4개본부 3개실로... ",
+            "pubDate": "Mon, 03 Apr 2023 00:04:00 +0900"
+        },
+        {
+            "title": "1·2월 국세 16조 덜 걷혀, 이대로면 4년 만에 ‘세수 펑크’",
+            "originallink": "https://www.joongang.co.kr/article/25152016",
+            "link": "https://n.news.naver.com/mnews/article/025/0003270289?sid=101",
+            "description": "<b>부동산 시장</b>과 증시, 수출·내수 경기가 동시에 얼어붙으면서 ‘세수 펑크’ 경보음이 울리기 시작했다. 2일 기획재정부의 ‘국세 수입 현황’에 따르면 올해 1~2월 누계로 국세 수입은 54조2000억원이다. 1년 전과... ",
+            "pubDate": "Mon, 03 Apr 2023 00:03:00 +0900"
+        },
+        {
+            "title": "[손태홍 공학박사/연구위원] 해외건설 강국 위해 해야 할 일과 할 수 있는 일",
+            "originallink": "http://www.fntimes.com/html/view.php?ud=20230402225017190dd55077bc2_18",
+            "link": "http://www.fntimes.com/html/view.php?ud=20230402225017190dd55077bc2_18",
+            "description": "급락한 국제유가와 주력 <b>시장</b>에서의 발주 감소, 국내 <b>부동산 시장</b>의 활황, 보수적 <b>시장</b> 접근, 코로나 19등을 꼽을 수 있다. 우리는 원인에 대해서는 잘 알고 있다. 문제 해결을 위한 현황 진단이 되었으니 이제는 어떻게... ",
+            "pubDate": "Mon, 03 Apr 2023 00:02:00 +0900"
+        },
         {
             "title": "건전재정 외치던 정부…세수 구멍에 ‘진퇴양난’",
             "originallink": "https://www.khan.co.kr/economy/economy-general/article/202304022209005",
@@ -131,13 +152,6 @@
             "pubDate": "Sun, 02 Apr 2023 18:03:00 +0900"
         },
         {
-            "title": "[집살까, 말까]&quot;집값 더 떨어진다vs오른다&quot;...줄다리기 팽팽한 아파트 <b>시장</b>",
-            "originallink": "https://www.ajunews.com/view/20230402131122234",
-            "link": "https://www.ajunews.com/view/20230402131122234",
-            "description": "아주경제=한지연 기자 hanji@ajunews.com <b>부동산 시장</b> 침체기가 지속되고 있지만 정부의 전방위적인 규제 완화와 대출금리 인하 등에 힘입어 급매 가격에 &apos;내 집 마련&apos;을 이루려는 수요가 꿈틀대고 있다. <b>시장</b>에서는... ",
-            "pubDate": "Sun, 02 Apr 2023 18:02:00 +0900"
-        },
-        {
             "title": "5대 은행, 대출 마이너스 행진…영업기반 위축됐다",
             "originallink": "https://www.asiatoday.co.kr/view.php?key=20230402010000401",
             "link": "https://www.asiatoday.co.kr/view.php?key=20230402010000401",
@@ -145,10 +159,17 @@
             "pubDate": "Sun, 02 Apr 2023 18:02:00 +0900"
         },
         {
-            "title": "&quot;2차 정리해고 닥친다&quot;…SVB 파산 여파에 흉흉한 실리콘밸리",
+            "title": "[집살까, 말까]&quot;집값 더 떨어진다vs오른다&quot;...줄다리기 팽팽한 아파트 <b>시장</b>",
+            "originallink": "https://www.ajunews.com/view/20230402131122234",
+            "link": "https://www.ajunews.com/view/20230402131122234",
+            "description": "아주경제=한지연 기자 hanji@ajunews.com <b>부동산 시장</b> 침체기가 지속되고 있지만 정부의 전방위적인 규제 완화와 대출금리 인하 등에 힘입어 급매 가격에 &apos;내 집 마련&apos;을 이루려는 수요가 꿈틀대고 있다. <b>시장</b>에서는... ",
+            "pubDate": "Sun, 02 Apr 2023 18:02:00 +0900"
+        },
+        {
+            "title": "&apos;2차 정리해고&apos; 닥쳤다…신의 직장, 칼바람으로 &apos;흉흉&apos;",
             "originallink": "https://www.hankyung.com/international/article/2023040201171",
             "link": "https://n.news.naver.com/mnews/article/015/0004827705?sid=104",
-            "description": "테크기업의 정리해고가 사무실 폐쇄로 이어지면서 오피스를 비롯한 <b>부동산 시장</b>도 타격을 받고 있다. 사상 유례없는 호황을 누리던 테크기업들이 코로나19 팬데믹 종료 이후 수요 감소로 실적이 악화하자 적극적인... ",
+            "description": "테크기업의 정리해고가 사무실 폐쇄로 이어지면서 오피스를 비롯한 <b>부동산 시장</b>도 타격을 받고 있다. 사상 유례없는 호황을 누린 테크기업들은 코로나19 팬데믹 종료 이후 수요 감소로 실적이 악화하자 적극적인... ",
             "pubDate": "Sun, 02 Apr 2023 18:02:00 +0900"
         },
         {
@@ -192,27 +213,6 @@
             "link": "http://www.kwangju.co.kr/article.php?aid=1680425100750624005",
             "description": "주택 실수요자를 위한 대출의 규제가 완화되면서 광주지역 <b>부동산 시장</b>에서 20·30세대의 아파트 매입이 증가하는 것으로 나타났다. 특례보금자리론이 신설되고, 생애최초 주택구입자 등 실수요층을 위한 대출... ",
             "pubDate": "Sun, 02 Apr 2023 17:48:00 +0900"
-        },
-        {
-            "title": "집값 오를 때 좋았던 전세… 외신 “<b>부동산</b> 침체기 한국 경제 발목” [코리아...",
-            "originallink": "https://www.busan.com/view/busan/view.php?code=2023040217431215783",
-            "link": "https://n.news.naver.com/mnews/article/082/0001205360?sid=104",
-            "description": "블룸버그는 “한국의 <b>부동산 시장</b>은 ‘기이한 임대차 관행’으로 촉발된 급격한 하락 위험에 처해 있다”며 “이러한 취약점은 집주인이 세입자에게 월세 대신 받은 초대형 보증금(전세 보증금)을 탕진하면서 비롯됐다”... ",
-            "pubDate": "Sun, 02 Apr 2023 17:46:00 +0900"
-        },
-        {
-            "title": "대출 풀리자…2030 다시 아파트 <b>시장</b>으로",
-            "originallink": "https://www.mk.co.kr/article/10702453",
-            "link": "https://n.news.naver.com/mnews/article/009/0005110508?sid=101",
-            "description": "2030세대는 <b>부동산시장</b>에 진입하는 신규 수요라는 점에서 젊은 세대의 매수 증가는 <b>부동산시장</b>이 바닥을 다지고 반등할 조짐이라는 해석도 나온다. 2일 한국<b>부동산</b>원의 매입자 연령대별 주택거래 현황에 따르면... ",
-            "pubDate": "Sun, 02 Apr 2023 17:40:00 +0900"
-        },
-        {
-            "title": "대전·세종 아파트 빙하기 지났나?",
-            "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=967639",
-            "link": "http://www.ggilbo.com/news/articleView.html?idxno=967639",
-            "description": "대전과 세종 <b>부동산 시장</b>에 봄 기운이 스며들고 있다. 지난해부터 이어온 오랜 &apos;빙하기&apos;를 지나 꿈틀대고 있는 상황이다. 그러나 <b>부동산</b> 업계는 아직 봄이 찾아오기에는 시간이 더 필요하다고 강조했다. 2일... ",
-            "pubDate": "Sun, 02 Apr 2023 17:30:00 +0900"
         }
     ]
 }
