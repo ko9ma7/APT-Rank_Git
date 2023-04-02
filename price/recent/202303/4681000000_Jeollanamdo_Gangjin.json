@@ -126,6 +126,18 @@
                 "type":"string"
             },
             {
+                "name":"history_floor",
+                "type":"string"
+            },
+            {
+                "name":"history_cancel",
+                "type":"string"
+            },
+            {
+                "name":"history_cancel_date",
+                "type":"string"
+            },
+            {
                 "name":"graph_history_date",
                 "type":"string"
             },
@@ -209,6 +221,36 @@
                 "7700",
                 "8500",
                 "8600"
+            ],
+            "history_floor":[
+                "9",
+                "7",
+                "9",
+                "5",
+                "9",
+                "6",
+                "8",
+                "6"
+            ],
+            "history_cancel":[
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan"
+            ],
+            "history_cancel_date":[
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan"
             ],
             "graph_history_date":[
                 "2012-01",
@@ -542,6 +584,27 @@
                 "6000",
                 "7900"
             ],
+            "history_floor":[
+                "3",
+                "4",
+                "3",
+                "2",
+                "3"
+            ],
+            "history_cancel":[
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan"
+            ],
+            "history_cancel_date":[
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan"
+            ],
             "graph_history_date":[
                 "2012-01",
                 "2012-02",
@@ -873,6 +936,27 @@
                 "25800",
                 "28000",
                 "28000"
+            ],
+            "history_floor":[
+                "13",
+                "11",
+                "6",
+                "7",
+                "9"
+            ],
+            "history_cancel":[
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan"
+            ],
+            "history_cancel_date":[
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan"
             ],
             "graph_history_date":[
                 "2012-01",

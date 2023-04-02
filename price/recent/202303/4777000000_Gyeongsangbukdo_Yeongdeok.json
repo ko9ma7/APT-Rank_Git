@@ -126,6 +126,18 @@
                 "type":"string"
             },
             {
+                "name":"history_floor",
+                "type":"string"
+            },
+            {
+                "name":"history_cancel",
+                "type":"string"
+            },
+            {
+                "name":"history_cancel_date",
+                "type":"string"
+            },
+            {
                 "name":"graph_history_date",
                 "type":"string"
             },
@@ -197,6 +209,18 @@
             "history_price":[
                 "28000",
                 "27000"
+            ],
+            "history_floor":[
+                "13",
+                "11"
+            ],
+            "history_cancel":[
+                "nan",
+                "nan"
+            ],
+            "history_cancel_date":[
+                "nan",
+                "nan"
             ],
             "graph_history_date":[
                 "2012-01",

@@ -602,11 +602,11 @@
     color: gray;
   }
   .popSubTable{
-    display: grid;
-    height: 1.8em;
-    grid-template-columns: 1.5fr 1fr;    
+    display: grid;    
+    grid-template-columns: 1fr 1.5fr;    
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
     border-bottom: solid 1px rgb(216, 216, 216);
   }
   .popSubPriceTable{

@@ -76,7 +76,7 @@
   <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=uod39kursd"></script>
 
   <script src="../js/menu_select_box.js" type="text/javascript"></script>
-  <script src="../js/draw_chart.js" type="text/javascript"></script>
+  <script src="../js/draw_chart_price.js" type="text/javascript"></script>
   <script src="../js/sort.js" type="text/javascript"></script>
   <script src="../js/search.js" type="text/javascript"></script>
   <script src="../js/unfied_search.js" type="text/javascript"></script>
@@ -376,6 +376,8 @@
   var sales_history_date = []
   var priceCharts = []
 
+  var count_info = ""
+
   var today = new Date()
   var today_year = today.getFullYear();
   var today_month = dateReturn( (today.getMonth() + 1))  
@@ -389,7 +391,10 @@
   last_month_day.setMonth(last_month_on_year-1)
   var last_month_year = last_month_day.getFullYear();
   var last_month = dateReturn( (last_month_day.getMonth() + 1))
-  var prev_month = Number(last_month_year + last_month)  
+  var prev_month = Number(last_month_year + last_month)
+
+  var load_this_month = ""
+  var load_prev_month = ""
 
   function dateReturn(n){
     return n<10 ? "0"+n : n
@@ -686,6 +691,27 @@
     }
   }
   function updateRegion(){
+    count_url = "https://www.aptrank.kr/price/recent/daily_count.json?v=" + Math.random()
+    $.ajaxSetup({ async: false });
+    $.getJSON(count_url, function(json){
+      count_data = json
+      
+      for(var y = 0 ; y < count_data['data'].length; y++){        
+        if(count_data['data'][y]['file_name'] == selectedSubRegion){
+          count_info = count_data['data'][y]['daily_count']          
+          break;
+        }
+      }
+
+      load_this_month = (count_info[count_info.length-1][0]).substr(0, 6)
+      for(var j=count_info.length-1 ; j >= 0 ; j--){
+        if(count_info[j][0].substr(0, 6) != load_this_month){
+          load_prev_month = count_info[j][0].substr(0, 6)
+          break;
+        }
+      }
+    })
+
     minValue = 0;
     maxValue = 60;    
     //var selection = document.getElementById("gungu")
@@ -734,14 +760,14 @@ function updateTable(region){
     //$('div.modal').modal("hide");    
     $('#sort').css("visibility", "visible")
     $('#rearrange').css("visibility", "visible")
-    //$('html').scrollTop(0)
+    $('html').scrollTop(0)
     //initSorting()
 
     $('#dataList').html("");
 
     //광고정보 로딩
     part_url = "https://www.aptrank.kr/ad/" + region + "_ad.json" + update_ver
-    $.ajaxSetup({ async: false });
+    //$.ajaxSetup({ async: false });
     $.getJSON(part_url, function(part_json) {
         partData = part_json;
         part_detail = partData.data
@@ -763,35 +789,28 @@ function updateTable(region){
           //img_url = "apt-rank_blank2"
           page_url = part_detail[0]['homepage']
         }
+    })    
+
+    prev_url = "https://www.aptrank.kr/price/recent/" + load_this_month + "/" + region + ".json?v=" + Math.random()
+    this_url = "https://www.aptrank.kr/price/recent/" + load_prev_month + "/" + region + ".json?v=" + Math.random()
+
+    $.getJSON(this_url, function(json) {
+      this_apt_data = json;      
     })
+
     $.ajaxSetup({ async: true });
 
-    count_url = "https://www.aptrank.kr/price/recent/daily_count.json?v=" + Math.random()
-    count_info = ""
-    $.getJSON(count_url, function(json){
-      count_data = json
-      
-      for(var y = 0 ; y < count_data['data'].length; y++){        
-        if(count_data['data'][y]['file_name'] == region){
-          count_info = count_data['data'][y]['daily_count']
-          console.log(count_info)
-          break;
-        }
-      }      
-    })
-
-    url = "https://www.aptrank.kr/price/recent/" + prev_month.toString() + "/" + region + ".json?v=" + Math.random()
-
-    $.getJSON(url, function(json) {        
+    $.getJSON(prev_url, function(json) {
         //console.log(json);
-        aptData = json;         
+        aptData = json;
         //sortData = json;
-        itemNum = json.data.length;
+        Object.assign(aptData.data, this_apt_data.data)
+        itemNum = aptData.data.length;
         valueSum = 0;
         livingSum = 0;
         transportSum = 0;
         infraSum = 0;
-        eduSum = 0;
+        eduSum = 0;       
 
         //광고정보 표시영역
         if(partData.data.length > 0 && (today_num >= part_sDate_Num && today_num <= part_eDate_Num) ){
@@ -835,7 +854,8 @@ function updateTable(region){
           var addon_html = ""
 
           if( i == 0 ){
-            addon_html += "<div class='date_saperator'>" + count_info[count_info.length-1][0] + " (" + count_info[count_info.length-1][1] + "건)" + "</div>"
+            exp_date = count_info[count_info.length-1][0].substr(0, 4) + "-" + count_info[count_info.length-1][0].substr(4, 2) + "-" + count_info[count_info.length-1][0].substr(6, 2)
+            addon_html += "<div class='date_saperator'>" + exp_date + " (" + count_info[count_info.length-1][1] + "건)" + "</div>"
             sep_counter += count_info[count_info.length-1][1]
           }
           for(var j = count_info.length-2 ; j >= 0 ; j--){
@@ -843,10 +863,11 @@ function updateTable(region){
             recent_count = count_info[j][1]
             prev_count = count_info[j+1][1]
             if( i == sep_counter ){
-              if(prev_count == 0){
-                addon_html += "<div class='no_deal_info'>실거래 정보가 없어요</div>"
-              }
-              addon_html += "<div class='date_saperator'>" + count_info[j][0] + " (" + count_info[j][1] + "건)" + "</div>"
+              //if(prev_count == 0){
+              //  addon_html += "<div class='no_deal_info'>실거래 정보가 없어요</div>"
+              //}
+              exp_date = count_info[j][0].substr(0, 4) + "-" + count_info[j][0].substr(4, 2) + "-" + count_info[j][0].substr(6, 2)
+              addon_html += "<div class='date_saperator'>" + exp_date + " (" + count_info[j][1] + "건)" + "</div>"
               sep_counter += recent_count
             }
             //sep_counter = 0
@@ -901,29 +922,7 @@ function updateTable(region){
           addon_html += "<div class='content'>";
           addon_html += "<div class='apt_name'>" + aptName + "<span style='color: gray; font-size: 0.75em'> / " + lawed_address +"</span></div>";
 
-          last_dealed_date = dealed_history_date[dealed_history_date.length - 2]
-          last_dealed_price = dealed_history_price[dealed_history_price.length - 2]
-
-          if(last_dealed_date == dealed_history_date[dealed_history_date.length - 2]){
-            last_dealed_date = dealed_history_date[dealed_history_date.length - 3]
-            last_dealed_price = dealed_history_price[dealed_history_price.length - 3]
-          }          
-
-          compare_last = ((deal_price_num/last_dealed_price) - 1) * 100
-          compare_max = ((deal_price_num/max_price_deal[1]) - 1) * 100
-          compare_min = ((deal_price_num/min_price_deal[1]) - 1) * 100
-
-          if(compare_last > 0){ compare_last_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
-          else if(compare_last < 0){ compare_last_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
-          else { compare_last_tag = "<span style='color:black'>= " + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
-
-          if(compare_max > 0){ compare_max_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
-          else if(compare_max < 0){ compare_max_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
-          else { compare_max_tag = "<span style='color:black'>= " + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
-          
-          if(compare_min > 0){ compare_min_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
-          else if(compare_min < 0){ compare_min_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
-          else { compare_min_tag = "<span style='color:black'>= " + (Math.abs(compare_min)).toFixed(2) + "%</span>" }          
+          compare_list = compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price)           
 
           addon_html += "<div class='price_content'>"
 
@@ -1016,728 +1015,157 @@ function updateTable(region){
     }
   }
 
+  function compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price){
+    last_dealed_date = dealed_history_date[dealed_history_date.length - 2]
+    last_dealed_price = dealed_history_price[dealed_history_price.length - 2]
+
+    if(last_dealed_date == dealed_history_date[dealed_history_date.length - 2]){
+      last_dealed_date = dealed_history_date[dealed_history_date.length - 3]
+      last_dealed_price = dealed_history_price[dealed_history_price.length - 3]
+    }          
+
+    compare_last = ((deal_price_num/last_dealed_price) - 1) * 100
+    compare_max = ((deal_price_num/max_price_deal[1]) - 1) * 100
+    compare_min = ((deal_price_num/min_price_deal[1]) - 1) * 100
+
+    if(compare_last > 0){ compare_last_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
+    else if(compare_last < 0){ compare_last_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
+    else { compare_last_tag = "<span style='color:black'>= " + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
+
+    if(compare_max > 0){ compare_max_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
+    else if(compare_max < 0){ compare_max_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
+    else { compare_max_tag = "<span style='color:black'>= " + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
+    
+    if(compare_min > 0){ compare_min_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
+    else if(compare_min < 0){ compare_min_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
+    else { compare_min_tag = "<span style='color:black'>= " + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
+    
+    return {'last_dealed_date' : last_dealed_date, 'last_dealed_price' : last_dealed_price, 'compare_last_tag' : compare_last_tag, 'compare_max_tag' : compare_max_tag, 'compare_min_tag' : compare_min_tag}
+  }
+
   function showDetail(index){
     titleHtml = "";
     detailHtml = "";
     footerHtml = "";
-    /*
-    if(sortSelection == "sortDefault"){
-      aptData = aptData_original
-      var aptRank = aptData.data[index]["rank"] + "/" + aptData.data[itemNum-1]["rank"] + "위"
-    }
-    else{
-      aptData = sortData
-      var aptRank = (index+1) + "/" + aptData.data[itemNum-1]["rank"] + "위"
-    }
-    */
 
-    aptData = sortData    
+    var aptName = aptData.data[index]["아파트"]
+    var apt_m = aptData.data[index]["전용면적"]
+    var apt_p = (Number(apt_m)/3.3058).toFixed(0)
+    var deal_type = aptData.data[index]["거래유형"]
+    var deal_price = aptData.data[index]["거래금액"]
+    deal_price = deal_price.replace(",", "")
+    var deal_price_num = Number(deal_price)
 
-    var aptName = aptData.data[index]["아파트명"]
-    var rank = aptData.data[index]["rank"].toFixed()
-    var apt_m = aptData.data[index]["전용면적(m2)"]
-    var apt_p = aptData.data[index]["전용면적(평)"]
-    var apt_type = aptData.data[index]["매매타입"]
-    var aptAddress = aptData.data[index]["도로명주소"]
-    var aptValue = Math.round( aptData.data[index]["가치 총점"] * 100 ) / 100;
-    var aptDuration = aptData.data[index]["준공년차"]
-    var aptYear = ""
-    var short_name = $('#sido option:selected').text() + " " + $('#gungu option:selected').text()
-
-    var aptRank = ""
-
-    log_date = new Date()
-    post(aptName, log_date, short_name)
-
-    if(sortSelection == "sortDefault" && rearrangeAPTSelection == "rearrangeScore"){
-      aptRank = rank + "/" + aptData.data[itemNum-1]["rank"] + "위"
-    }
-    else{
-      aptRank = (Number(index)+1) + "/" + (itemNum) + "위"
+    var road_address = $("#sido option:selected").text() + " " + $("#gungu option:selected").text() + " " + aptData.data[index]["도로명"] + " " + Number(aptData.data[index]["도로명건물본번호코드"])
+    if(Number(aptData.data[index]["도로명건물부번호코드"]) != 0){
+      road_address += "-" + Number(aptData.data[index]["도로명건물부번호코드"])
     }
 
-    if(Number(selectedMonth) > 202211){
-      eventURL = aptData.data[index]["sURL"]
-    }
-    else{
-      eventURL = ""
+    var lawed_address = $("#sido option:selected").text() + " " + $("#gungu option:selected").text() + " " + aptData.data[index]["법정동"] + " " + Number(aptData.data[index]["법정동본번코드"])
+    if(Number(aptData.data[index]["법정동부번코드"]) != 0){
+      lawed_address += "-" + Number(aptData.data[index]["법정동부번코드"])
     }
 
-    gtag('event','아파트상세', { 'event_category' : short_name, 'event_label' : aptName + "(" + short_name + ")"});
+    var dealed_year = aptData.data[index]["년"]
+    var dealed_month = aptData.data[index]["월"]
+    var dealed_day = aptData.data[index]["일"]
+    if(Number(dealed_month) < 10){dealed_month = "0" + dealed_month}
+    if(Number(dealed_day) < 10){dealed_day = "0" + dealed_day}
 
-    if(Number(selectedMonth) > 202203){      
-      if(apt_type == "아파트"){        
-        aptYear = aptData.data[index]["준공년월"] + " (" + aptDuration + "년차)"        
-      }
-      if(apt_type == "재건축"){        
-        aptYear = aptData.data[index]["준공년월"] + " (" + aptDuration + "년차, 재건축)"        
-      }
-      if(apt_type == "분양권"){
-        aptYear = "(분양권, " + aptData.data[index]["준공년월"].substr(0, 7) + " 예정)"        
-      }
-      if(apt_type == "분양(예정)"){
-        aptYear = "(분양예정)"        
-      }      
-    }
-    else{
-      if(aptDuration >= 30){
-        aptYear = aptData.data[index]["준공년월"] + " (" + aptDuration + "년차, 재건축 대상)"
-      }else{
-        aptYear = aptData.data[index]["준공년월"] + " (" + aptDuration + "년차)"
-      }
-    }
+    var dealed_date = dealed_year + "-" + dealed_month + "-" + dealed_day
 
-    var nearestStation = aptData.data[index]["가까운역이름"] + "역" + "(" + ( Math.round( aptData.data[index]["가까운역거리"] * 100 ) / 100 ).toFixed()  + "m)"
-    var stationArea = aptData.data[index]["역세권여부"]
-    var stationPoint_30m = aptData.data[index]["30분이내주요거점역"]
-    var stationPoint_1h = aptData.data[index]["1시간이내주요거점역"]
-    var departmentStore_3km = aptData.data[index]["3km이내백화점수"] + "개"
-    var OutletMall_5km = aptData.data[index]["5km이내아울렛몰수"] + "개"
-    var bigMart_1km = aptData.data[index]["1km이내대형먀트수"] + "개"
-    var bank_500m = aptData.data[index]["500m이내은행수"] + "개"
-    var hospital_500m = aptData.data[index]["500m이내병원수"] + "개"
-    var bigHospital_5km = aptData.data[index]["5km이내대형병원수"] + "개"
-    var park_500m = aptData.data[index]["500m이내공원수"] + "개"
-    var big_park_1km = aptData.data[index]["800m이내대형공원수"] + "개"
-    var harmful_3km = aptData.data[index]["3km이내혐오시설수"] + "개"
-    var pSchool_edu = aptData.data[index]["초등학교학업성취도"]
-    var pSchool_distance = aptData.data[index]["초등학교거리"]
-    var mSchool_edu = aptData.data[index]["중학교학업성취도"] + "%"
-    var academy_edu = aptData.data[index]["500m이내학원가"] + "개" + "(총 " + aptData.data[index]["500m이내학원수"] + "개 학원)"
-    var market_infra = aptData.data[index]["300m이내상권"] + "개" + "(총 " + aptData.data[index]["300m이내점포수"] + "개 지점)"
-    var livingScore = ( Math.round( aptData.data[index]["주거총점"] * 100 ) / 100 ).toFixed(2)
-    var transportScore = ( Math.round( aptData.data[index]["교통총점"] * 100 ) / 100 ).toFixed(2)
-    var infraScore = ( Math.round( aptData.data[index]["인프라총점"] * 100 ) / 100 ).toFixed(2)
-    var eduScore = ( Math.round( aptData.data[index]["학군총점"] * 100 ) / 100 ).toFixed(2)
-    var area_info = aptData.data[index]["area_info"]
-    if(Number(selectedMonth) > 202203){
-      var maintainance = aptData.data[index]["maintenance"]
-    }
-    var rooms = aptData.data[index]["room"]
-    var baths = aptData.data[index]["bath"]
-    var house_num = aptData.data[index]["세대수"]
-    var parking = aptData.data[index]["주차"]
-    var heating = aptData.data[index]["난방"]
-    var entrance = aptData.data[index]["현관구조"]
-    var sales_info = aptData.data[index]["sales_info"]
-    var price_per = aptData.data[index]["price_per"]
-    var floor_noise = aptData.data[index]["층간소음"]
+    var deal_floor = aptData.data[index]["층"]
 
-    var searchCode = aptData.data[index]["검색코드"]
-    var coord_y = aptData.data[index]["Y"]
-    var coord_x = aptData.data[index]["X"]
+    var canceled = aptData.data[index]["해제여부"]
+    var canceled_date = aptData.data[index]["해제사유발생일"]
 
-    var drink_pub = aptData.data[index]["300m이내유흥주점"]
-    var daran_pub = aptData.data[index]["300m이내단란주점"]
-    var motel = aptData.data[index]["300m이내모텔"]
+    var dealed_history_date = aptData.data[index]["history_date"]
+    var dealed_history_price = aptData.data[index]["history_price"]
 
-    var last_sales = aptData.data[index]["last_sales"].split(",")
-    var last_sales_date = last_sales[0].toString()
-    var last_sales_price = last_sales[1].toString()
-    var last_sales_area = last_sales[2]
+    var graph_history_date = aptData.data[index]["graph_history_date"]
+    var graph_history_price = aptData.data[index]["graph_history_price"]
 
-    if(Number(selectedMonth) > 202207){
-      var rent_info = aptData.data[index]["rent_info"]
-      var rent_ratio = aptData.data[index]["rent_ratio"]
-      var last_rent = aptData.data[index]["last_rent"].split(",")
-      var last_rent_date = last_rent[0].toString()
-      var last_rent_price = last_rent[1].toString()
-      var last_rent_area = last_rent[2]
-    }
+    var max_price_deal = aptData.data[index]["max_price"]
+    var min_price_deal = aptData.data[index]["min_price_from_2019"]
 
-    var floor_rate = ""
-    if(aptData.data[index]["용적률"] == "0"){
-      floor_rate = "--%"
-    }
-    else{
-      floor_rate = aptData.data[index]["용적률"] + "%"
-    }
-
-    var cover_rate = ""
-    if(aptData.data[index]["건폐율"] == "0"){
-      cover_rate = "--%"
-    }
-    else{
-      cover_rate = aptData.data[index]["건폐율"] + "%"
-    }
-
-    var populationScore = Math.round( aptData.data[index]["인구총점"] * 100 ) / 100
-    var jobScore = Math.round( aptData.data[index]["일자리총점"] * 100 ) / 100
-
+    var naver_code = (aptData.data[index]["code"]).toString()
+    var coord_x = aptData.data[index]["x"]
+    var coord_y = aptData.data[index]["y"]    
+    
     //타이틀
     //titleHtml += "<div class='popupTitle'>" + aptName + " " + apt_p + "(" + apt_m + ")</div>";
     //titleHtml += "<div class='popupTitle'><a href='#' onclick='return false;' style='text-decoration: none; color: black'>" + aptName + "</a></div>";
     titleHtml += "<div class='popupTitle'><h1 style='font-size: 1em; font-weight: 600'>" + aptName + "</h></div>";
-    titleHtml += "<div class='popupSubtitle'>" + aptYear + "</div>";
+    titleHtml += "<div class='popupSubtitle' style='font-size: 0.6em'>(신) " + road_address + "</div>";
+    titleHtml += "<div class='popupSubtitle' style='font-size: 0.6em'>(구) " + lawed_address + "</div>";
 
-    if(Number(selectedMonth) > 202203 && (apt_type == "분양권" || apt_type == "분양(예정)")){
-      titleHtml += "<div class='popupSubtitle'>" + aptData.data[index]["법정동주소"] + "</div>";
-    }
-    else{
-      titleHtml += "<div class='popupSubtitle' style='font-size: 0.6em'>(신) " + aptAddress + "</div>";
-      titleHtml += "<div class='popupSubtitle' style='font-size: 0.6em'>(구) " + aptData.data[index]["법정동주소"] + "</div>";
-    }    
+    console.log("NAVERCODE: ", naver_code)
 
-    //총점,순위
-    detailHtml += "<div class='card'>";
-    detailHtml += "<div class='card-header'>";
-
-    var sortName = ""
-
-    if (sortSelection == "sortDefault"){ sortName = "균형잡힌" }
-    if (sortSelection == "sortLiving"){ sortName = "주거우선" }
-    if (sortSelection == "sortTrans"){ sortName = "교통우선" }
-    if (sortSelection == "sortInfra"){ sortName = "인프라우선" }
-    if (sortSelection == "sortEdu"){ sortName = "교육우선" }
-    if (sortSelection == "sortCustom"){ sortName = "커스텀" }
-
-    if(rearrangeAPTSelection == "rearrangeRank"){ sortName = "순위변동순" }    
-    if(rearrangeAPTSelection == "rearrangePrice"){ sortName = "실거래가순" }    
-    if(rearrangeAPTSelection == "rearrangeNew"){ sortName = "신축순" }
-    if(rearrangeAPTSelection == "rearrangeHouse"){ sortName = "세대수순" }
-
-
-      detailHtml += "<div class='popupSubtitle' style='font-size: 0.75em; text-align: center'>- " + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + " -</div>"
-
-      if(selectedMonth == "202201"){
-        detailHtml += "<div class='popRank'><i class='fas fa-trophy'></i> " + aptRank + "</div></div>";
-      }
-      else{
-        detailHtml += "<div class='popRank'><i class='fas fa-trophy'></i> " + aptRank;
-
-        if(sortSelection == "sortDefault" && (rearrangeAPTSelection == "rearrangeScore" || rearrangeAPTSelection == "rearrangeRank")){
-          if(aptData.data[index]["rank_gap"] == 0){
-            detailHtml += "<span class='ranksame'> (--) </span>"
-          }
-          else if(aptData.data[index]["rank_gap"] == 9999){
-            detailHtml += "<span class='ranksame'> (NEW!) </span>"
-          }
-          else if(aptData.data[index]["rank_gap"] > 0){
-            detailHtml += "<span class='rankup'> (▲" + Math.abs(aptData.data[index]["rank_gap"]) + ")</span>"
-          }
-          else if(aptData.data[index]["rank_gap"] < 0){
-            detailHtml += "<span class='rankdown'>(▼" + Math.abs(aptData.data[index]["rank_gap"]) + ")</span>"
-          }
-        }
-        else{
-          detailHtml += "<span class='ranksame'>(" + sortName + ") </span>"
-        }                
-        detailHtml += "</div></div>"
-      }
-
-    detailHtml += "<div class='card-body' style='padding-top: 2px'>";    
-    detailHtml += "<div class='graph' style='height: 200px'> <canvas id='valueChart'></canvas></div>"
-    detailHtml += "<div class='comment'>(지역구의 모든 단지에 대해 100점으로 환산한 상대 점수 입니다.)</div>";
-    if(Number(selectedMonth) > 202203){
-      detailHtml += "<hr style='margin-bottom: 0'><div class='rankGraphTitle'>- 균형잡힌 가중치 순위 변동 -</div><div class='graph' style='height: 120px;'> <canvas id='rankChart'></canvas></div>"
-    }
-    /*
-    if(Number(selectedMonth) > 202205){
-      detailHtml += "<div id='rankSimul' onclick='openSimulation(aptData.data," + index + ")'>랭크 시뮬레이션 <span style='font-size: 0.8em; outline: 1px solid white; border-radius: 10px; padding: 0px 7px 0px 7px'> BETA </span></div>"
-    }
-    */
-    if(Number(selectedMonth) > 202206){      
-      detailHtml += "<hr>"
-      detailHtml += "<div class='popupSubtitle' style='text-align: center; margin-top: 10px'>↓↓ 내 생각과 다르다면, 데이터를 바꿔 보세요! ↓↓</div>"
-      detailHtml += "<div id='rankSimul' style='margin-top: 1px; margin-bottom: 10px' onclick='openSimulation(aptData.data," + index + ")'>랭크 시뮬레이션 <span style='font-size: 0.8em; outline: 1px solid white; border-radius: 10px; padding: 0px 7px 0px 7px'> BETA </span></div>"      
-    }
-    detailHtml += "</div></div>"
-
-    if(Number(selectedMonth) > 202212){
+    if(naver_code != ""){
       //지도
       detailHtml += "<div class='card'>";      
       detailHtml += "<div class='card-body' style='padding: 0'>";
-
-      if(apt_type == "분양(예정)"){
-        go_url = "https://hogangnono.com/apt/" + searchCode
-      }else{
-        go_url = "https://new.land.naver.com/complexes/" + searchCode
-      } 
+      go_url = "https://new.land.naver.com/complexes/" + naver_code    
       detailHtml += "<div id='part_map_wrap' onClick='goMap(go_url)'>"
       detailHtml += "<div id='detail_map' ></div>"
       detailHtml += "</div>"
       detailHtml += "</div></div></div>"
     }
 
-    //주거
+    //가격 그래프
     detailHtml += "<div class='card'>";
-    detailHtml += "<div class='card-header'>";
-    detailHtml += "<div class='popTitle'><i class='fas fa-home'></i>&nbsp&nbsp주거</div>"
-    detailHtml += "</div>";
     detailHtml += "<div class='card-body'>";
-    detailHtml += "<div id='popLiving'>"
-    detailHtml += "<div class='graph' style='height: 120px'> <canvas id='livingChart'></canvas></div>"
+    detailHtml += "<div id='popLiving'>"    
     detailHtml += "<div class='popTable'>"
-    if(Number(selectedMonth) > 202205 && aptData.data[index]["한강"] > 0){
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "한강 프리미엄" + "</div>" + "<div class='popResult'>적용</div></div>";
-    }    
-    if(Number(selectedMonth) > 202205 && aptData.data[index]["해운대"] > 0){
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "해운대 프리미엄" + "</div>" + "<div class='popResult'>적용</div></div>";
-    }    
+    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "최근 실거래가" + "</div>" + "<div class='popResult'>" + Korean_price(deal_price_num) + "</div></div>";
+    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "최근 실거래일" + "</div>" + "<div class='popResult'>" + dealed_date + "</div></div>";
+    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "거래 유형" + "</div>" + "<div class='popResult'>" + deal_type + "</div></div>";
+    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "거래 층수" + "</div>" + "<div class='popResult'>" + deal_floor + "층</div></div>";
 
-    if(house_num != null){
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "세대수" + "</div>" + "<div class='popResult'>" + house_num.toLocaleString() + "세대</div></div>";
-    }
-    else{
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "세대수" + "</div>" + "<div class='popResult'>미정</div></div>";
-    }
-    
-    if(Number(selectedMonth) > 202203){
-      if(apt_type >= "재건축"){
-        detailHtml += "<div class='popSubTable'><div class='popContent'>" + "용적률" + "</div>" + "<div class='popResult'>" + floor_rate + "</div></div>";
-        detailHtml += "<div class='popSubTable'><div class='popContent'>" + "건폐율" + "</div>" + "<div class='popResult'>" + cover_rate + "</div></div>";
-      }
-    }
-    else{
-      if(aptDuration >= 30){
-        detailHtml += "<div class='popSubTable'><div class='popContent'>" + "용적률" + "</div>" + "<div class='popResult'>" + floor_rate + "</div></div>";
-        detailHtml += "<div class='popSubTable'><div class='popContent'>" + "건폐율" + "</div>" + "<div class='popResult'>" + cover_rate + "</div></div>";
-      }
-    }
-    if(Number(selectedMonth) > 202203){
-      detailHtml += "<div class='popSubTable' id='popSubStation'><div class='popContent'>" + "주차" + "</div>" + "<div class='popResult'>" + parking + "</div></div>";
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "난방방식" + "</div>" + "<div class='popResult'>" + heating + "</div></div>";
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "현관구조" + "</div>" + "<div class='popResult'>" + entrance + "</div></div>";
-    }
+    compare_list = compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price)    
 
-    //console.log(apt_type)
+    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "직전거래 대비" + "</div>" + "<div class='popResult'>" + compare_last_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")</span></div></div>";
+    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "최고가 대비" + "</div>" + "<div class='popResult'>" + compare_max_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(max_price_deal[1]) + " (" + max_price_deal[0] + ")</span></div></div>";
+    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "최저가 대비" + "</div>" + "<div class='popResult'>" + compare_min_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(min_price_deal[1]) + " (" + min_price_deal[0] + ")</span></div></div>";
+    detailHtml += "</div></div></div></div>"
 
-    if(Number(selectedMonth) > 202203){
-      if(apt_type == "분양(예정)"){}
-      else{
-        var area_array = area_info.split(",")
-        var maintainance_array = maintainance.split(",")
-        var rooms_array = rooms.split(",")
-        var baths_array = baths.split(",")
-        detailHtml += "<div class='table-responsive' style='max-height: 200px; overflow-y: scroll'>"
+    detailHtml += "<div class='card'>"
+    detailHtml += "<div class='card-body'>";
+    detailHtml += "<div class='graph' style='height: 120px'> <canvas id='priceChart'></canvas></div>"
+
+    //detailHtml += "<div class='table-responsive' style='max-height: 200px; overflow-y: scroll'>"
+    detailHtml += "<div class='table-responsive'>"
         detailHtml += "<table class='table table-striped' style='font-size:0.8em'>"
           detailHtml += "<thead class='table-light' style='position:sticky ;top: 0'>"
             detailHtml += "<tr>"
-              detailHtml += "<th scope='col'>" + "평형" + "</th>"
-              detailHtml += "<th scope='col'>" + "방수/욕실수" + "</th>"
-              detailHtml += "<th scope='col'>" + "평균 관리비" + "</th>"
+              detailHtml += "<th scope='col'>" + "계약일자" + "</th>"
+              detailHtml += "<th scope='col'>" + "거래금액" + "</th>"
+              detailHtml += "<th scope='col'>" + "거래층수" + "</th>"
             detailHtml += "</tr>"
           detailHtml += "</thead>"
 
           detailHtml += "<tbody>"
-              for(var k = 0 ; k < area_array.length ; k++){
+              reverse_dealed_history_date = dealed_history_date.reverse()
+              reverse_dealed_history_price = dealed_history_price.reverse()
+              if(reverse_dealed_history_date.length > 30){
+                history_length = 30
+              }
+              else{
+                history_length = reverse_dealed_history_date.length
+              }
+
+              for(var k = 0 ; k < history_length ; k++){
                 detailHtml += "<tr>"
-                  detailHtml += "<td>" + area_array[k] + "</td>"
-                  detailHtml += "<td>" + parseInt(rooms_array[k]) + " / " + parseInt(baths_array[k]) + "</td>"
-                  if(isNaN(maintainance_array[k]) == true ){
-                    detailHtml += "<td>" + "---" + "</td>"
-                  }
-                  else{
-                    detailHtml += "<td>" + Number(maintainance_array[k]).toLocaleString() + "원" + "</td>"
-                  }
+                  detailHtml += "<td>" + reverse_dealed_history_date[k] + "</td>"
+                  detailHtml += "<td>" + Korean_price(reverse_dealed_history_price[k]) + "</td>"
+                  detailHtml += "<td>" + reverse_dealed_history_date[k] + "</td>"
                 detailHtml += "</tr>"
               }
           detailHtml += "</tbody>"
         detailHtml += "</table>"
         detailHtml += "</div>"
-        }
-    }
-    else{
-      detailHtml += "<div id='popSubLiving'><div class='popContent'>" + "면적 구성" + "<br>" + "<span class='popResult'>" + area_info + "</span></div></div>";
-    }
-    detailHtml += "<div class='comment2'>주거총점 계산을 위한 정보는 네이버 부동산으로 취득하며, 세대수/평형/난방방식 등의 항목을 상대점수로 산정합니다.</div>"
-    detailHtml += "</div></div></div></div>"
-    avgLivingScore = Math.round( livingSum/itemNum * 100 ) / 100
 
-    if(Number(selectedMonth) > 202207 && apt_type != "분양(예정)"){
-      //층간소음
-      detailHtml += "<div class='card'>";
-      detailHtml += "<div class='card-header'>";
-      detailHtml += "<div class='popTitle'><i class='fa-solid fa-bell-slash'></i>&nbsp&nbsp층간소음</div>"
-      detailHtml += "</div>";
-      detailHtml += "<div class='card-body' style='padding-top: 5px'>";
-      detailHtml += "<div id='popLiving'>"    
-      detailHtml += "<div class='popTable'>"
-
-      noise_level = ""
-              
-      if(floor_noise == "좋음" || floor_noise == "우수" ){
-        noise_level = "<span style='color:#148523'><i class='fa-solid fa-face-laugh'></i>     " + "우수" + "</span>"
-      }
-      else if (floor_noise == "보통"){
-        noise_level = "<span style='color:#148185'><i class='fa-solid fa-face-smile'></i>     " + floor_noise + "</span>"
-      }
-      else{
-        noise_level = "<span style='color:black'>" + "정보 없음" + "</span>"
-      }
-
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "층간소음 관리" + "</div>" + "<div class='popResult'>" + noise_level + "</div></div>";
-      detailHtml += "<div class='comment2' style='font-size: 0.7em'>층간소음 관리 정보는 층간소음 전문 연구소 <span style='color:#4542f5; font-weight:600'>주거문화개선연구소/층간소음에 안전한 아파트(앱)</span>에서 제공됩니다.</div>"
-      detailHtml += "</div></div></div></div>"    
-    }
-
-    if(isNaN(transportScore) == false){
-      //교통
-      detailHtml += "<div class='card'>";
-      detailHtml += "<div class='card-header'>";
-      detailHtml += "<div class='popTitle'><i class='fas fa-bus'></i>&nbsp&nbsp교통</div>"
-      detailHtml += "</div>";
-      detailHtml += "<div class='card-body'>";
-      detailHtml += "<div id='popTransport'>"
-      detailHtml += "<div class='graph' style='height: 120px'> <canvas id='transportChart'></canvas></div>"
-      detailHtml += "<div class='popTable'>"
-      detailHtml += "<div class='popSubTable' id='popSubStation'><div class='popContent'>" + "가장 가까운 역" + "</div>" + "<div class='popResult'>" + nearestStation + "</div></div>";
-      if(Number(selectedMonth) > 202211){
-        var subway_line = aptData.data[index]["역노선"]        
-        detailHtml += "<div class='stationList'><div></div><div class='stationText'>" + subway_line + "</div></div>";
-      }
-
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "30분 이내 도착 가능 주요역" + "</div>" + "<div class='popResult'>" + stationPoint_30m + "개</div></div>";
-      if(stationPoint_30m != 0 && selectedMonth != "202201"){
-        var stations_30m = aptData.data[index]["30분거점역이름"]
-        stations_30m = ( ( stations_30m.replace("[", "") ).replace("]", "") ).replace(/\'/g, "")
-        detailHtml += "<div class='stationList'><div></div><div class='stationText'>" + stations_30m + "</div></div>";
-      }
-
-      detailHtml += "<div class='popSubTable' id='stationTable'><div class='popContent'>" + "1시간 이내 도착 가능 주요역" + "</div>" + "<div class='popResult'>" + stationPoint_1h + "개</div></div>";
-      if(stationPoint_1h != 0 && selectedMonth != "202201"){
-        var stations_1h = aptData.data[index]["1시간거점역이름"]
-        stations_1h = stations_1h.replace("[", "").replace("]", "").replace(/\'/g, "")
-        detailHtml += "<div class='stationList'><div></div><div class='stationText'>" + stations_1h + "</div></div><hr style='margin-top: 2px'>";
-      }
-
-      detailHtml += "<div class='comment2'>가장 가까운 역은 직선거리로 계산됩니다.<br>주요역은 평일 출근시간대 하차인원이 가장 많은 역을 의미합니다.<br>30분, 1시간 이동 거리는 구글 대중교통 이동 시간 정보를 사용합니다.</div>"
-      detailHtml += "</div></div></div></div>"
-      avgTransportScore = ( Math.round( transportSum/itemNum * 100 ) / 100 ).toFixed(2)
-    }
-
-    //인프라
-    detailHtml += "<div class='card'>";
-    detailHtml += "<div class='card-header'>";
-    detailHtml += "<div class='popTitle'><i class='fas fa-hospital-user'></i>&nbsp&nbsp인프라</div>"
-    detailHtml += "</div>";
-    detailHtml += "<div class='card-body'>";
-    detailHtml += "<div id='popInfra'>"
-    detailHtml += "<div class='graph' style='height: 120px'> <canvas id='infraChart'></canvas></div>"
-    detailHtml += "<div class='popTable'>"    
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "3km 이내 백화점" + "</div>" + "<div class='popResult'>" + departmentStore_3km + "</div></div>";
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "5km 이내 아울렛/몰" + "</div>" + "<div class='popResult'>" + OutletMall_5km + "</div></div>";
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "1km 이내 대형마트" + "</div>" + "<div class='popResult'>" + bigMart_1km + "</div></div>";
-    if(Number(selectedMonth) > 202204){
-      if(aptData.data[index]["300m이내상권"] == '0'){
-        detailHtml += "<div class='popSubTable'><div class='popContent'>" + "300m 이내 상권" + "</div>" + "<div class='popResult'>0개</div></div>";
-      }
-      else{
-        detailHtml += "<div class='popSubTable'><div class='popContent'>" + "300m 이내 상권" + "</div>" + "<div class='popResult'>" + market_infra + "</div></div>";
-      }
-    }
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "500m 이내 은행" + "</div>" + "<div class='popResult'>" + bank_500m + "</div></div>";
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "500m 이내 병원" + "</div>" + "<div class='popResult'>" + hospital_500m + "</div></div>";
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "5km 이내 대형병원" + "</div>" + "<div class='popResult'>" + bigHospital_5km + "</div></div>";
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "500m 이내 공원" + "</div>" + "<div class='popResult'>" + park_500m + "</div></div>";
-    if(Number(selectedMonth) > 202205){
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "1km 이내 대형공원" + "</div>" + "<div class='popResult'>" + big_park_1km + "</div></div>";
-    }
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "3km 이내 혐오시설" + "</div>" + "<div class='popResult'>" + harmful_3km + "</div></div>";
-    if(Number(selectedMonth) > 202204){      
-      detailHtml += "<div class='comment2'>인프라 정보는 각 백화점/마트 홈페이지, 은행연합회, 자원순환정보시스템, 공공데이터 포탈의 정보를 기반으로 산정되며, 상권은 호갱노노 정보를 사용합니다.</div>"
-    }
-    else{
-      detailHtml += "<div class='comment2'>인프라 정보는 각 백화점/마트 홈페이지, 은행연합회, 자원순환정보시스템, 공공데이터 포탈의 정보를 기반으로 산정됩니다.</div>"
-    }
-    detailHtml += "</div></div></div></div>"
-    avgInfraScore = ( Math.round( infraSum/itemNum * 100 ) / 100 ).toFixed(2)
-
-    //교육
-    detailHtml += "<div class='card'>";
-    detailHtml += "<div class='card-header'>";
-    detailHtml += "<div class='popTitle'><i class='fas fa-graduation-cap'></i>&nbsp&nbsp교육</div>"
-    detailHtml += "</div>";
-    detailHtml += "<div class='card-body'>";
-    detailHtml += "<div id='popEducation'>"
-    detailHtml += "<div class='graph' style='height: 120px'> <canvas id='eduChart'></canvas></div>"
-    detailHtml += "<div class='popTable'>"
-    if(Number(selectedMonth) > 202204){
-      if(pSchool_distance-100 < 0){
-        minDistance = parseInt(pSchool_distance*0.8)
-      }
-      else{
-        minDistance = parseInt(pSchool_distance - 100)
-      }
-      maxDistance = parseInt(pSchool_distance)
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "초등학교 거리" + "</div>" + "<div class='popResult'>" + minDistance.toLocaleString() + "~" + maxDistance.toLocaleString() + "m</div></div>";      
-    }
-
-    if(pSchool_edu > 95 && pSchool_edu <= 100 ){
-      pSchool_edu_result = "많은 전입"
-    }
-    else if(pSchool_edu >= 92 && pSchool_edu <= 95 ){
-      pSchool_edu_result = "적은 전입"
-    }
-    else if(pSchool_edu >= 88 && pSchool_edu < 92 ){
-      pSchool_edu_result = "전입/전출 적음"
-    }
-    else if(pSchool_edu >= 85 && pSchool_edu < 88 ){
-      pSchool_edu_result = "적은 전출"
-    }
-    else{
-      pSchool_edu_result = "많은 전출"
-    }
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "초등학교 학생증감" + "</div>" + "<div class='popResult'>" + pSchool_edu_result + "</div></div>";
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "중학교 보통 학력 이상" + "</div>" + "<div class='popResult'>" + mSchool_edu + "</div></div>";
-    if(Number(selectedMonth) > 202204 && Number(selectedMonth) <= 202206){
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "500m 이내 학원가" + "</div>" + "<div class='popResult'>" + academy_edu + "</div></div>";
-      detailHtml += "<div class='comment2'>교육 정보는 교육통계서비스 정보를 기반으로 산정되며, 학원가는 호갱노노의 정보를 사용합니다.<br>초등학교까지의 거리는 직선거리로 계산됩니다.</div>"
-    }
-    else if(Number(selectedMonth) > 202206){
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "500m 이내 학원가" + "</div>" + "<div class='popResult'>" + academy_edu + "</div></div>";
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "300m 이내 유흥시설/모텔" + "</div>" + "<div class='popResult'>" + (drink_pub + daran_pub + motel) + "개</div></div>";
-      detailHtml += "<div class='comment2'>교육 정보는 교육통계서비스 정보를 기반으로 산정되며,<br>학원가는 호갱노노의 정보를 사용합니다.<br>초등학교까지의 거리는 직선거리로 계산됩니다.<br>유흥시설과 모텔정보는 교육 감점요소로 적용됩니다.</div>"
-    }
-    else{
-      detailHtml += "<div class='comment2'>교육 정보는 교육통계서비스 정보를 기반으로 산정됩니다.</div>"
-    }    
-    detailHtml += "</div></div></div></div>"
-    avgEduScore = ( Math.round( eduSum/itemNum * 100 ) / 100 ).toFixed(2)
-
-    //실거래가
-    if(Number(selectedMonth) > 202207){
-      var rent_info_array = rent_info.split(",")
-      var rent_ratio_array = rent_ratio.split(",")
-    }
-
-    if(Number(selectedMonth) > 202203 && apt_type != "분양(예정)"){
-      var sales_info_array = sales_info.split(",")
-      var price_per_array = price_per.split(",")
-
-      detailHtml += "<div class='card'>";
-      detailHtml += "<div class='card-header'>";
-      detailHtml += "<div class='popTitle'><i class='fa-solid fa-coins'></i>&nbsp&nbsp실거래가 <span style='font-size: 0.7em; color:#fe4040'> (최근 1개월내 실거래는 빨간색으로 표시)</span> </div>"
-      detailHtml += "</div>";
-      detailHtml += "<div class='card-body' style='padding-left: 5px ; padding-right: 5px; padding-top: 5px;'>";
-      detailHtml += "<div id='popEducation'>"
-      detailHtml += "<div class='popTable'>"
-      detailHtml += "<div id='popSubStation' style='grid-template-columns: 0.3fr 1fr; margin-left: 5px ; margin-right: 5px; margin-top: 10px;'>"
-      detailHtml += "<div class='popContent'>최근 실거래</div>"
-
-      //var current_year = selectedMonth.substr(0, 4)
-      //var current_month = selectedMonth.substr(4, 2) - 1
-      //var current_day = "01"
-      var start_date = new Date()
-      start_date.setMonth(today.getMonth() - 1)      
-
-      if(isNaN(last_sales_price)){
-        detailHtml += "<div class='popResult'>거래 정보 없음</div></div>"
-      }
-      else{
-        var compare_year = Number(last_sales_date.substr(0, 4))
-        var compare_month = Number(last_sales_date.substr(5, 2) - 1)
-        var compare_day = Number(last_sales_date.substr(8, 2))
-        var compare_date = new Date(compare_year, compare_month, compare_day)        
-
-        if(compare_date > today){
-          detailHtml += "<div class='popResult' style='color: #fe4040'>" + last_sales_area + ", " + Math.round(last_sales_price/100)/100 + "억, "+ last_sales_date.substr(2) + "</div></div>"
-        }
-        else{
-          detailHtml += "<div class='popResult'>" + last_sales_area + ", " + Math.round(last_sales_price/100)/100 + "억, "+ last_sales_date.substr(2) + "</div></div>"
-        }
-
-      }
-      detailHtml += "<hr>"
-      detailHtml += "<table class='table table-striped' style='font-size:0.8em'>"
-        detailHtml += "<thead class='table-light'>"
-          detailHtml += "<tr>"
-            if(Number(selectedMonth) > 202207){
-              detailHtml += "<th scope='col' style='line-height: 2.9em;'>" + "평형" + "</th>"
-              detailHtml += "<th scope='col'>" + "매매 실거래가<br>전세 실거래가" + "</th>"
-              detailHtml += "<th scope='col'>" + "평단가<br>전세가율" + "</th>"
-            }
-            else{
-              detailHtml += "<th scope='col'>" + "평형" + "</th>"
-              detailHtml += "<th scope='col'>" + "실거래가" + "</th>"
-              detailHtml += "<th scope='col'>" + "평단가" + "</th>"
-            }
-          detailHtml += "</tr>"
-        detailHtml += "</thead>"
-
-        detailHtml += "<tbody>"
-            for(var k = 0 ; k < area_array.length ; k++){
-              detailHtml += "<tr>"
-                if(sales_info_array[k] == "거래 정보 없음"){
-                  if(Number(selectedMonth) > 202207){
-                    detailHtml += "<td>" + area_array[k] + "</td>"
-                    detailHtml += "<td>" + "거래 정보 없음" + "<br>"
-                    if(rent_ratio_array[k] == "정보 없음" ){
-                      detailHtml += "거래 정보 없음</td>"
-                    }
-                  }
-                  else{
-                    detailHtml += "<td>" + area_array[k] + "</td>"
-                    detailHtml += "<td>" + "거래 정보 없음" + "</td>"
-                  }
-                }
-                else{                  
-                  var sales_info_split = sales_info_array[k].split("억")                  
-                  var compare_year = Number(sales_info_split[1].substr(2, 4))
-                  var compare_month = Number(sales_info_split[1].substr(7, 2)-1)
-                  var compare_day = Number(sales_info_split[1].substr(10, 2))
-                  var compare_date = new Date(compare_year, compare_month, compare_day)
-
-                  if(Number(selectedMonth) > 202207){
-                    var rent_info_split = rent_info_array[k].split("억")
-                    if(rent_info_split[0] == "거래 정보 없음"){
-                      
-                    }
-                    else{                    
-                      var compare_rent_year = Number(rent_info_split[1].substr(2, 4))
-                      var compare_rent_month = Number(rent_info_split[1].substr(7, 2) - 1)
-                      var compare_rent_day = Number(rent_info_split[1].substr(10, 2))
-                      var compare_rent_date = new Date(compare_rent_year, compare_rent_month, compare_rent_day)
-                    }
-
-                    if(compare_date > start_date){
-                      detailHtml += "<td><span style='color:#fe4040; font-weight:600'>" + area_array[k] + "</span></td>"
-                      detailHtml += "<td><span style='color:#fe4040; font-weight:600'>" + ( Math.round( sales_info_split[0] * 100 ) / 100 ).toFixed(2) + "억" + "<span style='font-size: 0.85em'>" + sales_info_split[1] + "</span></span><br>"
-                    }
-                    else{
-                      detailHtml += "<td>" + area_array[k] + "</td>"
-                      detailHtml += "<td>" + ( Math.round( sales_info_split[0] * 100 ) / 100 ).toFixed(2) + "억" + "<span style='font-size: 0.85em'>" + sales_info_split[1] + "</span><br>"
-                    }
-
-                    if(compare_rent_date > start_date){
-                      if(rent_info_split[0] == "거래 정보 없음"){
-                        detailHtml += "거래 정보 없음</td>"
-                      }
-                      else{
-                        detailHtml += "<span style='color:#fe4040; font-weight:600'>" + ( Math.round( rent_info_split[0] * 100 ) / 100 ).toFixed(2) + "억" + "<span style='font-size: 0.85em'>" + rent_info_split[1] + "</span></span></td>"
-                      }
-                    }
-                    else{         
-                      if(rent_info_split[0] == "거래 정보 없음"){
-                        detailHtml += "거래 정보 없음</td>"
-                      }
-                      else{
-                        detailHtml += "" + ( Math.round( rent_info_split[0] * 100 ) / 100 ).toFixed(2) + "억" + "<span style='font-size: 0.85em'>" + rent_info_split[1] + "</span></td>"
-                      }
-                    }
-                  }
-                  else{
-                    if(compare_date > start_date){
-                      detailHtml += "<td><span style='color:#fe4040; font-weight:600'>" + area_array[k] + "</span></td>"
-                      detailHtml += "<td><span style='color:#fe4040; font-weight:600'>" + ( Math.round( sales_info_split[0] * 100 ) / 100 ).toFixed(2) + "억" + "<span style='font-size: 0.85em'>" + sales_info_split[1] + "</span></span></td>"
-                    }
-                    else{
-                      detailHtml += "<td>" + area_array[k] + "</td>"
-                      detailHtml += "<td>" + ( Math.round( sales_info_split[0] * 100 ) / 100 ).toFixed(2) + "억" + "<span style='font-size: 0.85em'>" + sales_info_split[1] + "</span></td>"
-                    }                    
-                  }                  
-                }
-
-                if(Number(selectedMonth) > 202207){
-                  if(price_per_array[k] == "nan" || price_per_array[k] == 0){
-                  detailHtml += "<td>" + "---" + "<br>"
-                  }
-                  else{
-                    if(compare_date > start_date){
-                      detailHtml += "<td><span style='color:#fe4040; font-weight:600'>" + Number(price_per_array[k]).toLocaleString() + "만원" + "</span><br>"
-                    }
-                    else{
-                      detailHtml += "<td>" + Number(price_per_array[k]).toLocaleString() + "만원<br>"
-                    }
-                  }
-
-                  if(rent_ratio_array[k] == "정보 없음"){
-                    detailHtml += "---" + "</td>"
-                  }
-                  else{
-                    if(compare_rent_date > start_date){
-                      detailHtml += "<span style='color:#fe4040; font-weight:600'>" + (Math.round( rent_ratio_array[k] * 100 ) / 100 ).toFixed(2) + "%" + "</span></td>"
-                    }
-                    else{
-                      detailHtml += (Math.round( rent_ratio_array[k] * 100 ) / 100 ).toFixed(2) + "%" + "</td>"
-                    }
-                  }
-                }
-                else{
-                  if(price_per_array[k] == "nan" ){
-                    detailHtml += "<td>" + "---" + "</td>"
-                  }
-                  else{
-                    if(compare_date > start_date){
-                      detailHtml += "<td><span style='color:#fe4040; font-weight:600'>" + Number(price_per_array[k]).toLocaleString() + "만원" + "</span></td>"
-                    }
-                    else{
-                      detailHtml += "<td>" + Number(price_per_array[k]).toLocaleString() + "만원" + "</td>"
-                    }
-                  }
-                }              
-
-              detailHtml += "</tr>"
-            }
-        detailHtml += "</tbody>"
-      detailHtml += "</table>"
-      detailHtml += "<div class='comment2'>&nbsp&nbsp실거래가 정보는 네이버 부동산으로 취득합니다.</div>"
-      detailHtml += "</div></div></div></div>"
-    }
-
-    if(Number(selectedMonth) > 202209 && apt_type != "분양(예정)"){
-      //매매 실거래가
-      detailHtml += "<div class='card'>";
-      detailHtml += "<div class='card-header'>";
-        detailHtml += "<div class='popPriceTitle'><i class='fa-solid fa-chart-line'></i>&nbsp&nbsp매매가변동<span id='themeLogo'>BETA</span></div>"
-      detailHtml += "</div>"
-
-      detailHtml += "<div class='card-body' style='padding-top: 5px; padding-left: 5px; padding-right: 5px;'>";
-      detailHtml += "<div class='priceHistoryOption'>"        
-        detailHtml += "<div style='text-align:left; padding-left:10px'><input type='checkbox' id='showGraph' onChange='graphShowHide(this)' style='width: 0.8em; height: 0.8em'>"
-          detailHtml += "<label for='showGraph' style='font-size: 0.85em; padding-left: 3px'>그래프보기</label></input></div>"
-        detailHtml += "<div style='text-align: right'><select id='pStart' onChange='price_sDateChange(this.value)'></select> - <select id='pEnd' onChange='price_eDateChange(this.value)'></select></div>"
-      detailHtml += "</div>"
-      detailHtml += "<div id='popEducation'>"
-      detailHtml += "<div class='popTable'>"
-      
-      sales_history_price = aptData.data[index]["sales_history_price"]
-      if(sales_history_price[0][0] == undefined){
-        sales_history_price = [sales_history_price]
-      }
-      sales_history_date = aptData.data[index]["매매실거래날짜목록"]
-      //console.log(sales_history_price)
-
-      priceCharts = []
-      for (var p = 0 ; p < area_array.length ; p++){
-        generatedID = "pChart" + p
-        generated_priceID = "pChange" + p
-        generated_ratioID = "pRatio" + p
-
-        //console.log(sales_history_price[p])
-        if(Math.max(...sales_history_price[p]) <= 0){ showGraph = false }
-        else{ showGraph = true }
-
-        detailHtml += "<div class='popSubPriceTable' style='background: #eee'>"
-          detailHtml += "<div class='priceResult' style='padding-left: 5px'>" + area_array[p] + "</div>"
-          detailHtml += "<div class='popSubPriceTableDetail'>"
-            if(showGraph){
-              detailHtml += "<div class='priceResult' style='text-align: right; padding-right: 4px'><span id=" + generated_priceID + "></span>" + "</div>"
-              detailHtml += "<div class='priceResult' style='text-align: right; padding-right: 8px'><span id=" + generated_ratioID + "></span>" + "</div>"            
-            }
-            else{
-              detailHtml += "<div class='priceResult' style='text-align: right; padding-right: 4px'>거래 정보 없음" + "</div>"
-              detailHtml += "<div class='priceResult' style='text-align: right; padding-right: 8px'>( --- , --- )</div>"            
-            }
-          detailHtml += "</div>";
-        detailHtml += "</div>"
-
-        detailHtml += "<div class='priceGraph' style='height: 100px; border-bottom: 1px solid #ddd'> <canvas id=" + generatedID + "></canvas></div>"
-        priceCharts.push(generatedID)    
-      }    
-      detailHtml += "</div></div></div></div>"
-    }
-
-    //지역구
-    detailHtml += "<div class='card'>";
-    detailHtml += "<div class='card-header'>";
-    detailHtml += "<div class='popTitle'><i class='fas fa-layer-group'></i>&nbsp&nbsp" + $('#sido option:selected').text() + " " + $('#gungu option:selected').text() + "</div>"
-    detailHtml += "</div>";
-    detailHtml += "<div class='card-body'>";
-    detailHtml += "<div id='popEducation'>"
-    detailHtml += "<div class='graph' style='height: 120px'> <canvas id='regionChart'></canvas></div>"
-    detailHtml += "<div class='comment2'>지역구 정보는 공공데이터포탈 정보를 기반으로 산정됩니다.</div>"
-    detailHtml += "</div></div></div>"
+    detailHtml += "</div></div>"
 
     //Footer에 네이버 부동산 버튼
     footerHtml += "<div class='modal-footer'>"
@@ -1746,94 +1174,16 @@ function updateTable(region){
     shareTitle += selectedMonth.substr(2, 2) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월]\n"
 
     shareText = "\n『" + aptName
-    if(Number(selectedMonth) > 202203){      
-      if(apt_type == "재건축"){
-        shareText += "(" + aptDuration + "년차, 재건축)』"
-      }else if(apt_type == "분양권"){
-        shareText += "(" + aptData.data[index]["준공년월"].substr(0, 7) + " 예정)』"        
-      }
-      else{
-        shareText += "(" + aptDuration + "년차)』"
-      }
-    }
-    else{
-      if(aptDuration >= 30){
-        shareText += "(" + aptDuration + "년차, 재건축 대상)』"
-      }else{
-        shareText += "(" + aptDuration + "년차)』"
-      }
-    }
-
-    shareText += "\nㆍ지역 : " + $('#sido option:selected').text() + " " + $('#gungu option:selected').text()
-    shareText += "\nㆍ순위 : " + aptRank + " (" + sortName + ")"
-
-    if(isNaN(last_sales_price)){
-      shareText += "\nㆍ최근실거래 : 거래 정보 없음"
-    }
-    else{
-      shareText += "\nㆍ최근실거래\n    : " + last_sales_area + ", " + Math.round(last_sales_price/100)/100 + "억, "+ last_sales_date.substr(2)
-    }
-    if(house_num == null){
-      house_num = 0
-    }
-
-    if(Number(selectedMonth) > 202203){
-      if(apt_type >= "재건축"){
-        shareText += "\nㆍ용적률 : " + floor_rate
-        shareText += "\nㆍ건폐율 : " + cover_rate
-      }else{
-        shareText += "\nㆍ세대수 : " + house_num.toLocaleString() + "세대"
-        shareText += "\nㆍ주차 : " + parking
-      }
-    }
-    else{
-      if(aptDuration >= 30){
-        shareText += "\nㆍ용적률 : " + floor_rate
-        shareText += "\nㆍ건폐율 : " + cover_rate
-      }else{
-        shareText += "\nㆍ세대수 : " + house_num.toLocaleString() + "세대"
-        shareText += "\nㆍ주차 : " + parking
-      }
-    }
     
-    //if(aptData.data[index]["가까운역이름"] != "NA" || aptData.data[index]["가까운역이름"] != null){      
-    //  shareText += "\nㆍ가장 가까운 역 : " + nearestStation
-    //}
-    shareText += "\nㆍ5km 이내 대형병원 : " + bigHospital_5km
-    shareText += "\nㆍ중학교 보통 학력 이상 : " + mSchool_edu
-    shareText += "\n"
-    if(Number(selectedMonth) > 202211){
-      shareURL = aptData.data[index]["sURL"]
-      kakaoShareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
-    }
-    else{      
-      shareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
-      kakaoShareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
-    }
-
     if(broswerInfo.indexOf("inApp")>-1){
-      if(apt_type == "분양(예정)"){
-        footerHtml += "<div></div>"
-        footerHtml += "<div><button type='button' class='goLink_HGNN' onclick='openHGNN(\"" + searchCode + "\")'>호갱노노 보기</button></div>"
-        footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
-      }
-      else{
-        footerHtml += "<div></div>"
-        footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(" + searchCode + ")'>네이버 부동산 보기</button></div>"
-        footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
-      }
+      footerHtml += "<div></div>"
+      footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(" + naver_code + ")'>네이버 부동산 보기</button></div>"
+      footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
     }
     else{
-      if(apt_type == "분양(예정)"){
-        footerHtml += "<div><button type='button' class='goLink_HGNN' onclick='openHGNN(\"" + searchCode + "\")'>호갱노노 보기</button></div>"
-        footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
-        footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
-      }
-      else{
-        footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(\"" + searchCode + "\")'>네이버 부동산 보기</button></div>"
-        footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
-        footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
-      }
+      footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(\"" + naver_code + "\")'>네이버 부동산 보기</button></div>"
+      footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
+      footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
     }
     footerHtml += "</div>"
 
@@ -1841,20 +1191,20 @@ function updateTable(region){
     $('#aptDetail').html(detailHtml);
     $('#footer').html(footerHtml);
 
-    //지도 그리는 함수
-    if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-      var dw = $(window).width() - 40;
-      //var dw = 372;	 
-    }
-    else{
-      var dw = 459;	 
-    }    
-    var dh = 200;
+    if(naver_code != ""){
+      //지도 그리는 함수
+      if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+        var dw = $(window).width() - 40;
+        //var dw = 372;	 
+      }
+      else{
+        var dw = 459;	 
+      }    
+      var dh = 200;
 
-    if(Number(selectedMonth) > 202212){      
       var detailMapOptions = {
         center: new naver.maps.LatLng(Number(coord_y), Number(coord_x)),
-	      size: new naver.maps.Size(dw, dh),
+        size: new naver.maps.Size(dw, dh),
         zoom: 15, //지도의 초기 줌 레벨
         zoomControl: false, //줌 컨트롤의 표시 여부
         draggable: false,
@@ -1874,6 +1224,7 @@ function updateTable(region){
       });
     }
 
+
     if(broswerInfo.indexOf("inApp")>-1){
       $('.modal-footer').css({"grid-template-columns" : "0.2fr 1fr 0.2fr", "text-align":"center", "text-align": "-webkit-center"})
     }
@@ -1881,289 +1232,17 @@ function updateTable(region){
       $('.modal-footer').css({"grid-template-columns" : "1fr 0.15fr 0.15fr", "text-align":"center", "text-align": "-webkit-center"})
     }
 
-    if(Number(selectedMonth) > 202203){
-      rank_history = aptData.data[index]["rank_history"]
-      rankMonth = [""]
-      rankData = [null]
-      for(var j = 0 ; j < rank_history.length ; j++){
-        if(rank_history[j][1] == 9999){
-        }
-        else if(rank_history[j][1] == 0){
-          rankMonth.push("'" + rank_history[j][0].substr(2, 2) + "." + rank_history[j][0].substr(4, 2))
-          rankData.push(aptData.data[index]["rank"])
-        }
-        else{
-          rankMonth.push("'" + rank_history[j][0].substr(2, 2) + "." + rank_history[j][0].substr(4, 2))
-          rankData.push(rank_history[j][1])
-        }
-      }
-      rankMonth.push("")
-      rankData.push(null)
-
-      rankMonth.reverse()
-      rankData.reverse()
-      drawRankChart(rankMonth, rankData, aptData.data[itemNum-1]["rank"])
+    graph_history_date_short = graph_history_date.slice(-48, -1)
+    graph_history_price_short = graph_history_price.slice(-48, -1)
+    graph_history_price_short_num = []
+    for(var j = 0 ; j < graph_history_price_short.length ; j++){
+      graph_history_price_short_num.push((graph_history_price_short[j]/10000).toFixed(2))
     }
 
-    drawChart(aptValue.toFixed(2), livingScore, transportScore, infraScore, eduScore)
-    drawSubChart(livingScore, avgLivingScore, "주거총점", "지역평균", "#fe4040", "#9f9f9f",  "livingChart")
-    if(isNaN(transportScore) == false){
-      drawSubChart(transportScore, avgTransportScore, "교통총점", "지역평균", "#fe4040", "#9f9f9f", "transportChart")
-    }
-    drawSubChart(infraScore, avgInfraScore, "인프라총점", "지역평균", "#fe4040", "#9f9f9f", "infraChart")
-    drawSubChart(eduScore, avgEduScore, "교육총점", "지역평균", "#fe4040", "#9f9f9f", "eduChart")
-    drawSubChart(eduScore, avgEduScore, "인구총점", "일자리총점", "#fe4040", "#fe4040", "regionChart")
-
-    if(Number(selectedMonth) > 202209){
-      price_sOption = ""
-      price_eOption = ""
-      for(w = 0 ; w < sales_history_date.length-1 ; w++){
-          price_sOption += "<option value='" + w + "'>" + "'" + sales_history_date[w].substr(2, 2)+ "." + sales_history_date[w].substr(4, 2)  + "</option>"
-      }
-      for(w = 1 ; w < sales_history_date.length ; w++){
-          price_eOption += "<option value='" + w + "'>" + "'" + sales_history_date[w].substr(2, 2)+ "." + sales_history_date[w].substr(4, 2)  + "</option>"
-      }
-      $('#pStart').html(price_sOption)
-      $("#pStart").val(5).prop("selected", true);
-
-      $('#pEnd').html(price_eOption)
-      $("#pEnd").val(sales_history_date.length-1).prop("selected", true);
-
-      if(apt_type != "분양(예정)"){
-        priceChartDraw(priceCharts, sales_history_price, sales_history_date, 0, sales_history_date.length)
-      }
-    }
-
-    //초기 그래프 표시 안 함
-    $('.priceGraph').hide()
-    $('.popSubPriceTable').css({'margin-top' : '3px', 'margin-bottom' : '0px'})
-    price_sDateChange( $("#pStart").val() )
+    priceMax = Math.max(...graph_history_price_short_num) * 1.3
+    drawPriceChart(graph_history_date_short, graph_history_price_short_num, priceMax)
   }
 
-  function graphShowHide(obj){
-    if(obj.checked){
-      $('.priceGraph').show()
-      $('.popSubPriceTable').css({'margin-top' : '10px', 'margin-bottom' : '10px'})
-    }
-    else{
-      $('.priceGraph').hide()
-      $('.popSubPriceTable').css({'margin-top' : '3px', 'margin-bottom' : '0px'})
-    }    
-  }
-
-  function price_sDateChange(val){    
-    startVal = Number(val) + 1
-    endVal = $("#pEnd").val()    
-
-    eDateOption = ""
-    for(var w = startVal ; w < sales_history_date.length ; w++){
-      eDateOption += "<option value='" + w + "'>" + "'" + sales_history_date[w].substr(2, 2)+ "." + sales_history_date[w].substr(4, 2)  + "</option>"      
-    }    
-    $('#pEnd').html(eDateOption)
-
-    if(endVal > startVal){
-      $("#pEnd").val(endVal).prop("selected", true);
-    }
-    else{
-      endVal = $("#pEnd").val() 
-    }
-
-    priceChartUpdate(priceCharts, sales_history_price, sales_history_date, startVal, endVal)
-  }
-
-  function price_eDateChange(val){    
-    startVal = $("#pStart").val()  
-    endVal = Number(val) - 1
-
-    priceChartUpdate(priceCharts, sales_history_price, sales_history_date, startVal, endVal)
-  }
-
-  function priceChartUpdate(priceChart, sales_history_price, sales_history_date, sVal, eVal){
-    for(var p=0 ; p < priceChart.length ; p++){
-      sales_grayHistory1 = []
-      sales_pHistory = []
-      sales_grayHistory2 = []
-
-      sales_pHistory.push(null)
-      sales_grayHistory1.push(null)
-      sales_grayHistory2.push(null)
-
-      sales_dHistory = []      
-      sales_dHistory.push("")
-
-      for(var y = 0 ; y < sales_history_date.length ; y++){
-        if(y < sVal){
-          if(sales_history_price[p][y] == 0){
-            sales_grayHistory1.push(0)
-          }
-          else{
-            sales_grayHistory1.push((sales_history_price[p][y]/10000).toFixed(1))
-          }
-          sales_pHistory.push(null)
-          sales_grayHistory2.push(null)
-        }
-        if( y >= sVal && y <= eVal){
-          sales_grayHistory1.push(null)
-          if(sales_history_price[p][y] == 0){
-            sales_pHistory.push(0)
-          }
-          else{
-            sales_pHistory.push((sales_history_price[p][y]/10000).toFixed(1))
-          }
-          sales_grayHistory2.push(null)
-        }
-        if(y > eVal){
-          sales_grayHistory1.push(null)
-          sales_pHistory.push(null)
-          if(sales_history_price[p][y] == 0){
-            sales_grayHistory2.push(0)
-          }
-          else{
-            sales_grayHistory2.push((sales_history_price[p][y]/10000).toFixed(1))
-          }
-        }
-        //sales_pHistory.push( (sales_history_price[p][y]/10000).toFixed(1) )        
-        sales_dHistory.push( "'" + sales_history_date[y].substr(2, 2) + "." + sales_history_date[y].substr(4, 2))        
-      }      
-      sales_pHistory.push(null)
-      sales_grayHistory1.push(null)
-      sales_grayHistory2.push(null)
-      sales_dHistory.push("")
-      
-      chartView[p].data.datasets[0].data = sales_grayHistory1
-      chartView[p].data.datasets[1].data = sales_pHistory
-      chartView[p].data.datasets[2].data = sales_grayHistory2
-      chartView[p].update();
-
-      sPrice = sales_history_price[p][sVal]
-      ePrice = sales_history_price[p][eVal-1]
-      priceGap = ( (ePrice - sPrice) / 10000 ).toFixed(2)
-      priceRatio = ( (ePrice/sPrice -1 ) * 100 ).toFixed(1)
-
-      priceChangeText = ""      
-      priceChangeText += (sPrice/10000).toFixed(2) + " → " + (ePrice/10000).toFixed(2) + "억"
-
-      priceRatioText = ""
-      if(sPrice == 0){
-        priceRatioText += " ( --- , --- )"
-      }
-      else{
-        if(priceGap >= 0){
-          priceRatioText += " (+" + priceGap + "억, "
-        }
-        else{
-          priceRatioText += " (" + priceGap + "억, "
-        }
-
-        if(priceRatio > 0){
-          priceRatioText += "<span style='color:#fe4040'>▲" + priceRatio + "%</span>)"
-        }
-        else if (priceRatio == 0){
-          priceRatioText += "<span style='color:#000'>" + priceRatio + "%</span>)"
-        }
-        else{
-          priceRatioText += "<span style='color:blue'>▼" + (priceRatio*-1) + "%</span>)"
-        }
-      }
-      $('#pChange'+p).html(priceChangeText)    
-      $('#pRatio'+p).html(priceRatioText)      
-    }     
-  }
-
-  function priceChartDraw(priceChart, sales_history_price, sales_history_date, sVal, eVal){
-    for(var p=0 ; p < priceChart.length ; p++){
-      sales_grayHistory1 = []
-      sales_pHistory = []
-      sales_grayHistory2 = []
-
-      sales_pHistory.push(null)
-      sales_grayHistory1.push(null)
-      sales_grayHistory2.push(null)
-
-      sales_dHistory = []      
-      sales_dHistory.push("")
-
-      for(var y = 0 ; y < sales_history_date.length ; y++){
-        if(y < sVal){
-          if(sales_history_price[p][y] == 0){
-            sales_grayHistory1.push(0)
-          }
-          else{
-            sales_grayHistory1.push((sales_history_price[p][y]/10000).toFixed(1))
-          }
-          sales_pHistory.push(null)
-          sales_grayHistory2.push(null)
-        }
-        if( y >= sVal && y <= eVal){
-          sales_grayHistory1.push(null)
-          if(sales_history_price[p][y] == 0){
-            sales_pHistory.push(0)
-          }
-          else{
-            sales_pHistory.push((sales_history_price[p][y]/10000).toFixed(1))
-          }
-          sales_grayHistory2.push(null)
-        }
-        if(y > eVal){
-          sales_grayHistory1.push(null)
-          sales_pHistory.push(null)
-          if(sales_history_price[p][y] == 0){
-            sales_grayHistory2.push(0)
-          }
-          else{
-            sales_grayHistory2.push((sales_history_price[p][y]/10000).toFixed(1))
-          }
-        }
-        //sales_pHistory.push( (sales_history_price[p][y]/10000).toFixed(1) )
-        sales_dHistory.push( "'" + sales_history_date[y].substr(2, 2) + "." + sales_history_date[y].substr(4, 2))        
-      }      
-      sales_pHistory.push(null)
-      sales_grayHistory1.push(null)
-      sales_grayHistory2.push(null)
-      sales_dHistory.push("")
-
-      priceMax = Math.max(...sales_pHistory) * 1.3
-      drawPriceChart(sales_dHistory, sales_grayHistory1, sales_pHistory, sales_grayHistory2, priceChart[p], priceMax, p)
-      
-      sPrice = sales_history_price[p][sVal]
-      ePrice = sales_history_price[p][eVal-1]
-      priceGap = ( (ePrice - sPrice) / 10000 ).toFixed(2)
-      priceRatio = ( (ePrice/sPrice -1 ) * 100 ).toFixed(1)
-
-      sPrice = sales_history_price[p][sVal]
-      ePrice = sales_history_price[p][eVal-1]
-      priceGap = ( (ePrice - sPrice) / 10000 ).toFixed(2)
-      priceRatio = ( (ePrice/sPrice -1 ) * 100 ).toFixed(1)
-
-      priceChangeText = ""      
-      priceChangeText += (sPrice/10000).toFixed(2) + " → " + (ePrice/10000).toFixed(2) + "억"
-
-      priceRatioText = ""
-      if(sPrice == 0){
-        priceRatioText += " ( --- , --- )"
-      }
-      else{
-        if(priceGap >= 0){
-          priceRatioText += " (+" + priceGap + "억, "
-        }
-        else{
-          priceRatioText += " (" + priceGap + "억, "
-        }
-
-        if(priceRatio > 0){
-          priceRatioText += "<span style='color:#fe4040'>▲" + priceRatio + "%</span>)"
-        }
-        else if (priceRatio == 0){
-          priceRatioText += "<span style='color:#000'>" + priceRatio + "%</span>)"
-        }
-        else{
-          priceRatioText += "<span style='color:blue'>▼" + (priceRatio*-1) + "%</span>)"
-        }
-      }
-      $('#pChange'+p).html(priceChangeText)    
-      $('#pRatio'+p).html(priceRatioText) 
-    }
-  }
 
   function updateRegionTable(month, region){
     //$('html').scrollTop(0)
@@ -2260,300 +1339,6 @@ function updateTable(region){
     })
 
     saveLocalStorage()
-  }
-
-  function showRegionDetail(index){
-    titleHtml = "";
-    detailHtml = "";
-    footerHtml = "";
-    var regRank = regData.data[index]["rank"] + "/" + regData.data[itemNum-1]["rank"] + "위"
-    var regName = regData.data[index]["시도"]
-    var regValue = ( Math.round(regData.data[index]["가치 총점"] * 100) / 100).toFixed(2)
-
-    var regSupplyAll = regData.data[index]["총물량"]
-    var regSupplyProper = regData.data[index]["적정입주물량"]
-    var regSupplyUpDown = Math.abs(regData.data[index]["과부족수"])
-
-    if(Number(selectedMonth) > 202208){ 
-      var regSupplyAll_nearby = regData.data[index]["인근총합공급량"]
-      var regSupplyProper_nearby = regData.data[index]["총합적정공급량"]
-      var regSupplyUpDown_nearby = Math.abs(regData.data[index]["총합과부족수"])
-      var nearby_info = regData.data[index]["인근지역정보"]
-    }
-
-    var regSupplyLevel = regData.data[index]["공급수준"]
-    var regSupplyScore = ( Math.round(regData.data[index]["지역구공급총점"] * 100) / 100).toFixed(2)
-
-    var regPop = regData.data[index]["인구수"]
-    var regPopUpDown = regData.data[index]["인구증감"]
-    var regPopScore = ( Math.round(regData.data[index]["인구총점"] * 100) / 100).toFixed(2)
-
-    var regJob = regData.data[index]["일자리"]
-    var regIncome = regData.data[index]["소득수준"]
-    var regJobScore = ( Math.round(regData.data[index]["일자리총점"] * 100) / 100).toFixed(2)
-    linked = regData.data[index]["연결명"]
-
-    //Title
-    //titleHtml += "<div class='popupTitle'>" + aptName + " " + apt_p + "(" + apt_m + ")</div>";
-    titleHtml += "<div class='popupTitle'>" + regName + "</div>";
-
-    //총점,순위
-    detailHtml += "<div class='card'>";
-    detailHtml += "<div class='card-header'>";
-
-      if(selectedMonth == "202201"){
-        detailHtml += "<div class='popRank'><i class='fas fa-trophy'></i> " + regRank + "</div></div>";
-      }
-      else{
-        detailHtml += "<div class='popRank'><i class='fas fa-trophy'></i> " + regRank;
-        if(regData.data[index]["rank_gap"] == 0){
-          detailHtml += "<span class='ranksame'> (--) </span>"
-        }
-        else if(regData.data[index]["rank_gap"] == 9999){
-          detailHtml += "<span class='ranksame'> (NEW!) </span>"
-        }
-        else if(regData.data[index]["rank_gap"] > 0){
-          detailHtml += "<span class='rankup'> (▲" + Math.abs(regData.data[index]["rank_gap"]) + ")</span>"
-        }
-        else if(regData.data[index]["rank_gap"] < 0){
-          detailHtml += "<span class='rankdown'>(▼" + Math.abs(regData.data[index]["rank_gap"]) + ")</span>"
-        }
-        detailHtml += "</div></div>"
-      }
-
-    detailHtml += "<div class='card-body'>";
-    detailHtml += "<div class='graph' style='height: 200px'> <canvas id='valueChart'></canvas></div>"
-    detailHtml += "<div class='comment'>(전국 모든 시군구에 대해 100점으로 환산한 상대 점수 입니다.)</div>"
-
-    if(Number(selectedMonth) > 202203){
-      detailHtml += "<hr><div class='graph' style='height: 120px;'> <canvas id='rankChart'></canvas></div>"
-    }
-
-    detailHtml += "</div></div>"
-
-    //물량
-    detailHtml += "<div class='card'>";
-    detailHtml += "<div class='card-header'>";
-    var start_y = selectedMonth.substr(0, 4)
-    var end_y = (Number(start_y) + 1).toString()
-    var start_m = selectedMonth.substr(4, 2)
-    var duration = "<span style='font-size:0.8em'> (" + start_y + "-" + start_m + " ~ " + end_y + "-" + start_m + ") </span>"
-    if(Number(selectedMonth) > 202208){
-      detailHtml += "<div class='popTitle'><i class='fas fa-building'></i>&nbsp&nbsp공급량" + duration + "</div>"
-      detailHtml += "<div class='comment2'>2022년 9월 부터 인근 지역의 공급량 총합으로 과부족을 표시합니다.</div>"
-      detailHtml += "<div class='comment2'>적정 공급량은 \"인구 X 0.5%\"로 계산됩니다.</div>"
-    }
-    else{
-      detailHtml += "<div class='popTitle'><i class='fas fa-building'></i>&nbsp&nbsp공급량</div>"      
-    }
-    detailHtml += "</div>";
-    detailHtml += "<div class='card-body'>";
-    detailHtml += "<div id='popLiving'>"
-    detailHtml += "<div class='popTable'>"
-    //detailHtml += "<div class='graph' style='height: 120px'> <canvas id='supplyChart'></canvas></div>"
-    if(Number(selectedMonth) < 202209){      
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "총 공급량" + "</div>" + "<div class='popResult'>" + ( Math.round(regSupplyAll) ).toLocaleString() + "세대</div></div>";
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "적정 공급량" + "</div>" + "<div class='popResult'>" + ( Math.round(regSupplyProper) ).toLocaleString() + "세대</div></div>";
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "과부족" + "</div>" + "<div class='popResult'>" + ( Math.round(regSupplyUpDown) ).toLocaleString() + "세대 " + regSupplyLevel + "</div></div>";
-      detailHtml += "</div></div></div></div>"
-    }
-    else{      
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "총 공급량" + "</div>" + "<div class='popResult'>" + ( Math.round(regSupplyProper_nearby) ).toLocaleString() + "세대</div></div>";
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "적정 공급량" + "</div>" + "<div class='popResult'>" + ( Math.round(regSupplyAll_nearby) ).toLocaleString() + "세대</div></div>";      
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "과부족" + "</div>" + "<div class='popResult'>" + ( Math.round(regSupplyUpDown_nearby) ).toLocaleString() + "세대 " + regSupplyLevel + "</div></div>";
-
-      detailHtml += "<div class='column2'>"
-        detailHtml += "<div class='column_table'>"
-          detailHtml += "<div class='column_table_title'>" + regName + "</div>"
-          detailHtml += "<div class='column_table_content'>"
-          if (regData.data[index]["과부족수"] > 0){
-              vol_info = "부족"
-          }
-          else if (regData.data[index]["과부족수"] < 0){
-            vol_info = "과다"
-          }
-          else if (regData.data[index]["과부족수"] == 0){
-            vol_info = "적정"
-          }
-          detailHtml += "<div class='supplySubTable'><div class='supplyResult'>" + regSupplyUpDown.toFixed() + "세대 공급 " + vol_info + "</div></div>";
-          detailHtml += "</div>"
-          detailHtml += "</div>"
-
-        for(var i = 0 ; i < nearby_info.length ; i++){
-          detailHtml += "<div class='column_table'>"
-            region_name_array = nearby_info[i][0].split(" ")
-            short_region_name = ""
-            for(var k = 1; k < region_name_array.length; k++){
-              short_region_name += region_name_array[k]
-              short_region_name += " "
-            }
-
-            detailHtml += "<div class='column_table_title'>" + short_region_name + "<span style='font-size:0.9em'>(" + nearby_info[i][5].toFixed(1) + " km)</span>"
-            detailHtml += "</div>"
-            detailHtml += "<div class='column_table_content'>"
-              if (nearby_info[i][2]-nearby_info[i][3] > 0){
-                vol_info = "과다"
-              }
-              else if (nearby_info[i][2]-nearby_info[i][3] < 0){
-                vol_info = "부족"
-              }
-              else if (nearby_info[i][2]-nearby_info[i][3] == 0){
-                vol_info = "적정"
-              }
-              //detailHtml += "<div class='supplySubTable'><div class='supplyContent'>" + "" + "</div>" + "<div class='supplyResult'>" + (nearby_info[i][3].toFixed()).toLocaleString() + "세대 적정 공급</div></div>";
-              detailHtml += "<div class='supplySubTable'><div class='supplyResult'>" + (Math.abs(nearby_info[i][2]-nearby_info[i][3]).toFixed()).toLocaleString() + "세대 공급 " + vol_info + "</div></div>";
-            detailHtml += "</div>"
-          detailHtml += "</div>"
-        }
-        detailHtml += "</div></div></div></div></div>"
-    }    
-    avgSupplyScore = ( Math.round( regSupplySum/itemNum * 100 ) / 100 ).toFixed(2)
-
-    //인구
-    detailHtml += "<div class='card'>";
-    detailHtml += "<div class='card-header'>";
-    detailHtml += "<div class='popTitle'><i class='fas fa-user-friends'></i>&nbsp&nbsp인구</div>"
-    detailHtml += "</div>";
-    detailHtml += "<div class='card-body'>";
-    detailHtml += "<div id='popInfra'>"
-    detailHtml += "<div class='graph' style='height: 120px'> <canvas id='popChart'></canvas></div>"
-    detailHtml += "<div class='popTable'>"
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "인구수" + "</div>" + "<div class='popResult'>" + regPop.toLocaleString() + "명 </div></div>";
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "인구증가" + "</div>" + "<div class='popResult'>" + ( Math.round(regPopUpDown) ).toLocaleString() + "명</div></div>";
-    detailHtml += "</div></div></div></div>"
-    avgPopScore = ( Math.round( regPopSum/itemNum * 100 ) / 100 ).toFixed(2)
-
-    //일자리
-    detailHtml += "<div class='card'>";
-    detailHtml += "<div class='card-header'>";
-    detailHtml += "<div class='popTitle'><i class='fas fa-user-md'></i></i>&nbsp&nbsp일자리</div>"
-    detailHtml += "</div>";
-    detailHtml += "<div class='card-body'>";
-    detailHtml += "<div id='popEducation'>"
-    detailHtml += "<div class='graph' style='height: 120px'> <canvas id='jobChart'></canvas></div>"
-    detailHtml += "<div class='popTable'>"
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "일자리수" + "</div>" + "<div class='popResult'>" + regJob.toLocaleString() + "개</div></div>";
-    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "평균소득" + "</div>" + "<div class='popResult'>" + regIncome.toLocaleString() + "원</div></div>";
-    detailHtml += "</div></div></div></div>"
-    avgJobScore = ( Math.round( regJobSum/itemNum * 100 ) / 100 ).toFixed(2)
-
-
-    //매매, 전세가격지수
-    if(rateExist.includes(regName) && Number(selectedMonth) > 202203){
-      url = "https://www.aptrank.kr/" + selectedMonth + "/Price_Rate/" + regName + ".json" + update_ver
-
-      detailHtml += "<div class='card'>";
-      detailHtml += "<div class='card-header'>";
-      detailHtml += "<div class='popTitle'><i class='fa-solid fa-chart-line'></i>&nbsp&nbsp매매/전세 가격 지수</div>"
-      detailHtml += "</div>";
-      detailHtml += "<div class='card-body'>";
-      detailHtml += "<div id='popEducation'>"
-      detailHtml += "<div class='graph' style='height: 200px;'> <canvas id='priceRateChart'></canvas></div>"
-      detailHtml += "<hr><div class='comment2'>매매/전세 가격 지수는 KB부동산 정보를 참조하며, 2022년 1월의 가격을 100.0으로 설정한 기준으로 산정됩니다. 100초과는 매수우위, 100미만은 매도우위를 의미합니다.</div>"
-      detailHtml += "</div></div></div>"
-    }
-
-    //Footer에 아파트보기 버튼
-    var shortName = regName.substring(regName.search(' '), regName.length)
-    var rName = regName.substring(0, regName.search(' '))
-    for(var i = 0 ; i < regions.length; i++){
-      if(regions[i][0] == rName){
-        regionValue = regions[i][1]
-      }
-      else{}
-    }
-
-    shareTitle = "[아파트랭크 "
-    shareTitle += selectedMonth.substr(2, 2) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월]\n\n"
-
-    shareText = "『" + regName + "』"
-    shareText += "\nㆍ순위 : " + regRank + " (" + regValue + "점)"
-    shareText += "\nㆍ인구수 : " + regPop.toLocaleString() + "명"
-    shareText += "\nㆍ공급량 : " + ( Math.round(regSupplyUpDown) ).toLocaleString() + "세대 " + regSupplyLevel
-    shareText += "\nㆍ일자리 : " + regJob.toLocaleString() + "개"
-    shareText += "\n\n"
-    shareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth
-
-    footerHtml += "<div class='modal-footer'>"
-    //footerHtml += "<div></div>"
-
-    if(broswerInfo.indexOf("inApp")>-1){
-      footerHtml += "<div></div>"
-      footerHtml += "<div><button type='button' class='goApt' data-dismiss='modal' onClick='show_apt(selectedMonth, linked, regionValue)'>" + shortName + " 아파트 보기</button></div>"      
-      footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src = './kakao_icon.png' height='32px'></div>"
-    }
-    else{
-      footerHtml += "<div><button type='button' class='goApt' data-dismiss='modal' onClick='show_apt(selectedMonth, linked, regionValue)'>" + shortName + " 아파트 보기</button></div>"
-      footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src = './kakao_icon.png' height='32px'></div>"
-      footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
-    }
-    footerHtml += "</div>"
-
-    $('#baseModalLabel').html(titleHtml);
-    $('#aptDetail').html(detailHtml);
-    $('#footer').html(footerHtml);
-
-    if(broswerInfo.indexOf("inApp")>-1){
-      $('.modal-footer').css({"grid-template-columns" : "0.2fr 1fr 0.2fr", "text-align":"center"})
-    }
-    else{
-      $('.modal-footer').css({"grid-template-columns" : "1fr 0.15fr 0.15fr", "text-align":"center"})
-    }
-
-    if(Number(selectedMonth) > 202203){
-      rank_history = regData.data[index]["rank_history"]
-      rankMonth = [""]
-      rankData = [null]
-      for(var j = 0 ; j < rank_history.length ; j++){
-        if(rank_history[j][1] == 9999){
-        }
-        else if(rank_history[j][1] == 0){
-          rankMonth.push(rank_history[j][0])
-          rankData.push(regData.data[index]["rank"])
-        }
-        else{
-          rankMonth.push(rank_history[j][0])
-          rankData.push(rank_history[j][1])
-        }
-      }
-      rankMonth.push("")
-      rankData.push(null)
-
-      rankMonth.reverse()
-      rankData.reverse()
-
-      drawRankChart(rankMonth, rankData, regData.data[itemNum-1]["rank"])
-    }
-    drawChart(regValue, regSupplyScore, regPopScore, regJobScore, "region")
-    //drawSubChart(regSupplyScore, avgSupplyScore, "공급량총점", "전국평균", "#fe4040", "#9f9f9f", "supplyChart")
-    drawSubChart(regPopScore, avgPopScore, "인구총점", "전국평균", "#fe4040", "#9f9f9f", "popChart")
-    drawSubChart(regJobScore, avgJobScore, "일자리총점", "전국평균", "#fe4040", "#9f9f9f", "jobChart")
-    //drawPriceRateChart(dateArray, salesArray, rentArray)
-
-    if(Number(selectedMonth) > 202203){
-      var dateArray = ["", ""]
-      var salesArray = [null, null]
-      var rentArray = [null, null]
-
-      $.getJSON(url, function(json) {
-        rateData = json
-        for (var i = (rateData.data).length-36 ; i < (rateData.data).length ; i++){
-          pushed_date = "'"+(rateData.data[i]["Date"]).toString().substr(2, 2) + "." + (rateData.data[i]["Date"]).toString().substr(4, 2)
-          dateArray.push(pushed_date)
-          salesArray.push(rateData.data[i]["Sales"])
-          rentArray.push(rateData.data[i]["Rent"])
-        }
-
-        dateArray.push("")
-        dateArray.push("")
-        salesArray.push(null)
-        salesArray.push(null)
-        rentArray.push(null)
-        rentArray.push(null)
-
-        drawPriceRateChart(dateArray, salesArray, rentArray)
-      })
-    }
   }
 
   function show_apt(month, filename, sido){
@@ -2735,6 +1520,10 @@ function updateTable(region){
         $.removeCookie('popCookie', null, { path: '/' });
       }
     })
+  }
+
+  function goMap(url){
+      window.open(url, '_blank')
   }
 </script>
 </html>

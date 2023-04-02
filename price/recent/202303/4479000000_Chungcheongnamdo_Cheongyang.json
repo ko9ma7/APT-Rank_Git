@@ -126,6 +126,18 @@
                 "type":"string"
             },
             {
+                "name":"history_floor",
+                "type":"string"
+            },
+            {
+                "name":"history_cancel",
+                "type":"string"
+            },
+            {
+                "name":"history_cancel_date",
+                "type":"string"
+            },
+            {
                 "name":"graph_history_date",
                 "type":"string"
             },
@@ -235,6 +247,75 @@
                 "15500",
                 "18500",
                 "18000"
+            ],
+            "history_floor":[
+                "13",
+                "6",
+                "8",
+                "1",
+                "12",
+                "7",
+                "1",
+                "7",
+                "6",
+                "8",
+                "9",
+                "4",
+                "3",
+                "1",
+                "11",
+                "5",
+                "1",
+                "1",
+                "5",
+                "4",
+                "7"
+            ],
+            "history_cancel":[
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan"
+            ],
+            "history_cancel_date":[
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan",
+                "nan"
             ],
             "graph_history_date":[
                 "2012-01",
