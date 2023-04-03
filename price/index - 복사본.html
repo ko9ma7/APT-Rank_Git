@@ -127,10 +127,6 @@
         <div id="sido_selection"><select id="sido" onChange="sidoChange()"></select></div>
         <div id="gungu_selection"><select id="gungu" onChange="updateRegion()"></select></div>    
         <div id="month_selection">
-          <select id="month" onChange="updateMonth()">
-            <option value="202304" selected>2023년 04월</option>
-            <option value="202303" >2023년 03월</option>
-          </select>
         </div>
       </div>
 
@@ -335,7 +331,7 @@
 
 
 <script>
-  var selectedMonth = "202304"
+  var selectedMonth = "202303"
   var selectedRegion = "Seoul"
   var selectedSubRegion = "1168000000_Seoul_Gangnam"
   var selectedComplex = ""
@@ -343,6 +339,16 @@
   var update_ver = "?v=1.4"
 
   var regionName = ""
+  var valueSum = 0;
+  var livingSum = 0;
+  var transportSum = 0;
+  var infraSum = 0;
+  var eduSum = 0;
+
+  var regValueSum = 0;
+  var regSupplySum = 0;
+  var regPopSum = 0;
+  var regJobSum = 0;
   var linked = ""
   var regionValue = ""
 
@@ -380,6 +386,15 @@
   var today_str = today_year + "-" + today_month + "-" + today_day
   var this_month = Number(today_year + today_month)
 
+  var last_month_day = new Date()
+  var last_month_on_year = last_month_day.getMonth()
+  last_month_day.setMonth(last_month_on_year-1)
+  var last_month_year = last_month_day.getFullYear();
+  var last_month = dateReturn( (last_month_day.getMonth() + 1))
+  var prev_month = Number(last_month_year + last_month)
+
+  var load_this_month = ""
+  var load_prev_month = ""
   var updated_datetime = ""
 
   function dateReturn(n){
@@ -466,6 +481,23 @@
 
     optionChange(selectedSubRegion)
     updateRegion()
+
+    //var regionSubName = $("#gungu option:selected").val()
+
+    month = selectedMonth
+    //updateTable(month, regionSubName)
+
+    //통합검색
+    if(selectedMonth >= 202211){
+      //$('#search').css("visibility", "hidden")
+      searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json" + update_ver
+      $.getJSON(searching_url, function(json) {
+        searchingData = json;        
+        //.success(function(){
+        //  $('#search').css("visibility", "visible")
+        //})
+      })      
+    }    
 
     $('div.modal').on('show.bs.modal', function() {
       var modal = this;
@@ -610,8 +642,40 @@
     updateRegion()
     regionName = $("#sido option:selected").text()
     //saveLocalStorage()
+
+    //통합검색
+    if(selectedMonth >= 202211){
+      searching_url = "https://www.aptrank.kr/" + selectedMonth + "/Searching_list.json" + update_ver
+      $.getJSON(searching_url, function(json) {        
+        searchingData = json;       
+        //console.log(searchingData)
+      })
+    }
   }
   function updateRegion(){
+    count_url = "https://www.aptrank.kr/price/recent/daily_count.json?v=" + Math.random()
+    $.ajaxSetup({ async: false });
+    $.getJSON(count_url, function(json){
+      count_data = json
+      updated_info = count_data['data'][0]['daily_count']
+      updated_datetime = updated_info[updated_info.length-1][2]
+      
+      for(var y = 0 ; y < count_data['data'].length; y++){        
+        if(count_data['data'][y]['file_name'] == selectedSubRegion){
+          count_info = count_data['data'][y]['daily_count']          
+          break;
+        }
+      }
+
+      load_this_month = (count_info[count_info.length-1][0]).substr(0, 6)
+      for(var j=count_info.length-1 ; j >= 0 ; j--){
+        if(count_info[j][0].substr(0, 6) != load_this_month){
+          load_prev_month = count_info[j][0].substr(0, 6)
+          break;
+        }
+      }
+    })
+
     minValue = 0;
     maxValue = 60;    
     //var selection = document.getElementById("gungu")
@@ -693,35 +757,26 @@ function updateTable(region){
     })
     */    
 
-    //prev_url = "https://www.aptrank.kr/price/recent/" + load_this_month + "/" + region + ".json?v=" + Math.random()
-    //this_url = "https://www.aptrank.kr/price/recent/" + load_prev_month + "/" + region + ".json?v=" + Math.random()
+    prev_url = "https://www.aptrank.kr/price/recent/" + load_this_month + "/" + region + ".json?v=" + Math.random()
+    this_url = "https://www.aptrank.kr/price/recent/" + load_prev_month + "/" + region + ".json?v=" + Math.random()
 
-    $.ajaxSetup({ async: false });
-    count_url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/daily_count.json?v=" + Math.random()    
-    $.getJSON(count_url, function(json){
-      count_data = json
-      updated_info = count_data['data'][0]['daily_count']
-      updated_datetime = updated_info[updated_info.length-1][2]
-      if(updated_datetime == undefined){
-        updated_datetime = updated_info[0][0].substr(0, 4) + "-" + updated_info[0][0].substr(4, 2) + "-" + updated_info[0][0].substr(6, 2) + ", 23:59"
-      }
-      
-      for(var y = 0 ; y < count_data['data'].length; y++){        
-        if(count_data['data'][y]['file_name'] == selectedSubRegion){
-          count_info = count_data['data'][y]['daily_count']          
-          break;
-        }
-      }
+    $.getJSON(this_url, function(json) {
+      this_apt_data = json;      
     })
+
     $.ajaxSetup({ async: true });
 
-    url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/" + region + ".json"
-    $.getJSON(url, function(json) {
+    $.getJSON(prev_url, function(json) {
         //console.log(json);
         aptData = json;
         //sortData = json;
-        //aptData.data = Object.assign(aptData.data, this_apt_data.data)
+        Object.assign(aptData.data, this_apt_data.data)
         itemNum = aptData.data.length;
+        valueSum = 0;
+        livingSum = 0;
+        transportSum = 0;
+        infraSum = 0;
+        eduSum = 0;
 
         /*
         //광고정보 표시영역
@@ -764,18 +819,33 @@ function updateTable(region){
         sep_counter = 0
         sep_num = 1
         reverse_count_info = count_info.reverse()
-        list_loop = count_info.length
 
-        console.log(reverse_count_info)
-
-        var addon_html = ""
-        //[ ['20230403', 9, '2023-04-03, 17:43'], ['20230402', 4, '2023-04-02, 23:26']]
-        exp_date = reverse_count_info[0][0].substr(0, 4) + "-" + reverse_count_info[0][0].substr(4, 2) + "-" + reverse_count_info[0][0].substr(6, 2)
-        addon_html = "<div class='date_saperator'>" + exp_date + " (" + reverse_count_info[list_loop-1][1] + "건)" + "</div>"
-        $('#dataList').append(addon_html);
+        //[ ['20230403', 0, '2023-04-03, 17:43'], ['20230402', 0, '2023-04-02, 23:26'], ['20230331', 66] ]
 
         for(var i = 0 ; i < itemNum ; i++){
-          addon_html = ""     
+          
+          var addon_html = ""
+
+          if( i == 0 ){
+            exp_date = count_info[count_info.length-1][0].substr(0, 4) + "-" + count_info[count_info.length-1][0].substr(4, 2) + "-" + count_info[count_info.length-1][0].substr(6, 2)
+            addon_html += "<div class='date_saperator'>" + exp_date + " (" + count_info[count_info.length-1][1] + "건)" + "</div>"
+            sep_counter += count_info[count_info.length-1][1]
+          }
+          for(var j = count_info.length-2 ; j >= 0 ; j--){
+            recent_date = count_info[j][0]
+            recent_count = count_info[j][1]
+            prev_count = count_info[j+1][1]
+            if( i == sep_counter ){
+              //if(prev_count == 0){
+              //  addon_html += "<div class='no_deal_info'>실거래 정보가 없어요</div>"
+              //}
+              exp_date = count_info[j][0].substr(0, 4) + "-" + count_info[j][0].substr(4, 2) + "-" + count_info[j][0].substr(6, 2)
+              addon_html += "<div class='date_saperator'>" + exp_date + " (" + count_info[j][1] + "건)" + "</div>"
+              sep_counter += recent_count
+            }
+            //sep_counter = 0
+          }             
+          
           var aptName = aptData.data[i]["아파트"]
           var apt_m = aptData.data[i]["전용면적"]
           var apt_p = (Number(apt_m)/3.3058).toFixed(0)
@@ -843,12 +913,7 @@ function updateTable(region){
             addon_html += "</div>"
 
             addon_html += "<div class='compare_price'>"
-              if(last_dealed_date == undefined){
-                addon_html += "<div>직전거래 대비</div>" + "<div>" + compare_last_tag + "</div>" + "<div>" + Korean_price(last_dealed_price) + " (---)</div>"
-              }
-              else{
-                addon_html += "<div>직전거래 대비</div>" + "<div>" + compare_last_tag + "</div>" + "<div>" + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")</div>"
-              }
+              addon_html += "<div>직전거래 대비</div>" + "<div>" + compare_last_tag + "</div>" + "<div>" + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")</div>"
               addon_html += "<div>최고가 대비</div>" + "<div>" + compare_max_tag + "</div>"  + "<div>" + Korean_price(max_price_deal[1]) + " (" + max_price_deal[0] + ")</div>"
               addon_html += "<div>최저가 대비</div>" + "<div>" + compare_min_tag + "</div>"  + "<div>" + Korean_price(min_price_deal[1]) + " (" + min_price_deal[0] + ")</div>"
             addon_html += "</div>"
@@ -856,24 +921,47 @@ function updateTable(region){
 
           $('#dataList').append(addon_html);
         }
-        $('#dataList').append("<div style='height: " + blank_height + "'></div>");
-    })    
 
-    if(isMobile){
-      $(".price_content").css('grid-template-columns', '1fr')
-      $(".price_table").css('grid-template-columns', '110px 1fr')
-      $(".price_table").css('border-right', '0px')
-      $(".price_table").css('margin-top', '5px')
-      $(".price_table").css('margin-bottom', '5px')
-      $(".price_table").css('padding-bottom', '5px')
-      //$(".price_table").css('border-top', '1px solid #ddd')
-      $(".price_table").css('border-bottom', '1px solid #eee')
-      $(".price_num").css('line-height', '1.2em')
-      $(".price_num").css('font-size', '1em')
-      $(".apt_name").css('font-size', '0.9em')
-      $(".compare_price").css('font-size', '0.7em')         
-      $(".compare_price").css('font-weight', '600')
-    }
+        if(isMobile){
+          $(".price_content").css('grid-template-columns', '1fr')
+          $(".price_table").css('grid-template-columns', '110px 1fr')
+          $(".price_table").css('border-right', '0px')
+          $(".price_table").css('margin-top', '5px')
+          $(".price_table").css('margin-bottom', '5px')
+          $(".price_table").css('padding-bottom', '5px')
+          //$(".price_table").css('border-top', '1px solid #ddd')
+          $(".price_table").css('border-bottom', '1px solid #eee')
+          $(".price_num").css('line-height', '1.2em')
+          $(".price_num").css('font-size', '1em')
+          $(".apt_name").css('font-size', '0.9em')
+          $(".compare_price").css('font-size', '0.7em')         
+          $(".compare_price").css('font-weight', '600')
+        }
+
+        console.log(blank_height)
+        $('#dataList').append("<div style='height: " + blank_height + "'></div>");
+        if(!(minValue == 0 && maxValue == 60)){
+          $(".aptPrice").css({'color': '#fe4040', 'font-weight': '600'})
+        }
+
+        if(sortSelection != 'sortDefault'){
+          changeSort()
+        }
+
+        if(selectedComplex != ""){          
+          showDetail(selectedComplex)          
+          $('html').scrollTop( 70 * Number(selectedComplex) )
+          $('#baseModal').modal("show");
+          selectedComplex = ""
+        }
+
+        if(searched_code != ""){
+          pos = searchAndShow(searched_code)
+          $('html').scrollTop( 70*pos )
+          showDetail( pos )
+          searched_code = ""
+        }
+    })    
     showWeight()
     saveLocalStorage()    
   }
@@ -887,12 +975,7 @@ function updateTable(region){
     if(price_exp_num2 == 0){ price_exp_2 = "" }
     else{ price_exp_2 = price_exp_num2 + "만" }
 
-    if(isNaN(price_exp_num1)){
-      return "---"
-    }
-    else{
-      return price_exp_1 + " " + price_exp_2
-    }
+    return price_exp_1 + " " + price_exp_2
   }
 
   function searchAndShow(searched_code){
@@ -920,17 +1003,14 @@ function updateTable(region){
 
     if(compare_last > 0){ compare_last_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
     else if(compare_last < 0){ compare_last_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
-    else if( isNaN(compare_last)){ compare_last_tag = "<span style='color:black'>거래 없음</span>" }
     else { compare_last_tag = "<span style='color:black'>= " + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
 
     if(compare_max > 0){ compare_max_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
     else if(compare_max < 0){ compare_max_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
-    else if( isNaN(compare_max)){ compare_max_tag = "<span style='color:black'>거래 없음</span>" }
     else { compare_max_tag = "<span style='color:black'>= " + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
     
     if(compare_min > 0){ compare_min_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
     else if(compare_min < 0){ compare_min_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
-    else if( isNaN(compare_min)){ compare_min_tag = "<span style='color:black'>거래 없음</span>" }
     else { compare_min_tag = "<span style='color:black'>= " + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
     
     return {'last_dealed_date' : last_dealed_date, 'last_dealed_price' : last_dealed_price, 'compare_last_tag' : compare_last_tag, 'compare_max_tag' : compare_max_tag, 'compare_min_tag' : compare_min_tag}
@@ -1016,14 +1096,7 @@ function updateTable(region){
 
     compare_list = compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price)    
 
-    if(last_dealed_date == undefined){
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "직전거래 대비" + "</div>" + "<div class='popResult'>" + compare_last_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(last_dealed_price) + " (---)</span></div></div>";
-    }
-    else{
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "직전거래 대비" + "</div>" + "<div class='popResult'>" + compare_last_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")</span></div></div>";
-    }
-
-    
+    detailHtml += "<div class='popSubTable'><div class='popContent'>" + "직전거래 대비" + "</div>" + "<div class='popResult'>" + compare_last_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")</span></div></div>";
     detailHtml += "<div class='popSubTable'><div class='popContent'>" + "최고가 대비" + "</div>" + "<div class='popResult'>" + compare_max_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(max_price_deal[1]) + " (" + max_price_deal[0] + ")</span></div></div>";
     detailHtml += "<div class='popSubTable'><div class='popContent'>" + "최저가 대비" + "</div>" + "<div class='popResult'>" + compare_min_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(min_price_deal[1]) + " (" + min_price_deal[0] + ")</span></div></div>";
     detailHtml += "</div></div></div></div>"
