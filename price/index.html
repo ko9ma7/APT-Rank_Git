@@ -771,7 +771,7 @@ function updateTable(region){
         var addon_html = ""
         //[ ['20230403', 9, '2023-04-03, 17:43'], ['20230402', 4, '2023-04-02, 23:26']]
         exp_date = reverse_count_info[0][0].substr(0, 4) + "-" + reverse_count_info[0][0].substr(4, 2) + "-" + reverse_count_info[0][0].substr(6, 2)
-        addon_html = "<div class='date_saperator'>" + exp_date + " (" + reverse_count_info[list_loop-1][1] + "건)" + "</div>"
+        addon_html = "<div class='date_saperator'>" + exp_date + " (" + reverse_count_info[0][1] + "건)" + "</div>"
         $('#dataList').append(addon_html);
 
         for(var i = 0 ; i < itemNum ; i++){
@@ -857,9 +857,8 @@ function updateTable(region){
           $('#dataList').append(addon_html);
         }
         $('#dataList').append("<div style='height: " + blank_height + "'></div>");
-    })    
 
-    if(isMobile){
+if(isMobile){
       $(".price_content").css('grid-template-columns', '1fr')
       $(".price_table").css('grid-template-columns', '110px 1fr')
       $(".price_table").css('border-right', '0px')
@@ -873,6 +872,9 @@ function updateTable(region){
       $(".apt_name").css('font-size', '0.9em')
       $(".compare_price").css('font-size', '0.7em')         
       $(".compare_price").css('font-weight', '600')
+    })    
+
+    
     }
     showWeight()
     saveLocalStorage()    
