@@ -856,24 +856,24 @@ function updateTable(region){
 
           $('#dataList').append(addon_html);
         }
+      
+        if(isMobile){
+        $(".price_content").css('grid-template-columns', '1fr')
+        $(".price_table").css('grid-template-columns', '110px 1fr')
+        $(".price_table").css('border-right', '0px')
+        $(".price_table").css('margin-top', '5px')
+        $(".price_table").css('margin-bottom', '5px')
+        $(".price_table").css('padding-bottom', '5px')
+        //$(".price_table").css('border-top', '1px solid #ddd')
+        $(".price_table").css('border-bottom', '1px solid #eee')
+        $(".price_num").css('line-height', '1.2em')
+        $(".price_num").css('font-size', '1em')
+        $(".apt_name").css('font-size', '0.9em')
+        $(".compare_price").css('font-size', '0.7em')         
+        $(".compare_price").css('font-weight', '600')
+      
         $('#dataList').append("<div style='height: " + blank_height + "'></div>");
-
-if(isMobile){
-      $(".price_content").css('grid-template-columns', '1fr')
-      $(".price_table").css('grid-template-columns', '110px 1fr')
-      $(".price_table").css('border-right', '0px')
-      $(".price_table").css('margin-top', '5px')
-      $(".price_table").css('margin-bottom', '5px')
-      $(".price_table").css('padding-bottom', '5px')
-      //$(".price_table").css('border-top', '1px solid #ddd')
-      $(".price_table").css('border-bottom', '1px solid #eee')
-      $(".price_num").css('line-height', '1.2em')
-      $(".price_num").css('font-size', '1em')
-      $(".apt_name").css('font-size', '0.9em')
-      $(".compare_price").css('font-size', '0.7em')         
-      $(".compare_price").css('font-weight', '600')
-    })    
-
+    })
     
     }
     showWeight()
