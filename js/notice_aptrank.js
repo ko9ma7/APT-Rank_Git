@@ -1,3 +1,13 @@
+var notice_202304 = 
+"<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2023년 4월 업데이트 안내 (2023-04-05)</div>"
++"<ul>"
++"<li><div class='notice'>은행 정보 업데이트 했습니다. (전국은행연합회 제공)</div></li>"
++"<li><div class='notice'>대형공원에 '영흥숲공원'을 추가 했습니다.</div></li>"
++"<li><div class='notice'>상점가 규모에 따라 거리 계산 영역을 유동적으로 적용했습니다.</div></li>"
++"<li><div class='notice'>KB월간 시계열 기준 3월 시군구 정보 반영했습니다.</div></li>"
++"</ul>"      
++"<hr>"
+
 var notice_202303 = 
 "<div class='popupTitle' style='text-align: center; padding-bottom: 1em'> 2023년 3월 업데이트 안내 (2023-03-04)</div>"
 +"<ul>"
