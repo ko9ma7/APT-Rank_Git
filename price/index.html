@@ -759,23 +759,41 @@ function updateTable(region){
           $('#dataList').append(part_default);
           $('.partBox').css({'grid-template-columns':'1fr'})
         }
-        */
+        */        
 
-        sep_counter = 0
-        sep_num = 1
         reverse_count_info = count_info.reverse()
-        list_loop = count_info.length
+
+        sep_array = []
+        for(var p = 0 ; p < reverse_count_info.length; p++){
+          if(reverse_count_info[p][1] != 0){
+            sep_array.push([ itemNum - reverse_count_info[p][1], reverse_count_info[p][0] ])
+          }
+        }
+        sep_array.push([ itemNum, 0 ])
 
         console.log(reverse_count_info)
 
         var addon_html = ""
         //[ ['20230403', 9, '2023-04-03, 17:43'], ['20230402', 4, '2023-04-02, 23:26']]
-        exp_date = reverse_count_info[0][0].substr(0, 4) + "-" + reverse_count_info[0][0].substr(4, 2) + "-" + reverse_count_info[0][0].substr(6, 2)
-        addon_html = "<div class='date_saperator'>" + exp_date + " (" + reverse_count_info[0][1] + "건)" + "</div>"
-        $('#dataList').append(addon_html);
+
+        if(itemNum == 0){
+          exp_start_date = reverse_count_info[0][0].substr(0, 4) + "-" + reverse_count_info[0][0].substr(4, 2) + "-01"
+          exp_date = reverse_count_info[0][0].substr(0, 4) + "-" + reverse_count_info[0][0].substr(4, 2) + "-" + reverse_count_info[0][0].substr(6, 2)
+          addon_html = "<div class='data_empty'>" + "등록된 실거래 정보가 없네요.<br>(" + exp_start_date + " ~ " + exp_date + ")" + "</div>"
+          $('#dataList').append(addon_html);
+        }        
 
         for(var i = 0 ; i < itemNum ; i++){
-          addon_html = ""     
+          addon_html = ""
+
+          for(var j = 0; j < sep_array.length-1 ; j++){
+            if(i == sep_array[j][0]){
+              exp_date = sep_array[j][1].substr(0, 4) + "-" + sep_array[j][1].substr(4, 2) + "-" + sep_array[j][1].substr(6, 2)
+              deal_count = sep_array[j+1][0]
+              addon_html = "<div class='date_saperator'>" + exp_date + " (" + deal_count + "건)" + "</div>"
+            }
+          }
+
           var aptName = aptData.data[i]["아파트"]
           var apt_m = aptData.data[i]["전용면적"]
           var apt_p = (Number(apt_m)/3.3058).toFixed(0)
