@@ -856,6 +856,7 @@ function updateTable(region){
 
           $('#dataList').append(addon_html);
         }
+      
         if(isMobile){
           $(".price_content").css('grid-template-columns', '1fr')
           $(".price_table").css('grid-template-columns', '110px 1fr')
@@ -874,8 +875,6 @@ function updateTable(region){
       
         $('#dataList').append("<div style='height: " + blank_height + "'></div>");
     })
-    
-    }
     showWeight()
     saveLocalStorage()    
   }
