@@ -1,9 +1,16 @@
 {
-    "lastBuildDate": "Thu, 06 Apr 2023 03:26:03 +0900",
-    "total": 712862,
+    "lastBuildDate": "Thu, 06 Apr 2023 04:18:11 +0900",
+    "total": 712863,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "전국 청약경쟁률 다시 털썩… 서울만 ‘나홀로 완판’",
+            "originallink": "https://news.kmib.co.kr/article/view.asp?arcid=0924295403&code=11151500&cp=nv",
+            "link": "https://n.news.naver.com/mnews/article/005/0001599145?sid=101",
+            "description": "이번 분양 성적은 관련 규제 조치가 잇따르는 상황에서도 청약 수요자들은 <b>부동산 시장</b>의 회복 가능성에 대해 여전히 높은 경계심을 갖고 있다는 점을 확인시킨 것으로 풀이된다. 입주자 모집 공고일 기준으로... ",
+            "pubDate": "Thu, 06 Apr 2023 04:05:00 +0900"
+        },
         {
             "title": "사찰로 몰려가는 中 2030… “코로나後 건강, 안정 중시”[글로벌 현장을 가다...",
             "originallink": "https://www.donga.com/news/Opinion/article/all/20230406/118705166/1",
@@ -54,17 +61,17 @@
             "pubDate": "Wed, 05 Apr 2023 23:24:00 +0900"
         },
         {
-            "title": "전매제한 완화…지역 <b>부동산 시장</b> 영향은?",
-            "originallink": "https://news.kbs.co.kr/news/view.do?ncd=7644249&ref=A",
-            "link": "https://n.news.naver.com/mnews/article/056/0011459939?sid=101",
-            "description": "지역에서는 3년이었던 전매 제한 기간이 6개월이나 1년으로 줄게 되는데, <b>부동산 시장</b>에 어떤 영향을 줄지 관심이 쏠리고 있습니다. 최선중 기자입니다. [리포트] 지난해 11월 분양한 대전 학하동의 한 아파트, 최근... ",
-            "pubDate": "Wed, 05 Apr 2023 22:13:00 +0900"
-        },
-        {
             "title": "압구정·여의도·목동·성수지역 ‘토지거래허가구역’ 1년 연장",
             "originallink": "https://www.khan.co.kr/local/Seoul/article/202304052212005",
             "link": "https://n.news.naver.com/mnews/article/032/0003215568?sid=102",
             "description": "최근 <b>부동산시장</b> 침체와 정부 규제 완화에 따라 해제 요구가 커졌으나 “집값은 아직 비싸다”는 게 서울시의 시각이다. 최근 주택 거래량이 회복되고 있는 데다 연이은 서울시의 각종 개발 계획 발표가 집값을 다시... ",
+            "pubDate": "Wed, 05 Apr 2023 22:13:00 +0900"
+        },
+        {
+            "title": "전매제한 완화…지역 <b>부동산 시장</b> 영향은?",
+            "originallink": "https://news.kbs.co.kr/news/view.do?ncd=7644249&ref=A",
+            "link": "https://n.news.naver.com/mnews/article/056/0011459939?sid=101",
+            "description": "지역에서는 3년이었던 전매 제한 기간이 6개월이나 1년으로 줄게 되는데, <b>부동산 시장</b>에 어떤 영향을 줄지 관심이 쏠리고 있습니다. 최선중 기자입니다. [리포트] 지난해 11월 분양한 대전 학하동의 한 아파트, 최근... ",
             "pubDate": "Wed, 05 Apr 2023 22:13:00 +0900"
         },
         {
@@ -206,13 +213,6 @@
             "link": "http://www.sentv.co.kr/news/view/652026",
             "description": "반도체 호재가 ‘반세권’이라는 신조어를 만들어내며 <b>부동산 시장</b>의 새로운 키워드로 떠오르고 있다. 5일 한국<b>부동산</b>원 주간아파트동향을 보면, 3월 4주(27일 기준) 용인시 처인구 아파트값은 전주보다 0.43% 올랐다.... ",
             "pubDate": "Wed, 05 Apr 2023 19:10:00 +0900"
-        },
-        {
-            "title": "&quot;내 집도 마음대로 못 파냐&quot; 압구정·여의도·목동 주민들 불만 속출",
-            "originallink": "http://www.newsis.com/view/?id=NISX20230405_0002255639&cID=10401&pID=10400",
-            "link": "https://n.news.naver.com/mnews/article/003/0011786458?sid=101",
-            "description": "그러나 서울시는 이날 토지거래허가구역을 해제할 경우 외지인 자본 유입과 <b>부동산시장</b> 불안 등으로 집값을 다시 자극할 수 있다는 판단 하에 연장을 결정한 것으로 전해졌다. 이에 해당 지역 내 입주민들의 불만은... ",
-            "pubDate": "Wed, 05 Apr 2023 19:05:00 +0900"
         }
     ]
 }
