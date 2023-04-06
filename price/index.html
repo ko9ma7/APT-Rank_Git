@@ -766,7 +766,8 @@ function updateTable(region){
         sep_array = []
         for(var p = 0 ; p < reverse_count_info.length; p++){
           if(reverse_count_info[p][1] != 0){
-            sep_array.push([ itemNum - reverse_count_info[p][1], reverse_count_info[p][0] ])            
+            //sep_array.push([ itemNum - reverse_count_info[p][1], reverse_count_info[p][0] ])
+            sep_array.push([ reverse_count_info[p][1] - reverse_count_info[p+1][1], reverse_count_info[p][0] ])
           }
         }
 
@@ -777,12 +778,8 @@ function updateTable(region){
           sep_array.push([ itemNum, 0 ])
         }
 
-        console.log(sep_array)
-
-        console.log(reverse_count_info)
-
         var addon_html = ""
-        //[ ['20230403', 9, '2023-04-03, 17:43'], ['20230402', 4, '2023-04-02, 23:26']]
+        //[ ['20230404', 12, '2023-04-03, 17:43'], ['20230403', 9, '2023-04-03, 17:43'], ['20230402', 4, '2023-04-02, 23:26']]
 
         if(itemNum == 0){
           exp_start_date = reverse_count_info[0][0].substr(0, 4) + "-" + reverse_count_info[0][0].substr(4, 2) + "-01"
@@ -949,17 +946,17 @@ function updateTable(region){
 
     if(compare_last > 0){ compare_last_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
     else if(compare_last < 0){ compare_last_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
-    else if( isNaN(compare_last)){ compare_last_tag = "<span style='color:black'>거래 없음</span>" }
+    else if( isNaN(compare_last)){ compare_last_tag = "<span style='color:black'>거래 정보 없음</span>" }
     else { compare_last_tag = "<span style='color:black'>= " + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
 
     if(compare_max > 0){ compare_max_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
     else if(compare_max < 0){ compare_max_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
-    else if( isNaN(compare_max)){ compare_max_tag = "<span style='color:black'>거래 없음</span>" }
+    else if( isNaN(compare_max)){ compare_max_tag = "<span style='color:black'>거래 정보 없음</span>" }
     else { compare_max_tag = "<span style='color:black'>= " + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
     
     if(compare_min > 0){ compare_min_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
     else if(compare_min < 0){ compare_min_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
-    else if( isNaN(compare_min)){ compare_min_tag = "<span style='color:black'>거래 없음</span>" }
+    else if( isNaN(compare_min)){ compare_min_tag = "<span style='color:black'>거래 정보 없음</span>" }
     else { compare_min_tag = "<span style='color:black'>= " + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
     
     return {'last_dealed_date' : last_dealed_date, 'last_dealed_price' : last_dealed_price, 'compare_last_tag' : compare_last_tag, 'compare_max_tag' : compare_max_tag, 'compare_min_tag' : compare_min_tag}
