@@ -1143,7 +1143,7 @@ function updateTable(region){
     $('#dataList').html("");
 
     count_Korea = 0
-    sido_count={}  
+    sido_count={}
 
     for(var k = 0 ; k < count_data['data'].length; k++){
       sido_name = count_data['data'][k]['sido']
@@ -1175,7 +1175,9 @@ function updateTable(region){
           var reg_vol_2month_ago = regData.data[i]["2개월전"]
           var reg_vol_3month_ago = regData.data[i]["3개월전"]
 
-          var reg_vol_month_end_predition = regData.data[i]["월말예측"]
+          if(selectedMonth == this_month){
+            var reg_vol_month_end_predition = regData.data[i]["월말예측"]
+          }
 
           var reg_vol_yoy = regData.data[i]["전년동월"]
           var reg_ratio_yoy = regData.data[i]["전년동월대비"]
@@ -1208,7 +1210,9 @@ function updateTable(region){
                     addon_html += "<div class='vol_mon'>당월 거래량<br>" + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건</div>"
 
                       addon_html += "<div class='compare_volume_sub'>"
-                        addon_html += "<div>월말거래량 예측 </div>" + "<div></div>" + "<div>" + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건</div>"
+                        if(selectedMonth == this_month){
+                          addon_html += "<div>월말거래량 예측 </div>" + "<div></div>" + "<div>" + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건</div>"
+                        }
 
                         if(reg_ratio_yoy > 0){ reg_ratio_yoy_tag = "<span style='color:#eb5050'>▲" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
                         else if(reg_ratio_yoy < 0){ reg_ratio_yoy_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
@@ -1253,7 +1257,9 @@ function updateTable(region){
                     addon_html += "<div class='vol_mon'>당월 거래량 <br>" + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건</div>"
 
                       addon_html += "<div class='compare_volume_sub'>"
-                        addon_html += "<div>월말 거래량 예측 </div>" + "<div></div>" + "<div>" + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건</div>"
+                        if(selectedMonth == this_month){
+                          addon_html += "<div>월말거래량 예측 </div>" + "<div></div>" + "<div>" + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건</div>"
+                        }
 
                         if(reg_ratio_yoy > 0){ reg_ratio_yoy_tag = "<span style='color:#eb5050'>▲" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
                         else if(reg_ratio_yoy < 0){ reg_ratio_yoy_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
@@ -1483,8 +1489,17 @@ function updateTable(region){
   function gotoLink(index){
     console.log(regData.data[index])
     code = regData.data[index]['코드']
-    aURL = "https://www.aptrank.kr/price" + "?preg=" + selectedRegion +"&psub=" + selectedSubRegion
-    window.open(aURL)
+    
+    go_region = (code.split('_'))[1]
+
+    if(selectedSubRegion == "1000000000_Korea"){
+      aURL = "https://www.aptrank.kr/price" + "?preg=Korea&psub=" + code
+    }
+    else{
+      aURL = "https://www.aptrank.kr/price" + "?preg=" + go_region + "&psub=" + code
+    }
+    //window.open(aURL)
+    window.location = aURL
 
   }
 </script>
