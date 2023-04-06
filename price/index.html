@@ -761,15 +761,12 @@ function updateTable(region){
         }
         */        
 
-        reverse_count_info = count_info.reverse()
-        sep_count = itemNum
+        reverse_count_info = count_info.reverse()        
       
         sep_array = []
         for(var p = 0 ; p < reverse_count_info.length; p++){
           if(reverse_count_info[p][1] != 0){
-            //sep_array.push([ itemNum - reverse_count_info[p][1], reverse_count_info[p][0] ])
-            sep_array.push([ sep_count - reverse_count_info[p][1], reverse_count_info[p][0] ])
-            sep_count = sep_count - reverse_count_info[p][1]
+            sep_array.push([ itemNum - reverse_count_info[p][1], reverse_count_info[p][0] ])
           }
         }
 
@@ -792,11 +789,13 @@ function updateTable(region){
 
         for(var i = 0 ; i < itemNum ; i++){
           addon_html = ""
-
+          
+          deal_count = itemNum
           for(var j = 0; j < sep_array.length-1 ; j++){
             if(i == sep_array[j][0]){
               exp_date = sep_array[j][1].substr(0, 4) + "-" + sep_array[j][1].substr(4, 2) + "-" + sep_array[j][1].substr(6, 2)
-              deal_count = sep_array[j+1][0]
+              //deal_count = deal_count - sep_array[j+1][0]
+              deal_count = sep_array[j+1][0] - sep_array[j][0]
               addon_html = "<div class='date_saperator'>" + exp_date + " (" + deal_count + "건 등록)" + "</div>"
             }
           }
