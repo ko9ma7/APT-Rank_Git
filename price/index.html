@@ -762,12 +762,14 @@ function updateTable(region){
         */        
 
         reverse_count_info = count_info.reverse()
-
+        sep_count = itemNum
+      
         sep_array = []
         for(var p = 0 ; p < reverse_count_info.length; p++){
           if(reverse_count_info[p][1] != 0){
             //sep_array.push([ itemNum - reverse_count_info[p][1], reverse_count_info[p][0] ])
-            sep_array.push([ reverse_count_info[p][1] - reverse_count_info[p+1][1], reverse_count_info[p][0] ])
+            sep_array.push([ sep_count - reverse_count_info[p][1], reverse_count_info[p][0] ])
+            sep_count = sep_count - reverse_count_info[p][1]
           }
         }
 
