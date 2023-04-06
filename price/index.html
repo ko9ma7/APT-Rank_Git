@@ -336,8 +336,8 @@
 
 <script>
   var selectedMonth = "202304"
-  var selectedRegion = "Seoul"
-  var selectedSubRegion = "1168000000_Seoul_Gangnam"
+  var selectedRegion = "Korea"
+  var selectedSubRegion = "1000000000_Korea"
   var selectedComplex = ""
   var searchType = "global"
   var update_ver = "?v=1.4"
@@ -348,13 +348,13 @@
 
   var itemNum = 0;
   var aptData = "";
-  var aptData_original = "";
   var sortData = "";
   var prevValue = 0;
   var regData = "";
   var regSortData = "";
   var adData = "";
   var blank_height = "3em"
+  var count_data = ""
 
   var modalState = 0;
   var searchState = 0;
@@ -423,36 +423,28 @@
     const urlParams = url.searchParams
     //console.log(urlParams)
 
-    if(urlParams.has('reg')){
+    if(urlParams.has('preg')){
       //console.log(urlParams.get('reg'))
-      selectedRegion = urlParams.get('reg')
+      selectedRegion = urlParams.get('preg')
     }
     else if(lastRegion != null){
       selectedRegion = lastRegion
     }
 
-    if(urlParams.has('sub')){
+    if(urlParams.has('psub')){
       //console.log(urlParams.get('sub'))
-      selectedSubRegion = urlParams.get('sub')
+      selectedSubRegion = urlParams.get('psub')
     }
     else if(lastSubRegion != null){
       selectedSubRegion = lastSubRegion
     }
 
-    if(urlParams.has('mon')){
+    if(urlParams.has('pmon')){
       //console.log(urlParams.get('mon'))
-      selectedMonth = urlParams.get('mon')
+      selectedMonth = urlParams.get('pmon')
     }
     else if(lastMonth != null){
       selectedMonth = lastMonth
-    }
-
-    if(urlParams.has('complex')){      
-      selectedComplex = urlParams.get('complex')      
-    }
-
-    if(urlParams.has('sort')){      
-      sortSelection = urlParams.get('sort')
     }
     else{
       initSorting()
@@ -485,17 +477,11 @@
   });
 
   function showWeight(){
-    if(selectedRegion != 'Korea'){
       $('#weight').show()
       $('#dataList').css({'padding-top': '115px'})
 
       var weightInfo = "업데이트 : " + updated_datetime
       $('#weight').html(weightInfo)
-    }
-    else{
-      $('#weight').hide()
-      $('#dataList').css({'padding-top': '96px'})
-    }
   }
 
   function radioActive(val){
@@ -611,47 +597,37 @@
     regionName = $("#sido option:selected").text()
     //saveLocalStorage()
   }
-  function updateRegion(){
-    minValue = 0;
-    maxValue = 60;    
-    //var selection = document.getElementById("gungu")
+  function updateRegion(){    
     selectedRegion = $("#sido option:selected").val()
     selectedSubRegion = $("#gungu option:selected").val()
+
+    $.ajaxSetup({ async: false });
+    count_url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/daily_count.json?v=" + Math.random()    
+    $.getJSON(count_url, function(json){
+      count_data = json
+      updated_info = count_data['data'][0]['daily_count']
+      updated_datetime = updated_info[updated_info.length-1][2]
+      if(updated_datetime == undefined){
+        updated_datetime = updated_info[0][0].substr(0, 4) + "-" + updated_info[0][0].substr(4, 2) + "-" + updated_info[0][0].substr(6, 2) + ", 23:59"
+      }
+      
+      for(var y = 0 ; y < count_data['data'].length; y++){        
+        if(count_data['data'][y]['file_name'] == selectedSubRegion){
+          count_info = count_data['data'][y]['daily_count']          
+          break;
+        }
+      }
+    })
+    $.ajaxSetup({ async: true });
 
     localSearchText = shortRegionName($("#sido option:selected").text() + " " + $("#gungu option:selected").text())
     $("#localSearch").html(localSearchText + " 검색")
 
-    if (selectedSubRegion != "1000000000_Korea"){
-      if(selectedSubRegion == "Living_Top300" || selectedSubRegion == "Trans_Top300"  || selectedSubRegion == "Infra_Top300" || selectedSubRegion == "Edu_Top300" || selectedSubRegion == "Balanced_Top300"){
-
-        //로딩
-        var detail_loading_html = "<div style='text-align: center'><br><br><br><br><img src='loading_block.gif' width='70px' height='70px'/>";
-        $('#dataList').html(detail_loading_html)
-
-        updateTopTable(selectedMonth, selectedSubRegion)
-      }
-      else{
-
-        //로딩
-        $('#dataList').html("");
-        var detail_loading_html = "<div style='text-align: center'><br><br><br><br><img src='loading_block.gif' width='70px' height='70px'/><br></div>";
-        $('#dataList').html(detail_loading_html)
-
-        updateTable(selectedSubRegion)
-        regionName = $("#sido option:selected").text()
-        //*************** 시작 시 가중치 팝업 표시 ********************      
-        if(regionSelection != true && alwaysSortingPop == "on"){
-            //console.log("POP: ", alwaysSortingPop)
-            //console.log("regionSelection: ", regionSelection)
-            showSorting()
-            $('#baseModal').modal("show");                        
-        }
-        regionSelection = false     
-        //*********************************************/
-      }
+    if (selectedRegion == "Korea"){
+      updateRegionTable(selectedSubRegion)        
     }
     else{
-      updateRegionTable(selectedSubRegion)
+      updateTable(selectedSubRegion)
     }    
     showWeight()
   }
@@ -696,24 +672,7 @@ function updateTable(region){
     //prev_url = "https://www.aptrank.kr/price/recent/" + load_this_month + "/" + region + ".json?v=" + Math.random()
     //this_url = "https://www.aptrank.kr/price/recent/" + load_prev_month + "/" + region + ".json?v=" + Math.random()
 
-    $.ajaxSetup({ async: false });
-    count_url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/daily_count.json?v=" + Math.random()    
-    $.getJSON(count_url, function(json){
-      count_data = json
-      updated_info = count_data['data'][0]['daily_count']
-      updated_datetime = updated_info[updated_info.length-1][2]
-      if(updated_datetime == undefined){
-        updated_datetime = updated_info[0][0].substr(0, 4) + "-" + updated_info[0][0].substr(4, 2) + "-" + updated_info[0][0].substr(6, 2) + ", 23:59"
-      }
-      
-      for(var y = 0 ; y < count_data['data'].length; y++){        
-        if(count_data['data'][y]['file_name'] == selectedSubRegion){
-          count_info = count_data['data'][y]['daily_count']          
-          break;
-        }
-      }
-    })
-    $.ajaxSetup({ async: true });
+
 
     url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/" + region + ".json?v=" + Math.random()
     $.getJSON(url, function(json) {
@@ -1176,97 +1135,160 @@ function updateTable(region){
   }
 
 
-  function updateRegionTable(month, region){
+  function updateRegionTable(region){
     //$('html').scrollTop(0)
-    $('#sort').css("visibility", "hidden")
-    $('#rearrange').css("visibility", "visible")
-    url = "https://www.aptrank.kr/" + month + "/sales_volume.json.json" + update_ver
+    //$('#sort').css("visibility", "hidden")
+    //$('#rearrange').css("visibility", "visible")
+    url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/sales_volume.json" + update_ver
     $('#dataList').html("");
 
-    setTimeout(function(){}, 250)
+    count_Korea = 0
+    sido_count={}  
 
+    for(var k = 0 ; k < count_data['data'].length; k++){
+      sido_name = count_data['data'][k]['sido']
+      sido_code = count_data['data'][k]['file_name']
+      daily_info = count_data['data'][k]['daily_count']      
+      d_count = Number(daily_info[daily_info.length-1][1])
+
+      if(sido_count['count_' + sido_name] == undefined){
+        sido_count['count_' + sido_name] = d_count
+      }
+      else{
+        sido_count['count_' + sido_name] += d_count
+      }
+      
+      count_Korea += d_count      
+    }
+    
     $.getJSON(url, function(json) {        
         regData = json;
         regSortData = regData;
         itemNum = json.data.length;
-        regValueSum = 0;
-        regSupplySum = 0;
-        regPopSum = 0;
-        regJobSum = 0;
 
         for(var i = 0 ; i < itemNum ; i++){
-          var regName = regData.data[i]["시도"]
+          var regName = regData.data[i]["시군구"]
+          var regCode = regData.data[i]["코드"]
+          var regSido = (regCode.split("_"))[1]
+          var reg_vol_this_month = regData.data[i]["당월"]
+          var reg_vol_1month_ago = regData.data[i]["1개월전"]
+          var reg_vol_2month_ago = regData.data[i]["2개월전"]
+          var reg_vol_3month_ago = regData.data[i]["3개월전"]
 
-          var regSuplyLevel = regData.data[i]["공급수준"]
-          var regPopChange = regData.data[i]["인구증감"]
-          var regPop = regData.data[i]["인구수"]
-          var regIncome = regData.data[i]["소득수준"]
-          var regValue = Math.round( regData.data[i]["가치 총점"] * 100 ) / 100;
-          var regRank = regData.data[i]["rank"]
-          var regJob = regData.data[i]["일자리"]
+          var reg_vol_month_end_predition = regData.data[i]["월말예측"]
 
-          regValueSum += regData.data[i]["가치 총점"]
-          regSupplySum += regData.data[i]["지역구공급총점"]
-          regPopSum += regData.data[i]["인구총점"]
-          regJobSum += regData.data[i]["일자리총점"]
+          var reg_vol_yoy = regData.data[i]["전년동월"]
+          var reg_ratio_yoy = regData.data[i]["전년동월대비"]
 
-          var addon_html = "<div class='listBox' data-bs-toggle='modal' data-bs-target='#baseModal' id='myModal' onClick='showRegionDetail(" + i + ")'>";
+          var reg_vol_3y_avg = regData.data[i]["3년평균"]          
+          var reg_ratio_3y_avg = regData.data[i]["3년평균대비"]
+          var today_vol = sido_count['count_' + regSido]          
 
-          if(selectedMonth == "202201"){
-            addon_html += "<div class='rank_content'>"
-            addon_html += "<div class='rank'>" + regRank + "위</div>";
-            addon_html += "</div>"
+          if(selectedSubRegion == "1000000000_Korea"){
+            if((regCode.split("_")).length <= 2){
+              var addon_html = "<div class='listBox' onClick='gotoLink(" + i + ")'>";
+
+                addon_html += "<div class='reg_name'>" + regName + "</div>";      
+
+                addon_html += "<div class='volume_content'>"
+                  addon_html += "<div class='price_table'>"                    
+                    if(regCode == "1000000000_Korea"){
+                      addon_html += "<div class='vol_num'>" + count_Korea.toLocaleString() + "건</div>"                    
+                    }
+                    else{
+                      addon_html += "<div class='vol_num'>" + today_vol.toLocaleString() + "건</div>"
+                    }
+                    addon_html += "<div class='complex_table'>"
+                      addon_html += "<div class='apt_address'><span stylr='color: #e31939'>국토부 등록 건수</div>"    
+                    addon_html += "</div>"
+                  addon_html += "</div>"
+
+                  
+                  addon_html += "<div class='compare_volume'>"
+                    addon_html += "<div class='vol_mon'>당월 거래량<br>" + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건</div>"
+
+                      addon_html += "<div class='compare_volume_sub'>"
+                        addon_html += "<div>월말거래량 예측 </div>" + "<div></div>" + "<div>" + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건</div>"
+
+                        if(reg_ratio_yoy > 0){ reg_ratio_yoy_tag = "<span style='color:#eb5050'>▲" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
+                        else if(reg_ratio_yoy < 0){ reg_ratio_yoy_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
+                        else { reg_ratio_yoy_tag = "<span style='color:black'>= " + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
+
+                        if(reg_ratio_3y_avg > 0){ reg_ratio_3y_avg_tag = "<span style='color:#eb5050'>▲" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%</span>" }
+                        else if(reg_ratio_3y_avg < 0){ reg_ratio_3y_avg_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%</span>" }
+                        else { reg_ratio_3y_avg_tag = "<span style='color:black'>= " + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%</span>" }
+
+                        addon_html += "<div>전년동월 대비</div>" + "<div>" + reg_ratio_yoy_tag + "</div>"  + "<div>" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() + "건</div>"
+                        addon_html += "<div>3년평균 대비</div>" + "<div>"  + reg_ratio_3y_avg_tag + "</div>"  + "<div>" + Number(reg_vol_3y_avg.toFixed(0)).toLocaleString() + "건</div>"
+                      addon_html += "</div>"                    
+                  addon_html += "</div>"
+                addon_html += "</div>"
+
+              $('#dataList').append(addon_html);
+            }
           }
           else{
-            addon_html += "<div class='rank_content'>"
-            addon_html += "<div class='rank'>" + regRank + "위</div>";
-            if(regData.data[i]["rank_gap"] == 0){
-              addon_html += "<div class='ranksame'> -- </div>"
+            if((regCode.split("_")).length > 2 && regCode.indexOf((selectedSubRegion.split("_"))[1]) >= 0 && regCode.indexOf(selectedSubRegion.substr(0, 2)) >= 0){
+              console.log(regCode)
+              var addon_html = "<div class='listBox' onClick='gotoLink(" + i + ")'>";
+
+                addon_html += "<div class='reg_name'>" + regName + "</div>";
+                for(var j = 0 ; j < count_data['data'].length; j++){
+                  searching_region = count_data['data'][j]
+                  if(searching_region['file_name'] == regCode){
+                    t_vol_arr = searching_region['daily_count']
+                    t_vol = t_vol_arr[t_vol_arr.length-1][1]
+                  }
+                }
+
+                addon_html += "<div class='volume_content'>"
+                  addon_html += "<div class='price_table'>"                                       
+                    addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건</div>"
+                    addon_html += "<div class='complex_table'>"
+                      addon_html += "<div class='apt_address'><span stylr='color: #e31939'>국토부 등록 건수</div>"    
+                    addon_html += "</div>" 
+                  addon_html += "</div>"
+
+                  addon_html += "<div class='compare_volume'>"
+                    addon_html += "<div class='vol_mon'>당월 거래량 <br>" + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건</div>"
+
+                      addon_html += "<div class='compare_volume_sub'>"
+                        addon_html += "<div>월말 거래량 예측 </div>" + "<div></div>" + "<div>" + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건</div>"
+
+                        if(reg_ratio_yoy > 0){ reg_ratio_yoy_tag = "<span style='color:#eb5050'>▲" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
+                        else if(reg_ratio_yoy < 0){ reg_ratio_yoy_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
+                        else { reg_ratio_yoy_tag = "<span style='color:black'>= " + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
+
+                        if(reg_ratio_3y_avg > 0){ reg_ratio_3y_avg_tag = "<span style='color:#eb5050'>▲" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%</span>" }
+                        else if(reg_ratio_3y_avg < 0){ reg_ratio_3y_avg_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%</span>" }
+                        else { reg_ratio_3y_avg_tag = "<span style='color:black'>= " + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%</span>" }
+
+                        addon_html += "<div>전년동월 대비</div>" + "<div>" + reg_ratio_yoy_tag + "</div>"  + "<div>" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() + "건</div>"
+                        addon_html += "<div>3년평균 대비</div>" + "<div>"  + reg_ratio_3y_avg_tag + "</div>"  + "<div>" + Number(reg_vol_3y_avg.toFixed(0)).toLocaleString() + "건</div>"
+                      addon_html += "</div>"                    
+                  addon_html += "</div>"
+                addon_html += "</div>"
+
+              $('#dataList').append(addon_html);
             }
-            else if(regData.data[i]["rank_gap"] == 9999){
-              addon_html += "<div class='ranksame'> NEW! </div>"
-            }
-            else if(regData.data[i]["rank_gap"] > 0){
-              addon_html += "<div class='rankup'> ▲" + Math.abs(regData.data[i]["rank_gap"]) + "</div>"
-            }
-            else if(regData.data[i]["rank_gap"] < 0){
-              addon_html += "<div class='rankdown'> ▼" + Math.abs(regData.data[i]["rank_gap"]) + "</div>"
-            }
-
-            addon_html += "</div>"
           }
-
-          addon_html += "<div class='content'>";
-          addon_html += "<div class='apt_name'>" + regName + "</div>";
-          addon_html += "<div class='reg_subTable'>";
-
-          addon_html += "<div class='apt_address'>아파트 공급량 <span style='font-weight:900; color:#0f0f0f'>" + regSuplyLevel + "</span></div>";
-
-          var upDown = ""
-          var popChange = ""
-          if (regPopChange < 0){
-            upDown = "감소"
-            popChange = "▼" + (Math.abs(regPopChange)).toLocaleString()
-          }
-          else{
-            upDown = "증가"
-            popChange = "▲" + (Math.abs(regPopChange)).toLocaleString()
-          }
-          addon_html += "<div class='apt_address'><span class='regionPop'>인구 " + (Math.abs(regPop)).toLocaleString() + "명</span>"
-          if(regPopChange >= 0){
-            addon_html += "<span class='regionPopUp'> (" + popChange + ")</span></div>";
-          }
-          else{
-            addon_html += "<span class='regionPopDown'> (" + popChange + ")</span></div>";
-          }
-          addon_html += "<div class='apt_address'><span class='regionJob'>일자리 " + regJob.toLocaleString() + "개</span></div>";
-          addon_html += "<div class='apt_address'>소득 " + regIncome.toLocaleString() + "원</div>";
-          addon_html += "</div></div>";
-          addon_html += "<div class='value_score'>" + ( Math.round( regValue * 100 ) / 100 ).toFixed(2) + "점</div>"
-          addon_html += "</div>"
-
-          $('#dataList').append(addon_html);
         }
+        if(isMobile){
+          $(".volume_content").css('grid-template-columns', '1fr')
+          //$(".price_table").css('grid-template-columns', '80px 1fr')
+          $(".price_table").css('border-right', '0px')
+          $(".price_table").css('margin-top', '5px')
+          $(".price_table").css('margin-bottom', '5px')
+          $(".price_table").css('padding-bottom', '5px')
+          //$(".price_table").css('border-top', '1px solid #ddd')
+          $(".price_table").css('border-bottom', '1px solid #eee')
+          $(".vol_num").css('line-height', '1.5em')
+          $(".vol_num").css('font-size', '1.1em')
+          $(".reg_name").css('font-size', '1em')
+          $(".compare_volume_sub").css('font-size', '0.75em')
+          $(".compare_volume_sub").css('font-weight', '600')
+        }
+
         $('#dataList').append("<div style='height: " +  blank_height + "'></div>");
     })
 
@@ -1456,6 +1478,14 @@ function updateTable(region){
 
   function goMap(url){
       window.open(url, '_blank')
+  }
+
+  function gotoLink(index){
+    console.log(regData.data[index])
+    code = regData.data[index]['코드']
+    aURL = "https://www.aptrank.kr/price" + "?preg=" + selectedRegion +"&psub=" + selectedSubRegion
+    window.open(aURL)
+
   }
 </script>
 </html>

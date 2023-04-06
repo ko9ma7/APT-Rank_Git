@@ -26,9 +26,24 @@
     grid-template-columns: 0.7fr 1fr;
     margin-top: 5px;
   }
+  .volume_content{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    margin-top: 5px;
+  }
+  .reg_content{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    margin-top: 5px;
+  }
   .price_num{
     font-size: 1.3em;
     line-height: 2em;
+    font-weight: 600;
+    color: #cc233f
+  }
+  .vol_num{
+    font-size: 1.3em;    
     font-weight: 600;
     color: #cc233f
   }
@@ -38,10 +53,31 @@
     margin-right: 15px;
     border-right: 1px solid #ddd;    
   }
+  .vol_table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8em;
+  }
   .compare_price{
     display: grid;
     grid-template-columns: 110px 70px 1fr;
     font-size: 0.8em;      
+  }
+  .compare_volume{
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    
+  }
+  .compare_volume_sub{
+    display: grid;
+    grid-template-columns: 130px 80px 1fr;
+    font-size: 0.8em;
+    padding-left: 15px;
+  }
+  .vol_mon{
+    font-size: 0.9em;
+    font-weight:600;
+    border-right: 1px solid #ddd
   }
   .no_deal_info{
     height: 3em;
@@ -449,6 +485,10 @@
   }  
   .apt_name{
     font-size: 1em;
+    font-weight: 600;    
+  }
+  .reg_name{
+    font-size: 1.2em;
     font-weight: 600;    
   }  
   .aptYear{
