@@ -1492,16 +1492,16 @@ function updateTable(region){
     go_region = (code.split('_'))[1]
 
     if(selectedSubRegion == "1000000000_Korea"){
-      //aURL = "https://www.aptrank.kr/price" + "?preg=Korea&psub=" + code
-      aURL = "file:///D:/APT-Rank_Git/price/index.html" + "?preg=Korea&psub=" + code
+      aURL = "https://www.aptrank.kr/price" + "?preg=Korea&psub=" + code
+      
       //selectedSubRegion = code      
       //$("#sido").val("Korea").prop("selected", true);
       //$("#gungu").val(code).prop("selected", true);
       //updateRegion()
     }
     else{
-      //aURL = "https://www.aptrank.kr/price" + "?preg=" + go_region + "&psub=" + code
-      aURL = "file:///D:/APT-Rank_Git/price/index.html" + "?preg=" + go_region + "&psub=" + code
+      aURL = "https://www.aptrank.kr/price" + "?preg=" + go_region + "&psub=" + code
+      
       //console.log(code)
       //console.log(selectedSubRegion)
       //selectedRegion = selectedSubRegion
