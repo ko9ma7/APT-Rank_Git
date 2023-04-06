@@ -771,7 +771,7 @@ function updateTable(region){
         }
 
         if(itemNum != 0){
-          sep_array.push([itemNum - sep_array[sep_array.length-1][0], 0 ])
+          sep_array.push([ itemNum, 0 ])
         }
         else{
           sep_array.push([ itemNum, 0 ])
@@ -797,8 +797,8 @@ function updateTable(region){
           for(var j = 0; j < sep_array.length-1 ; j++){
             if(i == sep_array[j][0]){
               exp_date = sep_array[j][1].substr(0, 4) + "-" + sep_array[j][1].substr(4, 2) + "-" + sep_array[j][1].substr(6, 2)
-              deal_count = sep_array[j+1][0]
-              //deal_count = sep_array[j+1][0] - sep_array[j][0]
+              //deal_count = sep_array[j+1][0]
+              deal_count = sep_array[j+1][0] - sep_array[j][0]
               addon_html = "<div class='date_saperator'>" + exp_date + " (" + deal_count + "건 등록)" + "</div>"
             }
           }
