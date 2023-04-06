@@ -771,7 +771,7 @@ function updateTable(region){
         }
 
         if(itemNum != 0){
-          sep_array.push([ itemNum - sep_array[sep_array.length-1][0], 0 ])
+          sep_array.push([ sep_array[sep_array.length-2][0] - sep_array[sep_array.length-1][0], 0 ])
         }
         else{
           sep_array.push([ itemNum, 0 ])
