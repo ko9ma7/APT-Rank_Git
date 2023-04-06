@@ -864,7 +864,7 @@ function updateTable(region){
         $('#dataList').append("<div style='height: " + blank_height + "'></div>");
     })
     showWeight()
-    saveLocalStorage()    
+    //saveLocalStorage()    
   }
 
   function Korean_price(price){
@@ -1298,7 +1298,7 @@ function updateTable(region){
         $('#dataList').append("<div style='height: " +  blank_height + "'></div>");
     })
 
-    saveLocalStorage()
+    //saveLocalStorage()
   }
 
   function show_apt(month, filename, sido){
@@ -1487,16 +1487,28 @@ function updateTable(region){
   }
 
   function gotoLink(index){
-    console.log(regData.data[index])
     code = regData.data[index]['코드']
     
     go_region = (code.split('_'))[1]
 
     if(selectedSubRegion == "1000000000_Korea"){
-      aURL = "https://www.aptrank.kr/price" + "?preg=Korea&psub=" + code
+      //aURL = "https://www.aptrank.kr/price" + "?preg=Korea&psub=" + code
+      aURL = "file:///D:/APT-Rank_Git/price/index.html" + "?preg=Korea&psub=" + code
+      //selectedSubRegion = code      
+      //$("#sido").val("Korea").prop("selected", true);
+      //$("#gungu").val(code).prop("selected", true);
+      //updateRegion()
     }
     else{
-      aURL = "https://www.aptrank.kr/price" + "?preg=" + go_region + "&psub=" + code
+      //aURL = "https://www.aptrank.kr/price" + "?preg=" + go_region + "&psub=" + code
+      aURL = "file:///D:/APT-Rank_Git/price/index.html" + "?preg=" + go_region + "&psub=" + code
+      //console.log(code)
+      //console.log(selectedSubRegion)
+      //selectedRegion = selectedSubRegion
+      //$("#sido").val(go_region).prop("selected", true);
+      //$("#gungu").val(code).prop("selected", true);
+      //optionChange(code)
+      //updateRegion()
     }
     //window.open(aURL)
     window.location = aURL
