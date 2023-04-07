@@ -484,8 +484,8 @@
       share2Html = "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
     }
     else{
-      //share2Html = "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-solid fa-copy'></i></div>"
-      share2Html = "<div class='tShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
+      share2Html = "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-solid fa-copy'></i></div>"
+      //share2Html = "<div class='tShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
     }
 
     $('#share2').html(share2Html)
@@ -1096,32 +1096,32 @@ function updateTable(region){
     footerHtml += "<div class='modal-footer'>"
     //footerHtml += "<div></div>"
 
-    shareTitle = "『" + aptName + "』 " + (today.getMonth() + 1) +"월 실거래\n"
-    shareText = "『" + aptName + "』 " + (today.getMonth() + 1) +"월 실거래\n"
-    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val()
+    shareTitle_detail = "『" + aptName + "』 " + (today.getMonth() + 1) +"월 실거래\n"
+    shareText_detail = "『" + aptName + "』 " + (today.getMonth() + 1) +"월 실거래\n"
+    shareURL_detail = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val()
 
-    shareText += "ㆍ주소 : " + lawed_address + "\n"
-    shareText += "ㆍ실거래가 : " + Korean_price(deal_price_num) + "\n"
-    shareText += "ㆍ계약일 : " + dealed_date + " (" + deal_type + ")\n"
-    shareText += "ㆍ층,평 : " + deal_floor + "층, (약 " + apt_p.toFixed(0) + "평)\n"
-    shareText += "ㆍ직전거래 : " + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")\n"
-    shareText += shareURL + "\n\n"
-    kakaoShareURL = shareURL
+    shareText_detail += "ㆍ주소 : " + lawed_address + "\n"
+    shareText_detail += "ㆍ실거래가 : " + Korean_price(deal_price_num) + "\n"
+    shareText_detail += "ㆍ계약일 : " + dealed_date + " (" + deal_type + ")\n"
+    shareText_detail += "ㆍ층,평 : " + deal_floor + "층, (약 " + apt_p.toFixed(0) + "평)\n"
+    shareText_detail += "ㆍ직전거래 : " + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")\n"
+    shareText_detail += shareURL_detail + "\n\n"
+    kakaoShareURL_detail = shareURL_detail
 
-    popMsg = "'" + aptName + "'" + " 실거래 정보가 복사되었습니다."
+    popMsg_detail = "'" + aptName + "'" + " 실거래 정보가 복사되었습니다."
     
     if(broswerInfo.indexOf("inApp")>-1){
       footerHtml += "<div></div>"
       footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(" + naver_code + ")'>네이버 부동산 보기</button></div>"
-      footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"      
+      footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle_detail, shareText_detail, kakaoShareURL_detail)'><img src = './kakao_icon.png' height='32px'></div>"      
       //footerHtml += "<div><button type='button' class='toShare' onClick='CopyToClipboard(shareText, popMsg)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
-      footerHtml += "<div><button type='button' class='toShare' onClick='CopyToClipboard(shareText, popMsg)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
+      footerHtml += "<div><button type='button' class='toShare' onClick='CopyToClipboard(shareText_detail, popMsg_detail)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
     }
     else{
       footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(\"" + naver_code + "\")'>네이버 부동산 보기</button></div>"
       footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"      
-      footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
-      //footerHtml += "<div><button type='button' class='toShare' onClick='CopyToClipboard(shareText, popMsg)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
+      //footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle_detail, shareText_detail, shareURL_detail)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
+      footerHtml += "<div><button type='button' class='toShare' onClick='CopyToClipboard(shareText_detail, popMsg_detail)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
     }
     footerHtml += "</div>"
 
@@ -1490,6 +1490,7 @@ function updateTable(region){
     detailHtml += "<li><div class='notice'>최저가 비교는 2019년 1월부터의 매매거래 내에서 비교합니다.</div></li>";
     detailHtml += "<li><div class='notice'>모든 정보는 일 2회, 오전 6:00와 오후 1:30에 업데이트 합니다.</div></li>";
     detailHtml += "<li><div class='notice'>문의사항, 오류수정, 개선제안은 이메일 또는 카카오톡을 통해 문의해 주세요.</div></li>";
+    detailHtml += "<li><div class='notice'><a href='https://aptrank.kr/price'>[테스트] 아파트랭크PRICE</a></div></li>";
     detailHtml += "</ul>";
 
     footerHtml += "<div class='modal-footer'>"    
