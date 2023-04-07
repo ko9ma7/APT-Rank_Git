@@ -1,9 +1,16 @@
 {
-    "lastBuildDate": "Sat, 08 Apr 2023 03:22:46 +0900",
-    "total": 713165,
+    "lastBuildDate": "Sat, 08 Apr 2023 04:16:12 +0900",
+    "total": 713166,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "&apos;공시가 9억→12억 이하&apos; 문턱 낮아지는 주택연금…가입해볼까",
+            "originallink": "http://www.newsis.com/view/?id=NISX20230407_0002258787&cID=15001&pID=15000",
+            "link": "https://n.news.naver.com/mnews/article/003/0011791223?sid=101",
+            "description": "최근 <b>부동산 시장</b>이 침체를 겪으면서 집값이 추가 하락하기 전에 가입하려는 수요에 더해 가입 기준까지 완화되면 주택연금이 더욱 인기를 끌 것이란 분석이 나온다. 주택연금의 최대 장점은 연금을 받는 가입자와... ",
+            "pubDate": "Sat, 08 Apr 2023 04:00:00 +0900"
+        },
         {
             "title": "11년째 안팔려 고민인 마이클 조던 저택, 무단침입사건까지 발생",
             "originallink": "https://www.yna.co.kr/view/AKR20230408001800009?input=1195m",
@@ -206,13 +213,6 @@
             "link": "https://n.news.naver.com/mnews/article/009/0005113404?sid=101",
             "description": "지난해 말 자금<b>시장</b> 경색 분위기는 상당 부분 해소됐지만 <b>부동산시장</b> 침체로 인해 <b>부동산</b> PF에 대한 불안감은 여전한 것이 현실이다. 현재의 <b>부동산</b> PF는 <b>부동산</b> 개발 사업 단계에 따른 자금 조달 수요에 맞춘 상품을... ",
             "pubDate": "Fri, 07 Apr 2023 17:47:00 +0900"
-        },
-        {
-            "title": "1.3 대책 세 달 지났는데, 아직 헷갈린다? 바뀐 청약제도 살펴보기",
-            "originallink": "http://www.rcast.co.kr/news/articleView.html?idxno=20947",
-            "link": "http://www.rcast.co.kr/news/articleView.html?idxno=20947",
-            "description": "<b>부동산 시장</b> 정상화를 목표로 한 만큼 청약제도의 많은 규제가 완화된 가운데, 예비 청약자가 여전히 헷갈려 할 만한 부분들을 리얼캐스트가 짚어 보기로 했습니다. 전매제한-실거주 의무 &apos;한몸&apos;… 둔촌주공 실거주 의무... ",
-            "pubDate": "Fri, 07 Apr 2023 17:46:00 +0900"
         }
     ]
 }
