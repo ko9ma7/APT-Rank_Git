@@ -74,6 +74,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"  crossorigin="anonymous"></script>
   <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
   <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=uod39kursd"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
 
   <script src="../js/menu_select_box_price.js" type="text/javascript"></script>
   <script src="../js/draw_chart_price.js" type="text/javascript"></script>
@@ -109,16 +112,16 @@
     <div id="centerBox">
       <div id="titleBar">
         <!--검색 버튼 표시-->
-        <div id='search'></div>
+        <div id='share1'></div>
         <!--재정렬 버튼 표시-->
-        <div id="rearrange"></div>
+        <div id="share2"></div>
         <!--타이틀 표시-->
-        <div id="title" onClick='scrollUp()'><img src="./apt-rank_price_blank.png" height="32px"/></div>
+        <div id="title" onClick='scrollUp()'><img src="./apt-rank_price_blank.png" height="34px"/></div>
         <!-- <div id="title" onClick='sendTo()'>아파트랭크</div> -->
         <!--공유 버튼-->
         <!-- <div id="search" onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div> -->
         <!--단지 가중치 설정 버튼 표시-->
-        <div id='sort'></div>
+        <div id='sort' data-clipboard-text=""></div>
         <div id='help' data-bs-toggle='modal' data-bs-target='#baseModal' id='myModal' onClick='showNotice()'><i class="fa-solid fa-circle-question"></i></div>
 
       </div>
@@ -380,6 +383,9 @@
   var today_str = today_year + "-" + today_month + "-" + today_day
   var this_month = Number(today_year + today_month)
 
+  var start_date_str = (today.getMonth() + 1) + "/1"
+  var end_date_str = (today.getMonth() + 1) + "/" + today.getDate()
+
   var updated_datetime = ""
 
   function dateReturn(n){
@@ -469,6 +475,21 @@
         }
       }
     });
+
+
+    share1Html = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"28px\"/></div>"
+    $('#share1').html(share1Html)
+
+    if(broswerInfo.indexOf("inApp")>-1){
+      share2Html = "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+    }
+    else{
+      //share2Html = "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-solid fa-copy'></i></div>"
+      share2Html = "<div class='tShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
+    }
+
+    $('#share2').html(share2Html)
+    
 
     if(checkMobile() == "ios"){ blank_height = "3em" }
     else{ blank_height = "3em" }
@@ -673,6 +694,11 @@ function updateTable(region){
     //this_url = "https://www.aptrank.kr/price/recent/" + load_prev_month + "/" + region + ".json?v=" + Math.random()
 
 
+    regionName = $("#sido option:selected").text() + " " + $("#gungu option:selected").text()
+    shareTitle = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 실거래]"
+    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val()
+
+    shareText = "[" + regionName + ", " + start_date_str + "~" + end_date_str + " 실거래]\n\n"
 
     url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/" + region + ".json?v=" + Math.random()
     $.getJSON(url, function(json) {
@@ -735,9 +761,6 @@ function updateTable(region){
         else{
           sep_array.push([ itemNum, 0 ])
         }
-      
-        console.log(reverse_count_info)    
-        console.log(sep_array)      
 
         var addon_html = ""
         //[ ['20230404', 12, '2023-04-03, 17:43'], ['20230403', 9, '2023-04-03, 17:43'], ['20230402', 4, '2023-04-02, 23:26']]
@@ -841,9 +864,20 @@ function updateTable(region){
               addon_html += "<div>최저가 대비</div>" + "<div>" + compare_min_tag + "</div>"  + "<div>" + Korean_price(min_price_deal[1]) + " (" + min_price_deal[0] + ")</div>"
             addon_html += "</div>"
           addon_html += "</div>"
+          
+          shareText += "『" + aptName + "』\n"
+          shareText += "ㆍ" + Korean_price(deal_price_num) + " | " + "(" + dealed_date + ")\n"
+          shareText += "ㆍ" + deal_floor + "층, 약 " + apt_p.toFixed(0) + "평 (" + apt_m + ")\n\n"          
 
           $('#dataList').append(addon_html);
         }
+
+        if(itemNum == 0){
+            shareText += "등록된 실거래 정보 없음"
+        }
+
+        shareText += shareURL
+        popMsg = "'" + regionName + "'" + " 거래량 정보가 복사되었습니다."
       
         if(isMobile){
           $(".price_content").css('grid-template-columns', '1fr')
@@ -1061,20 +1095,32 @@ function updateTable(region){
     //Footer에 네이버 부동산 버튼
     footerHtml += "<div class='modal-footer'>"
     //footerHtml += "<div></div>"
-    shareTitle = "[아파트랭크 "
-    shareTitle += selectedMonth.substr(2, 2) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월]\n"
 
-    shareText = "\n『" + aptName
+    shareTitle = "『" + aptName + "』 " + (today.getMonth() + 1) +"월 실거래\n"
+    shareText = "『" + aptName + "』 " + (today.getMonth() + 1) +"월 실거래\n"
+    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val()
+
+    shareText += "ㆍ주소 : " + lawed_address + "\n"
+    shareText += "ㆍ실거래가 : " + Korean_price(deal_price_num) + "\n"
+    shareText += "ㆍ계약일 : " + dealed_date + " (" + deal_type + ")\n"
+    shareText += "ㆍ층,평 : " + deal_floor + "층, (약 " + apt_p.toFixed(0) + "평)\n"
+    shareText += "ㆍ직전거래 : " + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")\n"
+    shareText += shareURL + "\n\n"
+    kakaoShareURL = shareURL
+
+    popMsg = "'" + aptName + "'" + " 실거래 정보가 복사되었습니다."
     
     if(broswerInfo.indexOf("inApp")>-1){
       footerHtml += "<div></div>"
       footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(" + naver_code + ")'>네이버 부동산 보기</button></div>"
-      footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
+      footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"      
+      footerHtml += "<div><button type='button' class='toShare' onClick='CopyToClipboard(shareText, popMsg)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
     }
     else{
       footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(\"" + naver_code + "\")'>네이버 부동산 보기</button></div>"
-      footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
+      footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"      
       footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
+      //footerHtml += "<div><button type='button' class='toShare' onClick='CopyToClipboard(shareText, popMsg)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
     }
     footerHtml += "</div>"
 
@@ -1115,13 +1161,12 @@ function updateTable(region){
       });
     }
 
-
-    if(broswerInfo.indexOf("inApp")>-1){
-      $('.modal-footer').css({"grid-template-columns" : "0.2fr 1fr 0.2fr", "text-align":"center", "text-align": "-webkit-center"})
-    }
-    else{
+    //if(broswerInfo.indexOf("inApp")>-1){
+    //  $('.modal-footer').css({"grid-template-columns" : "0.2fr 1fr 0.2fr", "text-align":"center", "text-align": "-webkit-center"})
+    //}
+    //else{
       $('.modal-footer').css({"grid-template-columns" : "1fr 0.15fr 0.15fr", "text-align":"center", "text-align": "-webkit-center"})
-    }
+    //}
 
     graph_history_date_short = graph_history_date.slice(-48, -1)
     graph_history_price_short = graph_history_price.slice(-48, -1)
@@ -1139,6 +1184,13 @@ function updateTable(region){
     //$('html').scrollTop(0)
     //$('#sort').css("visibility", "hidden")
     //$('#rearrange').css("visibility", "visible")
+
+    regionName = $("#gungu option:selected").text()
+    shareTitle = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 거래량]"
+    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val()
+
+    shareText = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 거래량]\n\n"
+
     url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/sales_volume.json" + update_ver
     $('#dataList').html("");
 
@@ -1193,13 +1245,15 @@ function updateTable(region){
                 addon_html += "<div class='reg_name'>" + regName + "</div>";      
 
                 addon_html += "<div class='volume_content'>"
-                  addon_html += "<div class='price_table'>"                    
+                  addon_html += "<div class='price_table'>"
                     if(regCode == "1000000000_Korea"){
-                      addon_html += "<div class='vol_num'>" + count_Korea.toLocaleString() + "건</div>"                    
+                      deal_vol = count_Korea.toLocaleString()
                     }
                     else{
-                      addon_html += "<div class='vol_num'>" + today_vol.toLocaleString() + "건</div>"
+                      deal_vol = today_vol.toLocaleString()
                     }
+
+                    addon_html += "<div class='vol_num'>" + deal_vol + "건</div>"
                     addon_html += "<div class='complex_table'>"
                       addon_html += "<div class='apt_address'><span stylr='color: #e31939'>국토부 등록 건수</div>"    
                     addon_html += "</div>"
@@ -1227,6 +1281,14 @@ function updateTable(region){
                       addon_html += "</div>"                    
                   addon_html += "</div>"
                 addon_html += "</div>"
+
+              shareText += "『" + regName + "』\n"
+              shareText += "ㆍ국토부 신규 등록 : " + deal_vol + "건\n"
+              shareText += "ㆍ당월거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
+              shareText += "ㆍ월말거래량 예측 : " + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건\n"
+              shareText += "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + regCode + "\n\n"
+
+              popMsg = "'" + "전체시도" + "'" + " 거래량 정보가 복사되었습니다."
 
               $('#dataList').append(addon_html);
             }
@@ -1275,10 +1337,19 @@ function updateTable(region){
                   addon_html += "</div>"
                 addon_html += "</div>"
 
+              shareText += "『" + regName + "』\n"
+              shareText += "ㆍ국토부 신규 등록 : " + t_vol.toLocaleString() + "건\n"
+              shareText += "ㆍ당월거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
+              shareText += "ㆍ월말거래량 예측 : " + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건\n"
+              shareText += "https://www.aptrank.kr/price" + "?preg=" + regSido + "&psub=" + regCode + "\n\n"
+
+              popMsg = "'" + regionName + "'" + " 거래량 정보가 복사되었습니다."
+
               $('#dataList').append(addon_html);
             }
           }
         }
+
         if(isMobile){
           $(".volume_content").css('grid-template-columns', '1fr')
           //$(".price_table").css('grid-template-columns', '80px 1fr')
@@ -1407,46 +1478,20 @@ function updateTable(region){
 
   function showNotice(){
     noticePop = true
-    var titleHtml = "<div class='popupTitle'> 아파트랭크에서 알려드립니다 </div>";
+    var titleHtml = "<div class='popupTitle'> 아파트랭크PRICE </div>";
     var footerHtml = ""
     var detailHtml = ""
-    if(selectedMonth == "202203"){ detailHtml += notice_202203 }
-    if(selectedMonth == "202204"){ detailHtml += notice_202204 }
-    if(selectedMonth == "202205"){ detailHtml += notice_202205 }
-    if(selectedMonth == "202206"){ detailHtml += notice_202206 }
-    if(selectedMonth == "202207"){ detailHtml += notice_202207 }
-    if(selectedMonth == "202208"){ detailHtml += notice_202208 }
-    if(selectedMonth == "202209"){ detailHtml += notice_202209 }
-    if(selectedMonth == "202210"){ detailHtml += notice_202210 }
-    if(selectedMonth == "202211"){ detailHtml += notice_202211 }
-    if(selectedMonth == "202212"){ detailHtml += notice_202212 }
-    if(selectedMonth == "202301"){ detailHtml += notice_202301 }
-    if(selectedMonth == "202302"){ detailHtml += notice_202302 }
-    if(selectedMonth == "202303"){ detailHtml += notice_202303 }
 
-    detailHtml += "<div class='popupTitle' style='text-align: center; padding-bottom: 1em'>아파트랭크란?</div>";
-    detailHtml +=  "<div class='notice'>아파트랭크는 '주거', '인프라', '교통', '교육환경'을 AI로 분석하여 점수로 계산하여 입지 정보를 제공하는 서비스 입니다.</div>"
-    detailHtml +=  "<div class='notice'>아파트랭크의 점수는 '가격' 및 '지형고도'를 제외하고 산정되며, 그 결과는 생각하시는 순위와 크게 다를 수 있습니다.</div>";    
-    detailHtml += "<div class='notice'><strong> 아파트랭크의 점수는 투자지표가 아님을 말씀드리며, 투자 판단에 대한 모든 책임은 투자자 본인에게 있습니다.</strong></div>";
-    detailHtml += "<div class='notice'>업데이트 알림은 <a href='http://pf.kakao.com/_vESNb' target='_blank'>카카오톡 채널</a>을 통해 전달됩니다.</div>";
-    detailHtml += "<hr>";    
     detailHtml += "<ul>";
-    detailHtml += "<li><div class='notice'>아파트 랭크의 점수는 투자지표가 아님을 말씀드립니다. 투자 판단에 대한 모든 책임은 투자자 본인에게 있습니다.</div></li>";
-    detailHtml += "<li><div class='notice'>모든 점수는 환경 요소를 분석한 AI가 선정하며, 일체의 임의적 조작을 가하지 않습니다.</div></li>";
-    detailHtml += "<li><div class='notice'>점수는 해당 지역구의 상대 점수이며, 다른 지역구의 동일 점수와 같은 가치를 나타내지 않습니다.</div></li>";
-    detailHtml += "<li><div class='notice'>단지의 정보는 네이버 부동산 정보를 참조합니다.</div></li>";
-    detailHtml += "<li><div class='notice'>80세대 이하의 단지는 통계에서 제외됩니다. (2022년 3월 이전은 100세대 이하 제외)</div></li>";
-    detailHtml += "<li><div class='notice'>재건축 단지의 경우, 용적률과 건폐율로 주거 점수를 산정합니다.</div></li>";
-    detailHtml += "<li><div class='notice'>수도권 교통 정보는 지하철역 위치 정보를 기반으로 산정됩니다.</div></li>";
-    detailHtml += "<li><div class='notice'>인프라 정보는 각 백화점/마트 홈페이지, 은행연합회, 자원순환정보시스템, 공공데이터 포탈의 정보를 기반으로 산정됩니다.</div></li>";
-    detailHtml += "<li><div class='notice'>교육 정보는 교육통계서비스 정보를 기반으로 산정됩니다.</div></li>";
-    detailHtml += "<li><div class='notice'>지역구 정보는 공공데이터포탈 정보를 기반으로 산정됩니다.</div></li>";
-    detailHtml += "<li><div class='notice'>모든 정보는 월 1회 업데이트 예정이며, 각 기반 정보의 업데이트 시점에 따라 변동 가능성이 있습니다.</div></li>";
+    detailHtml += "<li><div class='notice'>아파트랭크PRICE의 실거래가 정보는 국토부에서 제공되는 정보를 사용합니다.</div></li>";
+    detailHtml += "<li><div class='notice'>당월 거래량은 호갱노노 정보를 참조하며, 국토부 등록건수와 상이합니다.</div></li>";
+    detailHtml += "<li><div class='notice'>매매 이력은 2019년 1월부터의 정보로 제한하였습니다.</div></li>";
+    detailHtml += "<li><div class='notice'>최저가 비교는 2019년 1월부터의 매매거래 내에서 비교합니다.</div></li>";
+    detailHtml += "<li><div class='notice'>모든 정보는 일 2회, 오전 6:00와 오후 1:30에 업데이트 합니다.</div></li>";
     detailHtml += "<li><div class='notice'>문의사항, 오류수정, 개선제안은 이메일 또는 카카오톡을 통해 문의해 주세요.</div></li>";
     detailHtml += "</ul>";
 
     footerHtml += "<div class='modal-footer'>"    
-    footerHtml += " <div id='footerCheck'><input class='form-check-input' type='checkbox' value='' id='flexCheckDefault'><label class='form-check-label' for='flexCheckDefault'><span class='notice'>일주일 동안 보지 않기</span></label></div>"
     footerHtml += " <div id='footerBtn1'><a href='https://play.google.com/store/apps/details?id=com.aptrank.app' target='_blank'><button type='button' class='goApt' style='font-size: 0.85em'>앱 설치하기(안드로이드)</button></a></div>"
     //footerHtml += " <div><a href='https://open.kakao.com/o/sPYY0LZd' target='_blank'><button type='button' class='gokakao'>카카오톡 문의하기</button></a></div>"
     footerHtml += " <div id='footerBtn2'><a href='https://pf.kakao.com/_vESNb/chat' target='_blank'><button type='button' class='gokakao' style='font-size: 0.85em'>카카오톡 1:1 문의하기</button></a></div>"

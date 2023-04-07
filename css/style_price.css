@@ -994,6 +994,14 @@
     border: None;
     color: black
   }
+  .tShare{
+    width: 100%;    
+    font-size: 1.2em;
+    color:white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: None;
+  }  
   .kakaoShare{
     border: None;
     background-color: none;
@@ -1006,6 +1014,9 @@
     font-weight: 600;    
     border-radius: 5px;
     border: None;
+  }
+  .toast-success {
+    background-color: #801c2d;
   }
   .comment{
     font-size: 0.6em;

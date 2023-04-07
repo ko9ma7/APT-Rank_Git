@@ -72,3 +72,44 @@ function kakaoShareButton(shareTitle, shareText, shareURL) {
     ]
   });
 }
+
+function CopyToClipboard(copied_text, msg_pop){
+  var txt = copied_text
+  var t = document.createElement("textarea");
+  t.value = txt;
+  document.body.appendChild(t);  
+  t.select();
+  document.execCommand('copy');
+  document.body.removeChild(t);
+
+  toastr.options = {
+    closeButton: false,
+    progressBar: false,
+    showMethod: 'fadeIn',
+    closeMethod: 'fadeOut',
+    positionClass: "toast-bottom-center",
+    timeOut: 1000
+  };
+  output = msg_pop
+  toastr.success(output);
+}
+
+function clipboard_copy(copied_text, msg_pop){
+  console.log(copied_text)
+
+  $('#sort').attr('data-clipboard-text',  copied_text);
+  clipboard = new ClipboardJS('#sort');
+  $('#sort').attr('data-clipboard-text',  "");
+
+  toastr.options = {
+    closeButton: false,
+    progressBar: false,
+    showMethod: 'fadeIn',
+    closeMethod: 'fadeOut',
+    positionClass: "toast-bottom-center",
+    timeOut: 1000
+  };
+  output = msg_pop
+  toastr.success(output);
+
+}
