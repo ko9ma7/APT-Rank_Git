@@ -1,5 +1,5 @@
 
-  var inKorea = [ ['전체시도', '1000000000_Korea'], 
+  var inKorea = [ ['전국/전체시도', '1000000000_Korea'], 
                   ['서울시', '1100000000_Seoul'], 
                   ['경기도', '4100000000_Gyeonggi'], 
                   ['부산시', '2600000000_Busan'], 
@@ -318,7 +318,7 @@
     ]
 
   var regions = [
-      ['전국', 'Korea'], ['서울시', 'Seoul'], ['경기도', 'Gyeonggi'], ['부산시', 'Busan'], ['대구시', 'Daegu'], ['인천시', 'Incheon'], ['광주시', 'Gwangju'], ['대전시', 'Daejeon'], 
+      ['거래량', 'Korea'], ['서울시', 'Seoul'], ['경기도', 'Gyeonggi'], ['부산시', 'Busan'], ['대구시', 'Daegu'], ['인천시', 'Incheon'], ['광주시', 'Gwangju'], ['대전시', 'Daejeon'], 
       ['울산시', 'Ulsan'], ['세종시', 'Sejong'], ['강원도', 'Gangwondo'], ['충청북도', 'Chungcheongbukdo'], ['충청남도', 'Chungcheongnamdo'],
       ['전라북도', 'Jeollabukdo'], ['전라남도', 'Jeollanamdo'], ['경상북도', 'Gyeongsangbukdo'], ['경상남도', 'Gyeongsangnamdo'], ['제주도', 'Jejudo']
     ]
