@@ -463,7 +463,7 @@
 
   #linkToAptrank{
     display: grid;    
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0.6fr;
     align-content: center;
     justify-content: center;
     padding-top: 1px;
@@ -479,13 +479,13 @@
     text-align: center;
   }
 
-  #tab1, #tab2, #tab3, #tab4, #tab5{
+  #tab1, #tab2, #tab3, #tab4, #tab5, #tab6{
     font-size: 0.8em;
     font-weight: 600;
     border-top: 2px solid #fe4040;    
     color: gray;
   }
-  #tab1:active, #tab2:active, #tab3:active, #tab4:active, #tab5:active{
+  #tab1:active, #tab2:active, #tab3:active, #tab4:active, #tab5:active, #tab6:active{
     color: #fe4040;
   }  
 

@@ -223,11 +223,12 @@
 
       <!--아파트랭크 연결-->
       <div id="linkToAptrank">
-        <div id = 'tab1' style="background-color: #e31939; color:white;">아파트R</div>
-        <div id = 'tab2' onClick='openAptrank("https://www.aptrank.kr/theme")'>THEME</i></div>
-        <div id = 'tab3' onClick='openOprank()'>오피스텔R</div>
-        <div id = 'tab4' onClick='openAptrankNEWS()'>NEWS</div>
-        <div id = 'tab5' onClick='openAptrankBIZ()'>BIZ</div>        
+        <div id = 'tab1' onClick='openExternalLink("https://www.aptrank.kr")'>아파트R</div>
+        <div id = 'tab2' style="background-color: #e31939; color:white;">PRICE</div>
+        <div id = 'tab3' onClick='openExternalLink("https://www.aptrank.kr/theme")'>THEME</i></div>
+        <div id = 'tab4' onClick='openExternalLink("https://www.aptrank.kr/op")'>오피스텔R</div>        
+        <div id = 'tab5' onClick='openExternalLink("https://www.aptrank.kr/newsinfo")'>NEWS</div>
+        <div id = 'tab6' onClick='window.open("https://www.aptrank.kr/biz")'>BIZ</div>
       </div>
 
       <!--단지 검색창 닫기 플로팅 버튼-->
@@ -708,6 +709,8 @@ function updateTable(region){
         //sortData = json;
         //aptData.data = Object.assign(aptData.data, this_apt_data.data)
         itemNum = aptData.data.length;
+
+        aptData.data = (aptData.data).reverse()
 
         /*
         //광고정보 표시영역
@@ -1296,7 +1299,7 @@ function updateTable(region){
           }
           else{
             if((regCode.split("_")).length > 2 && regCode.indexOf((selectedSubRegion.split("_"))[1]) >= 0 && regCode.indexOf(selectedSubRegion.substr(0, 2)) >= 0){
-              console.log(regCode)
+              //console.log(regCode)
               var addon_html = "<div class='listBox' onClick='gotoLink(" + i + ")'>";
 
                 addon_html += "<div class='reg_name'>" + regName + "</div>";
@@ -1423,60 +1426,6 @@ function updateTable(region){
     window.open(hURL)
   }
 
-  function openAptrank(){
-    aURL = "https://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
-    location.href = aURL
-    /*
-    if ( navigator.platform ) {
-        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-          location.href = aURL
-        } else {
-          window.open(aURL)
-        }
-    }
-    */   
-  }
-
-  function openOprank(){
-    aURL = "https://www.aptrank.kr/op" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
-    location.href = aURL
-    /*
-    if ( navigator.platform ) {
-        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-          location.href = aURL
-        } else {
-          window.open(aURL)
-        }
-    }
-    */
-  }
-  function openAptrankBIZ(){
-    aURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
-    window.open(aURL)
-    /*
-    if ( navigator.platform ) {
-        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-          location.href = aURL
-        } else {
-          window.open(aURL)
-        }
-    }
-    */
-  }
-  function openAptrankNEWS(){
-    aURL = "https://www.aptrank.kr/newsinfo"
-    location.href = aURL
-    /*
-    if ( navigator.platform ) {
-        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-          location.href = aURL
-        } else {
-          window.open(aURL)
-        }
-    }
-    */
-  } 
-
   function showNotice(){
     noticePop = true
     var titleHtml = "<div class='popupTitle'> 아파트랭크PRICE </div>";
@@ -1519,7 +1468,7 @@ function updateTable(region){
       if($(this).is(':checked')){
         //console.log("CHECKED!!")
         $.cookie('popCookie', '202303', { expires: 7, path: '/' });
-        console.log($.cookie('popCookie'))
+        //console.log($.cookie('popCookie'))
       }
       else{
         //console.log("UN-CHECKED!!")

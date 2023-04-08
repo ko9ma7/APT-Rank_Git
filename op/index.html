@@ -195,10 +195,11 @@
       <!--아파트랭크 연결-->
       <div id="linkToAptrank">
         <div id = 'tab1' onClick='openAptrank()'>아파트R</div>
-        <div id = 'tab2' onClick='openAptrankTheme()'>THEME</div>
-        <div id = 'tab3' style='background-color: #293249; color:white;'>오피스텔R</div>
-        <div id = 'tab4' onClick='openAptrankNEWS()'>NEWS</div>
-        <div id = 'tab5' onClick='openAptrankBIZ()'>BIZ</div>        
+        <div id = 'tab2' onClick='openAptrankPRICE()'>PRICE</div>
+        <div id = 'tab3' onClick='openAptrankTHEME()'>THEME</div>
+        <div id = 'tab4' style='background-color: #293249; color:white;'>오피스텔R</div>
+        <div id = 'tab5' onClick='openAptrankNEWS()'>NEWS</div>
+        <div id = 'tab6' onClick='openAptrankBIZ()'>BIZ</div>        
       </div>
 
       <!--단지 검색창 닫기 플로팅 버튼-->
@@ -1853,61 +1854,6 @@
     nURL = "https://new.land.naver.com/complexes/" + code
     window.open(nURL)
   }
-
-  function openAptrank(){
-    aURL = "https://www.aptrank.kr/" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
-    location.href = aURL
-    /*
-    if ( navigator.platform ) {
-        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-          location.href = aURL
-        } else {
-          window.open(aURL)
-        }
-    }
-    */ 
-  }
-
-  function openAptrankTheme(){
-    aURL = "https://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
-    location.href = aURL
-    /*
-    if ( navigator.platform ) {
-        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-          location.href = aURL
-        } else {
-          window.open(aURL)
-        }
-    }
-    */
-  }
-  function openAptrankBIZ(){
-    aURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
-    window.open(aURL)
-    /*
-    if ( navigator.platform ) {
-        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-          location.href = aURL
-        } else {
-          window.open(aURL)
-        }
-    }
-    */
-  }
-
-  function openAptrankNEWS(){
-    aURL = "https://www.aptrank.kr/newsinfo"
-    location.href = aURL
-    /*
-    if ( navigator.platform ) {
-        if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
-          location.href = aURL
-        } else {
-          window.open(aURL)
-        }
-    }
-    */
-  } 
 
   function showNotice(){
     noticePop = true

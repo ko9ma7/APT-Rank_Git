@@ -94,22 +94,95 @@ function CopyToClipboard(copied_text, msg_pop){
   toastr.success(output);
 }
 
-function clipboard_copy(copied_text, msg_pop){
-  console.log(copied_text)
+function openExternalLink(url){  
+  location.href = url
+  /*
+  if ( navigator.platform ) {
+      if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+        location.href = aURL
+      } else {
+        window.open(aURL)
+      }
+  }
+  */   
+}
+function openAptrank(){
+  aURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
+  location.href = aURL
+  /*
+  if ( navigator.platform ) {
+      if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+        location.href = aURL
+      } else {
+        window.open(aURL)
+      }
+  }
+  */   
+}
 
-  $('#sort').attr('data-clipboard-text',  copied_text);
-  clipboard = new ClipboardJS('#sort');
-  $('#sort').attr('data-clipboard-text',  "");
+function openAptrankTHEME(){
+  aURL = "https://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
+  location.href = aURL
+  /*
+  if ( navigator.platform ) {
+      if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+        location.href = aURL
+      } else {
+        window.open(aURL)
+      }
+  }
+  */   
+}
 
-  toastr.options = {
-    closeButton: false,
-    progressBar: false,
-    showMethod: 'fadeIn',
-    closeMethod: 'fadeOut',
-    positionClass: "toast-bottom-center",
-    timeOut: 1000
-  };
-  output = msg_pop
-  toastr.success(output);
-
+function openOprank(){
+  aURL = "https://www.aptrank.kr/op" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
+  location.href = aURL
+  /*
+  if ( navigator.platform ) {
+      if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+        location.href = aURL
+      } else {
+        window.open(aURL)
+      }
+  }
+  */
+}
+function openAptrankBIZ(){
+  aURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
+  window.open(aURL)
+  /*
+  if ( navigator.platform ) {
+      if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+        location.href = aURL
+      } else {
+        window.open(aURL)
+      }
+  }
+  */
+}
+function openAptrankNEWS(){
+  aURL = "https://www.aptrank.kr/newsinfo"
+  location.href = aURL
+  /*
+  if ( navigator.platform ) {
+      if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+        location.href = aURL
+      } else {
+        window.open(aURL)
+      }
+  }
+  */
+}
+function openAptrankPRICE(){
+  aURL = "https://www.aptrank.kr/price"
+  location.href = aURL
+  /*
+  if ( navigator.platform ) {
+      if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+        location.href = aURL
+      } else {
+        window.open(aURL)
+      }
+  }
+  */
 }
