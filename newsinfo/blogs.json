@@ -1,9 +1,17 @@
 {
-    "lastBuildDate": "Mon, 10 Apr 2023 07:17:36 +0900",
-    "total": 5011,
+    "lastBuildDate": "Mon, 10 Apr 2023 08:18:18 +0900",
+    "total": 5015,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "[<b>부동산</b>투자일반] 중요한 것은 꺾이지 않는 전세가",
+            "link": "https://blog.naver.com/nammu98/223069704728",
+            "description": "갭투자는 한때 유행했던 투자 방식으로 예전에는 갭이 작은 소형 <b>아파트</b>만 골라서 사라고 무한 반복... 100%맞는 공식은 없다 - 물론 <b>부동산</b> 투자에서 100%맞는 공식은 없다. 다만 미래가치를 포함하고 있는... ",
+            "bloggername": "남무98&apos;S 블로그",
+            "bloggerlink": "blog.naver.com/nammu98",
+            "postdate": "20230410"
+        },
         {
             "title": "<b>부동산</b>앱을 통한 <b>부동산</b>가격 공부",
             "link": "https://blog.naver.com/mine329/223069563157",
@@ -235,14 +243,6 @@
             "bloggername": "분양 팩토리",
             "bloggerlink": "blog.naver.com/dktex88",
             "postdate": "20230401"
-        },
-        {
-            "title": "2023년 3월 4주 주간 <b>아파트</b>가격 동향",
-            "link": "https://blog.naver.com/gm4446200/223060828713",
-            "description": "37%로 조사되었습니다. 강서구 -0.59%, 강남구 및 관악구 -0.54%, 영등포구 -0.42%로 상위에 <b>랭크</b>되었습니다. 인포그래픽 첨부파일 !230330(보도자료)_주간<b>아파트</b>가격동향 (20230327기준).pdf 굿모닝<b>부동산</b>입니다",
-            "bloggername": "굿모닝부동산",
-            "bloggerlink": "blog.naver.com/gm4446200",
-            "postdate": "20230331"
         }
     ]
 }
