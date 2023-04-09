@@ -1,9 +1,17 @@
 {
-    "lastBuildDate": "Sun, 09 Apr 2023 21:30:53 +0900",
-    "total": 5020,
+    "lastBuildDate": "Sun, 09 Apr 2023 22:20:44 +0900",
+    "total": 5021,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "<b>부동산</b>앱을 통한 <b>부동산</b>가격 공부",
+            "link": "https://blog.naver.com/mine329/223069563157",
+            "description": "*기타 리치고, <b>아파트 랭크</b> -입지, 기격 요소를 계량화하여 자체 로직으로 시장을 분석하는 앱. 손품 왕 -가격이 비싼 단점이 있지만 데이터 분석이 잘돼있는 편. 이상은 제가 개인적으로 <b>부동산</b> 가격에 대해... ",
+            "bloggername": "*복덩이 리치언니 공부방*",
+            "bloggerlink": "blog.naver.com/mine329",
+            "postdate": "20230409"
+        },
         {
             "title": "&quot;계약 결혼 아니였어?&quot;...장동건♥고소영, 결혼 13년차 근황에... ",
             "link": "https://blog.naver.com/abnormaller1/223069489050",
@@ -234,14 +242,6 @@
             "description": "37%로 조사되었습니다. 강서구 -0.59%, 강남구 및 관악구 -0.54%, 영등포구 -0.42%로 상위에 <b>랭크</b>되었습니다. 인포그래픽 첨부파일 !230330(보도자료)_주간<b>아파트</b>가격동향 (20230327기준).pdf 굿모닝<b>부동산</b>입니다",
             "bloggername": "굿모닝부동산",
             "bloggerlink": "blog.naver.com/gm4446200",
-            "postdate": "20230331"
-        },
-        {
-            "title": "3월 31일자 요약",
-            "link": "https://blog.naver.com/bin990112/223060764084",
-            "description": "한국은 세계은행 조사(190개국 대상)에서도 ‘여성 임금’ 항목에서 25점을 받아 최하 수준에 <b>랭크</b>됐다. 전문가들은 여성 임금을 고용률과 함께 살펴야 한다고 설명한다. OECD가 발표한 ‘여성 연령별 고용률’... ",
-            "bloggername": "bin990112님의블로그",
-            "bloggerlink": "blog.naver.com/bin990112",
             "postdate": "20230331"
         }
     ]
