@@ -1,9 +1,16 @@
 {
-    "lastBuildDate": "Tue, 11 Apr 2023 00:18:56 +0900",
-    "total": 713588,
+    "lastBuildDate": "Tue, 11 Apr 2023 01:24:12 +0900",
+    "total": 713589,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "&quot;글로벌 긴축 막바지, Fed 인상 1번 남았나...주요 신호될 듯&quot;(종합)",
+            "originallink": "https://view.asiae.co.kr/article/2023041100171123665",
+            "link": "https://n.news.naver.com/mnews/article/277/0005243472?sid=101",
+            "description": "한국 내 인플레이션이 안정 조짐을 보이는 데다 <b>부동산 시장</b> 침체, 가계부채 등으로 인해 추가 인상이 어려운만큼 관망세를 당분간 유지할 것으로 예상됐다. 2명의 신임 금융통화위원회 위원은 5월 회의부터... ",
+            "pubDate": "Tue, 11 Apr 2023 01:03:00 +0900"
+        },
         {
             "title": "거래 좀 풀리나 싶더니...주담대 한 달 만에 다시 증가",
             "originallink": "https://www.ytn.co.kr/_ln/0102_202304102323077028",
@@ -19,17 +26,17 @@
             "pubDate": "Mon, 10 Apr 2023 23:12:00 +0900"
         },
         {
-            "title": "광주시, 내년 국비 확보 ‘첫 재정전략회의’ 개최",
-            "originallink": "http://www.breaknews.com/958638",
-            "link": "http://www.breaknews.com/958638",
-            "description": "특히 전 세계 경제위기 확산, <b>부동산시장</b> 영향에 따른 세수 감소가 현실화 됨에 따라 위기대응을 위한 꼼꼼한 재정전략을 마련키로 했다. 재정전략회의는... ",
-            "pubDate": "Mon, 10 Apr 2023 22:24:00 +0900"
-        },
-        {
             "title": "골드만삭스, <b>부동산</b>업체 쿠시먼&amp;웨이크필드 &apos;중립&apos; 강등",
             "originallink": "https://www.hankyung.com/economy/article/202304108205i",
             "link": "https://n.news.naver.com/mnews/article/015/0004830929?sid=101",
             "description": "10일(현지시간) CNBC에 따르면, 골드만 삭스는 현재 미국의 상업용 <b>부동산 시장</b>의 침체로 레버리지가 높은 쿠시먼 앤드 웨이크필드의 주식 전망에 대한 우려가 높다고 밝혔다. 골드만 삭스의 분석가 찬드니 루스라는 현재... ",
+            "pubDate": "Mon, 10 Apr 2023 22:24:00 +0900"
+        },
+        {
+            "title": "광주시, 내년 국비 확보 ‘첫 재정전략회의’ 개최",
+            "originallink": "http://www.breaknews.com/958638",
+            "link": "http://www.breaknews.com/958638",
+            "description": "특히 전 세계 경제위기 확산, <b>부동산시장</b> 영향에 따른 세수 감소가 현실화 됨에 따라 위기대응을 위한 꼼꼼한 재정전략을 마련키로 했다. 재정전략회의는... ",
             "pubDate": "Mon, 10 Apr 2023 22:24:00 +0900"
         },
         {
@@ -206,13 +213,6 @@
             "link": "https://www.etoday.co.kr/news/view/2239169",
             "description": "세계 경제가 고물가 등 복합 위기의 충격을 딛고 소생의 기미를 보이지만 한국은 반도체 경기 둔화와 내수 불황, <b>부동산 시장</b> 침체의 영향으로 경기가 계속 하강하고 있다는 점이 근거다. 한국이 세계 경제 회복세에... ",
             "pubDate": "Mon, 10 Apr 2023 18:16:00 +0900"
-        },
-        {
-            "title": "삼성 &apos;이름&apos;도 안 통했네…리츠 찬바람",
-            "originallink": "https://www.hankyung.com/finance/article/2023041078811",
-            "link": "https://n.news.naver.com/mnews/article/015/0004830823?sid=101",
-            "description": "상업용 <b>부동산 시장</b>에 대한 투자심리가 얼어붙은 게 영향을 미쳤다. 상장 리츠 23개 가운데 22개가 공모가를 밑돌았다. 삼성FN리츠는 이날 4790원에 시초가를 형성한 뒤 1.36% 오른 4855원에 거래를 마쳤다. 삼성... ",
-            "pubDate": "Mon, 10 Apr 2023 18:13:00 +0900"
         }
     ]
 }
