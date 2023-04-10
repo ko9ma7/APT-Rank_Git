@@ -1216,14 +1216,14 @@ function updateTable(region){
         d_prev_count = Number(daily_info[daily_info.length-2][1])
       }      
 
-      if(daily_info.length == 1){
+      if(sido_count['count_' + sido_name] == undefined){
         sido_count['count_' + sido_name] = d_count
       }
       else{
         sido_count['count_' + sido_name] += d_count
       }
       
-      if(daily_info.length == 1){
+      if(sido_prev_count['count_' + sido_name] == undefined){
         sido_prev_count['count_' + sido_name] = d_prev_count
       }
       else{
