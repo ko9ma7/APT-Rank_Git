@@ -1374,7 +1374,7 @@ function updateTable(region){
                 addon_html += "<div class='volume_content'>"
                   addon_html += "<div class='price_table'>"
                     if(count_vol_gap == 0){
-                      if(Number(selectedMonth) < this_month){
+                      if(Number(selectedMonth) == Number(this_month)){
                         addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건</div>"                        
                       }
                       else{
@@ -1393,7 +1393,7 @@ function updateTable(region){
                     addon_html += "<div class='vol_mon'>당월 거래량 <br>" + Number(Number(reg_vol_this_month).toFixed(0)).toLocaleString() + "건</div>"
 
                       addon_html += "<div class='compare_volume_sub'>"
-                        if(selectedMonth == this_month){
+                        if(Number(selectedMonth) == Number(this_month)){
                           addon_html += "<div>월말거래량 예측 </div>" + "<div></div>" + "<div>" + Number(Number(reg_vol_month_end_predition).toFixed(0)).toLocaleString() + "건</div>"
                         }
 
@@ -1412,18 +1412,18 @@ function updateTable(region){
                 addon_html += "</div>"
               
               shareText += "『" + regName + "』\n"              
-              if(this_month < Number(selectedMonth)){
+              if(this_month == Number(selectedMonth)){
                 shareText += "ㆍ국토부 신규 등록 : " + t_vol.toLocaleString() + "건\n"
                 shareText += "ㆍ당월거래량 : " + Number(Number(reg_vol_this_month).toFixed(0)).toLocaleString() + "건\n"
                 shareText += "ㆍ월말거래량 예측 : " + Number(Number(reg_vol_month_end_predition).toFixed(0)).toLocaleString() + "건\n"
               }
               else{
-                if(reg_ratio_yoy > 0){ reg_ratio_yoy_share = "▲" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
-                else if(reg_ratio_yoy < 0){ reg_ratio_yoy_share = "▼" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
+                if(reg_ratio_yoy > 0){ reg_ratio_yoy_share = "△" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
+                else if(reg_ratio_yoy < 0){ reg_ratio_yoy_share = "▽" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
                 else { reg_ratio_yoy_share = "= " + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
 
-                if(reg_ratio_3y_avg > 0){ reg_ratio_3y_avg_share = "▲" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
-                else if(reg_ratio_3y_avg < 0){ reg_ratio_3y_avg_share = "▼" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
+                if(reg_ratio_3y_avg > 0){ reg_ratio_3y_avg_share = "△" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
+                else if(reg_ratio_3y_avg < 0){ reg_ratio_3y_avg_share = "▽" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
                 else { reg_ratio_3y_avg_share = "= " + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
                 
                 shareText += "ㆍ" + today_year + "년 " + (today.getMonth() + 1) + "월 거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
