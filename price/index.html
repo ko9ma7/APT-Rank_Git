@@ -1200,7 +1200,7 @@ function updateTable(region){
 
     count_Korea = 0
     count_prev_Korea = 0
-    sido_count={}
+    sido_count = {}
     sido_prev_count = {}
 
     for(var k = 0 ; k < count_data['data'].length; k++){
@@ -1210,7 +1210,7 @@ function updateTable(region){
       
       d_count = Number(daily_info[daily_info.length-1][1])      
       
-      if(daily_info.length == 1){
+      if(count_data['data'].length == 1){
         d_prev_count = Number(daily_info[daily_info.length-1][1])        
       }
       else{
@@ -1333,7 +1333,7 @@ function updateTable(region){
 
                 addon_html += "<div class='reg_name'>" + regName + "</div>";
                 for(var j = 0 ; j < count_data['data'].length; j++){
-                  if(count_data['data'].length == 1){
+                  if(count_data['data'][j].length == 1){
                     searching_prev_region = count_data['data'][j]
                   }
                   else{
@@ -1346,7 +1346,7 @@ function updateTable(region){
                     t_vol = t_vol_arr[t_vol_arr.length-1][1]
                     
                     t_prev_vol_arr = searching_prev_region['daily_count']
-                    t_prev_vol = t_prev_vol_arr[t_prev_vol_arr.length-1][1]
+                    t_prev_vol = t_prev_vol_arr[t_prev_vol_arr.length-2][1]
                   }
                 }
               
