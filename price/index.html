@@ -1199,13 +1199,23 @@ function updateTable(region){
     $('#dataList').html("");
 
     count_Korea = 0
+    count_prev_Korea = 0
     sido_count={}
+    sido_prev_count = {}
 
     for(var k = 0 ; k < count_data['data'].length; k++){
       sido_name = count_data['data'][k]['sido']
       sido_code = count_data['data'][k]['file_name']
-      daily_info = count_data['data'][k]['daily_count']      
-      d_count = Number(daily_info[daily_info.length-1][1])
+      daily_info = count_data['data'][k]['daily_count']
+      
+      d_count = Number(daily_info[daily_info.length-1][1])      
+      
+      if(daily_info.length == 1){
+        d_prev_count = Number(daily_info[daily_info.length-1][1])        
+      }
+      else{
+        d_prev_count = Number(daily_info[daily_info.length-2][1])
+      }      
 
       if(sido_count['count_' + sido_name] == undefined){
         sido_count['count_' + sido_name] = d_count
@@ -1214,7 +1224,15 @@ function updateTable(region){
         sido_count['count_' + sido_name] += d_count
       }
       
+      if(sido_prev_count['count_' + sido_name] == undefined){
+        sido_prev_count['count_' + sido_name] = d_prev_count
+      }
+      else{
+        sido_prev_count['count_' + sido_name] += d_prev_count
+      }
+      
       count_Korea += d_count      
+      count_prev_Korea += d_prev_count
     }
     
     $.getJSON(url, function(json) {        
@@ -1240,7 +1258,8 @@ function updateTable(region){
 
           var reg_vol_3y_avg = regData.data[i]["3년평균"]          
           var reg_ratio_3y_avg = regData.data[i]["3년평균대비"]
-          var today_vol = sido_count['count_' + regSido]          
+          var today_vol = sido_count['count_' + regSido]
+          var today_prev_vol = sido_prev_count['count_' + regSido]
 
           if(selectedSubRegion == "1000000000_Korea"){
             if((regCode.split("_")).length <= 2){
@@ -1252,12 +1271,22 @@ function updateTable(region){
                   addon_html += "<div class='price_table'>"
                     if(regCode == "1000000000_Korea"){
                       deal_vol = count_Korea.toLocaleString()
+                      deal_prev_vol = count_prev_Korea.toLocaleString()
                     }
                     else{
                       deal_vol = today_vol.toLocaleString()
+                      deal_prev_vol = today_prev_vol.toLocaleString()
                     }
-
-                    addon_html += "<div class='vol_num'>" + deal_vol + "건</div>"
+              
+                    count_gap = deal_vol - deal_prev_vol
+              
+                    if(count_gap == 0){
+                       addon_html += "<div class='vol_num'>" + deal_vol + "건 (--)</div>"
+                    }
+                    else{
+                      addon_html += "<div class='vol_num'>" + deal_vol + "건 (+" + count_gap + ")</div>"
+                    }
+                    
                     addon_html += "<div class='complex_table'>"
                       addon_html += "<div class='apt_address'><span stylr='color: #e31939'>국토부 등록 건수</div>"    
                     addon_html += "</div>"
@@ -1304,16 +1333,33 @@ function updateTable(region){
 
                 addon_html += "<div class='reg_name'>" + regName + "</div>";
                 for(var j = 0 ; j < count_data['data'].length; j++){
+                  if(count_data['data'].length == 1){
+                    searching_prev_region = count_data['data'][j]
+                  }
+                  else{
+                    searching_prev_region = count_data['data'][j-1]
+                  }
                   searching_region = count_data['data'][j]
+                  
                   if(searching_region['file_name'] == regCode){
                     t_vol_arr = searching_region['daily_count']
                     t_vol = t_vol_arr[t_vol_arr.length-1][1]
+                    
+                    t_prev_vol_arr = searching_prev_region['daily_count']
+                    t_prev_vol = t_prev_vol_arr[t_prev_vol_arr.length-1][1]
                   }
                 }
+              
+                count_vol_gap = t_vol - t_prev_vol
 
                 addon_html += "<div class='volume_content'>"
-                  addon_html += "<div class='price_table'>"                                       
-                    addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건</div>"
+                  addon_html += "<div class='price_table'>"
+                    if(count_vol_gap == 0){
+                      addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건 (--)</div>"
+                    }
+                    else{
+                      addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건 (+" + count_vol_gap + ")</div>"
+                    }
                     addon_html += "<div class='complex_table'>"
                       addon_html += "<div class='apt_address'><span stylr='color: #e31939'>국토부 등록 건수</div>"    
                     addon_html += "</div>" 
