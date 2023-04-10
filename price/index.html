@@ -697,7 +697,7 @@ function updateTable(region){
 
     regionName = $("#sido option:selected").text() + " " + $("#gungu option:selected").text()
     shareTitle = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 실거래]"
-    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val()
+    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
 
     shareText = "[" + regionName + ", " + start_date_str + "~" + end_date_str + " 실거래]\n\n"
 
@@ -1101,7 +1101,7 @@ function updateTable(region){
 
     shareTitle_detail = "『" + aptName + "』 " + (today.getMonth() + 1) +"월 실거래\n"
     shareText_detail = "『" + aptName + "』 " + (today.getMonth() + 1) +"월 실거래\n"
-    shareURL_detail = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val()
+    shareURL_detail = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
 
     shareText_detail += "ㆍ주소 : " + lawed_address + "\n"
     shareText_detail += "ㆍ실거래가 : " + Korean_price(deal_price_num) + "\n"
@@ -1190,7 +1190,7 @@ function updateTable(region){
 
     regionName = $("#gungu option:selected").text()
     shareTitle = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 거래량]"
-    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val()
+    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
 
     shareText = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 거래량]\n\n"
 
@@ -1248,7 +1248,7 @@ function updateTable(region){
           var reg_vol_2month_ago = regData.data[i]["2개월전"]
           var reg_vol_3month_ago = regData.data[i]["3개월전"]
 
-          if(selectedMonth == this_month){
+          if(Number(selectedMonth) == this_month){
             var reg_vol_month_end_predition = regData.data[i]["월말예측"]
           }
 
@@ -1277,10 +1277,16 @@ function updateTable(region){
                       deal_vol = today_vol.toLocaleString()
                       deal_prev_vol = today_prev_vol.toLocaleString()
                       count_gap = (today_vol - today_prev_vol).toLocaleString()
-                    }                    
+                    }
               
                     if(count_gap == 0){
-                       addon_html += "<div class='vol_num'>" + deal_vol + "건 <span style='font-size: 0.7em'> (변동없음) </span></div>"
+                      if(Number(selectedMonth) < this_month){
+                        addon_html += "<div class='vol_num'>" + deal_vol + "건</div>"                        
+                      }
+                      else{
+                        addon_html += "<div class='vol_num'>" + deal_vol + "건 <span style='font-size: 0.7em'> (변동없음) </span></div>"
+                      }
+                       
                     }
                     else{
                       addon_html += "<div class='vol_num'>" + deal_vol + "건 <span style='font-size: 0.7em'>(+" + count_gap + ")</span></div>"
@@ -1316,10 +1322,10 @@ function updateTable(region){
               
               shareText += "『" + regName + "』\n"
               
-              if(this_month > Number(selectedMonth)){              
+              if(this_month > Number(selectedMonth)){
                 shareText += "ㆍ국토부 신규 등록 : " + deal_vol + "건\n"
-                shareText += "ㆍ당월거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
-                shareText += "ㆍ월말거래량 예측 : " + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ당월거래량 : " + Number(Number(reg_vol_this_month).toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ월말거래량 예측 : " + Number(Number(reg_vol_month_end_predition).toFixed(0)).toLocaleString() + "건\n"
               }
               else{
                 if(reg_ratio_yoy > 0){ reg_ratio_yoy_share = "▲" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
@@ -1330,11 +1336,11 @@ function updateTable(region){
                 else if(reg_ratio_3y_avg < 0){ reg_ratio_3y_avg_share = "▼" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
                 else { reg_ratio_3y_avg_share = "= " + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
                 
-                shareText += "ㆍ" + today_year + "년 " + (today.getMonth() + 1) + "월 거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ" + today_year + "년 " + (today.getMonth() + 1) + "월 거래량 : " + Number(Number(reg_vol_this_month).toFixed(0)).toLocaleString() + "건\n"
                 shareText += "ㆍ전년동월 대비 : " + reg_ratio_yoy_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"
                 shareText += "ㆍ3년평균 대비 : " + reg_ratio_3y_avg_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"                 
               }
-              shareText += "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + regCode + "\n\n"
+              shareText += "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + regCode + "&pmon=" + selectedMonth + "\n\n"
 
               popMsg = "'" + "전체시도" + "'" + " 거래량 정보가 복사되었습니다."
 
@@ -1368,7 +1374,12 @@ function updateTable(region){
                 addon_html += "<div class='volume_content'>"
                   addon_html += "<div class='price_table'>"
                     if(count_vol_gap == 0){
-                      addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건 <span style='font-size: 0.7em'>(변동없음)</span></div>"
+                      if(Number(selectedMonth) < this_month){
+                        addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건</div>"                        
+                      }
+                      else{
+                        addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건 <span style='font-size: 0.7em'>(변동없음)</span></div>"
+                      }
                     }
                     else{
                       addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건 <span style='font-size: 0.7em'>(+" + count_vol_gap + ")</span></div>"
@@ -1379,11 +1390,11 @@ function updateTable(region){
                   addon_html += "</div>"
 
                   addon_html += "<div class='compare_volume'>"
-                    addon_html += "<div class='vol_mon'>당월 거래량 <br>" + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건</div>"
+                    addon_html += "<div class='vol_mon'>당월 거래량 <br>" + Number(Number(reg_vol_this_month).toFixed(0)).toLocaleString() + "건</div>"
 
                       addon_html += "<div class='compare_volume_sub'>"
                         if(selectedMonth == this_month){
-                          addon_html += "<div>월말거래량 예측 </div>" + "<div></div>" + "<div>" + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건</div>"
+                          addon_html += "<div>월말거래량 예측 </div>" + "<div></div>" + "<div>" + Number(Number(reg_vol_month_end_predition).toFixed(0)).toLocaleString() + "건</div>"
                         }
 
                         if(reg_ratio_yoy > 0){ reg_ratio_yoy_tag = "<span style='color:#eb5050'>▲" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%</span>" }
@@ -1403,8 +1414,8 @@ function updateTable(region){
               shareText += "『" + regName + "』\n"              
               if(this_month > Number(selectedMonth)){
                 shareText += "ㆍ국토부 신규 등록 : " + t_vol.toLocaleString() + "건\n"
-                shareText += "ㆍ당월거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
-                shareText += "ㆍ월말거래량 예측 : " + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ당월거래량 : " + Number(Number(reg_vol_this_month).toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ월말거래량 예측 : " + Number(Number(reg_vol_month_end_predition).toFixed(0)).toLocaleString() + "건\n"
               }
               else{
                 if(reg_ratio_yoy > 0){ reg_ratio_yoy_share = "▲" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
@@ -1420,7 +1431,7 @@ function updateTable(region){
                 shareText += "ㆍ3년평균 대비 : " + reg_ratio_3y_avg_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"                
               }
               
-              shareText += "https://www.aptrank.kr/price" + "?preg=" + regSido + "&psub=" + regCode + "\n\n"
+              shareText += "https://www.aptrank.kr/price" + "?preg=" + regSido + "&psub=" + regCode + "&pmon=" + selectedMonth + "\n\n"
 
               popMsg = "'" + regionName + "'" + " 거래량 정보가 복사되었습니다."
 
@@ -1562,7 +1573,7 @@ function updateTable(region){
     go_region = (code.split('_'))[1]
 
     if(selectedSubRegion == "1000000000_Korea"){
-      aURL = "https://www.aptrank.kr/price" + "?preg=Korea&psub=" + code
+      aURL = "https://www.aptrank.kr/price" + "?preg=Korea&psub=" + code + "&pmon=" + selectedMonth
       
       //selectedSubRegion = code      
       //$("#sido").val("Korea").prop("selected", true);
@@ -1570,7 +1581,7 @@ function updateTable(region){
       //updateRegion()
     }
     else{
-      aURL = "https://www.aptrank.kr/price" + "?preg=" + go_region + "&psub=" + code
+      aURL = "https://www.aptrank.kr/price" + "?preg=" + go_region + "&psub=" + code + "&pmon=" + selectedMonth
       
       //console.log(code)
       //console.log(selectedSubRegion)
