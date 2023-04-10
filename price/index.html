@@ -1313,11 +1313,27 @@ function updateTable(region){
                       addon_html += "</div>"                    
                   addon_html += "</div>"
                 addon_html += "</div>"
-
+              
               shareText += "『" + regName + "』\n"
-              shareText += "ㆍ국토부 신규 등록 : " + deal_vol + "건\n"
-              shareText += "ㆍ당월거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
-              shareText += "ㆍ월말거래량 예측 : " + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건\n"
+              
+              if(this_month > Number(selectedMonth)){              
+                shareText += "ㆍ국토부 신규 등록 : " + deal_vol + "건\n"
+                shareText += "ㆍ당월거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ월말거래량 예측 : " + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건\n"
+              }
+              else{
+                if(reg_ratio_yoy > 0){ reg_ratio_yoy_share = "▲" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
+                else if(reg_ratio_yoy < 0){ reg_ratio_yoy_share = "▼" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
+                else { reg_ratio_yoy_share = "= " + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
+
+                if(reg_ratio_3y_avg > 0){ reg_ratio_3y_avg_share = "▲" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
+                else if(reg_ratio_3y_avg < 0){ reg_ratio_3y_avg_share = "▼" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
+                else { reg_ratio_3y_avg_share = "= " + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
+                
+                shareText += "ㆍ" + today_year + "년 " + (today.getMonth() + 1) + "월 거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ전년동월 대비 : " + reg_ratio_yoy_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"
+                shareText += "ㆍ3년평균 대비 : " + reg_ratio_3y_avg_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"                 
+              }
               shareText += "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + regCode + "\n\n"
 
               popMsg = "'" + "전체시도" + "'" + " 거래량 정보가 복사되었습니다."
@@ -1383,11 +1399,27 @@ function updateTable(region){
                       addon_html += "</div>"                    
                   addon_html += "</div>"
                 addon_html += "</div>"
+              
+              shareText += "『" + regName + "』\n"              
+              if(this_month > Number(selectedMonth)){
+                shareText += "ㆍ국토부 신규 등록 : " + t_vol.toLocaleString() + "건\n"
+                shareText += "ㆍ당월거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ월말거래량 예측 : " + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건\n"
+              }
+              else{
+                if(reg_ratio_yoy > 0){ reg_ratio_yoy_share = "▲" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
+                else if(reg_ratio_yoy < 0){ reg_ratio_yoy_share = "▼" + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
+                else { reg_ratio_yoy_share = "= " + (Math.abs(reg_ratio_yoy)).toFixed(2) + "%" }
 
-              shareText += "『" + regName + "』\n"
-              shareText += "ㆍ국토부 신규 등록 : " + t_vol.toLocaleString() + "건\n"
-              shareText += "ㆍ당월거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
-              shareText += "ㆍ월말거래량 예측 : " + Number(reg_vol_month_end_predition.toFixed(0)).toLocaleString() + "건\n"
+                if(reg_ratio_3y_avg > 0){ reg_ratio_3y_avg_share = "▲" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
+                else if(reg_ratio_3y_avg < 0){ reg_ratio_3y_avg_share = "▼" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
+                else { reg_ratio_3y_avg_share = "= " + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
+                
+                shareText += "ㆍ" + today_year + "년 " + (today.getMonth() + 1) + "월 거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ전년동월 대비 : " + reg_ratio_yoy_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"
+                shareText += "ㆍ3년평균 대비 : " + reg_ratio_3y_avg_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"                
+              }
+              
               shareText += "https://www.aptrank.kr/price" + "?preg=" + regSido + "&psub=" + regCode + "\n\n"
 
               popMsg = "'" + regionName + "'" + " 거래량 정보가 복사되었습니다."
