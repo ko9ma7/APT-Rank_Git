@@ -1272,13 +1272,13 @@ function updateTable(region){
                     if(regCode == "1000000000_Korea"){
                       deal_vol = count_Korea.toLocaleString()
                       deal_prev_vol = count_prev_Korea.toLocaleString()
+                      count_gap = (count_Korea - count_prev_Korea).toLocaleString()
                     }
                     else{
                       deal_vol = today_vol.toLocaleString()
                       deal_prev_vol = today_prev_vol.toLocaleString()
-                    }
-              
-                    count_gap = (count_Korea - count_prev_Korea).toLocaleString()
+                      count_gap = (today_vol - today_prev_vol).toLocaleString()
+                    }                    
               
                     if(count_gap == 0){
                        addon_html += "<div class='vol_num'>" + deal_vol + "건 <span style='font-size: 0.85em'> (변동없음) </span></div>"
