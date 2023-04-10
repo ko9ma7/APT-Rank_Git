@@ -417,11 +417,10 @@
     }
     $('#sido').html(option)
 
-    var lastRegion = localStorage.getItem('lastRegion')
-    var lastSubRegion = localStorage.getItem('lastSubRegion')
-    var lastMonth = localStorage.getItem('lastMonth')
-    var lastNoticed = localStorage.getItem('lastNoticed')
-    alwaysSortingPop = localStorage.getItem('lastSortingPop')
+    var lastRegion = localStorage.getItem('lastRegion_price')
+    var lastSubRegion = localStorage.getItem('lastSubRegion_price')
+    var lastMonth = localStorage.getItem('lastMonth_price')
+    //var lastNoticed = localStorage.getItem('lastNoticed_price')
 
     //var lastRegion = sessionStorage.getItem('lastRegion')
     //var lastSubRegion = sessionStorage.getItem('lastSubRegion')
@@ -521,8 +520,8 @@
   }
 
   function saveLocalStorage(){
-    localStorage.setItem('lastRegion', selectedRegion)
-    localStorage.setItem('lastSubRegion', selectedSubRegion)
+    localStorage.setItem('lastRegion_price', selectedRegion)
+    localStorage.setItem('lastSubRegion_price', selectedSubRegion)
     //localStorage.setItem('lastMonth', selectedMonth)
 
     //sessionStorage.setItem('lastRegion', selectedRegion)
@@ -1217,14 +1216,14 @@ function updateTable(region){
         d_prev_count = Number(daily_info[daily_info.length-2][1])
       }      
 
-      if(sido_count['count_' + sido_name] == undefined){
+      if(daily_info.length == 1){
         sido_count['count_' + sido_name] = d_count
       }
       else{
         sido_count['count_' + sido_name] += d_count
       }
       
-      if(sido_prev_count['count_' + sido_name] == undefined){
+      if(daily_info.length == 1){
         sido_prev_count['count_' + sido_name] = d_prev_count
       }
       else{
