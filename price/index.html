@@ -858,7 +858,7 @@ function updateTable(region){
 
             addon_html += "<div class='compare_price'>"
               if(last_dealed_date == undefined){
-                addon_html += "<div>직전거래 대비</div>" + "<div>" + compare_last_tag + "</div>" + "<div>" + Korean_price(last_dealed_price) + " (---)</div>"
+                addon_html += "<div>직전거래 대비</div>" + "<div>" + compare_last_tag + "</div>" + "<div>" + Korean_price(last_dealed_price) + " (정보없음)</div>"
               }
               else{
                 addon_html += "<div>직전거래 대비</div>" + "<div>" + compare_last_tag + "</div>" + "<div>" + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")</div>"
@@ -932,12 +932,12 @@ function updateTable(region){
   }
 
   function compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price){
-    last_dealed_date = dealed_history_date[dealed_history_date.length - 2]
-    last_dealed_price = dealed_history_price[dealed_history_price.length - 2]
+    last_dealed_date = dealed_history_date[dealed_history_date.length]
+    last_dealed_price = dealed_history_price[dealed_history_price.length]
 
-    if(last_dealed_date == dealed_history_date[dealed_history_date.length - 2]){
-      last_dealed_date = dealed_history_date[dealed_history_date.length - 3]
-      last_dealed_price = dealed_history_price[dealed_history_price.length - 3]
+    if(last_dealed_date == dealed_history_date[dealed_history_date.length]){
+      last_dealed_date = dealed_history_date[dealed_history_date.length - 1]
+      last_dealed_price = dealed_history_price[dealed_history_price.length - 1]
     }          
 
     compare_last = ((deal_price_num/last_dealed_price) - 1) * 100
@@ -946,17 +946,17 @@ function updateTable(region){
 
     if(compare_last > 0){ compare_last_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
     else if(compare_last < 0){ compare_last_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
-    else if( isNaN(compare_last)){ compare_last_tag = "<span style='color:black'>거래 정보 없음</span>" }
+    else if( isNaN(compare_last)){ compare_last_tag = "<span style='color:black'>정보없음</span>" }
     else { compare_last_tag = "<span style='color:black'>= " + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
 
     if(compare_max > 0){ compare_max_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
     else if(compare_max < 0){ compare_max_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
-    else if( isNaN(compare_max)){ compare_max_tag = "<span style='color:black'>거래 정보 없음</span>" }
+    else if( isNaN(compare_max)){ compare_max_tag = "<span style='color:black'>정보없음</span>" }
     else { compare_max_tag = "<span style='color:black'>= " + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
     
     if(compare_min > 0){ compare_min_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
     else if(compare_min < 0){ compare_min_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
-    else if( isNaN(compare_min)){ compare_min_tag = "<span style='color:black'>거래 정보 없음</span>" }
+    else if( isNaN(compare_min)){ compare_min_tag = "<span style='color:black'>정보없음</span>" }
     else { compare_min_tag = "<span style='color:black'>= " + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
     
     return {'last_dealed_date' : last_dealed_date, 'last_dealed_price' : last_dealed_price, 'compare_last_tag' : compare_last_tag, 'compare_max_tag' : compare_max_tag, 'compare_min_tag' : compare_min_tag}
@@ -1045,7 +1045,7 @@ function updateTable(region){
     compare_list = compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price)    
 
     if(last_dealed_date == undefined){
-      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "직전거래 대비" + "</div>" + "<div class='popResult'>" + compare_last_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(last_dealed_price) + " (---)</span></div></div>";
+      detailHtml += "<div class='popSubTable'><div class='popContent'>" + "직전거래 대비" + "</div>" + "<div class='popResult'>" + compare_last_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(last_dealed_price) + " (정보없음)</span></div></div>";
     }
     else{
       detailHtml += "<div class='popSubTable'><div class='popContent'>" + "직전거래 대비" + "</div>" + "<div class='popResult'>" + compare_last_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")</span></div></div>";
@@ -1099,8 +1099,8 @@ function updateTable(region){
     footerHtml += "<div class='modal-footer'>"
     //footerHtml += "<div></div>"
 
-    shareTitle_detail = "『" + aptName + "』 " + (today.getMonth() + 1) +"월 실거래\n"
-    shareText_detail = "『" + aptName + "』 " + (today.getMonth() + 1) +"월 실거래\n"
+    shareTitle_detail = "『" + aptName + "』 " + Number(selectedMonth.substr(4, 2)) +"월 실거래\n"
+    shareText_detail = "『" + aptName + "』 " + Number(selectedMonth.substr(4, 2)) +"월 실거래\n"
     shareURL_detail = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
 
     shareText_detail += "ㆍ주소 : " + lawed_address + "\n"
@@ -1189,10 +1189,15 @@ function updateTable(region){
     //$('#rearrange').css("visibility", "visible")
 
     regionName = $("#gungu option:selected").text()
-    shareTitle = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 거래량]"
-    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
-
-    shareText = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 거래량]\n\n"
+    if(Number(selectedMonth) == this_month){
+      shareTitle = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 거래량]"
+      shareText = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 거래량]\n\n"
+    }
+    else{
+      shareTitle = "[" + regionName + " " + selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)) + "월 거래량]"
+      shareText = "[" + regionName + " " + selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)) + "월 거래량]\n\n"
+    }
+    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth    
 
     url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/sales_volume.json?v=" + Math.random()
     $('#dataList').html("");
@@ -1336,9 +1341,9 @@ function updateTable(region){
                 else if(reg_ratio_3y_avg < 0){ reg_ratio_3y_avg_share = "▼" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
                 else { reg_ratio_3y_avg_share = "= " + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
                 
-                shareText += "ㆍ" + today_year + "년 " + (today.getMonth() + 1) + "월 거래량 : " + Number(Number(reg_vol_this_month).toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ" + today_year + "년 " + Number(selectedMonth.substr(4, 2)) + "월 거래량 : " + Number(Number(reg_vol_this_month).toFixed(0)).toLocaleString() + "건\n"
                 shareText += "ㆍ전년동월 대비 : " + reg_ratio_yoy_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"
-                shareText += "ㆍ3년평균 대비 : " + reg_ratio_3y_avg_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"                 
+                shareText += "ㆍ3년평균 대비 : " + reg_ratio_3y_avg_share + " (" + Number(reg_vol_3y_avg.toFixed(0)).toLocaleString() +"건)\n"                 
               }
               shareText += "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + regCode + "&pmon=" + selectedMonth + "\n\n"
 
@@ -1426,7 +1431,7 @@ function updateTable(region){
                 else if(reg_ratio_3y_avg < 0){ reg_ratio_3y_avg_share = "▽" + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
                 else { reg_ratio_3y_avg_share = "= " + (Math.abs(reg_ratio_3y_avg)).toFixed(2) + "%" }
                 
-                shareText += "ㆍ" + today_year + "년 " + (today.getMonth() + 1) + "월 거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
+                shareText += "ㆍ" + today_year + "년 " + Number(selectedMonth.substr(4, 2)) + "월 거래량 : " + Number(reg_vol_this_month.toFixed(0)).toLocaleString() + "건\n"
                 shareText += "ㆍ전년동월 대비 : " + reg_ratio_yoy_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"
                 shareText += "ㆍ3년평균 대비 : " + reg_ratio_3y_avg_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"                
               }
