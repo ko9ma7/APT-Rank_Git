@@ -699,7 +699,7 @@ function updateTable(region){
     shareTitle = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 실거래]"
     shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
 
-    shareText = "[" + regionName + ", " + start_date_str + "~" + end_date_str + " 실거래]\n\n"
+    shareText = "[" + regionName + ", " + start_date_str + "~" + end_date_str + " 실거래]\n"    
 
     url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/" + region + ".json?v=" + Math.random()
     $.getJSON(url, function(json) {
@@ -773,7 +773,11 @@ function updateTable(region){
           exp_date = reverse_count_info[0][0].substr(0, 4) + "-" + reverse_count_info[0][0].substr(4, 2) + "-" + reverse_count_info[0][0].substr(6, 2)
           addon_html = "<div class='data_empty'>" + "등록된 실거래 정보가 없네요.<br>(" + exp_start_date + " ~ " + exp_date + ")" + "</div>"
           $('#dataList').append(addon_html);
-        }        
+        }
+
+        share_count = 0
+
+        shareText += "(전체 " + itemNum + "건)\n\n"
 
         for(var i = 0 ; i < itemNum ; i++){
           addon_html = ""
@@ -867,10 +871,19 @@ function updateTable(region){
               addon_html += "<div>최저가 대비</div>" + "<div>" + compare_min_tag + "</div>"  + "<div>" + Korean_price(min_price_deal[1]) + " (" + min_price_deal[0] + ")</div>"
             addon_html += "</div>"
           addon_html += "</div>"
+
+          if(itemNum < 5){
+            share_count = reverse_count_info.length
+          }
+          else{
+            share_count = 5
+          }
           
-          shareText += "『" + aptName + "』\n"
-          shareText += "ㆍ" + Korean_price(deal_price_num) + " (" + dealed_date + ")\n"
-          shareText += "ㆍ" + deal_floor + "층, 약 " + apt_p.toFixed(0) + "평 (" + apt_m + ")\n\n"          
+          if(i < share_count){
+            shareText += "『" + aptName + "』\n"
+            shareText += "ㆍ" + Korean_price(deal_price_num) + " (" + dealed_date + ")\n"
+            shareText += "ㆍ" + deal_floor + "층, 약 " + apt_p.toFixed(0) + "평 (" + apt_m + ")\n\n"
+          }
 
           $('#dataList').append(addon_html);
         }

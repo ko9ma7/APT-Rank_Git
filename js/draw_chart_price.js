@@ -59,7 +59,8 @@ function drawPriceChart(duration, prices, maxVal){
           padding: 3,
           textAlign: 'center',
           font: {
-            size: 10
+            size: 12,
+            weight: 600
           }
         }
       }
