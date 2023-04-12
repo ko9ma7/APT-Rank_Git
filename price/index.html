@@ -843,7 +843,7 @@ function updateTable(region){
           addon_html += "<div class='content'>";
           addon_html += "<div class='apt_name'>" + aptName + "<span style='color: gray; font-size: 0.75em'> / " + lawed_address +"</span></div>";
 
-          compare_list = compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price)           
+          compare_list = compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price, dealed_date)           
 
           addon_html += "<div class='price_content'>"
 
@@ -944,11 +944,11 @@ function updateTable(region){
     }
   }
 
-  function compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price){
+  function compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price, dealed_date){
     last_dealed_date = dealed_history_date[dealed_history_date.length]
     last_dealed_price = dealed_history_price[dealed_history_price.length]
 
-    if(last_dealed_date == dealed_history_date[dealed_history_date.length]){
+    if(last_dealed_date == dealed_date){
       last_dealed_date = dealed_history_date[dealed_history_date.length - 1]
       last_dealed_price = dealed_history_price[dealed_history_price.length - 1]
     }          
