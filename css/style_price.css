@@ -42,6 +42,11 @@
     font-weight: 600;
     color: #cc233f
   }
+  .hided_ratio{
+    font-size: 0.6em;
+    font-weight: 600;
+    
+  }
   .vol_num{
     font-size: 1.3em;    
     font-weight: 600;
@@ -52,6 +57,10 @@
     grid-template-columns: 1fr;
     margin-right: 15px;
     border-right: 1px solid #ddd;    
+  }
+  .noEffect{
+    border : none;
+    padding-bottom: 5px;
   }
   .vol_table{
     display: grid;

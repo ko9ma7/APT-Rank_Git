@@ -490,13 +490,34 @@
     }
 
     $('#share2').html(share2Html)
-    
 
     if(checkMobile() == "ios"){ blank_height = "3em" }
     else{ blank_height = "3em" }
     $("#linkToAptrank").css('height', blank_height)
     $("#linkToAptrank").css('line-height', blank_height)
   });
+
+  simple_view = 0
+  function simple_and_detail(){
+    if(isMobile){
+      if(simple_view == 0){
+        $(".compare_price").slideUp(450)
+        $(".hided_ratio").fadeIn(450)
+        $(".price_content").animate({
+          'margin-top' : '0px'
+        }, 450)        
+        simple_view = 1
+      }
+      else{
+        $(".compare_price").slideDown(450)
+        $(".hided_ratio").fadeOut(450)
+        $(".price_content").animate({
+          'margin-top' : '5px'
+        }, 450)
+        simple_view = 0
+      }    
+    }
+  }
 
   function showWeight(){
       $('#weight').show()
@@ -788,7 +809,7 @@ function updateTable(region){
               exp_date = sep_array[j][1].substr(0, 4) + "-" + sep_array[j][1].substr(4, 2) + "-" + sep_array[j][1].substr(6, 2)
               //deal_count = sep_array[j+1][0]
               deal_count = sep_array[j+1][0] - sep_array[j][0]
-              addon_html = "<div class='date_saperator'>" + exp_date + " (" + deal_count + "건 등록)" + "</div>"
+              addon_html = "<div class='date_saperator' onClick='simple_and_detail()'>" + exp_date + " (" + deal_count + "건 등록)" + "</div>"
             }
           }
 
@@ -848,7 +869,10 @@ function updateTable(region){
           addon_html += "<div class='price_content'>"
 
             addon_html += "<div class='price_table'>"
-              addon_html += "<div class='price_num'>" + Korean_price(deal_price_num) + "</div>"
+              addon_html += "<div class='price_info'>"
+                addon_html += "<div class='price_num'>" + Korean_price(deal_price_num) + "</div>"
+                addon_html += "<div class='hided_ratio'>직전대비 " + compare_last_tag + "</div>"
+              addon_html += "</div>"
               addon_html += "<div class='complex_table'>"
                 if(deal_type != "중개거래"){
                   addon_html += "<div class='apt_address'><span stylr='color: #e31939'>"  + deal_type + "</span> | " + dealed_date + "</div>"
@@ -900,17 +924,19 @@ function updateTable(region){
           $(".price_table").css('grid-template-columns', '110px 1fr')
           $(".price_table").css('border-right', '0px')
           $(".price_table").css('margin-top', '5px')
-          $(".price_table").css('margin-bottom', '5px')
+          //$(".price_table").css('margin-bottom', '5px')
           $(".price_table").css('padding-bottom', '5px')
           //$(".price_table").css('border-top', '1px solid #ddd')
-          $(".price_table").css('border-bottom', '1px solid #eee')
+          //$(".price_table").css('border-bottom', '1px solid #eee')
           $(".price_num").css('line-height', '1.2em')
           $(".price_num").css('font-size', '1em')
           $(".apt_name").css('font-size', '0.9em')
           $(".compare_price").css('font-size', '0.7em')         
           $(".compare_price").css('font-weight', '600')
+          $(".compare_price").css('padding-top', '10px')
+          $(".compare_price").css('border-top', '1px solid #eee')
         }
-      
+        $(".hided_ratio").hide()      
         $('#dataList').append("<div style='height: " + blank_height + "'></div>");
     })
     showWeight()
