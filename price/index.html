@@ -1055,7 +1055,7 @@ function updateTable(region){
     detailHtml += "<div class='popSubTable'><div class='popContent'>" + "거래 유형" + "</div>" + "<div class='popResult'>" + deal_type + "</div></div>";
     detailHtml += "<div class='popSubTable'><div class='popContent'>" + "거래 층수" + "</div>" + "<div class='popResult'>" + deal_floor + "층</div></div>";
 
-    compare_list = compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price)    
+    compare_list = compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price, dealed_date)    
 
     if(last_dealed_date == undefined){
       detailHtml += "<div class='popSubTable'><div class='popContent'>" + "직전거래 대비" + "</div>" + "<div class='popResult'>" + compare_last_tag + "<br><span style='font-size:0.8em; color:gray'>" + Korean_price(last_dealed_price) + " (정보없음)</span></div></div>";
