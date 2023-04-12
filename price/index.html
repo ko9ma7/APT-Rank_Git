@@ -945,12 +945,12 @@ function updateTable(region){
   }
 
   function compare_price(deal_price_num, max_price_deal, min_price_deal, dealed_history_date, dealed_history_price, dealed_date){
-    last_dealed_date = dealed_history_date[dealed_history_date.length]
-    last_dealed_price = dealed_history_price[dealed_history_price.length]
+    last_dealed_date = dealed_history_date[dealed_history_date.length - 1]
+    last_dealed_price = dealed_history_price[dealed_history_price.length - 1]
 
     if(last_dealed_date == dealed_date){
-      last_dealed_date = dealed_history_date[dealed_history_date.length - 1]
-      last_dealed_price = dealed_history_price[dealed_history_price.length - 1]
+      last_dealed_date = dealed_history_date[dealed_history_date.length - 2]
+      last_dealed_price = dealed_history_price[dealed_history_price.length - 2]
     }          
 
     compare_last = ((deal_price_num/last_dealed_price) - 1) * 100
