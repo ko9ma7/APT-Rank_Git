@@ -1,9 +1,17 @@
 {
-    "lastBuildDate": "Wed, 12 Apr 2023 19:19:27 +0900",
-    "total": 5015,
+    "lastBuildDate": "Wed, 12 Apr 2023 20:16:00 +0900",
+    "total": 5016,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "전국 평당가 순위로 보는 급지 나누기",
+            "link": "https://blog.naver.com/bluelion815/223072632264",
+            "description": "상위권에 <b>랭크</b>되어 있다. 앞으로 수도권 쏠림이 심해지면 상위 20위는 다 수도권이 될수도 있겠다.... (여기도 새<b>아파트</b>고, 학군도 좋은데인데...) 세번째는 <b>부동산</b>공부를 정말 제대로 안했다는 생각이... ",
+            "bloggername": "자본주의 카페 블루라이온",
+            "bloggerlink": "blog.naver.com/bluelion815",
+            "postdate": "20230412"
+        },
         {
             "title": "kb <b>부동산</b> 주간 보도자료 (23년 3월 3일)",
             "link": "https://blog.naver.com/jeondngml2/223072450312",
@@ -235,14 +243,6 @@
             "bloggername": "모래알 130만분의 1",
             "bloggerlink": "blog.naver.com/spacetion",
             "postdate": "20230404"
-        },
-        {
-            "title": "지하철 7호선 연장과 함께 보는 청라신도시 호재 및 <b>아파트</b>... ",
-            "link": "https://blog.naver.com/viewbeau0902/223063867428",
-            "description": "8억원으로 <b>랭크</b>되어 있다. 아실 2019년에 입주한 청라국제금융단지 한양수자인레이크블루는 1534세대이자 청라호수뷰를 자랑하는 청라 내 리딩 단지 중 하나이다. <b>부동산</b> 상승기때에는 교통호재와... ",
-            "bloggername": "가을이의 부동산 수첩",
-            "bloggerlink": "blog.naver.com/viewbeau0902",
-            "postdate": "20230403"
         }
     ]
 }
