@@ -69,6 +69,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href='https://cdnjs.cloudflare.com/ajax/libs/spoqa-han-sans/3.2.1/css/SpoqaHanSansNeo.min.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
@@ -506,6 +507,7 @@
         $(".price_content").animate({
           'margin-top' : '0px'
         }, 450)        
+        $(".date_saperator_icon").html("<i class='fa-solid fa-up-right-and-down-left-from-center'></i>")
         simple_view = 1
       }
       else{
@@ -513,7 +515,8 @@
         $(".hided_ratio").fadeOut(450)
         $(".price_content").animate({
           'margin-top' : '5px'
-        }, 450)
+        }, 450)        
+        $(".date_saperator_icon").html("<i class='fa-solid fa-down-left-and-up-right-to-center'></i>")        
         simple_view = 0
       }    
     }
@@ -808,8 +811,19 @@ function updateTable(region){
             if(i == sep_array[j][0]){
               exp_date = sep_array[j][1].substr(0, 4) + "-" + sep_array[j][1].substr(4, 2) + "-" + sep_array[j][1].substr(6, 2)
               //deal_count = sep_array[j+1][0]
-              deal_count = sep_array[j+1][0] - sep_array[j][0]
-              addon_html = "<div class='date_saperator' onClick='simple_and_detail()'>" + exp_date + " (" + deal_count + "건 등록)" + "</div>"
+              deal_count = sep_array[j+1][0] - sep_array[j][0]              
+                if(isMobile){
+                  addon_html = "<div class='date_saperator' onClick='simple_and_detail()'>"
+                    addon_html += "<div class = 'date_saperator_text'>" + exp_date + " (" + deal_count + "건 등록)" + "</div>"
+                    addon_html += "<div class = 'date_saperator_icon'><i class='fa-solid fa-down-left-and-up-right-to-center'></i></div>"
+                }
+                else{
+                  addon_html = "<div class='date_saperator_web'>"
+                    addon_html += "<div class = 'date_saperator_text'>" + exp_date + " (" + deal_count + "건 등록)" + "</div>"
+                    addon_html += "<div></div>"
+                }
+                
+              addon_html += "</div>"              
             }
           }
 
@@ -935,7 +949,8 @@ function updateTable(region){
           $(".compare_price").css('font-weight', '600')
           $(".compare_price").css('padding-top', '10px')
           $(".compare_price").css('border-top', '1px solid #eee')
-        }
+          //$(".date_saperator:active").css('background-color', '#e0e0e0')
+        }        
         $(".hided_ratio").hide()      
         $('#dataList').append("<div style='height: " + blank_height + "'></div>");
     })

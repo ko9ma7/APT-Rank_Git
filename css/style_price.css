@@ -20,7 +20,7 @@
     text-align: center;
     line-height: 50px;
     background-color: #e31939;
-  }
+  }  
   .price_content{
     display: grid;
     grid-template-columns: 0.7fr 1fr;
@@ -273,15 +273,37 @@
   }
   .date_saperator{
     position: sticky;
+    display:grid;
+    grid-template-columns: 1fr 50px;
     top: 115px;
     height: 2em;
     line-height: 2em;
     background-color: #f0f0f0;
-    font-size: 0.8em;
-    font-weight: 600;
     text-align: center;
     border-bottom: 1px solid #ccc;
   }
+  .date_saperator_web{
+    position: sticky;
+    top: 115px;
+    height: 2em;
+    line-height: 2em;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  .date_saperator:active{
+    background-color: #d0d0d0;
+  }
+  .date_saperator_text{
+    font-size: 0.8em;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .date_saperator_icon{    
+    font-size: 0.8em;
+    text-align: center;
+  }  
   .data_empty{
     margin-top: 2em;
     font-size: 0.85em;
