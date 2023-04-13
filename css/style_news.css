@@ -7,6 +7,9 @@
     min-height: 100vh;
     min-height: -webkit-fill-available; 
   }
+  .toast-success {
+    background-color: #801c2d;
+  }  
   #titleBar{
     position: fixed;
     display: grid;

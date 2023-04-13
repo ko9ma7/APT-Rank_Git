@@ -65,6 +65,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"  crossorigin="anonymous"></script>
   <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>  
   
   <script src="../js/menu_select_box.js" type="text/javascript"></script>
   <script src="../js/draw_chart.js" type="text/javascript"></script>
@@ -214,6 +216,8 @@
   var popupHistory = [];
   var routeArray = []
 
+  var popMsg = "클립보드에 복사되었습니다."
+
   var today = new Date()
   var today_year = today.getFullYear();
   var today_month = dateReturn( (today.getMonth() + 1))
@@ -260,13 +264,17 @@
       history.replaceState('', document.title, window.location.pathname);
     })
 
+    shareHtml = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"28px\"/></div>"
+    $('#themeShare').html(shareHtml)
+
     if(broswerInfo.indexOf("inApp")>-1){
-      shareHtml = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"28px\"/></div>"
+      shareHtml2 = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"28px\"/></div>"      
     }
     else{
-      shareHtml = "<div class='tShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"      
+      shareHtml2 = "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
     }
-    $('#themeShare').html(shareHtml)
+    $('#rearrange').html(shareHtml2)
+    
 
     if(checkMobile() == "ios"){ blank_height = "3em" }
     else{ blank_height = "3em" }

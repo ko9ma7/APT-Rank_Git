@@ -66,6 +66,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"  crossorigin="anonymous"></script>
   <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
   <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=uod39kursd"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>  
 
   <script src="../js/menu_select_box.js" type="text/javascript"></script>
   <script src="../js/draw_chart.js" type="text/javascript"></script>
@@ -323,6 +325,8 @@
   var searchState = 0;
   var popupHistory = [];
   var routeArray = []
+
+  var popMsg = "클립보드에 복사되었습니다."
 
   var today = new Date()
   var today_year = today.getFullYear();
@@ -1775,15 +1779,15 @@
 
     footerHtml += "<div class='modal-footer'>"
     if(broswerInfo.indexOf("inApp")>-1){
-      if(apt_type == "EBYG"){
-        footerHtml += "<div></div>"
+      if(apt_type == "EBYG"){        
         footerHtml += "<div><button type='button' class='goLink_HGNN' onclick='openHGNN(\"" + searchCode + "\")'>호갱노노 보기</button></div>"
         footerHtml += "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"30px\"/></div>"        
+        footerHtml += "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
       }
-      else{
-        footerHtml += "<div></div>"
+      else{        
         footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(" + searchCode + ")'>네이버 부동산 보기</button></div>"
         footerHtml += "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"30px\"/></div>"
+        footerHtml += "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"        
       }
     }
     else{
@@ -1837,12 +1841,12 @@
         map: detailMap
     });
 
-    if(broswerInfo.indexOf("inApp")>-1){
-      $('.modal-footer').css({"grid-template-columns" : "0.2fr 1fr 0.2fr", "text-align":"center", "text-align": "-webkit-center"})
-    }
-    else{
+    //if(broswerInfo.indexOf("inApp")>-1){
+    //  $('.modal-footer').css({"grid-template-columns" : "0.2fr 1fr 0.2fr", "text-align":"center", "text-align": "-webkit-center"})
+    //}
+    //else{
       $('.modal-footer').css({"grid-template-columns" : "1fr 0.15fr 0.15fr", "text-align":"center", "text-align": "-webkit-center"})
-    }
+    //}
   }
 
     /*
