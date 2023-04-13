@@ -891,6 +891,11 @@
     border-radius: 5px;
     border: None;
   }
+  .toShare{    
+    font-size: 1.25em;
+    font-weight: 600;
+    color: black
+  }   
   .tShare{
     width: 100%;    
     font-size: 1.2em;

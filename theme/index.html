@@ -1664,7 +1664,8 @@
 
       shareText += "ㆍ최고/최저층 : " + "최고 " + max_floor + "층 / 최저 " + min_floor + "층" + "\n"
       shareText += "ㆍ공시가 : " + min_land_price + "억 ~ " + max_land_price + "억" + "\n"
-      shareText += "ㆍ세대수 : " + house_num.toLocaleString() + "세대" + "\n\n"      
+      shareText += "ㆍ세대수 : " + house_num.toLocaleString() + "세대" + "\n\n" 
+      shareText += shareURL + "\n"     
     }
 
     if(selectedTheme == "over30year"){
@@ -1680,6 +1681,7 @@
       shareText += "ㆍ준공년차 : " + aptYear + "\n"
       shareText += "ㆍ세대수 : " + house_num.toLocaleString() + "세대" + "\n"
       shareText += "ㆍ공시가 : " + min_land_price + "억 ~ " + max_land_price + "억" + "\n\n"
+      shareText += shareURL + "\n"
     }
 
     if(selectedTheme == "newApt"){
@@ -1692,7 +1694,8 @@
       }
 
       shareText += "ㆍ분양예정 : " + aptData.data[index]["준공년월"].substr(0, 7) + "\n"
-      shareText += "ㆍ세대수 : " + house_num.toLocaleString() + "세대" + "\n\n"      
+      shareText += "ㆍ세대수 : " + house_num.toLocaleString() + "세대" + "\n\n" 
+      shareText += shareURL + "\n"     
     }
 
     if(selectedTheme == "rebuild"){
@@ -1710,6 +1713,7 @@
       shareText += "ㆍ건폐률 : " + cover_rate + "\n"
       shareText += "ㆍ세대수 : " + house_num.toLocaleString() + "세대" + "\n"
       shareText += "ㆍ최고층 : " + max_floor + "층" + "\n\n"
+      shareText += shareURL + "\n"
     }
 
     if(selectedTheme == "hPriceRatio"){
@@ -1738,6 +1742,7 @@
       shareText += "ㆍ변동가격 : " + hPrice + "억 (" + hPrice_date + ") → " + cPrice + "억 (" + cPrice_date +")" + "\n"      
       shareText += "ㆍ평형 : " + apt_p + "(" + apt_m + "㎡)" + "\n"
       shareText += "ㆍ세대수 : " + house_num.toLocaleString() + "세대" + "\n\n"
+      shareText += shareURL + "\n"
     }
 
     if(selectedTheme == "ratioFrom201906"){
@@ -1772,7 +1777,8 @@
       
       shareText += "ㆍ변동가격 : " + hPrice + "억 (" + hPrice_date + ") → " + cPrice + "억 (" + cPrice_date +")" + "\n"      
       shareText += "ㆍ평형 : " + apt_p + "(" + apt_m + "㎡)" + "\n"
-      shareText += "ㆍ세대수 : " + house_num.toLocaleString() + "세대" + "\n\n"      
+      shareText += "ㆍ세대수 : " + house_num.toLocaleString() + "세대" + "\n\n"
+      shareText += shareURL + "\n"
     }
     detailHtml += "</div></div>";
 
@@ -1782,12 +1788,12 @@
       if(apt_type == "EBYG"){        
         footerHtml += "<div><button type='button' class='goLink_HGNN' onclick='openHGNN(\"" + searchCode + "\")'>호갱노노 보기</button></div>"
         footerHtml += "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"30px\"/></div>"        
-        footerHtml += "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+        footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
       }
       else{        
         footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(" + searchCode + ")'>네이버 부동산 보기</button></div>"
         footerHtml += "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"30px\"/></div>"
-        footerHtml += "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"        
+        footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"        
       }
     }
     else{
