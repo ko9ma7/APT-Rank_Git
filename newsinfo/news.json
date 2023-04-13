@@ -1,9 +1,65 @@
 {
-    "lastBuildDate": "Fri, 14 Apr 2023 05:18:58 +0900",
-    "total": 714451,
+    "lastBuildDate": "Fri, 14 Apr 2023 06:16:10 +0900",
+    "total": 714459,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "[모닝와이드] 오늘의 주요뉴스",
+            "originallink": "https://news.sbs.co.kr/news/endPage.do?news_id=N1007153680&plink=ORI&cooper=NAVER",
+            "link": "https://n.news.naver.com/mnews/article/055/0001050396?sid=102",
+            "description": "경찰은 중국 국적의 부모를 입건해 조사하고 있습니다. 5. IMF &quot;한국 성장률 하향은 반도체·<b>부동산</b> 탓&quot; IMF가 한국의 경제성장률을 하향 조정한 건 세계 반도체 <b>시장</b> 악화와 <b>부동산 시장</b> 조정 탓이라고 설명했습니다.",
+            "pubDate": "Fri, 14 Apr 2023 06:09:00 +0900"
+        },
+        {
+            "title": "가격 회복 낙관은 시기상조… 하반기 전세<b>시장</b> 전망은",
+            "originallink": "http://www.segye.com/content/html/2023/04/13/20230413522227.html?OutUrl=naver",
+            "link": "https://n.news.naver.com/mnews/article/022/0003802491?sid=101",
+            "description": "하지만 여전히 <b>부동산 시장</b> 전반이 위축된 상태인 데다 입주 예정 물량도 여유가 있어서 가격 반등을 기대하기는 이르다는 관측이 나온다. 13일 서울<b>부동산</b>정보광장에 따르면, 서울 아파트 전세 거래량은 지난해 11월... ",
+            "pubDate": "Fri, 14 Apr 2023 06:02:00 +0900"
+        },
+        {
+            "title": "[불황 무풍지대, 대형·고가 아파트] 2~3년만 거래에 17억 &apos;쑥&apos; 신고가 속출…...",
+            "originallink": "https://www.ajunews.com/view/20230413145023330",
+            "link": "https://www.ajunews.com/view/20230413145023330",
+            "description": "4월 거래된 서울 대형 아파트 5건 중 4건 신고가…60% 이상 오른 곳도 아주경제=박새롬 기자 sp500@ajunews.com 최근 <b>부동산 시장</b> 침체가 이어지는 가운데 강남 등 서울 주요 지역에서는 대형 면적 아파트 위주로... ",
+            "pubDate": "Fri, 14 Apr 2023 06:02:00 +0900"
+        },
+        {
+            "title": "&quot;지라시에도 들썩&quot; 2금융권 &apos;PF 부실&apos; 공포 엄습",
+            "originallink": "http://www.newstomato.com/ReadNews.aspx?no=1184593&inflow=N",
+            "link": "http://www.newstomato.com/ReadNews.aspx?no=1184593&inflow=N",
+            "description": "<b>부동산 시장</b> 침체와 저금리 시기 PF 대출을 크게 늘린 저축은행들이 고금리 시기로 전환되며 부실 대출 위험이 커졌기 때문입니다. 윤창현 국민의힘 의원이 금융감독원으로부터 제출받은 &apos;금융권 PF대출 건전성 현황... ",
+            "pubDate": "Fri, 14 Apr 2023 06:02:00 +0900"
+        },
+        {
+            "title": "[불황 무풍지대, 대형·고가 아파트] 전문가들 &quot;그들만의 리그…보통 아파트로...",
+            "originallink": "https://www.ajunews.com/view/20230413145012328",
+            "link": "https://www.ajunews.com/view/20230413145012328",
+            "description": "아주경제=임종현 기자 nudge@ajunews.com 서울 남산에서 바라본 아파트 단지의 모습[사진=연합뉴스] 최근 서울 대형·고가 아파트 사이에 신고가가 나오고 거래량이 늘어나는 등 <b>부동산 시장</b> 불황을 역주행하는 모습을 보이고... ",
+            "pubDate": "Fri, 14 Apr 2023 06:02:00 +0900"
+        },
+        {
+            "title": "증권사, 미분양 속출 지방 &apos;브릿지론&apos; 부실 우려 대두",
+            "originallink": "http://www.newstomato.com/ReadNews.aspx?no=1184520&inflow=N",
+            "link": "http://www.newstomato.com/ReadNews.aspx?no=1184520&inflow=N",
+            "description": "14일 관련업계에 따르면 최근 미분양 공포가 <b>부동산 시장</b>을 엄습하고 있습니다. 대구와 울산 등을 포함한 광역시와 충남, 경북, 제주, 충북, 대전, 전북, 강원 등 지방 미분양 규모가 많은 가운데 경기, 부산, 인천의... ",
+            "pubDate": "Fri, 14 Apr 2023 06:02:00 +0900"
+        },
+        {
+            "title": "볼트업체 패스터널 깜짝 실적…美 제조업 실적 기대감 고조",
+            "originallink": "http://www.g-enews.com/ko-kr/news/article/news_all/202304140316559475be84d87674_1/article.html",
+            "link": "http://www.g-enews.com/ko-kr/news/article/news_all/202304140316559475be84d87674_1/article.html",
+            "description": "전분기 79개사에서 매출이 증가한 고객사가 늘었다. 다만 비거주건물 건축업체들에 대한 패스터널의 공급은 줄어 상업<b>부동산 시장</b> 위축세가 확인됐다. 하루 평균 매출이 1년전보다 2.4% 줄었다.",
+            "pubDate": "Fri, 14 Apr 2023 05:52:00 +0900"
+        },
+        {
+            "title": "서울 청약 &apos;완판 또 완판&apos;…&quot;휘경자이 떨어졌는데 다음은 어디?&quot;",
+            "originallink": "http://news.mt.co.kr/mtview.php?no=2023041315542735430",
+            "link": "https://n.news.naver.com/mnews/article/008/0004874935?sid=101",
+            "description": "다만 <b>부동산 시장</b>이 전반적으로 위축돼 일정이 당초 계획보다는 늦어지는 분위기다. 상반기 계획됐던 물량들이 대부분 하반기로 연기됐다. 13일 분양업계에 따르면 1·3 대책으로 청약 규제가 완화된 이후 서울에서... ",
+            "pubDate": "Fri, 14 Apr 2023 05:40:00 +0900"
+        },
         {
             "title": "&quot;자금지원, 급한 불 끄겠지만 미분양 털어야 연쇄 부실 해결&quot; [두더지 게임, ...",
             "originallink": "https://www.etoday.co.kr/news/view/2240251",
@@ -117,17 +173,17 @@
             "pubDate": "Thu, 13 Apr 2023 20:10:00 +0900"
         },
         {
-            "title": "&quot;아파트 팔까, 살까&quot; … 매도 - 매수자 눈치싸움 치열",
-            "originallink": "http://www.cctimes.kr/news/articleView.html?idxno=747515",
-            "link": "http://www.cctimes.kr/news/articleView.html?idxno=747515",
-            "description": "/사진=뉴시스 <b>부동산 시장</b>이 혼조세를 보이면서 아파트를 팔려는 사람과 사려는 사람간 눈치싸움이 치열해지고 있다. 최근 급매물 소진 이후 지난달 중순까지 주춤하던 아파트 거래량이 다시 늘어날 조짐을 보이고... ",
-            "pubDate": "Thu, 13 Apr 2023 19:52:00 +0900"
-        },
-        {
             "title": "둔산권역 47층 최고층 단지 노크하세요",
             "originallink": "http://www.cctimes.kr/news/articleView.html?idxno=747505",
             "link": "http://www.cctimes.kr/news/articleView.html?idxno=747505",
             "description": "대전 유성구 학하동 미분양 세대 계약이 완료되었다는 소식을 시작으로 도안 2-3지구 분양 단지도 완판소식을 전해와 일대 <b>부동산 시장</b>이 바닥을 찍고 `반등 시그널&apos; 을 보이는 게 아니냐는 시각이 나오는 것이다. 대전을... ",
+            "pubDate": "Thu, 13 Apr 2023 19:52:00 +0900"
+        },
+        {
+            "title": "&quot;아파트 팔까, 살까&quot; … 매도 - 매수자 눈치싸움 치열",
+            "originallink": "http://www.cctimes.kr/news/articleView.html?idxno=747515",
+            "link": "http://www.cctimes.kr/news/articleView.html?idxno=747515",
+            "description": "/사진=뉴시스 <b>부동산 시장</b>이 혼조세를 보이면서 아파트를 팔려는 사람과 사려는 사람간 눈치싸움이 치열해지고 있다. 최근 급매물 소진 이후 지난달 중순까지 주춤하던 아파트 거래량이 다시 늘어날 조짐을 보이고... ",
             "pubDate": "Thu, 13 Apr 2023 19:52:00 +0900"
         },
         {
@@ -157,62 +213,6 @@
             "link": "https://n.news.naver.com/mnews/article/009/0005116330?sid=101",
             "description": "금리 인상에 비용부담 크고 <b>부동산</b> 투자심리 얼어붙자 상장리츠 수익률 내리막길 “우량자산 매입 기회” 의견도 지난해부터 이어진 금융 불안에 국내 리츠(REITs·<b>부동산</b>투자회사) <b>시장</b>이 얼어붙으면서 관련 상품... ",
             "pubDate": "Thu, 13 Apr 2023 19:43:00 +0900"
-        },
-        {
-            "title": "최승재 의원 &quot;약탈적 포털 기업의 만행이 심각한 상황입니다&quot;",
-            "originallink": "http://www.rightknow.co.kr/news/articleView.html?idxno=24708",
-            "link": "http://www.rightknow.co.kr/news/articleView.html?idxno=24708",
-            "description": "최 의원은 &quot;지난 3년 동안 네이버는 공정거래위원회로부터 ▲쇼핑 분야 <b>시장</b>지배적남용행위로 260억 원 ▲<b>부동산</b> 분야 <b>시장</b>지배적남용행위 10억 원 ▲동영상부문 부당한 고객유인행위로 3억 원의 과징금을 부과받았다&quot;며... ",
-            "pubDate": "Thu, 13 Apr 2023 19:42:00 +0900"
-        },
-        {
-            "title": "대출 금리 내리랴 PF 떠안으랴…윤석열 정부서 고달픈 은행들",
-            "originallink": "https://www.bloter.net/news/articleView.html?idxno=600620",
-            "link": "https://n.news.naver.com/mnews/article/293/0000043383?sid=101",
-            "description": "레고랜드 사태로 촉발된 <b>부동산</b>PF <b>시장</b>의 부실 위험과 관련해서도 은행권이 &apos;폭탄처리반&apos;과 같은 역할을 맡게 될 수 있다는 전망이 나온다. PF는 <b>부동산</b>개발 사업의 주된 자금 조달 방식이다. 특정 프로젝트의 사업성에... ",
-            "pubDate": "Thu, 13 Apr 2023 19:36:00 +0900"
-        },
-        {
-            "title": "秋 &quot;한국 <b>부동산</b> PF <b>시장</b> 이상징후 없다&quot;",
-            "originallink": "http://www.dt.co.kr/contents.html?article_no=2023041402100658054002&ref=naver",
-            "link": "https://n.news.naver.com/mnews/article/029/0002794685?sid=101",
-            "description": "&apos;<b>부동산 시장</b> 리스크&apos;와 관련한 국제 신용평가사 피치(Fitch)의 질문에 대한 답변이다. 추 부총리는 이날 주요 20개국(G20) 재무장관회의 참석차 방문한 미국 워싱턴DC에서 제임스 맥코맥 피치 국가신용등급 글로벌 총괄을... ",
-            "pubDate": "Thu, 13 Apr 2023 19:22:00 +0900"
-        },
-        {
-            "title": "빅테크 해고 바람의 역설적 효과",
-            "originallink": "https://www.thescoop.co.kr/news/articleView.html?idxno=57433",
-            "link": "https://n.news.naver.com/mnews/article/665/0000000790?sid=105",
-            "description": "내부에선 <b>부동산 시장</b>의 침체가 계속되고 있고, 외부에선 미국과 유럽 성장 둔화가 수출 감소로 이어지고 있다. 씨티그룹은 &quot;316개 중국 기업의 2022년 실적을 분석한 결과 예상치에 도달한 경우보다 미달한 케이스가... ",
-            "pubDate": "Thu, 13 Apr 2023 19:21:00 +0900"
-        },
-        {
-            "title": "대전·세종 아파트 입주전망 지수 상승 중",
-            "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=969710",
-            "link": "http://www.ggilbo.com/news/articleView.html?idxno=969710",
-            "description": "4월 대전·세종 아파트 입주전망지수가 상승하면서 주택사업자들 사이에선 침체한 <b>부동산 시장</b> 회복에 대한 기대감이 싹트고 있다. 그러나 아직 <b>부동산 시장</b> 회복세라 단언하긴 어렵다는 지적이다. 13일... ",
-            "pubDate": "Thu, 13 Apr 2023 19:16:00 +0900"
-        },
-        {
-            "title": "<b>부동산</b> 규제 완화에 매매 증가…광주 <b>부동산 시장</b> 훈풍 부나",
-            "originallink": "http://www.kwangju.co.kr/article.php?aid=1681379738751107005",
-            "link": "http://www.kwangju.co.kr/article.php?aid=1681379738751107005",
-            "description": "이처럼 거래가 늘면서 <b>부동산시장</b>의 활성화 수준을 보여주는 <b>부동산</b> 거래회전율도 상승세를 이어갔다. 이날 법원 등기정보광장에 따르면 지난달 전체 <b>부동산</b> 거래회전율은 0.21%로 전월(0.16%)보다 0.05%포인트... ",
-            "pubDate": "Thu, 13 Apr 2023 18:58:00 +0900"
-        },
-        {
-            "title": "경제 전문가 10명 중 7명 &quot;올해 하반기도 경기 반등 어렵다&quot;",
-            "originallink": "https://www.hankyung.com/economy/article/2023041366431",
-            "link": "https://n.news.naver.com/mnews/article/015/0004832450?sid=101",
-            "description": "김상봉 한성대 경제학과 교수는 “미국의 긴축이 계속되는 상황에서 한국이 금리 인상을 멈추기 어렵다”며 “<b>부동산 시장</b>을 확실히 잡기 위해선 한은이 금리를 연 4.0%까지 올려야 한다”고 말했다. 반면 윤여삼... ",
-            "pubDate": "Thu, 13 Apr 2023 18:47:00 +0900"
-        },
-        {
-            "title": "`원길동` vs `오세이돈` 날마다 대선잠룡 경쟁",
-            "originallink": "http://www.dt.co.kr/contents.html?article_no=2023041402100363080001&ref=naver",
-            "link": "https://n.news.naver.com/mnews/article/029/0002794672?sid=101",
-            "description": "올해는 특히 <b>부동산 시장</b>의 고질적인 병폐부터 최근 큰 사회 문제로 떠오른 전세사기 등의 이슈까지 발빠르게 대응하고 있다. 실제 연초 충주의 한 임대아파트에서 부실 시공 후 &apos;그냥 사세요&apos;라는 쪽지를 붙여 논란이 된... ",
-            "pubDate": "Thu, 13 Apr 2023 18:40:00 +0900"
         }
     ]
 }
