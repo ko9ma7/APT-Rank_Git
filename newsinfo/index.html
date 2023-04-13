@@ -267,14 +267,8 @@
     shareHtml = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"28px\"/></div>"
     $('#themeShare').html(shareHtml)
 
-    if(broswerInfo.indexOf("inApp")>-1){
-      shareHtml2 = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"28px\"/></div>"      
-    }
-    else{
-      shareHtml2 = "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
-    }
-    $('#rearrange').html(shareHtml2)
-    
+    shareHtml2 = "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+    $('#rearrange').html(shareHtml2)    
 
     if(checkMobile() == "ios"){ blank_height = "3em" }
     else{ blank_height = "3em" }

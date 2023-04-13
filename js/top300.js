@@ -486,15 +486,15 @@ function showTopDetail(index){
   shareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth
 
   if(broswerInfo.indexOf("inApp")>-1){
-    if(apt_type == "분양(예정)"){
-      footerHtml += "<div></div>"
+    if(apt_type == "분양(예정)"){      
       footerHtml += "<div><button type='button' class='goLink_HGNN' onclick='openHGNN(" + searchCode + ")'>호갱노노 보기</button></div>"
       footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src = './kakao_icon.png' height='32px'></div>"
+      footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
     }
-    else{
-      footerHtml += "<div></div>"
+    else{      
       footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(" + searchCode + ")'>네이버 부동산 보기</button></div>"
       footerHtml += "<div><button type='button' class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src = './kakao_icon.png' height='32px'></button></div>"
+      footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
     }
   }
   else{
