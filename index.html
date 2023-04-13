@@ -1745,9 +1745,9 @@ function updateTable(month, region){
     footerHtml += "<div class='modal-footer'>"
     //footerHtml += "<div></div>"
     shareTitle = "[아파트랭크 "
-    shareTitle += selectedMonth.substr(2, 2) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월]\n"
+    shareTitle += selectedMonth.substr(2, 2) + "년 " + Number(selectedMonth.substr(4, 2)).toString() + "월]\n\n"
 
-    shareText = "\n『" + aptName
+    shareText = "『" + aptName
     if(Number(selectedMonth) > 202203){      
       if(apt_type == "재건축"){
         shareText += "(" + aptDuration + "년차, 재건축)』"
@@ -1802,7 +1802,7 @@ function updateTable(month, region){
     //  shareText += "\nㆍ가장 가까운 역 : " + nearestStation
     //}
     shareText += "\nㆍ5km 이내 대형병원 : " + bigHospital_5km
-    shareText += "\nㆍ중학교 보통 학력 이상 : " + mSchool_edu
+    shareText += "\nㆍ중학교 보통 학력 이상 : " + mSchool_edu    
     shareText += "\n"
     if(Number(selectedMonth) > 202211){
       shareURL = aptData.data[index]["sURL"]
@@ -1813,29 +1813,31 @@ function updateTable(month, region){
       kakaoShareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
     }
 
+    shareText += "\n" + shareURL
+
     if(broswerInfo.indexOf("inApp")>-1){
       if(apt_type == "분양(예정)"){        
         footerHtml += "<div><button type='button' class='goLink_HGNN' onclick='openHGNN(\"" + searchCode + "\")'>호갱노노 보기</button></div>"
         footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
-        footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+        footerHtml += "<div class='tShare' onClick='CopyToClipboard2(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
       }
       else{        
         footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(" + searchCode + ")'>네이버 부동산 보기</button></div>"
         footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
-        footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+        footerHtml += "<div class='tShare' onClick='CopyToClipboard2(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
       }
     }
     else{
       if(apt_type == "분양(예정)"){
         footerHtml += "<div><button type='button' class='goLink_HGNN' onclick='openHGNN(\"" + searchCode + "\")'>호갱노노 보기</button></div>"
         footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
-        //footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+        //footerHtml += "<div class='tShare' onClick='CopyToClipboard2(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
         footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
       }
       else{
         footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(\"" + searchCode + "\")'>네이버 부동산 보기</button></div>"
         footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL)'><img src = './kakao_icon.png' height='32px'></div>"
-        //footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+        //footerHtml += "<div class='tShare' onClick='CopyToClipboard2(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
         footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
       }
     }

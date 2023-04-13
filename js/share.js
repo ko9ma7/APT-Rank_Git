@@ -94,6 +94,23 @@ function CopyToClipboard(copied_text, msg_pop){
   toastr.success(output);
 }
 
+function CopyToClipboard2(copied_text, msg_pop){
+  var txt = copied_text
+
+  window.navigator.clipboard.writeText(txt).then(() => {
+    toastr.options = {
+      closeButton: false,
+      progressBar: false,
+      showMethod: 'fadeIn',
+      closeMethod: 'fadeOut',
+      positionClass: "toast-bottom-center",
+      timeOut: 1000
+    };
+    output = msg_pop
+    toastr.success(output);
+  })
+}
+
 function openExternalLink(url){  
   location.href = url
   /*
