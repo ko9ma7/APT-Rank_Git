@@ -79,7 +79,7 @@ function CopyToClipboard(copied_text, msg_pop){
   t.value = txt;
   document.body.appendChild(t);  
   t.select();
-  t.setSelectionRange(0, 99999);
+  t.focus();
   document.execCommand('copy');
   document.body.removeChild(t);
 
