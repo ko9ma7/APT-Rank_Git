@@ -2312,7 +2312,7 @@ function updateTable(month, region){
           else{
             addon_html += "<span class='regionPopDown'> (" + popChange + ")</span></div>";
           }
-          addon_html += "<div class='apt_address'><span class='regionJob'>일자리 " + regJob.toLocaleString() + "개</span></div>";
+          addon_html += "<div class='apt_address'><span class='regionJob'>일자리 " + Number(Number(regJob).toFixed(0)).toLocaleString() + "개</span></div>";
           addon_html += "<div class='apt_address'>소득 " + regIncome.toLocaleString() + "원</div>";
           addon_html += "</div></div>";
           addon_html += "<div class='value_score'>" + ( Math.round( regValue * 100 ) / 100 ).toFixed(2) + "점</div>"
