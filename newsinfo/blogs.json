@@ -1,9 +1,17 @@
 {
-    "lastBuildDate": "Sun, 16 Apr 2023 19:18:09 +0900",
-    "total": 5041,
+    "lastBuildDate": "Sun, 16 Apr 2023 20:14:57 +0900",
+    "total": 5042,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "이유와 세수확보 실패가 가져다주는 <b>부동산</b> 투자 리스크 2편",
+            "link": "https://blog.naver.com/kogiduck/223076333333",
+            "description": "그만큼 우리나라 가계에 <b>아파트</b> <b>부동산</b> 가격이 정말 중요한 지표가 된다는 것임 4. 처분가능소득 대비 160%에 달하는 가계부채 비율은 절대로 낮은 수치가 아님. OECD 국가 중 상위권에 <b>랭크</b>되어져 있으며 내가... ",
+            "bloggername": "고기덕님",
+            "bloggerlink": "blog.naver.com/kogiduck",
+            "postdate": "20230416"
+        },
         {
             "title": "대장 <b>아파트</b> 분석을 통한 지역별 <b>부동산</b> 시세파악 - 서울시 마포구",
             "link": "https://blog.naver.com/crystal7305/223076107753",
@@ -235,14 +243,6 @@
             "bloggername": "공상쟁이 만물상",
             "bloggerlink": "blog.naver.com/lds3480",
             "postdate": "20230408"
-        },
-        {
-            "title": "은평구 입지분석",
-            "link": "https://blog.naver.com/forestnow/223068097841",
-            "description": "인구 <b>부동산</b>지인,행정안전부 은평구의 인구는 약 47만 명으로 서울에서 6번째로 인구가 많고, 세대당 인구수는 2.2명으로 10위권 안에 <b>랭크</b>되어 있습니다. 은평구의 연령별 인구 구성은 어느 연령대의 비중이... ",
-            "bloggername": "부동산 투자노트",
-            "bloggerlink": "blog.naver.com/forestnow",
-            "postdate": "20230407"
         }
     ]
 }
