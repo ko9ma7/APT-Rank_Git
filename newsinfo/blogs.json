@@ -1,9 +1,17 @@
 {
-    "lastBuildDate": "Sun, 16 Apr 2023 10:19:49 +0900",
-    "total": 5028,
+    "lastBuildDate": "Sun, 16 Apr 2023 11:38:05 +0900",
+    "total": 5029,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "2023년 4월 2주 <b>부동산</b> 거래 동향",
+            "link": "https://blog.naver.com/brelco/223076055882",
+            "description": "거래량 집계방법 변경으로 지난주와 직접 비교는 어렵지만 부산시 명지동, 김천시 율곡동, 진주시 충무공동의 거래량이 상위에 <b>랭크</b>되었습니다. 동별 <b>아파트</b> 매매 거래량(출처, 국토부실거래가) 단지별 <b>아파트</b>... ",
+            "bloggername": "Brelco",
+            "bloggerlink": "blog.naver.com/brelco",
+            "postdate": "20230416"
+        },
         {
             "title": "공인중개사 합격 후 여가선용 6가지",
             "link": "https://blog.naver.com/sohs007/223075709339",
@@ -234,14 +242,6 @@
             "description": "<b>아파트</b> 매매가격 증감률 서울, 경기도, 인천 ✔️ 서울 이번주는 지난주에 비해 살짝 하락폭이... 반성을 많이 하고 있습니다 ㅠㅠ <b>부동산</b> 하면 부텐셜이 생각나도록 더 열심히 공부해보도록 하겠습니다. 나는... ",
             "bloggername": "부텐셜의 부자포텐 터트리기",
             "bloggerlink": "blog.naver.com/moongjii",
-            "postdate": "20230407"
-        },
-        {
-            "title": "L자 횡보장, 늘어나는 거래량! kb <b>부동산</b> 통계(2023.4.3.기준)",
-            "link": "https://blog.naver.com/bugeurim/223067783799",
-            "description": "상위에 <b>랭크</b>되어 있습니다. 2. 하락지역 포스팅 마지막 부분의 지역별 시황에서 자세한 지역별 하락 이유를 알아보겠습니다. 지역별 <b>아파트</b>매매가격 주간변동률 주간보도자료_KB<b>부동산</b> 전국 <b>아파트</b>... ",
-            "bloggername": "부(富)를 그리다.",
-            "bloggerlink": "blog.naver.com/bugeurim",
             "postdate": "20230407"
         }
     ]
