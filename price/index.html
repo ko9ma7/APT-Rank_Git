@@ -920,7 +920,8 @@ function updateTable(region){
           if(i < share_count){
             shareText += "『" + aptName + "』\n"
             shareText += "ㆍ" + Korean_price(deal_price_num) + " (" + dealed_date + ")\n"
-            shareText += "ㆍ" + deal_floor + "층, 약 " + apt_p.toFixed(0) + "평 (" + apt_m + ")\n\n"
+            shareText += "ㆍ" + deal_floor + "층, 약 " + apt_p.toFixed(0) + "평 (" + apt_m + ")\n"
+            shareText += "ㆍ직전대비 : " + compare_last_ratio + "\n\n"
           }
 
           $('#dataList').append(addon_html);
@@ -998,10 +999,14 @@ function updateTable(region){
     compare_max = ((deal_price_num/max_price_deal[1]) - 1) * 100
     compare_min = ((deal_price_num/min_price_deal[1]) - 1) * 100
 
-    if(compare_last > 0){ compare_last_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
+    if(compare_last > 0){ compare_last_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_last)).toFixed(2) + "%</span>" 
+                        compare_last_ratio = "▲" + (Math.abs(compare_last)).toFixed(2) + "%" }
     else if(compare_last < 0){ compare_last_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
-    else if( isNaN(compare_last)){ compare_last_tag = "<span style='color:black'>정보없음</span>" }
-    else { compare_last_tag = "<span style='color:black'>= " + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
+                              compare_last_ratio = "▼" + (Math.abs(compare_last)).toFixed(2) + "%" }
+    else if( isNaN(compare_last)){ compare_last_tag = "<span style='color:black'>정보없음</span>" 
+                                 compare_last_ratio = "정보없음" }
+    else { compare_last_tag = "<span style='color:black'>= " + (Math.abs(compare_last)).toFixed(2) + "%</span>" 
+          compare_last_ratio = "=" + (Math.abs(compare_last)).toFixed(2) + "%" }
 
     if(compare_max > 0){ compare_max_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
     else if(compare_max < 0){ compare_max_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_max)).toFixed(2) + "%</span>" }
@@ -1013,7 +1018,7 @@ function updateTable(region){
     else if( isNaN(compare_min)){ compare_min_tag = "<span style='color:black'>정보없음</span>" }
     else { compare_min_tag = "<span style='color:black'>= " + (Math.abs(compare_min)).toFixed(2) + "%</span>" }
     
-    return {'last_dealed_date' : last_dealed_date, 'last_dealed_price' : last_dealed_price, 'compare_last_tag' : compare_last_tag, 'compare_max_tag' : compare_max_tag, 'compare_min_tag' : compare_min_tag}
+    return {'last_dealed_date' : last_dealed_date, 'last_dealed_price' : last_dealed_price, 'compare_last_ratio' : compare_last_ratio, 'compare_last_tag' : compare_last_tag, 'compare_max_tag' : compare_max_tag, 'compare_min_tag' : compare_min_tag}
   }
 
   function showDetail(index){
@@ -1161,6 +1166,7 @@ function updateTable(region){
     shareText_detail += "ㆍ실거래가 : " + Korean_price(deal_price_num) + "\n"
     shareText_detail += "ㆍ계약일 : " + dealed_date + " (" + deal_type + ")\n"
     shareText_detail += "ㆍ층,평 : " + deal_floor + "층, (약 " + apt_p.toFixed(0) + "평)\n"
+    shareText_detail += "ㆍ직전대비 : " + compare_last_ratio + "\n"
     shareText_detail += "ㆍ직전거래 : " + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")\n"
     shareText_detail += shareURL_detail + "\n\n"
     kakaoShareURL_detail = shareURL_detail
