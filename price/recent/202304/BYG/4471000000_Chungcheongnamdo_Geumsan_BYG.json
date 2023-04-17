@@ -3,13 +3,13 @@
         "fields":[
             {
                 "name":"index",
-                "type":"integer"
+                "type":"string"
             }
         ],
         "primaryKey":[
             "index"
         ],
-        "pandas_version":"1.4.0"
+        "pandas_version":"0.20.0"
     },
     "data":[
 
