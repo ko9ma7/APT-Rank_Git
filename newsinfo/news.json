@@ -1,9 +1,205 @@
 {
-    "lastBuildDate": "Mon, 17 Apr 2023 16:17:35 +0900",
-    "total": 715016,
+    "lastBuildDate": "Mon, 17 Apr 2023 17:22:46 +0900",
+    "total": 715042,
     "start": 1,
     "display": 30,
     "items": [
+        {
+            "title": "민간아파트 분양가 상승…주택매매심리지수도 올라(종합)",
+            "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=03309526635577104",
+            "link": "https://n.news.naver.com/mnews/article/018/0005465888?sid=101",
+            "description": "국토연구원 <b>부동산시장</b>연구센터가 발표한 ‘3월 <b>부동산시장</b> 소비자 심리조사’에 따르면 지난달 전국 주택매매<b>시장</b> 소비심리지수는 103.6을 기록해 전월보다 1.5포인트(p) 올랐다. 수도권은 106.7로 2.4p... ",
+            "pubDate": "Mon, 17 Apr 2023 17:21:00 +0900"
+        },
+        {
+            "title": "충남 아산탕정 2지구 신도시 2029년까지 완공",
+            "originallink": "http://www.newsis.com/view/?id=NISX20230417_0002269907&cID=10807&pID=10800",
+            "link": "https://n.news.naver.com/mnews/article/003/0011808377?sid=102",
+            "description": "이밖에 LH는 천안직산(도시첨단산단), 대전 연축·대동2·대전 효자 등에 5466억 원 수준의 토지 등 보상금을 집행해 <b>부동산시장</b> 회복을 견인할 방침이다. 또 내포신도시·장학국가생태산단 등 단지개발사업에 823억... ",
+            "pubDate": "Mon, 17 Apr 2023 17:18:00 +0900"
+        },
+        {
+            "title": "LH 대전충남본부, 올해 9000여억원 투자 지역발전 견인",
+            "originallink": "https://www.news1.kr/articles/5018330",
+            "link": "https://n.news.naver.com/mnews/article/421/0006752905?sid=102",
+            "description": "세부 계획을 보면 아산탕정2 신도시를 중심으로 천안직산 도시첨단산단 및 대전 연축·대동2·효자 등에 5466억원 규모의 보상금을 집행해 <b>부동산 시장</b> 회복을 견인한다. 내포신도시·장항국가생태산단 등... ",
+            "pubDate": "Mon, 17 Apr 2023 17:18:00 +0900"
+        },
+        {
+            "title": "추경호 &quot;세수 올해 내내 녹록지 않아…추경 검토 안해&quot;",
+            "originallink": "http://news.heraldcorp.com/view.php?ud=20230417000692",
+            "link": "https://n.news.naver.com/mnews/article/016/0002131471?sid=101",
+            "description": "추 부총리는 &quot;당초 정부가 올해 세수 전망을 보수적으로 잡았는데도 작년 말과 올해 1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼 관련 세수들이 당초 예상보다 덜 걷히고 있다&quot;면서 &quot;세수 상황이 좋지 않으니 여기에... ",
+            "pubDate": "Mon, 17 Apr 2023 17:17:00 +0900"
+        },
+        {
+            "title": "추경호 &quot;올해 세수 상황 녹록지 않아&quot;",
+            "originallink": "http://news.tvchosun.com/site/data/html_dir/2023/04/17/2023041790149.html",
+            "link": "https://n.news.naver.com/mnews/article/448/0000405159?sid=101",
+            "description": "1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼 관련 세수들이 당초 예상보다 덜 걷히고 있다&quot;라고 대답했다. 고용진 더불어민주당 의원이 추가경정예산 편성 계획이 있냐는 질의에 추 부총리는 &quot;전혀 없다&quot;라며 &quot;세수는... ",
+            "pubDate": "Mon, 17 Apr 2023 17:15:00 +0900"
+        },
+        {
+            "title": "추경호 &quot;세수상황 녹록지 않아…위기 극복 힘 모을 때&quot;",
+            "originallink": "http://www.newsworks.co.kr/news/articleView.html?idxno=711959",
+            "link": "http://www.newsworks.co.kr/news/articleView.html?idxno=711959",
+            "description": "자산<b>시장</b>과 <b>부동산,</b> 주식 그리고 경기가 빠르게 위축됐기 때문에 예상보다 세수가 덜 걷히고 있다&quot;고 답했다. 이어 &quot;올해 내내 세수 상황이 녹록지 않을 것 같다&quot;며 &quot;상황이 좋지 않기 때문에 여기에 맞는 살림을 살아야... ",
+            "pubDate": "Mon, 17 Apr 2023 17:14:00 +0900"
+        },
+        {
+            "title": "&apos;주택 사자&apos; 심리 10개월來 최고",
+            "originallink": "https://www.mk.co.kr/article/10714636",
+            "link": "https://n.news.naver.com/mnews/article/009/0005117708?sid=101",
+            "description": "17일 국토연구원 <b>부동산시장</b>연구센터에 따르면 지난 3월 전국 기준 주택매매<b>시장</b> 소비심리지수는 103.6으로 집계됐다. 지난 1월(91.5) 대비 12.1포인트, 전달(102.1) 대비 1.5포인트 오른 수치다. 수도권은 전월 대비 2.... ",
+            "pubDate": "Mon, 17 Apr 2023 17:12:00 +0900"
+        },
+        {
+            "title": "세수 부족하자 &apos;유류세 인하&apos; 축소?…국제유가는 다시 꿈틀",
+            "originallink": "http://www.sisajournal.com/news/articleView.html?idxno=261425",
+            "link": "https://n.news.naver.com/mnews/article/586/0000056150?sid=101",
+            "description": "앞으로도 경기 침체로 인한 <b>부동산,</b> 주식<b>시장</b>에서 거둬들일 양도세와 증권거래세 및 법인세 감소가 예상되면서 올 세수가 예산을 짤 때보다 덜 걷히는 세수 결손 가능성이 커지고 있다. 2019년 이후 4년 만의 일이다.... ",
+            "pubDate": "Mon, 17 Apr 2023 17:12:00 +0900"
+        },
+        {
+            "title": "[<b>부동산</b> 라운지] HUG 당기손실 1126억 … 전세금 보증반환 &apos;위태위태&apos;",
+            "originallink": "https://www.mk.co.kr/article/10714635",
+            "link": "https://n.news.naver.com/mnews/article/009/0005117707?sid=101",
+            "description": "2009년 금융위기 당시 <b>부동산 시장</b> 침체로 분양보증 사고가 늘어나 7322억원의 손실을 기록했다. 문제는 올해도 전세보증금 사고와 관련해 HUG의 대위변제액이 줄어들지 않고 있다는 점이다. 지난해 말부터... ",
+            "pubDate": "Mon, 17 Apr 2023 17:12:00 +0900"
+        },
+        {
+            "title": "증권사 &apos;1분기 실적 반등&apos; 예고...전분기보다 120% 상승 기대",
+            "originallink": "http://www.newspim.com/news/view/20230417001026",
+            "link": "http://www.newspim.com/news/view/20230417001026",
+            "description": "다만 <b>부동산 시장</b> 위축이 지속되는 상황에서 <b>부동산</b> 프로젝트파이낸싱(PF) 관련 우려가 여전해 실적 반등 신호로 해석하기는 어렵다는 지적도 있다. 17일 대신증권에 따르면 올해 1분기 한국금융지주(한국투자증권)... ",
+            "pubDate": "Mon, 17 Apr 2023 17:09:00 +0900"
+        },
+        {
+            "title": "[&apos;위기&apos;라 쓰고 &apos;기회&apos;라 읽는다] 삼성물산, 그린수소 등 친환경 사업에 역량...",
+            "originallink": "http://www.sisaweek.com/news/articleView.html?idxno=204163",
+            "link": "http://www.sisaweek.com/news/articleView.html?idxno=204163",
+            "description": "금리인상, 고물가, 경기 침체 등의 영향으로 집값과 전세가격이 동반 하락하면서 국내 <b>부동산 시장</b>의 &apos;거래절벽&apos; 현상이 좀처럼 해소되지 못하고 있다. 여기에 정부가 제시한 위험선(6만여호)을 훨씬 넘은 7만5... ",
+            "pubDate": "Mon, 17 Apr 2023 17:06:00 +0900"
+        },
+        {
+            "title": "[건설 FOCUS] &quot;산 너머 산&quot;…건설사, &apos;<b>부동산</b> PF&apos; 폭탄 돌리기에 금융권 &apos;속수...",
+            "originallink": "http://www.wikileaks-kr.org/news/articleView.html?idxno=137326",
+            "link": "http://www.wikileaks-kr.org/news/articleView.html?idxno=137326",
+            "description": "뿐이며, <b>부동산 시장</b> 전반에 불어닥친 자금난을 해결하기엔 역부족하다는 지적이다. <b>부동산</b> PF 부실은 집값 붕괴를 야기하는 등 시한폭탄 같은 존재다. 앞서 2008년 글로벌 금융위기 당시에도 주택 가격 급락과 미분양... ",
+            "pubDate": "Mon, 17 Apr 2023 17:04:00 +0900"
+        },
+        {
+            "title": "‘DSR 완화’ 온기에 오피스텔 <b>시장</b> 냉기 걷힐까…상업용 <b>부동산</b> ‘울상’에 ...",
+            "originallink": "https://www.etoday.co.kr/news/view/2241189",
+            "link": "https://www.etoday.co.kr/news/view/2241189",
+            "description": "하지만 고금리에 따른 상업용 <b>부동산 시장</b> 전체가 침체하면서 전체 오피스텔 <b>시장</b>은 대출 규제 완화에도 당분간 반등은 어려울 전망이다. 당장 금리 인상으로 상업용 <b>부동산</b>의 상대적 수익률도 급감했다.... ",
+            "pubDate": "Mon, 17 Apr 2023 17:04:00 +0900"
+        },
+        {
+            "title": "추경호 &quot;세수 상황 올해 내내 녹록지 않다&quot;",
+            "originallink": "https://imnews.imbc.com/news/2023/econo/article/6474870_36140.html",
+            "link": "https://n.news.naver.com/mnews/article/214/0001266876?sid=101",
+            "description": "추 부총리는 &quot;당초 정부가 올해 세수 전망을 보수적으로 잡았는데도 작년 말과 올해 1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼, 관련 세수들이 당초 예상 세수보다 덜 걷히고 있다&quot;고 밝혔습니다. 그러면서 &quot;세수... ",
+            "pubDate": "Mon, 17 Apr 2023 17:02:00 +0900"
+        },
+        {
+            "title": "추경호 &quot;세수 올해 내내 녹록지 않아…추경 검토 안해&quot;(종합)",
+            "originallink": "https://www.yna.co.kr/view/AKR20230417106251002?input=1195m",
+            "link": "https://n.news.naver.com/mnews/article/001/0013886025?sid=101",
+            "description": "추 부총리는 &quot;당초 정부가 올해 세수 전망을 보수적으로 잡았는데도 작년 말과 올해 1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼 관련 세수들이 당초 예상보다 덜 걷히고 있다&quot;면서 &quot;세수 상황이 좋지 않으니 여기에... ",
+            "pubDate": "Mon, 17 Apr 2023 17:01:00 +0900"
+        },
+        {
+            "title": "“뒤뜰 별채 지어 렌트받을까”… 전국 ADU(추가 거주 유닛) 건축 붐",
+            "originallink": "http://www.koreatimes.com/article/1461430",
+            "link": "http://www.koreatimes.com/article/1461430",
+            "description": "LA 타임스와 인터뷰한 <b>부동산</b> 전문업체 크로스컨트리의 메레디스 스토어스 매니저는 “ADU 구축은 <b>부동산 시장</b>에 도움이 되는 큰 흐름”라며 “하우스 오너 입장에서는 부담 없이 자산 가치를 늘릴 수 있다”고... ",
+            "pubDate": "Mon, 17 Apr 2023 16:58:00 +0900"
+        },
+        {
+            "title": "추경호 부총리 &quot;세수 상황 올해 내내 녹록지 않다&quot;",
+            "originallink": "http://www.globalepic.co.kr/view.php?ud=202304171609541175a2b977df50_29",
+            "link": "http://www.globalepic.co.kr/view.php?ud=202304171609541175a2b977df50_29",
+            "description": "추 부총리는 &quot;당초 정부가 올해 세수 전망을 보수적 잡았는데도 작년 말과 올해 1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼, 관련 세수들이 당초 예상 세수보다 덜 걷히고 있다&quot;고 말했다. 서 의원이 국제통화기금... ",
+            "pubDate": "Mon, 17 Apr 2023 16:56:00 +0900"
+        },
+        {
+            "title": "LH대전충남본부, 지역경제활력 견인…9000억 투자한다",
+            "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=970175",
+            "link": "http://www.ggilbo.com/news/articleView.html?idxno=970175",
+            "description": "세부적으로는 아산탕정2 신도시를 중심으로 천안직산(도시첨단산단) 및 대전연축·대동2·대전효자 등에 5466억 원 수준의 토지 등 보상금을 집행해 <b>부동산시장</b> 회복을 견인하고 내포신도시·장항국가생태산단 등... ",
+            "pubDate": "Mon, 17 Apr 2023 16:54:00 +0900"
+        },
+        {
+            "title": "주택매매 소비심리 지수 상승…충청권 &apos;보합세&apos;",
+            "originallink": "http://www.jbnews.com/news/articleView.html?idxno=1390989",
+            "link": "http://www.jbnews.com/news/articleView.html?idxno=1390989",
+            "description": "17일 국토연구원이 발표한 3월 <b>부동산시장</b> 소비자 심리조사에 따르면 지난달 전국 주택매매<b>시장</b> 소비심리지수는 103.6으로 전월(102.1) 대비 1.5p 상승했다. 3개월 연속 상승세다. 올해 주택매매<b>시장</b>... ",
+            "pubDate": "Mon, 17 Apr 2023 16:52:00 +0900"
+        },
+        {
+            "title": "[북유럽 통신] 노르웨이 올 1분기 집값 5.8% 상승...2016년이후 최대 폭",
+            "originallink": "http://www.opinionnews.co.kr/news/articleView.html?idxno=83216",
+            "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=83216",
+            "description": "스파르뱅크(Sparbank) 그룹의 은행 관계자 말에 따르면, 이번 상승은 지난 겨울 정부의 대출 완화 정책에 따른 일시적인 현상으로 주택 모기지 이자율이 5% 이상까지 예상되는 상황에서 올여름 이후 <b>부동산 시장</b>은... ",
+            "pubDate": "Mon, 17 Apr 2023 16:50:00 +0900"
+        },
+        {
+            "title": "[EBN 오늘(17일) 이슈 종합] 급전대출 고금리 폭탄, 정의선 기아 DNA 계승 등",
+            "originallink": "https://www.ebn.co.kr/news/view/1574428/?sc=Naver",
+            "link": "https://www.ebn.co.kr/news/view/1574428/?sc=Naver",
+            "description": "<b>부동산 시장</b> 연착륙을 목표로 정부가 규제 완화에 나면서 매수 심리가 개선된 덕분이다. 그러나 총부채원리금상환비율(DSR)‧토지거래허가구역 등 수요억제책은 여전히 남아 있는 상황이다. 업계에선 &apos;악성 미분양&apos;으로... ",
+            "pubDate": "Mon, 17 Apr 2023 16:44:00 +0900"
+        },
+        {
+            "title": "20·30대는 왜 위험한 경제 사각지대에 놓였나 [마켓톡톡]",
+            "originallink": "https://www.thescoop.co.kr/news/articleView.html?idxno=57471",
+            "link": "https://n.news.naver.com/mnews/article/665/0000000809?sid=101",
+            "description": "<b>부동산시장</b>분석업체 &apos;<b>부동산</b>인포&apos;가 3월 24일 발표한 자료에 따르면, 30대의 서울 아파트 매수 건수가 지난해 12월 이후 3개월 연속 증가하고 있다. 30대는 지난해 11월 서울 지역 아파트를 171채 매입했고, 12월에는... ",
+            "pubDate": "Mon, 17 Apr 2023 16:40:00 +0900"
+        },
+        {
+            "title": "&apos;건설&apos; 이름 버리는 건설사들…친환경·에너지 사업에 사활 건다",
+            "originallink": "http://www.insightkorea.co.kr/news/articleView.html?idxno=109341",
+            "link": "http://www.insightkorea.co.kr/news/articleView.html?idxno=109341",
+            "description": "전통적인 방식의 건설업만으로는 미래 먹거리를 확보할 수 없다는 위기감이 퍼진데다 지난해부터 불거진 국내 <b>부동산 시장</b> 침체가 영향을 미쳤다. 건설사들은 건설 대신 미래 사업과 연관돼 지속 성장의 가치를... ",
+            "pubDate": "Mon, 17 Apr 2023 16:40:00 +0900"
+        },
+        {
+            "title": "동문건설, 일자리 풍부한 지역에 &apos;원주 동문 디 이스트&apos; 공급",
+            "originallink": "http://www.issuenbiz.com/news/articleView.html?idxno=23636",
+            "link": "http://www.issuenbiz.com/news/articleView.html?idxno=23636",
+            "description": "동문건설 CI / 사진=동문건설 <b>부동산 시장</b>에서 일자리와 인구는 뗄 수 없는 상관관계를 지닌다. 일자리가 늘어나는 곳에 사람들이 모이게 되고, 인구가 유입되면 <b>부동산 시장</b>이 들썩이는 순환구조를 지니고 있기 때문이다.... ",
+            "pubDate": "Mon, 17 Apr 2023 16:32:00 +0900"
+        },
+        {
+            "title": "2030세대 중심 주담대 증가...금리 하단, 3%대까지 낮아져",
+            "originallink": "http://www.wsobi.com/news/articleView.html?idxno=197978",
+            "link": "http://www.wsobi.com/news/articleView.html?idxno=197978",
+            "description": "여기에 특례보금자리론 출시 등 정부발 <b>부동산시장</b> 활성화를 위한 정책모기지가 확대되고, 2030세대를 중심으로 생애최초 매매 등 제도를 이용하면서 주담대를 통한 아파트 매매 수요가 늘어난 것으로 보인다.... ",
+            "pubDate": "Mon, 17 Apr 2023 16:30:00 +0900"
+        },
+        {
+            "title": "추경호 &quot;올해 세수 상황 녹록치 않다…맞춰서 살아야&quot;",
+            "originallink": "http://www.sisajournal.com/news/articleView.html?idxno=261426",
+            "link": "https://n.news.naver.com/mnews/article/586/0000056138?sid=101",
+            "description": "추 부총리는 &quot;당초 정부가 올해 세수 전망을 보수적 잡았는데도 작년 말과 올해 1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼 관련 세수들이 당초 예상 세수보다 덜 걷히고 있다&quot;고 부연했다. 추 부총리는 &quot;세수 상황이... ",
+            "pubDate": "Mon, 17 Apr 2023 16:27:00 +0900"
+        },
+        {
+            "title": "추경호 “올해 세수 상황 녹록지 않아…최근 30년간 가장 어려운 한 해”",
+            "originallink": "https://news.kbs.co.kr/news/view.do?ncd=7653419&ref=A",
+            "link": "https://n.news.naver.com/mnews/article/056/0011467076?sid=101",
+            "description": "추 부총리는 “당초 정부가 올해 세수 전망을 보수적으로 잡았는데도 작년 말과 올해 1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼 관련 세수들이 당초 예상 세수보다 덜 걷히고 있다”며 “세수 상황이 좋지 않으니... ",
+            "pubDate": "Mon, 17 Apr 2023 16:25:00 +0900"
+        },
+        {
+            "title": "프롭테크업계 1위 직방, 영업손 371억... 신사업 못찾고, 거래절벽 오자 대규...",
+            "originallink": "https://biz.chosun.com/real_estate/real_estate_general/2023/04/17/MDF77SHISBBC5OVUIOACNFQBYQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+            "link": "https://n.news.naver.com/mnews/article/366/0000894223?sid=101",
+            "description": "<b>부동산</b> 중개 비즈니스가 대부분, 거래 줄자 적자 전환 비용 감축해 ‘다방’은 10억원 흑자 전환 <b>부동산 시장</b>의 한 축으로 자리잡은 ‘프롭테크(proptech·<b>부동산</b>에 IT기술을 접목한 온라인 서비스)’ 업계에 한파가... ",
+            "pubDate": "Mon, 17 Apr 2023 16:21:00 +0900"
+        },
         {
             "title": "<b>부동산</b> 청약<b>시장</b> 양극화 뚜렷...서울은 ‘봄바람’ 지방은 ‘찬바람’",
             "originallink": "https://thepublic.kr/news/view/1065592137236884",
@@ -17,202 +213,6 @@
             "link": "http://www.newspim.com/news/view/20230417000976",
             "description": "홍 의원은 보도자료에서 &quot;규제지역 지정제도를 단순하게 정리하고 정책 수요자인 국민이 알기 쉽게 개편해야 한다&quot;면서 &quot;<b>부동산 시장</b>을 안정시키는 동시에 지역규제로 피해가 없는 환경을 조성하는 데 기여하고자 한다&quot;고... ",
             "pubDate": "Mon, 17 Apr 2023 16:09:00 +0900"
-        },
-        {
-            "title": "법무법인 지평, 2008년부터 <b>부동산</b>PF 정상화 노하우 착공·분양 단계별로 맞춤...",
-            "originallink": "https://www.mk.co.kr/article/10714470",
-            "link": "https://n.news.naver.com/mnews/article/009/0005117595?sid=101",
-            "description": "최근 금리와 원자재 가격 상승 등 요인으로 <b>부동산 시장</b>이 경색되면서 미분양이 증가하는 등 어려움을 겪는 <b>부동산</b>PF 사업장이 많다. 이런 가운데 끝내 정상화되지 못한 사업장에서는 다양한 이해관계자 간 분쟁이... ",
-            "pubDate": "Mon, 17 Apr 2023 16:08:00 +0900"
-        },
-        {
-            "title": "추경호 “<b>부동산</b>·주식 빠르게 위축… 세수 상황 올해 내내 녹록지 않아”",
-            "originallink": "https://biz.chosun.com/policy/policy_sub/2023/04/17/53N7LE7TH5HMNLCXE5WR3BH6SQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-            "link": "https://n.news.naver.com/mnews/article/366/0000894214?sid=101",
-            "description": "추 부총리는 “당초 정부가 올해 세수 전망을 보수적으로 잡았는데도 작년 말과 올해 1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼 관련 세수들이 당초 예상 세수보다 덜 걷히고 있다”면서 “세수 상황이 좋지... ",
-            "pubDate": "Mon, 17 Apr 2023 16:07:00 +0900"
-        },
-        {
-            "title": "삼성생명·화재, 판교 ‘알파돔타워’ 매입",
-            "originallink": "http://www.insnews.co.kr/design_php/news_view.php?num=73894&firstsec=1&secondsec=12",
-            "link": "http://www.insnews.co.kr/design_php/news_view.php?num=73894&firstsec=1&secondsec=12",
-            "description": "업계에서는 삼성금융네트웍스의 삼성생명과 삼성화재가 <b>부동산</b> 전문 운용사인 삼성SRA자산운용과 협업해 <b>부동산 시장</b>이 침체된 상황에서도 7200억대 규모의 거래를 성공적으로 완료한 점에 주목하고 있다.... ",
-            "pubDate": "Mon, 17 Apr 2023 16:06:00 +0900"
-        },
-        {
-            "title": "<b>부동산</b> 규제지역 &apos;관리지역&apos;으로 단순화…국토부 &quot;확정된 바 없어&quot;",
-            "originallink": "https://www.dailian.co.kr/news/view/1223968/?sc=Naver",
-            "link": "https://n.news.naver.com/mnews/article/119/0002703532?sid=101",
-            "description": "홍 의원은 &quot;규제지역 지정제도를 단순하게 정리하고 정책 수요자인 국민이 알기 쉽게 개편해야 한다&quot;며 &quot;<b>부동산 시장</b>은 안정시키는 동시에 지역규제로 피해가 없는 환경을 조성하는데 기여하고자 한다&quot;고 말했다. 다만... ",
-            "pubDate": "Mon, 17 Apr 2023 16:05:00 +0900"
-        },
-        {
-            "title": "계속되는 해명에도…꺼지지 않는 새마을금고 건전성 논란",
-            "originallink": "https://www.asiatime.co.kr/article/20230417500249",
-            "link": "https://www.asiatime.co.kr/article/20230417500249",
-            "description": "당시 해명에서 새마을금고는 &quot;<b>부동산시장</b> 불황에 맞춰 연체율이 늘어나고 있지만 관리할 수 있는 수준&quot;이라며 &quot;<b>부동산</b> 대출과 관련해 새마을금고는 상대적으로 안정적인 관리형 토지신탁만 취급하고 있다&quot;고 언급했다.... ",
-            "pubDate": "Mon, 17 Apr 2023 16:04:00 +0900"
-        },
-        {
-            "title": "올 1분기 <b>부동산시장</b> 이슈는 &apos;용인 반도체클러스터&apos;",
-            "originallink": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202304171550043300327",
-            "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202304171550043300327",
-            "description": "<b>부동산 시장</b> 침체가 이어지고 있는 가운데 정부가 반도체클러스터 조성이라는 개발 계획을 내놓으면서 &apos;용인&apos;이 올해 <b>시장</b> 이슈로 떠올랐다. 17일 &apos;직방&apos;이 애플리케이션 &apos;호갱노노&apos;의 리뷰를 분석한 결과, 올해 1분기... ",
-            "pubDate": "Mon, 17 Apr 2023 16:02:00 +0900"
-        },
-        {
-            "title": "집값 하락 폭 둔화…정부, 추가 규제완화 가능성은?",
-            "originallink": "https://www.ebn.co.kr/news/view/1574406/?sc=Naver",
-            "link": "https://www.ebn.co.kr/news/view/1574406/?sc=Naver",
-            "description": "<b>부동산 시장</b> 연착륙을 목표로 정부가 규제 완화에 나면서 매수 심리가 개선된 덕분이다. 그러나 총부채원리금상환비율(DSR)‧토지거래허가구역 등 수요억제책은 여전히 남아 있는 상황이다. 업계에선 &apos;악성 미분양&apos;으로... ",
-            "pubDate": "Mon, 17 Apr 2023 16:02:00 +0900"
-        },
-        {
-            "title": "추경호 &quot;올해 세수 예상보다 부족…<b>부동산</b> 주식 경기 위축탓&quot;",
-            "originallink": "http://www.newsis.com/view/?id=NISX20230417_0002269740&cID=10401&pID=10400",
-            "link": "https://n.news.naver.com/mnews/article/003/0011808105?sid=101",
-            "description": "기사내용 요약 기재위 전체회의 현안질의서 답변 추경호 경제부총리 겸 기획재정부 장관이 17일 &quot;지난해 연말, 그리고 올해 1분기에 자산<b>시장</b>, 즉 <b>부동산</b> 주식 그리고 경기가 생각보다 빠르게 위축이 됐기 때문에 관련... ",
-            "pubDate": "Mon, 17 Apr 2023 16:01:00 +0900"
-        },
-        {
-            "title": "민주당, <b>부동산</b> 규제지역 통합 추진에…국토부 “확정된 바 없어”",
-            "originallink": "https://www.etoday.co.kr/news/view/2241242",
-            "link": "https://www.etoday.co.kr/news/view/2241242",
-            "description": "홍 의원은 “규제지역 지정제도를 단순하게 정리하고 정책 수요자인 국민이 알기 쉽게 개편해야 한다”며 “<b>부동산 시장</b>을 안정시키는 동시에 지역규제로 피해가 없는 환경을 조성하는 데 기여하기 위함”이라고 밝혔다.... ",
-            "pubDate": "Mon, 17 Apr 2023 16:00:00 +0900"
-        },
-        {
-            "title": "추경호 &quot;유류세 인하조치 연장 검토…올해 세수상황 좋지 않아&quot;",
-            "originallink": "https://biz.sbs.co.kr/article_hub/20000113666?division=NAVER",
-            "link": "https://n.news.naver.com/mnews/article/374/0000331934?sid=101",
-            "description": "추 부총리는 &quot;정부가 올해 세수 전망을 보수적 잡았는데도 작년 말과 올해 1분기 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼 관련 세수들이 당초 예상보다 덜 걷히고 있다&quot;면서 &quot;세수 상황이 좋지 않으니 여기에 맞춰서 살아야... ",
-            "pubDate": "Mon, 17 Apr 2023 16:00:00 +0900"
-        },
-        {
-            "title": "[수능에 나오는 경제·금융] 투자·기술개발 등에 활용되는 의사결정 방식이죠",
-            "originallink": "https://www.hankyung.com/news/article/2023041474981",
-            "link": "https://n.news.naver.com/mnews/article/015/0004833608?sid=101",
-            "description": "우선 <b>부동산 시장</b>에 영향을 줄 수 있는 거시 경제에 대해 살펴봅니다. 금리 동향은 어떤지, <b>부동산</b> 정책은 어떤지, <b>부동산</b> 업황은 어떤지 등을 먼저 보죠. ‘지금이 투자할 때’라는 판단이 들면 특정 지역을 보기... ",
-            "pubDate": "Mon, 17 Apr 2023 15:59:00 +0900"
-        },
-        {
-            "title": "[한경<b>부동산</b>] 고수익 특수경매의 이해",
-            "originallink": "https://www.hankyung.com/realestate/article/202304172301O",
-            "link": "https://n.news.naver.com/mnews/article/015/0004833602?sid=101",
-            "description": "집값 하락, 미분양 증가, 거래량 감소 등 <b>부동산 시장</b>이 침체기로 접어든 상황속에서도 <b>부동산</b>으로 돈 벌 수 있는 기회요인과 수익 창출 구조, 투자자가 유념해야 할 점을 소개하는 자리다. 특히 수익을 거둔 실제사례... ",
-            "pubDate": "Mon, 17 Apr 2023 15:57:00 +0900"
-        },
-        {
-            "title": "추경호 &quot;올해 세수 상황 녹록지 않아&quot; [TF사진관]",
-            "originallink": "http://news.tf.co.kr/read/photomovie/2012296.htm",
-            "link": "https://n.news.naver.com/mnews/article/629/0000212133?sid=100",
-            "description": "추 부총리는 이날 기재위 전체회의에서 세수와 관련한 서영교 더불어민주당 의원의 질의에 &quot;당초 정부가 올해 세수 전망을 보수적 잡았는데도 작년 말과 올해 1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축됐기 때문에... ",
-            "pubDate": "Mon, 17 Apr 2023 15:53:00 +0900"
-        },
-        {
-            "title": "대구 악성 미분양 골머리…건설업계, 해소 안간힘",
-            "originallink": "https://www.ebn.co.kr/news/view/1574400/?sc=Naver",
-            "link": "https://www.ebn.co.kr/news/view/1574400/?sc=Naver",
-            "description": "<b>부동산 시장</b>의 양극화가 더욱 심화되고 있다. 서울 지역은 정부의 1·3<b>부동산</b> 규제 완화 덕에 <b>시장</b> 회복에 나서고 있는 분위기지만 지방에서는 여전히 미분양 문제로 골머리를 앓고 있다. 특히 대구의 경우 악성... ",
-            "pubDate": "Mon, 17 Apr 2023 15:52:00 +0900"
-        },
-        {
-            "title": "금융당국, <b>부동산</b> 신탁사 건전성 점검… 책임준공형 신탁 관리 ‘고삐’",
-            "originallink": "https://biz.chosun.com/stock/finance/2023/04/17/OMLFBD6YX5GUTNZSJ3DVBXJL24/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-            "link": "https://n.news.naver.com/mnews/article/366/0000894200?sid=101",
-            "description": "<b>부동산</b> 호황기에는 신탁사의 주요 수익원이지만, <b>부동산 시장</b>이 침체되는 시기에는 리스크가 될 수 있다. 미분양 위험 등으로 공사를 포기하는 시공사가 늘어나면 공사를 마무리 지어야 하는 신탁사까지 위험이 전이될... ",
-            "pubDate": "Mon, 17 Apr 2023 15:49:00 +0900"
-        },
-        {
-            "title": "규제 다 풀어도 예상보다 더딘 건설경기 회복, 통제 어려운 변수 ‘금리’",
-            "originallink": "http://www.fntimes.com/html/view.php?ud=2023041715352987945e6e69892f_18",
-            "link": "http://www.fntimes.com/html/view.php?ud=2023041715352987945e6e69892f_18",
-            "description": "한국은행은 올해 들어 기준금리를 3.50%대로 동결시키며 <b>부동산시장</b>의 ‘경착륙(급격한 하락)’을 막기 위해 노력하고 있다. 그럼에도 2020~2021년 제로금리 시절에 비하면 높은 수준의 금리가 유지되고 있어... ",
-            "pubDate": "Mon, 17 Apr 2023 15:40:00 +0900"
-        },
-        {
-            "title": "교보생명, 피치서 A+ 신용등급 획득…11년 연속 유지 [보험오늘]",
-            "originallink": "http://www.sisaon.co.kr/news/articleView.html?idxno=149410",
-            "link": "http://www.sisaon.co.kr/news/articleView.html?idxno=149410",
-            "description": "삼성생명 관계자는 &quot;삼성금융네트웍스의 삼성생명과 삼성화재가 <b>부동산</b> 전문 운용사인 삼성SRA자산운용과 협업해 <b>부동산 시장</b>이 침체된 상황에서도 7200억대 규모의 거래를 성공적으로 완료한 점에 주목한다&quot;고... ",
-            "pubDate": "Mon, 17 Apr 2023 15:34:00 +0900"
-        },
-        {
-            "title": "추경호 &quot;세수 상황 올해 내내 녹록지 않다&quot;",
-            "originallink": "http://www.getnews.co.kr/news/articleView.html?idxno=623703",
-            "link": "http://www.getnews.co.kr/news/articleView.html?idxno=623703",
-            "description": "추 부총리는 &quot;당초 정부가 올해 세수 전망을 보수적 잡았는데도 작년 말과 올해 1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼 관련 세수들이 당초 예상 세수보다 덜 걷히고 있다&quot;면서 &quot;세수 상황이 좋지 않으니 여기에... ",
-            "pubDate": "Mon, 17 Apr 2023 15:32:00 +0900"
-        },
-        {
-            "title": "서울 주택매매 소비심리 지수 석달 연속 상승…지역은 하강 국면",
-            "originallink": "https://view.asiae.co.kr/article/2023041715305811249",
-            "link": "https://n.news.naver.com/mnews/article/277/0005246616?sid=101",
-            "description": "국토연구원이 17일 발표한 &apos;<b>부동산시장</b> 소비자 심리조사&apos;를 보면 지난달 서울의 주택 매매<b>시장</b> 소비심리지수는 109.0으로 전월보다 3.8포인트 상승했다. 이는 지난해 5월(112.9) 이후 10개월 만에 가장 높은 수치다.... ",
-            "pubDate": "Mon, 17 Apr 2023 15:32:00 +0900"
-        },
-        {
-            "title": "&apos;다산역 자연&amp;푸르지오&apos;, 금일 본격 청약일정 돌입",
-            "originallink": "http://www.rcast.co.kr/news/articleView.html?idxno=21074",
-            "link": "http://www.rcast.co.kr/news/articleView.html?idxno=21074",
-            "description": "단지는 금리인상, 매수 심리 위축 등 전반적인 <b>부동산 시장</b> 혼조세가 지속되는 와중에, 무주택 수요자에게 일정 기간 저렴한 가격에 임대하고 나중에 분양전환 기회를 최우선으로 제공하는 분양전환 공공임대... ",
-            "pubDate": "Mon, 17 Apr 2023 15:26:00 +0900"
-        },
-        {
-            "title": "&quot;상가 분양<b>시장</b> 활기 찾자&quot;…대형건설사도 잇따라 공급",
-            "originallink": "https://www.newsway.co.kr/news/view?ud=2023041715200148903",
-            "link": "https://www.newsway.co.kr/news/view?ud=2023041715200148903",
-            "description": "코로나19사태 이후 여러 규제가 풀리고 있는 데다 기준금리 동결, 시중금리 인하 등 금리가 조금씩 안정화를 찾아가면서 <b>부동산</b> 분양<b>시장</b>에도 기대감이 도는 것으로 풀이된다. 실제 지난 5일 진행된 신반포3차 래미안... ",
-            "pubDate": "Mon, 17 Apr 2023 15:26:00 +0900"
-        },
-        {
-            "title": "민주당의 반성문…野 ‘<b>부동산</b> 규제지역’ 단순화 추진(종합)",
-            "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=02945446635577104",
-            "link": "https://n.news.naver.com/mnews/article/018/0005465760?sid=100",
-            "description": "현재 정부가 조정대상지역·투기과열지구·투기지역 제도를 통해 지역을 지정하는 방식으로 <b>부동산 시장</b>을 관리했지만, 종류가 많고 중복적으로 지정되다 보니 규제의 목적이 불명확해지고 <b>시장</b>은 혼란에 빠졌다는 게... ",
-            "pubDate": "Mon, 17 Apr 2023 15:26:00 +0900"
-        },
-        {
-            "title": "정부도 야당도 손본다는 &apos;<b>부동산</b> 규제지역&apos; 문제 뭐길래",
-            "originallink": "https://www.news1.kr/articles/5018058",
-            "link": "https://n.news.naver.com/mnews/article/421/0006752453?sid=101",
-            "description": "이은형 대한건설정책연구원 연구위원은 &quot;지난해부터 집값이 꾸준히 하락하고 있어 제도 개편으로 <b>부동산 시장</b>이 과열되는 부작용이 적을 것&quot;이라며 &quot;현 상태에서 규제를 정리하고 정상화해야 장기적인 관점에서 <b>시장</b>에... ",
-            "pubDate": "Mon, 17 Apr 2023 15:25:00 +0900"
-        },
-        {
-            "title": "추경호 &quot;세수 상황 올해 내내 녹록지 않다&quot;",
-            "originallink": "https://www.yna.co.kr/view/AKR20230417106200002?input=1195m",
-            "link": "https://n.news.naver.com/mnews/article/001/0013885538?sid=101",
-            "description": "추 부총리는 &quot;당초 정부가 올해 세수 전망을 보수적 잡았는데도 작년 말과 올해 1분기에 <b>부동산</b> 경기·주식<b>시장</b>이 빠르게 위축돼 관련 세수들이 당초 예상 세수보다 덜 걷히고 있다&quot;면서 &quot;세수 상황이 좋지 않으니 여기에... ",
-            "pubDate": "Mon, 17 Apr 2023 15:24:00 +0900"
-        },
-        {
-            "title": "추경호 부총리 &quot;올해 내내 세수 상황 녹록지 않을 것&quot;",
-            "originallink": "https://www.sejungilbo.com/news/articleView.html?idxno=42414",
-            "link": "https://www.sejungilbo.com/news/articleView.html?idxno=42414",
-            "description": "그러자 추 부총리는 &quot;올해 1/4분기에 자산<b>시장</b> 즉 <b>부동산</b> 주식 그리고 경기가 생각보다 빠르게 위축이 됐기 때문에 거기에 관련해서 관련 세수들이 당초 예상 세수보다 현재 덜 걷히고 있다&quot;며 &quot;세수상황이 좋지 않기... ",
-            "pubDate": "Mon, 17 Apr 2023 15:24:00 +0900"
-        },
-        {
-            "title": "<b>부동산시장</b> &apos;국가산업단지 지정&apos;에 민감한 반응",
-            "originallink": "http://www.dtnews24.com/news/articleView.html?idxno=744077",
-            "link": "http://www.dtnews24.com/news/articleView.html?idxno=744077",
-            "description": "<b>부동산</b> 수요자들이 지난 달 전국 15개 국가산업단지 지정에 민감하게 반응하고 있는 것으로 나타났다. 17일... 서울에서는 &apos;소진되다(2위)&apos;, &apos;반등(4위)&apos;, &apos;회복하다(6위)&apos; 등의 <b>시장</b>상황 변동과 관련된 키워드가 10위 내에... ",
-            "pubDate": "Mon, 17 Apr 2023 15:24:00 +0900"
-        },
-        {
-            "title": "중국, 기준금리 동결하고 은행에 250억달러 투입",
-            "originallink": "http://www.g-enews.com/ko-kr/news/article/news_all/202304171512062120c4c1a19e2e_1/article.html",
-            "link": "http://www.g-enews.com/ko-kr/news/article/news_all/202304171512062120c4c1a19e2e_1/article.html",
-            "description": "이강 인민은행장은 20개국(G20) 회의에서 중국 경제가 반등하고 있다고 말했으며 <b>부동산 시장</b>이 개선된 것에 따라 올해의 경제 성장 목표치는 5% 안팎이라고 밝혔다. 중국 10년물 국채 수익률은 17일에 2.84%로 소폭... ",
-            "pubDate": "Mon, 17 Apr 2023 15:20:00 +0900"
-        },
-        {
-            "title": "공인중개사 합격자 1위 에듀윌 휘청..자본잠식에 긴급 수혈까지",
-            "originallink": "https://www.smarttoday.co.kr/news/articleView.html?idxno=29103",
-            "link": "https://www.smarttoday.co.kr/news/articleView.html?idxno=29103",
-            "description": "하지만 최근 <b>부동산 시장</b>이 급랭하면서 중개사 시험 응시자수가 예전만 못할 것으로 예상되는 한편, 공무원 인기마저 떨어지고 있어 앞날에 어두운 그림자를 드리우고 있다. 한편 에듀윌은 양형남(61) 현 ESG위원회... ",
-            "pubDate": "Mon, 17 Apr 2023 15:16:00 +0900"
         }
     ]
 }
