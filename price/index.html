@@ -1001,7 +1001,7 @@ function updateTable(region){
 
     if(compare_last > 0){ compare_last_tag = "<span style='color:#eb5050'>▲" + (Math.abs(compare_last)).toFixed(2) + "%</span>" 
                         compare_last_ratio = "▲" + (Math.abs(compare_last)).toFixed(2) + "%" }
-    else if(compare_last < 0){ compare_last_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_last)).toFixed(2) + "%</span>" }
+    else if(compare_last < 0){ compare_last_tag = "<span style='color:#3d7fca'>▼" + (Math.abs(compare_last)).toFixed(2) + "%</span>"
                               compare_last_ratio = "▼" + (Math.abs(compare_last)).toFixed(2) + "%" }
     else if( isNaN(compare_last)){ compare_last_tag = "<span style='color:black'>정보없음</span>" 
                                  compare_last_ratio = "정보없음" }
