@@ -1842,6 +1842,8 @@ function updateTable(month, region){
       }
     }
     footerHtml += "</div>"
+    
+    changeMetaTag(aptName, aptData.data[index]["법정동주소"], rank, $('#gungu option:selected').text(), kakaoShareURL, aptValue)
 
     $('#baseModalLabel').html(titleHtml);
     $('#aptDetail').html(detailHtml);
@@ -1944,8 +1946,6 @@ function updateTable(month, region){
     $('.priceGraph').hide()
     $('.popSubPriceTable').css({'margin-top' : '3px', 'margin-bottom' : '0px'})
     price_sDateChange( $("#pStart").val() )
-
-    changeMetaTag(aptName, aptData.data[index]["법정동주소"], rank, $('#gungu option:selected').text(), kakaoShareURL, aptValue)
   }
 
   function changeMetaTag(aptName, addr, rank, short_name, url, aptValue){
