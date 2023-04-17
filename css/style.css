@@ -1,12 +1,15 @@
   body{
     -ms-overflow-style: none;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
+    /*min-height: 100vh;
+    min-height: -webkit-fill-available;*/    
+  }
+  #container{
     margin-top: constant(safe-area-inset-top);
     margin-top: env(safe-area-inset-top);
     margin-bottom: constant(safe-area-inset-bottom);
     margin-bottom: env(safe-area-inset-bottom);  
   }
+
   .toast-success {
     background-color: #801c2d;
   }  
