@@ -659,7 +659,8 @@
       
       for(var y = 0 ; y < count_data['data'].length; y++){        
         if(count_data['data'][y]['file_name'] == selectedSubRegion){
-          count_info = count_data['data'][y]['daily_count']          
+          count_info = count_data['data'][y]['daily_count'] 
+          console.log("ASDFASDF", count_info)         
           break;
         }
       }
@@ -1439,14 +1440,14 @@ function updateTable(region){
                   addon_html += "<div class='price_table'>"
                     if(count_vol_gap == 0){
                       if(Number(selectedMonth) == Number(this_month)){
-                        addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건</div>"                        
+                        addon_html += "<div class='vol_num'>" + Number(t_vol).toLocaleString() + "건</div>"                        
                       }
                       else{
-                        addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건 <span style='font-size: 0.7em'>(변동없음)</span></div>"
+                        addon_html += "<div class='vol_num'>" + Number(t_vol).toLocaleString() + "건 <span style='font-size: 0.7em'>(변동없음)</span></div>"
                       }
                     }
                     else{
-                      addon_html += "<div class='vol_num'>" + t_vol.toLocaleString() + "건 <span style='font-size: 0.7em'>(+" + count_vol_gap + ")</span></div>"
+                      addon_html += "<div class='vol_num'>" + Number(t_vol).toLocaleString() + "건 <span style='font-size: 0.7em'>(+" + count_vol_gap + ")</span></div>"
                     }
                     addon_html += "<div class='complex_table'>"
                       addon_html += "<div class='apt_address'><span stylr='color: #e31939'>국토부 등록 건수</div>"    
