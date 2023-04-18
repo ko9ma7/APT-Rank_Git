@@ -659,8 +659,8 @@
       
       for(var y = 0 ; y < count_data['data'].length; y++){        
         if(count_data['data'][y]['file_name'] == selectedSubRegion){
-          count_info = count_data['data'][y]['daily_count'] 
-          console.log("ASDFASDF", count_info)         
+          count_info = count_data['data'][y]['daily_count']
+          region_count_info = count_data['data'][y]['region_count']
           break;
         }
       }
@@ -734,7 +734,7 @@ function updateTable(region){
         //aptData.data = Object.assign(aptData.data, this_apt_data.data)
         itemNum = aptData.data.length;
 
-        aptData.data = (aptData.data).reverse()
+        //aptData.data = (aptData.data).reverse()
 
         /*
         //광고정보 표시영역
@@ -777,17 +777,17 @@ function updateTable(region){
         reverse_count_info = count_info.reverse()        
       
         sep_array = []
-        for(var p = 0 ; p < reverse_count_info.length-1; p++){
-          if(reverse_count_info[p+1][1] - reverse_count_info[p][1] != 0){
-            sep_array.push([ itemNum - reverse_count_info[p][1], reverse_count_info[p][0] ])
-          }
-        }
+        count_sum = 0
 
-        if(itemNum != 0){
-          sep_array.push([ itemNum, 0 ])
-        }
-        else{
-          sep_array.push([ itemNum, 0 ])
+        for(var y = 0 ; y < region_count_info.length ; y++){
+          if(y==0){
+            sep_array.push([ region_count_info[y][0], 0, [region_count_info[y][2]] ])
+            count_sum = region_count_info[y][1]
+          }
+          else{            
+            sep_array.push([ region_count_info[y][0], count_sum, [region_count_info[y][2]] ])            
+            count_sum += region_count_info[y][1]
+          }          
         }
 
         var addon_html = ""
@@ -808,19 +808,18 @@ function updateTable(region){
           addon_html = ""
           
           deal_count = itemNum
-          for(var j = 0; j < sep_array.length-1 ; j++){
-            if(i == sep_array[j][0]){
-              exp_date = sep_array[j][1].substr(0, 4) + "-" + sep_array[j][1].substr(4, 2) + "-" + sep_array[j][1].substr(6, 2)
-              //deal_count = sep_array[j+1][0]
-              deal_count = sep_array[j+1][0] - sep_array[j][0]              
+          for(var j = 0; j < sep_array.length ; j++){
+            if(i == sep_array[j][1]){
+              exp_region = sep_array[j][0]
+              deal_count = region_count_info[j][1]              
                 if(isMobile){
                   addon_html = "<div class='date_saperator' onClick='simple_and_detail()'>"
-                    addon_html += "<div class = 'date_saperator_text'>" + exp_date + " (" + deal_count + "건 등록)" + "</div>"
+                    addon_html += "<div class = 'date_saperator_text'>" + exp_region + " (" + deal_count + "건 등록)" + "</div>"
                     addon_html += "<div class = 'date_saperator_icon'><i class='fa-solid fa-down-left-and-up-right-to-center'></i></div>"
                 }
                 else{
                   addon_html = "<div class='date_saperator_web'>"
-                    addon_html += "<div class = 'date_saperator_text'>" + exp_date + " (" + deal_count + "건 등록)" + "</div>"
+                    addon_html += "<div class = 'date_saperator_text'>" + exp_region + " (" + deal_count + "건 등록)" + "</div>"
                     addon_html += "<div></div>"
                 }
                 
