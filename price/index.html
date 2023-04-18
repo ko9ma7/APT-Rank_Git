@@ -811,15 +811,16 @@ function updateTable(region){
           for(var j = 0; j < sep_array.length ; j++){
             if(i == sep_array[j][1]){
               exp_region = sep_array[j][0]
-              deal_count = region_count_info[j][1]              
+              deal_count = region_count_info[j][1]
+              gap_count = region_count_info[j][2]
                 if(isMobile){
                   addon_html = "<div class='date_saperator' onClick='simple_and_detail()'>"
-                    addon_html += "<div class = 'date_saperator_text'>" + exp_region + " (" + deal_count + "건 등록)" + "</div>"
+                    addon_html += "<div class = 'date_saperator_text'>" + exp_region + " (" + deal_count + "건, 신규" + gap_count + "건)" + "</div>"
                     addon_html += "<div class = 'date_saperator_icon'><i class='fa-solid fa-down-left-and-up-right-to-center'></i></div>"
                 }
                 else{
                   addon_html = "<div class='date_saperator_web'>"
-                    addon_html += "<div class = 'date_saperator_text'>" + exp_region + " (" + deal_count + "건 등록)" + "</div>"
+                    addon_html += "<div class = 'date_saperator_text'>" + exp_region + " (" + deal_count + "건, 신규" + gap_count + "건)" + "</div>"
                     addon_html += "<div></div>"
                 }
                 
