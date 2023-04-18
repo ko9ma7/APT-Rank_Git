@@ -1852,7 +1852,10 @@
 
   function openNaver(code, y, x){
     nURL = "https://new.land.naver.com/complexes/" + code
-    window.open(nURL)
+    //window.open(nURL)
+
+    var openNewWindow = window.open("about:blank");
+    openNewWindow.location.href = nURL;
   }
 
   function showNotice(){
