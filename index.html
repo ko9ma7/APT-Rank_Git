@@ -398,6 +398,8 @@
   var priceCharts = []
 
   var popMsg = "클립보드에 복사되었습니다."
+  
+  var broswerInfo = navigator.userAgent; 
 
   var today = new Date()
   var today_year = today.getFullYear();
@@ -409,15 +411,6 @@
   function dateReturn(n){
     return n<10 ? "0"+n : n
   }
-
-  var broswerInfo = navigator.userAgent;
-	
-  const appHeight = () => {
-  	const doc = document.documentElement
-	doc.style.setProperty(‘ — app-height’, `${window.innerHeight}px`)
-  }
-  window.addEventListener(‘resize’, appHeight)
-  appHeight()
 
   $(document).ready(function(){
     //document.cookie = "safeCookie1=foo; SameSite=Lax";
