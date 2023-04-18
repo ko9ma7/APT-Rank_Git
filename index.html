@@ -411,13 +411,6 @@
   function dateReturn(n){
     return n<10 ? "0"+n : n
   }
-	
-const documentHeight = () => {
-	const doc = document.documentElement
-	doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
-}
-window.addEventListener(‘resize’, documentHeight)
-documentHeight()
 
   $(document).ready(function(){
     //document.cookie = "safeCookie1=foo; SameSite=Lax";
