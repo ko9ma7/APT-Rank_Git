@@ -1,7 +1,13 @@
+  :root{
+    — app-height: 100%;
+  }
+    
   body{
     -ms-overflow-style: none;
     /*min-height: 100vh;
-    min-height: -webkit-fill-available;*/    
+    min-height: -webkit-fill-available;*/ 
+    height: 100vh;
+    height: var( — app-height);
   }
   #container{
     margin-top: constant(safe-area-inset-top);
