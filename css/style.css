@@ -1,5 +1,5 @@
-  :root{
-    — app-height: 100%;
+  :root {
+   --doc-height: 100%;
   }
     
   body{
@@ -7,7 +7,7 @@
     /*min-height: 100vh;
     min-height: -webkit-fill-available;*/ 
     height: 100vh;
-    height: var( — app-height);
+    height: var(--doc-height);
   }
   #container{
     margin-top: constant(safe-area-inset-top);
