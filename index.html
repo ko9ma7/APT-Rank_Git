@@ -2562,12 +2562,12 @@ function updateTable(month, region){
       else{
         footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src = './kakao_icon.png' height='32px'></div>"
       }
-      footerHtml += "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+      footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
     }
     else{
       footerHtml += "<div><button type='button' class='goApt' data-dismiss='modal' onClick='show_apt(selectedMonth, linked, regionValue)'>" + shortName + " 아파트 보기</button></div>"
       if(checkMobile() == "ios"){
-        footerHtml += "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+        footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
       }
       else{
         footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src = './kakao_icon.png' height='32px'></div>"

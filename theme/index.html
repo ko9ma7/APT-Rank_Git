@@ -434,7 +434,7 @@
 
     if(broswerInfo.indexOf("inApp")>-1){
       if(checkMobile() == "ios"){
-        shareHtml = "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+        shareHtml = "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
       }
       else{
         shareHtml = "<div class='tShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"28px\"/></div>"
@@ -1822,7 +1822,7 @@
       else{
         footerHtml += "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"30px\"/></div>"        
       }      
-      footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+      footerHtml += "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
     }
     else{
       if(apt_type == "EBYG"){
@@ -1833,7 +1833,7 @@
       }
 
       if(checkMobile() == "ios"){
-        footerHtml += "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
+        footerHtml += "<div class='toShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
       }
       else{
         footerHtml += "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"30px\"/></div>"
