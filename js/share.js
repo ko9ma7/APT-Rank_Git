@@ -163,8 +163,27 @@ function openOprank(){
         window.open(aURL)
       }
   }
+  */ 
+}
+function openAptrankBIZ2(){
+  aURL = "https://www.aptrank.kr/biz"
+  if(checkMobile() == "ios"){
+    window.location.href = aURL
+  }
+  else{
+    window.open(aURL)
+  }
+  /*
+  if ( navigator.platform ) {
+      if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
+        location.href = aURL
+      } else {
+        window.open(aURL)
+      }
+  }
   */
 }
+
 function openAptrankBIZ(){
   aURL = "https://www.aptrank.kr/biz" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion
   if(checkMobile() == "ios"){
