@@ -86,7 +86,7 @@
 <style>
 </style>
 
-<body>
+<body ontouchstart="">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNL2VQN"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -737,7 +737,12 @@
             $('.partBox').click(function(){
               var ad_click_date = new Date();
               gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "오피스텔랭크," + today_str + "," + part_title + ",클릭,파트너쉽"});
-              window.open(page_url)
+              if(checkMobile() == "ios"){
+                window.location.href = page_url
+              }
+              else{
+                window.open(page_url)
+              } 
             })
           }
           if(part_type == 'Pop'){
@@ -1852,7 +1857,12 @@
 
   function openNaver(code, y, x){
     nURL = "https://new.land.naver.com/complexes/" + code
-    window.open(nURL)
+    if(checkMobile() == "ios"){
+      window.location.href = nURL
+    }
+    else{
+      window.open(nURL)
+    }
   }
 
   function showNotice(){

@@ -87,7 +87,7 @@
 <style>
 </style>
 
-<body>
+<body ontouchstart="">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNL2VQN"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -808,7 +808,12 @@
         $('.partBox').click(function(){
           var ad_click_date = new Date();
           gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "랭크Theme," + today_str + "," + part_title + ",클릭,파트너쉽"});
-          window.open(page_url)
+          if(checkMobile() == "ios"){
+            window.location.href = page_url
+          }
+          else{
+            window.open(page_url)
+          }
         })
       }
       if(part_type == 'Pop'){
@@ -1138,7 +1143,12 @@
         $('.partBox').click(function(){
           var ad_click_date = new Date();
           gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "랭크Theme," + today_str + "," + part_title + ",클릭,파트너쉽"});
-          window.open(page_url)
+          if(checkMobile() == "ios"){
+            window.location.href = page_url
+          }
+          else{
+            window.open(page_url)
+          }
         })
       }
       if(part_type == 'Pop'){
@@ -1256,7 +1266,12 @@
         $('.partBox').click(function(){
           var ad_click_date = new Date();
           gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "랭크Theme," + today_str + "," + part_title + ",클릭,파트너쉽"});
-          window.open(page_url)
+          if(checkMobile() == "ios"){
+            window.location.href = page_url
+          }
+          else{
+            window.open(page_url)
+          }
         })
       }
       if(part_type == 'Pop'){
@@ -1476,8 +1491,13 @@
   var pcDevice = "win16|win32|win64|mac|macintel"  
 
   function openNaver(code, y, x){
-    nURL = "https://new.land.naver.com/complexes/" + code
-    window.open(nURL)
+    nURL = "https://new.land.naver.com/complexes/" + code    
+    if(checkMobile() == "ios"){
+      window.location.href = nURL
+    }
+    else{
+      window.open(nURL)
+    }    
   }
   function showNotice(){
     var titleHtml = "<div class='popupTitle'> 아파트랭크 Theme </div>";
@@ -1947,7 +1967,12 @@
     */
 
   function goMap(url){
-      window.open(url, '_blank')
+    if(checkMobile() == "ios"){
+      window.location.href = url
+    }
+    else{
+      window.open(url)
+    }      
   }
 </script>
 </html>

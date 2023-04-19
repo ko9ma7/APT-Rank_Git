@@ -1,5 +1,10 @@
 function goMap(url){
-  window.open(url, '_blank')
+  if(checkMobile() == "ios"){
+    window.location.href = url
+  }
+  else{
+    window.open(url)
+  }
 }
 
 function showSearchBar(){  
@@ -70,7 +75,12 @@ function showSearchBar(){
         $('#dataList').append(part_info);
         $('.partBox').click(function(){
           gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "아파트랭크," + today_str + "," + part_title + ",클릭,파트너쉽"});
-          window.open(page_url)
+          if(checkMobile() == "ios"){
+            window.location.href = page_url
+          }
+          else{
+            window.open(page_url)
+          }
         })
       }
       if(part_type == 'Pop'){

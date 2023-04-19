@@ -104,7 +104,7 @@
 <style>
 </style>
 
-<body>
+<body ontouchstart="">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNL2VQN"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -229,7 +229,7 @@
         <div id = 'tab3' onClick='openExternalLink("https://www.aptrank.kr/theme")'>THEME</i></div>
         <div id = 'tab4' onClick='openExternalLink("https://www.aptrank.kr/op")'>오피스텔R</div>        
         <div id = 'tab5' onClick='openExternalLink("https://www.aptrank.kr/newsinfo")'>NEWS</div>
-        <div id = 'tab6' onClick='window.open("https://www.aptrank.kr/biz")'>BIZ</div>
+        <div id = 'tab6' onClick='openAptrankBIZ()'>BIZ</div>
       </div>
 
       <!--단지 검색창 닫기 플로팅 버튼-->
@@ -1575,12 +1575,22 @@ function updateTable(region){
 
   function openNaver(code){
     nURL = "https://new.land.naver.com/complexes/" + code
-    window.open(nURL)
+    if(checkMobile() == "ios"){
+      window.location.href = nURL
+    }
+    else{
+      window.open(nURL)
+    }
   }
 
   function openHGNN(code){
     hURL = "https://hogangnono.com/apt/" + code
-    window.open(hURL)
+    if(checkMobile() == "ios"){
+      window.location.href = hURL
+    }
+    else{
+      window.open(hURL)
+    }
   }
 
   function showNotice(){
@@ -1635,7 +1645,12 @@ function updateTable(region){
   }
 
   function goMap(url){
-      window.open(url, '_blank')
+      if(checkMobile() == "ios"){
+        window.location.href = url
+      }
+      else{
+        window.open(url)
+      }    
   }
 
   function gotoLink(index){

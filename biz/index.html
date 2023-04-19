@@ -85,7 +85,7 @@
 <style>
 </style>
 
-<body>
+<body ontouchstart="">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNL2VQN"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -344,7 +344,12 @@
   });
 
   function openURL(url){    
-    window.open(url)
+    if(checkMobile() == "ios"){
+      window.location.href = url
+    }
+    else{
+      window.open(url)
+    }
   }
 
   function loadStandardInterest_KO(){
@@ -875,7 +880,12 @@ function ListUp(listData){
             $('.partBox').html('<img src=../ad/image/' + part_image + '>')
             $('.partBox').click(function(){
               gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "아파트랭크BIZ," + today_str + "," + shop_name + ",클릭,파트너쉽"});
-              window.open(page_url)
+              if(checkMobile() == "ios"){
+                window.location.href = page_url
+              }
+              else{
+                window.open(page_url)
+              }
             })
           }
           else{
@@ -1555,7 +1565,7 @@ function ListUp(listData){
                   aptURL = rankDetail[p]['sURL']                          
                   arankID = "#arank" + p
 
-                  rankHTML = "<div class='aptRankList' onClick='window.open(\"" + aptURL + "\")'>"
+                  rankHTML = "<div class='aptRankList' onClick='openURL(\"" + aptURL + "\")'>"
                     rankHTML += "<div id='aptName'>" + aptName + "</div>"
                     rankHTML += "<div>" + aptLivingScore.toFixed(1) + "</div>"
                     if(aptTransScore != "NA"){
@@ -1741,7 +1751,12 @@ function showNotice(info){
         if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {
           location.href = aURL
         } else {
-          window.open(aURL)
+          if(checkMobile() == "ios"){
+            window.location.href = aURL
+          }
+          else{
+            window.open(aURL)
+          }
         }
     }    
   }

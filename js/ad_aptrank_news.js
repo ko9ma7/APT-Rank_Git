@@ -19,7 +19,7 @@ function checkMobile(){
 }
 
 var part_default = 
-"<div class='partBox' onClick=\"window.open('https://forms.gle/7d9Am6RzXfBAsa6e7')\">"
+"<div class='partBox' onClick=\"goMap('https://forms.gle/7d9Am6RzXfBAsa6e7')\">"
     + "<div id='partDefaultText'>"
         + "<div id='partSub1' style='text-align:center;'>월 40,000명의 사용 | 100,000만의 조회</div>"
         + "<div id='partTitle' style='text-align:center;'>아파트랭크의 파트너가 되어 주세요! (광고, 제휴)</div>"
@@ -62,7 +62,12 @@ function sendMessage(device, num){
 }
 
 function goMap(url){
-    window.open(url, '_blank')
+    if(checkMobile() == "ios"){
+        window.location.href = url
+    }
+    else{
+        window.open(url)
+    }
 }
 
 function showPART(){
@@ -116,7 +121,7 @@ function showPART(){
         } else {}
     }
     if(shop_home != ""){
-        footerHtml += " <div id='partBtn3'><button type='button' class='goApt' onClick='window.open(\"" + shop_home + "\")' style='font-size: 0.85em'><i class='fa-solid fa-house'></i> 홈페이지</button></div>"
+        footerHtml += " <div id='partBtn3'><button type='button' class='goApt' onClick='goMap(\"" + shop_home + "\")' style='font-size: 0.85em'><i class='fa-solid fa-house'></i> 홈페이지</button></div>"
     }
     else{
         footerHtml += " <div id='partBtn3'><button type='button' class='goApt' style='font-size: 0.85em' disabled><i class='fa-solid fa-house'></i> 홈페이지 준비 중</button></div>"

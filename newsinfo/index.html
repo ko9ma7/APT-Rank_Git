@@ -82,7 +82,7 @@
 <style>
 </style>
 
-<body>
+<body ontouchstart="">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNL2VQN"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -117,7 +117,7 @@
         <div id = 'tab3' onClick='openExternalLink("https://www.aptrank.kr/theme")'>THEME</i></div>
         <div id = 'tab4' onClick='openExternalLink("https://www.aptrank.kr/op")'>오피스텔R</div>        
         <div id = 'tab5' style='background-color: #e31939; color:white;'>NEWS</div>
-        <div id = 'tab6' onClick='window.open("https://www.aptrank.kr/biz")'>BIZ</div>
+        <div id = 'tab6' onClick='openAptrankBIZ()'>BIZ</div>
       </div>
     </div>
   </div>
@@ -330,7 +330,12 @@
         $('.partBox').click(function(){
           var ad_click_date = new Date();
           gtag('event','파트너쉽선택', { 'event_category' : 'Click_Partnership', 'event_label' : "랭크News," + today_str + "," + part_title + ",클릭,파트너쉽"});
-          window.open(page_url)
+          if(checkMobile() == "ios"){
+            window.location.href = page_url
+          }
+          else{
+            window.open(page_url)
+          } 
         })
       }
       if(part_type == 'Pop'){
@@ -381,8 +386,8 @@
           newsDescription = newsDescription.replaceAll("</b>", "")
 
           newsLink = newsLink.replaceAll("http:", "https:")
-          
-          addon_html = "<div class='themeListBox' onClick='window.open(\"" + newsLink + "\")'>";
+         
+          addon_html = "<div class='themeListBox' onClick='openExternalLink(\"" + newsLink + "\")'>";
           addon_html += "<div class='content'>";
           addon_html += "<div class='news_title'>" + "<span id='themeLogo'>" + (i+1) + "</span>" + newsTitle + "</div>";          
           addon_html += "<div class='news_description'>"+ newsDescription + "</div>";
@@ -429,7 +434,12 @@
 
   function openNaver(code, y, x){
     nURL = "https://new.land.naver.com/complexes/" + code
-    window.open(nURL)
+    if(checkMobile() == "ios"){
+      window.location.href = nURL
+    }
+    else{
+      window.open(nURL)
+    }    
   }
 
   function openAptrank(url){
