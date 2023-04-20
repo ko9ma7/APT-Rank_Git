@@ -112,8 +112,17 @@ function CopyToClipboard2(copied_text, msg_pop){
   })
 }
 
+function openOuterLink(url){  
+  if(checkMobile() == "ios"){
+    window.location.href = url
+  }
+  else{
+    window.open(url)
+  }  
+}
+
 function openExternalLink(url){  
-  location.href = url
+  window.location.href = url  
   /*
   if ( navigator.platform ) {
       if ( pcDevice.indexOf(navigator.platform.toLowerCase()) < 0 ) {

@@ -489,6 +489,7 @@
   }
   #tab1:active, #tab2:active, #tab3:active, #tab4:active, #tab5:active, #tab6:active{
     color: #fe4040;
+    background-color: #ccc;
   }  
 
   #arrow{
