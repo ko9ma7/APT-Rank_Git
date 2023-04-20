@@ -1815,7 +1815,7 @@
       }
 
       if(checkMobile() == "ios"){
-        footerHtml += "<div class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
+        footerHtml += "<div class='toShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
       }
       else{
         footerHtml += "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"30px\"/></div>"        
@@ -1836,7 +1836,7 @@
       else{
         footerHtml += "<div class='bShare' onClick='kakaoShare(shareTitle, shareText, shareURL)'><img src=\"kakao_icon.png\" height=\"30px\"/></div>"
       }      
-      footerHtml += "<div class='toShare' onClick='share(shareTitle, shareText, shareURL)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
+      footerHtml += "<div class='toShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
     }
 
     //shareURL = "https://www.aptrank.kr/theme" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&theme=" + selectedTheme + "&complex=" + index

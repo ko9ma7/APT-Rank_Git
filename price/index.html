@@ -1188,25 +1188,25 @@ function updateTable(region){
       footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(" + naver_code + ")'>네이버 부동산 보기</button></div>"
 
       if(checkMobile() == "ios"){
-        footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle_detail, shareText_detail, shareURL_detail)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
+        footerHtml += "<div class='toShare' onClick='share(shareTitle_detail, shareText_detail, shareURL_detail)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
       }
       else{
         footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle_detail, shareText_detail, kakaoShareURL_detail)'><img src = './kakao_icon.png' height='32px'></div>"            
       }
       
-      footerHtml += "<div><button type='button' class='toShare' onClick='CopyToClipboard(shareText_detail, popMsg_detail)' style='background:#ffffff; font-size:1.2em'><i class='fa-regular fa-copy'></i></button></div>"
+      footerHtml += "<div class='toShare' onClick='CopyToClipboard(shareText_detail, popMsg_detail)'><i class='fa-regular fa-copy'></i></div>"
     }
     else{
       footerHtml += "<div><button type='button' class='goLink' onclick='openNaver(\"" + naver_code + "\")'>네이버 부동산 보기</button></div>"
 
       if(checkMobile() == "ios"){
-        footerHtml += "<div><button type='button' class='toShare' onClick='CopyToClipboard(shareText_detail, popMsg_detail)' style='background:#ffffff; font-size:1.2em'><i class='fa-regular fa-copy'></i></button></div>"
+        footerHtml += "<div class='toShare' onClick='CopyToClipboard(shareText_detail, popMsg_detail)'><i class='fa-regular fa-copy'></i></div>"
       }
       else{
         footerHtml += "<div class='kakaoShare' onClick='kakaoShare(shareTitle, shareText, kakaoShareURL_detail)'><img src = './kakao_icon.png' height='32px'></div>"      
       }
       
-      footerHtml += "<div><button type='button' class='toShare' onClick='share(shareTitle_detail, shareText_detail, shareURL_detail)' style='background:#ffffff; font-size:1.2em'><i class='fa-solid fa-arrow-up-right-from-square'></i></button></div>"
+      footerHtml += "<div class='toShare' onClick='share(shareTitle_detail, shareText_detail, shareURL_detail)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
       //footerHtml += "<div><button type='button' class='toShare' onClick='CopyToClipboard(shareText_detail, popMsg_detail)' style='background:#ffffff; font-size:1.2em'><i class='fa-regular fa-copy'></i></button></div>"
     }
     footerHtml += "</div>"
