@@ -1019,7 +1019,7 @@
   }
   .toShare{
     width: 100%;    
-    height: 2.5em;    
+    font-size: 1.2em;
     font-weight: 600;
     border: None;
     color: black
