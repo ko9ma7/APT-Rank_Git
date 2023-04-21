@@ -4,6 +4,10 @@
             {
                 "name":"index",
                 "type":"string"
+            },
+            {
+                "name":"type",
+                "type":"string"
             }
         ],
         "primaryKey":[

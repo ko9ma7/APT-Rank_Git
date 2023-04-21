@@ -15,11 +15,11 @@
             },
             {
                 "name":"건축년도",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"년",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"도로명",
@@ -27,27 +27,27 @@
             },
             {
                 "name":"도로명건물본번호코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"도로명건물부번호코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"도로명시군구코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"도로명일련번호코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"도로명지상지하코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"도로명코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"법정동",
@@ -55,23 +55,23 @@
             },
             {
                 "name":"법정동본번코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"법정동부번코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"법정동시군구코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"법정동읍면동코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"법정동지번코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"아파트",
@@ -79,11 +79,11 @@
             },
             {
                 "name":"월",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"일",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"일련번호",
@@ -91,11 +91,11 @@
             },
             {
                 "name":"전용면적",
-                "type":"string"
+                "type":"number"
             },
             {
                 "name":"중개사소재지",
-                "type":"string"
+                "type":"number"
             },
             {
                 "name":"지번",
@@ -103,19 +103,19 @@
             },
             {
                 "name":"지역코드",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"층",
-                "type":"string"
+                "type":"integer"
             },
             {
                 "name":"해제사유발생일",
-                "type":"string"
+                "type":"number"
             },
             {
                 "name":"해제여부",
-                "type":"string"
+                "type":"number"
             },
             {
                 "name":"history_date",
@@ -147,14 +147,18 @@
             },
             {
                 "name":"code",
-                "type":"string"
+                "type":"number"
             },
             {
                 "name":"y",
-                "type":"string"
+                "type":"number"
             },
             {
                 "name":"x",
+                "type":"number"
+            },
+            {
+                "name":"type",
                 "type":"string"
             }
         ],
@@ -168,30 +172,30 @@
             "index":0,
             "거래금액":"4,300",
             "거래유형":"직거래",
-            "건축년도":"1990",
-            "년":"2023",
+            "건축년도":1990,
+            "년":2023,
             "도로명":"한들로",
-            "도로명건물본번호코드":"00044",
-            "도로명건물부번호코드":"00000",
-            "도로명시군구코드":"45740",
-            "도로명일련번호코드":"00",
-            "도로명지상지하코드":"0",
-            "도로명코드":"3276042",
+            "도로명건물본번호코드":44,
+            "도로명건물부번호코드":0,
+            "도로명시군구코드":45740,
+            "도로명일련번호코드":0,
+            "도로명지상지하코드":0,
+            "도로명코드":3276042,
             "법정동":"장계면 장계리",
-            "법정동본번코드":"0189",
-            "법정동부번코드":"0003",
-            "법정동시군구코드":"45740",
-            "법정동읍면동코드":"33521",
-            "법정동지번코드":"1",
+            "법정동본번코드":189,
+            "법정동부번코드":3,
+            "법정동시군구코드":45740,
+            "법정동읍면동코드":33521,
+            "법정동지번코드":1,
             "아파트":"명진로얄맨션",
-            "월":"4",
-            "일":"6",
+            "월":4,
+            "일":6,
             "일련번호":"45740-3",
-            "전용면적":"69.85",
+            "전용면적":69.85,
             "중개사소재지":null,
             "지번":"189-3",
-            "지역코드":"45740",
-            "층":"5",
+            "지역코드":45740,
+            "층":5,
             "해제사유발생일":null,
             "해제여부":null,
             "history_date":[
@@ -337,9 +341,10 @@
                 "2019-11-12",
                 "3500"
             ],
-            "code":"",
-            "y":"",
-            "x":""
+            "code":null,
+            "y":null,
+            "x":null,
+            "type":"TRADE"
         }
     ]
 }
