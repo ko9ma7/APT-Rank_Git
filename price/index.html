@@ -668,6 +668,14 @@
         }
       }
     })
+
+    if(regData == undefined || regData == ""){
+      url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/sales_volume.json?v=" + Math.random()
+      $.getJSON(url, function(json) {        
+          regData = json;
+          regSortData = regData;        
+      })
+    }
     $.ajaxSetup({ async: true });
 
     localSearchText = shortRegionName($("#sido option:selected").text() + " " + $("#gungu option:selected").text())
@@ -727,16 +735,6 @@ function updateTable(region){
     //shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
     shareURL = get_sURL(region)
     shareText = "[" + regionName + ", " + start_date_str + "~" + end_date_str + " 실거래]\n"
-
-    if(regData == undefined || regData == ""){
-      $.ajaxSetup({ async: false });
-      url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/sales_volume.json?v=" + Math.random()
-      $.getJSON(url, function(json) {        
-          regData = json;
-          regSortData = regData;        
-      })
-    }
-    $.ajaxSetup({ async: true });
 
     url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/" + region + ".json?v=" + Math.random()
     $.getJSON(url, function(json) {
