@@ -477,12 +477,6 @@
       }
     });
 
-    url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/sales_volume.json?v=" + Math.random()
-    $.getJSON(url, function(json) {        
-        regData = json;
-        regSortData = regData;        
-    })
-
     if(checkMobile() == "ios"){
       share1Html = "<div class='tShare' onClick='CopyToClipboard(shareText, popMsg)'><i class='fa-regular fa-copy'></i></div>"
     }
@@ -732,7 +726,17 @@ function updateTable(region){
     shareTitle = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 실거래]"
     //shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
     shareURL = get_sURL(region)
-    shareText = "[" + regionName + ", " + start_date_str + "~" + end_date_str + " 실거래]\n"    
+    shareText = "[" + regionName + ", " + start_date_str + "~" + end_date_str + " 실거래]\n"
+
+    if(regData == undefined || regData == ""){
+      $.ajaxSetup({ async: false });
+      url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/sales_volume.json?v=" + Math.random()
+      $.getJSON(url, function(json) {        
+          regData = json;
+          regSortData = regData;        
+      })
+    }
+    $.ajaxSetup({ async: true });
 
     url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/" + region + ".json?v=" + Math.random()
     $.getJSON(url, function(json) {
