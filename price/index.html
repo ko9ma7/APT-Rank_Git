@@ -723,11 +723,10 @@ function updateTable(region){
     //prev_url = "https://www.aptrank.kr/price/recent/" + load_this_month + "/" + region + ".json?v=" + Math.random()
     //this_url = "https://www.aptrank.kr/price/recent/" + load_prev_month + "/" + region + ".json?v=" + Math.random()
 
-
     regionName = $("#sido option:selected").text() + " " + $("#gungu option:selected").text()
     shareTitle = "[" + regionName + " " + start_date_str + "~" + end_date_str + " 실거래]"
-    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
-
+    //shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
+    shareURL = get_sURL(region)
     shareText = "[" + regionName + ", " + start_date_str + "~" + end_date_str + " 실거래]\n"    
 
     url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/" + region + ".json?v=" + Math.random()
@@ -1171,7 +1170,8 @@ function updateTable(region){
 
     shareTitle_detail = "『" + aptName + "』 " + Number(selectedMonth.substr(4, 2)) +"월 실거래\n"
     shareText_detail = "『" + aptName + "』 " + Number(selectedMonth.substr(4, 2)) +"월 실거래\n"
-    shareURL_detail = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
+    shareURL_detail = get_sURL($("#gungu option:selected").val())
+    //shareURL_detail = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
 
     shareText_detail += "ㆍ주소 : " + lawed_address + "\n"
     shareText_detail += "ㆍ실거래가 : " + Korean_price(deal_price_num) + "\n"
@@ -1180,7 +1180,7 @@ function updateTable(region){
     shareText_detail += "ㆍ직전대비 : " + compare_last_ratio + "\n"
     shareText_detail += "ㆍ직전거래 : " + Korean_price(last_dealed_price) + " (" + last_dealed_date + ")\n"
     shareText_detail += shareURL_detail + "\n\n"
-    kakaoShareURL_detail = shareURL_detail
+    kakaoShareURL_detail = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
 
     popMsg_detail = "'" + aptName + "'" + " 실거래 정보가 복사되었습니다."
     
@@ -1281,7 +1281,7 @@ function updateTable(region){
       shareTitle = "[" + regionName + " " + selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)) + "월 거래량]"
       shareText = "[" + regionName + " " + selectedMonth.substr(0, 4) + "년 " + Number(selectedMonth.substr(4, 2)) + "월 거래량]\n\n"
     }
-    shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth    
+    //shareURL = "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + $("#gungu option:selected").val() + "&pmon=" + selectedMonth
 
     url = "https://www.aptrank.kr/price/recent/" + selectedMonth + "/sales_volume.json?v=" + Math.random()
     $('#dataList').html("");
@@ -1328,6 +1328,8 @@ function updateTable(region){
         regSortData = regData;
         itemNum = json.data.length;
 
+        shareURL = get_sURL($("#gungu option:selected").val())
+
         for(var i = 0 ; i < itemNum ; i++){
           var regName = regData.data[i]["시군구"]
           var regCode = regData.data[i]["코드"]
@@ -1336,6 +1338,7 @@ function updateTable(region){
           var reg_vol_1month_ago = regData.data[i]["1개월전"]
           var reg_vol_2month_ago = regData.data[i]["2개월전"]
           var reg_vol_3month_ago = regData.data[i]["3개월전"]
+          var reg_sURL = regData.data[i]["sURL"]
 
           if(Number(selectedMonth) == this_month){
             var reg_vol_month_end_predition = regData.data[i]["월말예측"]
@@ -1429,7 +1432,8 @@ function updateTable(region){
                 shareText += "ㆍ전년동월 대비 : " + reg_ratio_yoy_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"
                 shareText += "ㆍ3년평균 대비 : " + reg_ratio_3y_avg_share + " (" + Number(reg_vol_3y_avg.toFixed(0)).toLocaleString() +"건)\n"                 
               }
-              shareText += "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + regCode + "&pmon=" + selectedMonth + "\n\n"
+              //shareText += "https://www.aptrank.kr/price" + "?preg=" + $("#sido option:selected").val() + "&psub=" + regCode + "&pmon=" + selectedMonth + "\n\n"
+              shareText +=  reg_sURL + "\n\n"              
 
               popMsg = "'" + "전체시도" + "'" + " 거래량 정보가 복사되었습니다."
 
@@ -1520,7 +1524,8 @@ function updateTable(region){
                 shareText += "ㆍ3년평균 대비 : " + reg_ratio_3y_avg_share + " (" + Number(reg_vol_yoy.toFixed(0)).toLocaleString() +"건)\n"                
               }
               
-              shareText += "https://www.aptrank.kr/price" + "?preg=" + regSido + "&psub=" + regCode + "&pmon=" + selectedMonth + "\n\n"
+              //shareText += "https://www.aptrank.kr/price" + "?preg=" + regSido + "&psub=" + regCode + "&pmon=" + selectedMonth + "\n\n"
+              shareText +=  reg_sURL + "\n\n"
 
               popMsg = "'" + regionName + "'" + " 거래량 정보가 복사되었습니다."
 
@@ -1672,6 +1677,14 @@ function updateTable(region){
         window.open(url)
       }    
   }
+
+  function get_sURL(region){
+  for (k = 0 ; k < (regData.data).length; k++){
+      if(regData.data[k]['코드'] == region){
+        return regData.data[k]['sURL']
+      }
+    }
+}
 
   function gotoLink(index){
     code = regData.data[index]['코드']
