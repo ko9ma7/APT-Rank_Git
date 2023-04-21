@@ -111,6 +111,16 @@
     margin-left: 5px;
     line-height: 1em;      
   }
+  .BYG_mark{
+    font-weight: 600;
+    font-size: 0.7em;
+    display:inline-flex;      
+    border-radius: 5px;
+    border: 1px solid rgb(59, 59, 59);
+    padding: 2px 3px 2px 3px;
+    margin-left: 3px;
+    line-height: 1.2em;      
+  }  
   #searchCard, #regionSearchCard, #unifiedSearchCard{    
     position: fixed;
     display: grid;
