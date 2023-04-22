@@ -1,6 +1,6 @@
 {
-    "lastBuildDate": "Sun, 23 Apr 2023 07:16:50 +0900",
-    "total": 716168,
+    "lastBuildDate": "Sun, 23 Apr 2023 08:17:15 +0900",
+    "total": 716171,
     "start": 1,
     "display": 30,
     "items": [
@@ -10,6 +10,13 @@
             "link": "https://n.news.naver.com/mnews/article/003/0011817141?sid=101",
             "description": "지난해 하반기부터 금리 인상과 원자재 가격 상승 등으로 <b>부동산</b>경기 하락이 본격화하고 있고, 미분양 물량이 빠른 속도로 증가하는 등 <b>부동산시장</b> 경착륙에 대한 우려가 커지고 있다. 한국건설산업연구원은 국내 주택... ",
             "pubDate": "Fri, 21 Apr 2023 14:10:00 +0900"
+        },
+        {
+            "title": "상업<b>부동산 시장</b> 침체, 미 경제 발목 잡나…은행 담보 가치 급락",
+            "originallink": "http://www.fnnews.com/news/202304230622060536",
+            "link": "https://n.news.naver.com/mnews/article/014/0005000858?sid=101",
+            "description": "미국 상업<b>부동산 시장</b> 침체가 은행들의 대출 담보 가치를 급격히 떨어뜨리고, 나아가 미 경제 발목을 잡을지 모른다는 우려가 고조되고 있다. 파이낸셜타임스(FT)는 22일(이하 현지시간) 미 은행들이 이번 실적 발표에서... ",
+            "pubDate": "Sun, 23 Apr 2023 06:29:00 +0900"
         },
         {
             "title": "“2금융권 폭탄까지”… <b>부동산</b> PF 소방수로 떠밀린 은행권 ‘속앓이’",
@@ -40,13 +47,6 @@
             "pubDate": "Fri, 21 Apr 2023 15:43:00 +0900"
         },
         {
-            "title": "여전사 <b>부동산</b>PF 익스포저 한도 6개월 완화",
-            "originallink": "http://www.joseilbo.com/news/news_read.php?uid=484473&class=18&grp=",
-            "link": "https://n.news.naver.com/mnews/article/123/0002303181?sid=101",
-            "description": "금감원 관계자는 &quot;여전업권 및 상호금융업권의 자발적이고 적극적인 협약 참여를 통해 사업장 정상화와 <b>부동산 시장</b>의 연착륙에 큰 도움이 될 것으로 기대한다&quot;고 밝혔다.",
-            "pubDate": "Fri, 21 Apr 2023 06:05:00 +0900"
-        },
-        {
             "title": "200회 &apos;구해줘! 홈즈&apos; PD &quot;<b>부동산</b> 가격 상승했을 때 소개 부담됐죠&quot; [N인터뷰...",
             "originallink": "https://www.news1.kr/articles/5019630",
             "link": "https://n.news.naver.com/mnews/article/421/0006763681?sid=106",
@@ -61,18 +61,18 @@
             "pubDate": "Sat, 22 Apr 2023 20:30:00 +0900"
         },
         {
-            "title": "상업<b>부동산 시장</b> 침체, 미 경제 발목 잡나…은행 담보 가치 급락",
-            "originallink": "http://www.fnnews.com/news/202304230622060536",
-            "link": "https://n.news.naver.com/mnews/article/014/0005000858?sid=101",
-            "description": "미국 상업<b>부동산 시장</b> 침체가 은행들의 대출 담보 가치를 급격히 떨어뜨리고, 나아가 미 경제 발목을 잡을지 모른다는 우려가 고조되고 있다. 파이낸셜타임스(FT)는 22일(이하 현지시간) 미 은행들이 이번 실적 발표에서... ",
-            "pubDate": "Sun, 23 Apr 2023 06:29:00 +0900"
-        },
-        {
             "title": "미분양 넘치던 동탄 반전…반도체 호재에 줍줍 &apos;불티&apos;[<b>부동산</b> 삼성 훈풍]②",
             "originallink": "http://www.newsis.com/view/?id=NISX20230421_0002275791&cID=10401&pID=10400",
             "link": "https://n.news.naver.com/mnews/article/003/0011818419?sid=101",
             "description": "이 반도체 투자 소식이 <b>부동산 시장</b>에서 뜨거운 관심거리임은 통계로도 나타난다. <b>부동산</b> 플랫폼 &apos;직방&apos;이 올해 1분기 동안 작성된 호갱노노 리뷰를 분석한 결과 언급 수가 급증한 키워드 1위는 &apos;남사&apos;로 나타났다. &apos;남사... ",
             "pubDate": "Sun, 23 Apr 2023 06:00:00 +0900"
+        },
+        {
+            "title": "여전사 <b>부동산</b>PF 익스포저 한도 6개월 완화",
+            "originallink": "http://www.joseilbo.com/news/news_read.php?uid=484473&class=18&grp=",
+            "link": "https://n.news.naver.com/mnews/article/123/0002303181?sid=101",
+            "description": "금감원 관계자는 &quot;여전업권 및 상호금융업권의 자발적이고 적극적인 협약 참여를 통해 사업장 정상화와 <b>부동산 시장</b>의 연착륙에 큰 도움이 될 것으로 기대한다&quot;고 밝혔다.",
+            "pubDate": "Fri, 21 Apr 2023 06:05:00 +0900"
         },
         {
             "title": "새마을금고, 자체 <b>부동산</b>PF 대주단 자율협약 시행",
