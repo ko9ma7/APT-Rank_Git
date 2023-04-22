@@ -1651,9 +1651,14 @@ function updateTable(region){
 
     footerHtml += "<div class='modal-footer'>"    
     footerHtml += " <div id='footerCheck'><input class='form-check-input' type='checkbox' value='' id='flexCheckDefault'><label class='form-check-label' for='flexCheckDefault'><span class='notice'>일주일 동안 보지 않기</span></label></div>"
-    footerHtml += " <div id='footerBtn1'><button type='button' class='goApt' style='font-size: 0.85em' onClick='openOuterLink(\"https://play.google.com/store/apps/details?id=com.aptrank.app\")'>Android 앱 설치</button></div>"
-    //footerHtml += " <div><a href='https://open.kakao.com/o/sPYY0LZd' target='_blank'><button type='button' class='gokakao'>카카오톡 문의하기</button></a></div>"    
-    footerHtml += " <div id='footerBtn1'><button type='button' class='goApt' style='font-size: 0.85em' onClick='openOuterLink(\"https://apps.apple.com/kr/app/%EC%95%84%ED%8C%8C%ED%8A%B8%EB%9E%AD%ED%81%AC/id6448044104\")'>iOS 앱 설치</button></div>"
+    if(checkMobile() == 'ios'){
+      footerHtml += " <div id='footerBtn1'><button type='button' class='goApt' style='font-size: 0.85em' onClick='openOuterLink(\"https://apps.apple.com/kr/app/%EC%95%84%ED%8C%8C%ED%8A%B8%EB%9E%AD%ED%81%AC/id6448044104\")'>iOS 앱 설치</button></div>"
+    }
+    else{
+      footerHtml += " <div id='footerBtn1'><button type='button' class='goApt' style='font-size: 0.85em' onClick='openOuterLink(\"https://play.google.com/store/apps/details?id=com.aptrank.app\")'>Android 앱 설치</button></div>"
+      //footerHtml += " <div><a href='https://open.kakao.com/o/sPYY0LZd' target='_blank'><button type='button' class='gokakao'>카카오톡 문의하기</button></a></div>"    
+      footerHtml += " <div id='footerBtn1'><button type='button' class='goApt' style='font-size: 0.85em' onClick='openOuterLink(\"https://apps.apple.com/kr/app/%EC%95%84%ED%8C%8C%ED%8A%B8%EB%9E%AD%ED%81%AC/id6448044104\")'>iOS 앱 설치</button></div>"
+    }  
     footerHtml += " <div id='footerBtn3'><button type='button' class='gokakao' style='font-size: 0.85em' onClick='openOuterLink(\"https://pf.kakao.com/_vESNb\")'>카카오톡 채널</button></div>"
     footerHtml += " <div id='footerBtn3'><button type='button' class='gokakao' style='font-size: 0.85em' onClick='openOuterLink(\"https://pf.kakao.com/_vESNb/chat\")'>카카오톡 1:1 문의</button></div>"
     footerHtml += "</div>"      
@@ -1664,7 +1669,12 @@ function updateTable(region){
     $('#footer').html(footerHtml);
 
     $('#footerCheck').css({"grid-column" : "span 2", "height" : "2em"})
-    //$('#footerBtn3').css({"grid-column" : "span 2"})
+    if(checkMobile() == 'ios'){
+      $('#footerBtn1').css({"grid-column" : "span 2"})
+    }
+    else{
+      $('#footerBtn1').css({"grid-column" : "1fr 1fr"})
+    } 
     $('.modal-footer').css({"padding-top" : "3px"})
 
     if($.cookie('popCookie') != '202303'){
