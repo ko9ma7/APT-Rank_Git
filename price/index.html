@@ -1314,14 +1314,15 @@ function updateTable(region){
       sido_name = count_data['data'][k]['sido']
       sido_code = count_data['data'][k]['file_name']
       daily_info = count_data['data'][k]['daily_count']
+      daily_BYG_info = count_data['data'][k]['daily_count_BYG']
       
-      d_count = Number(daily_info[daily_info.length-1][1])      
+      d_count = Number(daily_info[daily_info.length-1][1]) + Number(daily_BYG_info[daily_BYG_info.length-1][1]) 
       
       if(daily_info.length == 1){
-        d_prev_count = Number(daily_info[daily_info.length-1][1])        
+        d_prev_count = Number(daily_info[daily_info.length-1][1]) + Number(daily_BYG_info[daily_BYG_info.length-1][1])
       }
       else{
-        d_prev_count = Number(daily_info[daily_info.length-2][1])
+        d_prev_count = Number(daily_info[daily_info.length-2][1]) + Number(daily_BYG_info[daily_BYG_info.length-2][1])
       }      
 
       if(sido_count['count_' + sido_name] == undefined){
