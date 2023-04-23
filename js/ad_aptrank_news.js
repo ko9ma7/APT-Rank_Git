@@ -54,11 +54,11 @@ var part_pop =
     + "</div>"
 
 function callNumber(num){
-    location.href = "tel:" + num
+    window.location.href = "tel:" + num
 }
 
 function sendMessage(device, num){    
-    location.href = 'sms:' + num + (device == 'ios' ? '&' : '?') + 'body='+ encodeURIComponent("아파트랭크를 통해 연락 드립니다.");
+    window.location.href = 'sms:' + num + (device == 'ios' ? '&' : '?') + 'body='+ encodeURIComponent("아파트랭크를 통해 연락 드립니다.");
 }
 
 function goMap(url){
