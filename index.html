@@ -1038,7 +1038,17 @@ function updateTable(month, region){
     }
     */
 
-    aptData = sortData    
+    aptData = sortData
+
+    if(Number(selectedMonth) > 202211){
+      shareURL = aptData.data[index]["sURL"]
+      kakaoShareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
+    }
+    else{      
+      shareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
+      kakaoShareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
+    }
+    changeMetaTag(aptName, aptData.data[index]["법정동주소"], rank, $('#gungu option:selected').text(), kakaoShareURL, aptValue)
 
     var aptName = aptData.data[index]["아파트명"]
     var rank = aptData.data[index]["rank"].toFixed()
@@ -1150,7 +1160,7 @@ function updateTable(month, region){
       var last_rent_date = last_rent[0].toString()
       var last_rent_price = last_rent[1].toString()
       var last_rent_area = last_rent[2]
-    }
+    }    
 
     var floor_rate = ""
     if(aptData.data[index]["용적률"] == "0"){
@@ -1808,17 +1818,9 @@ function updateTable(month, region){
     //}
     shareText += "\nㆍ5km 이내 대형병원 : " + bigHospital_5km
     shareText += "\nㆍ중학교 보통 학력 이상 : " + mSchool_edu    
-    shareText += "\n"
-    if(Number(selectedMonth) > 202211){
-      shareURL = aptData.data[index]["sURL"]
-      kakaoShareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
-    }
-    else{      
-      shareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
-      kakaoShareURL = "https://www.aptrank.kr" + "?reg=" + selectedRegion +"&sub=" + selectedSubRegion + "&mon=" + selectedMonth + "&complex=" + index + "&sort=" + sortSelection
-    }
+    shareText += "\n"    
 
-    shareText += "\n" + shareURL
+    shareText += "\n" + shareURL    
 
     if(broswerInfo.indexOf("inApp")>-1){
       if(apt_type == "분양(예정)"){        
@@ -1854,9 +1856,7 @@ function updateTable(month, region){
       
       footerHtml += "<div class='tShare' onClick='share(shareTitle, shareText, shareURL)'><i class='fa-solid fa-arrow-up-right-from-square'></i></div>"
     }
-    footerHtml += "</div>"
-    
-    changeMetaTag(aptName, aptData.data[index]["법정동주소"], rank, $('#gungu option:selected').text(), kakaoShareURL, aptValue)
+    footerHtml += "</div>"    
 
     $('#baseModalLabel').html(titleHtml);
     $('#aptDetail').html(detailHtml);
