@@ -13,8 +13,8 @@ def generateNews(type, searchText):
     encText = urllib.parse.quote(searchText)
 
     if(type == "News"):
-        #url = "https://openapi.naver.com/v1/search/news.json?query=" + encText + "&start=1&display=30&sort=date" # JSON 결과
-        url = "https://openapi.naver.com/v1/search/news.json?query=" + encText + "&start=1&display=30&sort=sim" # JSON 결과
+        url = "https://openapi.naver.com/v1/search/news.json?query=" + encText + "&start=1&display=30&sort=date" # JSON 결과
+        #url = "https://openapi.naver.com/v1/search/news.json?query=" + encText + "&start=1&display=30&sort=sim" # JSON 결과
     if(type == "Blog"):
         #url = "https://openapi.naver.com/v1/search/blog.json?query=" + encText + "&start=1&display=30&sort=date" # JSON 결과
         url = "https://openapi.naver.com/v1/search/blog.json?query=" + encText + "&start=1&display=30&sort=sim" # JSON 결과
