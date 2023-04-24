@@ -1316,13 +1316,13 @@ function updateTable(region){
       daily_info = count_data['data'][k]['daily_count']
       daily_BYG_info = count_data['data'][k]['daily_count_BYG']
       
-      d_count = Number(daily_info[daily_info.length-1][1]) + Number(daily_BYG_info[daily_BYG_info.length-1][1]) 
+      d_count = Number(daily_info[daily_info.length-1][1])
       
       if(daily_info.length == 1){
-        d_prev_count = Number(daily_info[daily_info.length-1][1]) + Number(daily_BYG_info[daily_BYG_info.length-1][1])
+        d_prev_count = Number(daily_info[daily_info.length-1][1])
       }
       else{
-        d_prev_count = Number(daily_info[daily_info.length-2][1]) + Number(daily_BYG_info[daily_BYG_info.length-2][1])
+        d_prev_count = Number(daily_info[daily_info.length-2][1])
       }      
 
       if(sido_count['count_' + sido_name] == undefined){
@@ -1471,14 +1471,13 @@ function updateTable(region){
                   
                   if(searching_region['file_name'] == regCode){
                     t_vol_arr = searching_region['daily_count']
-                    t_vol_BYG_arr = searching_region['daily_count_BYG']
-                    t_vol = t_vol_arr[t_vol_arr.length-1][1] + t_vol_BYG_arr[t_vol_BYG_arr.length-1][1]
+                    t_vol = t_vol_arr[t_vol_arr.length-1][1]
                     
                     if(searching_region['daily_count'].length == 1){
-                      t_prev_vol = t_vol_arr[t_vol_arr.length-1][1] + t_vol_BYG_arr[t_vol_BYG_arr.length-1][1]
+                      t_prev_vol = t_vol_arr[t_vol_arr.length-1][1]
                     }
                     else{
-                      t_prev_vol = t_vol_arr[t_vol_arr.length-2][1] + t_vol_BYG_arr[t_vol_BYG_arr.length-2][1]
+                      t_prev_vol = t_vol_arr[t_vol_arr.length-2][1]
                     }
                   }
                 }
